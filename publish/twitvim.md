@@ -7,12 +7,12 @@ I do like <a href="http://twitter.com/">Twitter</a>. For quite some time now I'v
 Given this, I started to hack on my own personal client using <a href="http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/">ncurses</a>. Sadly, my lack of deep knowledge of the not-too-intuitive ncurses API made me abort the project. Maybe some day I could retake it. Shame.
 
 Anyway, within the last week, I found and have been using <a href="http://www.vim.org/scripts/script.php?script_id=2204">TwitVim</a>. I like <a href="http://vim.org">Vim</a>: It's my editor of choice for most of my projects. And TwitVim is a really nice project supporting a lot of interesting features:
-<p style="text-align: center;"><a href="http://log.damog.net/wp-content/uploads/2009/01/twitvim.png"><img class="aligncenter size-medium wp-image-783" title="twitvim" src="http://log.damog.net/wp-content/uploads/2009/01/twitvim-300x180.png" alt="twitvim" width="300" height="180" /></a></p>
+<p style="text-align: center;"><a href="http://damog.net/old/axiombox/2009/01/twitvim.png"><img class="aligncenter size-medium wp-image-783" title="twitvim" src="http://damog.net/old/axiombox/2009/01/twitvim-300x180.png" alt="twitvim" width="300" height="180" /></a></p>
 
 There you can see how, on a non-obstrusive way, you can have it running. Since it's built on Vim, you can also do some key mappings so that you don't have to type all the commands. And it has all sorts of really cool and interesting features, like if the cursor is on a given line, \r will start a reply, or other binding will start a direct message, etc.
 
 Here's a picture of my own timeline:
-<p style="text-align: center;"><a href="http://log.damog.net/wp-content/uploads/2009/01/twitvim-user.png"><img class="aligncenter size-medium wp-image-784" title="twitvim-user" src="http://log.damog.net/wp-content/uploads/2009/01/twitvim-user-300x180.png" alt="twitvim-user" width="300" height="180" /></a></p>
+<p style="text-align: center;"><a href="http://damog.net/old/axiombox/2009/01/twitvim-user.png"><img class="aligncenter size-medium wp-image-784" title="twitvim-user" src="http://damog.net/old/axiombox/2009/01/twitvim-user-300x180.png" alt="twitvim-user" width="300" height="180" /></a></p>
 
 Once you have installed it, take a look at the extensive and detailed documentation with:
 <pre><code>:help TwitVim</code></pre>

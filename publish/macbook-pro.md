@@ -4,7 +4,7 @@ Tags: fetchmail,mac,macos,macports,mutt,mysql,ruby,rubygems,ssl
 
 As I <a href="http://twitter.com/damog/status/1116401225 ">tweeted yesterday</a>, I received my new MacBook Pro. I was a bit skeptical on choosing this computer being a Linux user/developer for quite some time now. I thought it was worth giving it a try anyway. Besides, I still use <a href="http://log.damog.net/2005/12/un-amor-mas-en-mi-vida/">my old Powerbook</a>; as my home server since I've always liked the Mac hardware.
 
-<a href="http://log.damog.net/wp-content/uploads/2009/01/0113091346.jpg"><img class="size-medium wp-image-791 alignright" title="0113091346" src="http://log.damog.net/wp-content/uploads/2009/01/0113091346-300x225.jpg" alt="0113091346" width="300" height="225" /></a>
+<a href="http://damog.net/old/axiombox/2009/01/0113091346.jpg"><img class="size-medium wp-image-791 alignright" title="0113091346" src="http://damog.net/old/axiombox/2009/01/0113091346-300x225.jpg" alt="0113091346" width="300" height="225" /></a>
 
 For the time being, I'm not running <a href="http://debian.org">Debian</a> in it, but I will install it sooner or later, for now, I've reached some stability and productivity on the current setup, I'm running <a href="http://macports.org">MacPorts</a>, which brings all the nice open source goodies to Leopard, <a href="http://vimperator.org">Vimperator</a>, <a href="http://www.vim.org/scripts/script.php?script_id=2204">TwitVim</a> and all sort of terminal scripts to make Terminal.app more delightful to work with. We'll see how it goes.
 

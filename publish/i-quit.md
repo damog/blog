@@ -8,7 +8,7 @@ Leaving a city like New York is not an easy task. You have it all there, you sta
 
 This was me, on my last day at work, last Friday of June:
 
-<a href="http://axiombox.com/wp-content/uploads/2012/07/damog-respect1.jpg"><img class="aligncenter size-full wp-image-1322" title="damog-respect" src="http://axiombox.com/wp-content/uploads/2012/07/damog-respect1.jpg" alt="" width="534" height="426" /></a>
+<a href="http://damog.net/old/axiombox/2012/07/damog-respect1.jpg"><img class="aligncenter size-full wp-image-1322" title="damog-respect" src="http://axiombox.com/wp-content/uploads/2012/07/damog-respect1.jpg" alt="" width="534" height="426" /></a>
 
 (Some) people seem to be anxious to know what I'm doing next, and my answer is, go mind your own fucking business. However, life is short and I would love to do any of the following:
 <ul>

@@ -9,4 +9,4 @@ They weren't, of course, amything new, but it was really cool. They had a great 
 I had my <a href="http://en.wikipedia.org/wiki/Tweetie">Tweeties</a> (Mac's and iPhone's) configured to short my URLs using it so I will have to migrate to something else. Thing is, I didn't like any of others as much as I liked tr.im. Life's hard now.
 
 Too bad. Good luck to the <a href="http://nambu.com"><strong>Nambu</strong></a> team and thanks for all the fish. Their blog post <a href="http://blog.tr.im/post/159369789/tr-im-r-i-p?dsq=14529199">here</a>.
-<p style="text-align: center;"><img class="aligncenter size-full wp-image-922" title="Picture 17" src="http://log.damog.net/wp-content/uploads/2009/08/Picture-17.png" alt="Picture 17" width="618" height="250" /></p>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-922" title="Picture 17" src="http://damog.net/old/axiombox/2009/08/Picture-17.png" alt="Picture 17" width="618" height="250" /></p>
