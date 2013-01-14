@@ -4,8 +4,8 @@ Tags: security,wordcamp,wordpress
 
 Here I start a series of posts with my comments, notes and remarks on the talks that I attended at last weekend's <a href="http://2009.newyork.wordcamp.org/">WordCamp</a> in NYC.
 
-<img class="alignright size-full wp-image-1034" title="Screen shot 2009-11-20 at 1.19.12 PM" src="http://stereonaut.net/wp-content/uploads/2009/11/Screen-shot-2009-11-20-at-1.19.12-PM.png" alt="Screen shot 2009-11-20 at 1.19.12 PM" width="165" height="156" />The first talk I attended was <strong>Securing WordPress</strong>, <a href="http://www.strangework.com/">by Brad Williams</a> (@<a href="http://twitter.com/williamsba">williamsba</a> on Twitter). First off, this talk wasn't too technical since it was focused to beginning developers whose background wouldn't be completely into systems administration, it was intended to a broader audience, which is exactly why I liked it so much and started taking notes. You need some mild level of expertise on <a href="http://wordpress.org">WordPress</a> for most of what Brad mentioned but you don't have to be an expert.
-<p style="text-align: center;"><img class="aligncenter size-full wp-image-1043" title="IMG_3006" src="http://stereonaut.net/wp-content/uploads/2009/11/IMG_3006.JPG" alt="IMG_3006" width="403" height="302" /></p>
+<img class="alignright size-full wp-image-1034" title="Screen shot 2009-11-20 at 1.19.12 PM" src="http://damog.net/old/stereonaut/2009/11/Screen-shot-2009-11-20-at-1.19.12-PM.png" alt="Screen shot 2009-11-20 at 1.19.12 PM" width="165" height="156" />The first talk I attended was <strong>Securing WordPress</strong>, <a href="http://www.strangework.com/">by Brad Williams</a> (@<a href="http://twitter.com/williamsba">williamsba</a> on Twitter). First off, this talk wasn't too technical since it was focused to beginning developers whose background wouldn't be completely into systems administration, it was intended to a broader audience, which is exactly why I liked it so much and started taking notes. You need some mild level of expertise on <a href="http://wordpress.org">WordPress</a> for most of what Brad mentioned but you don't have to be an expert.
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-1043" title="IMG_3006" src="http://damog.net/old/stereonaut/2009/11/IMG_3006.JPG" alt="IMG_3006" width="403" height="302" /></p>
 
 So, most of the notes I took were taken directly from the slides (that you can browse below in the Slideshare widget), but I also add some homebrewed comments myself:
 <h3>Don't use the admin account: Change it</h3>
@@ -52,11 +52,11 @@ If you are using the Apache webserver, you can configure it so that <a href="htt
 Some of the following plugins will make your life easier. I recommend taking a look at them, they are worthwhile!
 <h4><a href="http://wordpress.org/extend/plugins/wp-security-scan/">WP Security Scan</a></h4>
 Scans your WordPress installation for security vulnerabilities and suggests corrective actions.
-<p style="text-align: center;"><img class="aligncenter size-full wp-image-1032" title="screenshot-1" src="http://stereonaut.net/wp-content/uploads/2009/11/screenshot-1.jpg" alt="screenshot-1" width="602" height="286" /></p>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-1032" title="screenshot-1" src="http://damog.net/old/stereonaut/2009/11/screenshot-1.jpg" alt="screenshot-1" width="602" height="286" /></p>
 
 <h4><a href="http://ocaoimh.ie/exploit-scanner/">WordPress Exploit Scanner</a></h4>
 This plugin searches the files and database of your website for signs of suspicious activity.
-<p style="text-align: center;"><img class="aligncenter size-full wp-image-1033" title="exploit-scanner" src="http://stereonaut.net/wp-content/uploads/2009/11/exploit-scanner.gif" alt="exploit-scanner" width="360" height="258" /></p>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-1033" title="exploit-scanner" src="http://damog.net/old/stereonaut/2009/11/exploit-scanner.gif" alt="exploit-scanner" width="360" height="258" /></p>
 
 <h4><a href="http://mattwalters.net/projects/wordpress-file-monitor/">WordPress File Monitor</a></h4>
 Monitors your WordPress installation for added/deleted/changed files. When a change is detected an email alert can be sent to a specified address.

@@ -174,7 +174,7 @@ To git@heroku.com:blazing-beach-7280.git
 </code>
 
 And you can confirm it works:
-<p style="text-align: center;"><a href="http://stereonaut.net/wp-content/uploads/2012/07/Screen-Shot-2012-07-16-at-8.54.03-PM.png"><img class="aligncenter  wp-image-1313" title="Screen Shot 2012-07-16 at 8.54.03 PM" src="http://stereonaut.net/wp-content/uploads/2012/07/Screen-Shot-2012-07-16-at-8.54.03-PM.png" alt="" width="538" height="346" /></a></p>
+<p style="text-align: center;"><a href="http://damog.net/old/stereonaut/2012/07/Screen-Shot-2012-07-16-at-8.54.03-PM.png"><img class="aligncenter  wp-image-1313" title="Screen Shot 2012-07-16 at 8.54.03 PM" src="http://damog.net/old/stereonaut/2012/07/Screen-Shot-2012-07-16-at-8.54.03-PM.png" alt="" width="538" height="346" /></a></p>
 Please note that the environment it runs on is "deployment". The backend server it uses is the great Starman, also by the great Miyagawa.
 
 Now, if you add or change dependencies on Makefile.PL, next time you push, those will get updated.

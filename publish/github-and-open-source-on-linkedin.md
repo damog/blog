@@ -6,7 +6,7 @@ I am a huge fan of <a href="http://www.linkedin.com">LinkedIn</a>, I love it. Ha
 
 Last night, <a href="http://blog.linkedin.com/2011/03/08/github-linkedin/">they announced</a> that they had enabled <a href="http://www.github.com/">GitHub</a> as an application on users profiles. This is great for developers. I think that LinkedIn still needs to implement ways for users to track their not-so-formal activities and this is kind of a big step, to some extent.
 
-<a href="http://stereonaut.net/wp-content/uploads/2011/03/Screen-shot-2011-03-08-at-12.04.44-PM.png"><img class="aligncenter size-medium wp-image-1242" title="Screen shot 2011-03-08 at 12.04.44 PM" src="http://stereonaut.net/wp-content/uploads/2011/03/Screen-shot-2011-03-08-at-12.04.44-PM-300x186.png" alt="" width="300" height="186" /></a>
+<a href="http://damog.net/old/stereonaut/2011/03/Screen-shot-2011-03-08-at-12.04.44-PM.png"><img class="aligncenter size-medium wp-image-1242" title="Screen shot 2011-03-08 at 12.04.44 PM" src="http://damog.net/old/stereonaut/2011/03/Screen-shot-2011-03-08-at-12.04.44-PM-300x186.png" alt="" width="300" height="186" /></a>
 
 For instance, I'd like to list some projects that I've worked with on which I wasn't fully employed with but hired me as a contractor for a few hours. They need to implement some sort of portfolio for the side business you perform.
 
