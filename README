@@ -1,0 +1,20 @@
+Welcome to my blog engine!
+
+You can visit my blog on http://damog.net/blog/
+
+This repository contains all my blog posts ever, dating all the way back to
+2002, when I bought my first personal domain and started blogging. It's been
+a lot of years, but I have been able to maintain all of that :)
+
+The blog is currently powered by a very hacked version of Chronicle, an
+excellent static website generator written in Perl. This repository also
+contains everything I use to publish my personal blog. Maybe one day I will
+be able to extract a diff of my modifications and offer it to the upstream
+author, Steve Kemp.
+
+I also want to revamp the design and use a neat, simple and elegant theme,
+but that should be some time in the future.
+
+Cheers,
+dm.
+
