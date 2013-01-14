@@ -43,7 +43,7 @@
       </div>
       <!-- /tmpl_loop -->
       <p style="text-align: right">
-        Created by <a href="http://steve.org.uk/Software/chronicle">Chronicle v<!-- tmpl_var name='release' --></a>
+        Created by a very hacked version of <a href="http://steve.org.uk/Software/chronicle">Chronicle v<!-- tmpl_var name='release' --></a>, which you can find <a href="http://github.com/damog/blog">here</a>.
       </p>
     </div>
     <div id="rightmenu">
