@@ -5,6 +5,7 @@ posts:
 		--theme copyrighteous \
 		--theme-dir chronicle/themes \
 		--output ../www/damog.net/blog \
+		--no-tags \
 		--config config.txt
 
 sync:
@@ -14,5 +15,5 @@ sync:
 		-v \
 		-e ssh \
 		--delete \
-		../www/damog.net/blog	\
-		josephine:www/damog.net
+		../www/damog.net	\
+		josephine:www/
