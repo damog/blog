@@ -1,0 +1,610 @@
+#!/usr/bin/perl -w
+
+=head1 NAME
+
+chronicle-entry-filter - Convert blog files to HTML, if required.
+
+=cut
+
+=head1 SYNOPSIS
+
+  Help Options
+
+    --help        Show a brief help overview.
+    --version     Show the version of this script.
+
+  Options
+
+    --format      The global format of all entries.
+    --filename    The name of the single file to process.
+
+  Filters
+
+    --pre-filter  A filter to run before convertion to HTML.
+    --post-filter A filter to run after HTML conversion.
+
+=cut
+
+=head1 ABOUT
+
+This script is designed to receive a filename and a global formatting type
+upon the command line.  The formatting type specifies how the blog entry
+file will be processed:
+
+  1.  If the format is "textile" the file will be converted from textile
+     to HTML.
+
+  2.  If the format is "markdown" the file will be converted from markdown
+     to HTML.  The related format "multimarkdown" is also recognised.
+
+  3.  If the format is "html" no changes will be made.
+
+Once the conversion has been applied the code will also be scanned for
+<code> tags to expand via the B<Text::VimColour> module, if it is installed,
+which allows the pretty-printing of source code.
+
+To enable the syntax highlighting of code fragments you should format your
+code samples as follows:
+
+=for example begin
+
+   Subject: Some highlighted code.
+   Date: 25th December 2009
+   Tags: chronicle, perl, blah
+
+   <p>Here is some code which will look pretty ..</p>
+   <code lang="perl">
+   #!/usr/bin/perl -w
+   ...
+   ..
+   </code>
+
+=for example end
+
+Notice the use of lang="perl", which provides a hint as to the type of
+syntax highlighting to apply.
+
+Additionally you may make use of the pre-filter and post-filter pseudo-headers
+which allow you to transform the entry in further creative fashions.
+
+For example you might wish the blog to be upper-case only for some reason,
+and this could be achieved via:
+
+=for example begin
+
+  Subject: I DONT LIKE LOWER CASE
+  Tags: meta, random, silly
+  Date: 25th December 2009
+  Pre-Filter: perl -pi -e "s/__USER__/`whoami`/g"
+  Post-filter: tr [a-z] [A-Z]
+
+  <p>This post, written by __USER__ will have no lower-case values.</p>
+  <p>Notice how my username was inserted too?</p>
+
+=for example end
+
+You may chain arbitrarily complex filters together via the filters.  Each
+filter should read the entry on STDIN and return the updated content to
+STDOUT.
+
+(If you wish to apply a global filter simply pass that as an argument to
+chronicle, or in your chroniclerc file.)
+
+=cut
+
+=head1 AUTHOR
+
+ Steve
+ --
+ http://www.steve.org.uk/
+
+=cut
+
+=head1 LICENSE
+
+Copyright (c) 2009-2010 by Steve Kemp.  All rights reserved.
+
+This module is free software;
+you can redistribute it and/or modify it under
+the same terms as Perl itself.
+The LICENSE file contains the full text of the license.
+
+=cut
+
+
+use strict;
+use warnings;
+
+
+use Getopt::Long;
+use IPC::Open2;
+use Pod::Usage;
+use Symbol;
+
+
+#
+#  Release number
+#
+#  NOTE:  Set by 'make release'.
+#
+my $RELEASE = '4.6';
+
+
+
+
+#
+#  Dispatch table of input type converters.
+#
+#  Each entry will have (up to) the following two keys:
+#
+#    module  => Any optional modules required - multiple comma-separated
+#               values are permissable.
+#
+#    routine => The routine to convert the input to the HTML output.
+#
+my %dispatch = (
+    "html" => { routine => \&do_html, },
+
+    "markdown" => { module  => "Text::Markdown",
+                    routine => \&do_markdown,
+                  },
+
+    "multimarkdown" => { module  => "Text::MultiMarkdown",
+                         routine => \&do_multimarkdown,
+                       },
+
+    "textile" => { module  => "Text::Textile",
+                   routine => \&do_textile,
+                 } );
+
+
+
+
+#
+#  Parse the command line options.
+#
+my %CONFIG = parseCommandLineArguments();
+
+
+#
+#  If we don't have a filename then it is game over.
+#
+if ( !$CONFIG{ 'filename' } )
+{
+    print "Mandatory filename missing: Help?!\n";
+    exit 1;
+}
+
+
+
+#
+#  Read the input from the file
+#
+my ( $text, %headers ) = readInputFile( $CONFIG{ 'filename' } );
+
+
+#
+#  Pre-filter?
+#
+my $pre = $CONFIG{ 'pre-filter' } || $headers{ 'pre-filter' } || undef;
+if ( defined($pre) )
+{
+    $text = runFilter( $pre, $text );
+}
+
+
+
+#
+# At this point we need to work out how to format the entry.
+#
+# We might have (in order of precedence):
+#
+#  a. A per-entry format
+#  b. A global format.
+#  c. The default format (html)
+#
+my $format = $headers{ 'format' } || $CONFIG{ 'format' } || "html";
+
+
+#
+#  Lookup details to use in the dispatch table.
+#
+my $obj = $dispatch{ lc $format };
+if ( !$obj )
+{
+    print "The input method $format is unknown.\n";
+    exit 1;
+}
+
+#
+#  Do we have to load an optional module?
+#
+if ( $obj->{ 'module' } )
+{
+    loadOptionalModules( $obj->{ 'module' }, $format );
+}
+
+#
+#  Now convert
+#
+
+$text =~ s{<code lang=['""']([^'""']+)['""']>(.*?)(</code>)}
+          {"<code>" . highlightCode($2, $1) . $3}msegi;
+
+my $html = $obj->{ 'routine' }->($text);
+
+#
+#  Do code formatting
+#
+
+#
+#  Post-filter?
+#
+my $post = $CONFIG{ 'post-filter' } || $headers{ 'post-filter' } || undef;
+if ( defined($post) )
+{
+    $html = runFilter( $post, $html );
+}
+
+
+
+#
+#  Finally output the result such that chronicle can include it
+# in the blog.
+#
+#  Ensure we're UTF-8 clean.
+#
+binmode STDOUT, ":utf8";
+print $html;
+
+#
+#  All over :)
+#
+exit 0;
+
+
+
+
+=begin doc
+
+Parse the two command line options we expect to receive.
+
+TODO: Add help/version/manual/etc
+
+=end doc
+
+=cut
+
+sub parseCommandLineArguments
+{
+    my $HELP    = 0;
+    my $MANUAL  = 0;
+    my $VERSION = 0;
+
+    my %options;
+
+    if (
+        !GetOptions(
+
+            # help options
+            "help",    \$HELP,
+            "manual",  \$MANUAL,
+            "verbose", \$options{ 'verbose' },
+            "version", \$VERSION,
+
+            # filename
+            "filename=s", \$options{ 'filename' },
+
+            # global format
+            "format=s", \$options{ 'format' },
+
+            # filters
+            "pre-filter=s",  \$options{ 'pre-filter' },
+            "post-filter=s", \$options{ 'post-filter' },
+        ) )
+    {
+        exit 1;
+    }
+
+
+    pod2usage(1) if $HELP;
+    pod2usage( -verbose => 2 ) if $MANUAL;
+
+    if ($VERSION)
+    {
+        print("chronicle-entry-filter release $RELEASE\n");
+        exit;
+    }
+
+    return (%options);
+}
+
+
+
+=begin doc
+
+Read the specified blog file, and return both the input format
+and the body of the file.
+
+Ignore all other header values.
+=end doc
+
+=cut
+
+sub readInputFile
+{
+    my ($filename) = (@_);
+
+    #
+    #  Open the specified file.
+    #
+    open my $handle, "<:utf8", $filename or
+      die "Failed to open file\n";
+
+
+    #
+    #  Parse the header and body into these values
+    #
+    my %headers;
+    my $body;
+
+
+    #
+    #  Read the file.
+    #
+    my $header = 1;
+    foreach my $line (<$handle>)
+    {
+        if ($header)
+        {
+
+            #
+            #  If the header is "foo:bar" then record that
+            #
+            if ( $line =~ /^([^:]+):(.*)/ )
+            {
+                my $key = $1;
+                my $val = $2;
+
+                $key = lc($key);
+                $val =~ s/^\s+|\s+$//g;
+
+                $headers{ $key } = $val
+                  if ( length($val) && !$headers{ $key } );
+            }
+
+            #
+            #  End of the header?
+            #
+            # NOTE: Slight hack for working under Cygwin on
+            #       Microsoft Windows where \r and \n roam wild.
+            #
+            $header = 0 if ( $line =~ /^([\r|\n]*)$/ );
+        }
+        else
+        {
+            $body .= $line;
+        }
+
+    }
+    close($handle);
+
+    return ( $body, %headers );
+}
+
+
+
+
+=begin doc
+
+Run the text we've got through the specified command.
+
+The command will receive the text on STDIN and should return the
+(potentially modified) text to STDOUT.
+
+=end doc
+
+=cut
+
+sub runFilter
+{
+    my ( $cmd, $text ) = (@_);
+
+    my $WTR = gensym();
+    my $RDR = gensym();
+
+    $CONFIG{ 'verbose' } && print "Running filter: $cmd\n";
+
+    my $pid = open2( $RDR, $WTR, $cmd );
+
+    print $WTR $text;
+    close($WTR);
+
+    my $result = "";
+    while (<$RDR>)
+    {
+        $result .= $_;
+    }
+
+    waitpid $pid, 0;
+    return $result;
+}
+
+
+
+=begin doc
+
+Load an optional module.
+
+=end doc
+
+=cut
+
+sub loadOptionalModules
+{
+    my ( $module, $format ) = (@_);
+
+    foreach my $mod ( split( /,/, $module ) )
+    {
+
+        #
+        #  Strip space, and empty modules
+        #
+        $mod =~ s/^\s+|\s+$//g;
+        next if ( !length($mod) );
+
+        #
+        #  Make sure we have the module installed.  Use eval to
+        # avoid making this mandatory.
+        #
+        my $test = "use $mod;";
+
+        #
+        #  Test loading the module.
+        #
+        ## no critic (Eval)
+        eval($test);
+        ## use critic
+
+        if ($@)
+        {
+            my $package = "lib" . lc($mod) . "-perl";
+            $package =~ s/::/-/g;
+
+            print <<EOF;
+
+You have chosen to format your input text via the $format format, but the
+Perl module $mod is not installed.
+
+Aborting.
+
+Upon a Debian GNU/Linux system you can probably correct this via:
+
+  apt-get install $package
+EOF
+            exit 1;
+        }
+    }
+
+}
+
+
+
+=begin doc
+
+ Convert from HTML to HTML.
+ (i.e. NOP)
+
+=end doc
+
+=cut
+
+sub do_html
+{
+    my ($text) = (@_);
+
+    return ($text);
+}
+
+
+
+=begin doc
+
+  Convert from markdown to HTML.
+
+=end doc
+
+=cut
+
+sub do_markdown
+{
+    my ($text) = (@_);
+
+    return ( Text::Markdown::markdown($text) );
+}
+
+
+=begin doc
+
+  Convert from multimarkdown to HTML.
+
+=end doc
+
+=cut
+
+sub do_multimarkdown
+{
+    my ($text) = (@_);
+
+    return ( Text::MultiMarkdown::markdown($text) );
+}
+
+
+
+=begin doc
+
+  Convert from textile to HTML.
+
+=end doc
+
+=cut
+
+sub do_textile
+{
+    my ($text) = (@_);
+
+    #
+    #  Convert, via the textile helper.
+    #
+    my $textile = new Text::Textile;
+
+    if ( defined( $CONFIG{ 'charset' } ) )
+    {
+        $CONFIG{ 'verbose' } &&
+          print "Formatting via textile with charset $CONFIG{'charset'}\n";
+
+        $textile->charset( $CONFIG{ 'charset' } );
+    }
+
+    #
+    #  Now return HTML
+    #
+    my $html = $textile->process($text);
+    return ($html);
+}
+
+
+
+=begin doc
+
+Attempt to highlight the given text with the given language bindings.
+
+Note that this relies upon Text::VimColor...
+
+=end doc
+
+=cut
+
+sub highlightCode
+{
+    my ( $text, $lang ) = (@_);
+
+		use IPC::Open3;
+
+		my $code = "-g";
+		$code = "-l $lang" if $lang;
+
+        # print "About to run: /opt/local/bin/pygmentize-2.4 -f html $code";
+
+		my $pid = open3(\*CHLD_IN, \*CHLD_OUT, \*CHLD_ERR, 
+			"/opt/local/bin/pygmentize-2.4 -f html $code");
+
+		print CHLD_IN $text;
+		close CHLD_IN;
+		my @html = <CHLD_OUT>;
+
+		close CHLD_OUT;
+		close CHLD_ERR;
+	
+		return (join '', @html);
+}
