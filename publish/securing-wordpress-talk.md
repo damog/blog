@@ -1,4 +1,4 @@
-Title: Securing WordPress talk by Brad Williams
+Title: Securing WordPress talk
 Date: 2009-11-20 13:20:25
 Tags: security,wordcamp,wordpress
 
