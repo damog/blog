@@ -5,7 +5,8 @@ posts:
 		--theme copyrighteous \
 		--theme-dir chronicle/themes \
 		--output ../www/damog.net/blog \
-		--no-tags \
+		--recent-tags-first \
+		--recent-dates-first \
 		--config config.txt
 
 sync:
