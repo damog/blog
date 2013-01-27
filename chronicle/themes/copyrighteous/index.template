@@ -51,6 +51,7 @@
       <!-- tmpl_var name='calendar_month' -->
       <!-- /tmpl_if name='calendar' -->
       <!-- tmpl_if name='datecloud' -->
+	  This blog is entirely open source. Go fork <a href="http://github.com/damog/blog">it</a>!.<br><br>
       <span class="rightMenu">Archives</span><br />
       <ul>
         <!-- tmpl_loop name='datecloud' -->
