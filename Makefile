@@ -18,3 +18,5 @@ sync:
 		--delete \
 		../www/damog.net	\
 		josephine:www/
+
+all: posts sync
