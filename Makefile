@@ -2,6 +2,7 @@ posts:
 	./chronicle/bin/chronicle \
 		--lower-case \
 		--verbose \
+		--no-comments \
 		--theme copyrighteous \
 		--theme-dir chronicle/themes \
 		--output ../www/damog.net/blog \
