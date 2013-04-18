@@ -46,6 +46,7 @@
     <!-- tmpl_include name="comment-loop.inc" -->
     <!-- tmpl_include name="comment-form.inc" -->
     <div id="rightmenu">
+	This blog is entirely open source. Go fork <a href="http://github.com/damog/blog">it</a>!.<br><br>
       <!-- tmpl_if name='datecloud' -->
       <span class="rightMenu">Archives</span><br />
       <ul>
