@@ -1863,6 +1863,7 @@ sub outputStaticPage
     my $tags  = $static->{ 'tags' };
     my $body  = $static->{ 'body' };
     my $date  = $static->{ 'date' };
+    my $file_name = $static->{'filename'} || undef;
 
     if ( !defined($date) )
     {
@@ -1879,7 +1880,7 @@ sub outputStaticPage
     #
     #  Convert to suitable filename.
     #
-    my $file = fileToTitle($title);
+    my $file = fileToTitle($title, $file_name);
 
     #
     #  Update the basename
@@ -2479,7 +2480,7 @@ sub readBlogEntry
     #
     #  Get the link - after ensuring we have a title.
     #
-    my $link = fileToTitle( $entry{ 'title' } );
+    my $link = fileToTitle( $entry{ 'title' }, $entry{'filename'} || undef );
     $entry{ 'link' } = $link;
 
     #
@@ -2585,7 +2586,9 @@ sub readBlogEntry
 
 sub fileToTitle
 {
-    my ($file) = (@_);
+    # If I'm passing a $filename param, then I really want that title
+    # to be used for the file.
+    my ($file, $filename) = (@_);
 
 		# damog hack:
 		use Text::Unaccent::PurePerl;
@@ -2595,6 +2598,7 @@ sub fileToTitle
     #  Get rid of non-alphanumeric Al characters
     #
     $file =~ s/[^a-z0-9]+/\-/gi;
+    $file = $filename if $filename;
 
     my $suffix = $CONFIG{ 'suffix' } || ".html";
     $file .= $suffix;
