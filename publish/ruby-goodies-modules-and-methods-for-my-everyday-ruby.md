@@ -25,7 +25,7 @@ requiring /var/lib/gems/1.8/gems/damog-goodies-0.1/lib/goodies/html.rb
  "http://flickr.com/photos/raquelydavid",
  "http://last.fm/user/damog",
  "http://maggit.com.mx",
- "http://twitter.com/damog",
+ "http://twitter.com/habanerd",
  "http://www.facebook.com/profile.php?id=670490388",
  "http://www.chess.com?ref_id=1380378",
  "http://www.chess.com",
