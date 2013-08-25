@@ -2414,7 +2414,7 @@ sub readBlogEntry
     #  The filter program will read the specified file and return the
     # HTML output to STDOUT.
     #
-    my $cmd = File::Basename::dirname(__FILE__) . "/chronicle-entry-filter ";
+    my $cmd = 'perl ' . File::Basename::dirname(__FILE__) . "/chronicle-entry-filter ";
 
     #
     #  Propogate any global options to the command.
