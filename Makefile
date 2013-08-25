@@ -1,5 +1,5 @@
 posts:
-	./chronicle/bin/chronicle \
+	perl ./chronicle/bin/chronicle \
 		--lower-case \
 		--verbose \
 		--no-comments \
