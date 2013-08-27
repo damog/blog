@@ -18,7 +18,7 @@ href="https://github.com/damog/www-tumblr/issues/2">times</a>.
 
 Anyway, my coworker Fernando brought it to my attention more and more and I
 re-started working on my OAuth branch. A few weeks later now, I present you <a
-href="http://https://metacpan.org/module/WWW::Tumblr">WWW::Tumblr</a> 5.00, which
+href="https://metacpan.org/module/WWW::Tumblr">WWW::Tumblr</a> 5.00, which
 supports all of the <a href="http://www.tumblr.com/docs/en/api/v2">methods</a>
 from the new Tumblr v2 API. During the development
 phase, Fernando tested a whole bunch, as well as <a
