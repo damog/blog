@@ -597,7 +597,7 @@ sub highlightCode
         # print "About to run: /opt/local/bin/pygmentize-2.4 -f html $code";
 
 		my $pid = open3(\*CHLD_IN, \*CHLD_OUT, \*CHLD_ERR, 
-			"/opt/local/bin/pygmentize-2.4 -f html $code");
+			"/usr/bin/pygmentize -f html $code");
 
 		print CHLD_IN $text;
 		close CHLD_IN;
