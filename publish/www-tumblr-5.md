@@ -21,7 +21,7 @@ re-started working on my OAuth branch. A few weeks later now, I present you <a
 href="http://https://metacpan.org/module/WWW::Tumblr">WWW::Tumblr</a> 5.00, which
 supports all of the <a href="http://www.tumblr.com/docs/en/api/v2">methods</a>
 from the new Tumblr v2 API. During the development
-phase, my colleage started tested a whole bunch, as well as <a
+phase, Fernando tested a whole bunch, as well as <a
 href="http://yeupou.wordpress.com/2013/08/08/managing-a-tumblr-posts-queue-locally-with-tags/">this
 other project</a>: I am very thankful for their help, since it took a while to
 properly make the API work as Tumblr does not seem to have the most compliant OAuth
