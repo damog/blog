@@ -1,5 +1,5 @@
 Title: 11 years in Freenode now
-Date: 2013-08-17 19:29:51 
+Date: 2013-08-17 19:29:51
 Tags: linux, irc, opensource, freenode
 
 Somehow last year I missed the fact that I've been around <a href="http://freenode.net/">Freenode</a> for 10 years. It is more than 11 years now at this point. Oh my! I understand this is nothing compared to the very old wolves in free software, but bear with me on this one :)
