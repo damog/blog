@@ -2,7 +2,7 @@ Title: i3 respect
 Date: 2014-01-11 13:02:27
 Tags: i3, debian, respect
 
-Hey <a href="http://michael.stapelberg.de/">Michael Stepelberg</a>, thanks for
+Hey <a href="http://michael.stapelberg.de/">Michael Stapelberg</a>, thanks for
 creating <a href="http://i3wm.org/">i3</a> and making me believe again that
 people have a clue and things can be done just right (specially when it comes
 to something easily done crappy like window managers). Thanks for just getting
