@@ -18,6 +18,6 @@ sync:
 		-e ssh \
 		--delete \
 		../www/damog.net	\
-		josephine:www/
+		pi:/mnt/storage/www/
 
 all: posts sync
