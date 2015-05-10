@@ -1,5 +1,5 @@
 title: "World Cup just around the corner"
-Date: 2006-06-03 19:08:57
+date: 2006/6/3 19:08:57
 Tags: 
 ---
 <p>Well, Mexico played three preparation games in Europe on their way to start the World Cup. They played against France and the Netherlands on their territories and well, I think Mexico was not ready enough, it is not solid and the manager was making lots of crazy movements. They ended 1-0 and 2-1, respectively. Obviously those were difficult matches against fútbol potences on their home, but still Mexico has plenty of capacity to beat any of those countries.</p>

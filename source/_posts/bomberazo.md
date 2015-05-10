@@ -1,5 +1,5 @@
 title: "Bomberazo ‒ cosas que es bueno saber, antes de echar a perder"
-Date: 2008-09-22 10:41:59
+date: 2008/9/22 10:41:59
 Tags: empresas,ideas,interesante
 ---
 Al darme un acostumbrado paseo por <a href="http://not-yet.com">mis feeds</a>, encontré un enlace en la <a href="http://www.cafedealtura.com/2008/09/17/resena-cafe-de-altura-030908-%E2%80%93-mexico-df/">reseña de una de las reuniones</a> de la gente de <a href="http://www.cafedealtura.com/">Café de Altura</a> a un proyecto que me llamó mucho la atención: <strong><a href="http://www.bomberazo.com.mx/">Bomberazo</a></strong>.

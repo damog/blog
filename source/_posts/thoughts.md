@@ -1,5 +1,5 @@
 title: "Thoughts"
-Date: 2005-07-09 11:13:53
+date: 2005/7/9 11:13:53
 Tags: 
 ---
 The sun is hitting my back.<br/><br/>

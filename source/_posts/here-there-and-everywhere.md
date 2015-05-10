@@ -1,5 +1,5 @@
 title: "Here, there and everywhere"
-Date: 2004-06-09 14:13:38
+date: 2004/6/9 14:13:38
 Tags: 
 ---
 <p>I&#8217;m feeling kinda sad. Because many things in Mexico suck.</p>

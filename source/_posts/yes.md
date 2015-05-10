@@ -1,5 +1,5 @@
 title: "Yes"
-Date: 2006-01-27 03:32:40
+date: 2006/1/27 03:32:40
 Tags: 
 ---
 <p>I just told my boss. I&#8217;m moving to Venezuela. It&#8217;s now official. Everybody knew, except for my boss and he supports me completely: He rocks. Well, it somewhat depends on the definition of &#8216;moving&#8217;, but I&#8217;ll be there for more than a couple of months, call it whatever you want.</p>

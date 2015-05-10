@@ -1,5 +1,5 @@
 title: "La importancia de los logs en las charlas"
-Date: 2005-04-21 03:57:48
+date: 2005/4/21 03:57:48
 Tags: 
 ---
 Siempre he dicho que las bitácoras (logs) de programas de conversación

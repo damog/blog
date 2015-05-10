@@ -1,5 +1,5 @@
 title: "Cat Power!"
-Date: 2006-09-03 18:10:56
+date: 2006/9/3 18:10:56
 Tags: 
 ---
 <p>Yay!

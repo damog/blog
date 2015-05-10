@@ -1,5 +1,5 @@
 title: "Lessons learned and real experience"
-Date: 2012-03-05 16:44:52
+date: 2012/3/5 16:44:52
 Tags: life,tech,work
 ---
 I've been busy.

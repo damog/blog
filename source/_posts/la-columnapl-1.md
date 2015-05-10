@@ -1,5 +1,5 @@
 title: "La Columna.pl #1"
-Date: 2007-05-21 22:08:40
+date: 2007/5/21 22:08:40
 Tags: 
 ---
 La Columna.pl es una columna que estaré publicando quincenalmente. Ella, inspirada por la gran cantidad de <a href="http://www.stonehenge.com/merlyn/columns.html" target="_blank">columnas de Perl que ha escrito Randal Schwartz</a>, tocará diferentes temas y situaciones que principiantes o programadores en Perl pueden enfrentar y que yo personalmente también he enfrentado e intento explicar de una forma rápida, concisa y sencilla. Creo firmemente que, una vez digerida una curva pronunciada de aprendizaje, esa experiencia puede moldearse de tal forma que transforme la línea en lo más recta posible para gente interesada, para gente que desea conocer ejemplos de la vida real.

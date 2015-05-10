@@ -1,5 +1,5 @@
 title: "Feedbag now using feedvalidator"
-Date: 2009-02-11 16:00:53
+date: 2009/2/11 16:00:53
 Tags: feed,feedbag,patch,w3c
 ---
 There's a very special case that I hadn't spotted on <a href="http://axiombox.com/feedbag">Feedbag</a>. Within the different methods that Feedbag uses to discover the feed on a given URL, the very first one is lookup on a table of "known" content types. If the alleged feed is served with any of the following content types, then Feedbag just returns that same URL as it assumes it's the feed:

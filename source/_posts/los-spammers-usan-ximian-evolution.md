@@ -1,5 +1,5 @@
 title: "Los spammers usan Ximian Evolution"
-Date: 2005-02-13 04:53:25
+date: 2005/2/13 04:53:25
 Tags: 
 ---
 <p><i>bastarda</i> de listas de correos).</p>

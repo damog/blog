@@ -1,5 +1,5 @@
 title: "On Ahmadinejad's visit to the US"
-Date: 2007-09-25 05:25:19
+date: 2007/9/25 05:25:19
 Tags: 
 ---
 <p align="center"> <img height="420" width="630" src="http://damog.net/files/misc/free-douche-bags.jpg"/></p>

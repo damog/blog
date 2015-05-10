@@ -1,5 +1,5 @@
 title: "Puente"
-Date: 2003-11-20 19:30:29
+date: 2003/11/20 19:30:29
 Tags: 
 ---
 <p>Jueves 20, viernes 21, sábado 22 y domingo 23.</p>

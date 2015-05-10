@@ -1,5 +1,5 @@
 title: "Parque Deportivo del Seguro Social"
-Date: 2007-03-10 00:27:29
+date: 2007/3/10 00:27:29
 Tags: 
 ---
 <p>Hoy tuve una catársis. Vi una fotografía que tiene el <a href="http://www.rabade.net" target="_blank">mig</a> en <a href="http://www.flickr.com/photos/el_mig">su flickr</a> del Parque Deportivo del Seguro Social en sus últimos días. Recordé muchas cosas de mi <em>infantilidad</em> viendo esa fotografía.</p>

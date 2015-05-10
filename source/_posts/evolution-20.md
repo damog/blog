@@ -1,5 +1,5 @@
 title: "Evolution 2.0"
-Date: 2004-09-16 14:35:33
+date: 2004/9/16 14:35:33
 Tags: 
 ---
 <p>Well, it is almost 5 am, but I did it ;-) <a href="http://www.gnome.org/projects/evolution">Evolution 2.0</a> running over <a href="http://www.debian.org/">Debian</a>.

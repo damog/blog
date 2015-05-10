@@ -1,5 +1,5 @@
 title: "Call for Gathering of the Indigenous People of the Americas"
-Date: 2007-06-15 22:24:56
+date: 2007/6/15 22:24:56
 Tags: 
 ---
 <p>Transcript of the call for participation on the  <a href="http://www.encuentroindigena.org/" target="_blank">Gathering of the Indigenous People of the Americas</a>. If you don’t mind, feel free to skip it.

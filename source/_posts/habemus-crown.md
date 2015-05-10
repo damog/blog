@@ -1,5 +1,5 @@
 title: "Habemus crown!"
-Date: 2005-07-13 16:31:06
+date: 2005/7/13 16:31:06
 Tags: 
 ---
 Wouter managed to make a nice carton crown (hand-signed by every people

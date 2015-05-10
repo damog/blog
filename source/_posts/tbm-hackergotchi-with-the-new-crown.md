@@ -1,5 +1,5 @@
 title: "tbm hackergotchi with the new crown"
-Date: 2005-03-02 04:30:46
+date: 2005/3/2 04:30:46
 Tags: 
 ---
 <p>

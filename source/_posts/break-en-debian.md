@@ -1,5 +1,5 @@
 title: "Break en Debian"
-Date: 2006-09-13 22:57:51
+date: 2006/9/13 22:57:51
 Tags: 
 ---
 <p>Pues he decidido tomar un <em>break</em> en mis actividades en <a target="_blank" href="http://www.debian.org">Debian</a>, que es algo que invariablemente ya había venido realizando en las últimas semanas. La razón principal, como se lo he comentado a allegados a mí, es que por el momento tengo prioridades diferentes a las que tenía en meses y años pasados. Esas prioridades se resumen a la universidad, el trabajo y mi salud física y mental.</p>

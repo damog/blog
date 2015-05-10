@@ -1,5 +1,5 @@
 title: "Viaje Parte Dos"
-Date: 2003-12-08 19:23:17
+date: 2003/12/8 19:23:17
 Tags: 
 ---
 <p>En fin, luego de comprar mis cositas en el stand de Mélix, me fui a aplastar a la cafetería de la Expo. No tenía nada que hacer, ya no tenía a quien esperar, ni nada similar. Me trataba de comunicar al celular de Claudia, pero nunca entró la llamada. Era un pobre diablo en una ciudad pueblerina. :P</p>

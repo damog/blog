@@ -1,5 +1,5 @@
 title: "Weird"
-Date: 2004-08-22 14:30:55
+date: 2004/8/22 14:30:55
 Tags: 
 ---
 <p>It&#8217;s extremely weird when sometimes happen what some friends and I lived yesterday. Let me tell you:</p>

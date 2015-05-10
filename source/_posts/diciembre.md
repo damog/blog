@@ -1,5 +1,5 @@
 title: "Diciembre"
-Date: 2004-12-19 15:59:11
+date: 2004/12/19 15:59:11
 Tags: 
 ---
 <p>Estos días son bastante relajados. Contaré todo lo que ha pasado.</p>

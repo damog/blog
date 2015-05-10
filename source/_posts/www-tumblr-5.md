@@ -1,5 +1,5 @@
 title: "WWW::Tumblr 5.00"
-Date: 2013-08-28 00:27:19
+date: 2013/8/28 00:27:19
 Tags: perl,tumblr
 ---
 <a href="http://damog.net/blog/www-tumblr.html">A few years ago</a>, back when

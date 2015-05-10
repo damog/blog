@@ -1,5 +1,5 @@
 title: "La vida va"
-Date: 2003-12-28 14:41:28
+date: 2003/12/28 14:41:28
 Tags: 
 ---
 <p>Pues últimamente ya no he podido escribir mucho en el blog, debido principalmente, a la mortal gripe que me dió. Pero bueno, aquí seguimos, con inyecciones y harto medicamento.</p>

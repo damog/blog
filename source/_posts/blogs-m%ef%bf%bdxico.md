@@ -1,5 +1,5 @@
 title: "Blogs M�xico"
-Date: 2005-04-29 06:18:26
+date: 2005/4/29 06:18:26
 Tags: 
 ---
 cd /tmp; wget

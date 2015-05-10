@@ -1,5 +1,5 @@
 title: "Lluvia"
-Date: 2005-09-01 04:37:49
+date: 2005/9/1 04:37:49
 Tags: 
 ---
 Llueve y llueve. Llueve y llueve. Creo que hoy fue el día en que se

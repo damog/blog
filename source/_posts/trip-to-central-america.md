@@ -1,5 +1,5 @@
 title: "Trip to Central America"
-Date: 2005-08-22 05:28:44
+date: 2005/8/22 05:28:44
 Tags: 
 ---
 I have started planning (and saving) a trip through Central America.<br/><br/>

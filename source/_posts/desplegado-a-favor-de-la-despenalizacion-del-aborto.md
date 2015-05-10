@@ -1,5 +1,5 @@
 title: "Desplegado a favor de la despenalización del aborto"
-Date: 2007-04-17 05:03:08
+date: 2007/4/17 05:03:08
 Tags: 
 ---
 <p align="center">POR EL DERECHO DE LAS MUJERES A DECIDIR</p>

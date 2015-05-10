@@ -1,5 +1,5 @@
 title: "Listo el pasaporte"
-Date: 2006-02-22 20:18:48
+date: 2006/2/22 20:18:48
 Tags: 
 ---
 <p>Una de las bonitas cosas que tiene la burocracia en este país es el trámite de pasaportes. Salí de mi casa alrededor de las 10:20 de la mañana, mi mamá me echó un ride a la oficina de la <a target="_blank" href="http://www.sre.gob.mx/">SRE</a> de la <a target="_blank" href="http://www.delegacionbenitojuarez.gob.mx/">Delegación Benito Juárez</a>. Llegué con todo listo, incluso fotocopias de mi <a target="_blank" href="http://www.gobernacion.gob.mx/templetas/blank.php?idCont=182">CURP</a>, fotocopias de mi <a target="_blank" href="http://www.ife.org.mx/InternetCDA/Credencial/index.jsp">credencial de elector</a>, etc. Un tipo malencarado me recibe y me pide mi hoja de pago en el banco, mis fotocopias del pasaporte anterior y mis fotografías. No les hizo nada, sólo me dió la solicitud que tenía que llenar a mano en ese momento y me indicó la fila donde debía formarme a dar mis documentos.</p>

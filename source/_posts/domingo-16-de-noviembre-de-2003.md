@@ -1,5 +1,5 @@
 title: "Domingo, 16 de noviembre de 2003"
-Date: 2003-11-16 19:32:14
+date: 2003/11/16 19:32:14
 Tags: 
 ---
 <p>El día de hoy he estado trabajando en un nuevo gadget para <a href="http://web.archive.org/web/20031125134728/http://jaws-project.sf.net/">JAWS</a>: Un gadget para mostrar las páginas, ligas, sitios que a uno más le gustan junto con una pequeña descripción hecha por el usuario.

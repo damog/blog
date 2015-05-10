@@ -1,5 +1,5 @@
 title: "Sports week"
-Date: 2005-09-11 18:30:48
+date: 2005/9/11 18:30:48
 Tags: 
 ---
 <strong>Fútbol</strong><br/><p>

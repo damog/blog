@@ -1,5 +1,5 @@
 title: "Embestido por la Geometría Analítica"
-Date: 2006-10-20 16:24:29
+date: 2006/10/20 16:24:29
 Tags: 
 ---
 El día de hoy hice el examen quizás más cabrón que me ha tocado en la <a target="_blank" href="http://www.fciencias.unam.mx">Facultad</a>, y es que conjuntó varias cosas que me lo pusieron muy cabrón. Explico a continuación.

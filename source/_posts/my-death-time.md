@@ -1,5 +1,5 @@
 title: "My death time"
-Date: 2005-01-22 18:58:21
+date: 2005/1/22 18:58:21
 Tags: 
 ---
 <p align="center"><a href="http://www.wxplotter.com/ft_dead.php?im">

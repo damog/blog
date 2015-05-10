@@ -1,5 +1,5 @@
 title: "De vuelta y a la chinga"
-Date: 2005-05-11 02:21:05
+date: 2005/5/11 02:21:05
 Tags: 
 ---
 Finalmente el domingo pasado regresé a México. Mi corta estadía (apenas

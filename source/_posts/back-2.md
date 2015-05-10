@@ -1,5 +1,5 @@
 title: "Back 2"
-Date: 2007-07-08 22:29:54
+date: 2007/7/8 22:29:54
 Tags: 
 ---
 <p>Yeah, we are almost two weeks back now, but until now I can feel we are done with lots of pending issues.

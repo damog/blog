@@ -1,5 +1,5 @@
 title: "Two Git tips"
-Date: 2008-12-12 23:52:28
+date: 2008/12/12 23:52:28
 Tags: git,tips
 ---
 Following the Git tips being thrown on <a href="http://planet.debian.org">Planet Debian</a>, here's a couple:

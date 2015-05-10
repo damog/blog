@@ -1,5 +1,5 @@
 title: "Si usted, amable lector, no entiende este post, entonces no está dedicado para usted, seguramente."
-Date: 2005-08-26 04:26:31
+date: 2005/8/26 04:26:31
 Tags: 
 ---
 <p>Escuchado (¿o leído?) en algún sitio de gente naquita:<br/></p>

@@ -1,5 +1,5 @@
 title: "5to. Festival GNU/Linux y Software Libre"
-Date: 2006-08-03 19:04:54
+date: 2006/8/3 19:04:54
 Tags: 
 ---
 <p>Las dos charlas que propuse para el comúnmente llamado <a target="_blank" href="http://www.festivaldesoftwarelibre.org">Festival de Software Libre</a> fueron aceptadas. Este festival se ha convertido en uno de los más importantes eventos alrededor del software libre y Linux en nuestro país, y me da gusto volver a él dos años después.

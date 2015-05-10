@@ -1,5 +1,5 @@
 title: "Puto Metrobús"
-Date: 2007-09-12 20:00:34
+date: 2007/9/12 20:00:34
 Tags: 
 ---
 <p>Este post tenía ya varios días que me lo estaba guardando.</p>

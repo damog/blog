@@ -1,5 +1,5 @@
 title: "La liga del día"
-Date: 2003-12-21 14:45:13
+date: 2003/12/21 14:45:13
 Tags: 
 ---
 <p>Y la liga del día de hoy se la lleva&#8230;</p>

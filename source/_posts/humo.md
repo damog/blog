@@ -1,5 +1,5 @@
 title: "Humo"
-Date: 2003-10-09 18:47:30
+date: 2003/10/9 18:47:30
 Tags: 
 ---
 <p>Ya volví de Villahermosa :-) Muy pronto pondré la interesante reseña, a la Damog.net :)

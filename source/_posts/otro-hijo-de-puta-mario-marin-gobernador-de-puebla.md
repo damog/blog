@@ -1,5 +1,5 @@
 title: "Otro hijo de puta: Mario Marín, gobernador de Puebla"
-Date: 2006-02-16 19:57:13
+date: 2006/2/16 19:57:13
 Tags: 
 ---
 <p>No tengo palabras para describir el desprecio que me hace sentir el gobernador estatal del estado de Puebla, Mario Marín, luego de sus corruptelas y juegos de poder del estúpido éste. Explico brevemente.</p>

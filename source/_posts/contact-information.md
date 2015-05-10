@@ -1,5 +1,5 @@
 title: "Contact information"
-Date: 2006-01-27 23:47:29
+date: 2006/1/27 23:47:29
 Tags: 
 ---
 <p>The best way to contact me is and will always be, email. You can write to the next address:

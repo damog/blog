@@ -1,5 +1,5 @@
 title: "Amor y matemáticas"
-Date: 2006-11-07 22:54:56
+date: 2006/11/7 22:54:56
 Tags: 
 ---
 <p>- ¿Amas más a tus matemáticas que a mí?<br/>

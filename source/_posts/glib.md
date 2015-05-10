@@ -1,5 +1,5 @@
 title: "GLIB"
-Date: 2004-12-21 16:00:04
+date: 2004/12/21 16:00:04
 Tags: 
 ---
 <p>Una enorme disculpa al <a href="http://www.glib.org.mx/">Grupo Linux del Bajío</a> por mi ausencia el sábado pasado donde celebraron su 4to aniversario. La verdad me siento muy apenado.</p>

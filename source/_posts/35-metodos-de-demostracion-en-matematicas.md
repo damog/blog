@@ -1,5 +1,5 @@
 title: "35 métodos de demostración en matemáticas"
-Date: 2006-09-20 00:12:45
+date: 2006/9/20 00:12:45
 Tags: 
 ---
 <p><em>Demostración por obviedad<br/></em>&#8220;La demostración es tan clara que no necesita ser mencionada&#8221;</p>

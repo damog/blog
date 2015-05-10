@@ -1,5 +1,5 @@
 title: "The easy coming on Saturday"
-Date: 2004-05-15 13:52:29
+date: 2004/5/15 13:52:29
 Tags: 
 ---
 <p>I don&#8217;t know what happen on weekends. I usually do nothing productive, this blog is one of those things ;-)</p>

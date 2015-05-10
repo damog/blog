@@ -1,5 +1,5 @@
 title: "Perl on the NYMag"
-Date: 2009-08-10 09:21:33
+date: 2009/8/10 09:21:33
 Tags: feed,perl,xml
 ---
 Reading <a href="http://www.google.com/reader/shared/02195294431377468397">my morning load of feed news</a>, I spotted an interesting bit on the <a href="http://nymag.com">New York Magazine</a> <a href="http://nymag.com/rss/Travel.xml">travel feed</a>:

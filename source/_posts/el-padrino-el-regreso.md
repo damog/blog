@@ -1,5 +1,5 @@
 title: "El Padrino: El Regreso"
-Date: 2006-02-14 19:04:44
+date: 2006/2/14 19:04:44
 Tags: 
 ---
 <p>Soy un apasionado lector de la literatura de Mario Puzo, mejor conocido por su obra maestra, El Padrino. Lo comencé a leer cuando tenía 17 ó 18 años y fue algo que me cautivó.

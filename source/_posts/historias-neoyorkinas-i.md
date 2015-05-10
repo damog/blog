@@ -1,5 +1,5 @@
 title: "Historias neoyorkinas I"
-Date: 2007-11-08 05:23:40
+date: 2007/11/8 05:23:40
 Tags: 
 ---
 <p>Salía este humilde personaje de trabajar aquel viernes ya entrada la noche. De hecho, ya pasada, porque era ya de madrugada, la una de la mañana.</p>

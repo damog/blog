@@ -1,5 +1,5 @@
 title: "El problema de la cafetería y las niñas tontas de la Ibero"
-Date: 2006-05-29 00:50:41
+date: 2006/5/29 00:50:41
 Tags: 
 ---
 <p>Un problema de razonamiento matemático.</p>

@@ -1,5 +1,5 @@
 title: "Sueñito"
-Date: 2003-10-04 18:48:50
+date: 2003/10/4 18:48:50
 Tags: 
 ---
 <p>El día de antier, jueves (que en realidad era viernes), me dormí a las 2 am. Tenía clase a las 9, pero me tengo que despertar 6 ó 7 am. Me desperté muy agotado, llevé a mi hermana al trabajo, y partí hacia la universidad.</p>

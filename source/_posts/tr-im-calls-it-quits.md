@@ -1,5 +1,5 @@
 title: "tr.im calls it quits"
-Date: 2009-08-09 16:50:32
+date: 2009/8/9 16:50:32
 Tags: shortener,startup,tr.im,tweetie,url
 ---
 It's very sad when projects close down because of lack of financial interest on them. I've seen that on very near projects to me in the last couple of years and it doesn't stop getting me sad. Now, it's <a href="http://tr.im">tr.im</a>, which was a nice URL shortening service.

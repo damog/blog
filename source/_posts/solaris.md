@@ -1,5 +1,5 @@
 title: "Solaris"
-Date: 2003-10-12 18:46:13
+date: 2003/10/12 18:46:13
 Tags: 
 ---
 <p>Y no precisamente por el sistema operativo de Sun® basado en Unix®. :P</p>

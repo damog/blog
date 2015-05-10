@@ -1,5 +1,5 @@
 title: "EZLN en alerta roja"
-Date: 2005-06-23 06:14:35
+date: 2005/6/23 06:14:35
 Tags: 
 ---
 <p>Luego de leer el weblog de <a target="_blank" href="http://monx-xter.blogspot.com">Monse</a> (<em>¿para qu頤igo que no si sí?</em>) seguí

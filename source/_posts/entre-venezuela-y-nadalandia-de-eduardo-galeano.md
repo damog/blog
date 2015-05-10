@@ -1,5 +1,5 @@
 title: "Entre Venezuela y Nadalandia; de Eduardo Galeano"
-Date: 2006-06-19 00:31:06
+date: 2006/6/19 00:31:06
 Tags: 
 ---
 <p>Me permito transcribir aquí el texto <strong>Entre Venezuela y Nadalandia</strong> de <a target="_blank" href="http://en.wikipedia.org/wiki/Eduardo_Galeano">Eduardo Galeano</a>, publicado en <em>Página/12</em>, de Buenos Aires y rescatado en <a target="_blank" href="http://www.patriagrande.net">Patria Grande</a>, sitio de cultura latinoamericana por Héctor Velarde.

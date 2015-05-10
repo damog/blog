@@ -1,5 +1,5 @@
 title: "Luego de la tempestad"
-Date: 2006-04-05 02:14:06
+date: 2006/4/5 02:14:06
 Tags: 
 ---
 <p>Pues desde la semana pasada algo me pegó muy duro en el estómago. Generalmente sufro de gastritis, a veces me duele mucho la boca del estómago (por lo cerdo tragón que llego a ser) pero esta última semana yo creo que me excedí y de verdad recaí bien gacho.</p>

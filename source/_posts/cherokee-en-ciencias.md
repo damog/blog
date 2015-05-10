@@ -1,5 +1,5 @@
 title: "Cherokee en Ciencias"
-Date: 2006-09-18 23:25:43
+date: 2006/9/18 23:25:43
 Tags: 
 ---
 <p>Pues <a target="_blank" href="http://www.alobbs.com">alo</a>, Álvaro López, creador y desarrollador principal de <a target="_blank" href="http://www.0x50.org">Cherokee</a> dará una charla en la UNAM el próximo lunes. :) Los chavos del <a target="_blank" href="http://www.lidsol.org">LIDSOL</a> lo invitaron y ofrecerá su charla en la Facultad de Ciencias, lo cual me emociona ;).

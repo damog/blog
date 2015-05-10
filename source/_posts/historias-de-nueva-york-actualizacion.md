@@ -1,5 +1,5 @@
 title: "Historias de Nueva York: Actualización"
-Date: 2008-09-25 15:29:09
+date: 2008/9/25 15:29:09
 Tags: historias de nueva york,nyc
 ---
 Luego de varios intentos de empuje, por fin hemos actualizado el sitio de <a href="http://historiasdenuevayork.com/">Historias de Nueva York</a> con una nueva cara, nuevas entradas y con más cositas por venir en los próximos días.

@@ -1,5 +1,5 @@
 title: "Domains"
-Date: 2004-10-04 18:09:51
+date: 2004/10/4 18:09:51
 Tags: 
 ---
 <p>Today, I bought a couple of .mx domains, since they are on some kind of special offer, quite cheap.</p>

@@ -1,5 +1,5 @@
 title: "Hangover"
-Date: 2004-05-22 13:56:26
+date: 2004/5/22 13:56:26
 Tags: 
 ---
 <p>Well, yesterday a nice crew were on <a href="http://www.tacvbo.net/">Tacvbo&#8217;s</a>, 13 guys drinking beer and sharing some nice moments (as I remember the room on a clock-like turn): p4ola, zerver, <a href="http://www.royald.org/">royald</a>, tuxfer, Odín, Little_Bear, <a href="http://www.mig-29.net/">MiG</a>, Tato, Ramón Carazo, GnuOwned, Juan (AntiloOp&#8217;s cousin) and AntiloOp.</p>

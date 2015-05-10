@@ -1,5 +1,5 @@
 title: "Last night"
-Date: 2005-07-17 11:45:38
+date: 2005/7/17 11:45:38
 Tags: 
 ---
 I know what you did last night and where you were.<br/><br/>

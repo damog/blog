@@ -1,5 +1,5 @@
 title: "Impresiones de un chismoso en el FLISOL"
-Date: 2006-03-25 20:31:50
+date: 2006/3/25 20:31:50
 Tags: 
 ---
 <p>Justo en este momento estoy sentado en una mesa en el fondo de uno de los salones de la Lotería del Táchira, en San Cristóbal, Venezuela. Ana me invitó a estar aquí en el <a target="_blank" href="http://www.installfest.info">FLISOL</a> y vine para estar con ella, sin embargo, lo que veo a mi alrededor es algo sumamente fastidioso y algo por lo cual nunca estuve envuelto realmente en ninguna actividad del FLISOL, ni del año pasado, ni de éste. Me emputa y encabrona que la gente sea tan pinche comodina para no hacer ni madres y exigir a los voluntarios que están en los eventos que les instalen sus computadoras con Linux. Caray, se ponen exigentes hasta por que no les dan un puto CD de regalo cuando no hay.</p>

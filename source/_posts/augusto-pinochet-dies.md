@@ -1,5 +1,5 @@
 title: "Augusto Pinochet dies"
-Date: 2006-12-11 22:29:24
+date: 2006/12/11 22:29:24
 Tags: 
 ---
 <p>(Translated from <a target="_blank" href="http://www.damog.net/20061210/muere-augusto-pinochet/">my same post in Spanish</a>)

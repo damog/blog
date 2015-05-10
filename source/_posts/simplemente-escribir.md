@@ -1,5 +1,5 @@
 title: "Simplemente escribir..."
-Date: 2003-08-01 20:00:58
+date: 2003/8/1 20:00:58
 Tags: 
 ---
 <p>Alguien se ha puesto a escribir un texto similar al que en estos momentos escribo en algún lugar inusual, o simplemente en algún lugar diferente al que siempre se usa?

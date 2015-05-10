@@ -1,5 +1,5 @@
 title: "DD"
-Date: 2005-08-14 05:22:56
+date: 2005/8/14 05:22:56
 Tags: 
 ---
 After a long NM process, I&#8217;ve became DD today.<br/><br/>

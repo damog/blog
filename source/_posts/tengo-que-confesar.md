@@ -1,5 +1,5 @@
 title: "Tengo que confesar..."
-Date: 2005-04-13 05:55:43
+date: 2005/4/13 05:55:43
 Tags: 
 ---
 &#8230;que soy un pinche desobligado.<br/><br/>

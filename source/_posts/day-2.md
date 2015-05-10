@@ -1,5 +1,5 @@
 title: "Day 2"
-Date: 2004-05-28 13:59:32
+date: 2004/5/28 13:59:32
 Tags: 
 ---
 <p>Well, day 2 was pretty good, we drank some very nice things, like the Mexican Almond Tequila and Peruvian Pizco.</p>

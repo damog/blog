@@ -1,5 +1,5 @@
 title: "nginx talk on FLISOL at UIA"
-Date: 2010-04-21 10:30:21
+date: 2010/4/21 10:30:21
 Tags: flisol,nginx
 ---
 Friends, I'll be attending the <a href="http://installfest.info">FLISOL</a> (<em>Latin American Free Software Install Fest</em>) <a href="http://flisol.info/FLISOL2010/Mexico">conference</a> in Universidad Iberoamericana, this Friday, where I'll be talking about how marvelous <a href="http://nginx.org">nginx</a> is and why you should use it. If you are near, you should stop by! Tell of your co-workers and friends, it'll be fun.

@@ -1,5 +1,5 @@
 title: "Ladrones"
-Date: 2003-12-21 14:44:42
+date: 2003/12/21 14:44:42
 Tags: 
 ---
 <p>Los bandidos ya no son como antes.</p>

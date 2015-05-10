@@ -1,5 +1,5 @@
 title: "La comunidad..."
-Date: 2004-01-27 14:33:04
+date: 2004/1/27 14:33:04
 Tags: 
 ---
 <p>Pues&#8230; Qué bonita es la comunidad de software libre. Lo mejor es cómo se demuestran su cariño ;-)

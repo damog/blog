@@ -1,5 +1,5 @@
 title: "Triangle Problem"
-Date: 2004-09-07 14:34:14
+date: 2004/9/7 14:34:14
 Tags: 
 ---
 <p>In a triangle ABC, |AB| = 2&#160;cm, |AC| = 4&#160;cm and the inscribe circle in ABC has a radius 1&#160;cm. Find |BC|.</p>

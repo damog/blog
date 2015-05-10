@@ -1,5 +1,5 @@
 title: "Congratulations!"
-Date: 2005-06-06 22:18:38
+date: 2005/6/6 22:18:38
 Tags: 
 ---
 Congratulations to all of them who have helped on the Debian project

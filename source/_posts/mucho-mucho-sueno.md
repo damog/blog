@@ -1,5 +1,5 @@
 title: "Mucho, mucho sueño."
-Date: 2003-10-05 18:48:19
+date: 2003/10/5 18:48:19
 Tags: 
 ---
 <p>Pues el día de ayer, el <a href="mailto:guorloma@hotmail.com">Negro</a> y yo no teníamos nada que hacer, estábamosen mi casa en Internet.</p>

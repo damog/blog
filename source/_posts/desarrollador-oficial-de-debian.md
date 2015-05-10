@@ -1,5 +1,5 @@
 title: "Desarrollador oficial de Debian"
-Date: 2005-08-14 17:47:22
+date: 2005/8/14 17:47:22
 Tags: 
 ---
 <strong>Actualización:</strong><p> Muchas gracias a los que han dejado un mensaje aquí y en <a href="http://www.cofradia.org/modules.php?name=News&amp;file=article&amp;sid=14797&amp;mode=nested&amp;order=0&amp;thold=0" target="_blank">el artículo de Cofradía</a>. Gracias de todo corazón.<br/><br/>

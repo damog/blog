@@ -1,5 +1,5 @@
 title: "No hay nada como..."
-Date: 2006-08-31 19:37:37
+date: 2006/8/31 19:37:37
 Tags: 
 ---
 <ul>

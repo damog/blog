@@ -1,5 +1,5 @@
 title: "�Naco? �Naqu�simo!"
-Date: 2005-08-03 16:31:02
+date: 2005/8/3 16:31:02
 Tags: 
 ---
 Last Sunday, I went out with my parents, sis and some uncles and aunts

@@ -1,5 +1,5 @@
 title: "Great DebConf!"
-Date: 2006-05-19 21:51:51
+date: 2006/5/19 21:51:51
 Tags: 
 ---
 <p>Just as Tore said: &#8220;This is the best DebConf ever&#8221;. Isn&#8217;t it great?</p>

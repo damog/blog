@@ -1,5 +1,5 @@
 title: "Ecuador heads to free software"
-Date: 2006-12-14 19:44:47
+date: 2006/12/14 19:44:47
 Tags: 
 ---
 <p align="center"><img src="http://www.damog.net/files/pics/correa-stallman.jpg"/></p>

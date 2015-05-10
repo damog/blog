@@ -1,5 +1,5 @@
 title: "Muere Augusto Pinochet"
-Date: 2006-12-10 22:33:47
+date: 2006/12/10 22:33:47
 Tags: 
 ---
 <p>Hace unos pocos días, McDonald publicó un cartón sobre el fin del dictador Pinochet.

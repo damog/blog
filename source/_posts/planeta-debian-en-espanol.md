@@ -1,5 +1,5 @@
 title: "Planeta Debian en Español"
-Date: 2006-06-29 22:18:40
+date: 2006/6/29 22:18:40
 Tags: 
 ---
 <p><img align="right" src="http://planeta.debian.net/images/debian.png"/>Recently, a proposal by Alejandro Ríos was made in <a target="_blank" href="http://lists.debian.org/debian-devel-spanish">debian-devel-spanish</a> to provide a <a target="_blank" href="http://www.debian.org/">Debian</a> planet in Spanish to syndicate blogs from developers, maintainers and contributors in that language.</p>

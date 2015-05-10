@@ -1,5 +1,5 @@
 title: ""Este pasaporte es chimbo""
-Date: 2006-03-14 07:13:11
+date: 2006/3/14 07:13:11
 Tags: 
 ---
 <p>Aquí les va una historia de la vida real que me pasó el día de hoy (técnicamente ayer, pues ya es martes de madrugada). Sin embargo, hay que empezar desde el viernes pasado. Es un poco largo el texto, pero ruego a mis cuates mexicanos y mis panas venezolanos que lo lean hasta el final.</p>

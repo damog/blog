@@ -1,5 +1,5 @@
 title: "Eben Moglen - 'Freedom in the Cloud' 2/5 @ NYU"
-Date: 2010-02-02 12:19:54
+date: 2010/2/2 12:19:54
 Tags: cloud,columbia,debian,eben moglen,free software,nyc,nyu,privacy,talks,web 2.0
 ---
 <p>&nbsp;<a href="http://gabriellacoleman.org/blog/">Biella</a> passed this flyer around on the <a href="http://lists.vireo.org/cgi-bin/mailman/listinfo/debiannyc">Debian-NYC</a> mailing list. If you are in New York City this Friday, you won't want to miss this <a href="http://emoglen.law.columbia.edu/">Eben Moglen</a>'s talk.</p>

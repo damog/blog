@@ -1,5 +1,5 @@
 title: "What Video Game Character am I?"
-Date: 2004-10-06 18:10:33
+date: 2004/10/6 18:10:33
 Tags: 
 ---
 <p>Well, I took <a href="http://web.archive.org/web/20041018111240/http://quiz.ravenblack.net/videogame.pl">this</a> video game character quiz. Here is the result:

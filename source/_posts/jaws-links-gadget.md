@@ -1,5 +1,5 @@
 title: "JAWS links gadget"
-Date: 2003-12-13 19:21:42
+date: 2003/12/13 19:21:42
 Tags: 
 ---
 <p>Pues por fin he termino el primer release :P de mi famosísimo <a href="http://web.archive.org/web/20031226230140/http://www.damog.net/index.php?gadget=links&amp;PHPSESSID=b35e73a509d50b80c0c8eb29a7c802d2">links gadget</a>.

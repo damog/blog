@@ -1,5 +1,5 @@
 title: "High-Order Perl available for free"
-Date: 2008-12-09 16:56:04
+date: 2008/12/9 16:56:04
 Tags: books,perl
 ---
 My friend <a href="http://search.cpan.org/~amnesiac/">Marco</a> first told me on IM, then I read it on <a href="http://perlbuzz.com/2008/12/higher-order-perl-available-for-free-download.html">PerlBuzz</a>. The nice <strong>High-Order Perl</strong> book by

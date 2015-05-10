@@ -1,5 +1,5 @@
 title: "Fatherland! Socialism or death, I swear it!"
-Date: 2007-01-11 19:20:14
+date: 2007/1/11 19:20:14
 Tags: 
 ---
 <img src="http://www.damog.net/files/misc/sexenio-chavez.jpg"/><p align="left">From <a target="_blank" href="http://www.nytimes.com/2007/01/11/world/americas/11venezuela.html?ref=world">The New York Times</a>:</p>

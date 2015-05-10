@@ -1,5 +1,5 @@
 title: "Google's first tweet"
-Date: 2009-02-26 13:02:34
+date: 2009/2/26 13:02:34
 Tags: binary,google,map,octal,perl,twitter
 ---
 <a href="http://google.com">Google</a> created an official <a href="http://twitter.com">Twitter</a> <a href="http://twitter.com/google">account</a>. Its <a href="http://twitter.com/google/status/1251523388">first tweet</a> was something odd:

@@ -1,5 +1,5 @@
 title: "return Dumper $self->updates;"
-Date: 2008-05-26 17:44:46
+date: 2008/5/26 17:44:46
 Tags: life,vida
 ---
 <ul>

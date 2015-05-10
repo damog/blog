@@ -1,5 +1,5 @@
 title: "Liferea"
-Date: 2005-01-16 07:27:56
+date: 2005/1/16 07:27:56
 Tags: 
 ---
 <p><a href="http://liferea.sf.net">Liferea</a> 0.9.0 is finally out.</p>

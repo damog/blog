@@ -1,5 +1,5 @@
 title: "Alza la mano si te gusta el cumbiamusic con el ritmo que yo traigo desde el Cerro de la Silla"
-Date: 2004-12-23 16:01:44
+date: 2004/12/23 16:01:44
 Tags: 
 ---
 <p>OK, tengo que aceptar que este post es una reverenda mamada, pero bueno, es divertido para la banda chilanga, por favor no se sientan ofendidos los norteños :-)</p>

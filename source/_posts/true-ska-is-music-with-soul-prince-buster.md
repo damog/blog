@@ -1,5 +1,5 @@
 title: ""True ska is music with soul". -Prince Buster."
-Date: 2003-07-29 18:54:01
+date: 2003/7/29 18:54:01
 Tags: 
 ---
 <p>Pues, para no perder la costumbre, he estado escuchando una estación de radio por Internet, muy buena, de ska.</p>

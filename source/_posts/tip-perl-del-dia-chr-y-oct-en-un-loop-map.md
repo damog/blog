@@ -1,5 +1,5 @@
 title: "Tip Perl del día: chr y oct en un loop map"
-Date: 2007-10-22 06:50:03
+date: 2007/10/22 06:50:03
 Tags: 
 ---
 <p>La función map de Perl es muy poderosa. O como diría entre cuates, <em>mucho muy</em> poderosa. Básicamente lo que hace es evaluar en un bloque, cada uno de los elementos de una lista.

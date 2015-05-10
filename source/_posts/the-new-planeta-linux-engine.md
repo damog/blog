@@ -1,5 +1,5 @@
 title: "The new Planeta Linux engine"
-Date: 2009-11-11 19:06:50
+date: 2009/11/11 19:06:50
 Tags: git,perl,planet,planeta linux,planetplanet,venus
 ---
 So I've spent quite some time in the last couple of months (whenever I had a chance, actually), to redesign how the core of <a href="http://planetalinux.org">Planeta Linux</a> works, and I'll explain all the changes I've made to make it a much better solution that fully fits our current needs. If you are reading this with a feed reader, <strong>star this item, share the item, retweet the post</strong>! Let everyone know we are doing this for the Linux Latin American community!

@@ -1,5 +1,5 @@
 title: "Fiesta de la Semana de la M�sica"
-Date: 2005-03-13 19:23:02
+date: 2005/3/13 19:23:02
 Tags: 
 ---
 <p><a href="http://www.geocities.com/semanamusica">Semana de la Música</a> de la <a href="http://www.uia.mx">Ibero</a>, en los inhóspitos rumbos de las Lomas de Chapultepec.</p>

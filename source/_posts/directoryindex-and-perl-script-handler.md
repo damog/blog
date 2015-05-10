@@ -1,5 +1,5 @@
 title: "DirectoryIndex and the "perl-script" handler"
-Date: 2008-12-02 12:12:40
+date: 2008/12/2 12:12:40
 Tags: apache,mod_perl,perl
 ---
 <p><a href="http://www.grep.be/blog/en/computer/play/scriptalias_index.cgi">Wouter Verhelst blogs about combining</a> ScriptAlias (or a way to run CGIs) and DirectoryIndex in Apache.</p>

@@ -1,5 +1,5 @@
 title: "/me bebiendo café"
-Date: 2003-06-19 19:44:14
+date: 2003/6/19 19:44:14
 Tags: 
 ---
 Pues bueno, luego de tener que ver muy de cerca a JDK en <a href="http://web.archive.org/web/20030719200405/http://vitalis.com.mx/">Vitalis</a>, estuve haciendo mis primeras líneas de código en el odiado o amado <em>Java</em>. Aún cuando no comparto al 100% la filosofía Java/Sun Microsystems, tengo que ver qué onda.

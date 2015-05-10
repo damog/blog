@@ -1,5 +1,5 @@
 title: "Running find with two or more commands to -exec"
-Date: 2010-09-28 12:02:38
+date: 2010/9/28 12:02:38
 Tags: bash,find,tips,unix
 ---
 I spent a couple of minutes today trying to understand how to make <a href="http://unixhelp.ed.ac.uk/CGI/man-cgi?find" target="_blank"><tt>find (1)</tt></a> to execute two commands on the same target.

@@ -1,5 +1,5 @@
 title: "Nueva cara de Planeta Linux"
-Date: 2006-04-06 07:42:24
+date: 2006/4/6 07:42:24
 Tags: 
 ---
 <p>¿Ya viste los nuevos templates de <a target="_blank" href="http://mx.planetalinux.org/">Planeta Linux México</a>, <a target="_blank" href="http://ve.planetalinux.org/">Planeta Linux Venezuela</a> y <a target="_blank" href="http://pe.planetalinux.org/">Planeta Linux Perú</a>?</p>

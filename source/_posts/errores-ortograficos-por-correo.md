@@ -1,5 +1,5 @@
 title: "Errores ortográficos por correo"
-Date: 2008-09-02 09:16:20
+date: 2008/9/2 09:16:20
 Tags: idiotas,ortografía
 ---
 Seguro a más de uno le llegó este correo:

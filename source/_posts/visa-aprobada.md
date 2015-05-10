@@ -1,5 +1,5 @@
 title: "Visa aprobada"
-Date: 2006-02-02 03:05:45
+date: 2006/2/2 03:05:45
 Tags: 
 ---
 <p>Pues el día de hoy fui a la embajada americana por primera vez en mi pueril vida. La cita estaba fijada a las 8 de la mañana, por lo cual llegué a las 7:30. Para mi sorpresa vi un mundo interminable de gente, había muchísima gente: Personas de traje, señoras pedorras sintiéndose chingonas por que van a Estados Unidos, hipsters, niños fresas, pero también mucha gente humilde, sombrerudos, viejos y viejas, señoras gordas que llevan banquitos, viejas estúpidas que no paran de hablar y poner nervioso a todo mundo.</p>

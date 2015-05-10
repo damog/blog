@@ -1,5 +1,5 @@
 title: "Hit Counter gadget"
-Date: 2003-11-13 19:36:08
+date: 2003/11/13 19:36:08
 Tags: 
 ---
 <p>Pues continuando de colaborar con <a href="http://web.archive.org/web/20031125134728/http://jaws-project.sf.net/">JAWS</a> un poquito, me hice <a href="http://web.archive.org/web/20031125134728/http://www.damog.net/files/hit_counter.phps">éste</a> gadget que cuenta los hits que se hacen del sitio.

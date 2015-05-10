@@ -1,5 +1,5 @@
 title: "Primeras fotos de Finlandia"
-Date: 2005-07-10 23:17:53
+date: 2005/7/10 23:17:53
 Tags: 
 ---
 Pues ya puse en línea la primera tanda de fotos de todo el asunto por acá en Helsinki, Finlandia, del <a href="http://www.debconf.org/debconf5" target="_blank">DebConf5</a>.<br/><br/>

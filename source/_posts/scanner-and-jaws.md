@@ -1,5 +1,5 @@
 title: "Scanner and jaws"
-Date: 2004-05-16 13:53:08
+date: 2004/5/16 13:53:08
 Tags: 
 ---
 <p>I really need an scanner :(</p>

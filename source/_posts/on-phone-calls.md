@@ -1,5 +1,5 @@
 title: "On phone calls"
-Date: 2008-08-04 15:48:12
+date: 2008/8/4 15:48:12
 Tags: méxico,nyc,rabia,teléfono
 ---
 I've enjoyed reading Sarah Hatter's (from <a href="http://37signals.com/">37signals</a>) <a href="http://www.37signals.com/svn/posts/1161-why-would-you-want-to-call-me">blog post</a> about phone support. I can't say anything else that I totally agree about it, and I'd like to share my own experience.

@@ -1,5 +1,5 @@
 title: "Información de contacto"
-Date: 2006-01-27 23:48:42
+date: 2006/1/27 23:48:42
 Tags: 
 ---
 <p>La mejor forma para contactarme es y será siempre, el correo electrónico. Puedes escribirme a la siguiente dirección:

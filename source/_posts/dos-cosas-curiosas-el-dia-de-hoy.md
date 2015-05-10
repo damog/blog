@@ -1,5 +1,5 @@
 title: "Dos cosas curiosas el día de hoy"
-Date: 2006-04-12 03:24:29
+date: 2006/4/12 03:24:29
 Tags: 
 ---
 <p>Caracas es una ciudad súmamente curiosa y divertida, hoy me pasaron dos cosas interesantes :)</p>

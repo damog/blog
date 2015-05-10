@@ -1,5 +1,5 @@
 title: "Twitter's OAuth + Perl"
-Date: 2009-05-21 14:06:42
+date: 2009/5/21 14:06:42
 Tags: oauth,perl,twitter
 ---
 During the last week, unbeatable <a href="http://bulknews.vox.com/">Tatsuhiko Miyagawa</a> uploaded <a href="http://search.cpan.org/dist/Net-Twitter-OAuth/">Net::Twitter::OAuth</a> to <a href="http://search.cpan.org/">CPAN</a>, which provides an awesome interface for <a href="http://search.cpan.org/dist/Net-OAuth-Simple/">Net::OAuth::Simple</a> and <a href="http://twitter.com/">Twitter</a> by subclassing <a href="http://search.cpan.org/dist/Net-Twitter/">Net::Twitter</a>. This way, it's very easy to develop Twitter client applications using its <em>new</em> <a href="http://apiwiki.twitter.com/OAuth-FAQ">OAuth method</a> dropping the need for users to hand their credentials to third parties.

@@ -1,5 +1,5 @@
 title: "Navidad"
-Date: 2003-11-30 19:27:53
+date: 2003/11/30 19:27:53
 Tags: 
 ---
 <p>A un día del inicio del mes decembrino, ya se siente la Navidad por doquier :D</p>

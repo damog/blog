@@ -1,5 +1,5 @@
 title: "Geo::PostalCode::NoDB 0.01"
-Date: 2012-03-21 11:19:17
+date: 2012/3/21 11:19:17
 Tags: berkeley db,cpan,hack,perl,postal code,zipcodes
 ---
 <a href="https://metacpan.org/module/Geo::PostalCode">Geo::PostalCode</a> is a great Perl module. It lets you find surrounding postal areas (zip codes) around a given an amount of miles (radius), calculate distance between them, among other nice features. Sadly, I couldn't get it to work with updated data and because the file its Berkely DB installer was producing was not being recognized by its parser, which bases off on <a href="http://perldoc.perl.org/DB_File.html">DB_File</a>. Since I was able to find <a href="http://damog.net/files/misc/zipcodes-csv-10-Aug-2004.zip">working data</a> for the source of zip codes, I ended up hacking the module and producing a version with no Berkeley DB support.

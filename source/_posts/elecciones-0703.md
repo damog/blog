@@ -1,5 +1,5 @@
 title: "Elecciones 07/03"
-Date: 2003-07-06 19:02:37
+date: 2003/7/6 19:02:37
 Tags: 
 ---
 <p>Señores&#8230; Y señoritas (casi no entran señoras a ver este sitio <img alt=": P " src="http://web.archive.org/web/20030719200405/http://www.damog.org/blog/b2-img/smilies/icon_razz.gif"/>).</p>

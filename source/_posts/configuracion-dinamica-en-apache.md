@@ -1,5 +1,5 @@
 title: "Configuración dinámica en Apache"
-Date: 2008-11-15 14:20:09
+date: 2008/11/15 14:20:09
 Tags: la columna de perl,mod_perl,perl,planeta linux
 ---
 Una de las cosas más bonitas que puedes hacer gracias a <a href="http://perl.apache.org/"><tt>mod_perl</tt></a>, son las <a href="http://perl.apache.org/docs/2.0/api/Apache2/PerlSections.html"><code>PerlSections</code></a>.

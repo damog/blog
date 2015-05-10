@@ -1,5 +1,5 @@
 title: "Yo"
-Date: 2006-07-21 17:07:00
+date: 2006/7/21 17:07:00
 Tags: 
 ---
 Foto tomada por <a target="_blank" href="http://www.damog.net/gallery/moblog/muchachito_site">Daniel</a>, hace algunos meses, en la oficina.

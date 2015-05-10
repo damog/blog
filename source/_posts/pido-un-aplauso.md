@@ -1,5 +1,5 @@
 title: "Pido un aplauso..."
-Date: 2005-09-09 16:34:31
+date: 2005/9/9 16:34:31
 Tags: 
 ---
 <p>&#8230;para la paloma. Que durante tanto tiempo me ha transportado de lugar

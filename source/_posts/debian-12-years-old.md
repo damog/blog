@@ -1,5 +1,5 @@
 title: "Debian: 12 years old"
-Date: 2005-08-16 23:03:17
+date: 2005/8/16 23:03:17
 Tags: 
 ---
 <p>Happy Birthday, Debian project!<br/><br/>

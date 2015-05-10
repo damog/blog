@@ -1,5 +1,5 @@
 title: "GMail and Sup, the smart way"
-Date: 2008-04-20 19:31:00
+date: 2008/4/20 19:31:00
 Tags: 
 ---
 <p>I&#8217;m a person who isn&#8217;t satisfied with a lot of things. This both affects me and helps me on several circumstances in life, such it is.</p>

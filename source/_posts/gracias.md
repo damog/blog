@@ -1,5 +1,5 @@
 title: "Gracias"
-Date: 2007-11-23 05:02:09
+date: 2007/11/23 05:02:09
 Tags: 
 ---
 <p>En este país nos podemos sentir a veces un poco fuera de lugar. Este fin de semana es una prueba de ellos; la mayoría de gente a nuestro alrededor van a sus casas a comer pavo y a pasarla con sus familias, agradecen por lo que tienen, etc. No toda la gente por aquí es como muchos creemos que son.</p>

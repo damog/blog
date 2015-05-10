@@ -1,5 +1,5 @@
 title: "Al Negro..."
-Date: 2003-12-01 19:26:54
+date: 2003/12/1 19:26:54
 Tags: 
 ---
 <p>Que quede muy, muy claro. Al <a href="mailto:guorloma@hotmail.com">Negro</a> <strong>NO, NO, NO</strong> se la mamaron por primera vez :-D

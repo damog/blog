@@ -1,5 +1,5 @@
 title: "damogzito cocktail"
-Date: 2006-09-08 20:30:39
+date: 2006/9/8 20:30:39
 Tags: 
 ---
 How to make a damogzito

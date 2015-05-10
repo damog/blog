@@ -1,5 +1,5 @@
 title: "Goodbye to LiveJournal"
-Date: 2004-09-26 14:39:28
+date: 2004/9/26 14:39:28
 Tags: 
 ---
 <p>This is my last entry on LiveJournal. I finally moved my blog to my own website at <a href="http://www.damog.net//">damog.net</a>. There is where my new weblog is installed.</p>

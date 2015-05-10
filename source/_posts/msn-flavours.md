@@ -1,5 +1,5 @@
 title: "MSN Flavours ;)"
-Date: 2004-06-23 14:16:37
+date: 2004/6/23 14:16:37
 Tags: 
 ---
 <p>So, if you were a candy or dessert, what would you be?

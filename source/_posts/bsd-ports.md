@@ -1,5 +1,5 @@
 title: "BSD ports"
-Date: 2004-01-05 14:40:43
+date: 2004/1/5 14:40:43
 Tags: 
 ---
 <p>Pues bueno, inspirado un poco en algunos sitios con sistemas completos web orientados a la localización de ports de BSD, me he decidido a empezar un pequeño sistema web para hacer precisamente eso.</p>

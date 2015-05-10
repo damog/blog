@@ -1,5 +1,5 @@
 title: "Entré"
-Date: 2006-07-22 18:38:04
+date: 2006/7/22 18:38:04
 Tags: 
 ---
 <p align="center"><a target="_blank" href="http://www.unam.mx/"><img src="http://www.damog.net/files/misc/escudo-unam.jpg"/></a></p>

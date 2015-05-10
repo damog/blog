@@ -1,5 +1,5 @@
 title: "Muertos Incómodos (falta lo que falta)"
-Date: 2006-11-16 02:09:58
+date: 2006/11/16 02:09:58
 Tags: 
 ---
 <p>Hoy terminé de leer la novela escrita a cuatro manos, <a href="http://www.amazon.com/Muertos-Incomodos-Falta-que/dp/9682710057">Muertos Incómodos</a>, de <a href="http://www.vespito.net/taibo/index-es.html">Paco Ignacio Taibo II</a> y el <a href="http://es.wikipedia.org/wiki/Subcomandante_Marcos">Subcomandante Insurgente Marcos</a>. La novela está dividida en capítulos, aquellos nones fueron escritos por el Sub y los pares por Taibo II; se publicó originalmente de diciembre del 2004 a febrero del 2005&#160;en entregas dentro de <a href="http://www.jornada.unam.mx">La Jornada</a>.</p>

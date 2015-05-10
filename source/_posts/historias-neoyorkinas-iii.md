@@ -1,5 +1,5 @@
 title: "Historias neoyorkinas III"
-Date: 2007-11-28 18:36:00
+date: 2007/11/28 18:36:00
 Tags: 
 ---
 <p>Fuimos rahep y damog a comprar comida cerca de la oficina. Generalmente lo más barato es ir a un deli, donde como en todos lados, mexicanos cocinan y preparan la comida. La chamaca se quedó en el cajero y yo me fui directo al mostrador de comida y vi los letreros para ver qué pedía.</p>

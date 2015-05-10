@@ -1,5 +1,5 @@
 title: "Infinita tristeza"
-Date: 2005-05-27 17:16:21
+date: 2005/5/27 17:16:21
 Tags: 
 ---
 Parece mentira que entre tanta gente en esta ciudad, no tenga a nadie

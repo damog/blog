@@ -1,5 +1,5 @@
 title: "Viajar"
-Date: 2007-06-15 22:22:39
+date: 2007/6/15 22:22:39
 Tags: 
 ---
 <p>Me gusta viajar. Me ha gustado siempre, pero antes no me daba cuenta porque era un niño chillón. Me he dado cuenta que me gusta viajar recientemente que lo he podido hacer independientemente a mis padres, aunque ahora con nostalgia, me gustaría hacerlo más con ellos.</p>

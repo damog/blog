@@ -1,5 +1,5 @@
 title: "Semana de la Música Ibero"
-Date: 2005-03-08 02:01:48
+date: 2005/3/8 02:01:48
 Tags: 
 ---
 <p>La imagen dice m᳠que mil palabras ;-)</p>

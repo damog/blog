@@ -1,5 +1,5 @@
 title: "Almost ready"
-Date: 2004-10-11 18:12:21
+date: 2004/10/11 18:12:21
 Tags: 
 ---
 <p>I spent the entire weekend sick in bed. Until today I went to see a doctor, and he gave me some medications, feeling better now.</p>

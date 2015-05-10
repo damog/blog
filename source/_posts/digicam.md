@@ -1,5 +1,5 @@
 title: "DigiCam"
-Date: 2003-11-09 19:39:22
+date: 2003/11/9 19:39:22
 Tags: 
 ---
 <p>Pues el día de hoy me compré una bonita y linda camarita digital&#8230; Ya tenía muchas ganas de una. Al menos, para tomar fotos aquí, allá y acullá.

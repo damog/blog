@@ -1,5 +1,5 @@
 title: "Cofratira"
-Date: 2004-05-10 13:49:36
+date: 2004/5/10 13:49:36
 Tags: 
 ---
 <p>I&#8217;ve been making some drawings for <a href="http://www.cofradia.org/">La Cofradía Digital</a>. I really like about drawing the first square, but when coming to second and third is kind of heavy.</p>

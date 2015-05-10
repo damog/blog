@@ -1,5 +1,5 @@
 title: "Fotos del toquín en CU de ayer"
-Date: 2006-08-31 21:51:06
+date: 2006/8/31 21:51:06
 Tags: 
 ---
 Pues ayer hubo una tocada en <a target="_blank" href="http://www.mapa.unam.mx/cgi-bin/mapa.cgi?mapa=B4">Las Islas</a>, en Ciudad Universitaria.

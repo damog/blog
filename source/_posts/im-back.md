@@ -1,5 +1,5 @@
 title: "I'm back"
-Date: 2004-10-01 18:08:53
+date: 2004/10/1 18:08:53
 Tags: 
 ---
 <p>I’m finally back in town. <a href="http://web.archive.org/web/20041018111240/http://fsl.glo.org.mx/">Festival de Software Libre</a> was pretty cool, although, I couldn’t find a real [and usable] access point for my connection needs <img alt="wink.png" src="http://web.archive.org/web/20041018111240/http://www.damog.net/images/emoticons/wink.png"/>

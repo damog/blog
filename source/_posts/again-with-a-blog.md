@@ -1,5 +1,5 @@
 title: "Again with a blog"
-Date: 2004-05-10 13:46:51
+date: 2004/5/10 13:46:51
 Tags: 
 ---
 <p>Well, I am back again with a blog. I hope this time will be better, or maybe I won&#8217;t drop it soon :-P</p>

@@ -1,5 +1,5 @@
 title: "At Ismael's"
-Date: 2004-06-22 14:16:07
+date: 2004/6/22 14:16:07
 Tags: 
 ---
 <p>Yesterday I was at <a href="http://www.olea.org/">Ismael Olea</a>&#8217;s course, organized by <a href="http://www.upn.mx/">UPN</a>, talking about technical documentation, and editing stuff. It was quite interesting how he can point to some specific needed issues. This issues are commonly mistakes of the writers, the coders, the speakers, everybody involved on linguistics.</p>

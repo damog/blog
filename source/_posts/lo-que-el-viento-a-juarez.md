@@ -1,5 +1,5 @@
 title: "Lo que el viento a Juárez"
-Date: 2006-03-16 20:15:43
+date: 2006/3/16 20:15:43
 Tags: 
 ---
 <p>Hola. Desde las alturas del piso 19 del Centro Comercial <a target="_blank" href="http://www.fallingrain.com/world/VE/25/Los_Chaguaramos.html">Los Chaguaramos</a> en Caracas, capital venezolana, reporta David Moreno Jr.</p>

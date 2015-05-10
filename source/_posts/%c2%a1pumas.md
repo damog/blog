@@ -1,5 +1,5 @@
 title: "¡Pumas!"
-Date: 2004-11-28 15:43:07
+date: 2004/11/28 15:43:07
 Tags: 
 ---
 <img src="http://www.damog.net/images/pumas.png"/>

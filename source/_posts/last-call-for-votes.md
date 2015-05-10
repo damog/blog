@@ -1,5 +1,5 @@
 title: "Last call for votes!"
-Date: 2006-02-03 16:47:25
+date: 2006/2/3 16:47:25
 Tags: 
 ---
 If you haven&#8217;t signed the petition for abrotman to come to DebConf6, sign it now! We are still 13 votes behind of our goal. Here is a picture so you can think on friendship :)

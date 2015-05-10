@@ -1,5 +1,5 @@
 title: "Semáforos y pesadez"
-Date: 2006-09-02 14:43:11
+date: 2006/9/2 14:43:11
 Tags: 
 ---
 <p>Oído en una calle cerca del WTC:

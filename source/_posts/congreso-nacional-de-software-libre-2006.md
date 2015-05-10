@@ -1,5 +1,5 @@
 title: "Congreso Nacional de Software Libre 2006"
-Date: 2006-08-13 16:22:11
+date: 2006/8/13 16:22:11
 Tags: 
 ---
 <p>El <a target="_blank" href="http://www.consol.org.mx">CONSOL</a> 2006, ante mi propio escepticismo, ya está aquí, y se celebrará en las instalaciones del <a target="_blank" href="http://www.ipn.mx">Instituto Politécnico Nacional</a>, del 15 al 18 de agosto. Es cierto que yo tuve muchas dudas acerca de la realización del congreso y más, estando por fuera, pero ahora sólo me toca desearles un gran éxito y que ojalá salgas las cosas tan bien como siempre nos salieron.

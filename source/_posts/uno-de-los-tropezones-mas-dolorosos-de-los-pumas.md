@@ -1,5 +1,5 @@
 title: "Uno de los tropezones más dolorosos de los Pumas"
-Date: 2006-02-23 19:09:15
+date: 2006/2/23 19:09:15
 Tags: 
 ---
 <p>Ayer fui con mi papá al <a target="_blank" href="http://en.wikipedia.org/wiki/Estadio_Ol%C3%ADmpico_Universitario">Estadio Olímpico Universitario</a> a ver a los <a target="_blank" href="http://www.pumasunam.com.mx">Pumas de la UNAM</a> jugar contra el <a target="_blank" href="http://www.uamaracaibo.org/">Unión Atlético Maracaibo</a>, equipo venezolano, compañero de grupo en la <a target="_blank" href="http://www.conmebol.com/">Copa Toyota Libertadores</a>.</p>

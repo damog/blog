@@ -1,5 +1,5 @@
 title: "Re: On DebGem"
-Date: 2009-01-08 10:40:38
+date: 2009/1/8 10:40:38
 Tags: debgem,debian,gem,ruby
 ---
 <a href="http://www.grep.be/blog/en/computer/debian/debgem">Wouter</a>, I find your thinking on <a href="http://debgem.phusion.nl/">DebGem</a> a bit overreacted. I think you are taking the product and commercial efforts that a company make as the proposed solution we've all been expecting for a similar problem, which is not. You are considering DebGem to be an outcome provided by the Ruby community, which is not, to this issue.

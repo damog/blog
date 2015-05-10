@@ -1,5 +1,5 @@
 title: "Flu"
-Date: 2004-10-07 18:10:57
+date: 2004/10/7 18:10:57
 Tags: 
 ---
 <p>Today I have been atacked by a flu. I hate the sore throat, the body pain, headache, etc.</p>

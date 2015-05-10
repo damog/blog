@@ -1,5 +1,5 @@
 title: "To Edinburgh"
-Date: 2007-05-04 05:10:35
+date: 2007/5/4 05:10:35
 Tags: 
 ---
 <p>I just booked and paid my tickets to reach Edinburgh next month and attend <a href="http://debconf7.debconf.org/" target="_blank">DebConf7</a>.</p>

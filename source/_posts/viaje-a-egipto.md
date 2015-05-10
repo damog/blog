@@ -1,5 +1,5 @@
 title: "Viaje a Egipto"
-Date: 2005-01-11 18:03:22
+date: 2005/1/11 18:03:22
 Tags: 
 ---
 <p>Pues bueno, para quien le pueda llegar a interesar, la <a href="http://www.uia.mx">universidad</a> estᠯrganizando un viaje a Egipto, acá la información:</p>

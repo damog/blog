@@ -1,5 +1,5 @@
 title: "From Coatzacoalcos"
-Date: 2004-07-01 14:17:56
+date: 2004/7/1 14:17:56
 Tags: 
 ---
 <p>Well, I put my ass on a bus, and eight hours later I was in Coatzacoalcos, in the beautiful state of Veracruz, very near to Tabasco.</p>

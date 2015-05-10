@@ -1,5 +1,5 @@
 title: "M�s memes"
-Date: 2005-08-02 23:35:47
+date: 2005/8/2 23:35:47
 Tags: 
 ---
 Ahorita, luego de recibir un meme más en mi correo, enviado por Jenny,

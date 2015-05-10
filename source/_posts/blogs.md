@@ -1,5 +1,5 @@
 title: "Blogs"
-Date: 2003-11-21 19:29:50
+date: 2003/11/21 19:29:50
 Tags: 
 ---
 <p>Parece que a partir de la liberación de <a href="http://web.archive.org/web/20031125134728/http://jaws-project.sf.net/">JAWS</a>, muchos integrantes de la comunidad de software libre se ha decidido por montar su blog.</p>

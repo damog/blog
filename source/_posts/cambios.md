@@ -1,5 +1,5 @@
 title: "Cambios"
-Date: 2004-11-26 15:40:09
+date: 2004/11/26 15:40:09
 Tags: 
 ---
 <p>Por fin me he decidido a hacer cambios por aquí.</p>

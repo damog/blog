@@ -1,5 +1,5 @@
 title: "I don't practice santeria"
-Date: 2004-09-12 14:34:56
+date: 2004/9/12 14:34:56
 Tags: 
 ---
 <p>Well, different things from now. I have some different things to blog that I don&#8217;t really know where to start.

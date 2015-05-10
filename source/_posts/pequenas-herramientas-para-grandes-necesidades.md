@@ -1,5 +1,5 @@
 title: "Pequeñas herramientas para grandes necesidades"
-Date: 2007-08-31 22:44:51
+date: 2007/8/31 22:44:51
 Tags: 
 ---
 <p id="post-664"><strong>Pequeñas herramientas para grandes necesidades</strong></p>

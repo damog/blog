@@ -1,5 +1,5 @@
 title: "Cuba: La semana pasada"
-Date: 2006-06-28 20:46:02
+date: 2006/6/28 20:46:02
 Tags: 
 ---
 Pues la semana pasada estuve en Cuba, gracias a invitaciones que me había hecho <a target="_blank" href="http://moya.latertulia.org/blog">Maykel Moya</a> repetidamente y gracias al apoyo económico de <a target="_blank" href="http://wiki.earth.li/DebianUKSociety">Debian UK Society</a>, que pagó el vuelo y yo pagué los gastos de hospedaje.

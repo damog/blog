@@ -1,5 +1,5 @@
 title: "Uno de ventaja"
-Date: 2004-12-02 15:46:40
+date: 2004/12/2 15:46:40
 Tags: 
 ---
 <p>Acaba de terminar el partido entre los poderosísimos Pumas de la Universidad y los chavitos del Atlas.</p>

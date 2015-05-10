@@ -1,5 +1,5 @@
 title: "Fotos de Espa�a"
-Date: 2005-05-06 15:50:54
+date: 2005/5/6 15:50:54
 Tags: 
 ---
 <p>Ya lo dijeron los poetas de la música ska española:<br/><br/></p>

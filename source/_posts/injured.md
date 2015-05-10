@@ -1,5 +1,5 @@
 title: "Injured"
-Date: 2007-06-11 22:15:50
+date: 2007/6/11 22:15:50
 Tags: 
 ---
 <p>I’m injured. Yesterday, Raquel and me were fooling around and playing, so in the middle of the play, I knelt down, grabbed her legs and put her lap on my left shoulder in order to lift her. So I did.</p>

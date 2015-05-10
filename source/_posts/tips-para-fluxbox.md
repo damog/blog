@@ -1,5 +1,5 @@
 title: "Tips para Fluxbox"
-Date: 2006-07-24 22:26:32
+date: 2006/7/24 22:26:32
 Tags: 
 ---
 <p>Bueno, desde hace unos meses he intentado escribir algunos tips que he ido descubriendo al utilizar Fluxbox durante hace ya mucho tiempo, precisamente para los cuates que me han comentado o que he leído que han empezado a utilizar Fluxbox, especialmente a <a target="_blank" href="http://mannyto.unplug.org.mve">mannyto</a>, <a target="_blank" href="http://ghostbar.ath.cx/">ghostbar</a> y <a target="_blank" href="http://www.riveonline.com/">RIVE</a>, y en general para cualquier otro mai que quiera empezar a usar este fantástico manejador de ventanas.

@@ -1,5 +1,5 @@
 title: "Patricia Mercado renuncia al proyecto de Socialdemocracia"
-Date: 2008-09-24 12:14:13
+date: 2008/9/24 12:14:13
 Tags: méxico,política,socialdemocracia,tristeza
 ---
 <a href="http://patriciamercado.wordpress.com/2008/09/24/carta-de-renuncia-al-psd/">Leo</a> con tristeza (pero entendimiento) que <a href="http://patriciamercado.wordpress.com/">Patricia Mercado</a> ha renunciado del <a href="http://es.wikipedia.org/wiki/Alternativa_Social_Democrata">Partido Socialdemócrata</a> luego de <a href="http://andreslajous.blogs.com/alternativa_joven/files/lastacticasdebegne.pdf">los problemas que tuvo el partido al ser robado por corruptos y mafiosos</a> que con <em>putas chingaderas</em> alejaron los verdaderos ideales de los sueños que muchos tuvimos al votar por el partido en 2006, dirigidos principalmente por esta mujer.

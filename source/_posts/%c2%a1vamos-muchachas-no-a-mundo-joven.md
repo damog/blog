@@ -1,5 +1,5 @@
 title: "¡Vamos muchachas! No a Mundo Joven"
-Date: 2006-09-30 17:48:17
+date: 2006/9/30 17:48:17
 Tags: 
 ---
 <p>Hoy me llegó una promoción de <a target="_blank" href="http://www.mundojoven.com">Mundo Joven</a> al correo. Qué deplorable y denigrante que una agencia de viajes promueva algo así como <strong>&#8220;¡vamos chicas, váyanse a Europa a que se las cojan los güeros de Europa! Tú, pinche jodida prieta color de llanta (eufemismo: morena), lánzate a Europa pues allá te espera un pinche güerote bien guapote, para ti que sólo piensas en sexo todo el día con alguien diferente a la bola de horribles gordos bigotones mexicanos. ¡Sólo cuidado con el otro 40% pues son, o bien pinches racistas o sólo te verán como su oportunidad para conseguir a alguien como mano de obra barata para que atiendas un puto café y te sientas realizada! Sí, pinche amiga fea, tú que no conseguirás nada en México, Mundo Joven te da la oportunidad de que algún pinche francés, italiano o alemán te haga suya, ¿te imaginas? ¡Es posible! ¡Lo que siempre soñaste! Sólo danos tu dinero y te cumpliremos tu sueño, pinche feíta&#8221;</strong>.

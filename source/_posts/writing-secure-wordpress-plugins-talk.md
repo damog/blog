@@ -1,5 +1,5 @@
 title: "Writing Secure WordPress Plugins talk by Mark Jaquith"
-Date: 2009-11-24 17:29:18
+date: 2009/11/24 17:29:18
 Tags: ajax,csrf,php,plugins,security,sql injection,wordcamp,wordpress,xss
 ---
 Continuing my notes and remarks from <a href="http://2009.newyork.wordcamp.org/">WordCamp</a>, I attended <a href="http://2009.newyork.wordcamp.org/2009/11/13/writing-secure-plugins/">Writing Secure Plugins</a>, which was given by <a href="http://markjaquith.com/">Mark Jaquith</a> (@<a href="http://twitter.com/markjaquith">markjaquith</a> on Twitter). I found the talk to be also slightly introductory on security matters but nicely oriented to <a href="http://wordpress.org">WordPress</a> plugins and general PHP Web app development. I believe most of the tips given should be taken into consideration by every PHP coder out there, not just WP people.

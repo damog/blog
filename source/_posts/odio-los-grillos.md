@@ -1,5 +1,5 @@
 title: "Odio los grillos"
-Date: 2005-08-31 04:04:38
+date: 2005/8/31 04:04:38
 Tags: 
 ---
 Entro a la interfaz de administración de mi sitio para escribir sobre

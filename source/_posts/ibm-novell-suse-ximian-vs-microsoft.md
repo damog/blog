@@ -1,5 +1,5 @@
 title: "IBM & Novell & SuSE & Ximian vs. Microsoft"
-Date: 2003-11-24 19:28:27
+date: 2003/11/24 19:28:27
 Tags: 
 ---
 <p>Pues son las siete y media de la mañana, lunes.</p>

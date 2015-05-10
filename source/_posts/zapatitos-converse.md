@@ -1,5 +1,5 @@
 title: "Zapatitos Converse"
-Date: 2005-05-20 02:26:51
+date: 2005/5/20 02:26:51
 Tags: 
 ---
 <p>Me declaro un fanᴩco de los tenis <a href="http://www.converse.com" target="_blank">Converse</a>, sólo por ello tengo

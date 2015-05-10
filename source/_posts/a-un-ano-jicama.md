@@ -1,5 +1,5 @@
 title: "A un año... / Jícama"
-Date: 2003-10-11 18:46:35
+date: 2003/10/11 18:46:35
 Tags: 
 ---
 <p>Pues bueno, el día de mañana, 12 de octubre, además de conmemorarse&#8230; uhm&#8230; ¿cuántos años?

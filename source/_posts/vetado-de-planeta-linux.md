@@ -1,5 +1,5 @@
 title: "Vetado de Planeta Linux"
-Date: 2007-01-20 19:12:03
+date: 2007/1/20 19:12:03
 Tags: 
 ---
 <p>La semana pasada fue <em>mucho muy</em> pesada para mí. Entre la guardia, los proyectos que tengo en la chamba, <a target="_blank" href="http://www.ulteo.com/">Ulteo</a> y otras cosas, he quedado exhausto. De cualquier forma, durante la semana estuve revisando algunas cosas de <a target="_blank" href="http://www.planetalinux.org">Planeta Linux</a>, y entre ellas he tiránicamente decidido en vetar a <a target="_blank" href="http://damog.net/pipermail/planetalinux_damog.net/2007-January/000162.html">una persona</a> de Planeta Linux.</p>

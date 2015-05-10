@@ -1,5 +1,5 @@
 title: "Primeros días"
-Date: 2006-03-07 12:34:40
+date: 2006/3/7 12:34:40
 Tags: 
 ---
 <p>OK, pues debo una reseña en este blog sobre mis primeros días en Venezuela. Hace exactamente una semana que estoy aquí. Ana, <a target="_blank" href="http://bureado.unplug.org.ve">José</a>, <a target="_blank" href="http://mannyto.unplug.org.ve">Manuel</a> y Diego, un cuate de Ana, fueron a recogerme al aeropuerto y vinimos a Caracas para desayunar. Desde entonces he comido muchas cosas diferentes y divertidas. Me he quedado en casa de José, donde me han tratado super chido, no podría agradecerles lo que han hecho por mí. También ya fui a trabajar y aún cuando es un poco diferente a Nekotec, se siente el software libre a flor de piel y Ademar, el jefe, es a toda madre y me explica muchas cosas que, como extranjero tonto, no sé de este bello país.</p>

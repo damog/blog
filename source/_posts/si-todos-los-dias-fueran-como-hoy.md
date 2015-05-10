@@ -1,5 +1,5 @@
 title: "Si todos los días fueran como hoy"
-Date: 2006-02-07 03:38:18
+date: 2006/2/7 03:38:18
 Tags: 
 ---
 <p>El 5 de febrero de 1917, el presidente Venustiano Carranza promulga la Constitución Política de los Estados Unidos Mexicanos en la ciudad de Querétaro. Casi 90 años después, cuando algunos grupos consideran que esa constitución es un tanto vieja y obsoleta para los tiempos modernos, se proclama el día siguiente hábil, hoy, lunes 6 de febrero, día festivo.

@@ -1,5 +1,5 @@
 title: "Otra vez, ni modo"
-Date: 2007-02-12 05:16:19
+date: 2007/2/12 05:16:19
 Tags: 
 ---
 <p>El DebConf8 se favoreció para Mar del Plata, Argentina. No me gusta esta decisión: Yo quería que fuera en Lecherías, Venezuela. Pero eso supone mi personalísima opinión.</p>

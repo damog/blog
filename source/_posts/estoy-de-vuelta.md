@@ -1,5 +1,5 @@
 title: "Estoy de vuelta"
-Date: 2005-07-21 17:54:19
+date: 2005/7/21 17:54:19
 Tags: 
 ---
 Pues ya regresé a México.<br/><br/>

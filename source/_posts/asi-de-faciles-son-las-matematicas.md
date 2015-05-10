@@ -1,5 +1,5 @@
 title: "Así de fáciles son las matemáticas"
-Date: 2006-09-18 04:54:26
+date: 2006/9/18 04:54:26
 Tags: 
 ---
 <p align="center"><img src="http://damog.net/files/misc/matematicas2.jpg"/>

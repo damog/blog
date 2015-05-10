@@ -1,5 +1,5 @@
 title: "Joke"
-Date: 2006-10-23 21:08:25
+date: 2006/10/23 21:08:25
 Tags: 
 ---
 <p><em>Found at the <a target="_blank" href="http://www.mchhh.com/">Mexico City House Hash Harriers</a> mailing list :) </em></p>

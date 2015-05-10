@@ -1,5 +1,5 @@
 title: "Debian-Tatuaje"
-Date: 2005-06-27 21:58:37
+date: 2005/6/27 21:58:37
 Tags: 
 ---
 <p><br/><br/></p>

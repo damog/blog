@@ -1,5 +1,5 @@
 title: "Fortune agradable"
-Date: 2003-11-18 19:31:15
+date: 2003/11/18 19:31:15
 Tags: 
 ---
 <p>Pues el día de hoy, mientras revisaba un par de scriptcillos de la escuela, abrí una Eterm, y el fortune que me mandó fue una excelente y hermosa frase:

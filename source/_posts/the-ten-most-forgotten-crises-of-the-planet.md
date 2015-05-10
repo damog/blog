@@ -1,5 +1,5 @@
 title: "The ten most forgotten crises of the planet"
-Date: 2007-01-14 20:26:17
+date: 2007/1/14 20:26:17
 Tags: 
 ---
 <p>Here it&#8217;s a top-10 list of <em>really important things</em>, created by <a target="_blank" href="http://www.msf.es/">Médicos Sin Fronteras</a> in Spanish. <a target="_blank" href="http://apebox.org/">directhex</a>, from #debian-offtopic (<em>thanks!</em>), provided a grammar/spelling check on my original English translation.

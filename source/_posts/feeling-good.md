@@ -1,5 +1,5 @@
 title: "Feeling good"
-Date: 2004-05-12 13:50:16
+date: 2004/5/12 13:50:16
 Tags: 
 ---
 <p>Some kind of irregular happiness has taken my soul today. This is probably the effect of a sun day, or maybe the end of the semester. Anyway I like even the color of the school&#8217;s grass, it is a pure green, a true color of nature. Smooth.</p>

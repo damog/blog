@@ -1,5 +1,5 @@
 title: "Wal*Mart"
-Date: 2004-10-16 18:16:47
+date: 2004/10/16 18:16:47
 Tags: 
 ---
 <p>Recently there has been intentions from <a href="http://web.archive.org/web/20041018111240/http://www.wal-mart.com/">Wal-Mart</a> of building their supermarkets in places that people do not want them to be built.

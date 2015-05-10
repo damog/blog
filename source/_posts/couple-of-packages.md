@@ -1,5 +1,5 @@
 title: "Couple of packages"
-Date: 2004-07-11 14:19:44
+date: 2004/7/11 14:19:44
 Tags: 
 ---
 <p>Finally, <a href="http://ruby-gnome2.sourceforge.jp/#Ruby%2FGtkTrayIcon+0.1.0">libgtk-trayicon-ruby</a> (and -ruby1.8) has entered to Debian queue. This was done thanks to <a href="mailto:paulvtATdebian.org">Paul van Tilburg</a>.

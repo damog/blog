@@ -1,5 +1,5 @@
 title: "Mathematica"
-Date: 2003-10-03 18:49:22
+date: 2003/10/3 18:49:22
 Tags: 
 ---
 <p>Pues me encuentro en la escuela, en clase de Cálculo, maneajdno el fabulosísimo y propiertario Mathematica 4.2 que genera unas gráficas muy bonitas y muy chaqueteras :P</p>

@@ -1,5 +1,5 @@
 title: "Cumpleaños 22"
-Date: 2006-08-09 20:21:20
+date: 2006/8/9 20:21:20
 Tags: 
 ---
 <p>Pues <strong>ayer</strong> fue mi cumpleaños, ocho de agosto. Cumplí veintidós años.

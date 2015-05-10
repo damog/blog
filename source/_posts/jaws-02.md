@@ -1,5 +1,5 @@
 title: "JAWS 0.2"
-Date: 2004-11-06 19:41:16
+date: 2004/11/6 19:41:16
 Tags: 
 ---
 <p>Pues el equipo de <a href="http://web.archive.org/web/20031125134728/http://jaws-project.sf.net/">JAWS</a> (qué digo equipo, la verdad fue nomás <a href="http://web.archive.org/web/20031125134728/http://ion.gluch.org.mx/">ion</a>) ha liberado la versión 0.2.</p>

@@ -1,5 +1,5 @@
 title: "Sol de medianoche"
-Date: 2005-07-15 11:53:24
+date: 2005/7/15 11:53:24
 Tags: 
 ---
 Lately, I&#8217;ve been listening a lot to a song which completely matches

@@ -1,5 +1,5 @@
 title: "debian-php"
-Date: 2004-08-16 14:28:54
+date: 2004/8/16 14:28:54
 Tags: 
 ---
 <p>It is not that I work a lot with PHP on Debian, but I really think many people could find a debian-php mailing list useful. That&#8217;s way I filed a Debian bug against lists.debian.org in order to propose the creation of the mailing list. The bug is <a href="http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=264069">here</a>.</p>

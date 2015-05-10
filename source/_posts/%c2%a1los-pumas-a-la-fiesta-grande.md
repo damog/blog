@@ -1,5 +1,5 @@
 title: "¡Los Pumas a la fiesta grande!"
-Date: 2006-11-13 07:19:47
+date: 2006/11/13 07:19:47
 Tags: 
 ---
 <p>Los <a href="http://www.pumasunam.com.mx">Pumas</a> de la <a href="http://www.unam.mx">UNAM</a> han concluído una exitosa temporada el día de hoy. Y digo exitosa porque, luego de varios torneos cortos mediocres, en éste pudo lograr no sólo escaparse un poco del asunto del descenso si no también meterse a la liguilla (playoffs) y más aún, terminando como 2do lugar en la tabla general.</p>

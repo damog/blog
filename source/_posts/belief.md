@@ -1,5 +1,5 @@
 title: "Belief"
-Date: 2004-10-09 18:11:27
+date: 2004/10/9 18:11:27
 Tags: 
 ---
 <p>So, as I already <a href="http://web.archive.org/web/20041018111240/http://www.livejournal.com/users/damog/12483.html">wrote</a> before, Dalai Lama was in Mexico for the last week, and on thrusday he was at college receiving an Honoris Causa Doctorate by the UIA-ITESO educational system. Funny guy.

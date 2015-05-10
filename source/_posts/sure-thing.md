@@ -1,5 +1,5 @@
 title: "Sure thing"
-Date: 2006-07-18 07:26:47
+date: 2006/7/18 07:26:47
 Tags: 
 ---
 <blockquote>

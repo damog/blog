@@ -1,5 +1,5 @@
 title: "�Alir�n!"
-Date: 2005-05-14 22:23:40
+date: 2005/5/14 22:23:40
 Tags: 
 ---
 Finalmente el Barcelona se ha alzado como campeón de la liga española.

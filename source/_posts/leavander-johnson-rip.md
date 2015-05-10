@@ -1,5 +1,5 @@
 title: "Leavander Johnson, RIP"
-Date: 2005-09-26 17:31:50
+date: 2005/9/26 17:31:50
 Tags: 
 ---
 <img mce_real_src="http://espndeportes.espn.go.com/2003/photos2005/0920/a_johnson_leavender_ht.jpg" src="http://espndeportes.espn.go.com/2003/photos2005/0920/a_johnson_leavender_ht.jpg" border="0" hspace="0" vspace="0"/>

@@ -1,5 +1,5 @@
 title: "POST over mod_perl handlers with unusual content types"
-Date: 2008-05-02 19:59:00
+date: 2008/5/2 19:59:00
 Tags: 
 ---
 <p>Recently I had to deal with POST requests on mod_perl 2 on a custom XML-RPC webservice server we have been developing and maintaining over the last year (we are actually moving it to REST some time in the middle future). It was time to move some of our base modules from a couple of CGIs to the power and muscle of mod_perl.</p>      <p>So, while dealing with POST requests (like XML-RPC is actually specified) I faced the issue that I wasn&#8217;t being able to get the POST data on the PerlResponseHandler phase. I was probably not reading it correctly, I got deeply into it and even read some libapreq source code. All I was getting was some nifty message like &#8220;not supported&#8221;. After reading some documentation (and, to my own shame, the Apache2::Request front page pod) I found out that the usual:</p>

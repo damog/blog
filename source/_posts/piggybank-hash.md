@@ -1,5 +1,5 @@
 title: "Piggybank Hash"
-Date: 2006-08-07 22:00:54
+date: 2006/8/7 22:00:54
 Tags: 
 ---
 <p>Pues el fin de semana pasado tuve a bien ir a la reunión mensual del <a target="_blank" href="http://www.mchhh.com/">Mexico City Hash House Harriers</a>, que se celebró en las boscosas instalaciones del Popo Park, en Amecameca, Estado de México, en las faldas del volcán <a target="_blank" href="http://en.wikipedia.org/wiki/Popocat%C3%A9petl">Popocatépetl</a>.La idea era irme con <a target="_blank" href="http://www.iah2007.org">Toño</a> desde el viernes en la tarde, pero como tuve que ir a la <a target="_blank" href="http://www.unam.mx">universidad</a> a un examen el sábado a las 8:30 am, no pude, así que saliendo del examen y luego de que Lucía finalmente me convenció, me lancé.

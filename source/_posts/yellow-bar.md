@@ -1,5 +1,5 @@
 title: "Yellow bar"
-Date: 2005-07-24 21:12:18
+date: 2005/7/24 21:12:18
 Tags: 
 ---
 <p>The roundtable/BOF in DebConf5 about Debian website was quite

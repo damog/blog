@@ -1,5 +1,5 @@
 title: "Places I've lived in"
-Date: 2008-03-15 20:38:49
+date: 2008/3/15 20:38:49
 Tags: 
 ---
 <p>Recently, chatting with some folks on the <a href="http://textmotion.org" target="_blank">TextMotion</a> IRC channel, I started thinking on the places I&#8217;ve lived my whole life. From the bottom of my mind, this is a rough list:</p>

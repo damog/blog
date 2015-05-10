@@ -1,5 +1,5 @@
 title: "Mañana a sacar mi visa"
-Date: 2006-02-01 00:53:43
+date: 2006/2/1 00:53:43
 Tags: 
 ---
 <p>¡Finalmente encontré mi pasaporte! :D</p>

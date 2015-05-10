@@ -1,5 +1,5 @@
 title: "Athletic - Real"
-Date: 2005-09-23 04:20:01
+date: 2005/9/23 04:20:01
 Tags: 
 ---
 <p> Unfortunately, when we arrived to his flat, he

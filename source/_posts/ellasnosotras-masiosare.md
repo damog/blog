@@ -1,5 +1,5 @@
 title: "Ellas/Nosotras Masiosare"
-Date: 2007-05-23 22:10:22
+date: 2007/5/23 22:10:22
 Tags: 
 ---
 <p>Invitación que me llegó de una lista de correos de la Facultad:

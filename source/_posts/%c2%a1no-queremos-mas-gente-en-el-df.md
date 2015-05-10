@@ -1,5 +1,5 @@
 title: "¡No queremos más gente en el DF!"
-Date: 2007-03-02 07:39:50
+date: 2007/3/2 07:39:50
 Tags: 
 ---
 <p><a href="http://www.imoqland.com" target="_blank">Imoq</a><a href="http://www.imoqland.com/Article734.phtml" target="_blank">narra</a> acerca de su nuevo trabajo en la Ciudad de México.</p>

@@ -1,5 +1,5 @@
 title: "Ventilador && Toshiba Tecra 8100 && OpenBSD"
-Date: 2003-12-07 19:24:24
+date: 2003/12/7 19:24:24
 Tags: 
 ---
 <p>:-@

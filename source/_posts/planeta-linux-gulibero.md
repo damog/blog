@@ -1,5 +1,5 @@
 title: "Planeta Linux; GULIbero"
-Date: 2005-04-01 06:07:03
+date: 2005/4/1 06:07:03
 Tags: 
 ---
 <p>Pues finalmente, y gracias a la enorme ayuda de <a href="http://www.kalvi.net">lvaro</a>, <a href="http://www.planetalinux.com.mx">Planeta Linux México</a> está funcionando como debe de estar funcionando: Los feeds ya son correctamente parseados, el encoding está corriendo como ISO-8859-1 y la locale está hermosamente apuntando hacia es_MX.UTF-8. Muchas gracias kalvinet, todos parémonos y démosle un gran aplauso.</p>

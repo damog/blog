@@ -1,5 +1,5 @@
 title: "Audioscrobbler"
-Date: 2005-07-03 00:52:05
+date: 2005/7/3 00:52:05
 Tags: 
 ---
 Recently, I <a href="http://www.lawaloca.com/index.php?gadget=Blog&amp;action=SingleView&amp;id=393" target="_blank">read</a> on <a href="http://www.lawaloca.com" target="_blank">Jordi&#8217;s blog</a> (<a href="http://www.lawaloca.com/index.php?gadget=Blog&amp;action=SingleView&amp;id=100" target="_blank">called <em>Lawaloca</em></a>, explanation in spanish) about <a href="http://www.audioscrobbler.com" target="_blank">Audioscrobbler</a>.<br/><br/>

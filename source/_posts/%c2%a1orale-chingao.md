@@ -1,5 +1,5 @@
 title: "¡Órale, chingá'o!"
-Date: 2006-11-24 21:28:43
+date: 2006/11/24 21:28:43
 Tags: 
 ---
 Partido de ida, cuartos de final. Estadio Hidalgo, Pachuca, Hgo.

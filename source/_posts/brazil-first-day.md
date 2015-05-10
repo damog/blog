@@ -1,5 +1,5 @@
 title: "Brazil: First day"
-Date: 2004-05-27 13:58:24
+date: 2004/5/27 13:58:24
 Tags: 
 ---
 <p>Well, I&#8217;m delayed for over a day. We arrived the day before yesterday, and until today I&#8217;ll write my first chronic (while writing this, I&#8217;m learning to use ImageMagick&#8217;s convert which is a nice tool for the thumbnail generation ;-).

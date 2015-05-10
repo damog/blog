@@ -1,5 +1,5 @@
 title: "If you own an iBook..."
-Date: 2005-02-27 04:08:37
+date: 2005/2/27 04:08:37
 Tags: 
 ---
 <p>Just in case you own an iBook (I don&#8217;t really know if it is the same on the PowerBook machines) do not do the following.</p>

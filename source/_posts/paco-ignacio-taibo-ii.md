@@ -1,5 +1,5 @@
 title: "Paco Ignacio Taibo II"
-Date: 2007-09-12 01:04:04
+date: 2007/9/12 01:04:04
 Tags: 
 ---
 <a href="http://www.flickr.com/photos/raquelydavid/1362152663/" title="photo sharing"><img src="http://farm2.static.flickr.com/1303/1362152663_ae0181b4c3_m.jpg"/></a>

@@ -1,5 +1,5 @@
 title: "Recuerdos que le dan alegría a mi vida"
-Date: 2006-04-07 17:23:19
+date: 2006/4/7 17:23:19
 Tags: 
 ---
 <a target="_blank" href="http://www.damog.net/files/pics/hashers.png"><img src="http://www.damog.net/files/pics/hashers-mini.png"/></a>

@@ -1,5 +1,5 @@
 title: "Mambo fancyness; CONSOL"
-Date: 2005-02-06 03:14:22
+date: 2005/2/6 03:14:22
 Tags: 
 ---
 <p>

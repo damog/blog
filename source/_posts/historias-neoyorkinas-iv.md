@@ -1,5 +1,5 @@
 title: "Historias neoyorkinas IV"
-Date: 2007-12-06 18:23:22
+date: 2007/12/6 18:23:22
 Tags: 
 ---
 <p>Este simpático personaje a veces intenta llegar temprano a la oficina. Temprano es antes de las 9 de la mañana, para así no tener pretexto e irnos a las 6 de la tarde (aunque ésto último casi nunca pasa).</p>

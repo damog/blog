@@ -1,5 +1,5 @@
 title: "DPLs"
-Date: 2007-04-09 05:01:30
+date: 2007/4/9 05:01:30
 Tags: 
 ---
 <p align="left">Congratulations <a href="http://www.us.debian.org/vote/2007/vote_001" target="_blank">Sam</a>!</p>

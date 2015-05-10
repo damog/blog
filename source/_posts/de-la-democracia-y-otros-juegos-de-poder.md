@@ -1,5 +1,5 @@
 title: "De la democracia y otros juegos de poder"
-Date: 2006-07-04 00:22:12
+date: 2006/7/4 00:22:12
 Tags: 
 ---
 <p>Ayer fue el día electoral en México. A diferencia a como se realiza en algunos países latinoamericanos, en México se lanza una sóla elección cada seis años, y se convierte en presidente aquel que tiene más votos, no importando si es un voto más, o si no alcanza mínimamente cierto porcentaje de votantes, etc.</p>

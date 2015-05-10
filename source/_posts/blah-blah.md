@@ -1,5 +1,5 @@
 title: "Blah, blah"
-Date: 2004-08-04 14:24:21
+date: 2004/8/4 14:24:21
 Tags: 
 ---
 <p>I&#8217;ve been working on several things recently.</p>

@@ -1,5 +1,5 @@
 title: "LiveJournal 2"
-Date: 2004-11-28 15:42:28
+date: 2004/11/28 15:42:28
 Tags: 
 ---
 <p>Es un hecho que me gusta hablar sobre las herramientas que me agradan, para hacer <em>equis</em> cosas, por <em>ye</em> razón.</p>

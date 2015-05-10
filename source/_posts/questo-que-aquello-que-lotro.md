@@ -1,5 +1,5 @@
 title: "Qu'esto, que aquello, que l'otro."
-Date: 2005-04-11 00:56:58
+date: 2005/4/11 00:56:58
 Tags: 
 ---
 <p>Muchas cosas han pasado en los últimos días. Tantas que no sé ni por dónde empezar.<br/><br/>

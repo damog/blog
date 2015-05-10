@@ -1,5 +1,5 @@
 title: "File Uploading"
-Date: 2004-05-20 13:55:27
+date: 2004/5/20 13:55:27
 Tags: 
 ---
 <p>Damn, I&#8217;ve been wanting to leave everything done at work, as I can reach Brazil next week without any problems.</p>

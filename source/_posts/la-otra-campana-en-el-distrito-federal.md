@@ -1,5 +1,5 @@
 title: "'La Otra Campaña' en el Distrito Federal"
-Date: 2006-04-27 04:47:02
+date: 2006/4/27 04:47:02
 Tags: 
 ---
 <p align="center"><img src="http://espora.org/~sartaguda/laotra/containerright-image.jpg"/></p>

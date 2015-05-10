@@ -1,5 +1,5 @@
 title: "{ primera secuencia de 10 dígitos de Pi, que sumados dan 13 } .com"
-Date: 2006-11-07 17:58:04
+date: 2006/11/7 17:58:04
 Tags: 
 ---
 <p>La semana pasada encontré en la <a target="_blank" href="http://www.fciencias.unam.mx">Facultad</a> algo interesante. Como la mayoría de los días, caminaba por los pasillos adormilado y sintiendo a cada paso la flojera de hacer cualquier cosa en la vida cuando vi un anuncio pegado en una de las paredes con algo que decía más o menos así:

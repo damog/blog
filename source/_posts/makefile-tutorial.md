@@ -1,5 +1,5 @@
 title: "Makefile Tutorial"
-Date: 2003-11-02 19:42:45
+date: 2003/11/2 19:42:45
 Tags: 
 ---
 <p>;-)</p>

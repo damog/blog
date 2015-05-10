@@ -1,5 +1,5 @@
 title: "Aleks"
-Date: 2004-08-14 14:27:34
+date: 2004/8/14 14:27:34
 Tags: 
 ---
 <p>Yesterday, Friday, I made a test at the university about Calculus and Trigonometry. That test was like an introducing exam at the beginning of the semester to rate our levels of mathematics understanding. So we went to a computer lab to make the exam. The program, called <a href="http://www.aleks.com/">Aleks</a> is an extremely powerful computer mathematic system, not only for making exams, but for learning mathematics. It runs embedded on a browser, running some kind of Java applets, which is sad.

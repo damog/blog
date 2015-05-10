@@ -1,5 +1,5 @@
 title: "Live 365"
-Date: 2004-07-25 14:22:19
+date: 2004/7/25 14:22:19
 Tags: 
 ---
 <p>Well, I just bought a <a href="http://www.live365.com/vip">Preferred Membership</a> of <a href="http://www.live365.com/">Live365</a> a few days ago, and I really like it.

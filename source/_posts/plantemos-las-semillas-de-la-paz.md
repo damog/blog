@@ -1,5 +1,5 @@
 title: ""Plantemos las semillas de la paz""
-Date: 2004-12-10 15:48:36
+date: 2004/12/10 15:48:36
 Tags: 
 ---
 <p>La activista keniana Wangari Maathai ha sido galardonada con el Premio Nobel de la Paz.</p>

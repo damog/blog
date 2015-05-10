@@ -1,5 +1,5 @@
 title: "Pics"
-Date: 2005-07-21 18:01:55
+date: 2005/7/21 18:01:55
 Tags: 
 ---
 All the pictures of my trip to <a href="http://www.debconf.org/debconf5" target="_blank">DebConf5</a> in Helsinki and Tallinn are <a href="http://www.damog.net/gallery/finlandia-estonia" target="_blank">here</a>. Descriptions are in Spanish, though.<br/><br/>

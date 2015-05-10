@@ -1,5 +1,5 @@
 title: "RockBox / NYC PM / Long walk / Pics"
-Date: 2007-09-19 17:42:25
+date: 2007/9/19 17:42:25
 Tags: 
 ---
 <p>So, I have just installed <a href="http://www.rockbox.org" target="_blank">RockBox</a> on my iPod and I have liberated it :) It&#8217;s nice to see people amazed on an iPod running something that&#8217;s different from the usual firmware. Now, both my iPod and PowerBook are not running Apple software, muahaha!

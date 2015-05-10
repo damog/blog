@@ -1,5 +1,5 @@
 title: "Mi estado actual"
-Date: 2008-10-25 15:21:27
+date: 2008/10/25 15:21:27
 Tags: chupe,cruda,idiotas,stewie
 ---
 Mi estado físico y mental actual es fielmente representado por esta imagen de Stewie:

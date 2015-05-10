@@ -1,5 +1,5 @@
 title: "México - Navidad '07"
-Date: 2007-12-22 01:06:56
+date: 2007/12/22 01:06:56
 Tags: 
 ---
 <p>Vinimos a México por 15 días. Llegamos el sábado pasado, y hasta ahora la hemos pasado bastante bien, hemos descansado, disfrutado del calor (en el día) y compartido con los amigos.</p>

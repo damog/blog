@@ -1,5 +1,5 @@
 title: "Ricos tacos de cabeza"
-Date: 2006-02-07 23:38:58
+date: 2006/2/7 23:38:58
 Tags: 
 ---
 El sábado pasado llamé al <a target="_blank" href="http://www.wada.com.mx">Wada</a> para ver qué plan tenía para la noche. Me dijo que no sabían qué iban a hacer, <a target="_blank" href="http://www.mig-29.net/">MiG</a>, <a target="_blank" href="http://www.ramoncarazo.net">Ramón</a> y él estaban en casa de éste y esperando que saliera algo que hacer. Le dije que lo llamaría más tarde. Casi una hora después llamé nuevamente y me dijo que iban en camino a la Dos Naciones, una cantina por el centro de la ciudad de la cual todos han hablado animadamente (incluso <a target="_blank" href="http://www.tacvbo.net">Tato</a>, que no estaba en México por que se fue a Guadalajara a ver su vieja). Me llamaron minutos más tarde, cuando iba yo ya en camino, diciéndome que iban a otra cantina (la neta no recuerdo el nombre de la primera cantina a la que fuimos) donde la chela, la neta, estaba barata, a once varos. Llegué y estaban los tres individuos acompañados de amigos del trabajo del MiG. Luego de un rato, decidieron irse al Pasagüero, un antro de rock también en el centro, pero la neta, ni Ramón, ni Wada, ni yo teníamos ganas de ir, así que nos fuimos a la Dos Naciones, pues la botana es gratis :)

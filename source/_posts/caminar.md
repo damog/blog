@@ -1,5 +1,5 @@
 title: "Caminar"
-Date: 2005-09-25 22:23:20
+date: 2005/9/25 22:23:20
 Tags: 
 ---
 <p>La neta no sé

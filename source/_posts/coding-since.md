@@ -1,5 +1,5 @@
 title: "Coding since..."
-Date: 2010-01-16 23:05:27
+date: 2010/1/16 23:05:27
 Tags: 90s,children,coding,fun,méxico,programming,quickbasic,telmex
 ---
 <p>I recently read a blog's about page where the autor mentioned to have 11 years of programming experience, parenthesizing that he started really young. Although I certainly don't think any serious professional experience should include the kind of coding you do as a kid, it made me remember how I started programming myself when I was a a child.</p>

@@ -1,5 +1,5 @@
 title: "The Caracas Sound Machine - Tunayt"
-Date: 2006-08-15 23:57:26
+date: 2006/8/15 23:57:26
 Tags: 
 ---
 <p>Mucha gente me pregunta sobre lo <strong>más chido</strong> que vi en mi estancia en Venezuela. Lo más fino y chido y hermoso y sobresaliente fue un material inédito que <a target="_blank" href="http://bureado.unplug.org.ve">José</a> hizo el favor de presentarme. <em>Tunayt</em>, de <em>The Caracas Sound Machine</em>, es una canción con alto fervor nacionalista y belleza interior, enaltece el sentimiento del venezolano que todos llevamos dentro :) Aquí pongo el link para que bajen el material y lo escuchen, y la letra para que lo canten:

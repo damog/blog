@@ -1,5 +1,5 @@
 title: "Why the Kindle is a piece of shit next to the iPad"
-Date: 2010-01-28 11:58:55
+date: 2010/1/28 11:58:55
 Tags: amazon,apple,ipad,kindle,shit
 ---
 <p>The fact that the <a href="http://en.wikipedia.org/wiki/Amazon_Kindle">Amazon Kindle</a> per se exists, has attracted a copious amount of <a href="http://www.huffingtonpost.com/2010/01/27/ipad-vs-kindle-will-apple_n_437632.html">comparisons</a> to the now unveiled <a href="http://www.apple.com/ipad/">Apple iPad</a>. The Kindle of course, is a (<a href="http://www.techcrunch.com/2009/04/16/300000-kindle-2s-sold-to-date/">reportedly</a>, I don't own one) great e-book reader and <a href="http://www.techcrunch.com/2010/01/20/kindle-apps/">Sudoku console</a>. One should be comparing apples to apples, since comparing these two devices is like comparing a Nokia 5110, with an iPhone (ok bigots, or with a NexusOne), simply different times, different action scenarios.</p>

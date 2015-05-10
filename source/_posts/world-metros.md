@@ -1,5 +1,5 @@
 title: "World metros"
-Date: 2006-08-30 21:00:17
+date: 2006/8/30 21:00:17
 Tags: 
 ---
 <a target="_blank" href="http://www.b3co.com">b3co</a><p> wrote an interesting tool which I refound thanks to <a target="_blank" href="http://ion.gluch.org.mx">ion</a>, where you can select logos for all subway systems you&#8217;ve ridden.

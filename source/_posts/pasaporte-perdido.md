@@ -1,5 +1,5 @@
 title: "Pasaporte perdido"
-Date: 2006-01-28 20:02:05
+date: 2006/1/28 20:02:05
 Tags: 
 ---
 <p>Ya sé. A nadie le pasa. Nadie es tan estúpido como para perder su pasaporte. Me lleva la chingada, la más grande de las chingadas. Finalmente sacar un pasaporte en México es bastante fácil y rápido (lo puedes tener listo en dos o tres horas), sin embargo lo que me preocupa es que el pasaporte que perdí es el que tengo registrado para la entrevista en la embajada gringa para sacar mi visa. Y la puta entrevista es el miércoles. Nadie es tan pendejo.</p>

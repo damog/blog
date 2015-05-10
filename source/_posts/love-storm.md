@@ -1,5 +1,5 @@
 title: "Love storm"
-Date: 2005-12-21 02:22:56
+date: 2005/12/21 02:22:56
 Tags: 
 ---
 I couldn&#8217;t be more happy. This was a great, marvelous weekend: <img width="150" height="113" border="0" alt=" " src="http://damog.net/gallery/albums/moblog/Picture_9_001.thumb.jpg"/><img width="113" height="150" border="0" alt=" " src="http://damog.net/gallery/albums/moblog/Picture_35.thumb.jpg"/><img width="150" height="113" border="0" alt=" " src="http://damog.net/files/pics/ana-sombrero.jpg"/>  Ana arrived last Thrusday night. On Friday we went to the downtown area at midday and afternoon. By night, we went to my end of the year workdudes dinner. On Saturday, we went with <a href="http://blog.tacvbo.net">Tacvbo</a> to Celaya and returned quite late, by midnight, to a friend&#8217;s party. On Sunday we enjoyed the whole day by doing nothing :) and in the afternoon, we went with Polo and Eunice to get some Christmas presents to a mall. At night, we went to Cuernavaca where her parents are on a nice resort. Yesterday, Monday, we (her parents, sister and me) went to Acapulco and at night, return to Cuernavaca. Today, at morning, I came back to Mexico City to work. I just can&#8217;t wait to move to Venezuela. <br/><br/>

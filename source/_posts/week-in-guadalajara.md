@@ -1,5 +1,5 @@
 title: "Week in Guadalajara"
-Date: 2004-09-26 18:06:31
+date: 2004/9/26 18:06:31
 Tags: 
 ---
 <p>This incoming week will be madness. Two main things will happen.

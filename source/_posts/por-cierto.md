@@ -1,5 +1,5 @@
 title: "Por cierto..."
-Date: 2003-06-04 19:35:07
+date: 2003/6/4 19:35:07
 Tags: 
 ---
 <p>Mi <a href="mailto:poletymariel@hotmail.com">Fuggercita</a> tiene a mi hijo <strong>DamogelmoSKA</strong> (saludos al autor de la idea, <a href="mailto:carlosnachoska@hotmail.com">KarlosnachoSKA</a>)&#8230;</p>

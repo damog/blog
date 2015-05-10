@@ -1,5 +1,5 @@
 title: "Atrapado"
-Date: 2005-08-22 05:08:48
+date: 2005/8/22 05:08:48
 Tags: 
 ---
 Atrapado en la gripe.<br/><br/>

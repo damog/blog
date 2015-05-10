@@ -1,5 +1,5 @@
 title: "Comics.com"
-Date: 2004-10-14 18:15:19
+date: 2004/10/14 18:15:19
 Tags: 
 ---
 <p>Being this a culture of consumption and me being a weak creature of nature, I just got a brand new Gold Suscription  on <a href="http://web.archive.org/web/20041018111240/http://www.comics.com/">Comics.com</a> home of the awarded <a href="http://web.archive.org/web/20041018111240/http://www.dilbert.com/">dilbert</a> and <a href="http://web.archive.org/web/20041018111240/http://www.snoopy.com/">snoopy</a>, but besides, there are plenty of great new artists waiting for us to watch, at least their work.</p>

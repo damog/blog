@@ -1,5 +1,5 @@
 title: "Tip Perl del día: 0E0"
-Date: 2007-10-18 19:59:05
+date: 2007/10/18 19:59:05
 Tags: 
 ---
 <p>Empezaré escribiendo algunos tipcitos que me voy encontrando a mi paso al cabalgar sobre el felpudo lomo del dromedario de Perl durante mi camino por la vida. Las Columnas.pl, tips y otras cosas perlosas podrán revisarse en la categoría &#8216;perl&#8217; de este blog.</p>

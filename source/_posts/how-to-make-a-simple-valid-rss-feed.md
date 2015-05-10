@@ -1,5 +1,5 @@
 title: "How to make a simple valid RSS feed"
-Date: 2005-03-28 04:26:44
+date: 2005/3/28 04:26:44
 Tags: 
 ---
 <p>I finally found some time to update my RSS feed creator script and port it into Ruby. I have to say, <a href="http://packages.debian.org/mambo">Mambo</a> is a really cool cms, but its feed creator sucks. So if you are wanting to generate your own RSS feed you can do it with this little Ruby script (yes, I know you can also do it with Perl, but Ruby is funnier :-):</p>

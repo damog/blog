@@ -1,5 +1,5 @@
 title: "Freedom en el Alicia"
-Date: 2003-05-25 19:39:18
+date: 2003/5/25 19:39:18
 Tags: 
 ---
 <p>¡Hola! Ahora sí ya quedó el sitio. Pues bueno, entre otras cosas, el día de mañana (bueno hoy) andaremos en el Multiforo Cultural Alicia en la tocada de Freedom, banda potosina que viene con su excelente propuesta de ska tradicional y rock steady:

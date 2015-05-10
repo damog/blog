@@ -1,5 +1,5 @@
 title: "Job offering"
-Date: 2009-08-10 19:16:24
+date: 2009/8/10 19:16:24
 Tags: c,java,javascript,job,lisp,lytix,offer,perl
 ---
 A friend of mine is asking me to publish his company's job offering to the wild. I've seen the offer, what they are doing and it's a very, very nice project/opportunity, I wouldn't announce it here on my blog if it wasn't something worthwhile:

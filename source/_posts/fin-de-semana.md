@@ -1,5 +1,5 @@
 title: "Fin de semana"
-Date: 2006-03-19 21:43:56
+date: 2006/3/19 21:43:56
 Tags: 
 ---
 <p>Pues como este fin de semana <a target="_blank" href="http://bureado.com.ve">José</a> salió de fin de semana a no-sé-dónde y Ana tenía que quedarse en casa estudiando para un examen que tiene el lunes, me quedé todo el fin de semana en casa, al menos lo que va de él, siendo ahorita las 5 de la tarde del domingo.</p>

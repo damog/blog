@@ -1,5 +1,5 @@
 title: "GMail"
-Date: 2004-06-13 14:14:43
+date: 2004/6/13 14:14:43
 Tags: 
 ---
 <p>This is not quite awesome:</p>

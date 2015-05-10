@@ -1,5 +1,5 @@
 title: "Olympic bombastic"
-Date: 2008-08-25 14:50:19
+date: 2008/8/25 14:50:19
 Tags: idiotas,nyc,tv
 ---
 Bueno pues las Olimpiadas ya terminaron. Ésto es una buena noticia dado que <a href="http://maggit.com.mx/">Raquel</a> ya me dejará desvelarme en las noches otra vez viendo capítulos viejos de Sex and the City y Will &amp; Grace que pasan siempre en CBS (o una de esas televisoras secundarias) a la medianoche. Sin embargo, hay algo que me gustaría comentar al respecto de las olimpiadas.

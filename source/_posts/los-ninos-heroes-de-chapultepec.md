@@ -1,5 +1,5 @@
 title: "Los Niños Héroes de Chapultepec"
-Date: 2006-09-13 23:31:05
+date: 2006/9/13 23:31:05
 Tags: 
 ---
 <p>Un día como hoy, 13 de septiembre, pero de 1847, los <a target="_blank" href="http://en.wikipedia.org/wiki/Ni%C3%B1os_H%C3%A9roes">Niños Héroes</a> defendieron el <a target="_blank" href="http://en.wikipedia.org/wiki/Castillo_de_Chapultepec">Castillo de Chapultepec</a> de la <a target="_blank" href="http://en.wikipedia.org/wiki/Mexican-American_War">invasión norteamericana</a>.</p>

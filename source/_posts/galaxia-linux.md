@@ -1,5 +1,5 @@
 title: "Galaxia Linux"
-Date: 2008-09-27 13:23:42
+date: 2008/9/27 13:23:42
 Tags: hack,idiotas,planeta linux
 ---
 Hace unos cuantos días vi que un nuevo proyecto de blogueros sobre Linux estaba siendo formado, Galaxia Linux. Al formar parte del <a href="http://www.planetalinux.org/creditos.php">selecto grupo de administradores de Planeta Linux</a>, siempre nos interesa sumar esfuerzos: No nos gusta pensar que hay proyectos que lo único que quieren es aprovechar el trabajo de los demás sin crédito, me gusta pensar en <a href="http://planetalinux.org/">Planeta Linux</a> como un proyecto que puede ayudar a muchos otros más a formarse reforzando la comunidad latinoamericana linuxera, engordándola, consolidándola, sin embargo, bueno, ésto no es lo mismo en la dirección opuesta.

@@ -1,5 +1,5 @@
 title: "Sobre la sucesión presidencial"
-Date: 2006-12-02 19:39:20
+date: 2006/12/2 19:39:20
 Tags: 
 ---
 <p>Desde el día de ayer ya es oficial que Felipe Calderón es el nuevo presidente de México. En los últimos días he pasado por un análisis personal de la política del país y he llegado a la conclusión de que todo esto es pura mamada.</p>

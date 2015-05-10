@@ -1,5 +1,5 @@
 title: "i3 respect"
-Date: 2014-01-11 13:02:27
+date: 2014/1/11 13:02:27
 Tags: i3, debian, respect
 ---
 Hey <a href="http://michael.stapelberg.de/">Michael Stapelberg</a>, thanks for

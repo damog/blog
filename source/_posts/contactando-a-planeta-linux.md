@@ -1,5 +1,5 @@
 title: "Contactando a Planeta Linux"
-Date: 2007-04-19 05:05:58
+date: 2007/4/19 05:05:58
 Tags: 
 ---
 <p>Hola,</p>

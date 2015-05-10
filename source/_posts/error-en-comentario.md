@@ -1,5 +1,5 @@
 title: "Error en comentario"
-Date: 2005-07-13 16:23:54
+date: 2005/7/13 16:23:54
 Tags: 
 ---
 Hace dos minutos acabo de recibir un comentario en uno de mis posts antiguos diciendo:<br/><br/><em>Las tierras gaúchas son Argentina. Las de Brasil, cariocas.</em><br/><br/>

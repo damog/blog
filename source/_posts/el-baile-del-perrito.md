@@ -1,5 +1,5 @@
 title: "El baile del perrito"
-Date: 2005-09-03 17:46:24
+date: 2005/9/3 17:46:24
 Tags: 
 ---
 <p>El buen <a href="http://badc0ded.org.ar/" target="_blank">Beck</a>

@@ -1,5 +1,5 @@
 title: "Desbielado"
-Date: 2005-09-14 02:48:00
+date: 2005/9/14 02:48:00
 Tags: 
 ---
 Finalmente resultó que mi coche se desbieló.<br/><br/>

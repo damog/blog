@@ -1,5 +1,5 @@
 title: "Dear Weblog... xD"
-Date: 2003-07-01 19:41:14
+date: 2003/7/1 19:41:14
 Tags: 
 ---
 <p>Ya tenía un ratito que no escribía en ésta mi casa. <strong>Damog.org</strong>. Ah, qué bonito se oye al pronunciar místicamente el PUNTO ORG. Es como una sensación extrasensorial que envuelve mi lengua, mi boca, hace vibrar mis dientes y finalmente se produce el sonido. Espectacular, magnífico.</p>

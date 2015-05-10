@@ -1,5 +1,5 @@
 title: "The Last Day - A short film by Juan P. Guadarrama"
-Date: 2008-09-17 13:00:39
+date: 2008/9/17 13:00:39
 Tags: 3d,animación,bff
 ---
 Recently, my <a href="http://www.urbandictionary.com/define.php?term=bff">BFF</a> <a href="http://www.wadita.com">Wadita</a> (here <a href="http://www.flickr.com/photos/raquelydavid/2556726909/">watching the horizon</a>) moved to Vancouver, BC from Mexico City to continue his studies on 3D animation. In the last months he was producing a short film for his personal portfolio which was finally released: it's called <strong>The Last Day</strong>. Even though (as he described it himself) it's not <em>Pixar</em>-like animation, I really enjoyed it, it's both melancholic and inspiring.

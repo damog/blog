@@ -1,5 +1,5 @@
 title: "Viaje Parte Uno"
-Date: 2003-12-07 19:24:54
+date: 2003/12/7 19:24:54
 Tags: 
 ---
 <p>El día de hoy estuve en la hermosa ciudad de Guadalajara, Jal. en la <a href="http://web.archive.org/web/20031226230140/http://fil.com.mx/">Feria Internacional del Libro</a>, la más grande de Latinoamérica. Asistí principalmente por la presencia de Quino, creador de Mafalda, y también para saludar a Sandra y Claudia, de las cuales sólo pude ver a la primera, debido a que el celular de Claudia nunca estuvo activo.</p>

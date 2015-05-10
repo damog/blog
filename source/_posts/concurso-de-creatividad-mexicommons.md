@@ -1,5 +1,5 @@
 title: "Concurso de Creatividad Mexicommons"
-Date: 2006-04-11 03:36:22
+date: 2006/4/11 03:36:22
 Tags: 
 ---
 <p align="center"><img align="middle" src="http://www.damog.net/files/misc/mexicommons.png"/></p>

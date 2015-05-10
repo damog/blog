@@ -1,5 +1,5 @@
 title: "Twenty-one"
-Date: 2005-08-08 05:08:14
+date: 2005/8/8 05:08:14
 Tags: 
 ---
 <p>A day like today, but 21 years ago, I was born. Random thoughts:<br/><br/></p>

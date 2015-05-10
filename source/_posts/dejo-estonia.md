@@ -1,5 +1,5 @@
 title: "Dejo Estonia"
-Date: 2005-07-19 21:46:09
+date: 2005/7/19 21:46:09
 Tags: 
 ---
 Al momento de escribir estas líneas, me estoy yendo de Estonia. Justo

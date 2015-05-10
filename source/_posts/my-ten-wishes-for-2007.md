@@ -1,5 +1,5 @@
 title: "My ten wishes for 2007"
-Date: 2006-12-24 23:05:17
+date: 2006/12/24 23:05:17
 Tags: 
 ---
 <p>These are my ten wishes for 2007. Since Santa didn&#8217;t arrive in this part of the world, I think I&#8217;m asking this to the Three Wise Men (in spite of they were brought here by the Spanish catolicism, but hey):

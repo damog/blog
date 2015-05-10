@@ -1,5 +1,5 @@
 title: "Opera"
-Date: 2007-02-09 17:59:47
+date: 2007/2/9 17:59:47
 Tags: 
 ---
 <p>He comenzado a usar Opera como mi browser por default (odio oficialmente las traducciones al castellano en Debian, sería algo como «navegador predeterminado», ¿cuándo chingados le dices realmente así?).</p>

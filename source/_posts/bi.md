@@ -1,5 +1,5 @@
 title: "Bi"
-Date: 2004-12-13 15:54:14
+date: 2004/12/13 15:54:14
 Tags: 
 ---
 <p>Pumas Campeón</p>

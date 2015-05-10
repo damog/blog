@@ -1,5 +1,5 @@
 title: "The beginning"
-Date: 2004-05-17 13:55:00
+date: 2004/5/17 13:55:00
 Tags: 
 ---
 <p>I don&#8217;t like Mondays, whatever I do, I do it tired. This is maybe a normal behaviour on the world.</p>

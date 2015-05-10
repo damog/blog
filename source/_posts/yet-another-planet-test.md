@@ -1,5 +1,5 @@
 title: "Yet Another Planet Test"
-Date: 2004-10-17 18:17:12
+date: 2004/10/17 18:17:12
 Tags: 
 ---
 <p>Well, here I am writing for another test. This test is for the time correct support.</p>

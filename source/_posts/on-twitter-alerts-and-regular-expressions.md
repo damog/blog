@@ -1,5 +1,5 @@
 title: "On Twitter alerts and regular expressions"
-Date: 2009-04-12 07:17:58
+date: 2009/4/12 07:17:58
 Tags: alerts,nerd,regex,twitter
 ---
 I don't know if I'm the only one that does something like this, but I certainly <em>trust</em> I'm not alone.

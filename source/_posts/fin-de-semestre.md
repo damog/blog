@@ -1,5 +1,5 @@
 title: "Fin de semestre"
-Date: 2004-12-08 15:47:50
+date: 2004/12/8 15:47:50
 Tags: 
 ---
 <p>Pues por fin en esta semana ha terminado el semestre. A ver qué me depara el destino para el próximo. Sin lugar a dudas, la materia más interesante que tomaré será <em>Programación Aplicada y Laboratorio</em>, que curiosamente la imparte Andrés Tortolero, quien trabaja conmigo en <a href="http://www.nekotec.com/">Nekotec</a> ;-) Espero que no tenga tantos problemas, la clase se basa en programación en C y GTK, con quienes he jugado un par de veces en el pasado.

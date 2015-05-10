@@ -1,5 +1,5 @@
 title: "lib/active_record/base.rb:2808:in `attributes_with_quotes': undefined method `each' for true:TrueClass (NoMethodError)"
-Date: 2009-02-09 20:49:54
+date: 2009/2/9 20:49:54
 Tags: activerecord,issues,ruby
 ---
 OK, hopefully this might help someone some time somewhere. If you are getting the error on the title, it's mainly because you are using a <tt>changed</tt> method on your <a href="http://api.rubyonrails.org/classes/ActiveRecord/Base.html">ActiveRecord</a> model.

@@ -1,5 +1,5 @@
 title: "Desperate"
-Date: 2005-07-01 02:37:33
+date: 2005/7/1 02:37:33
 Tags: 
 ---
 I&#8217;m completely desperate. I just can&#8217;t take life here anymore, and reading <a target="_blank" href="http://www.livejournal.com/users/amayita/52618.html">Amaya is leaving tomorrow for Helsinki</a>; <a target="_blank" href="http://www.grep.be/blog/2005/06/30#arrived">p2, Wouter and Holger (green hair!) already nearby</a>; makes it only an anxious feeling to leave. Also, I called today <a target="_blank" href="http://www.gwolf.org">Gunnar</a>,

@@ -1,5 +1,5 @@
 title: "10 days from POA"
-Date: 2004-05-14 13:50:55
+date: 2004/5/14 13:50:55
 Tags: 
 ---
 <p>Well, today we are 10 days away from flying to Brazil. We? <a href="http://www.gwolf.cx/">Gunnar</a> and me are going down there to Porto Alegre, where we&#8217;ll meet some other Debian enthusiasts and spend some time working for the project. The <a href="http://www.debconf.org/debconf4">DebConf4</a> mailing list seems pretty interesting right now.</p>

@@ -1,5 +1,5 @@
 title: "✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌"
-Date: 2009-08-09 12:43:48
+date: 2009/8/9 12:43:48
 Tags: 25,facebook,life,twitter
 ---
 Yes, those are twenty-five hands. As of yesterday 8/8, I turned 25. Thanks to all of you who shouted out on <a href="http://facebook.com/damog">Facebook</a>, <a href="http://twitter.com/habanerd">Twitter</a> or elsewhere.

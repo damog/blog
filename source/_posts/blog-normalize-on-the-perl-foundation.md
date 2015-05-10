@@ -1,5 +1,5 @@
 title: "Blog Normalize on The Perl Foundation"
-Date: 2008-05-02 16:52:00
+date: 2008/5/2 16:52:00
 Tags: 
 ---
 <p>So I wrote an entry on my tumblelog about what&#8217;s going on with my life currently. Since Tumblr&#8217;s feed doesn&#8217;t get pushed immediately, I showed the post to my co-worker and friend Chris, before it hit the planets:</p>

@@ -1,5 +1,5 @@
 title: "CyberTest UIA"
-Date: 2005-04-10 20:03:23
+date: 2005/4/10 20:03:23
 Tags: 
 ---
 <strong>Segundo Concurso Preuniversitario &#8220;Cyber-Test&#8221;<br/><br/></strong><img vspace="0" hspace="0" border="0" src="http://www.ie.uia.mx/imagenes/linkcyber.gif"/><br/><br/><p>

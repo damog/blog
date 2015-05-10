@@ -1,5 +1,5 @@
 title: "CONSOL"
-Date: 2004-01-23 14:33:45
+date: 2004/1/23 14:33:45
 Tags: 
 ---
 <p>Pues cada vez se acerca más CONSOL y ello se puede notar en la lista de correo, en las juntas y en la presión que nos aprieta.</p>

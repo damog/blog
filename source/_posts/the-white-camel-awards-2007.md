@@ -1,5 +1,5 @@
 title: "The White Camel Awards 2007"
-Date: 2007-07-25 22:33:45
+date: 2007/7/25 22:33:45
 Tags: 
 ---
 <p>In the lands where the camel roams, the white (albino) camel is a rare and revered individual.  <a href="http://www.perl.org/advocacy/white_camel/" target="_blank">The White Camel Awards</a> recognize the many significant contributions made by the unsung heros of the Perl community. The efforts of these volunteers collectively make the Perl language and the Perl community better for all of us.

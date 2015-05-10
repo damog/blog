@@ -1,5 +1,5 @@
 title: "Sapo verde soy yo"
-Date: 2007-08-08 22:37:55
+date: 2007/8/8 22:37:55
 Tags: 
 ---
 <p>I’m 23 years old since 2 am on this August, 8th.</p>

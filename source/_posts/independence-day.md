@@ -1,5 +1,5 @@
 title: "Independence Day"
-Date: 2004-09-17 14:36:46
+date: 2004/9/17 14:36:46
 Tags: 
 ---
 <p><img src="http://www.stcc.cc.tx.us/Languages/Mexican%20Flag.jpg"/></p>

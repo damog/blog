@@ -1,5 +1,5 @@
 title: "Caching and optimization for WordPress talk"
-Date: 2009-12-21 14:18:48
+date: 2009/12/21 14:18:48
 Tags: caching,optimization,wcnyc,wordpress
 ---
 <p>Continuing with my <a href="http://2009.newyork.wordcamp.org/">WordCamp NYC</a> talks review, I'd like to point out the notes I took attending the talk <em>Caching and Optimization for WordPress</em>, by <a href="http://simianuprising.com/">Jeremy Clarke</a>.</p>

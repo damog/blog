@@ -1,5 +1,5 @@
 title: "Why am I writing in English?"
-Date: 2004-09-29 18:07:37
+date: 2004/9/29 18:07:37
 Tags: 
 ---
 <p>I have received several comments on why am I writing my blog in English, since many of the Mexican guys involved on free software who own a blog and use to blog periodicly, don’t. Obviously I had to talk about this some time because it is not usual.

@@ -1,5 +1,5 @@
 title: "Large PHP scripts truncated on nginx"
-Date: 2010-02-03 11:35:14
+date: 2010/2/3 11:35:14
 Tags: gzip,javascript,nginx,php,tinymce,wordpress
 ---
 I spent a couple of <em>hours</em> yesterday trying to debug an issue that made me hit my head against the wall while it lasted.

@@ -1,5 +1,5 @@
 title: "La cerveza que reina"
-Date: 2003-08-02 18:51:45
+date: 2003/8/2 18:51:45
 Tags: 
 ---
 <p>Me he dado cuenta que recientemente, serán apenas tres o cuatro meses para acá, la cerveza reina en mi vida.</p>

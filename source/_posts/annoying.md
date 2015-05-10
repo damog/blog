@@ -1,5 +1,5 @@
 title: "Annoying"
-Date: 2004-09-27 18:06:57
+date: 2004/9/27 18:06:57
 Tags: 
 ---
 <p>Isn’t it annoying  to syndicate a feed, any kind (RSS, RDF, OPML, Atom) and the new is only a few lines long? It is not the entire blog entry, only a few words. I hate that, it makes you decide between:

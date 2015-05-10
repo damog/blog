@@ -1,5 +1,5 @@
 title: "Sobre mí"
-Date: 2006-01-27 23:45:59
+date: 2006/1/27 23:45:59
 Tags: 
 ---
 <p> Quizás le sea más interesante revisar la <a href="http:///informacion-de-contacto" target="_blank">información de contacto</a> que esta página inútil.

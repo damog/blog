@@ -1,5 +1,5 @@
 title: "Damog en ULSA Pachuca"
-Date: 2003-06-01 19:37:36
+date: 2003/6/1 19:37:36
 Tags: 
 ---
 <p>EL día de hoy fui a la Universidad LaSalle a echar un rollo sobre <a href="http://web.archive.org/web/20030611122152/http://www.linux.org.mx/">GNU/Linux</a>. Me trataron estupendamente, quizá mucho mejor de lo que realmente merezco. Si es que realmente merezco.</p>

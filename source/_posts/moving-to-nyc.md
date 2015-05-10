@@ -1,5 +1,5 @@
 title: "Moving to NYC"
-Date: 2007-09-03 19:51:18
+date: 2007/9/3 19:51:18
 Tags: 
 ---
 <p>So, we will be moving to New York City, starting next week. We hope to spend a year there, but who knows, we might be there for only a few months, weeks, or more than a year! Life changes, that&#8217;s why we are moving now, right? :) Only constant is change, isn&#8217;t it?</p>

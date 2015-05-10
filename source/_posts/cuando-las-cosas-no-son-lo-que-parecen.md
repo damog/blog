@@ -1,5 +1,5 @@
 title: "Cuando las cosas no son lo que parecen."
-Date: 2003-07-27 18:55:41
+date: 2003/7/27 18:55:41
 Tags: 
 ---
 <p>Una y otra vez me doy cuenta de que las palabras vienen a mí, por que sí. No tienen realmente un significado, simplemente escribo lo que me viene a la mente, lo que me viene a los dedos cuando estoy junto a la computadora.</p>

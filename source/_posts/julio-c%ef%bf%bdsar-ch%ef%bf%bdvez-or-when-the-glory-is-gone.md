@@ -1,5 +1,5 @@
 title: "Julio C�sar Ch�vez, or when the glory is gone"
-Date: 2005-09-18 16:51:01
+date: 2005/9/18 16:51:01
 Tags: 
 ---
 <p>The most valuable Mexican boxing fighter, Julio C鳡r Chávez

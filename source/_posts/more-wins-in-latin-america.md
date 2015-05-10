@@ -1,5 +1,5 @@
 title: "More wins in Latin America"
-Date: 2006-12-08 01:32:09
+date: 2006/12/8 01:32:09
 Tags: 
 ---
 I have to congratulate my Venezuelan buddies for making a nice and democratic reelection for President Hugo Chávez, last Sunday. Venezuela confirms again that is a grown, mature and social-oriented country.

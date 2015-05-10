@@ -1,5 +1,5 @@
 title: "An end has a start"
-Date: 2007-08-02 22:36:41
+date: 2007/8/2 22:36:41
 Tags: 
 ---
 <p>July 31st was my last day working for Sixbell-Nekotec Solutions (formerly known as Nekotec Tecnología). I lasted there three years. It seems like a life was spent there, heh: I entered after turning 20 and I’m leaving some days before I turn 23.</p>

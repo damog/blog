@@ -1,5 +1,5 @@
 title: "One year"
-Date: 2013-08-06 22:17:34
+date: 2013/8/6 22:17:34
 Tags: amsterdam,perl,work
 ---
 A year ago today, I <a href="/blog/another-day-another-dawn.html">started working</a> for <a

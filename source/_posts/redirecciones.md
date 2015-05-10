@@ -1,5 +1,5 @@
 title: "Redirecciones"
-Date: 2007-08-31 22:48:10
+date: 2007/8/31 22:48:10
 Tags: 
 ---
 <h1>La Columna.pl #3</h1>

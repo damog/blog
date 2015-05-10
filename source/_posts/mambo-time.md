@@ -1,5 +1,5 @@
 title: "mambo time!"
-Date: 2005-01-10 01:03:59
+date: 2005/1/10 01:03:59
 Tags: 
 ---
 I&#8217;ve started to play a little bit with <a href="http://www.mamboserver.com">mambo</a>, which is an

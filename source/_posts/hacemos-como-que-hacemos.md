@@ -1,5 +1,5 @@
 title: "Hacemos como que hacemos"
-Date: 2007-04-20 05:07:22
+date: 2007/4/20 05:07:22
 Tags: 
 ---
 <p>Vivimos en un país donde hacemos como que hacemos cosas.</p>

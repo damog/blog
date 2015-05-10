@@ -1,5 +1,5 @@
 title: "Dragon Ball Z: Shin Budokai"
-Date: 2008-09-23 13:28:22
+date: 2008/9/23 13:28:22
 Tags: dragon ball,gaming,psp,reseñas
 ---
 El domingo pasado mientras caminábamos mucho por la ciudad, terminamos en el GameStop de Lexington y la 86 donde por fin pude encontrar un título al que le traía muchas ganas: <a href="http://en.wikipedia.org/wiki/Dragon_Ball_Z:_Shin_Budokai">Dragon Ball Z: Shin Budokai</a>.

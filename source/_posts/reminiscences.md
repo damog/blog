@@ -1,5 +1,5 @@
 title: "Reminiscences"
-Date: 2005-01-30 21:36:05
+date: 2005/1/30 21:36:05
 Tags: 
 ---
 <p>Something was funny yesterday.</p>

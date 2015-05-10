@@ -1,5 +1,5 @@
 title: "Encuentre usted las 10 diferencias"
-Date: 2006-01-18 19:10:56
+date: 2006/1/18 19:10:56
 Tags: 
 ---
 <p align="center"><a target="_parent" href="http://gallery/moblog/Picture_31_002"><img width="113" height="150" border="0" src="gallery/albums/moblog/Picture_31_002.thumb.jpg" alt=" "/></a>  <a target="_blank" href="http://gallery/moblog/Picture_32_002"><img width="113" height="150" border="0" src="gallery/albums/moblog/Picture_32_002.thumb.jpg" alt=" "/></a></p>

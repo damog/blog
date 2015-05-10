@@ -1,5 +1,5 @@
 title: "Poco a poquito, yo te lo digo."
-Date: 2003-07-30 18:53:26
+date: 2003/7/30 18:53:26
 Tags: 
 ---
 <p>¡Cantando reggaemuffin, así me mantengo vivo!</p>

@@ -1,5 +1,5 @@
 title: "LiveJournal"
-Date: 2004-08-14 14:26:33
+date: 2004/8/14 14:26:33
 Tags: 
 ---
 <p>I have received a couple of questions regarding of my use of <a href="http://www.livejournal.com/">LiveJournal</a> instead of any other weblog system. It&#8217;s quite easy.

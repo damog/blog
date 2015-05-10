@@ -1,5 +1,5 @@
 title: "Goodbye to more RFPs and ITPs"
-Date: 2005-09-20 19:29:52
+date: 2005/9/20 19:29:52
 Tags: 
 ---
 <p>After last week&#8217;s mass bug squash with all of those older than 600

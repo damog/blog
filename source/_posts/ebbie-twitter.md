@@ -1,5 +1,5 @@
 title: "Ebbie @ Twitter"
-Date: 2008-10-12 13:41:28
+date: 2008/10/12 13:41:28
 Tags: ebbie,nyc,twitter
 ---
 En enero pasado, <a href="http://maggit.com.mx">Raquel</a> y yo adoptamos a una linda criatura peluda, con garras, colmillos y bigotes. Ebbie es nuestra pequeña hija felina. Como ella no es mexicana, si no neoyorkina, no habla muy bien español, pero ronronea y gruñe en inglés gatuno del ghetto.

@@ -1,5 +1,5 @@
 title: "DebConf8 official training started!"
-Date: 2007-07-16 22:32:56
+date: 2007/7/16 22:32:56
 Tags: 
 ---
 <p>So, my official training for DebConf8 has just started!</p>

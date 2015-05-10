@@ -1,5 +1,5 @@
 title: "I quit"
-Date: 2012-07-25 12:35:15
+date: 2012/7/25 12:35:15
 Tags: bjj,life,perl,work
 ---
 I just recently quit my job at the startup company I had been working in for almost five years. In startup terms, such long time might be a whole lifetime, but in my case, I grew liking it more and more as the years came, I had evolved from being just another engineer, to lead a team of seven great developers, with decision-making tasks and strategy planning for our technical infrastructure. It's been such a great long teaching journey that I'm nothing but pleased with my own performance, <a href="http://axiombox.com/lessons-learned-and-real-experience/">learned lessons</a> and skills and all I provided and was provided by the project.

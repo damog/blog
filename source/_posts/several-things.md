@@ -1,5 +1,5 @@
 title: "Several things"
-Date: 2004-06-27 14:17:14
+date: 2004/6/27 14:17:14
 Tags: 
 ---
 <p>Well, yeah. Lots of things has happened on the last days. Let&#8217;s start without particular order.</p>

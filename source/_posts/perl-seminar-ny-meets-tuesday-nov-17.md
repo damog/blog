@@ -1,5 +1,5 @@
 title: "Perl Seminar NY: Meets Tuesday, Nov 17"
-Date: 2009-11-16 13:21:21
+date: 2009/11/16 13:21:21
 Tags: nyc,perl,web
 ---
 <a href="http://tech.groups.yahoo.com/group/perlsemny/message/934">Our tenth season continues next Tuesday night</a>:

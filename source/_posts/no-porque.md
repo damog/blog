@@ -1,5 +1,5 @@
 title: "No porque..."
-Date: 2006-04-25 19:39:57
+date: 2006/4/25 19:39:57
 Tags: 
 ---
 <p>No recuerdo si leí en su blog o escuché en el podcast del <a href="http://www.dixo.com/warpig">Warpig</a> la siguiente frase, sobre bandas alternativas de rock: &#8220;<strong>No porque sean underground, tienen que sonar de la mierda</strong>&#8221;. La cual es una frase que aplica en tantas situaciones de la vida, pongo aquí mis ejemplos.</p>

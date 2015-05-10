@@ -1,5 +1,5 @@
 title: "Curso C"
-Date: 2003-11-04 19:42:23
+date: 2003/11/4 19:42:23
 Tags: 
 ---
 <p>Para quien le pueda servir, he puesto un buen curso de C que encontré por ahí para todo aquel que esté perdido en la clase de Toño, Introducción a la Informática:</p>

@@ -1,5 +1,5 @@
 title: "Who could tell it better than Him?"
-Date: 2004-08-30 14:31:34
+date: 2004/8/30 14:31:34
 Tags: 
 ---
 <p>&#8220;Ruby is an object-oriented programming language developed for the purpose of <u>making programming both enjoyable and fast</u>. With its easy-to-use interpreter, easy-to-understand syntax, complete object-oriented functionality, and powerful class libraries, Ruby has become a language that can be used in a broad range of fields: from text processing and CGI scripts to professional, large-scale programs.</p>

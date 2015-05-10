@@ -1,5 +1,5 @@
 title: "12 de junio de 2005"
-Date: 2005-06-12 21:27:07
+date: 2005/6/12 21:27:07
 Tags: 
 ---
 <p>Hay veces que la persona que menos te puedes imaginar, la persona con

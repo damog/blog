@@ -1,5 +1,5 @@
 title: "El mig"
-Date: 2006-09-10 17:23:16
+date: 2006/9/10 17:23:16
 Tags: 
 ---
 Hoy, el mig es EL hombre.

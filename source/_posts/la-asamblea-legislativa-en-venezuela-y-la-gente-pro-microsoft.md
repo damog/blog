@@ -1,5 +1,5 @@
 title: "La Asamblea Legislativa en Venezuela y la gente pro-Microsoft"
-Date: 2006-07-22 20:33:33
+date: 2006/7/22 20:33:33
 Tags: 
 ---
 <p>He recolectado una cantidad enorme de anécdotas en el último par de años debido a los viajes que he hecho al extranjero, que, aunque obviamente no son muchos, he podido recolectar muchos recuerdos y memorias inolvidables sobre muchas de las cosas. De éstas, podría contar muchas, de verdad, muchas; muchas, incluso que quizás nunca le cuente a alguien por ser demasiado banales, estúpidas o muy personales, o quizás simplemente por falta de tiempo, por güeva o por no darle la suficiente importancia. También quizás en los últimos años he perdido mucho la capacidad de asombro y muchas cosas, aunque no las haya visto antes jamás en mi vida, me parecen normales o rutinarias, quizás el conocimiento global del mundo a través de Internet ha propiciado esto.</p>

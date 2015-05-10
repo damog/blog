@@ -1,5 +1,5 @@
 title: "Los Borgia"
-Date: 2005-04-23 18:05:49
+date: 2005/4/23 18:05:49
 Tags: 
 ---
 <p>Los Borgia (<em>The Family</em>) es una novela histórica escrita a cuatro manos por Mario Puzo (autor de otras obras magistrales como <em>El Padrino</em> y <em>El Último Don</em>) y su esposa Carol Gino.<br/><br/>

@@ -1,5 +1,5 @@
 title: "My birthday"
-Date: 2004-08-08 14:25:18
+date: 2004/8/8 14:25:18
 Tags: 
 ---
 <p>Well, today was my 20th birthday. It was pretty nice all the weekend.</p>

@@ -1,5 +1,5 @@
 title: "Music in my brain on the last weeks"
-Date: 2006-09-23 18:13:10
+date: 2006/9/23 18:13:10
 Tags: 
 ---
 <a target="_blank" href="http://www.tacvbo.net">Tato</a><p>, <a target="_blank" href="http://www.maggit.com.mx">Raquel</a> and me headed to <a target="_blank" href="http://en.wikipedia.org/wiki/Cat_Power">Cat Power</a>&#8217;s concert last Wednesday. Luckily, I won two tickets for the concert on a morning radio show (it was around 6 am, so when the speaker asked a question, I had plenty of time to open my notebook, confirm the answer on Wikipedia and call the station; because of the time, the call entered quite quickly, on the 3rd try). It was a double, so Tato had to buy his own ticket.

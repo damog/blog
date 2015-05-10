@@ -1,5 +1,5 @@
 title: "Dos Mil Cinco"
-Date: 2005-12-21 22:41:25
+date: 2005/12/21 22:41:25
 Tags: 
 ---
 <p>El 2005 está llegando a su fin y tengo que escribir cosas sobre él aquí. El 2005 fue sin lugar a dudas un excelente año para mí por las siguientes razones:  </p>

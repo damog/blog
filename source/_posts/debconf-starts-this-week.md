@@ -1,5 +1,5 @@
 title: "DebConf starts this week!"
-Date: 2006-05-01 06:34:55
+date: 2006/5/1 06:34:55
 Tags: 
 ---
 <p>While reading the available documentation on <a target="_blank" href="http://kitenet.net/~joey/">Joey Hess</a>&#8217;s <a target="_blank" href="http://ikiwiki.kitenet.net">ikiwiki</a>, I started to see his pics on previous DebConfs. It&#8217;s amazing how quick things can happen. It seemed to me <a target="_blank" href="http://debconf5.debconf.org">DebConf5</a> happened last week or something and we are now facing the Mexican <a target="_blank" href="http://www.debconf.org/">DebConf</a> in a couple of days. :D</p>

@@ -1,5 +1,5 @@
 title: "Snow Leopard Now"
-Date: 2009-08-29 14:03:16
+date: 2009/8/29 14:03:16
 Tags: growmail,istat,mac,mac os x,macports,os x,snow leopard,upgrade,visor
 ---
 We ordered a family pack of Snow Leopard for the whole development team last Tuesday. They arrived yesterday Friday, early morning.

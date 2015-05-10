@@ -1,5 +1,5 @@
 title: "PostgreSQL"
-Date: 2003-10-11 18:47:05
+date: 2003/10/11 18:47:05
 Tags: 
 ---
 <p>Pues bueno&#8230; Van dos semanas desde que estuve en el <a href="http://web.archive.org/web/20031017200540/http://congreso.gulev.org.mx/">GUL3V</a> que fue cuando me decidí a cambiar de <a href="http://web.archive.org/web/20031017200540/http://www.mysql.com/">MySQL</a> a <a href="http://web.archive.org/web/20031017200540/http://www.postgresql.org/">PostgreSQL</a> y aún ni mis luces.</p>

@@ -1,5 +1,5 @@
 title: "Back"
-Date: 2004-07-05 14:19:09
+date: 2004/7/5 14:19:09
 Tags: 
 ---
 <p>I&#8217;m back from Coatzacoalcos.</p>

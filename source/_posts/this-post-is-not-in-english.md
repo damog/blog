@@ -1,5 +1,5 @@
 title: "This post is not in English"
-Date: 2004-10-13 18:14:38
+date: 2004/10/13 18:14:38
 Tags: 
 ---
 <p>Sorry, I’m writing this post in Spanish, for the kids from <a href="http://web.archive.org/web/20041018111240/http://www.planetalinux.com.mx/">PlanetaLinux</a>.

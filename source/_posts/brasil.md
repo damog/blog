@@ -1,5 +1,5 @@
 title: "!Brasil"
-Date: 2005-06-01 03:00:48
+date: 2005/6/1 03:00:48
 Tags: 
 ---
 <br/><br/><br/><br/>

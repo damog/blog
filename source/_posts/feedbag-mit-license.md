@@ -1,5 +1,5 @@
 title: "Feedbag released under MIT license"
-Date: 2012-03-16 10:55:10
+date: 2012/3/16 10:55:10
 Tags: copyright,feed,feedbag,gpl,mit,ruby
 ---
 I was contacted by <a href="http://pivotallabs.com/">Pivotal Labs</a> regarding licensing of <a href="https://rubygems.org/gems/feedbag">Feedbag</a>. I guess releasing open source software as <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a> only makes sense if you continue to live under a rock. I've bumped the version to 0.9 and released it under <a href="http://www.opensource.org/licenses/mit-license.html">MIT license</a>.

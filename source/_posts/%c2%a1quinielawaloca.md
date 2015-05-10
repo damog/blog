@@ -1,5 +1,5 @@
 title: "¡Quinielawaloca!"
-Date: 2006-07-31 22:25:07
+date: 2006/7/31 22:25:07
 Tags: 
 ---
 <p>Pues <a target="_blank" href="http://www.jordi.net">Jordi</a> lanzó (qué raro que este cabrón no esté sacando cosas nuevas, como por ejemplo <a target="_blank" href="http://www.lawaloca.com/lawaloca_se_mocha">el dinero gratis</a>, al más puro estilo perredista; luego fue el <a target="_blank" href="http://www.lawaloca.com/node/3256">tema de Lawaloca para tu celular</a>; el <a target="_blank" href="http://www.lawaloca.com/node/450">Lawafest</a>; el <a target="_blank" href="http://www.lawaloca.com/node/3643">podcast de Lawaloca</a>; el <a target="_blank" href="http://www.lawaloca.com/node/2876">servidor</a> con <a target="_blank" href="http://www.0x50.org">Cherokee</a>; los <a href="http://www.lawaloca.com/node/2613">iPods <em>nano</em> que regala</a>; y un muy largo etcétera) la <strong>quiniela de Lawaloca</strong>, para el torneo de fútbol mexicano, Apertura 2006.

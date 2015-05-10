@@ -1,5 +1,5 @@
 title: "Cena mexicana"
-Date: 2006-03-29 16:56:06
+date: 2006/3/29 16:56:06
 Tags: 
 ---
 <p>Ayer pude por fin tener dinero que tenía parado y que me hacía no tener un sólo bolívar (Ana me prestó 10&#8217;000 bolos que me sirvieron para comer un día y comprar un multiabono en el metro). Con ese dinero, <a target="_blank" href="http://mannyto.unplug.org.ve">Manuel</a> me acompañó al supermercado <a target="_blank" href="http://www.cada.com.ve/">Cada</a> a comprar algunas cosas para tenerlas en casa de <a target="_blank" href="http://bureado.com.ve">José</a>. Compramos varias cosas interesantes (lo siento, no hay fotos :() y decidimos hacer una cena mexicana (intentamos llamar a José y a Susana a sendos teléfonos celulares para avisarles que no cenaran, pero ninguno atendió :().</p>

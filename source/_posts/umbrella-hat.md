@@ -1,5 +1,5 @@
 title: "Umbrella hat!"
-Date: 2005-10-01 23:19:50
+date: 2005/10/1 23:19:50
 Tags: 
 ---
 <p>What happen when you are at Philadelphia, the summer is extremely hot and you are willing to ride your bike?</p>

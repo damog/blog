@@ -1,5 +1,5 @@
 title: "Liferea and rxvt"
-Date: 2005-10-06 16:36:17
+date: 2005/10/6 16:36:17
 Tags: 
 ---
 <p>Grab your <a target="_blank" mce_real_href="http://packages.debian.org/liferea" href="http://packages.debian.org/liferea">Liferea</a> today and help testing 1.0-rc1! Liferea 0.9.7b+test1.0rc1-1 is now available on experimental.</p>

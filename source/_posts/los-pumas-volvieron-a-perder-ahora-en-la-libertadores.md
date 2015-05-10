@@ -1,5 +1,5 @@
 title: "Los Pumas volvieron a perder, ahora en la Libertadores"
-Date: 2006-02-09 02:06:07
+date: 2006/2/9 02:06:07
 Tags: 
 ---
 <p>Pumas es uno de los tres equipos mexicanos que juegan en la Copa (sudamericana) Libertadores, junto con los Tigres de la UANL y las Chivas Rayadas del Guadalajara. El día de hoy jugaron su primer partido contra el Nacional de Uruguay, en Montevideo. Miguel España, director técnico del equipo de mis amores, no sé por qué, hizo un par de movimientos en el cuadro titular, que desde mi punto de vista, son un chingadera: No meter a Leandro Augusto desde el principio y no poner a Sergio Bernal como arquero. Pareciera que el cabrón sólo quiere experimentar en la Libertadores, en lugar de realmente importarle el torneo, recordemos que los Pumas ya tuvieron una buena impresión en Sudamérica al llegar a la final de la Copa Nissan Sudamericana, contra Boca Jrs.</p>

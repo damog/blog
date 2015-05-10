@@ -1,5 +1,5 @@
 title: "Debian Control Center"
-Date: 2004-07-18 14:21:52
+date: 2004/7/18 14:21:52
 Tags: 
 ---
 <p>Finally today was our Debian Control Center meeting. I was pretty cool, I was happy to see the channel full of people, although not every one was in the active talk.</p>

@@ -1,5 +1,5 @@
 title: "Mi paloma est� de vuelta"
-Date: 2005-09-30 04:29:50
+date: 2005/9/30 04:29:50
 Tags: 
 ---
 <p>Finalmente mi paloma estᠤe vuelta. Quedó, a mi parecer, bastante

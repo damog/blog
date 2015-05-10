@@ -1,5 +1,5 @@
 title: "The Killers"
-Date: 2006-12-13 21:51:42
+date: 2006/12/13 21:51:42
 Tags: 
 ---
 <p><img src="http://www.smh.com.au/ffximage/2006/10/09/killers91006_wideweb__470x285,0.jpg"/></p>

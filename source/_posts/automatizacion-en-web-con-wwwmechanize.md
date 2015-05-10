@@ -1,5 +1,5 @@
 title: "Automatización en web con WWW::Mechanize"
-Date: 2007-09-05 21:16:25
+date: 2007/9/5 21:16:25
 Tags: 
 ---
 <a title="__index__" name="__index__" id="__index__"></a><ul>

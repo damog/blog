@@ -1,5 +1,5 @@
 title: "Manejo del tiempo con Perl"
-Date: 2007-08-31 22:46:54
+date: 2007/8/31 22:46:54
 Tags: 
 ---
 <h2>

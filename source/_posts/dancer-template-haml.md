@@ -1,5 +1,5 @@
 title: "Dancer::Template::Haml now available"
-Date: 2010-02-11 16:43:53
+date: 2010/2/11 16:43:53
 Tags: dancer,haml,perl,ruby
 ---
 I put together a quick template engine for <a href="http://dancer.sukria.net/">Dancer</a> using <a href="http://haml-lang.com">Haml</a> via <a href="http://search.cpan.org/dist/Text-Haml/">Text::Haml</a>. You know Haml, right?

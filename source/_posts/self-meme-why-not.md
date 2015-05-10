@@ -1,5 +1,5 @@
 title: "self meme: why not?"
-Date: 2008-09-24 12:56:02
+date: 2008/9/24 12:56:02
 Tags: foto,meme
 ---
 <p align="center"><a href="http://damog.net/old/axiombox/2008/09/memeself.jpg"><img class="aligncenter size-medium wp-image-660" title="memeself" src="http://damog.net/old/axiombox/2008/09/memeself-300x225.jpg" alt="" width="300" height="225" /></a></p>

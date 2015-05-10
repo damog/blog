@@ -1,5 +1,5 @@
 title: "Mar�a Daniela y su Sonido Lasser"
-Date: 2005-03-03 18:55:49
+date: 2005/3/3 18:55:49
 Tags: 
 ---
 <img src="http://www.damog.net/files/pics/maria-daniela.png" align="right"/><p><a href="http://www.damog.net/index.php?option=com_content&amp;task=blogcategory&amp;id=69&amp;Itemid=46">blog debianoso</a>, pero no por acá.</p>

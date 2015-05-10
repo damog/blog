@@ -1,5 +1,5 @@
 title: "Mofle"
-Date: 2005-10-29 19:23:41
+date: 2005/10/29 19:23:41
 Tags: 
 ---
 <p>Ya le hacía falta a mi Palomita, de verdad que sí. El día de hoy llevé mi coche al moflero, debido a:  </p>

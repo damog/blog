@@ -1,5 +1,5 @@
 title: "Go Sam! Mexico is with you!"
-Date: 2007-02-06 19:46:36
+date: 2007/2/6 19:46:36
 Tags: 
 ---
 <p>I almost felt into tears when I found out that our Sam is <a href="http://sam2007.zoy.org/" target="_blank">running</a> for DPL on 2007 :&#8217;)

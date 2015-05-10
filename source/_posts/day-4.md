@@ -1,5 +1,5 @@
 title: "Day 4"
-Date: 2004-05-31 14:01:25
+date: 2004/5/31 14:01:25
 Tags: 
 ---
 <p>I really don&#8217;t remember what happened exactly on day 4, anyway here are the pictures:</p>

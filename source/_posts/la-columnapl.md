@@ -1,5 +1,5 @@
 title: "La Columna.pl"
-Date: 2007-08-31 22:32:25
+date: 2007/8/31 22:32:25
 Tags: 
 ---
 <p><strong>La Columna.pl</strong> es una columna periódica en español sobre el lenguaje de programación y la cultura Perl.

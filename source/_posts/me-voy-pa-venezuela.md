@@ -1,5 +1,5 @@
 title: "Me voy pa' Venezuela"
-Date: 2006-01-26 23:39:36
+date: 2006/1/26 23:39:36
 Tags: 
 ---
 <p>Pues bueno, esto es algo que ya le había dicho a mucha gente, a gente cercana a mí, pero me gustaría escribirlo aquí: Me voy a Venezuela. ¿Por qué? Las razones salen sobrando, a finales de febrero me voy para allá, por varios meses.</p>

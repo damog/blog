@@ -1,5 +1,5 @@
 title: "Two new packages"
-Date: 2005-08-29 05:24:13
+date: 2005/8/29 05:24:13
 Tags: 
 ---
 <p>I uploaded two new packages today, GParted and fteqcc. <br/><br/>

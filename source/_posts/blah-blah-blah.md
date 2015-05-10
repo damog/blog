@@ -1,5 +1,5 @@
 title: "Blah, blah, blah."
-Date: 2003-11-14 19:35:10
+date: 2003/11/14 19:35:10
 Tags: 
 ---
 <p>He quitado mi galería. La tenía alojada en mi servidor casero, pero el ancho de banda simplemente no aguanta, pronto lo volveré a subir pronto: Es muy incómodo estar trabajando en Internet en casa y que de repente se alente a madres, por que un pringao ve mis fotos :P</p>

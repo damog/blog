@@ -1,5 +1,5 @@
 title: "Cervezas Tecate y cigarros Fortuna y Marlboro mentolados... Ah, y cacahuates japoneses Sabritas"
-Date: 2005-05-16 16:33:56
+date: 2005/5/16 16:33:56
 Tags: 
 ---
 El día de ayer, domingo de weba, me lancé a casa del <a target="_blank" href="http://www.tacvbo.net">Tacvbo</a>,

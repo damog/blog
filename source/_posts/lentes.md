@@ -1,5 +1,5 @@
 title: "Lentes"
-Date: 2005-08-28 19:54:30
+date: 2005/8/28 19:54:30
 Tags: 
 ---
 <p>A partir de hoy volveré a usar unos nuevos lentes que desde la semana

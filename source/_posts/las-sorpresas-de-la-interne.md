@@ -1,5 +1,5 @@
 title: "Las sorpresas de la Interné"
-Date: 2005-01-03 16:03:25
+date: 2005/1/3 16:03:25
 Tags: 
 ---
 <p>Resulta que me puse a buscar resultados en Google con mi nombre, luego de enterarme que los DAM&#8217;s en Debian buscan resultados allá para ver qué tanto apareces en actividades de Debian.</p>

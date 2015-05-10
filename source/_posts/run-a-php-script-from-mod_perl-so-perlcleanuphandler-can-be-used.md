@@ -1,5 +1,5 @@
 title: "Run a PHP script from mod_perl so PerlCleanupHandler can be used"
-Date: 2009-02-19 19:21:44
+date: 2009/2/19 19:21:44
 Tags: apache,modperl,php
 ---
 <strong>Situation</strong>

@@ -1,5 +1,5 @@
 title: "Mathematica no puede con la chamba"
-Date: 2003-11-07 19:40:29
+date: 2003/11/7 19:40:29
 Tags: 
 ---
 <p>Jajaja&#8230; Pues el día de hoy estaba trabajando en mi clase de Cálculo I con el software <a href="http://web.archive.org/web/20031125134728/http://www.wolfram.com/">Mathematica</a>. Es una maravilla resolviendo derivadas simples y parciales, integrales definidas e indefinidas, y un enorme etcétera. Pero con una simple exponenciación no puede:

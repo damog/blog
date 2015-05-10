@@ -1,5 +1,5 @@
 title: "Birthday, coming soon..."
-Date: 2004-07-31 14:23:48
+date: 2004/7/31 14:23:48
 Tags: 
 ---
 <p>Well, my birthday is coming soon (August 8th) :)</p>

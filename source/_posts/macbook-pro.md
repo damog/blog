@@ -1,5 +1,5 @@
 title: "MacBook Pro"
-Date: 2009-01-14 12:27:23
+date: 2009/1/14 12:27:23
 Tags: fetchmail,mac,macos,macports,mutt,mysql,ruby,rubygems,ssl
 ---
 As I <a href="http://twitter.com/habanerd/status/1116401225 ">tweeted yesterday</a>, I received my new MacBook Pro. I was a bit skeptical on choosing this computer being a Linux user/developer for quite some time now. I thought it was worth giving it a try anyway. Besides, I still use <a href="http://log.damog.net/2005/12/un-amor-mas-en-mi-vida/">my old Powerbook</a>; as my home server since I've always liked the Mac hardware.

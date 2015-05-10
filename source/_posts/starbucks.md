@@ -1,5 +1,5 @@
 title: "Starbucks"
-Date: 2004-12-25 16:03:05
+date: 2004/12/25 16:03:05
 Tags: 
 ---
 <p>Acabo de leer <a href="http://wieland.alohagdl.com/blog/index.php?gadget=blog&amp;action=single_view&amp;id=173">un mensaje</a> publicado en el blog del buen <a href="http://wieland.alohagdl.com/">Wieland</a> quejándose de la instauración de establecimientos <a href="http://www.ihatestarbucks.com/">Starbucks</a> en Guadalajara. Según comentaba, el 9 de diciembre se implantó el primero.

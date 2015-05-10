@@ -1,5 +1,5 @@
 title: "Google gadget"
-Date: 2003-11-09 19:38:53
+date: 2003/11/9 19:38:53
 Tags: 
 ---
 <p>Pues he terminado un pequeño gadgetcito para <a href="http://web.archive.org/web/20031125134728/http://jaws-project.sf.net/">JAWS</a> para hacer búsquedas en <a href="http://web.archive.org/web/20031125134728/http://www.google.com/">Google</a>. Espero adaptarle un pequeño admin, pero por lo pronto es usable.

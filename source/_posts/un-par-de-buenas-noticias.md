@@ -1,5 +1,5 @@
 title: "Un par de buenas noticias"
-Date: 2004-12-05 15:47:16
+date: 2004/12/5 15:47:16
 Tags: 
 ---
 <p>Pues el día de hoy he recibido sendas agradables noticias.</p>

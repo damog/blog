@@ -1,5 +1,5 @@
 title: "Red Hot Chili Peppers in Mexico"
-Date: 2007-03-20 19:29:37
+date: 2007/3/20 19:29:37
 Tags: 
 ---
 <p>Two weekends ago, <a target="_blank" href="http://www.maggit.com.mx">Raquel</a> and I went to see the <a href="http://en.wikipedia.org/wiki/RHCP">RHCP</a> at Foro Sol, on eastern Mexico City. She already blogged a bit about it (in Spanish).</p>

@@ -1,5 +1,5 @@
 title: "Ruby and libv8: Exactly my feelings"
-Date: 2012-04-23 13:33:09
+date: 2012/4/23 13:33:09
 Tags: feces,libv8,ruby,v8
 ---
 <img class="aligncenter" style="-webkit-user-select: none;" src="http://dan.sel.ec/kimura_images/KimuraLIBV8.jpg" alt="" />

@@ -1,5 +1,5 @@
 title: "Enemies of your freedom"
-Date: 2006-05-03 17:55:49
+date: 2006/5/3 17:55:49
 Tags: 
 ---
 It depends how you see <a target="_blank" href="http://slashdot.org/articles/06/04/30/1255217.shtml">it</a>.

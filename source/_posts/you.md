@@ -1,5 +1,5 @@
 title: "You"
-Date: 2006-12-20 19:20:12
+date: 2006/12/20 19:20:12
 Tags: 
 ---
 <p align="center"><img src="http://www.rebelion.org/imagenes/p_20_12_2006.JPG"/></p>

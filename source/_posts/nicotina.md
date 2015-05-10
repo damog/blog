@@ -1,5 +1,5 @@
 title: "Nicotina"
-Date: 2003-12-24 14:42:31
+date: 2003/12/24 14:42:31
 Tags: 
 ---
 <p>Pues el día llegó a mis manos la película Nicotina, donde actúa Diego Luna.</p>

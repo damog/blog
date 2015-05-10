@@ -1,5 +1,5 @@
 title: "Moneando; Jaws"
-Date: 2005-07-30 17:41:27
+date: 2005/7/30 17:41:27
 Tags: 
 ---
 <strong>Mono</strong><br/>

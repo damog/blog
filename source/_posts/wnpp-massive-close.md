@@ -1,5 +1,5 @@
 title: "WNPP massive close"
-Date: 2005-09-15 04:05:22
+date: 2005/9/15 04:05:22
 Tags: 
 ---
 Today I have closed 729 work-needing and prospective packages bugs :-)<br/><br/>

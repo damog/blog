@@ -1,5 +1,5 @@
 title: "Audio en archivos de video 3GP"
-Date: 2006-08-20 20:02:31
+date: 2006/8/20 20:02:31
 Tags: 
 ---
 <p>Recientemente me ha dado por grabar algunos videos desde mi celular. Luego de echar a andar el bluetooth en la laptop, pasar fotos, música y videos desde el celular se hizo muy facilito. El problema fue que el <a target="_blank" href="http://chocolate.lgmobile.com">LG Chocolate</a> graba los videos en un formato <a target="_blank" href="http://en.wikipedia.org/wiki/3GP">3GP</a>, que <em>mplayer</em>, por ejemplo, sí puede reproducir, pero sin audio.

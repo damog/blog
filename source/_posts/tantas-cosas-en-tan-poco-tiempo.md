@@ -1,5 +1,5 @@
 title: "Tantas cosas en tan poco tiempo"
-Date: 2006-02-26 23:08:18
+date: 2006/2/26 23:08:18
 Tags: 
 ---
 <p>Pues mañana me voy para Venezuela, muchas gracias a todos los que me han apoyado en esta decisión y aventura, principalmente a mis padres, a mi hermana y a mis más entrañables amigos, los quiero a todos y cada uno de ustedes. Ustedes saben quiénes son. Algunas de las cosas que he hecho en estos últimos días:</p>

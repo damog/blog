@@ -1,5 +1,5 @@
 title: "Acción Nacional compara a Hugo Chávez y a Andrés Manuel López Obrador y los tacha de intolerantes"
-Date: 2006-03-27 23:08:02
+date: 2006/3/27 23:08:02
 Tags: 
 ---
 <p><strong>Los hechos. </strong>El <a target="_blank" href="http://www.pan.org.mx">Partido Acción Nacional</a>, partido de derecha en México, en el cual pertenece el presidente <a target="_blank" href="http://www.presidencia.gob.mx">Vicente Fox</a>, lanzó un espot televisivo en México donde, en lugar de tratar de mostrar las propuestas de su candidato Felipe Calderón (<em>Falderón</em>, pa&#8217; los cuates) o su modelo de gobierno, muestra al candidato del <a target="_blank" href="http://www.prd.org.mx">PRD</a>, Andrés Manuel López Obrador, &#8220;el <em>Peje</em>&#8221;, comparado con el presidente venezolano Hugo Chávez, en algo que el PAN señala como «intolerantes».

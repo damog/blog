@@ -1,5 +1,5 @@
 title: "La insoportable levedad de ser Damog.org"
-Date: 2003-07-02 19:03:17
+date: 2003/7/2 19:03:17
 Tags: 
 ---
 <p>Acabo de ver algo especialmente cagado&#8230; <img alt=": ) " src="http://web.archive.org/web/20030719200405/http://www.damog.org/blog/b2-img/smilies/icon_smile.gif"/></p>

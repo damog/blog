@@ -1,5 +1,5 @@
 title: "Historias neoyorkinas V"
-Date: 2007-12-22 01:27:26
+date: 2007/12/22 01:27:26
 Tags: 
 ---
 <p>Íbamos en el metro de Nueva York dirigiéndonos al hogar. Ella disfrutaba del nintendito que es novedad y es plenamente adictivo con varios cartuchitos. El trayecto subterráneo es de la W4 a la 145th, en la línea A o C, da igual. Se suben dos guaditas cualesquiera y se apean cerca de nosotros, agarrados de un tubo vertical, por un momento sus miradas se centran en el videojuego.</p>

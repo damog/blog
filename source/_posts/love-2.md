@@ -1,5 +1,5 @@
 title: "LOVE"
-Date: 2006-11-23 21:52:15
+date: 2006/11/23 21:52:15
 Tags: 
 ---
 <p align="center"><img src="http://www.damog.net/files/misc/LOVE.jpg"/></p>

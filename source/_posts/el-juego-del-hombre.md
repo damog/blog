@@ -1,5 +1,5 @@
 title: "El juego del hombre"
-Date: 2006-06-12 07:39:47
+date: 2006/6/12 07:39:47
 Tags: 
 ---
 No hay nada que sienta con más intensidad, excitación, ánimo y amor en el mundo del fútbol que ver a tu selección nacional anotar un gol en una copa del mundo. Ya decía Javier Solórzano que <strong>el fútbol es lo más importante de lo menos importante</strong>, y sí, desde luego, pero qué hermosa es esa parte menos importante de nuestra vida, es un deleite, es lo que le pone una cereza al pastel, lo que le da el toque maestro a nuestra cotidianeidad.

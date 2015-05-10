@@ -1,5 +1,5 @@
 title: "La hoja se rompió"
-Date: 2006-02-04 19:05:50
+date: 2006/2/4 19:05:50
 Tags: 
 ---
 <p>Se dio cuenta que podía hablarle a las plantas cuando una mañana, luego de comer su fruta con yogurt bostezó viendo de cerca lo que le llama la atención en esa violeta: Los finos pelitos que le salen de las hojas. Luego de bostezar, le pareció que la planta en cuestión se estremecía. Le extrañó y se acercó un poco más a la planta, concentrado. Parecía que los pelitos de la hoja se levantaban notando la presencia de aquel individuo.</p>

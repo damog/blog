@@ -1,5 +1,5 @@
 title: "Reviviendo a los clásicos"
-Date: 2006-12-03 21:58:59
+date: 2006/12/3 21:58:59
 Tags: 
 ---
 <p>Recordar es volver a vivir.

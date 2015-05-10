@@ -1,5 +1,5 @@
 title: "Historias de Nueva York"
-Date: 2008-03-06 02:44:54
+date: 2008/3/6 02:44:54
 Tags: 
 ---
 <p>So, <a href="http://maggit.com.mx" target="_blank">we</a>&#8216;ve finally came up with another personal project we&#8217;ve been working on in the last couple of months: <a href="http://historiasdenuevayork.com" target="_blank">Historias de Nueva York</a>. This is my <a href="http://historiasdenuevayork.com/2008/03/historiasdenuevayorkcom.html" target="_blank">formal introduction</a>. </p>

@@ -1,5 +1,5 @@
 title: "DPL election ballot"
-Date: 2006-04-07 02:12:49
+date: 2006/4/7 02:12:49
 Tags: 
 ---
 <p>I&#8217;m one of those waiting until the last call for votes to send the ballot:</p>

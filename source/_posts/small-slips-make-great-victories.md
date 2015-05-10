@@ -1,5 +1,5 @@
 title: "Small slips make great victories"
-Date: 2008-06-10 19:53:58
+date: 2008/6/10 19:53:58
 Tags: chess,games
 ---
 World, here's another one:

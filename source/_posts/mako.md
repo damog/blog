@@ -1,5 +1,5 @@
 title: "Mako"
-Date: 2004-11-27 15:41:55
+date: 2004/11/27 15:41:55
 Tags: 
 ---
 <p>Pues el buen <a href="http://mako.yukidoke.org/">Mako</a> vino esta semana a México para el <a href="http://congreso.gulev.org.mx/">Congreso GULEV</a> (¿es realmente un grupo de usuarios veracruzanos?). Llegó el miércoles y el día de hoy regresaba a NYC, sin embargo el tiempo de espera en su conexión era de siete horas, por ello nos pusimos de acuerdo y pasé por él al aeropuerto para ir a desayunar y para darle una pequeña visita turística.</p>

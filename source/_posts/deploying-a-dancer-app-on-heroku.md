@@ -1,5 +1,5 @@
 title: "Deploying a Dancer app on Heroku"
-Date: 2012-07-16 21:03:45
+date: 2012/7/16 21:03:45
 Tags: dancer,heroku,perl
 ---
 There's a <a href="http://blog.kraih.com/mojolicious-in-the-cloud-hello-heroku">few</a> different posts out there on how to run Perl apps, such as Mojolicious-based, on Heroku, but I'd like to show how to deploy a <a href="http://perldancer.org/">Perl Dancer</a> application on <a href="http://www.heroku.com/">Heroku</a>.

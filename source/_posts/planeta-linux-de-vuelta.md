@@ -1,5 +1,5 @@
 title: "Planeta Linux de vuelta"
-Date: 2006-01-30 04:40:53
+date: 2006/1/30 04:40:53
 Tags: 
 ---
 Pues bueno, gracias al gran interés que había entre muchos amigos del área de software libre, Planeta Linux está de vuelta, ahora de una forma más estable. Ahora con nuevo dominio, intentaremos darle una mejor administración con más confiabilidad. Además de Planeta Linux México, he creado Planeta Linux Venezuela que ojalá crezca tanto o más que el correspondiente mexicano. Así, bienvenido nuevamente, el planeta que ha sido siempre imitado, jamás igualado :)

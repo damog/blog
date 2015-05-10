@@ -1,5 +1,5 @@
 title: "New York, NY"
-Date: 2007-10-07 04:13:54
+date: 2007/10/7 04:13:54
 Tags: 
 ---
 <a href="http://www.flickr.com/photos/richardspics/87446951/" title="photo sharing"><img src="http://farm1.static.flickr.com/36/87446951_d438474121_m.jpg" alt=""/></a><br/><a href="http://www.flickr.com/photos/richardspics/87446951/">New York, NY</a>

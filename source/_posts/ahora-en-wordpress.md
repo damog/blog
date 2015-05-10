@@ -1,5 +1,5 @@
 title: "Ahora en WordPress"
-Date: 2006-01-28 00:08:41
+date: 2006/1/28 00:08:41
 Tags: 
 ---
 <p>La neta <a target="_blank" href="http://www.joomla.org/">Joomla</a> ya no me gustó. Pasó un buen rato, más de un año y ahora heme aquí usando <a target="_blank" href="http://www.amlegion-mexico.org/">WordPress</a>, con mis posts exportados, sin categorizar, pero bueno, algo es algo. Sus comentarios en este bonito y nuevo manejador de contenidos son ampliamente recibidos y ampliamente agradecidos.<br/>

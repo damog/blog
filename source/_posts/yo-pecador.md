@@ -1,5 +1,5 @@
 title: "Yo pecador"
-Date: 2006-11-03 06:50:17
+date: 2006/11/3 06:50:17
 Tags: 
 ---
 <p>He pecado.</p>

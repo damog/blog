@@ -1,5 +1,5 @@
 title: "simple-red y last_entries"
-Date: 2003-12-01 19:27:21
+date: 2003/12/1 19:27:21
 Tags: 
 ---
 <p>Un par de cosas.

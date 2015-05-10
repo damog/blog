@@ -1,5 +1,5 @@
 title: "Planning trip to DebConf7"
-Date: 2007-01-06 19:48:44
+date: 2007/1/6 19:48:44
 Tags: 
 ---
 <p>I&#8217;ve also started to look for the best plan to reach Edinburgh next June.</p>

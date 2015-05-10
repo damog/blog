@@ -1,5 +1,5 @@
 title: "linux.org.mx is now Planeta Linux México"
-Date: 2009-11-24 16:19:56
+date: 2009/11/24 16:19:56
 Tags: linux.org.mx,planeta linux
 ---
 It's very pleasant for me to announce that the probably <em>most descriptive domain name in Mexico for Linux</em>, <a href="http://linux.org.mx/"><strong>linux.org.mx</strong></a>, is now powered by <a href="http://planetalinux.org/mx">Planeta Linux México</a>.

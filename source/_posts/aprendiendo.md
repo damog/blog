@@ -1,5 +1,5 @@
 title: "Aprendiendo"
-Date: 2003-11-01 19:44:40
+date: 2003/11/1 19:44:40
 Tags: 
 ---
 <p>Pues he estado estudiando un poco. Tanto en la escuela, como en el trabajo. Es muy bonito aprender, estudiar. Quita nuestra ignorancia y nos hace más fuertes contra las injusticias, y lo que creemos que está mal. En casa, me he dado a la tarea de estudiar <a href="http://web.archive.org/web/20031125134728/http://www.redhat.com/">RedHat</a> ;)

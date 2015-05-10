@@ -1,5 +1,5 @@
 title: "##debian-offtopic"
-Date: 2008-01-15 21:07:34
+date: 2008/1/15 21:07:34
 Tags: 
 ---
 <p>It&#8217;s incredible how one troll can split a channel up. It&#8217;s incredible how the sexist shit can be spread all over the place. It&#8217;s incredible, not wait, not incredible, it&#8217;s sad, sadder and sadder, to see what Debian has become. The Debian social life has become a center for dramas of all kinds, since sexist traumas, transgenders issues, people with too much free time, real good technical people leaving, freaking big farts in Debian thinking on leaving the project, elitist dolls clubs, small wannabes who think they can treat other people unrespectful. Debian itself is now its own slow killer. There has always been old people, new people, people leaving and people entering, but when you see other projects just as good as we were, some of us remain because of the social side of Debian. But is it really worthwhile? Perhaps not anymore.

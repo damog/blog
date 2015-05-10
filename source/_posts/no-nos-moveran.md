@@ -1,5 +1,5 @@
 title: "No nos moverán"
-Date: 2006-06-27 23:19:43
+date: 2006/6/27 23:19:43
 Tags: 
 ---
 <p>Mensaje de <a target="_blank" href="http://www.patriciamercado.org.mx">Patricia Mercado</a> a la nación mexicana:

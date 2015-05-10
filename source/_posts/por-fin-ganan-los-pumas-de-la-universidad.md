@@ -1,5 +1,5 @@
 title: "Por fin ganan los Pumas de la Universidad"
-Date: 2006-02-12 22:18:06
+date: 2006/2/12 22:18:06
 Tags: 
 ---
 <p>Pues luego de haber ido a hacer el ridículo a Uruguay el pasado miércoles, el día de hoy, en casa, en el glorioso Estadio Olímpico Universitario, los Pumas de la UNAM le pudieron ganar a los Tiburones Rojos del Veracruz que estuvieron ampliamente descompuestos. Dos goles a cero.</p>

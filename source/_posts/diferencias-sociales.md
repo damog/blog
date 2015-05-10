@@ -1,5 +1,5 @@
 title: "Diferencias sociales..."
-Date: 2003-06-08 19:33:02
+date: 2003/6/8 19:33:02
 Tags: 
 ---
 <p>Es increíble ver cómo puede cambiar la ciudad de México tan sólo por circular en ella. La gente camina en sus rumbos conociendo a la gente, conociendo las casas, conociendo todo lo que por ahí pasa. Sin embargo poca gente se da verdadera cuenta de cómo puede una misma ciudad tan radicalmente debido a la segregación y pobreza.</p>

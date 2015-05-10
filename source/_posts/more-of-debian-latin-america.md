@@ -1,5 +1,5 @@
 title: "More of Debian Latin America"
-Date: 2005-08-05 17:46:34
+date: 2005/8/5 17:46:34
 Tags: 
 ---
 <p>This is being great.<br/><br/></p>

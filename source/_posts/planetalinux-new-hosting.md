@@ -1,5 +1,5 @@
 title: "New hosting for Planeta Linux"
-Date: 2014-08-03 14:50:05
+date: 2014/8/3 14:50:05
 Tags: planetalinux
 ---
 Just a very quick shout out.

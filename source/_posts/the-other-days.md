@@ -1,5 +1,5 @@
 title: "The other days"
-Date: 2004-06-06 14:12:47
+date: 2004/6/6 14:12:47
 Tags: 
 ---
 <p>So, DebConf4 and FISL is over. Anyway all other pictures are here:</p>

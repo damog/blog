@@ -1,5 +1,5 @@
 title: "Reunión de Usuarios de Software Libre de México"
-Date: 2003-10-14 18:45:19
+date: 2003/10/14 18:45:19
 Tags: 
 ---
 <p>Pues resulta que <a href="mailto:asanchezm@e-compugraf.com">Lurkan</a> y Toño Galicia, han convocado a una reunión de usuarios. Quieren hacer lo que se hacía en la UNAM en Nucleares, reuniones cada mes y todo eso.</p>

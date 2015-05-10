@@ -1,5 +1,5 @@
 title: "Asesinatos en Caracas"
-Date: 2006-04-06 03:15:57
+date: 2006/4/6 03:15:57
 Tags: 
 ---
 Para la gente fuera de Venezuela le explico brevemente el caso, al menos lo que he leído y escuchado al respecto.

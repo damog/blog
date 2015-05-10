@@ -1,5 +1,5 @@
 title: "debaday"
-Date: 2005-09-14 05:55:49
+date: 2005/9/14 05:55:49
 Tags: 
 ---
 I&#8217;ve been working lately on trying to bring back the <a href="http://www.livejournal.com/users/debaday" target="_blank">old debaday</a> effort.<br/><br/>

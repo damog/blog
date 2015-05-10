@@ -1,5 +1,5 @@
 title: "Perplejo"
-Date: 2005-08-23 22:27:25
+date: 2005/8/23 22:27:25
 Tags: 
 ---
 Imagínese el lector la escena. <br/><br/>

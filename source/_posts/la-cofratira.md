@@ -1,5 +1,5 @@
 title: "La Cofratira"
-Date: 2006-06-29 00:49:22
+date: 2006/6/29 00:49:22
 Tags: 
 ---
 <p align="center"><img src="http://www.damog.net/files/cofratira/cofratira.png"/></p>

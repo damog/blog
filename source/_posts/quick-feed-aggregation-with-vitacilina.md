@@ -1,5 +1,5 @@
 title: "Quick feed aggregation with Vitacilina"
-Date: 2009-01-29 21:36:06
+date: 2009/1/29 21:36:06
 Tags: cpan,feed,github,perl,rfeed,vitacilina,yaml
 ---
 <em>Vitacilina, ¡ah, qué buena medicina!</em>

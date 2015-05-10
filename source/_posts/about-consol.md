@@ -1,5 +1,5 @@
 title: "About CONSOL"
-Date: 2005-02-26 18:44:49
+date: 2005/2/26 18:44:49
 Tags: 
 ---
 <p><a href="http://www.consol.org.mx">CONSOL</a> is finally over. Organization stuff has been pretty tiring this year. But I&#8217;m widely satisfied what we&#8217;ve reached: Being probably the most important free software conference in Mexico.</p>

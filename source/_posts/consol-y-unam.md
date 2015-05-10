@@ -1,5 +1,5 @@
 title: "CONSOL y UNAM"
-Date: 2007-02-18 21:20:33
+date: 2007/2/18 21:20:33
 Tags: 
 ---
 <p>Esta semana volví a clases en la <a href="http://www.fciencias.unam.mx" target="_blank">Facultad de Ciencias</a> en la <a href="http://www.unam.mx" target="_blank">UNAM</a>. También esta semana, desde el martes, se llevó a cabo el <a href="http://www.consol.org.mx" target="_blank">CONSOL</a> en la <a href="http://www.fi.unam.mx" target="_blank">FI</a>.</p>

@@ -1,5 +1,5 @@
-title: "Dear Mr. "I'm too good to call or write my fans""
-Date: 2006-02-13 19:09:41
+title: "Dear Mr. \"I'm too good to call or write my fans\""
+date: 2006/2/13 19:09:41
 Tags: 
 ---
 <p>Or&#8230; Dear Mr. &#8220;I&#8217;m too good to make things properly for portability on Ruby packages&#8221;.</p>

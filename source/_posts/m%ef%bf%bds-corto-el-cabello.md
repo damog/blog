@@ -1,5 +1,5 @@
 title: "M�s corto el cabello"
-Date: 2005-02-01 03:01:31
+date: 2005/2/1 03:01:31
 Tags: 
 ---
 <p>Antes de bañarme, tomé la máquina para rasurar (esa que tiene peines variables) y sin meditarlo más (para no arrepentirme) me la metí justo en el centro, al frente. Ya luego me seguí con lo demás.</p>

@@ -1,5 +1,5 @@
 title: "Fotos"
-Date: 2003-11-11 19:37:39
+date: 2003/11/11 19:37:39
 Tags: 
 ---
 <p>Pues gracias a la cámara digital que adquirí días atrás, he abierto mi bonita galería.

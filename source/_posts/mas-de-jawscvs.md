@@ -1,5 +1,5 @@
 title: "Más de jawsCVS"
-Date: 2004-01-12 14:37:58
+date: 2004/1/12 14:37:58
 Tags: 
 ---
 <p>Pues bueno, varia gente me pidió que rolara un snapshot del código de CVS de JAWS (lo que se convertirá en JAWS 0.3). Helo acá:</p>

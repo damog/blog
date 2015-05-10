@@ -1,5 +1,5 @@
 title: "Visit counter"
-Date: 2004-01-12 14:36:03
+date: 2004/1/12 14:36:03
 Tags: 
 ---
 <p>Pues bueno, luego de casi dos meses de prometer un visit counter (que se diferencía de un hit counter debido a que el hit counter suma cada recarga del sitio y el visit counter lo hace con cada IP), está listo.

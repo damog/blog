@@ -1,5 +1,5 @@
-title: ""damog es un...""
-Date: 2006-09-01 20:21:48
+title: "\"damog es un...\""
+date: 2006/9/1 20:21:48
 Tags: 
 ---
 <p>Hago un experimento que tomo del blog de <a target="_blank" href="http://www.lasmalotas.com/blog/">BaD-GirL</a> sobre lo que piensa Google de mí. Hay que buscar &#8220;<em>$tu_nombre es un *</em>&#8221;, colocando la variable <em>$tu_nombre</em> con el valor indicado, obviamente :)

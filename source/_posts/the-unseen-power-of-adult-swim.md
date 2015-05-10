@@ -1,5 +1,5 @@
 title: "The unseen power of Adult Swim"
-Date: 2004-10-03 18:09:27
+date: 2004/10/3 18:09:27
 Tags: 
 ---
 <p>I recently noticed that <a href="http://web.archive.org/web/20041018111240/http://www.cartoonnetwork.com/">Cartoon Network</a>, one of my beloved TV channels, will (or is already) launch a new cartoon concept. At least, new for them.</p>
