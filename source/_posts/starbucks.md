@@ -1,7 +1,7 @@
 Title: Starbucks
 Date: 2004-12-25 16:03:05
 Tags: 
-
+---
 <p>Acabo de leer <a href="http://wieland.alohagdl.com/blog/index.php?gadget=blog&amp;action=single_view&amp;id=173">un mensaje</a> publicado en el blog del buen <a href="http://wieland.alohagdl.com/">Wieland</a> quejándose de la instauración de establecimientos <a href="http://www.ihatestarbucks.com/">Starbucks</a> en Guadalajara. Según comentaba, el 9 de diciembre se implantó el primero.
 
 Acá en la Ciudad de México hay una gran cantidad de Starbucks. Intentando recordar rápidamente, me vienen a la mente tres establecimientos. Hay uno frente al World Trade Center México, otro por Insurgentes, a la altura de Plaza Inn. Y quizás el que tengo más presente, en Santa Fé, frente a la <a href="http://www.uia.mx/">universidad</a>, en la zona restaurantera del área.

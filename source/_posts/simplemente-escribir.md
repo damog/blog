@@ -1,7 +1,7 @@
 Title: Simplemente escribir...
 Date: 2003-08-01 20:00:58
 Tags: 
-
+---
 <p>Alguien se ha puesto a escribir un texto similar al que en estos momentos escribo en algún lugar inusual, o simplemente en algún lugar diferente al que siempre se usa?
 
 Generalmente yo escribo cualquier cosa, trabajo, me hago güey desde mi computadora posicionada dentro de mi habitación, en un escueto escritorio. Ahora que menciono la palabra &#8216;escueto&#8217; me doy cuenta de que realmente es una palabra que se ha popularizado de tal forma que ha dejado de ser divertido usarla. Es como el místico y hermoso &#8216;chale&#8217;. A principios de los noventas era bonito usarlo, a mediados era un sinónimo de protesta, a finales y principios de siglo, lo usan hasta las viejas pendejas de la Universidad Iberoamericana (:-D) -en fin, omitan comentarios al respecto-.

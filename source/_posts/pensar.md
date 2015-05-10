@@ -1,7 +1,7 @@
 Title: Pensar
 Date: 2006-04-23 04:35:06
 Tags: 
-
+---
 <p>Pensar en las cosas hacen que tus acciones, muchas veces poco adaptadas y meditadas, surjan y controlen todo lo que haces. Un recuerdo, un momento, una flor que queda marchita en el pavimento. Siempre está presente el hubiera. No es posible que de alguna manera dejaría todo por una sonrisa sincera.</p>
 
 <p>Muchos de nosotros llevamos dentro un suicida.</p>

@@ -1,7 +1,7 @@
 Title: Ellas/Nosotras Masiosare
 Date: 2007-05-23 22:10:22
 Tags: 
-
+---
 <p>Invitación que me llegó de una lista de correos de la Facultad:
 </p>
 <p align="center"> El próximo martes 29 de Mayo a las 19:00hrs</p>

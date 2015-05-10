@@ -1,7 +1,7 @@
 Title: Weird
 Date: 2004-08-22 14:30:55
 Tags: 
-
+---
 <p>It&#8217;s extremely weird when sometimes happen what some friends and I lived yesterday. Let me tell you:</p>
 
 <p>We (some friends and I) had a couple of parties to go to. The first one was with my good friend <a href="http://zilus.evolucionlinux.com/">Zilus</a>, on a zone called Tecamachalco (which is a little far away from my home, but closer to university). He said pretty ladies were going to be there, as well as good music and environment. So, I decided to go. But before going to pick up my girl, I called Chema (another friend) to see if he had something else. He did.</p>

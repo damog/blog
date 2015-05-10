@@ -1,7 +1,7 @@
 Title: Caching and optimization for WordPress talk
 Date: 2009-12-21 14:18:48
 Tags: caching,optimization,wcnyc,wordpress
-
+---
 <p>Continuing with my <a href="http://2009.newyork.wordcamp.org/">WordCamp NYC</a> talks review, I'd like to point out the notes I took attending the talk <em>Caching and Optimization for WordPress</em>, by <a href="http://simianuprising.com/">Jeremy Clarke</a>.</p>
 <p>I believe this was a great topic to be covered for people who actively maintain <a href="http://wordpress.org/">WordPress</a> installations and have to deal with upgrades, stability and reliability. However, I also think Jeremy took a much more basic approach for this topic the way it shouldn't have to be. He would describe all the tools that he was showcasing from the most basic parts of it, like what's a terminal or why you should use it, to an audience attending the advanced development track.</p>
 <p>Anyway, here are my notes:</p>

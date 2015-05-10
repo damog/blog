@@ -1,7 +1,7 @@
 Title: Varias cosas...
 Date: 2003-10-07 18:47:52
 Tags: 
-
+---
 <p>Pues un par de cosas:
 </p>
 <ol>

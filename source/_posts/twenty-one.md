@@ -1,7 +1,7 @@
 Title: Twenty-one
 Date: 2005-08-08 05:08:14
 Tags: 
-
+---
 <p>A day like today, but 21 years ago, I was born. Random thoughts:<br/><br/></p>
 <ul>
 <li>I hosted a birthday party last friday. All my dearest friends were there.</li>

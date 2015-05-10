@@ -1,7 +1,7 @@
 Title: Yes
 Date: 2006-01-27 03:32:40
 Tags: 
-
+---
 <p>I just told my boss. I&#8217;m moving to Venezuela. It&#8217;s now official. Everybody knew, except for my boss and he supports me completely: He rocks. Well, it somewhat depends on the definition of &#8216;moving&#8217;, but I&#8217;ll be there for more than a couple of months, call it whatever you want.</p>
 
 <p>I&#8217;m pretty excited. Time to get tickets. And time to plan actually, again, <em>going</em> to DebConf, which is, from an specific point of view, quite funny <img border="0" alt="Laughing" src="http://www.damog.net/blog/wp-admin/mambots/editors/tinymce/jscripts/tiny_mce/plugins/emotions/images/smiley-laughing.gif"/>.</p>

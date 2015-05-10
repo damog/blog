@@ -1,7 +1,7 @@
 Title: Pasaporte perdido
 Date: 2006-01-28 20:02:05
 Tags: 
-
+---
 <p>Ya sé. A nadie le pasa. Nadie es tan estúpido como para perder su pasaporte. Me lleva la chingada, la más grande de las chingadas. Finalmente sacar un pasaporte en México es bastante fácil y rápido (lo puedes tener listo en dos o tres horas), sin embargo lo que me preocupa es que el pasaporte que perdí es el que tengo registrado para la entrevista en la embajada gringa para sacar mi visa. Y la puta entrevista es el miércoles. Nadie es tan pendejo.</p>
 
 <p>Si me conoces un poco, sabes que todos mis papeles son un desmadre. En la oficina tuve que escarbar por montañas de papeles, fólders y cuadernos para poder buscar, y no estuvo. En casa lo busqué en mi librero, en mis hojas, en las cajas que mi mamá ordenó hace seis meses, en todos lados, y no está. Encontré incluso el pasaporte anterior a éste, que expiró en 2005 y que tiene un sello que dice &#8220;Cancelado&#8221;. Pero no encontré el puto pasaporte actual. Quería mi visa para antes de irme a Venezuela, por si en algún momento la llegara a necesitar, simplemente por previsión o cualquier cosa y ahora no podré sacarla si no encuentro ese puto pasaporte.</p>

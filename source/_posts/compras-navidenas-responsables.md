@@ -1,7 +1,7 @@
 Title: Compras navideñas responsables
 Date: 2004-12-16 15:56:19
 Tags: 
-
+---
 <p>A continuación transcribo una serie muy interesante de consejos para las compras en esta Navidad que he recibido de <a href="http://www.greenpeace.org.mx/">Greenpeace</a>, a ver qué tal les parece.
 </p>
 <li>Compra productos duraderos, evita los que son desechables.</li>

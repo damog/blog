@@ -1,7 +1,7 @@
 Title: Parque Deportivo del Seguro Social
 Date: 2007-03-10 00:27:29
 Tags: 
-
+---
 <p>Hoy tuve una catársis. Vi una fotografía que tiene el <a href="http://www.rabade.net" target="_blank">mig</a> en <a href="http://www.flickr.com/photos/el_mig">su flickr</a> del Parque Deportivo del Seguro Social en sus últimos días. Recordé muchas cosas de mi <em>infantilidad</em> viendo esa fotografía.</p>
 
 <p>Antes incluso de que emigráramos a Cd. del Carmen y Celaya, respectivamente, mi papá me había metido a jugar béisbol en la Liga Anáhuac (allá por Valle de Aragón) a la tierna edad de 3, casi 4 años (en 1987, 1988). Mentiría si dijera que recuerdo a esa edad asistiendo al Parque del SS, pero lo que sí recuerdo es que, cuando volví a la Ciudad de México, por allá de 1995, mi papá nos llevaba a los partidos de ese estadio. Cuando entré a la secundaria, en 1996, volví a jugar béisbol en esa misma liga.</p>

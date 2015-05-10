@@ -1,7 +1,7 @@
 Title: Poxole
 Date: 2004-12-11 15:53:43
 Tags: 
-
+---
 <p>El día de hoy estuve haciendo un paquetito para Debian con un script sencillísimo que cambia aleatoriamente el background de GNOME, usando gconftool-2.</p>
 
 <p>El paquete está dividido en dos: el script (y 6 wallpapers base) y un paquete con extras, que contiene 300 wallpapers, de mi propia colección personal ;-)</p>

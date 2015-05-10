@@ -1,7 +1,7 @@
 Title: DD
 Date: 2005-08-14 05:22:56
 Tags: 
-
+---
 After a long NM process, I&#8217;ve became DD today.<br/><br/>
 I have to thank people involved directly on my process: Gunnar Wolf for
 being my advocate, and actually, he was the one who gave me a Debian CD

@@ -1,7 +1,7 @@
 Title: See you in HEL
 Date: 2005-04-01 00:34:13
 Tags: 
-
+---
 <p>I finally managed my employer to buy my flight ticket to Finland. I will have to pay for it at the end, but the good thing is the company will buy it right now, so I can gradually (and without interests ;-) pay for it.</p>
 <ul>
 <li>Flight tickets Mexico City - Amsterdam - Helsinki - Amsterdam - Mexico City: $1&#8217;489.00 USD.

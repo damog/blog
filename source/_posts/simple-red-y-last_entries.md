@@ -1,7 +1,7 @@
 Title: simple-red y last_entries
 Date: 2003-12-01 19:27:21
 Tags: 
-
+---
 <p>Un par de cosas.
 
 Pues hice una ligera modificación al tema &#8216;simple-blue&#8217; de <a href="http://web.archive.org/web/20031226230140/http://jaws-project.sf.net/">JAWS</a> para ponerlo rojito, como el que se está viendo ;)

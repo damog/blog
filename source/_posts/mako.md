@@ -1,7 +1,7 @@
 Title: Mako
 Date: 2004-11-27 15:41:55
 Tags: 
-
+---
 <p>Pues el buen <a href="http://mako.yukidoke.org/">Mako</a> vino esta semana a México para el <a href="http://congreso.gulev.org.mx/">Congreso GULEV</a> (¿es realmente un grupo de usuarios veracruzanos?). Llegó el miércoles y el día de hoy regresaba a NYC, sin embargo el tiempo de espera en su conexión era de siete horas, por ello nos pusimos de acuerdo y pasé por él al aeropuerto para ir a desayunar y para darle una pequeña visita turística.</p>
 
 <p>Fuimos por la mañana a desayunar al café Bullé en el Centro Histórico, que personalmente me agrada mucho, en la calle de Madero, bastante cerca al Zócalo. Platicamos bastante sobre Debian, lo que más interesó fue lo que piensa de todo el proceso <a href="http://nm.debian.org/">NM</a>, siendo un AM: Él no realiza ninguna pregunta sobre T&amp;S, pide acciones, pruebas; también me platicó cómo fue que entró a Debian, seis años atrás. También charlamos sobre Ubuntu, incluso me comentó que llevó como 50&#160;cd&#8217;s oficiales de Ubuntu para regalar en la charla y que la gente se peleaba por ellos ;) A toda madre me guardó uno: A ver si lo instalo en mi maquinita de pruebas pronto.</p>

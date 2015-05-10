@@ -1,5 +1,5 @@
 Title: NKjoom5
 Date: 2005-11-03 17:14:21
 Tags: 
-
+---
 In most of the last few days, I&#8217;ve been completely into NKjoom5, a framework for developing web applications for <a target="_blank" href="http://www.nekotec.com.mx/">the company I work for</a>. This is based on the lastest version of <a target="_blank" href="http://www.joomla.org">Joomla</a>, 1.0.3, and it tries to bring more ease of use to the final product, capable of understanding by all the guys working on the Mexico and Colombia local officies of the company. In the meanwhile, I&#8217;ve ported most of the core code of Joomla into mysqli extension of PHP5 and most of the XML functionality is about to be ported with DOM and even XPath, all of this to bring more accessibility to the code and bring future to present :) MySQL 5, for production systems now, is also used, but I haven&#8217;t played with it yet. In the user management system, more work has to be done. We don&#8217;t need more Authors, Editors, etc, user groups need to be defined. This project excites me since I&#8217;m learning tons of things about PHP5 and Joomla, which happens to be a great framework content system, not only CMS. As soon as I have something releasable, I&#8217;ll show it to the world. <br/><br/>

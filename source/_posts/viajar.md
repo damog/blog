@@ -1,7 +1,7 @@
 Title: Viajar
 Date: 2007-06-15 22:22:39
 Tags: 
-
+---
 <p>Me gusta viajar. Me ha gustado siempre, pero antes no me daba cuenta porque era un niño chillón. Me he dado cuenta que me gusta viajar recientemente que lo he podido hacer independientemente a mis padres, aunque ahora con nostalgia, me gustaría hacerlo más con ellos.</p>
 
 <p>Viajes largos han sido algo que me han dejado impactado en los últimos años. Como generalmente he viajado solo, tengo mayor oportunidad para pensar en muchas cosas, del trabajo, del amor, de la familia, pero también puedo observar a los demás pasajeros junto conmigo.</p>

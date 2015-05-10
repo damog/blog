@@ -1,7 +1,7 @@
 Title: Joke
 Date: 2006-10-23 21:08:25
 Tags: 
-
+---
 <p><em>Found at the <a target="_blank" href="http://www.mchhh.com/">Mexico City House Hash Harriers</a> mailing list :) </em></p>
 
 <p>A man and a woman who had never met before, but were both married to other people, found themselves assigned to the same sleeping room on a transcontinental train. Though initially embarrassed and uneasy over sharing a room, they were both very tired and fell asleep quickly&#8230; he in the upper bunk and she in the lower.</p>

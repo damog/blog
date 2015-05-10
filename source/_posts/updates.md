@@ -1,7 +1,7 @@
 Title: Updates
 Date: 2008-07-08 14:44:50
 Tags: debconf,life,nyc,perl,psp,raquel
-
+---
 <ul>
 	<li>Personal stuff coming up; if you are not <em>that</em> kind of person, please skip :-)</li>
 	<li>I forgot to say on my <a href="http://log.damog.net/2008/06/yapcna-2008.html">previous post about YAPC::NA 2008</a> that while I was in Chicago, I had the really nice chance to meet Carlo Segre and Dirk Eddelbuettel and enjoy a couple of nice beers with them. Great guys!</li>

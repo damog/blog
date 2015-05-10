@@ -1,7 +1,7 @@
 Title: New features on Dancer 1.130
 Date: 2010-02-08 22:36:50
 Tags: dancer,perl
-
+---
 Last week, or the one before that one, <a href="http://www.sukria.net/">Alexis</a> released <a href="http://dancer.sukria.net">Dancer</a> <a href="http://search.cpan.org/~sukria/Dancer-1.130/lib/Dancer.pm">1.130</a> which represents a big refactoring of the Dancer core code, taking all optional modules away from it: Logging, session and template engines were splited into their respective non-core modules, etc. Additionally, two keyword features were added, header and prefix. I will showcase both in case you haven't heard the good word from them :)
 
 <h3>header</h3>

@@ -1,7 +1,7 @@
 Title: Dejo Estonia
 Date: 2005-07-19 21:46:09
 Tags: 
-
+---
 Al momento de escribir estas líneas, me estoy yendo de Estonia. Justo
 ahora estoy viendo cómo el puerto de Tallinn se aleja de la vista desde
 el ferry o &#8216;puto barquito&#8217;. Estonia es un _gran_ lugar, incluso más que

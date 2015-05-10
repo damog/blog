@@ -1,7 +1,7 @@
 Title: Chale @ Manu Chao
 Date: 2006-03-02 01:58:13
 Tags: 
-
+---
 <p>A ver, pagué 928 pesos por dos boletos de pista para <a target="_blank" href="http://www.damog.net/?p=466">el concierto de Manu Chao en el Palacio de los Deportes en la Ciudad de México el viernes pasado, 24 de febrero</a>. El día de hoy me entero que:
 </p>
 <ol>

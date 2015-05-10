@@ -1,7 +1,7 @@
 Title: Viaje Parte Dos
 Date: 2003-12-08 19:23:17
 Tags: 
-
+---
 <p>En fin, luego de comprar mis cositas en el stand de Mélix, me fui a aplastar a la cafetería de la Expo. No tenía nada que hacer, ya no tenía a quien esperar, ni nada similar. Me trataba de comunicar al celular de Claudia, pero nunca entró la llamada. Era un pobre diablo en una ciudad pueblerina. :P</p>
 
 <p>Abrí mi lap y me puse a buscar en los mails que tengo almacenados. Mucha fue mi sorpresa cuando encontré entre uno de ellos, un mail de Sandra donde ponía su celular, le marqué y contestó.</p>

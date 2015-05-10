@@ -1,7 +1,7 @@
 Title: Desplegado a favor de la despenalización del aborto
 Date: 2007-04-17 05:03:08
 Tags: 
-
+---
 <p align="center">POR EL DERECHO DE LAS MUJERES A DECIDIR</p>
 <p align="right">Al largo camino que han recorrido siempre las mujeres para ejercer sus derechos, hay que sumar el ataque persistente de quienes se consideran poseedores de la verdad absoluta, y tratan de imponer sobre ellas sus juicios morales empleando chantajes, amenazas, insultos y difamaciones. Ataques todos, en estos días, a la libertad de las mujeres que optan por interrumpir tempranamente su embarazo por decisión propia.</p>
 <ul>

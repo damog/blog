@@ -1,7 +1,7 @@
 Title: Visit counter
 Date: 2004-01-12 14:36:03
 Tags: 
-
+---
 <p>Pues bueno, luego de casi dos meses de prometer un visit counter (que se diferencía de un hit counter debido a que el hit counter suma cada recarga del sitio y el visit counter lo hace con cada IP), está listo.
 
 Para instalarlo, hay que instalar antes el hit_counter (para la creación de las tablas en la base de datos, etc.). Las explicaciones para instalar el hit_counter están <a href="http://web.archive.org/web/20040128181544/http://damog.net/index.php?gadget=blog&amp;action=single_view&amp;id=52">acá</a>.

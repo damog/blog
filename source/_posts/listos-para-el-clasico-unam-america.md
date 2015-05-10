@@ -1,7 +1,7 @@
 Title: Listos para el clásico UNAM-América
 Date: 2006-10-21 18:35:31
 Tags: 
-
+---
 <p>El día de mañana se juega uno de los partidos más importantes de la temporada, en donde los aguerridos <a target="_blank" href="http://en.wikipedia.org/wiki/Pumas_UNAM">Pumas de la Universidad</a> se miden contra las <a target="_blank" href="http://en.wikipedia.org/wiki/Club_Am%C3%A9rica">Águilas del América</a>.
 </p>
 <p align="center"><img src="http://www.damog.net/files/misc/partido-tm.jpg"/></p>

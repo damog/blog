@@ -1,7 +1,7 @@
 Title: Semáforos y pesadez
 Date: 2006-09-02 14:43:11
 Tags: 
-
+---
 <p>Oído en una calle cerca del WTC:
 </p>
 <blockquote>Chale, creo que me pasé los dos últimos altos sin darme cuenta. Y lo peor es que me vale verga.</blockquote>

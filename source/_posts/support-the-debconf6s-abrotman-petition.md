@@ -1,7 +1,7 @@
 Title: Support the DebConf6's abrotman petition!
 Date: 2006-01-31 03:07:11
 Tags: 
-
+---
 <p>If you support friendship, you should sign now the DebConf6&#8217;s abrotman petition!</p>
 
 <p>DO IT NOW!</p>

@@ -1,7 +1,7 @@
 Title: Yo
 Date: 2006-07-21 17:07:00
 Tags: 
-
+---
 Foto tomada por <a target="_blank" href="http://www.damog.net/gallery/moblog/muchachito_site">Daniel</a>, hace algunos meses, en la oficina.
 
 <p align="center"><img src="http://www.damog.net/files/pics/damog-ojos-pa-arriba.jpg"/></p>

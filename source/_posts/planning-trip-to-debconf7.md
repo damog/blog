@@ -1,7 +1,7 @@
 Title: Planning trip to DebConf7
 Date: 2007-01-06 19:48:44
 Tags: 
-
+---
 <p>I&#8217;ve also started to look for the best plan to reach Edinburgh next June.</p>
 
 <p>I don&#8217;t think I&#8217;ll fly directly from Mexico City, since I want to visit Paris (in spite of my <a target="_blank" href="http://www.damog.net/20050707/in-finland/">previous and only experience</a> with CDG back in 2005 :-P) and then visit a nice friend in Bilbao. Then I could fly from there to Edinburgh or some place nearby with a cheap flights airline.<br/>

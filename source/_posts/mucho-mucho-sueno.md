@@ -1,7 +1,7 @@
 Title: Mucho, mucho sueño.
 Date: 2003-10-05 18:48:19
 Tags: 
-
+---
 <p>Pues el día de ayer, el <a href="mailto:guorloma@hotmail.com">Negro</a> y yo no teníamos nada que hacer, estábamosen mi casa en Internet.</p>
 
 <p>- Negro, ¿y si vamos a Cuernavaca? - exclamé rompiendo el silencio que sólo de vez en vez se quebrantaba por el tipeo de las teclas. - Pu&#8217;s si quieres.</p>

@@ -1,7 +1,7 @@
 Title: RVM + Rake tasks on Cron jobs
 Date: 2011-08-02 10:57:38
 Tags: cron,crontab,rake,ruby,rubygems,rvm
-
+---
 <a href="https://rvm.beginrescueend.com/">RVM</a> hates my guts. And it doesn't matter, because I hate RVM back even more. Since I was technologically raised by aging wolfs, I have strong reasons to believe that you just shouldn't have mixed versions of software on your production systems, specially, if a lot of things are poorly tested, like <a href="http://rubygems.org/">most of Ruby libraries</a>, aren't backward compatible. I was raised on a world where everything worked greatly because the good folks at projects like <a href="http://www.debian.org/">Debian</a> or <a href="http://search.cpan.org/">Perl</a> have some of the greatest QA processes of all time, hands down. So, when someone introduces a thing like RVM which not only promotes having hundreds of different versions of the same software, both on development, testing and production environments, but also encourages poor quality looking back and looking forward, there isn't anything else but to lose faith in humanity.
 
 But enough for ranting.

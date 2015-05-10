@@ -1,7 +1,7 @@
 Title: Navidad
 Date: 2003-11-30 19:27:53
 Tags: 
-
+---
 <p>A un día del inicio del mes decembrino, ya se siente la Navidad por doquier :D</p>
 
 <p>En casa, el árbol, las luces, los adornos, delatan el espíritu navideño. No quiero entrar en discusión sobre las deficiencias de la fiestas de diciembre, sólamente quiero compartir, en este pequeño espacio, mi Wish List de <a href="http://web.archive.org/web/20031226230140/http://www.amazon.com/">Amazon</a> :D</p>

@@ -1,7 +1,7 @@
 Title: Cat Power!
 Date: 2006-09-03 18:10:56
 Tags: 
-
+---
 <p>Yay!
 </p>
 <p align="center"><a target="_blank" href="http://www.noiselab.com/cat_power/"><img border="0" src="http://www.noiselab.com/images/catpower_i.jpg"/></a></p>

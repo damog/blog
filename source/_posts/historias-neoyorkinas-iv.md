@@ -1,7 +1,7 @@
 Title: Historias neoyorkinas IV
 Date: 2007-12-06 18:23:22
 Tags: 
-
+---
 <p>Este simpático personaje a veces intenta llegar temprano a la oficina. Temprano es antes de las 9 de la mañana, para así no tener pretexto e irnos a las 6 de la tarde (aunque ésto último casi nunca pasa).</p>
 
 <p>Uno de estos últimos días llegué a la oficina y saliendo del elevador en el piso de la oficina estaba un <em>mai</em> repartidor, <a href="http://www.flickr.com/photos/raquelydavid/1308745008/in/set-72157601823814058/" target="_blank">un wadita cualquiera</a>, con una bolsa de papel en la mano y una nota en la otra. Como era temprano, no había nadie en la recepción y al verme me abordó e intentó preguntarme dónde podía encontrar a la persona que había pedido tal orden. Sin embargo, mugió sólo unas cuantas cosas inentendibles (no creo que le haya pasado por la cabeza que hablo español) y señaló el nombre de la persona escrito en el papel. Como no conozco a muchas otras personas en la misma oficina, le dije:</p>

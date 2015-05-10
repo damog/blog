@@ -1,7 +1,7 @@
 Title: Dear Weblog... xD
 Date: 2003-07-01 19:41:14
 Tags: 
-
+---
 <p>Ya tenía un ratito que no escribía en ésta mi casa. <strong>Damog.org</strong>. Ah, qué bonito se oye al pronunciar místicamente el PUNTO ORG. Es como una sensación extrasensorial que envuelve mi lengua, mi boca, hace vibrar mis dientes y finalmente se produce el sonido. Espectacular, magnífico.</p>
 
 <p>El otro día filosofaba sobre el cambiar Damog.org a Damog.net. No sé que repercusiones metafísicas/ideológicas se produzcan, quizá un día amanezca y en vez de Damog.net, haya registrado el que siempre he deseado: <strong>Mog.net</strong> o tal vez <strong>Mogar.net</strong> y de esa forma, al correr mi servidor de correos, pueda hacer un bonito mail que sea <em>d@mog.net</em> o <em>d@mogar.net</em>&#8230; Je, qué cagado.</p>

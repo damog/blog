@@ -1,7 +1,7 @@
 Title: Movimiento
 Date: 2005-04-30 18:20:20
 Tags: 
-
+---
 Pues resulta que el lunes por la noche me llamaron por teléfono (a mi celular, la paginilla de <a target="_self" href="http://damog.net/index.php?option=com_content&amp;task=view&amp;id=20&amp;Itemid=52">información de contacto</a> sí funciona ;-) algunos amigos de Tapachula, de la <a target="_blank" href="http://www.unach.mx/">Universidad Autónoma de Chiapas</a>, para invitarme a ofrecer una plática en el margen de su <a target="_blank" href="http://www.swlibre.unach.mx/">Segundo Ciclo de Conferencias de Software Libre</a>.
 Pregunté cuándo era la plática y me dijeron que dos días después, el
 miércoles. La verdad es que otro ponente (o varios, no supe bien) les

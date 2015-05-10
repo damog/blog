@@ -1,7 +1,7 @@
 Title: Perl 5.12's each function
 Date: 2010-09-23 17:21:46
 Tags: perl,perl 5.12,tips
-
+---
 With Perl <a href="http://www.nntp.perl.org/group/perl.perl5.porters/2010/04/msg158820.html">5.12</a> released earlier this summer, the <a href="http://perldoc.perl.org/functions/each.html">each</a> function got a nice little addition that I'd like to talk about: It now has the ability to work on arrays, not only key-value pair hashes, but not exactly as you'd expect it (not like Ruby's <a href="http://ruby-doc.org/core/classes/Array.html#M002173">each</a> method).
 
 The traditional way to work with each, using a hash:

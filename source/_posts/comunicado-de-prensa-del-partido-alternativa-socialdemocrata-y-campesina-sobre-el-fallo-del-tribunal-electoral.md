@@ -1,7 +1,7 @@
 Title: Comunicado de prensa del Partido Alternativa Socialdemócrata y Campesina sobre el fallo del Tribunal Electoral
 Date: 2006-09-05 21:31:36
 Tags: 
-
+---
 <p align="right">México, D.F., 5 de septiembre de 2006</p>
 <p align="center"><strong>Comunicado de prensa – Sobre el fallo del Tribunal Electoral</strong>
 <a target="_blank" href="http://www.alternativa.org.mx">Alternativa</a> reconoce desempeño del Tribunal Electoral y respeta, en todos sentidos, su decisión

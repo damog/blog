@@ -1,7 +1,7 @@
 Title: EZLN en alerta roja
 Date: 2005-06-23 06:14:35
 Tags: 
-
+---
 <p>Luego de leer el weblog de <a target="_blank" href="http://monx-xter.blogspot.com">Monse</a> (<em>¿para qu頤igo que no si sí?</em>) seguí
 la liga hacia uno de sus amigos cibernéticos llamado Bernardo, que se
 hace llamar <a target="_blank" href="http://www.lapuertita.blogspot.com">El Portero</a>, en su identidad <em>oculta</em> en Internet.<br/><br/>

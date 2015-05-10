@@ -1,7 +1,7 @@
 Title: No nos moverán
 Date: 2006-06-27 23:19:43
 Tags: 
-
+---
 <p>Mensaje de <a target="_blank" href="http://www.patriciamercado.org.mx">Patricia Mercado</a> a la nación mexicana:
 </p>
 <blockquote>Este dos de julio vas a ir a votar. Recuerda que la decisión que tomes es muy importante para ti, para tu familia, para el futuro de México.

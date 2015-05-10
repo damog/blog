@@ -1,7 +1,7 @@
 Title: Hit Counter gadget
 Date: 2003-11-13 19:36:08
 Tags: 
-
+---
 <p>Pues continuando de colaborar con <a href="http://web.archive.org/web/20031125134728/http://jaws-project.sf.net/">JAWS</a> un poquito, me hice <a href="http://web.archive.org/web/20031125134728/http://www.damog.net/files/hit_counter.phps">éste</a> gadget que cuenta los hits que se hacen del sitio.
 
 Hay que crear una tabla dentro de la base de datos de JAWS, es muy sencillo: Nos ubicamos en el prompt de MySQL y empezamos:

@@ -1,7 +1,7 @@
 Title: En todos lados
 Date: 2005-11-11 20:40:33
 Tags: 
-
+---
 <p>En los últimos días, he estado bien ocupado con todo, principalmente con la chamba, tanto que luego se me va bien cabrón el avión intentando hacer cosas o darles la importancia que merecen, rápidamente aquí van algunas de las que me acuerdo: </p>
 <ul>
 <li>Ana, te amo.</li>   <li>

@@ -1,7 +1,7 @@
 Title: La Asamblea Legislativa en Venezuela y la gente pro-Microsoft
 Date: 2006-07-22 20:33:33
 Tags: 
-
+---
 <p>He recolectado una cantidad enorme de anécdotas en el último par de años debido a los viajes que he hecho al extranjero, que, aunque obviamente no son muchos, he podido recolectar muchos recuerdos y memorias inolvidables sobre muchas de las cosas. De éstas, podría contar muchas, de verdad, muchas; muchas, incluso que quizás nunca le cuente a alguien por ser demasiado banales, estúpidas o muy personales, o quizás simplemente por falta de tiempo, por güeva o por no darle la suficiente importancia. También quizás en los últimos años he perdido mucho la capacidad de asombro y muchas cosas, aunque no las haya visto antes jamás en mi vida, me parecen normales o rutinarias, quizás el conocimiento global del mundo a través de Internet ha propiciado esto.</p>
 
 <p>Una de esas anécdotas fue cuando asistí con <a target="_blank" href="http://www.anaisabel.net">Ana</a> y <a target="_blank" href="http://bureado.com.ve">José</a> y mucha más banda de la comunidad de software libre en Venezuela a la Asamblea Legislativa en donde el diputado Tascón había convocado a varios sectores de la sociedad para debatir al respecto del software libre, recuerdo que estaba un carnal de IBM; un güey de un software de administración tributaria usado ampliamente en Venezuela, del que ahorita no logro recordar su nombre; un brasileño que dirigía no-sé-qué-diantres en Microsoft Venezuela; Felipe Pérez Martí, exdirigente de un ministerio venezolano; y Ernesto Hernández, un cuarto-bate de la comunidad de software libre en Venezuela :).</p>

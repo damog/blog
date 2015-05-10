@@ -1,7 +1,7 @@
 Title: 5 excelentes blogs mexicanos que quizás no conocías (parte 2)
 Date: 2008-10-07 14:25:56
 Tags: axiombox,blogging,recomendación
-
+---
 Luego del buen feedback que recibí <a href="http://log.damog.net/2008/09/5-excelentes-blogs-mexicanos-que-probablemente-no-conocias/">en el post anterior en el que recomiendo cinco buenos blogs mexicanos</a>, decidí hacer secuelas porque tenemos mucho material. Aquí la segunda parte, pues.
 <p style="padding-left: 30px;"><strong><a href="http://www.si-claro.com/sexy-feet/">* Sexy Feet</a></strong>
 <a href="http://www.si-claro.com/sexy-feet/">http://www.si-claro.com/sexy-feet/</a>

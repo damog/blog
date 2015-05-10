@@ -1,7 +1,7 @@
 Title: Ladrones
 Date: 2003-12-21 14:44:42
 Tags: 
-
+---
 <p>Los bandidos ya no son como antes.</p>
 
 <p>Apenas el día de ayer me decía mi buen amigo <a href="mailto:dolphmef@bigfoot.com">Dolphmef</a> que había sido víctima de un asalto exprés (lo calificó como un secuestro exprés, aunque yo no lo considero de esa manera).</p>

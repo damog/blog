@@ -1,7 +1,7 @@
 Title: Cambios
 Date: 2004-11-26 15:40:09
 Tags: 
-
+---
 <p>Por fin me he decidido a hacer cambios por aquí.</p>
 
 <p>En primer lugar he quitado <a href="http://jaws-project.sf.net/">jaws</a>. Es un excelente proyecto el que llevan, sin embargo no comparto muchas de sus opiniones. Me podrán llamar ardido, pero simplemente es una mamada <a href="http://sourceforge.net/mailarchive/message.php?msg_id=6717455">éste thread</a> y <a href="http://sourceforge.net/mailarchive/forum.php?thread_id=6000285&amp;forum_id=26120">éste mail</a>. Además de que quizás tienen un enfoque un tanto diferente a lo que me puede llegar a llamar la atención.</p>

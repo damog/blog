@@ -1,7 +1,7 @@
 Title: Yo pecador
 Date: 2006-11-03 06:50:17
 Tags: 
-
+---
 <p>He pecado.</p>
 
 <p>Durante varias semanas y meses, me hice a la idea de que mi computadora no se llevaba bien con Linux. Y me forcé a usar MacOS. Más por obligación que por gusto. Me retiré un rato de <a target="_blank" href="http://www.debian.org">Debian</a>, argumentando que le pondría más atención a otras cosas como la escuela o el trabajo. Llegó un momento en el que me volví el novio favorito de la piratería: Me coquetaba a cada rato, lo que quería lo bajaba con un torrent con el cliente propietario de <a target="_blank" href="http://www.bittorrent.com/">BitTorrent</a>. Usaba <a target="_blank" href="http://www.apple.com/macosx/features/mail/">Apple Mail</a>. Dejé las listas de Debian. Lo único que mantenía relacionado, era <a target="_blank" href="http://www.planetalinux.org/">Planeta Linux</a>, con mi subversion importado desde <a target="_blank" href="http://fink.sf.net">Fink</a> en la más terrible y abominable de los emuladores de terminal que el hombre haya jamás concebido: <a target="_blank" href="http://www.apple.com/macosx/features/unix/">Terminal</a>.</p>

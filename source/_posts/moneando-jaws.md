@@ -1,7 +1,7 @@
 Title: Moneando; Jaws
 Date: 2005-07-30 17:41:27
 Tags: 
-
+---
 <strong>Mono</strong><br/>
 Recientemente he estado inspeccionando un poco el profundo mundo de
 Mono, y parece entretenido: No daré opiniones más profundas, por que no

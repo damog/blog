@@ -1,7 +1,7 @@
 Title: Embestido por la Geometría Analítica
 Date: 2006-10-20 16:24:29
 Tags: 
-
+---
 El día de hoy hice el examen quizás más cabrón que me ha tocado en la <a target="_blank" href="http://www.fciencias.unam.mx">Facultad</a>, y es que conjuntó varias cosas que me lo pusieron muy cabrón. Explico a continuación.
 
 No suelo estudiar. No tengo tiempo o me da mucha flojera o invento pretextos para no hacerlo, pero bueno, una de las cosas por las que estudio Matemáticas es porque prefiero entender algo y chingarle a eso. Es más fácil para mí entender cómo se realizan ciertas operaciones o problemas (así nomás problemas porque sí, no como los ingenieros que sí tienen una causa para estudiar matemáticas :) ) o más recientemente, entender cómo demostrar un teorema que agarrar un libro y ponerme a estudiar, leerlo y hacerle al pendejo de que estoy entendiendo. Sin embargo, esto me es muchas veces contraproducente, justo como en este examen. Nunca tomé el cuaderno para estudiar si no hasta dos horas antes del examen y quise, como dice Tato, “construir castillos con palillos”.

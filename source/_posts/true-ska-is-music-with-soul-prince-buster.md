@@ -1,7 +1,7 @@
 Title: "True ska is music with soul". -Prince Buster.
 Date: 2003-07-29 18:54:01
 Tags: 
-
+---
 <p>Pues, para no perder la costumbre, he estado escuchando una estación de radio por Internet, muy buena, de ska.</p>
 
 <p>Ska Jerk es en sí un sitio más de información relacionada al ska, reggae, rock steady, mento y demás música de buena vibra. Un sitio con información, enlaces, galería fotográfica, historia, etc.</p>

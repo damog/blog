@@ -1,7 +1,7 @@
 Title: Brazil: First day
 Date: 2004-05-27 13:58:24
 Tags: 
-
+---
 <p>Well, I&#8217;m delayed for over a day. We arrived the day before yesterday, and until today I&#8217;ll write my first chronic (while writing this, I&#8217;m learning to use ImageMagick&#8217;s convert which is a nice tool for the thumbnail generation ;-).
 
 Anyway, Gunnar arrived home at 4:00 PM, the time of departure flight was at 19:40, and we had to be some hours before, in the airport. So, the images, which everybody was expecting:

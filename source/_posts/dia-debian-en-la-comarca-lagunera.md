@@ -1,7 +1,7 @@
 Title: Día Debian en la Comarca Lagunera
 Date: 2006-08-17 20:37:52
 Tags: 
-
+---
 <p>Pues Alejandro Bárcena me extendió una amable invitación a participar en <a target="_blank" href="http://wiki.debian.org/debiandayLaLaguna">el Debian Day que están organizando</a> en Torreón, Coah, en la <a target="_blank" href="http://en.wikipedia.org/wiki/Comarca_Lagunera">Comarca Lagunera</a>, el próximo sábado 19.
 </p>
 <p align="center"><a target="_blank" href="http://wiki.debian.org/debiandayLaLaguna"><img src="http://www.gulag.org.mx/img/diadebian.jpg"/></a></p>

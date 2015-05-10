@@ -1,7 +1,7 @@
 Title: �Alir�n!
 Date: 2005-05-14 22:23:40
 Tags: 
-
+---
 Finalmente el Barcelona se ha alzado como campeón de la liga española.
 Para una reseña de los sendos empates de los azulgranas (con el
 Levante) y de los merengues (con el Sevilla) mejor lean los sitios de

@@ -1,7 +1,7 @@
 Title: Contra el EZLN: Primero fue BBVA/Bancomer, ahora HSBC
 Date: 2006-02-15 18:26:48
 Tags: 
-
+---
 <p>México, D. F., a 14 de febrero de 2006.<br/>
 A la opinión pública nacional e internacional<br/>
 A los medios de comunicación</p>

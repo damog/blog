@@ -1,7 +1,7 @@
 Title: The beginning
 Date: 2004-05-17 13:55:00
 Tags: 
-
+---
 <p>I don&#8217;t like Mondays, whatever I do, I do it tired. This is maybe a normal behaviour on the world.</p>
 
 <p>Maybe I am like a cool mutant that only works fine on not mondays ;) Walkin through the walls and then, on monday, just sleep and do nothing ;)</p>

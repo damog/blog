@@ -1,7 +1,7 @@
 Title: To Edinburgh
 Date: 2007-05-04 05:10:35
 Tags: 
-
+---
 <p>I just booked and paid my tickets to reach Edinburgh next month and attend <a href="http://debconf7.debconf.org/" target="_blank">DebConf7</a>.</p>
 
 <p>I’ll be flying to New York on June, 16th through Delta from MEX. Then, I’ll go over the Atlantic with <a href="http://en.wikipedia.org/wiki/Flyglobespan" target="_blank">Flyglobespan</a>, from JFK to Liverpool John Lennon Airport. From there, I’m still not completely sure, but I guess I’ll go by train to Edinburgh. Same way to return, on Sunday 24th, after spending a Saturday night in NYC.</p>

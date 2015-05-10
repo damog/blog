@@ -1,7 +1,7 @@
 Title: YAPC::NA 2008
 Date: 2008-06-25 11:34:52
 Tags: chicago,perl,yapc::na
-
+---
 So I attended the <a href="http://conferences.mongueurs.net/yn2008/">conference</a> last week in Chicago, IL. I was just been procrastinating to write about this.
 
 As a (almost) complete outsider of the Perl community, I have countered thoughts about the whole event:

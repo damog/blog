@@ -1,7 +1,7 @@
 Title: Diferencias sociales...
 Date: 2003-06-08 19:33:02
 Tags: 
-
+---
 <p>Es increíble ver cómo puede cambiar la ciudad de México tan sólo por circular en ella. La gente camina en sus rumbos conociendo a la gente, conociendo las casas, conociendo todo lo que por ahí pasa. Sin embargo poca gente se da verdadera cuenta de cómo puede una misma ciudad tan radicalmente debido a la segregación y pobreza.</p>
 
 <p>Esa situación me da pena. Me considero muchas veces una persona del pueblo, y que no tiene gran cosa. Pero al ver las casas apenas levantadas por personas que tienen acaso dos pesos para comer, no puedo evitar en voltear a ver mi computadora, mi laptop, mi acceso de alta velocidad a Internet, la casa donde vivo, el coche que manejan mis padres -y que a veces me prestan-, toda una serie de cosas por las cuales no puedo evitar sentir&#8230; uhm&#8230; ¿cómo decirlo? En fin, creo que me doy a entender.</p>

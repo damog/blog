@@ -1,7 +1,7 @@
 Title: Puto Metrobús
 Date: 2007-09-12 20:00:34
 Tags: 
-
+---
 <p>Este post tenía ya varios días que me lo estaba guardando.</p>
 
 <p>Resulta que quedé de ir con Lurkan a su oficina en la Nápoles a filosofar un poco sobre la mierda en la que se ha vuelto la élite del CONSOL, algunos proyectos personales y sobre mi partida al vecino del norte. Como vivo en la Roma y él estaba en la Nápoles, opté por irme en transporte público, en lugar de sacar mi automóvil para luego sufrir para encontrar estacionamiento en su oficina y sufrir para encontrar estacionamiento al regresar a casa.</p>

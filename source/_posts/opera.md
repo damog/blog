@@ -1,7 +1,7 @@
 Title: Opera
 Date: 2007-02-09 17:59:47
 Tags: 
-
+---
 <p>He comenzado a usar Opera como mi browser por default (odio oficialmente las traducciones al castellano en Debian, sería algo como «navegador predeterminado», ¿cuándo chingados le dices realmente así?).</p>
 
 <p>Creo que Opera es un excelente browser que implementa muchas cosas buenas y es fácil, sencillo y bonito. Por eso lo ocupo. Y además lo ocupo porque, aún siendo software propietario, ofrecen la posibilidad de bajar una versión en Linux, para PowerPC.</p>

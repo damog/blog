@@ -1,7 +1,7 @@
 Title: Lessons learned and real experience
 Date: 2012-03-05 16:44:52
 Tags: life,tech,work
-
+---
 I've been busy.
 
 <a href="http://selectablemedia.com/">We</a>'ve been building a next generation video ad serving platform with all of lessons and experience we've gained over the last couple of years and specially over last one. In an industry where there's too much client demand there's only a few key supply players doing a good job and we've identified strengths, weaknesses, opportunities and threats. We've kept ourselves busy.

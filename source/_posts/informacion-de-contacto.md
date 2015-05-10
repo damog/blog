@@ -1,7 +1,7 @@
 Title: Información de contacto
 Date: 2006-01-27 23:48:42
 Tags: 
-
+---
 <p>La mejor forma para contactarme es y será siempre, el correo electrónico. Puedes escribirme a la siguiente dirección:
 </p>
 <p align="center"><img src="http://damog.net/files/misc/mail1.png"/></p>

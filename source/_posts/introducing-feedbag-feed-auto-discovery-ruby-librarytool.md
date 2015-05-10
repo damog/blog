@@ -1,7 +1,7 @@
 Title: Introducing Feedbag: Feed auto-discovery Ruby library/tool
 Date: 2008-12-30 18:58:10
 Tags: feed,feedbag,ruby,web
-
+---
 Last week, I spent some time building a good (that I liked) feed auto-discovery tool to use in Ruby for other project I'm building, <a href="http://github.com/damog/rfeed">rFeed</a>. I liked CPAN's <a href="http://search.cpan.org/~btrott/Feed-Find-0.06/lib/Feed/Find.pm">Feed::Find</a>, and at some point I made a wrapper class to run a Perl script using such module, however, I wasn't happy by mixing it all. So, <a href="http://axiombox.com/feedbag">Feedbag</a> was born:
 <pre><code>&gt;&gt; require "rubygems"
 =&gt; true

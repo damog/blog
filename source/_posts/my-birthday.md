@@ -1,7 +1,7 @@
 Title: My birthday
 Date: 2004-08-08 14:25:18
 Tags: 
-
+---
 <p>Well, today was my 20th birthday. It was pretty nice all the weekend.</p>
 
 <p>On Friday 6th, some friends, my lady and I went to Xochimilco&#8217;s <em><a href="http://www.xochimilco.df.gob.mx/turismo/trajineras.html">trajineras</a></em>. For my surprise, it was the birthday of some other guy, so he had priority on partying about birthdays ;-)</p>

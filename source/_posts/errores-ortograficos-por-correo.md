@@ -1,7 +1,7 @@
 Title: Errores ortográficos por correo
 Date: 2008-09-02 09:16:20
 Tags: idiotas,ortografía
-
+---
 Seguro a más de uno le llegó este correo:
 <div><span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img class="mt-image-center" style="margin: 0pt auto 20px; text-align: center; display: block;" src="http://log.damog.net/nicmx.png" alt="nicmx.png" width="568" height="289" /></span></div>
 Nacos. Lo curioso es que el From del correo sí viene escrito bien.

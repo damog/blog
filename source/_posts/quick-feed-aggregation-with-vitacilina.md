@@ -1,7 +1,7 @@
 Title: Quick feed aggregation with Vitacilina
 Date: 2009-01-29 21:36:06
 Tags: cpan,feed,github,perl,rfeed,vitacilina,yaml
-
+---
 <em>Vitacilina, ¡ah, qué buena medicina!</em>
 
 A few months ago. Maybe more than a year, I started hacking on Vitacilina, which was meant to be the replacement for <a href="http://planetplanet.org">Planet</a> on all countries <a href="http://planetalinux.org">Planeta Linux</a> supports. I was doing well, I even hosted the code back then in <a href="http://code.google.com/p/vitacilina">Google Code</a>. Later, I forgot about it, but I'd always been wanting to replace Planet with some homebrew solution for the Planeta Linux community. Anyway, that hasn't happened yet. However, I did start using Vitacilina for my own needs on a local sandbox for my employer and it used to work pretty well. I've been hacking it to fit very specific requirements, though.

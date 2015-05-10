@@ -1,7 +1,7 @@
 Title: MySpace, San Francisco and the future
 Date: 2009-02-07 19:45:37
 Tags: facebook,flickr,gogo,golden gate,inflight internet,mission,myspace,offerpal,osml,san francisco,travel
-
+---
 <a href="http://maggit.net">Raquel</a> and I came to San Francisco for a couple of days during this week, mainly to attend the <a href="http://myspacedevjam.eventbrite.com/">MySpace DevJam</a>. It was a great experience to get to know the west coast as we hadn't have the chance to come over. We also had the opportunity to meet with my great friend Marco Manzo, who is working for <a href="http://leapfrog.com">Leap Frog</a> in the Bay Area.
 
 On the MySpace side, I'm glad to see that some real and good improvements are being made to open the platform as much as possible. I think this is crucial to them, in order to re-gain the market that they have been losing over to Facebook. They are making great effort by following the <a href="http://code.google.com/apis/opensocial/docs/releasenotes.html">Open Social 0.8</a> spec and working together for the upcoming 0.9 release. <a href="http://www.offerpalmedia.com/">Offerpal</a> is also doing good, with an attractive business model for virtual economy. Props to them who organized the little get-together. Also, it's going to be interesting to see how things go with the newly introduced OpenSocial markup language (OSML) and its integration into the MySpace platform. Some of the new interesting features are also notifications and the activities report. I'm looking forward to toy around with it later.

@@ -1,7 +1,7 @@
 Title: ¡No queremos más gente en el DF!
 Date: 2007-03-02 07:39:50
 Tags: 
-
+---
 <p><a href="http://www.imoqland.com" target="_blank">Imoq</a><a href="http://www.imoqland.com/Article734.phtml" target="_blank">narra</a> acerca de su nuevo trabajo en la Ciudad de México.</p>
 
 <p>Cabrones, neta: <strong>¡Ya no queremos más gente en esta ciudad!</strong> Para llegar al trabajo lleva hasta dos horas y de regreso también (en día de tráfico pesado, pero ha llegado a tomar hasta tres y media), en un trayecto de menos de 15 kilómetros. Somos demasiada gente aquí. Ni nosotros mismos nos queremos. La gente del DF no quiere a la gente del Estado de México, ni viceversa. Menos a los recién llegados.</p>

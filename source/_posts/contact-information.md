@@ -1,7 +1,7 @@
 Title: Contact information
 Date: 2006-01-27 23:47:29
 Tags: 
-
+---
 <p>The best way to contact me is and will always be, email. You can write to the next address:
 </p>
 <p align="center"><img src="http://damog.net/files/misc/mail1.png"/></p>

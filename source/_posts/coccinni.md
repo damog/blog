@@ -1,7 +1,7 @@
 Title: Coccinni
 Date: 2008-09-08 13:37:14
 Tags: coccinni,mascotas
-
+---
 Conozcan a Coccinni:
 <div><span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img class="mt-image-center" style="margin: 0pt auto 20px; text-align: center; display: block;" src="http://log.damog.net/coccinni.png" alt="coccinni.png" width="302" height="227" /></span></div>
 De ascedencia italiana, Coccinni ha sido siempre muy listo y obediente. Desde pequeño hacía sus tareas, respetaba a sus mayores, no decía groserías y hasta tocaba el violín. Intentó aprender el piano una vez pero nunca lo pudo dominar.

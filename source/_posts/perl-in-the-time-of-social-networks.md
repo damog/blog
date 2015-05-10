@@ -1,7 +1,7 @@
 Title: Perl in the Time of Social Networks
 Date: 2009-05-09 12:43:15
 Tags: blogger,catalyst,facebook,moose,myspace,perl,social networks,twitter,yapc,YAPCEU2009,YAPCNA10
-
+---
 This is going to be a fantastic and exciting Perl summer.
 
 During the last week, I received notification that the talk I've proposed for both <a href="http://yapc10.org/yn2009/">YAPC::NA</a> and <a href="http://yapceurope2009.org/ye2009/">YAPC::EU</a> was accepted.

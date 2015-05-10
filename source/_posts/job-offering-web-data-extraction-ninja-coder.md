@@ -1,7 +1,7 @@
 Title: Job offering: Web data extraction ninja coder
 Date: 2009-08-29 10:22:00
 Tags: job,perl
-
+---
 I just posted a gig-based <a href="http://jobs.perl.org/job/10998">job offering</a> on<a href="http://jobs.perl.org/"> jobs.perl.org</a>:
 
 <strong>Description</strong>

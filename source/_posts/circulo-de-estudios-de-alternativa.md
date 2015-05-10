@@ -1,7 +1,7 @@
 Title: Círculo de estudios de Alternativa
 Date: 2006-08-01 21:39:57
 Tags: 
-
+---
 <p>Ayer lunes, tuve la oportunidad de ir con <a target="_blank" href="http://www.tacvbo.net">Tato</a> a la primera reunión del <a target="_blank" href="http://www.alternativadf.org.mx/j/index.php?option=com_content&amp;task=view&amp;id=308&amp;Itemid=4">círculo de estudios</a> que <a target="_blank" href="http://www.alternativa.org.mx">Alternativa</a> está organizando. Tuve también la oportunidad de enterarme del mismo, gracias al blog de <a target="_blank" href="http://andreslajous.blogs.com">Andrés Lajous</a>, se lo comenté a Tato y también se entusiasmó y mandó su correo de igual forma para pedir informes.</p>
 
 <p>Las oficinas de Alternativa se encuentran en la calle de Palermo, en la Col. Américas Unidas, muy cerca del cruce de la Calz. de Tlalpan y Eje 5 Sur: Bastante cerca de casa. Tato tuvo a bien despertarme a las diez de la mañana y luego de varios minutos pasé por él y fuimos. Tato leyó sus copias y yo no.</p>

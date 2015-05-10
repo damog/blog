@@ -1,7 +1,7 @@
 Title: Infinite Pig Theorem!
 Date: 2008-02-24 18:28:00
 Tags: 
-
+---
 <p>So, I have finally moved my blog to MovableType from Wordpress and a couple of interesting things have happened:</p>
 <ul>
 <li>I&#8217;ve gave birth to my new blog, <a href="http://infinitepig.damog.net/">Infinite Pig Theorem</a>.</li>

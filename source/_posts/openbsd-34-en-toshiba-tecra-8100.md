@@ -1,7 +1,7 @@
 Title: OpenBSD 3.4 en Toshiba Tecra 8100
 Date: 2003-12-09 19:22:43
 Tags: 
-
+---
 Bueno, tratando de colaborar un poco con la documentación de OpenBSD en lo referente a mi computadora, quiero escribir un poco de mis aventuras y vivencias instalando el sistema operativo que hasta ahora me ha dejado un excelente sabor de boca.
 
 Tengo que aclarar que no soy ningún gurú sobre esto. Todo lo que escribo son las experiencias de un novato instalando su primer sistema *BSD.

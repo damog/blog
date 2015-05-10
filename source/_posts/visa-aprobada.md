@@ -1,7 +1,7 @@
 Title: Visa aprobada
 Date: 2006-02-02 03:05:45
 Tags: 
-
+---
 <p>Pues el día de hoy fui a la embajada americana por primera vez en mi pueril vida. La cita estaba fijada a las 8 de la mañana, por lo cual llegué a las 7:30. Para mi sorpresa vi un mundo interminable de gente, había muchísima gente: Personas de traje, señoras pedorras sintiéndose chingonas por que van a Estados Unidos, hipsters, niños fresas, pero también mucha gente humilde, sombrerudos, viejos y viejas, señoras gordas que llevan banquitos, viejas estúpidas que no paran de hablar y poner nervioso a todo mundo.</p>
 
 <p>A las 7:30 me apeé en la denominada fila de las 8, luego de que nos reacomodaron a todos varias veces estuve parado en la fila, soportando el puto frío de mierda durante tres horas y media. Luego de la fila inicial entramos al tunelcito donde te revisan la solicitud, el pago y el pasaporte. Al entrar te hacen que te quites todo, a algunos hasta los zapatos (cosa que también vi que hacían soldados venezolanos en el Aeropuerto Internacional de Maiquetía, en Venezuela), luego te dan tu turno y te formas en una primera sala. Yo no sabía ni qué pedo así que cuando tocó mi turno en la primera sala, yo pensé que el tipo sentado ahí era el consul. Me preguntó a qué iba a los EEUU y me tomó fotos y me tomó huellas. Me dijo que me fuera a la segunda sala de espera.</p>

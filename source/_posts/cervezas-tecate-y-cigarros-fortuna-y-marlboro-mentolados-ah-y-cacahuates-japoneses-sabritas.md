@@ -1,7 +1,7 @@
 Title: Cervezas Tecate y cigarros Fortuna y Marlboro mentolados... Ah, y cacahuates japoneses Sabritas
 Date: 2005-05-16 16:33:56
 Tags: 
-
+---
 El día de ayer, domingo de weba, me lancé a casa del <a target="_blank" href="http://www.tacvbo.net">Tacvbo</a>,
 por que se nos antojaban unas chelas, y así de paso ese güey
 aprovecharía para pagarme cien varos que me debía. También era buen

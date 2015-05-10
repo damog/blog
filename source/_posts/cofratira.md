@@ -1,7 +1,7 @@
 Title: Cofratira
 Date: 2004-05-10 13:49:36
 Tags: 
-
+---
 <p>I&#8217;ve been making some drawings for <a href="http://www.cofradia.org/">La Cofradía Digital</a>. I really like about drawing the first square, but when coming to second and third is kind of heavy.</p>
 
 <p>Anyway, I remember the time when I used to draw more: I was around 12 or 13, drawing Street Fighter characters ^_^ (I&#8217;ve been playing SF with Toño, my pal, with mame at work, it&#8217;s nice).</p>

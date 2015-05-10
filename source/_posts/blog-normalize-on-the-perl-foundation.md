@@ -1,7 +1,7 @@
 Title: Blog Normalize on The Perl Foundation
 Date: 2008-05-02 16:52:00
 Tags: 
-
+---
 <p>So I wrote an entry on my tumblelog about what&#8217;s going on with my life currently. Since Tumblr&#8217;s feed doesn&#8217;t get pushed immediately, I showed the post to my co-worker and friend Chris, before it hit the planets:</p>
 <p>- So, yeah I have my blog since it&#8217;s syndicated on <a href="http://planet.debian.org" target="_blank">Planet Debian</a> and other small feed aggregators -I said. </p>
 <p>- But do they really care about your bike, your chess games or you attending that conference? -he asked-, I mean, I <i>do</i> care, but people?</p>

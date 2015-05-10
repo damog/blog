@@ -1,7 +1,7 @@
 Title: On Twitter alerts and regular expressions
 Date: 2009-04-12 07:17:58
 Tags: alerts,nerd,regex,twitter
-
+---
 I don't know if I'm the only one that does something like this, but I certainly <em>trust</em> I'm not alone.
 
 I love regular expressions (to which some people say there's nothing <em>regular</em> about) and I just found <a href="http://tweetbeep.com">TweetBeep</a> recently, which is a simple alerts system. There's nothing really new or innovative about it, given that you can get the results yourself using advanced search on Twitter and consuming the results from a feed. However, I for sure, I don't want to spend time setting any of that up, and they do that quite easily, which is the whole difference, ease of use. You can get the results on time intervals via mail. Rocks.

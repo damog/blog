@@ -1,7 +1,7 @@
 Title: Es 'Garza', no 'Garc�a'...
 Date: 2005-05-22 17:32:18
 Tags: 
-
+---
 <p>¿A qui鮠chingados le gusta que le cambien el nombre?<br/><br/>
 Durante los casi veintiún años de mi vida me he llamado David Moreno
 Garza, eso es totalmente comprobable. Y con respecto a mi nombre,

@@ -1,7 +1,7 @@
 Title: Sexta Declaraci�n de la Selva Lacandona
 Date: 2005-06-29 02:18:10
 Tags: 
-
+---
 <h3>Ej鲣ito Zapatista de Liberación Nacional</h3>
 <h5>Sexta Declaración de la Selva Lacandona</h5>
 

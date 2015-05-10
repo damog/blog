@@ -1,7 +1,7 @@
 Title: Places I've lived in
 Date: 2008-03-15 20:38:49
 Tags: 
-
+---
 <p>Recently, chatting with some folks on the <a href="http://textmotion.org" target="_blank">TextMotion</a> IRC channel, I started thinking on the places I&#8217;ve lived my whole life. From the bottom of my mind, this is a rough list:</p>
 <ul>
 <li>Aragón, <a href="http://en.wikipedia.org/wiki/Mexico_State" target="_blank">Estado de México</a>, <a href="http://en.wikipedia.org/wiki/Mexico" target="_blank">México</a>. The house where my parents lived in when I was borned in August, 1984. 1984-1989.</li>

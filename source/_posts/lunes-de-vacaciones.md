@@ -1,7 +1,7 @@
 Title: Lunes, de vacaciones.
 Date: 2003-07-28 18:55:03
 Tags: 
-
+---
 <p>Recuerdo la última vez que estuve de vacaciones. Fue en abril de 2002. Mis pubertos e imbéciles compañeros de la preparatoria creían que estar en Cancún, persiguiendo y correteando a extranjeras alcohólicas era su fin último en la vida. Nada más alejado de la realidad. Generalmente no pasa nada más allá de eso. Quizá entren a la universidad, quizá ya entraron. Y su cerebro quizá siga del mismo tamaño en que lo desarrollaron hasta el segundo grado de la primaria, cuando eran alumnos y pupilos destacados.</p>
 
 <p>No he estado de vacaciones, debido a que luego de salir de la preparatoria, por allá de mayo o junio del año pasado, he estado sin hacer nada, luego entonces el descanso de no hacer nada no se pueden llamar vacaciones.</p>

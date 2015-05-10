@@ -1,7 +1,7 @@
 Title: Adopci�n de XMMS
 Date: 2005-09-20 03:20:18
 Tags: 
-
+---
 <p>Adopt頥l paquete de XMMS en Debian, sabiendo que heredaría
 alrededor de 250 bugs asociados a él, finalmente la vida no está hecha
 para los débiles :-)</p>

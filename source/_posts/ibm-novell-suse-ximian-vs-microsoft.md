@@ -1,7 +1,7 @@
 Title: IBM & Novell & SuSE & Ximian vs. Microsoft
 Date: 2003-11-24 19:28:27
 Tags: 
-
+---
 <p>Pues son las siete y media de la mañana, lunes.</p>
 
 <p>Entro a leer la columna semanal de <a href="http://web.archive.org/web/20031125134728/http://www.matuk.com/">Javier Matuk</a> y leo su texto acerca de la compra de <a href="http://web.archive.org/web/20031125134728/http://www.suse.com/">SuSE</a> y <a href="http://web.archive.org/web/20031125134728/http://damog.net/www.ximian.com">Ximian</a> por parte de <a href="http://web.archive.org/web/20031125134728/http://www.novell.com%3Enovell%3C/a%3E,%20nada%20nuevo.%20Lo%20que%20se%20me%20hace%20extra%F1o%20es%20que%20el%20autor%20empieza%20a%20elucubrar%20una%20posible%20compra%20de%20parte%20de%20%3Ca%20href=">IBM</a> al emporio rojo. No me gusta la forma que aborda Matuk, en forma de chisme, del asunto, podría denotar un modo de informalidad por parte del desarrollo de Linux y de su ya consolidado soporte a usuarios por parte de empresas en todo el orbe.</p>

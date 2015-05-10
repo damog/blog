@@ -1,7 +1,7 @@
 Title: A 26 años de la muerte de John
 Date: 2006-12-08 20:18:06
 Tags: 
-
+---
 <p><img src="http://static.flickr.com/115/316929189_6ebc2ce637.jpg"/>
 El 8 de diciembre de 1980, <a target="_blank" href="http://en.wikipedia.org/wiki/John_Lennon">John Lennon</a> fue asesinado por <a target="_blank" href="http://en.wikipedia.org/wiki/Mark_David_Chapman">Mark David Chapman</a> afuera del Dakota, su residencia en Nueva York. En los últimos años de su vida, John e irónicamente Yoko, protestaron contra la guerra y se convirtieron en mensajeros de paz en el mundo. Qué cosas que a veintiséis años de su muerte, sus ideologías antiviolencia sean aún vigentes e igual de ignoradas por guerras, hambre y miseria en el mundo.
 

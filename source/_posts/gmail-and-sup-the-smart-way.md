@@ -1,7 +1,7 @@
 Title: GMail and Sup, the smart way
 Date: 2008-04-20 19:31:00
 Tags: 
-
+---
 <p>I&#8217;m a person who isn&#8217;t satisfied with a lot of things. This both affects me and helps me on several circumstances in life, such it is.</p>
 <p>The latter also affects my way to deal with mail, mail serving and MUAs. For years, I was a strong Novell Evolution user, mainly because it was quite easy to use, it was pretty and it used to understand the needs that people like me, involved in a lot of things (some of the worthwhile, some of them shitty), required. But in the last couple of years, it began to bloat, to handle connections Bayesian filters and SpamAssassin in a way that was utterly broken and decomposed.</p>
 <p>I took a break years ago, and tried Mutt, as many free software folks and Debian developers use them on a daily basis to deal with even more incoming mail. I actually liked it, but I was just unable to deal with spam too. My local config was probably broken, fixing it was an obscure fart of Benedict XVI and hidden folders for mailing lists were just a way to forget that I actually was subscribed to mailing lists and focused only on the incoming mail on the inbox.</p>

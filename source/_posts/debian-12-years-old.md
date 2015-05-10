@@ -1,7 +1,7 @@
 Title: Debian: 12 years old
 Date: 2005-08-16 23:03:17
 Tags: 
-
+---
 <p>Happy Birthday, Debian project!<br/><br/>
 Did you know the day Debian project was born, Madonna was also born?
 And did you know the day the Debian project was born, Elvis Presley

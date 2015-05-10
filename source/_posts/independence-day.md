@@ -1,7 +1,7 @@
 Title: Independence Day
 Date: 2004-09-17 14:36:46
 Tags: 
-
+---
 <p><img src="http://www.stcc.cc.tx.us/Languages/Mexican%20Flag.jpg"/></p>
 
 <p>Today, actually yesterday (September 16th), was Mexican Independence Day. A day like today, almost 200 years ago, 1810, <a href="http://www.mexonline.com/grito.htm">Mexicans</a> began their way to freedom. This year also, it is the 150th birthday of the Mexican Anthem, composed by Bocanegra and Nunó.</p>

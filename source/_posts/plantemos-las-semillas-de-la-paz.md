@@ -1,7 +1,7 @@
 Title: "Plantemos las semillas de la paz"
 Date: 2004-12-10 15:48:36
 Tags: 
-
+---
 <p>La activista keniana Wangari Maathai ha sido galardonada con el Premio Nobel de la Paz.</p>
 
 <p>Es la primera vez que una mujer africana recibo dicho galardón, cosa que es enormemente loable para la lucha contra la segregación racial y de género.</p>

@@ -1,7 +1,7 @@
 Title: My nokia cellphone sucks
 Date: 2004-08-31 14:32:03
 Tags: 
-
+---
 <p>Apparently I cannot export images from my computer onto my <a href="http://latinoamerica.ext.nokia.com/phones/gallery/view_product.asp?id=2819">Nokia 3300</a>.
 
 </p>

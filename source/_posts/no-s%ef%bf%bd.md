@@ -1,7 +1,7 @@
 Title: No s�
 Date: 2005-07-27 02:19:13
 Tags: 
-
+---
 <br/>
 Me siento frente a la computadora (aunque bueno, es sólo un decir por
 que llevo ya sentado aquí cerca de ocho horas), abro mi fabuloso gEdit

@@ -1,7 +1,7 @@
 Title: Mi peque
 Date: 2006-12-27 02:29:55
 Tags: 
-
+---
 <p align="center"><a href="http://www.damog.net/files/pics/rach-yo-lidsol.jpg"><img src="http://www.damog.net/files/pics/rach-yo-lidsol-mini.jpg"/></a></p>
 <a href="http://www.maggit.com.mx/">Te</a><p> amo. :-D
 </p>

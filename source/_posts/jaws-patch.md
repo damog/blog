@@ -1,7 +1,7 @@
 Title: JAWS patch
 Date: 2004-10-17 18:17:42
 Tags: 
-
+---
 <p>Well, <a href="http://web.archive.org/web/20041018111240/http://www.jordi.net/">Jordi</a> and I started hacking today on Planet. He gave me some moral support while coding on Python, language that I really do not know perfectly.</p>
 
 <p>He worked on the <a href="http://web.archive.org/web/20041018111240/http://jaws-project.sf.net/">JAWS</a> code, to see why they reported  as 00 hours on their RSS feeds.</p>

@@ -1,7 +1,7 @@
 Title: Mambo fancyness; CONSOL
 Date: 2005-02-06 03:14:22
 Tags: 
-
+---
 <p>
 <a href="http://www.mamboserver.com">mambo</a> has just been uploaded to experimental by <a href="http://www-personal.monash.edu.au/~anibal/">anibal</a>. It will remain on NEW queue, until is approved.</p>
 <p>Beta-testing is welcome and truly appreciated by any mamber out there. Grab it from <a href="http://damog.puntodeb.net/debian/mambo/">here</a>.</p>

@@ -1,7 +1,7 @@
 Title: La Cofratira
 Date: 2006-06-29 00:49:22
 Tags: 
-
+---
 <p align="center"><img src="http://www.damog.net/files/cofratira/cofratira.png"/></p>
 <p>
 Pues desde hace un par de años, he estado haciendo puros rayones que me gusta llamar <strong>Cofratiras</strong>, porque el Pop me dió chance de publicarlas en <a target="_blank" href="http://www.cofradia.org/">Cofradía</a>. Este pequeñísimo sitio servirá para recabar todas las ediciones que han sido publicadas de ella. Ojalá este sitio algún día tenga thumbnails o alguna de esas cosas mafufas. El enlace a las notas de Cofradía contendrán principalmente los comentarios vertidos de los cofrades a cada de las tiras (y podrán encontrar, quizás, mucho mejores ediciones de las tiras que las que yo guardo aquí).

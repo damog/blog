@@ -1,7 +1,7 @@
 Title: Tip Perl del día: 0E0
 Date: 2007-10-18 19:59:05
 Tags: 
-
+---
 <p>Empezaré escribiendo algunos tipcitos que me voy encontrando a mi paso al cabalgar sobre el felpudo lomo del dromedario de Perl durante mi camino por la vida. Las Columnas.pl, tips y otras cosas perlosas podrán revisarse en la categoría &#8216;perl&#8217; de este blog.</p>
 
 <p>Estoy trabajando con algunos contadores. Tengo que agregar un nuevo contador por hora e ir sumando el contador principal durante la hora actual, sin mucho problema, ¿no? Sin embargo, si la hora actual no existe en la base de datos, tengo que crear un nuevo registro. Debido a mi pésima capacidad bajo cualquier cosa que contenga las siglas SQL, tuve que platicar con alguien más para que diera una idea simple y clara de qué hacer.</p>

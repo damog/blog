@@ -1,7 +1,7 @@
 Title: Edinburgh
 Date: 2007-06-20 22:27:18
 Tags: 
-
+---
 <p>So, yeah, I’m in Edinburgh right now. For those of you who have asked, here is a little track of my adventures in the previous days:
 </p>
 <ul>

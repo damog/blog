@@ -1,7 +1,7 @@
 Title: Run a PHP script from mod_perl so PerlCleanupHandler can be used
 Date: 2009-02-19 19:21:44
 Tags: apache,modperl,php
-
+---
 <strong>Situation</strong>
 
 You need to run a time consuming task after a PHP script is run. The task will have to reuse the <tt>POST/GET</tt> data that is being sent to the service. The task would have to be done once the client has gone away.

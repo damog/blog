@@ -1,7 +1,7 @@
 Title: Luego de la tempestad
 Date: 2006-04-05 02:14:06
 Tags: 
-
+---
 <p>Pues desde la semana pasada algo me pegó muy duro en el estómago. Generalmente sufro de gastritis, a veces me duele mucho la boca del estómago (por lo cerdo tragón que llego a ser) pero esta última semana yo creo que me excedí y de verdad recaí bien gacho.</p>
 
 <p>El viernes del FLISOL, por la noche, me sentí muy mal del estómago, estando en San Cristóbal. Ana y mi suegra me cuidaron muy bien, gracias a ambas, no se merecen menos que besitos :) Por ende, no pude dormir bien esa noche y llegamos al FLISOL el sábado hasta pasado el mediodía (por si acaso alguien se preguntaba remotamente porqué llegamos tarde ese día). Durante la semana, el martes, el miércoles y el jueves también me sentí algo mal y el fin de semana un poco más (Susana me cuidó y me dió medicina y me procuró avena y arroz hervido).</p>

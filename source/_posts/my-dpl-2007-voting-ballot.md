@@ -1,7 +1,7 @@
 Title: My DPL 2007 voting ballot
 Date: 2007-03-27 17:15:34
 Tags: 
-
+---
 <p>So, I have voted after the <a href="http://lists.debian.org/debian-devel-announce/2007/03/msg00021.html" target="_blank">second call for participation</a> to Debian developers for the <a href="http://www.debian.org/vote/2007/vote_001" target="_blank">Debian Project Leader 2007 election</a>.</p>
 
 <p>Here is my voting:<br/><code><br/>

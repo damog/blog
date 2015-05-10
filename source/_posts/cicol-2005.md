@@ -1,7 +1,7 @@
 Title: CICOL 2005
 Date: 2005-05-18 18:28:25
 Tags: 
-
+---
 Ayer estuve presente en el <a href="http://cicol.org.mx" target="_blank">Tercer Ciclo de Conferencias de Software Libre (CICOL) 2005</a>,
 en la pequeña ciudad de Cuautla, Mor. El evento fue organizado por la
 comunidad local de usuarios y desarrolladores de software libre. Ésta

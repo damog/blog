@@ -1,7 +1,7 @@
 Title: Trece
 Date: 2006-08-10 21:35:35
 Tags: 
-
+---
 <ul>
 <li>El número <strong>13</strong> es el número natural que sigue al 12 y precede al 14.</li>
 <li>El número <strong>13</strong> es el sexto número primo, después del 11 y antes del 17.</li>

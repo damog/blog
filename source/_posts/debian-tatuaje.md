@@ -1,7 +1,7 @@
 Title: Debian-Tatuaje
 Date: 2005-06-27 21:58:37
 Tags: 
-
+---
 <p><br/><br/></p>
 <a href="http://www.damog.net/files/pics/tatoo01.jpg"><img border="0" src="http://www.damog.net/files/pics/tatuaje-mini-01.jpg"/></a><br/><br/><a href="http://www.damog.net/files/pics/tatoo02.jpg"><img border="0" src="http://www.damog.net/files/pics/tatuaje-mini-02.jpg"/></a><br/><br/><a href="http://www.damog.net/files/pics/tatoo03.jpg"><img border="0" src="http://www.damog.net/files/pics/tatuaje-mini-03.jpg"/></a><br/><br/><br/><p>
 Me lo hice el martes pasado (mañana cumple una semana) y aún tengo costritas. Estas fotos las tomé el sábado.<br/><br/>

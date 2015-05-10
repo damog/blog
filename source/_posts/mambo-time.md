@@ -1,7 +1,7 @@
 Title: mambo time!
 Date: 2005-01-10 01:03:59
 Tags: 
-
+---
 I&#8217;ve started to play a little bit with <a href="http://www.mamboserver.com">mambo</a>, which is an
 incredibly nice tool for a web cms: It&#8217;s easy to use, to enhance and
 work on it. I&#8217;ve also started to work on a Debian package, which was in

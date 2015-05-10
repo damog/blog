@@ -1,7 +1,7 @@
 Title: In Finland
 Date: 2005-07-07 05:42:01
 Tags: 
-
+---
 My father warned me: &#8216;Be careful with the Paris-CDG airport, it is a madness thing&#8217;.<br/><br/>
 I was thinking: &#8216;My old man is now too old-fashioned for this time&#8217;.<br/><br/>
 He was completely right. I almost lost my Paris-Helsinki flight due

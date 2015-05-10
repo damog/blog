@@ -1,7 +1,7 @@
 Title: Week in Guadalajara
 Date: 2004-09-26 18:06:31
 Tags: 
-
+---
 <p>This incoming week will be madness. Two main things will happen.
 
 I’m giving a talk at <a href="http://web.archive.org/web/20041018111240/http://fsl.glo.org.mx/">Festival de Software Libre</a> in Gualadajara, on thrusday. It will be about colaboration in free software projects, focused on Debian.

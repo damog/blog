@@ -1,7 +1,7 @@
 Title: Cheating the world you tweet less
 Date: 2009-06-08 16:41:56
 Tags: perl,rubx,twitter
-
+---
 The number of updates on my <a href="http://twitter.com/habanerd">Twitter page</a> kind of <strong>bothers me</strong> sometimes. It's a reminder of the amount of time I've spent and wasted on Twitter, it's an ever-itching mole in front of my face. However, I can cheat the system and society and still feel good about myself. What if I just remove all freaking replies I've made, <em>except</em> for those of people I do care about (like <a href="http://maggit.net">my fiance</a> or <a href="http://twitter.com/rubx">Ruby Boobie</a>)? And also, I don't want to remove very recent replies.
 
 Well, let's just do it already.

@@ -1,7 +1,7 @@
 Title: Foro: "La transición en riesgo: retos y oportunidades"
 Date: 2006-08-29 21:52:24
 Tags: 
-
+---
 <a target="_blank" href="http://www.alternativa.org.mx"><img border="0" src="http://www.damog.net/files/misc/logo-alternativa.png"/></a>ALTERNATIVA INVITA<strong> Foro: &#8220;La transición en riesgo: retos y oportunidades&#8221;</strong><p>
 El conflicto postelectoral es la oportunidad para repensar los marcos y reglas del juego de nuestra democracia.
 

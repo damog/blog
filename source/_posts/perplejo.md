@@ -1,7 +1,7 @@
 Title: Perplejo
 Date: 2005-08-23 22:27:25
 Tags: 
-
+---
 Imagínese el lector la escena. <br/><br/>
 Sánborns Café. Esquina Eje 6 Sur, Ángel Urraza y División del Norte. Diez y media de la noche. Asistentes: CloE, Jonathan, <a href="http://www.gwolf.org" target="_blank">Gunnar Wolf</a>, Gaby, <a href="http://blog.tacvbo.net" target="_blank">Tato</a> y yo. Motivo: Reunión para platicar algunas cosas sobre DebConf6.<br/><br/>
 Por alguna extraña razón sale al tema los videojuegos.<br/><br/>

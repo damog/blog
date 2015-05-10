@@ -1,7 +1,7 @@
 Title: Concurso de Creatividad Mexicommons
 Date: 2006-04-11 03:36:22
 Tags: 
-
+---
 <p align="center"><img align="middle" src="http://www.damog.net/files/misc/mexicommons.png"/></p>
 <a target="_blank" href="http://www.creativecommons.org.mx">Creative Commons México</a><p> ha lanzado una iniciativa donde busca fomentar la creatividad y la originalidad en trabajos que sean liberados bajo <a target="_blank" href="http://creativecommons.org.mx/licencias/">alguna licencia de Creative Commons</a> en el marco del <a target="_blank" href="http://creativecommons.org.mx/2006/04/08/primer-concurso-de-creatividad-mexicommons/">Primer Concurso de Creatividad Mexicommons</a>. Las categorías abarcan música, video, animación y podcasts. Los premios quizás no sean los más espectaculares (aparte de contar con el honor de mostrar tu trabajo en <a target="_blank" href="http://creativecommons.org/support/summit/">iSummit de CC</a> que se llevará a cabo en Brasil) pero creo que la promoción que esta iniciativa puede provocar en el uso de licencias abiertas y de uso común, es bastante alentador y motivante para nuevos desarrollos intelectuales creativos, que día con día, se ven más como una realidad en nuestro país con el potencial de artistas y creadores.
 

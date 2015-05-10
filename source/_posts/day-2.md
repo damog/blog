@@ -1,7 +1,7 @@
 Title: Day 2
 Date: 2004-05-28 13:59:32
 Tags: 
-
+---
 <p>Well, day 2 was pretty good, we drank some very nice things, like the Mexican Almond Tequila and Peruvian Pizco.</p>
 
 <p><img src="http://damog.net/debian/debconf4/day02/thumb-dsc00039.jpg"/><br/>

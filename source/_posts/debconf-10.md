@@ -1,7 +1,7 @@
 Title: DebConf 10
 Date: 2010-08-12 02:04:17
 Tags: debconf,debconf10,debian
-
+---
 I was in New York for three full weeks, before, during and after DebConf 10 took place. Unfortunately, I wasn't able to attend talks or go hang out with folks as much as I would've wanted. Most of the time I was busy at the office with a new product launch we have been preparing for the last few months. However, I was able to come and say hi to a few people, attend the C&amp;W party and talk with friends and ran into. I was, however, following all conversations on IRC so I was pretty informed of all of what was going on. Some random thoughts:
 <ul>
 	<li>Being surrounded by so many amazing Debian people made me realize how much I've been apart from the project. My involvement decreased pretty much since I moved to New York. But because of that, I'm now slowly retaking my activity, trying to work on actual things that I use on my daily work instead of just packaging tons of shit that nobody really cared about.</li>

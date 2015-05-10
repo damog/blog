@@ -1,7 +1,7 @@
 Title: Geek Code Block
 Date: 2004-01-14 14:34:27
 Tags: 
-
+---
 <p>Pues bueno, el día de hoy (además del trabajo y la chamba ;-) me puse a hacer mi Geek Code. Helo aquí:
 </p>
 <pre>-----BEGIN GEEK CODE BLOCK-----

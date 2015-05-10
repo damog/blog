@@ -1,7 +1,7 @@
 Title: Por cierto... 2
 Date: 2004-11-27 15:44:06
 Tags: 
-
+---
 <p>Por cierto, tiene mucha verdad <a href="http://visor.linuxreal.org/jaws/index.php?gadget=blog&amp;action=single_view&amp;id=87">lo que dice</a> <a href="http://visor.linuxreal.org/jaws/index.php">visor</a>.</p>
 
 <p>También me he propuesto dejar <em>#unixmexico</em> y enfocarme en cosas más productivas que estar buscando tanta mamada en todos lados.</p>

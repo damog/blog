@@ -1,7 +1,7 @@
 Title: Piggybank Hash
 Date: 2006-08-07 22:00:54
 Tags: 
-
+---
 <p>Pues el fin de semana pasado tuve a bien ir a la reunión mensual del <a target="_blank" href="http://www.mchhh.com/">Mexico City Hash House Harriers</a>, que se celebró en las boscosas instalaciones del Popo Park, en Amecameca, Estado de México, en las faldas del volcán <a target="_blank" href="http://en.wikipedia.org/wiki/Popocat%C3%A9petl">Popocatépetl</a>.La idea era irme con <a target="_blank" href="http://www.iah2007.org">Toño</a> desde el viernes en la tarde, pero como tuve que ir a la <a target="_blank" href="http://www.unam.mx">universidad</a> a un examen el sábado a las 8:30 am, no pude, así que saliendo del examen y luego de que Lucía finalmente me convenció, me lancé.
 
 Para salir a Amecameca hay que cruzar la puta salida a Puebla que es una mamada. No sé cómo la gente que vive por el oriente de la ciudad puede soportar tal cantidad de tráfico y situaciones en la calzada Ignacio Zaragoza. Nunca había tomado esa carreterita, la que se desvía en la caseta para Puebla con rumbo a Chalco y Cuautla, en realidad estuvo bien.

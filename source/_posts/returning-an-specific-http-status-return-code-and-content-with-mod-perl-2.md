@@ -1,7 +1,7 @@
 Title: Returning an specific HTTP status/return code and content with mod_perl 2
 Date: 2009-01-06 11:35:12
 Tags: apache,mod_perl
-
+---
 Making a simple <tt>PerlResponseHandler</tt> that does something like this:
 <pre><code>sub handler {
     my($r) = shift;

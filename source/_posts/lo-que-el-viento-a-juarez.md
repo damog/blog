@@ -1,7 +1,7 @@
 Title: Lo que el viento a Juárez
 Date: 2006-03-16 20:15:43
 Tags: 
-
+---
 <p>Hola. Desde las alturas del piso 19 del Centro Comercial <a target="_blank" href="http://www.fallingrain.com/world/VE/25/Los_Chaguaramos.html">Los Chaguaramos</a> en Caracas, capital venezolana, reporta David Moreno Jr.</p>
 
 <p>Gracias a todos los que se preocuparon por <a href="http://www.damog.net/?p=470">lo de los tipos de migración</a> de Santo Domingo. En especial gracias a <a target="_blank" href="http://lubrio.blogspot.com/">Luigino</a> por hacer de mi caso <a target="_blank" href="http://lubrio.blogspot.com/2006/03/extorsionado-por-venir-desde-mxico.html">todo un reportaje</a> en su blog (y que eventualmente apareció también en <a target="_blank" href="http://www.aporrea.org/">Aporrea</a>). Gracias a todos los que han dejado mensajes de apoyo en los comentarios del post. Gracias a los comentarios también vertidos en el <a target="_blank" href="http://www.bureado.com.ve">blog de bureado</a> (aunque aclaro que yo nunca hablé mal del gobierno o gente de Venezuela, ni mucho menos dije que México es un edén de la no corrupción y la vida justa y equitativa), así como quienes escribieron los suyos propios en el blog de Luigino. También gracias a quienes me contactaron vía IRC o MSN. Finalmente, con la dignidad por delante, esos hijos de la chingada me hicieron <strong>lo que el viento a Juárez</strong>, y si se intenta hacer otra vez, ya sabré cómo defenderme por la vida diplomática. Por cierto, Luigino, no volví a México: Estoy residiendo en Caracas actualmente.</p>

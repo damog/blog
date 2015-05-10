@@ -1,7 +1,7 @@
 Title: World Cup just around the corner
 Date: 2006-06-03 19:08:57
 Tags: 
-
+---
 <p>Well, Mexico played three preparation games in Europe on their way to start the World Cup. They played against France and the Netherlands on their territories and well, I think Mexico was not ready enough, it is not solid and the manager was making lots of crazy movements. They ended 1-0 and 2-1, respectively. Obviously those were difficult matches against fútbol potences on their home, but still Mexico has plenty of capacity to beat any of those countries.</p>
 
 <p>The third game was against a German university, Gottingen, which was more a diplomatic match (the manager and players didn&#8217;t want to play it, but it was because of the chief managers of Mexico, trying to make a good relationship with the city and/or Germany, itself). We won 0-3.</p>

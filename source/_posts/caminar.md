@@ -1,7 +1,7 @@
 Title: Caminar
 Date: 2005-09-25 22:23:20
 Tags: 
-
+---
 <p>La neta no sé
 cuántos kilómetros son, pero sí es chingo: Todo Tlalpan, pasando Cd.
 Jardín, Xotepingo, Museo. Luego, en la intersección con División del

@@ -1,7 +1,7 @@
 Title: Dos Mil Cinco
 Date: 2005-12-21 22:41:25
 Tags: 
-
+---
 <p>El 2005 está llegando a su fin y tengo que escribir cosas sobre él aquí. El 2005 fue sin lugar a dudas un excelente año para mí por las siguientes razones:  </p>
 <ul>
 <li>Encontré el amor :)</li>     <li>Estuve en un lugar de trabajo bien chido.</li>     <li>Siento que crecí como persona.</li>     <li>Fui nombrado Desarrollador Debian.</li>     <li>Me di cuenta cómo quiero dirigir mi vida.</li>     <li>Pude hablar abiertamente con mis padres.</li>     <li>Cumplí la mayoría de edad en todo el mundo :) <br/>

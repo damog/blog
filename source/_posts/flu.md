@@ -1,7 +1,7 @@
 Title: Flu
 Date: 2004-10-07 18:10:57
 Tags: 
-
+---
 <p>Today I have been atacked by a flu. I hate the sore throat, the body pain, headache, etc.</p>
 
 <p>Anyway, today it was my sister’s birthday. She is 25 now, and to bother her I tell her, she is a quater of century years old, sounds older <img alt="wink.png" src="http://web.archive.org/web/20041018111240/http://www.damog.net/images/emoticons/wink.png"/> I gave her a nice tiny blue sweater as present. Anyway, sweaters are cheaper on summer <img alt="smile.png" src="http://web.archive.org/web/20041018111240/http://www.damog.net/images/emoticons/smile.png"/></p>

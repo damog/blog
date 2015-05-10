@@ -1,7 +1,7 @@
 Title: Asesinatos en Caracas
 Date: 2006-04-06 03:15:57
 Tags: 
-
+---
 Para la gente fuera de Venezuela le explico brevemente el caso, al menos lo que he leído y escuchado al respecto.
 
 Hace más de un mes, tres hermanos junto con su chofer fueron secuestrados por un grupo de maleantes quienes montaron fuera de su casa una alcabala disfrazados de policías. Ayer <a target="_blank" href="http://www.eluniversal.com/2006/04/05/ccs_art_05142A.shtml">se anunció</a> que fueron encontrados todos muertos en un lugar del estado Miranda (según entiendo, que forma parte de la zona metropolitana conocida como la Gran Caracas). Mucha gente indignada salió a las calles a protestar, <a target="_blank" href="http://lubrio.blogspot.com/2006/04/caracas-trancada-en-solidaridad-por.html">como lo cuenta Luigino</a>.

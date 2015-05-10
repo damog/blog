@@ -1,7 +1,7 @@
 Title: El Negro en casa...
 Date: 2003-06-06 19:33:26
 Tags: 
-
+---
 <p>Escribo estas líneas teniendo al Negro a mi lado&#8230; y sin saber qué hacer <img alt=": ) " src="http://web.archive.org/web/20030611122152/http://www.damog.org/blog/b2-img/smilies/icon_smile.gif"/>
 
 Los dos en una foto en <a href="http://web.archive.org/web/20030611122152/http://consol.org.mx/">CONSOL 2003</a>:

@@ -1,7 +1,7 @@
 Title: Otro hijo de puta: Mario Marín, gobernador de Puebla
 Date: 2006-02-16 19:57:13
 Tags: 
-
+---
 <p>No tengo palabras para describir el desprecio que me hace sentir el gobernador estatal del estado de Puebla, Mario Marín, luego de sus corruptelas y juegos de poder del estúpido éste. Explico brevemente.</p>
 
 <p>Hace un par de días, el periódico La Jornada publicó conversaciones del empresario Kamel Nacif con algunas personas, en su red de corrupción (éste es acusado junto con otro hijo de puta llamado Succar Kari) y pederastia, la cual fue descubierta por la escritora Lydia Cacho.</p>

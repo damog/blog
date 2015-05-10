@@ -1,7 +1,7 @@
 Title: Zapatitos Converse
 Date: 2005-05-20 02:26:51
 Tags: 
-
+---
 <p>Me declaro un fanᴩco de los tenis <a href="http://www.converse.com" target="_blank">Converse</a>, sólo por ello tengo
 cuatro pares de dicha marca. A veces creo que tengo demasiados tenis y
 zapatos, haciendo un conteo mental rápido puedo recordar, de tenis (o zapatillas, como les dicen en Sudamérica) esos cuatro

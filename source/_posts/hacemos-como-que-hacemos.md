@@ -1,7 +1,7 @@
 Title: Hacemos como que hacemos
 Date: 2007-04-20 05:07:22
 Tags: 
-
+---
 <p>Vivimos en un país donde hacemos como que hacemos cosas.</p>
 
 <p>Hacemos como que trabajamos; nuestros jefes hacen como que nos coordinan y dirigen; hacemos como que queremos progresar en nuestros trabajos y ellos hacen como que quieren que progresemos. Hacemos como que estudiamos en la escuela y los maestros hacen como que quieren enseñar; los trabajadores de la universidad hacen como que trabajan, como que lo hacen bien; todos hacemos como que nos importa nuestro entorno, hacemos como que nos importan nuestros amigos.</p>

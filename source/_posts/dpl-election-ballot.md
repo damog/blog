@@ -1,7 +1,7 @@
 Title: DPL election ballot
 Date: 2006-04-07 02:12:49
 Tags: 
-
+---
 <p>I&#8217;m one of those waiting until the last call for votes to send the ballot:</p>
 
 <p>- - -=-=-=-=-=- Don&#8217;t Delete Anything Between These Lines =-=-=-=-=-=-=-=-<br/>

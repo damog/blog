@@ -1,7 +1,7 @@
 Title: Si todos los días fueran como hoy
 Date: 2006-02-07 03:38:18
 Tags: 
-
+---
 <p>El 5 de febrero de 1917, el presidente Venustiano Carranza promulga la Constitución Política de los Estados Unidos Mexicanos en la ciudad de Querétaro. Casi 90 años después, cuando algunos grupos consideran que esa constitución es un tanto vieja y obsoleta para los tiempos modernos, se proclama el día siguiente hábil, hoy, lunes 6 de febrero, día festivo.
 
 Ojalá todos los días fueran como hoy, en que no hay casi nadie en las calles, el tráfico es estúpidamente amable y se siente uno sin mucho estrés. Hoy sólo vino Federico, un cuate, y yo a la chamba, nadie más. Yo ni estaba seguro de que hubiera o no trabajo en la oficina, pero me servió para hacer varias cosas.

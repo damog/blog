@@ -1,7 +1,7 @@
 Title: 'La Otra Campaña' en el Distrito Federal
 Date: 2006-04-27 04:47:02
 Tags: 
-
+---
 <p align="center"><img src="http://espora.org/~sartaguda/laotra/containerright-image.jpg"/></p>
 <p>
 El <em>Delegado Zero</em>, Subcomandante <em>Marcos</em>, acompañado de adherentes de <a target="_blank" href="http://www.jornada.unam.mx/laotra/">La Otra</a>, han entrado a la <a target="_blank" href="http://es.wikipedia.org/wiki/Zona_Metropolitana_de_la_Ciudad_de_M%C3%A9xico">Zona Metropolitana de la Ciudad de México</a> y se han realizado mítines en la <a target="_blank" href="http://www.aragon.unam.mx/">FES Aragón</a>, en <a target="_blank" href="http://www.cch-naucalpan.unam.mx/">CCH Naucalpan</a> y muchos lugares más (<a target="_blank" href="http://laotra.edomex.8k.com/">La Otra Campaña en el Estado de México</a>). El contingente iniciará sus actividades dentro del Distrito Federal desde este viernes 28 de abril y durará hasta el jueves 4 de mayo:

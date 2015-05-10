@@ -1,7 +1,7 @@
 Title: Before DebConf
 Date: 2004-05-24 13:57:44
 Tags: 
-
+---
 <p>Well, this is my last post in Mexico in a couple of weeks before DebConf. Today I&#8217;m flying to Sao Paolo at 19:40, and arriving at 6:50, and then, another flight to Porto Alegre.</p>
 
 <p>I&#8217;ll blog and photolog all the experiences ;)</p>

@@ -1,7 +1,7 @@
 Title: CyberTest UIA
 Date: 2005-04-10 20:03:23
 Tags: 
-
+---
 <strong>Segundo Concurso Preuniversitario &#8220;Cyber-Test&#8221;<br/><br/></strong><img vspace="0" hspace="0" border="0" src="http://www.ie.uia.mx/imagenes/linkcyber.gif"/><br/><br/><p>
 En esta próxima semana se celebrará el <a href="http://www.ie.uia.mx/cyber05" target="_blank">2do Concurso Preuniversitario
 CyberTest</a> en la <a href="http://www.uia.mx" target="_blank">Ibero</a>. Este evento, que ha juntado muchísimo interés

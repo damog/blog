@@ -1,7 +1,7 @@
 Title: Live 365
 Date: 2004-07-25 14:22:19
 Tags: 
-
+---
 <p>Well, I just bought a <a href="http://www.live365.com/vip">Preferred Membership</a> of <a href="http://www.live365.com/">Live365</a> a few days ago, and I really like it.
 
 If you are a close person with me, you&#8217;ll know I have no regular music on my PC (aka, mp3). So I began, a few months ago, to listen to Live365 stations, which are really cool. Lots of music, lots of genres, etc.

@@ -1,7 +1,7 @@
 Title: Rubx: Twitter's Ruby shell
 Date: 2009-04-06 09:32:05
 Tags: axiombox,rubx,ruby,tli,twitter
-
+---
 <a href="http://axiombox.com/rubx"><img align="right" class="alignright size-full wp-image-851" title="rubx" src="http://damog.net/old/axiombox/2009/04/rubx.png" alt="rubx" width="100" height="100" />Rubx</a>, also known as <em>Ruby Boobie</em>, is a nice spoiled girlie bot that runs on Twitter. She listens when you talk to her and when you do, it'll better be with Ruby: She will interpret your tweet in Ruby and reply to you with what your code returns.
 
 How does it work? You send a message to her:

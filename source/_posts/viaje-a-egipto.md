@@ -1,7 +1,7 @@
 Title: Viaje a Egipto
 Date: 2005-01-11 18:03:22
 Tags: 
-
+---
 <p>Pues bueno, para quien le pueda llegar a interesar, la <a href="http://www.uia.mx">universidad</a> estᠯrganizando un viaje a Egipto, acá la información:</p>
 <p align="center">
 <a href="http://www.damog.net/files/pics/viaje-egipto.jpg"><img src="http://www.damog.net/files/pics/viaje-egipto-thumb.jpg"/></a>

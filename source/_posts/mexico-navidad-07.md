@@ -1,7 +1,7 @@
 Title: México - Navidad '07
 Date: 2007-12-22 01:06:56
 Tags: 
-
+---
 <p>Vinimos a México por 15 días. Llegamos el sábado pasado, y hasta ahora la hemos pasado bastante bien, hemos descansado, disfrutado del calor (en el día) y compartido con los amigos.</p>
 
 <p>El domingo Raquel y yo hicimos una reunión con algunos de nuestros amigos en casa de mi mamá. Los invitamos a echar cheves y luego les invitamos pizza común y corriente. Lo lindo es que pudimos darles a los asistentes los regalitos que les habíamos traído. Muchas gracias por venir, ¡ustedes quiénes son!</p>

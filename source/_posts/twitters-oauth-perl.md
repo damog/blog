@@ -1,7 +1,7 @@
 Title: Twitter's OAuth + Perl
 Date: 2009-05-21 14:06:42
 Tags: oauth,perl,twitter
-
+---
 During the last week, unbeatable <a href="http://bulknews.vox.com/">Tatsuhiko Miyagawa</a> uploaded <a href="http://search.cpan.org/dist/Net-Twitter-OAuth/">Net::Twitter::OAuth</a> to <a href="http://search.cpan.org/">CPAN</a>, which provides an awesome interface for <a href="http://search.cpan.org/dist/Net-OAuth-Simple/">Net::OAuth::Simple</a> and <a href="http://twitter.com/">Twitter</a> by subclassing <a href="http://search.cpan.org/dist/Net-Twitter/">Net::Twitter</a>. This way, it's very easy to develop Twitter client applications using its <em>new</em> <a href="http://apiwiki.twitter.com/OAuth-FAQ">OAuth method</a> dropping the need for users to hand their credentials to third parties.
 
 You will have to register your application on Twitter previously. You can do so <a href="http://twitter.com/oauth_clients">here</a>. If this is a web application that you will be building, you can provide a callback URL which is the page where the user will get redirected once she has granted access to your application. If you just want to test, setting a desktop application is probably the way to go.

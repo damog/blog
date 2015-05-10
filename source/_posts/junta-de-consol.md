@@ -1,7 +1,7 @@
 Title: Junta de CONSOL
 Date: 2004-11-30 15:45:24
 Tags: 
-
+---
 <p>Me encuentro en la junta de CONSOL en este momento, en la UAM Xochimilco, casa abierta al tiempo que en algún momento me tuvo como estudiante ;-) qué recuerdos&#8230;</p>
 
 <p>En fin, sólo hay una palabra para describir esta junta: <strong>desmadre</strong>.</p>

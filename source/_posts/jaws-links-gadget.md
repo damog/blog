@@ -1,7 +1,7 @@
 Title: JAWS links gadget
 Date: 2003-12-13 19:21:42
 Tags: 
-
+---
 <p>Pues por fin he termino el primer release :P de mi famosísimo <a href="http://web.archive.org/web/20031226230140/http://www.damog.net/index.php?gadget=links&amp;PHPSESSID=b35e73a509d50b80c0c8eb29a7c802d2">links gadget</a>.
 
 Este gadget es un módulo en el cual se pueden dar de alta <em>nuestros enlaces favoritos</em> poniendo el nombre del sitio, la URL y una breve descripción. <a href="http://web.archive.org/web/20031226230140/http://www.jaws.com.mx/">JAWS</a>, pensado como un blog personal permite este tipo de gadgets como un plus más, para los visitantes y conocer por medio de enlaces favoritos, al blogger :P

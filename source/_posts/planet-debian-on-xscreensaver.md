@@ -1,7 +1,7 @@
 Title: Planet Debian on xscreensaver
 Date: 2005-04-25 19:03:00
 Tags: 
-
+---
 The other day, at work, I was fooling around the lab (I work on common
 area called &#8216;lab&#8217; where the different products of the company I work
 for are assembled) and while looking at any random point I was

@@ -1,7 +1,7 @@
 Title: gChicharronero coming soon!
 Date: 2004-09-04 14:32:31
 Tags: 
-
+---
 <p>Well, I have just built a very little application, inspired by three main things:
 </p>
 <li>

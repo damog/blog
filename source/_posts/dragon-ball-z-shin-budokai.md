@@ -1,7 +1,7 @@
 Title: Dragon Ball Z: Shin Budokai
 Date: 2008-09-23 13:28:22
 Tags: dragon ball,gaming,psp,reseñas
-
+---
 El domingo pasado mientras caminábamos mucho por la ciudad, terminamos en el GameStop de Lexington y la 86 donde por fin pude encontrar un título al que le traía muchas ganas: <a href="http://en.wikipedia.org/wiki/Dragon_Ball_Z:_Shin_Budokai">Dragon Ball Z: Shin Budokai</a>.
 
 <a href="http://damog.net/old/axiombox/2008/09/shinbudokaibox.jpg"><img class="size-full wp-image-649 alignright" style="padding: 10px;" title="shinbudokaibox" src="http://damog.net/old/axiombox/2008/09/shinbudokaibox.jpg" alt="" width="289" height="500" /></a>Lo compré por dos simples razones:

@@ -1,7 +1,7 @@
 Title: Perl in the Time of Social Networks delivered in Pittsburgh, PA
 Date: 2009-06-27 21:01:36
 Tags: baseball,git,perl,pittsburgh,social networks,yapc
-
+---
 I attended <a href="http://yapc10.org">YAPC|10</a> during this past week. The overall experience was quite particular, with ups and downs, but after all I made it back in one piece.
 
 I rode a <a href="http://twitter.com/GreyhoundBus">Greyhound</a> bus on my crusade of saving a few bucks. I always had issues with buses, when I was a child I used to go from <a href="http://en.wikipedia.org/wiki/Celaya">Celaya</a> to Mexico City (and back) almost every weekend for a couple of years and I developed a phobia against the whole bus experience. Even though, getting to Pittsburgh from New York City was cheaper riding a bus than the other alternatives anyway, flying or train. Anyways, it was an awful experience that prevented me from being complete recovered after each travel leg.

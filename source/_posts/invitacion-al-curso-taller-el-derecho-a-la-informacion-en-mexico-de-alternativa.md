@@ -1,7 +1,7 @@
 Title: Invitación al curso-taller, El derecho a la información en México, de Alternativa.
 Date: 2006-08-16 21:52:46
 Tags: 
-
+---
 <a target="_blank" href="http://www.alternativa.org.mx"><img width="140" height="129" align="right" src="http://www.damog.net/files/misc/logo-alternativa.png"/></a>En esta etapa de construcción del partido en Alternativa DF consideramos indispensables adquirir como militantes las herramientas básicas para el seguimiento de la función de los poderes públicos, que nos den parámetros para la elaboración de un discurso y agenda política de vanguardia. Les invitamos al:<p align="center"><em><strong>CURSO–TALLER</strong></em></p>
 <p align="center"><em><strong>EL DERECHO A LA INFORMACIÓN EN MÉXICO</strong></em></p>
 <p><strong>Días</strong>: Tres sesiones. Viernes 25 de agosto, 1 y 8 de septiembre</p>

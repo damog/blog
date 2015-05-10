@@ -1,7 +1,7 @@
 Title: Leavander Johnson, RIP
 Date: 2005-09-26 17:31:50
 Tags: 
-
+---
 <img mce_real_src="http://espndeportes.espn.go.com/2003/photos2005/0920/a_johnson_leavender_ht.jpg" src="http://espndeportes.espn.go.com/2003/photos2005/0920/a_johnson_leavender_ht.jpg" border="0" hspace="0" vspace="0"/>
 <p align="left">Jesús Chávez was challenging Johnson&#8217;s championship which he won in Italy against Steffano Zoff.</p>
 <p align="left">The

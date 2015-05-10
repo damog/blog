@@ -1,7 +1,7 @@
 Title: Contactando a Planeta Linux
 Date: 2007-04-19 05:05:58
 Tags: 
-
+---
 <p>Hola,</p>
 <p>
 Este mensaje va dirigido a ti que intentaste contactar recientemente (de digamos, dos meses para acá) a alguien de <a href="http://www.planetalinux.org/" target="_blank">Planeta Linux</a> para que te agregue, cambie tu feed, agregue tu hackergotchi o algo similar. Este mensaje va dirigido a ti que no recibiste respuesta a tu petición.

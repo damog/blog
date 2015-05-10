@@ -1,7 +1,7 @@
 Title: Tantas cosas en tan poco tiempo
 Date: 2006-02-26 23:08:18
 Tags: 
-
+---
 <p>Pues mañana me voy para Venezuela, muchas gracias a todos los que me han apoyado en esta decisión y aventura, principalmente a mis padres, a mi hermana y a mis más entrañables amigos, los quiero a todos y cada uno de ustedes. Ustedes saben quiénes son. Algunas de las cosas que he hecho en estos últimos días:</p>
 
 <p><strong>Manu Chao</strong>. Pues el viernes pasado fui con el <a target="_blank" href="http://www.mig-29.net/">MiG</a> a ver a <a target="_blank" href="http://en.wikipedia.org/wiki/Manu%20Chao">Manu Chao</a> en el Palacio de los Deportes, un espectáculo increíble, bailé y bailé y sudé y sudé y nunca creí darme cuenta de cuán refrescante puede ser una cerveza cuando estás sediento, bañado en sudor y con un calor de locos. Manu exhala paz y una gran energía, estuvo excelente. Afortunadamente pude conseguir boletos de pista y le dije al MiG que nos lanzáramos, estuvo harto chido :)</p>

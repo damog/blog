@@ -1,7 +1,7 @@
 Title: Un par de buenas noticias
 Date: 2004-12-05 15:47:16
 Tags: 
-
+---
 <p>Pues el día de hoy he recibido sendas agradables noticias.</p>
 
 <p>En primer lugar, he sido aprobado en la etapa Tasks and Skills, del <a href="http://nm.debian.org/">proceso de Nuevo Mantenedor</a>, lo cual significa que estoy cerca de convertirme en desarrollador oficial de Debian.</p>

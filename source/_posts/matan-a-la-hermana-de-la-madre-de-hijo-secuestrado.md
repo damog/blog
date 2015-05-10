@@ -1,7 +1,7 @@
 Title: Matan a la hermana de la madre de hijo secuestrado
 Date: 2006-07-06 20:28:44
 Tags: 
-
+---
 <blockquote>Agentes policiacos encontraron esta mañana muerta dentro de su camioneta y con una herida de bala en el pecho a Guadalupe Miranda Torres, hermana de Isabel Miranda de Wallace, autora de los anuncios en los que ofrecía una recompensa para localizar a los secuestradores de su hijo Hugo Alberto.
 
 La Secretaría de Seguridad Pública (SSP) del Distrito Federal informó que los hechos ocurrieron frente a la casa de la ahora occisa en el número 207 de la calle Montealban esquina con Luz Aviñón en la colonia Narvarte.

@@ -1,7 +1,7 @@
 Title: Redirecciones
 Date: 2007-08-31 22:48:10
 Tags: 
-
+---
 <h1>La Columna.pl #3</h1>
 <h2>
 <a title="redirecciones" name="redirecciones" id="redirecciones"></a>Redirecciones</h2>

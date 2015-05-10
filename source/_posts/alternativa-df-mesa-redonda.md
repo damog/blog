@@ -1,7 +1,7 @@
 Title: Alternativa DF: Mesa redonda
 Date: 2006-08-29 22:07:00
 Tags: 
-
+---
 <p align="center"><img src="http://www.damog.net/files/misc/logo-alternativa.png"/></p>
 <a target="_blank" href="http://www.alternativa.org.mx">Alternativa DF</a><p> invita a la:
 </p>

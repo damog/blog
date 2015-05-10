@@ -1,7 +1,7 @@
 Title: Cena mexicana
 Date: 2006-03-29 16:56:06
 Tags: 
-
+---
 <p>Ayer pude por fin tener dinero que tenía parado y que me hacía no tener un sólo bolívar (Ana me prestó 10&#8217;000 bolos que me sirvieron para comer un día y comprar un multiabono en el metro). Con ese dinero, <a target="_blank" href="http://mannyto.unplug.org.ve">Manuel</a> me acompañó al supermercado <a target="_blank" href="http://www.cada.com.ve/">Cada</a> a comprar algunas cosas para tenerlas en casa de <a target="_blank" href="http://bureado.com.ve">José</a>. Compramos varias cosas interesantes (lo siento, no hay fotos :() y decidimos hacer una cena mexicana (intentamos llamar a José y a Susana a sendos teléfonos celulares para avisarles que no cenaran, pero ninguno atendió :().</p>
 
 <p>Lo primero que agarré fue un queso que terminó estando bien rico, como una especie de gouda, manchego o algo así, compré tortillas El Taquito (que saben a tortillas Milpa Real de Bimbo, no estaban tan mal), incluso encontramos ¡latas de frijoles La Costeña! Obviamente compré dos latas (aunque estaban un poco caras, alrededor de 12&#8217;000 bolívares, como 60 pesos cada puta lata), frijolitos bayos :-) También encontramos salsa taquera La Costeña (sólo había dos botellas y compré una): Es extremadamente raro ver en un súper sólo tres latas de frijoles o dos botellas de salsa, de verdad que uno piensa, ¿es que nadie come salsa picante en este país? ¿Qué nadie come frijoles? ¿Dónde están los frijoles charros? &#8220;Joven, ¿dónde puedo encontrar salsa Valentina para las palomitas?&#8221;, jeje :)</p>

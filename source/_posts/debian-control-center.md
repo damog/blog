@@ -1,7 +1,7 @@
 Title: Debian Control Center
 Date: 2004-07-18 14:21:52
 Tags: 
-
+---
 <p>Finally today was our Debian Control Center meeting. I was pretty cool, I was happy to see the channel full of people, although not every one was in the active talk.</p>
 
 <p>The log can be reached <a href="http://www.damog.net/debian/debian-control-center.log">here</a>.</p>

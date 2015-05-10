@@ -1,7 +1,7 @@
 Title: LiveJournal 2
 Date: 2004-11-28 15:42:28
 Tags: 
-
+---
 <p>Es un hecho que me gusta hablar sobre las herramientas que me agradan, para hacer <em>equis</em> cosas, por <em>ye</em> razón.</p>
 
 <p>Realmente no sé por qué la gente que tiene blogs y cuya vida está muy relacionada al software libre no usa <a href="http://www.livejournal.com/">LiveJournal</a>.</p>

@@ -1,7 +1,7 @@
 Title: Viaje por el B�ltico
 Date: 2005-07-03 16:59:05
 Tags: 
-
+---
 <p>Estoy haciendo planes para que, al llegar a Helsinki, pueda hacer un
 viaje relámpago alrededor de la capital finlandesa. Mi ruta sería como
 la del mapa (hacer clic):<br/><br/></p>

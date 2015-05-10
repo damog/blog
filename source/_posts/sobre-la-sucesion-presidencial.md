@@ -1,7 +1,7 @@
 Title: Sobre la sucesión presidencial
 Date: 2006-12-02 19:39:20
 Tags: 
-
+---
 <p>Desde el día de ayer ya es oficial que Felipe Calderón es el nuevo presidente de México. En los últimos días he pasado por un análisis personal de la política del país y he llegado a la conclusión de que todo esto es pura mamada.</p>
 
 <p>El Peje no es tan pobre diablo como muchos pueden llegar a creer (y como yo lo creí mucho tiempo). El Peje representa la conciencia de México, representa (ojo que digo representa y no digo que lo sea) la conciencia política y democrática. El futuro del país no es cualquier cosa, el futuro y la soberanía, la democracia del país no es cualquier cosa. El hecho de que luego de setentaytantos años de priísmo se siga sin respetar la democracia, se hagan fraudulentas las elecciones (ojo que yo no voté ni por el Peje, ni por Pipo), que se venda la patria, no es cualquier cosa. Es gravísimo, es regresar (nunca lo hemos dejado de ser, de hecho) al país bananero que nos tiene hundidos, teniendo México altos potenciales en todos los sentidos. México es un país hundido en el neoliberalismo, hundido en la derecha, hundido en las organizaciones de mochos chaquetos, hundido con un gobierno que hace que el país esté en crisis. ¿Por qué realmente apoyar al Calderón?</p>

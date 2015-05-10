@@ -1,7 +1,7 @@
 Title: DebConf8 official training started!
 Date: 2007-07-16 22:32:56
 Tags: 
-
+---
 <p>So, my official training for DebConf8 has just started!</p>
 
 <p>What is this training about? Well, since a couple of weeks ago, I had seen a little Argentinian restaurant two blocks from my place. It is not new to find Argentinian places on the area, specially on La Condesa, where lots of foreigns reside within Mexico City. Argentinians are known in some circles, because they usually take their dogs for walking on Parque España, Parque México and the neighborhoods nearby (not that Mexicans don’t walk dogs, it’s just a bit more stereotyped for Mexicans to put dogs on the roofs of buildings and not taking very good care of them). Anyway, since I live on Roma Sur, which is just crossing Insurgentes avenue away from La Condesa, it is also a crowded neighborhood (which is more like a family-kind area), the nearest Argentinian place was this, Che Charrúa.</p>

@@ -1,7 +1,7 @@
 Title: WNPP massive close
 Date: 2005-09-15 04:05:22
 Tags: 
-
+---
 Today I have closed 729 work-needing and prospective packages bugs :-)<br/><br/>
 156 of them were ITPs and the rest 573, RFPs. All of them were bugs
 with a lifetime greater than 600 days old. Most of the ITPs closed were

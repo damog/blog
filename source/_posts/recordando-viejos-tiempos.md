@@ -1,7 +1,7 @@
 Title: Recordando viejos tiempos
 Date: 2006-02-02 21:23:55
 Tags: 
-
+---
 Desde hace varios años, el foro <a target="_blank" href="http://mx.groups.yahoo.com/group/skavoovie">Skavoovie</a> ha sido un lugar donde muchos nos reúnimos para platicar e intercambiar opiniones sobre el ska en, principalmente, México. Sin embargo, en los últimos meses el foro estuvo bastante apagado, principalmente por la apatía y por que mucha gente se empezó a separar del grupo. Por esta razón, Nacho y el Muerto, principalmente, se dieron a la tarea de organizar una fiesta-toquín con el nombre &#8220;Recordando viejos tiempos&#8221;. La cita es este sábado 4 de febrero desde las 12 del día. Definitivamente voy a estar ahí :) ¿El lugar? El bello y mágico San Cristóbal Ecatepec.
 
 La propa:

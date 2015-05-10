@@ -1,7 +1,7 @@
 Title: GMail
 Date: 2004-06-13 14:14:43
 Tags: 
-
+---
 <p>This is not quite awesome:</p>
 
 <p><a href="http://damog.net/files/screenshots/gmail.png"><img src="http://www.damog.net/files/screenshots/gmail-thumb.png"/></a></p>

@@ -1,7 +1,7 @@
 Title: Deploying a Dancer app on Heroku
 Date: 2012-07-16 21:03:45
 Tags: dancer,heroku,perl
-
+---
 There's a <a href="http://blog.kraih.com/mojolicious-in-the-cloud-hello-heroku">few</a> different posts out there on how to run Perl apps, such as Mojolicious-based, on Heroku, but I'd like to show how to deploy a <a href="http://perldancer.org/">Perl Dancer</a> application on <a href="http://www.heroku.com/">Heroku</a>.
 
 The startup script of a Dancer application (bin/app.pl) can be used as a <a href="http://plackperl.org/">PSGI</a> file. With that in mind, I was able to take the good work of <a href="http://bulknews.typepad.com/">Miyagawa's</a> <a href="https://github.com/miyagawa/heroku-buildpack-perl">Heroku buildpack</a> for general PSGI apps and hack it a little bit to use Dancer's, specifically. What I like about Miyagawa's approach is that uses the fantastic <a href="http://search.cpan.org/~miyagawa/App-cpanminus-1.5015/bin/cpanm">cpanm</a> and makes it available within your application, instead of the monotonous cpan, to solve dependencies.

@@ -1,7 +1,7 @@
 Title: Here, there and everywhere
 Date: 2004-06-09 14:13:38
 Tags: 
-
+---
 <p>I&#8217;m feeling kinda sad. Because many things in Mexico suck.</p>
 
 <p>Getting back from Brazil, made me realize that Mexico needs too much for being a better country, starting from the citizens: The common society.</p>

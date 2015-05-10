@@ -1,7 +1,7 @@
 Title: Call for Gathering of the Indigenous People of the Americas
 Date: 2007-06-15 22:24:56
 Tags: 
-
+---
 <p>Transcript of the call for participation on the  <a href="http://www.encuentroindigena.org/" target="_blank">Gathering of the Indigenous People of the Americas</a>. If you don’t mind, feel free to skip it.
 
 Considering that 515 years after the first invasion of our ancestral territories, the war of conquest, the plunder, and capitalist exploitation have not altered their course, but rather have become a new war of extermination, a war designed for the destruction and utter plunder of all the original peoples of the Americas;

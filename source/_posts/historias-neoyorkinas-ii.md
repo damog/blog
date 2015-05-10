@@ -1,7 +1,7 @@
 Title: Historias neoyorkinas II
 Date: 2007-11-09 19:08:17
 Tags: 
-
+---
 <p>El simpático personaje que escribe en este blog ha olvidado de rasurarse la barba. Lleva sin afeitarse alrededor de dos meses. Aún cuando la barba no le aparece tan tupida como quisiera, tiene algo de espesa ya en estos momentos. Aunado a esto, este personaje no puede ocultar su latinicidad por su color de piel y de cabello.</p>
 
 <p>Dicho lo anterior&#8230;</p>

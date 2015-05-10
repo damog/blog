@@ -1,7 +1,7 @@
 Title: El baile del perrito
 Date: 2005-09-03 17:46:24
 Tags: 
-
+---
 <p>El buen <a href="http://badc0ded.org.ar/" target="_blank">Beck</a>
 tenía una frase en su weblog (en este momento parece que no está
 disponible) que me parece magistral, una de las mejores frases que he

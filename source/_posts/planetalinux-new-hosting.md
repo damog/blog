@@ -1,7 +1,7 @@
 Title: New hosting for Planeta Linux
 Date: 2014-08-03 14:50:05
 Tags: planetalinux
-
+---
 Just a very quick shout out.
 
 A few weeks/months ago, <a href="http://planetalinux.org">Planeta Linux</a> lost its hosting. As I'm less and less

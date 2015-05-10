@@ -1,7 +1,7 @@
 Title: Elecciones 07/03
 Date: 2003-07-06 19:02:37
 Tags: 
-
+---
 <p>Señores&#8230; Y señoritas (casi no entran señoras a ver este sitio <img alt=": P " src="http://web.archive.org/web/20030719200405/http://www.damog.org/blog/b2-img/smilies/icon_razz.gif"/>).</p>
 
 <p>El día de hoy acudí a ejercer mi derecho al voto en las urnas. Con tres elecciones juntas, jefe delegacional, diputados federales y para Asamble Legislativa, la pequeña casilla, ubicada a dos cuadras de mi casa, estaba atascada de gente.</p>

@@ -1,7 +1,7 @@
 Title: Several things
 Date: 2004-06-27 14:17:14
 Tags: 
-
+---
 <p>Well, yeah. Lots of things has happened on the last days. Let&#8217;s start without particular order.</p>
 
 <p>* My mother went ill because of pressure and stress. She, fortunately, is getting better. I have to start doing some things by myself, which she used to do.</p>

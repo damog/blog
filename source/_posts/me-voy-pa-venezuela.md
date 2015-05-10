@@ -1,7 +1,7 @@
 Title: Me voy pa' Venezuela
 Date: 2006-01-26 23:39:36
 Tags: 
-
+---
 <p>Pues bueno, esto es algo que ya le había dicho a mucha gente, a gente cercana a mí, pero me gustaría escribirlo aquí: Me voy a Venezuela. ¿Por qué? Las razones salen sobrando, a finales de febrero me voy para allá, por varios meses.</p>
 
 <p>Estaba esperando comentárselo al jefe mayor de Nekotec, y finalmente se lo he comentado. No me queda más que agradecerle cuán amable ha sido él conmigo, le agradezco todo el apoyo que me ha dado y que me dará con esta aventura. Al estar él al tanto, ya puedo decírselo a todo el mundo, y heme aquí <img border="0" alt="Laughing" src="http://www.damog.net/blog/wp-admin/mambots/editors/tinymce/jscripts/tiny_mce/plugins/emotions/images/smiley-laughing.gif"/></p>

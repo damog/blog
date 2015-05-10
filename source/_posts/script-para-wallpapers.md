@@ -1,7 +1,7 @@
 Title: Script para wallpapers
 Date: 2004-12-01 15:45:57
 Tags: 
-
+---
 <p>Pues jugando un poco con GConf, me he hecho un mini scriptcito en Perl para cambiar los wallpapers cada 60 segundos, en GNOME.
 
 Esta idea me surgió debido a que alguna vez vi que el <a href="http://blog.tacvbo.net/">Ta^3</a> tiene esta conducta en su XFCE4.

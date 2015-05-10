@@ -1,7 +1,7 @@
 Title: LiveJournal
 Date: 2004-08-14 14:26:33
 Tags: 
-
+---
 <p>I have received a couple of questions regarding of my use of <a href="http://www.livejournal.com/">LiveJournal</a> instead of any other weblog system. It&#8217;s quite easy.
 
 LiveJournal is a free software company, using free software to build a business. That&#8217;s widely cool, they are not the same kind of company that allows you to store a webservice and then gets yourself deep on spam. That&#8217;s ethic.

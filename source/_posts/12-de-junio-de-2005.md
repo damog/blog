@@ -1,7 +1,7 @@
 Title: 12 de junio de 2005
 Date: 2005-06-12 21:27:07
 Tags: 
-
+---
 <p>Hay veces que la persona que menos te puedes imaginar, la persona con
 la que jam᳠pensaste que se podría dar algo, ni sentir algo, es la
 persona que siente y piensa lo mismo que tú. Es algo que a primera

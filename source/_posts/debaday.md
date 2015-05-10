@@ -1,7 +1,7 @@
 Title: debaday
 Date: 2005-09-14 05:55:49
 Tags: 
-
+---
 I&#8217;ve been working lately on trying to bring back the <a href="http://www.livejournal.com/users/debaday" target="_blank">old debaday</a> effort.<br/><br/>
 Debaday was a little nice idea by Andrew Sweger writing a bit of one
 different and interesting Sarge package daily, started on March 2004.

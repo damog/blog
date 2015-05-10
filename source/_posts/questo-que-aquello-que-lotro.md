@@ -1,7 +1,7 @@
 Title: Qu'esto, que aquello, que l'otro.
 Date: 2005-04-11 00:56:58
 Tags: 
-
+---
 <p>Muchas cosas han pasado en los últimos días. Tantas que no sé ni por dónde empezar.<br/><br/>
 Quizá empezaré relatando lo más importante hasta el momento, o al menos lo que me agrada mucho más para contar ;-)<br/><br/><strong>FISL y DebConf5, y quizás CDD-devcamp<br/></strong>Como ya había comentado anteriormente, ya cuento con mi boleto de
 avión para mi vuelo trasatlántico hasta <a target="_blank" href="http://www.debconf.org/debconf5">DebConf5</a>, que será llevado

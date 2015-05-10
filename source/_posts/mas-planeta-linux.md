@@ -1,7 +1,7 @@
 Title: Más Planeta Linux
 Date: 2008-06-09 11:46:12
 Tags: planeta linux,vitacilina
-
+---
 En el último par de semanas, y gracias principalmente al interés de la gente y de David Valdez que se puso las pilas, hemos crecido en la familia de instancias en Planeta Linux, pues se han unido a nuestra familia las instancias de Costa Rica, El Salvador, Nicaragua y Panamá. Muchas gracias a cada uno de los interesados que mandaron los feeds y nombres acusando a los blogueros linuxeros centroamericanos para regocijo de los lectores. Ya somos once las instancias en Planeta Linux:
 <ul>
 	<li><a href="http://cl.planetalinux.org/">Planeta Linux Chile</a></li>

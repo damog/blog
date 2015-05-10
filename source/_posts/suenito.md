@@ -1,7 +1,7 @@
 Title: Sueñito
 Date: 2003-10-04 18:48:50
 Tags: 
-
+---
 <p>El día de antier, jueves (que en realidad era viernes), me dormí a las 2 am. Tenía clase a las 9, pero me tengo que despertar 6 ó 7 am. Me desperté muy agotado, llevé a mi hermana al trabajo, y partí hacia la universidad.</p>
 
 <p>Volví de la escuela, a comer, y luego a trabajar. Estuve administrando y revisando el nuevo y reluciente servidor dedicado :)</p>

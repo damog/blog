@@ -1,7 +1,7 @@
 Title: Cumpleaños 22
 Date: 2006-08-09 20:21:20
 Tags: 
-
+---
 <p>Pues <strong>ayer</strong> fue mi cumpleaños, ocho de agosto. Cumplí veintidós años.
 
 Hice un pequeño experimento y no le dije a nadie que era mi cumpleaños y fui anotando las personas que me felicitaron :-). Finalmente no deja de ser otro más de los acostumbrados egotrips. Por orden alfabético he aquí la lista:

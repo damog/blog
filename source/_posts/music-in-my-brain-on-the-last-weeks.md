@@ -1,7 +1,7 @@
 Title: Music in my brain on the last weeks
 Date: 2006-09-23 18:13:10
 Tags: 
-
+---
 <a target="_blank" href="http://www.tacvbo.net">Tato</a><p>, <a target="_blank" href="http://www.maggit.com.mx">Raquel</a> and me headed to <a target="_blank" href="http://en.wikipedia.org/wiki/Cat_Power">Cat Power</a>&#8217;s concert last Wednesday. Luckily, I won two tickets for the concert on a morning radio show (it was around 6 am, so when the speaker asked a question, I had plenty of time to open my notebook, confirm the answer on Wikipedia and call the station; because of the time, the call entered quite quickly, on the 3rd try). It was a double, so Tato had to buy his own ticket.
 
 Chan Marshall, Cat Power&#8217;s real name, is quite interesting. She asked previously that people people should be quiet while performing because of her stage fright (!). She also likes to cut her songs abruptly complaining on the sound of the piano, tunes on the guitar, her voice, the accoustics on the place, etc. We also realized that her live performance is completely depressive, and the ambient of people (quiet, clapping to support her, proposals to marry her from girls) makes an outstanding and not common at all atmosphere.

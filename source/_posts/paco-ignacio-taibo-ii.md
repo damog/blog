@@ -1,7 +1,7 @@
 Title: Paco Ignacio Taibo II
 Date: 2007-09-12 01:04:04
 Tags: 
-
+---
 <a href="http://www.flickr.com/photos/raquelydavid/1362152663/" title="photo sharing"><img src="http://farm2.static.flickr.com/1303/1362152663_ae0181b4c3_m.jpg"/></a>
 <a href="http://www.flickr.com/photos/raquelydavid/1362152663/">La foto con Paco Ignacio Taibo II</a>
 Originally uploaded by <a href="http://www.flickr.com/people/raquelydavid/">raquelydavid</a><br clear="all"/>

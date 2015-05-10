@@ -1,7 +1,7 @@
 Title: De la democracia y otros juegos de poder
 Date: 2006-07-04 00:22:12
 Tags: 
-
+---
 <p>Ayer fue el día electoral en México. A diferencia a como se realiza en algunos países latinoamericanos, en México se lanza una sóla elección cada seis años, y se convierte en presidente aquel que tiene más votos, no importando si es un voto más, o si no alcanza mínimamente cierto porcentaje de votantes, etc.</p>
 
 <p>Las casillas cerraron, en todo México, a las 6 de la tarde, hora local (hay que recordar que en México se presentan tres zonas horarias: -0800&#160;en Baja California y Sonora; -0700&#160;en Baja California Sur, Chihuahua, Sinaloa y Nayarit; y -0600&#160;en el resto del país, centro y oriente. Eso, en horario normal; durante el verano, todas las zonas horarias cambian a una hora menos, que es el caso actual: -7, -6 y -5, respectivamente. La <a target="_blank" href="http://cofipe.ife.org.mx">COFIPE</a> impide que los medios de comunicación divulguen resultados de sus estudios y encuestas de salida (estas encuestas se basan en preguntar a los electores de ciertas casillas por quienes votaron y así se forman los resultados parciales no-oficiales), hasta que haya dado las 6 de la tarde en todo el país, hora en que se cierran las casillas. Por ende, a las 8 de la noche (hora del centro de México) es posible conocer resultados preeliminares en la radio y la televisión.</p>

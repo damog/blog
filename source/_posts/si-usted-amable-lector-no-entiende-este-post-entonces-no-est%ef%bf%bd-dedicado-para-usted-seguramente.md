@@ -1,7 +1,7 @@
 Title: Si usted, amable lector, no entiende este post, entonces no está dedicado para usted, seguramente.
 Date: 2005-08-26 04:26:31
 Tags: 
-
+---
 <p>Escuchado (¿o leído?) en algún sitio de gente naquita:<br/></p>
 <blockquote>Quiero mandarle un super saludote a mis nuevos amigos&#8230; ¡¿Qué onda, <u><em><strong>BROTHERS</strong></em></u>?!
 Pues aquí nomás estoy pa&#8217; dedicarles unas super rolas y para hacerles

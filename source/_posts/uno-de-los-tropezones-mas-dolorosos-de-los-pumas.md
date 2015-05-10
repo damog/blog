@@ -1,7 +1,7 @@
 Title: Uno de los tropezones más dolorosos de los Pumas
 Date: 2006-02-23 19:09:15
 Tags: 
-
+---
 <p>Ayer fui con mi papá al <a target="_blank" href="http://en.wikipedia.org/wiki/Estadio_Ol%C3%ADmpico_Universitario">Estadio Olímpico Universitario</a> a ver a los <a target="_blank" href="http://www.pumasunam.com.mx">Pumas de la UNAM</a> jugar contra el <a target="_blank" href="http://www.uamaracaibo.org/">Unión Atlético Maracaibo</a>, equipo venezolano, compañero de grupo en la <a target="_blank" href="http://www.conmebol.com/">Copa Toyota Libertadores</a>.</p>
 
 <p>En el partido de presentación de los Pumas, allá en Uruguay contra el <a target="_blank" href="http://bolso.8m.com/inicio.html">Nacional</a>, <a target="_blank" href="http://www.damog.net/?p=295">habíamos caído</a> por 2-0. Ahora, en la presentación de los Pumas en la Libertadores estando en casa, perdimos. No puedo creer eso. Si eso nos pasa con un equipo como Maracaibo que encontró el gol por suerte y que se defendió a más no poder, no quiero pensar en el desempeño del equipo con otros más grandes sudamericanos. Marioni falló una cantidad impresionante de balones, Victorino no se quedaba atrás, sólo se puede decir que los únicos que jugaron bien fueron Sergio Bernal y Leandro Augusto, al menos en lo que cabe.</p>

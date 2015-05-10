@@ -1,7 +1,7 @@
 Title: Tengo que confesar...
 Date: 2005-04-13 05:55:43
 Tags: 
-
+---
 &#8230;que soy un pinche desobligado.<br/><br/>
 Tiene meses que me aterra esta confesión.<br/><br/>
 Un ejemplo, le doy prioridad a trabajar en algunas cosas de Debian, en

@@ -1,7 +1,7 @@
 Title: Thoughts
 Date: 2005-07-09 11:13:53
 Tags: 
-
+---
 The sun is hitting my back.<br/><br/>
 I vaguely can see the screen.<br/><br/>
 I&#8217;m thirsty.<br/><br/>

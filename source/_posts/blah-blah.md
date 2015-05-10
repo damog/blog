@@ -1,7 +1,7 @@
 Title: Blah, blah
 Date: 2004-08-04 14:24:21
 Tags: 
-
+---
 <p>I&#8217;ve been working on several things recently.</p>
 
 <p>* <a href="http://alioth.debian.org/projects/dcc">dcontrol</a> was requested to change its unix name from dcc to another, since <a href="http://alioth.debian.org/projects/pkg-dcc">pkg-dcc</a> got uncomfortable about the similarity of both names. We agree, and we are now changing to <em>debcontrol</em>.</p>

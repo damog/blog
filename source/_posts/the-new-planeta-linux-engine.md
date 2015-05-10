@@ -1,7 +1,7 @@
 Title: The new Planeta Linux engine
 Date: 2009-11-11 19:06:50
 Tags: git,perl,planet,planeta linux,planetplanet,venus
-
+---
 So I've spent quite some time in the last couple of months (whenever I had a chance, actually), to redesign how the core of <a href="http://planetalinux.org">Planeta Linux</a> works, and I'll explain all the changes I've made to make it a much better solution that fully fits our current needs. If you are reading this with a feed reader, <strong>star this item, share the item, retweet the post</strong>! Let everyone know we are doing this for the Linux Latin American community!
 
 <a href="http://planetalinux.org/"><img class="alignright" src="http://planetalinux.org/images/arte/pl2_125x125.jpg" alt="" width="125" height="125" /></a>If you're naive enough, you'll think about Planeta Linux as a simple <a href="http://planetplanet.org">Planet</a> aggregation instance with a different set of people collections, which we used to call, ironically, instances, which aren't anything else but countries. If you don't know how we've been doing Planeta Linux for almost <strong><a href="http://stereonaut.net/2004/10/planetalinux/">five years now</a></strong>, you'll think it's all just <tt>config.ini</tt> being fed to the <tt>planetplanet</tt> binary. Well, it has been like that, yes, but having a big set of planets (more than ten now) makes it a bit of a hassle to do any changes or try to do anything else but add, edit and remove people. The way we were handling it with Apache was already documented in the <a href="http://stereonaut.net/2008/11/configuracion-dinamica-en-apache/">past</a>.

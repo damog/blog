@@ -1,7 +1,7 @@
 Title: Domingo, 16 de noviembre de 2003
 Date: 2003-11-16 19:32:14
 Tags: 
-
+---
 <p>El día de hoy he estado trabajando en un nuevo gadget para <a href="http://web.archive.org/web/20031125134728/http://jaws-project.sf.net/">JAWS</a>: Un gadget para mostrar las páginas, ligas, sitios que a uno más le gustan junto con una pequeña descripción hecha por el usuario.
 
 Aún no lo pongo disponible :P debido a que aún hay algunas cosas que refinar, espero que mañana lunes o el martes, esté listo el gadget. Mientras, puede verse cómo se mostraría en la sección de <a href="http://web.archive.org/web/20031125134728/http://damog.net/index.php?gadget=links&amp;PHPSESSID=72975156e05da0c8cb36167c76375e41">Links</a>.

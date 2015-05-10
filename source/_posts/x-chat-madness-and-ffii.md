@@ -1,7 +1,7 @@
 Title: X-Chat madness and FFII
 Date: 2004-09-18 14:37:20
 Tags: 
-
+---
 <p>So, lately I&#8217;ve been over IRC spending lots of time.I started using <a href="http://xchat-gnome.navi.cx/">xchat-gnome</a> but it really seems to young, it doesn&#8217;t implement much features and crashes lots of times.
 
 </p>

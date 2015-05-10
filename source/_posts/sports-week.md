@@ -1,7 +1,7 @@
 Title: Sports week
 Date: 2005-09-11 18:30:48
 Tags: 
-
+---
 <strong>Fútbol</strong><br/><p>
 Andoni (a very nice Basque friend), Nere (Panamenian), Nayeli, me and
 others, went last wednesday to the Azteca stadium to see Mexico&#8217;s game

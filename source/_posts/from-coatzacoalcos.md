@@ -1,7 +1,7 @@
 Title: From Coatzacoalcos
 Date: 2004-07-01 14:17:56
 Tags: 
-
+---
 <p>Well, I put my ass on a bus, and eight hours later I was in Coatzacoalcos, in the beautiful state of Veracruz, very near to Tabasco.</p>
 
 <p>I came for a couple of days to do some work with Salvador, which is in charge of the <a href="http://www.gulcoatza.org/">Linux User Group of Coatza</a> and besides, he is the founder of the never-born NetBSD-MX project.</p>

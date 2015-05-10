@@ -1,7 +1,7 @@
 Title: Recuerdos que le dan alegría a mi vida
 Date: 2006-04-07 17:23:19
 Tags: 
-
+---
 <a target="_blank" href="http://www.damog.net/files/pics/hashers.png"><img src="http://www.damog.net/files/pics/hashers-mini.png"/></a>
 <p align="left">Revisando mi directorio de imágenes me topé con esta foto que me mandó Christian hace unos días, me hizo recordar a mucha gente que aprecio mucho. La foto fue tomada en mi casa el día que ofrecí una reunión de cuates antes de venir a Venezuela.</p>
 <p align="left">A la izquierda, Toño González, Ingeniero en <a target="_blank" href="http://www.ie.uia.mx/">Electrónica y Comunicaciones</a> por la <a target="_blank" href="http://www.uia.mx/">Universidad Iberoamericana</a>: Quizá una de las personas que más admiro por su manera de beber y beber siempre, cada semana, dos o tres veces (o cuatro) cada fin de semana. Por algo es uno de los organizadores principales del <a target="_blank" href="http://www.mchhh.com/">club internacional (de la Ciudad de México) de bebedores-corredores</a> mundialmente conocido como <a target="_blank" href="http://en.wikipedia.org/wiki/Hash_House_Harriers">Hash House Harriers</a>. Él, incluso, me dió clases de Programación en C hace casi tres años ya, ¡sí, créanlo o no, él es un profesor! :P Además es usuario de Ubuntu y es uno de las pocas personas que conozco (junto con <a target="_blank" href="http://www.jordi.net">Jordi</a> y <a target="_blank" href="http://ion.gluch.org.mx">Ion</a>, por ejemplo) que programan muy bien en PHP.</p>

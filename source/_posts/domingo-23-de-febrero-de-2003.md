@@ -1,7 +1,7 @@
 Title: Domingo, 23 de febrero de 2003
 Date: 2003-02-23 21:41:22
 Tags: 
-
+---
 <p>¡Ya actualicé más secciones! Bueno, puse un par de cosillas en <strong>sobre mí</strong> y ligas de <strong>descargas</strong> con los primeros discos de <a href="http://web.archive.org/web/20030410165512/http://www.debian.org/">Debian GNU/Linux</a>. Y de una vez pongo una foto que quería colocar desde hacia un par de semanas, pero no tenía tiempo&#8230; Miren qué guapo (jojo :-D):
 
 </p>

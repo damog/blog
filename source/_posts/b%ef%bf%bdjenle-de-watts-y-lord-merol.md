@@ -1,7 +1,7 @@
 Title: B�jenle de watts y Lord Merol
 Date: 2005-09-07 00:45:39
 Tags: 
-
+---
 Debido a la cantidad de pendejadas que ya se estaba escribiendo en este
 blog, he decidido deshabilitar los comentarios un rato, en lo que la
 gente le baja de güevos.<br/><br/>

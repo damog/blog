@@ -1,7 +1,7 @@
 Title: Is GitHub really necessary for your startup engineering team?
 Date: 2012-03-11 23:52:52
 Tags: git,github,site reliability
-
+---
 For the last few months, I've been ranting a little too much with <a href="http://selectablemedia.com">our</a> engineering team about <a href="http://github.com">GitHub</a>. These rantings, of course, didn't come out of the blue. I haven't been too satisfied with GitHub's reliability lately since we use it for our daily development and constant deployment on our different staging environments and our own operation has been affected by their recent multiple technical difficulties. This has led me to analyze whether we really need them, why we started paying for their service in the first place and if it's really necessary for our product development in the first place.
 
 Being an startup that originated its main product on Ruby and Ruby on Rails, some of our initial engineers were more oriented towards Ruby and open source technologies. We started using GitHub because it was the natural and de facto choice. Creation of repositories and private contributors was easy and would put you up to speed with collaboration. As we grew in developers count, our repositories did too as well as different projects. We even brought a system administrator in place. Do we still need GitHub right now? I won't be dropping Git as our main version control system, but what has GitHub provided my company and project in exchange for the $200 we are paying them every month? Is it only hype for a company to use it for their internal repositories? Or is it hype to use them for their open repositories?

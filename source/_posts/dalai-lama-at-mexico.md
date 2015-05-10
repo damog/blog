@@ -1,7 +1,7 @@
 Title: Dalai Lama at Mexico
 Date: 2004-09-21 14:38:20
 Tags: 
-
+---
 <p>The Dalai Lama, one of the most important moral and spiritual leaders in the world, Peace Nobel Price in 1989, will be in Mexico next 3-8 October.
 
 </p>

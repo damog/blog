@@ -1,7 +1,7 @@
 Title: Yellow bar
 Date: 2005-07-24 21:12:18
 Tags: 
-
+---
 <p>The roundtable/BOF in DebConf5 about Debian website was quite
 interesting, although I didn&#8217;t participate much, but I was widely
 interested on listening to every opinion out there about it, since the

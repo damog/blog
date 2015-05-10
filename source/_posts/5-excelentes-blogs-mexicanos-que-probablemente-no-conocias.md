@@ -1,7 +1,7 @@
 Title: 5 excelentes blogs mexicanos que probablemente no conocías
 Date: 2008-09-29 20:32:41
 Tags: axiombox,enlaces,recomendación
-
+---
 En <a href="http://axiombox.com">Axiombox</a> estamos trabajando en un proyecto muy grande e importante ligado a blogs y sitios mexicanos y aunque no puedo hablar mucho al respecto por el momento, me gustaría mostrar algunas cosillas interesantes que seguramente van a gustar. Así que, si mis dos lectores geeks lo permiten, quiero listar cinco muy buenos blogs mexicanos que es probable que no conozcan:
 <ul>
 	<li><strong><a href="http://superluchas.net">Superluchas.net</a>.</strong> De todo tipo de lucha libre, mexicana, gringa y de varios más países. De AAA, CMLL, WWE y mucho, mucho más.</li>

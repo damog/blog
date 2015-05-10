@@ -1,7 +1,7 @@
 Title: Tarea de Programación
 Date: 2004-01-28 14:30:24
 Tags: 
-
+---
 Jjajaja… No encontraba un papel, ni nada para apuntar la tarea, así que la apunto aquí ;-)
 1. ¿Qué es polimorfismo?
 

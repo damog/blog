@@ -1,7 +1,7 @@
 Title: The unseen power of Adult Swim
 Date: 2004-10-03 18:09:27
 Tags: 
-
+---
 <p>I recently noticed that <a href="http://web.archive.org/web/20041018111240/http://www.cartoonnetwork.com/">Cartoon Network</a>, one of my beloved TV channels, will (or is already) launch a new cartoon concept. At least, new for them.</p>
 
 <p><a href="http://web.archive.org/web/20041018111240/http://www.cartoonnetwork.com/gen/asfaq/index.html">Adult Swim</a> is a block where they are broadcasting some cartoon <em>for adults</em>. They argue about the age of their audience, saying that more grown and mature people watch CN. That’s way, in a night block (from 11&#160;pm to 5 am) they are showing cartoon series such as Family Guy and Futurama, both <a href="http://web.archive.org/web/20041018111240/http://www.fox.com/">Fox</a> superhits, and some others like The Ripping Friends, a very nice show of ‘bad boys’ that I had the chance to watch once and Lupin The 3rd, which is the story of a thief.</p>

@@ -1,7 +1,7 @@
 Title: Securing WordPress talk
 Date: 2009-11-20 13:20:25
 Tags: security,wordcamp,wordpress
-
+---
 Here I start a series of posts with my comments, notes and remarks on the talks that I attended at last weekend's <a href="http://2009.newyork.wordcamp.org/">WordCamp</a> in NYC.
 
 <img class="alignright size-full wp-image-1034" title="Screen shot 2009-11-20 at 1.19.12 PM" src="http://damog.net/old/stereonaut/2009/11/Screen-shot-2009-11-20-at-1.19.12-PM.png" alt="Screen shot 2009-11-20 at 1.19.12 PM" width="165" height="156" />The first talk I attended was <strong>Securing WordPress</strong>, <a href="http://www.strangework.com/">by Brad Williams</a> (@<a href="http://twitter.com/williamsba">williamsba</a> on Twitter). First off, this talk wasn't too technical since it was focused to beginning developers whose background wouldn't be completely into systems administration, it was intended to a broader audience, which is exactly why I liked it so much and started taking notes. You need some mild level of expertise on <a href="http://wordpress.org">WordPress</a> for most of what Brad mentioned but you don't have to be an expert.

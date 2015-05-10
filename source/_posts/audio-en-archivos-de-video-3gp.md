@@ -1,7 +1,7 @@
 Title: Audio en archivos de video 3GP
 Date: 2006-08-20 20:02:31
 Tags: 
-
+---
 <p>Recientemente me ha dado por grabar algunos videos desde mi celular. Luego de echar a andar el bluetooth en la laptop, pasar fotos, música y videos desde el celular se hizo muy facilito. El problema fue que el <a target="_blank" href="http://chocolate.lgmobile.com">LG Chocolate</a> graba los videos en un formato <a target="_blank" href="http://en.wikipedia.org/wiki/3GP">3GP</a>, que <em>mplayer</em>, por ejemplo, sí puede reproducir, pero sin audio.
 
 Googleando un poco y metiéndome a la lista de correos de mplayer, encontré que hay que recompilar mplayer agregando el códec AMR. Siempre me ha molestado recompilar. No recompilo ni siquiera mi kernel, me ladilla tremendamente. Además, Debian tiene facilidades muy sencillas para construir módulos a partir de los headers que te puedes bajar en forma de paquetes. Entonces generalmente las cosas que trae el kernel empaquetado en stock de Debian, al menos en powerpc, satisface muchas de las actuales necesidades, sobre todo en el kernel 2.6.17. Pero bueno, el kernel no era el punto. El punto es que hay que recompilar mplayer.

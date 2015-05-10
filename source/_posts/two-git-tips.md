@@ -1,7 +1,7 @@
 Title: Two Git tips
 Date: 2008-12-12 23:52:28
 Tags: git,tips
-
+---
 Following the Git tips being thrown on <a href="http://planet.debian.org">Planet Debian</a>, here's a couple:
 
 <strong>1.</strong> Changing into a directory that contains a repo and shows you on PS1 what branch you are standing on:

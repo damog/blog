@@ -1,7 +1,7 @@
 Title: { primera secuencia de 10 dígitos de Pi, que sumados dan 13 } .com
 Date: 2006-11-07 17:58:04
 Tags: 
-
+---
 <p>La semana pasada encontré en la <a target="_blank" href="http://www.fciencias.unam.mx">Facultad</a> algo interesante. Como la mayoría de los días, caminaba por los pasillos adormilado y sintiendo a cada paso la flojera de hacer cualquier cosa en la vida cuando vi un anuncio pegado en una de las paredes con algo que decía más o menos así:
 </p>{ primera secuencia de 10 dígitos de Pi, que sumados dan 13 } .com<p>
 Me quedé un rato mirando el cartel que debajo de lo escrito indicaba: &#8220;Fecha límite: 3 de noviembre&#8221; y tenía el escudo de la <a target="_blank" href="http://www.ingenieria.unam.mx">Facultad de Ingenería</a>. A veces mi atención no es lo suficientemente grande así que me quedé para intentar entender el problema o que mis ojos lo estaban viendo bien y el cerebro no me hacía una jugada chueca, como es su costumbre. Luego pensé en quién sería que pusiera ese cartel, ¿sería algún proyecto de los ingenieros? ¿Algún proyecto de clase? ¿Alguna empresa relacionada de alguna forma con ellos?

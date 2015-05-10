@@ -1,7 +1,7 @@
 Title: Poco a poquito, yo te lo digo.
 Date: 2003-07-30 18:53:26
 Tags: 
-
+---
 <p>¡Cantando reggaemuffin, así me mantengo vivo!</p>
 
 <p>Tengo el teclado ante mí, y el día de hoy no salen las palabras, no se aparecen los teclazos como en algunas otras ocasiones. No sé, pueden ser muchas cosas: La flojera, el trabajo, el pensar en la universidad, el pensar en mis próximas pláticas, los proyectos que tengo pendientes, en fin, una serie de cosas que no me dejan mucho tiempo para mí.</p>

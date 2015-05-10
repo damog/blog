@@ -1,7 +1,7 @@
 Title: Manejo del tiempo con Perl
 Date: 2007-08-31 22:46:54
 Tags: 
-
+---
 <h2>
 <strong>Manejo</strong> <strong>del</strong> <strong>tiempo</strong> <strong>con</strong> <strong>Perl</strong>
 </h2>

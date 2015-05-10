@@ -1,7 +1,7 @@
 Title: Pido un aplauso...
 Date: 2005-09-09 16:34:31
 Tags: 
-
+---
 <p>&#8230;para la paloma. Que durante tanto tiempo me ha transportado de lugar
 a lugar. Por que tiene todo lo que le puedo pedir a un automóvil: Es
 grande, tiene cuatro puertas, una cajuela enorme, un tatuaje (bueno, es

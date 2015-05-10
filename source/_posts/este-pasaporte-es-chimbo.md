@@ -1,7 +1,7 @@
 Title: "Este pasaporte es chimbo"
 Date: 2006-03-14 07:13:11
 Tags: 
-
+---
 <p>Aquí les va una historia de la vida real que me pasó el día de hoy (técnicamente ayer, pues ya es martes de madrugada). Sin embargo, hay que empezar desde el viernes pasado. Es un poco largo el texto, pero ruego a mis cuates mexicanos y mis panas venezolanos que lo lean hasta el final.</p>
 
 <p>Aquel día salí con rumbo a San Cristóbal, Táchira, para visitar a Ana y pasar el fin de semana allá. Salí de la estación privada de Expresos Flamingos (o algo así) en Parque del Este, al oriente de Caracas. Algunas personas me decían que me iba a tomar 11, otras decían 12 y Ademar y José incluso me dijeron que eran 14 horas llegar hasta aquellos rumbos andinos. Finalmente el autobús (de dos pisos, yo estaba en el de arriba) arrancó por ahí de las 9 de la noche. Llegué a San Cristóbal alrededor de las 8:30 de la mañana siguiente, donde me esperaba Ana y su mamá.</p>

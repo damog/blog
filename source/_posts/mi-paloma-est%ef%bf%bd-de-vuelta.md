@@ -1,7 +1,7 @@
 Title: Mi paloma est� de vuelta
 Date: 2005-09-30 04:29:50
 Tags: 
-
+---
 <p>Finalmente mi paloma estᠤe vuelta. Quedó, a mi parecer, bastante
 bien. Sin embargo, hay dos problemas que aún me inquietan,
 afortunadamente son bastante triviales, o al menos no tan costosas como

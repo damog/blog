@@ -1,7 +1,7 @@
 Title: Lentes
 Date: 2005-08-28 19:54:30
 Tags: 
-
+---
 <p>A partir de hoy volveré a usar unos nuevos lentes que desde la semana
 pasada ordené. Fingir que no se necesitan puede ser muy malo,
 especialmente cuando te das cuenta que no sirves al:<br/></p>

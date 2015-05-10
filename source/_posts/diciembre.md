@@ -1,7 +1,7 @@
 Title: Diciembre
 Date: 2004-12-19 15:59:11
 Tags: 
-
+---
 <p>Estos días son bastante relajados. Contaré todo lo que ha pasado.</p>
 
 <p>El miércoles por la mañana le llamé a <a href="http://www.tacvbo.net/">Tato</a> para ver si podía acompañarme a comprar llantas, con su membresía al Costco. Quizá haya sido mucho mejor ir a buscarlas a la Buenos Aires, o a Santa Martha, pero bueno prefiero comprarlas en un lugar más establecido, aunque me haya salido más caro :-P</p>

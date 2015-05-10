@@ -1,7 +1,7 @@
 Title: La importancia de los logs en las charlas
 Date: 2005-04-21 03:57:48
 Tags: 
-
+---
 Siempre he dicho que las bitácoras (logs) de programas de conversación
 son infinitamente útiles. Incluso, me parece que tengo logs desde hace
 dos años, principalmente, del IRC (usando X-Chat) y de los IM&#8217;s (usando

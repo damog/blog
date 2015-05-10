@@ -1,7 +1,7 @@
 Title: The easy coming on Saturday
 Date: 2004-05-15 13:52:29
 Tags: 
-
+---
 <p>I don&#8217;t know what happen on weekends. I usually do nothing productive, this blog is one of those things ;-)</p>
 
 <p>Anyway, I made my hackergotchi. I was tedious since I really can&#8217;t handle Gimp in a good way, and I&#8217;m quite a newbie with image processor tools.</p>

@@ -1,7 +1,7 @@
 Title: Introducing Apache2::EmbedFLV – Exposing FLVs with Flowplayer and a customized interface
 Date: 2009-01-17 18:22:43
 Tags: apache,flowplayer,flv,mod_perl,perl,swf
-
+---
 <strong>Situation</strong>
 
 You have a bunch of Flash videos, FLV files. Every once in a while you dump new files on your publicly accessible Apache directory. You would like to give your users the ability to play those FLVs within a webpage you provide, instead of just serving them the files for a direct download. Maybe you want this for all FLVs, not only an specific directory.

@@ -1,7 +1,7 @@
 Title: M�s memes
 Date: 2005-08-02 23:35:47
 Tags: 
-
+---
 Ahorita, luego de recibir un meme más en mi correo, enviado por Jenny,
 me acordé sobre los chismógrafos que llenaba en la primaria. Los memes
 como estos son lo mismo que aquellos, pero en su versión del siglo

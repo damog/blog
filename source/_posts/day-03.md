@@ -1,7 +1,7 @@
 Title: Day 03
 Date: 2004-05-29 14:00:13
 Tags: 
-
+---
 <p>Well, on day 3 we went to the party on the city!<br/>
 ;-D</p>
 

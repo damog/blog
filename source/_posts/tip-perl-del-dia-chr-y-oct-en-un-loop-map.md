@@ -1,7 +1,7 @@
 Title: Tip Perl del día: chr y oct en un loop map
 Date: 2007-10-22 06:50:03
 Tags: 
-
+---
 <p>La función map de Perl es muy poderosa. O como diría entre cuates, <em>mucho muy</em> poderosa. Básicamente lo que hace es evaluar en un bloque, cada uno de los elementos de una lista.
 
 El día de hoy, en uno de los blogs que <a href="http://www.maggit.com.mx" target="_blank">mi chava</a> y yo (y otra bola de nacos por ahí de quienes estamos al pendiente) solemos visitar a menudo (porque es muy pendejo y nos gusta reírnos de vez en cuando), la escritora publicó <a href="http://plaqueta.blogspot.com/2007/10/ceros-y-unos-todo-bajo-control.html" target="_blank">un post</a> con cadenas en binario (típico entre personas que quieren parecer interesantes usando truquitos que siempre han existido). Como buen chismoso que soy, me di a la tarea de descifrar aquella maraña, pues suponía era un mensaje oculto. Como el resultado de dicha cadena es irrelevante aquí, crearé otra diferente que servirá para ejemplificar el tip del día.

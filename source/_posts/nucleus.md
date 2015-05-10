@@ -1,7 +1,7 @@
 Title: Nucleus.
 Date: 2003-07-27 18:56:12
 Tags: 
-
+---
 <p>Pues bueno, luego de no quedar muy a gusto con B2/Cafelog, me aventuro a usar este software que me recomendó mi buen carnal, <a href="mailto:ehecatl@unixmexico.org">Ehecatl</a>, llamado Nucleus.</p>
 
 <p>A ver qué tal jala.</p>

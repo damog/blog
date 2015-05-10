@@ -1,7 +1,7 @@
 Title: CONSOL y UNAM
 Date: 2007-02-18 21:20:33
 Tags: 
-
+---
 <p>Esta semana volví a clases en la <a href="http://www.fciencias.unam.mx" target="_blank">Facultad de Ciencias</a> en la <a href="http://www.unam.mx" target="_blank">UNAM</a>. También esta semana, desde el martes, se llevó a cabo el <a href="http://www.consol.org.mx" target="_blank">CONSOL</a> en la <a href="http://www.fi.unam.mx" target="_blank">FI</a>.</p>
 
 <p>El regreso a clases ha sido más que placentero: Ya extrañaba estar de vuelta en clases, despejándome un poco de las presiones del trabajo y dedicarme un poco a cosas que me <a href="http://en.wikipedia.org/wiki/Mathematics" target="_blank">gustan</a> y me <a href="http://en.wikipedia.org/wiki/Perl" target="_blank">mueven</a>.</p>

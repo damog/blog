@@ -1,7 +1,7 @@
 Title: Debian fails
 Date: 2010-03-01 16:06:19
 Tags: bullshit,debian,fail,php
-
+---
 Generalizations are fun, they always are because they tend to offend people and offended people by stupid shit is usually lots of fun.
 
 Here <a href="http://debian.org">Debian</a>, as a whole, fails; it sucks. Here Debian <strong>blows ass</strong>, the entire project is whack.

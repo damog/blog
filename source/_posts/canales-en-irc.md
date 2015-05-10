@@ -1,7 +1,7 @@
 Title: Canales en IRC
 Date: 2006-09-27 05:12:10
 Tags: 
-
+---
 <p>El periodo vacacional que he tomado en <a target="_blank" href="http://www.debian.org">Debian</a>, me ha llevado incluso a replantear los canales de IRC que frecuento últimamente:
 </p>
 <ul>

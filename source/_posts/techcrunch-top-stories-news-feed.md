@@ -1,7 +1,7 @@
 Title: TechCrunch top-stories news feed
 Date: 2010-03-14 18:54:33
 Tags: feed,hack,techcrunch,top stories
-
+---
 Being surrounded by the Web 2.0, I have to keep myself informed. <a href="http://techcrunch.com">TechCrunch</a> is the most natural source of information. However, they write a lot of news stories every single day. A lot. Enough to make me feel stressed just to have so many shit to read on my feed reader.
 
 Well, since I still wanted to read the top stories, but they don't provide such a feed, like <a href="http://lifehacker.com/">Lifehacker</a> (<a href="http://lifehacker.com/tag/top/index.xml">kind of</a>) does, I hacked a feed:

@@ -1,7 +1,7 @@
 Title: Solaris
 Date: 2003-10-12 18:46:13
 Tags: 
-
+---
 <p>Y no precisamente por el sistema operativo de Sun® basado en Unix®. :P</p>
 
 <p>Acabo de ver el filme Solaris, protagonizado por George Clonney y dirigido por Steven Soderbergh. Es una película que trata sobre el viaje de una tripulación a una bola y/o masa de energía llamada Solaris; lo interesante es que los recuerdos de sus seres queridos, se hacen concientes.</p>

@@ -1,7 +1,7 @@
 Title: Mis 5 razones para no usar MacOS X en Mac
 Date: 2007-03-12 09:02:29
 Tags: 
-
+---
 <p>Desde diciembre de 2004 soy un feliz usuario de hardware de Apple. En ese entonces adquirí una <strong>muy marica</strong> iBook de 12&#8221;. En enero de 2006 adquirí una <strong>muy machota</strong> PowerBook de 15&#8221;. Durante este tiempo, he usado muy poco el sistema operativo MacOS X que incluían en la máquina. La mayor parte del tiempo tenía <em>dual boot</em> entre <a href="http://www.debian.org" target="_blank">Debian</a> GNU/Linux y MacOS. Pero desde hace alrededor de cinco meses he venido usando únicamente Debian GNU/Linux. He aquí mis cinco mayores razones, muy personales, para usar únicamente Linux:
 </p>
 <ol>

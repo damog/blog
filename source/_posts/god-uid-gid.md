@@ -1,7 +1,7 @@
 Title: Setting uid on God processes
 Date: 2010-01-20 15:36:32
 Tags: environment variables,god,processes,ruby,ssh,sysadmin
-
+---
 <p>I spent some minutes today at work figuring out why a script we use for files and assets propagation wasn't working when fired up under <a href="http://god.rubyforge.org/">God</a>, but it actually was working when run as its normal user.</p>
 <p>The script is a <a href="http://www.sinatrarb.com">Sinatra</a> application that, upon pings/requests, connects through SSH to different servers on our clusters and execute commands. Details on the implementation are irrelevant here. Since this is automatized, we use key files for the SSH authentication.</p>
 <p>When the script was running as the regular user, everything was working fine, but it wasn't under root. So I figured, <a href="http://net-ssh.rubyforge.org/ssh/v2/api/">Net::SSH</a> was trying to use root's private keys file. After reading God's examples I found out that you can also set uid and gid on the watched processes, so that's what I configured:</p>

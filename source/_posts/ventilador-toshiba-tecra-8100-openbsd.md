@@ -1,7 +1,7 @@
 Title: Ventilador && Toshiba Tecra 8100 && OpenBSD
 Date: 2003-12-07 19:24:24
 Tags: 
-
+---
 <p>:-@
 </p>
 <pre>$ ./configure

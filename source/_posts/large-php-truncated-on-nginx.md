@@ -1,7 +1,7 @@
 Title: Large PHP scripts truncated on nginx
 Date: 2010-02-03 11:35:14
 Tags: gzip,javascript,nginx,php,tinymce,wordpress
-
+---
 I spent a couple of <em>hours</em> yesterday trying to debug an issue that made me hit my head against the wall while it lasted.
 
 I run multiple instances of <a href="http://wordpress.org">WordPress</a>, and with it, comes a nice little editor bundled called <a href="http://tinymce.moxiecode.com/">TinyMCE</a>. But on my main WordPress installation (<a href="http://stereonaut.net">this</a> very blog, dear reader, where you are reading this from), TinyMCE wouldn't come up, it wouldn't render properly on the browser, it didn't matter if it was my main browser, Chrome, or Firefox, Safari, cached, uncached, it was just broken. Since I hadn't have the time to go through this issue before, I was using a different editor installed as a plugin. <em>LAME</em>. And coward.

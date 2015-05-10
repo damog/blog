@@ -1,7 +1,7 @@
 Title: La cerveza que reina
 Date: 2003-08-02 18:51:45
 Tags: 
-
+---
 <p>Me he dado cuenta que recientemente, serán apenas tres o cuatro meses para acá, la cerveza reina en mi vida.</p>
 
 <p>¡Ah, qué rica es! Aunque ahora meditándolo un poco, quizás no lo sea. No sé, a veces sabe bien, otras veces no.</p>

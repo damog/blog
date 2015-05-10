@@ -1,7 +1,7 @@
 Title: Configuración dinámica en Apache
 Date: 2008-11-15 14:20:09
 Tags: la columna de perl,mod_perl,perl,planeta linux
-
+---
 Una de las cosas más bonitas que puedes hacer gracias a <a href="http://perl.apache.org/"><tt>mod_perl</tt></a>, son las <a href="http://perl.apache.org/docs/2.0/api/Apache2/PerlSections.html"><code>PerlSections</code></a>.
 
 Básicamente con éstas, lo que puedes hacer es definir dinámicamente directivas de configuración de Apache y hacer cosas bien interesantes. Por ejemplo, recientemente, para <a href="http://planetalinux.org">Planeta Linux</a> quería tener una sola configuración de Apache para los virtual hosts que son repetitivos dada cada instancia (mx.planetalinux.org, ve.planetalinux.org, gt.planetalinux.org, etc). Precisamente lo que quiero evitar es tener que poner una interminable lista de <code>VirtualHost</code>'s, así que lo puedo hacer con secciones en Perl (que son denotadas en cualquier archivo de configuración en Apache con <code>&lt;Perl&gt;</code> y <code>&lt;/Perl&gt;</code>):
