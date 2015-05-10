@@ -1,4 +1,4 @@
-Title: Historias de Nueva York: Actualización
+title: "Historias de Nueva York: Actualización"
 Date: 2008-09-25 15:29:09
 Tags: historias de nueva york,nyc
 ---

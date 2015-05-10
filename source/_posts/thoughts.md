@@ -1,4 +1,4 @@
-Title: Thoughts
+title: "Thoughts"
 Date: 2005-07-09 11:13:53
 Tags: 
 ---

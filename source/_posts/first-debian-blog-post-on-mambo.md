@@ -1,4 +1,4 @@
-Title: First Debian blog post on mambo
+title: "First Debian blog post on mambo"
 Date: 2005-01-06 00:28:22
 Tags: 
 ---

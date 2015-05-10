@@ -1,4 +1,4 @@
-Title: Mar�a Daniela y su Sonido Lasser
+title: "Mar�a Daniela y su Sonido Lasser"
 Date: 2005-03-03 18:55:49
 Tags: 
 ---

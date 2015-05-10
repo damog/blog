@@ -1,4 +1,4 @@
-Title: Amiguito...
+title: "Amiguito..."
 Date: 2007-10-17 06:02:49
 Tags: 
 ---

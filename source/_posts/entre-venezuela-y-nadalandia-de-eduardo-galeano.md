@@ -1,4 +1,4 @@
-Title: Entre Venezuela y Nadalandia; de Eduardo Galeano
+title: "Entre Venezuela y Nadalandia; de Eduardo Galeano"
 Date: 2006-06-19 00:31:06
 Tags: 
 ---

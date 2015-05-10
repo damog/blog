@@ -1,4 +1,4 @@
-Title: "True ska is music with soul". -Prince Buster.
+title: ""True ska is music with soul". -Prince Buster."
 Date: 2003-07-29 18:54:01
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: De la democracia y otros juegos de poder
+title: "De la democracia y otros juegos de poder"
 Date: 2006-07-04 00:22:12
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Cuba: La semana pasada
+title: "Cuba: La semana pasada"
 Date: 2006-06-28 20:46:02
 Tags: 
 ---

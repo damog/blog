@@ -1,4 +1,4 @@
-Title: M�s corto el cabello
+title: "M�s corto el cabello"
 Date: 2005-02-01 03:01:31
 Tags: 
 ---

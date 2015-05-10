@@ -1,4 +1,4 @@
-Title: Red Hot Chili Peppers in Mexico
+title: "Red Hot Chili Peppers in Mexico"
 Date: 2007-03-20 19:29:37
 Tags: 
 ---

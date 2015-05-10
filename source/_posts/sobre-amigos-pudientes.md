@@ -1,4 +1,4 @@
-Title: Sobre amigos pudientes
+title: "Sobre amigos pudientes"
 Date: 2005-10-21 04:24:25
 Tags: 
 ---

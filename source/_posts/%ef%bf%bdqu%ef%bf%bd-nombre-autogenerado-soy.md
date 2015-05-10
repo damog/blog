@@ -1,4 +1,4 @@
-Title: �Qu� nombre autogenerado soy?
+title: "�Qu� nombre autogenerado soy?"
 Date: 2005-01-20 19:02:56
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: self meme: why not?
+title: "self meme: why not?"
 Date: 2008-09-24 12:56:02
 Tags: foto,meme
 ---

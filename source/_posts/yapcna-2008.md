@@ -1,4 +1,4 @@
-Title: YAPC::NA 2008
+title: "YAPC::NA 2008"
 Date: 2008-06-25 11:34:52
 Tags: chicago,perl,yapc::na
 ---

@@ -1,4 +1,4 @@
-Title: Plática sobre creación de paquetes de Debian
+title: "Plática sobre creación de paquetes de Debian"
 Date: 2005-03-17 03:38:30
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Tip Perl del día: 0E0
+title: "Tip Perl del día: 0E0"
 Date: 2007-10-18 19:59:05
 Tags: 
 ---

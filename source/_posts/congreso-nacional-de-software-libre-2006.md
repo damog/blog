@@ -1,4 +1,4 @@
-Title: Congreso Nacional de Software Libre 2006
+title: "Congreso Nacional de Software Libre 2006"
 Date: 2006-08-13 16:22:11
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Moving to NYC
+title: "Moving to NYC"
 Date: 2007-09-03 19:51:18
 Tags: 
 ---

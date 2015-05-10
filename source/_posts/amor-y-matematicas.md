@@ -1,4 +1,4 @@
-Title: Amor y matemáticas
+title: "Amor y matemáticas"
 Date: 2006-11-07 22:54:56
 Tags: 
 ---

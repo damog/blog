@@ -1,4 +1,4 @@
-Title: Planning trip to DebConf7
+title: "Planning trip to DebConf7"
 Date: 2007-01-06 19:48:44
 Tags: 
 ---

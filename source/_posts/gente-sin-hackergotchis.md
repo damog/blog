@@ -1,4 +1,4 @@
-Title: Gente sin hackergotchis
+title: "Gente sin hackergotchis"
 Date: 2007-06-12 22:21:29
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Perl in the Time of Social Networks
+title: "Perl in the Time of Social Networks"
 Date: 2009-05-09 12:43:15
 Tags: blogger,catalyst,facebook,moose,myspace,perl,social networks,twitter,yapc,YAPCEU2009,YAPCNA10
 ---

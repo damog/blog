@@ -1,4 +1,4 @@
-Title: BBVA-Bancomer CANCELADO
+title: "BBVA-Bancomer CANCELADO"
 Date: 2005-05-27 22:37:22
 Tags: 
 ---

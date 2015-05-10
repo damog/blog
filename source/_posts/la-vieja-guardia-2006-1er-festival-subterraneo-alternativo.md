@@ -1,4 +1,4 @@
-Title: La Vieja Guardia 2006: 1er Festival Subterráneo Alternativo
+title: "La Vieja Guardia 2006: 1er Festival Subterráneo Alternativo"
 Date: 2006-10-18 22:35:09
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Blogs M�xico
+title: "Blogs M�xico"
 Date: 2005-04-29 06:18:26
 Tags: 
 ---

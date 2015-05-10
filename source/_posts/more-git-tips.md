@@ -1,4 +1,4 @@
-Title: More Git tips?
+title: "More Git tips?"
 Date: 2009-01-19 18:01:15
 Tags: blog,git
 ---

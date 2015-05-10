@@ -1,4 +1,4 @@
-Title: Paco Ignacio Taibo II
+title: "Paco Ignacio Taibo II"
 Date: 2007-09-12 01:04:04
 Tags: 
 ---

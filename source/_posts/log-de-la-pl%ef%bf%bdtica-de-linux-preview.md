@@ -1,4 +1,4 @@
-Title: Log de la plática de Linux Preview
+title: "Log de la plática de Linux Preview"
 Date: 2005-04-02 21:52:29
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: On Jordi's arrival to DebConf7
+title: "On Jordi's arrival to DebConf7"
 Date: 2006-11-16 23:43:23
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Goodbye to LiveJournal
+title: "Goodbye to LiveJournal"
 Date: 2004-09-26 14:39:28
 Tags: 
 ---

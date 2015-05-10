@@ -1,4 +1,4 @@
-Title: “Parejita” López deja a los Pumas de la UNAM
+title: "“Parejita” López deja a los Pumas de la UNAM"
 Date: 2007-06-29 22:11:12
 Tags: 
 ---

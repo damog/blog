@@ -1,4 +1,4 @@
-Title: Sometimes it doesn't suck
+title: "Sometimes it doesn't suck"
 Date: 2008-06-07 17:30:21
 Tags: chess,games
 ---

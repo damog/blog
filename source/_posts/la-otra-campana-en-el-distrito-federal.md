@@ -1,4 +1,4 @@
-Title: 'La Otra Campaña' en el Distrito Federal
+title: "'La Otra Campaña' en el Distrito Federal"
 Date: 2006-04-27 04:47:02
 Tags: 
 ---

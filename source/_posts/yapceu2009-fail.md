@@ -1,4 +1,4 @@
-Title: YAPC::EU::2009 fail
+title: "YAPC::EU::2009 fail"
 Date: 2009-08-03 16:12:05
 Tags: europe,lisbon,madrid,perl,social networks,yapc
 ---

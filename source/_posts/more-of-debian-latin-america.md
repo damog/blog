@@ -1,4 +1,4 @@
-Title: More of Debian Latin America
+title: "More of Debian Latin America"
 Date: 2005-08-05 17:46:34
 Tags: 
 ---

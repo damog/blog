@@ -1,4 +1,4 @@
-Title: Desarrollador oficial de Debian
+title: "Desarrollador oficial de Debian"
 Date: 2005-08-14 17:47:22
 Tags: 
 ---

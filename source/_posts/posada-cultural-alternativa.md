@@ -1,4 +1,4 @@
-Title: Posada Cultural Alternativa
+title: "Posada Cultural Alternativa"
 Date: 2006-12-12 18:26:09
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Summer of Code shirt
+title: "Summer of Code shirt"
 Date: 2006-10-18 00:21:03
 Tags: 
 ---

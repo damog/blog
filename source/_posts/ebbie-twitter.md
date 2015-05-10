@@ -1,4 +1,4 @@
-Title: Ebbie @ Twitter
+title: "Ebbie @ Twitter"
 Date: 2008-10-12 13:41:28
 Tags: ebbie,nyc,twitter
 ---

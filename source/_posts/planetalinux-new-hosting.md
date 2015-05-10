@@ -1,4 +1,4 @@
-Title: New hosting for Planeta Linux
+title: "New hosting for Planeta Linux"
 Date: 2014-08-03 14:50:05
 Tags: planetalinux
 ---

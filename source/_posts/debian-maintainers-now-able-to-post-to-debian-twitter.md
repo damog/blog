@@ -1,4 +1,4 @@
-Title: Debian Maintainers now able to post to Debian Twitter
+title: "Debian Maintainers now able to post to Debian Twitter"
 Date: 2009-05-26 15:17:46
 Tags: debian,gpg,identi.ca,twitter
 ---

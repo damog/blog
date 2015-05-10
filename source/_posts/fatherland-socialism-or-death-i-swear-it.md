@@ -1,4 +1,4 @@
-Title: Fatherland! Socialism or death, I swear it!
+title: "Fatherland! Socialism or death, I swear it!"
 Date: 2007-01-11 19:20:14
 Tags: 
 ---

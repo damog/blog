@@ -1,4 +1,4 @@
-Title: La Columna.pl
+title: "La Columna.pl"
 Date: 2007-08-31 22:32:25
 Tags: 
 ---

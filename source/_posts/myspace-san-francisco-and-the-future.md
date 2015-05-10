@@ -1,4 +1,4 @@
-Title: MySpace, San Francisco and the future
+title: "MySpace, San Francisco and the future"
 Date: 2009-02-07 19:45:37
 Tags: facebook,flickr,gogo,golden gate,inflight internet,mission,myspace,offerpal,osml,san francisco,travel
 ---

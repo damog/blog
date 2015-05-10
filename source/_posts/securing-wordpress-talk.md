@@ -1,4 +1,4 @@
-Title: Securing WordPress talk
+title: "Securing WordPress talk"
 Date: 2009-11-20 13:20:25
 Tags: security,wordcamp,wordpress
 ---

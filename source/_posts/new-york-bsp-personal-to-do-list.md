@@ -1,4 +1,4 @@
-Title: New York BSP personal to-do list
+title: "New York BSP personal to-do list"
 Date: 2008-10-01 21:03:19
 Tags: bsp,debian,nyc,to-do
 ---

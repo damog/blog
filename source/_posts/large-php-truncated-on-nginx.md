@@ -1,4 +1,4 @@
-Title: Large PHP scripts truncated on nginx
+title: "Large PHP scripts truncated on nginx"
 Date: 2010-02-03 11:35:14
 Tags: gzip,javascript,nginx,php,tinymce,wordpress
 ---

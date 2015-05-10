@@ -1,4 +1,4 @@
-Title: Reviviendo a los clásicos
+title: "Reviviendo a los clásicos"
 Date: 2006-12-03 21:58:59
 Tags: 
 ---

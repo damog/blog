@@ -1,4 +1,4 @@
-Title: Día Debian en la Comarca Lagunera
+title: "Día Debian en la Comarca Lagunera"
 Date: 2006-08-17 20:37:52
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Twitter feed for Planet Perl Iron Man
+title: "Twitter feed for Planet Perl Iron Man"
 Date: 2011-02-02 17:58:20
 Tags: perl,twitter
 ---

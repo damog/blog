@@ -1,4 +1,4 @@
-Title: Feedbag significantly faster than Rfeedfinder
+title: "Feedbag significantly faster than Rfeedfinder"
 Date: 2009-03-07 16:57:45
 Tags: benchmark,feedbag,feeds,ruby
 ---

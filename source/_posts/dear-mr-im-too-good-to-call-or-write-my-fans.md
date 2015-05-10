@@ -1,4 +1,4 @@
-Title: Dear Mr. "I'm too good to call or write my fans"
+title: "Dear Mr. "I'm too good to call or write my fans""
 Date: 2006-02-13 19:09:41
 Tags: 
 ---

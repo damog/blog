@@ -1,4 +1,4 @@
-Title: A 26 años de la muerte de John
+title: "A 26 años de la muerte de John"
 Date: 2006-12-08 20:18:06
 Tags: 
 ---

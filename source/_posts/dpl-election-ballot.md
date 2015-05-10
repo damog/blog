@@ -1,4 +1,4 @@
-Title: DPL election ballot
+title: "DPL election ballot"
 Date: 2006-04-07 02:12:49
 Tags: 
 ---

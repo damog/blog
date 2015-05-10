@@ -1,4 +1,4 @@
-Title: "Este pasaporte es chimbo"
+title: ""Este pasaporte es chimbo""
 Date: 2006-03-14 07:13:11
 Tags: 
 ---

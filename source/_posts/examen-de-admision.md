@@ -1,4 +1,4 @@
-Title: Examen de admisión...
+title: "Examen de admisión..."
 Date: 2003-06-13 19:57:23
 Tags: 
 ---

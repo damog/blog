@@ -1,4 +1,4 @@
-Title: Jon Stewart interviewed by Bill O'Reilly
+title: "Jon Stewart interviewed by Bill O'Reilly"
 Date: 2010-02-09 18:30:24
 Tags: fox,o'reilly,politics,stewart,video
 ---

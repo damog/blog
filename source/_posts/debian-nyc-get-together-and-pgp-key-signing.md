@@ -1,4 +1,4 @@
-Title: Debian NYC get-together and PGP key signing
+title: "Debian NYC get-together and PGP key signing"
 Date: 2009-05-06 10:08:07
 Tags: beer,debian,gpg,keysigning,nyc
 ---

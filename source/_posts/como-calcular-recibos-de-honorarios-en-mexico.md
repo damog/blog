@@ -1,4 +1,4 @@
-Title: Cómo calcular recibos de honorarios en México
+title: "Cómo calcular recibos de honorarios en México"
 Date: 2008-05-26 13:11:31
 Tags: dinero,impuestos,ISR,IVA,méxico,recibos de honorarios
 ---

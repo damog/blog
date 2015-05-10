@@ -1,4 +1,4 @@
-Title: Two Git tips
+title: "Two Git tips"
 Date: 2008-12-12 23:52:28
 Tags: git,tips
 ---

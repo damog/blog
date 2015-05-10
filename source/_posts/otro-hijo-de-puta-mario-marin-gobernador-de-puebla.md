@@ -1,4 +1,4 @@
-Title: Otro hijo de puta: Mario Marín, gobernador de Puebla
+title: "Otro hijo de puta: Mario Marín, gobernador de Puebla"
 Date: 2006-02-16 19:57:13
 Tags: 
 ---

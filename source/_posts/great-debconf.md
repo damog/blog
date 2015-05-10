@@ -1,4 +1,4 @@
-Title: Great DebConf!
+title: "Great DebConf!"
 Date: 2006-05-19 21:51:51
 Tags: 
 ---

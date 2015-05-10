@@ -1,4 +1,4 @@
-Title: Adopci�n de XMMS
+title: "Adopci�n de XMMS"
 Date: 2005-09-20 03:20:18
 Tags: 
 ---

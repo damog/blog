@@ -1,4 +1,4 @@
-Title: Harlem and the elections
+title: "Harlem and the elections"
 Date: 2008-11-06 17:54:12
 Tags: decision2008,harlem,obama
 ---

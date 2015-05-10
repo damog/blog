@@ -1,4 +1,4 @@
-Title: MiniDebConf all the time
+title: "MiniDebConf all the time"
 Date: 2006-01-29 20:02:03
 Tags: 
 ---

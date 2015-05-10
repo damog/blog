@@ -1,4 +1,4 @@
-Title: FOSDEM 2013
+title: "FOSDEM 2013"
 Date: 2013-01-26 16:57:09
 Tags: debian,perl,conferences
 ---

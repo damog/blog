@@ -1,4 +1,4 @@
-Title: And now Apache2::EmbedMP3 for your songs collections!
+title: "And now Apache2::EmbedMP3 for your songs collections!"
 Date: 2009-02-02 15:01:52
 Tags: apache,mod_perl,mp3
 ---

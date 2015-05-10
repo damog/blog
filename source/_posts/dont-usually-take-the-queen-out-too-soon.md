@@ -1,4 +1,4 @@
-Title: Don't usually take the queen out too soon
+title: "Don't usually take the queen out too soon"
 Date: 2008-07-04 13:40:29
 Tags: chess,tips
 ---

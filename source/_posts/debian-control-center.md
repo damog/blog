@@ -1,4 +1,4 @@
-Title: Debian Control Center
+title: "Debian Control Center"
 Date: 2004-07-18 14:21:52
 Tags: 
 ---

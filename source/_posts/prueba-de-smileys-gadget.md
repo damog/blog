@@ -1,4 +1,4 @@
-Title: Prueba de smileys-gadget
+title: "Prueba de smileys-gadget"
 Date: 2003-12-22 14:43:45
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Debian Tattoo
+title: "Debian Tattoo"
 Date: 2005-06-29 15:45:00
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: mambo time!
+title: "mambo time!"
 Date: 2005-01-10 01:03:59
 Tags: 
 ---

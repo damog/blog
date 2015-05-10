@@ -1,4 +1,4 @@
-Title: La comunidad...
+title: "La comunidad..."
 Date: 2004-01-27 14:33:04
 Tags: 
 ---

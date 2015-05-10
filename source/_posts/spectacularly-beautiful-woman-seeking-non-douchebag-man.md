@@ -1,4 +1,4 @@
-Title: Spectacularly beautiful woman seeking non-douchebag man
+title: "Spectacularly beautiful woman seeking non-douchebag man"
 Date: 2007-10-15 17:29:16
 Tags: 
 ---

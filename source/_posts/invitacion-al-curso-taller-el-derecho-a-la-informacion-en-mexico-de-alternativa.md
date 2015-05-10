@@ -1,4 +1,4 @@
-Title: Invitación al curso-taller, El derecho a la información en México, de Alternativa.
+title: "Invitación al curso-taller, El derecho a la información en México, de Alternativa."
 Date: 2006-08-16 21:52:46
 Tags: 
 ---

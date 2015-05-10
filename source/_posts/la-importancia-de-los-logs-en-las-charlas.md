@@ -1,4 +1,4 @@
-Title: La importancia de los logs en las charlas
+title: "La importancia de los logs en las charlas"
 Date: 2005-04-21 03:57:48
 Tags: 
 ---

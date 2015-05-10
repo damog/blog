@@ -1,4 +1,4 @@
-Title: �Naco? �Naqu�simo!
+title: "�Naco? �Naqu�simo!"
 Date: 2005-08-03 16:31:02
 Tags: 
 ---

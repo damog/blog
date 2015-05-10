@@ -1,4 +1,4 @@
-Title: Qu'esto, que aquello, que l'otro.
+title: "Qu'esto, que aquello, que l'otro."
 Date: 2005-04-11 00:56:58
 Tags: 
 ---

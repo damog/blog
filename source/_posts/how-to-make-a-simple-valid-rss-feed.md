@@ -1,4 +1,4 @@
-Title: How to make a simple valid RSS feed
+title: "How to make a simple valid RSS feed"
 Date: 2005-03-28 04:26:44
 Tags: 
 ---

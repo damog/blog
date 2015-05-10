@@ -1,4 +1,4 @@
-Title: La insoportable levedad de ser Damog.org
+title: "La insoportable levedad de ser Damog.org"
 Date: 2003-07-02 19:03:17
 Tags: 
 ---

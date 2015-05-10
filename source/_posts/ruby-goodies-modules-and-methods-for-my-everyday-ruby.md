@@ -1,4 +1,4 @@
-Title: Ruby goodies: Modules and methods for my everyday Ruby
+title: "Ruby goodies: Modules and methods for my everyday Ruby"
 Date: 2009-01-03 23:27:50
 Tags: gem,github,ruby
 ---

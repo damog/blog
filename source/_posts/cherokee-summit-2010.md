@@ -1,4 +1,4 @@
-Title: Cherokee Summit 2010
+title: "Cherokee Summit 2010"
 Date: 2010-01-12 14:02:03
 Tags: cherokee,debian,perl,spain,summit,web
 ---

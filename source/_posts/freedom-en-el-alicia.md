@@ -1,4 +1,4 @@
-Title: Freedom en el Alicia
+title: "Freedom en el Alicia"
 Date: 2003-05-25 19:39:18
 Tags: 
 ---

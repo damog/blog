@@ -1,4 +1,4 @@
-Title: Attending WordCamp NYC
+title: "Attending WordCamp NYC"
 Date: 2009-11-10 17:19:56
 Tags: nyc,php,wcnyc,wordpress
 ---

@@ -1,4 +1,4 @@
-Title: Augusto Pinochet dies
+title: "Augusto Pinochet dies"
 Date: 2006-12-11 22:29:24
 Tags: 
 ---

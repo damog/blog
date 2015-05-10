@@ -1,4 +1,4 @@
-Title: Encoding
+title: "Encoding"
 Date: 2004-10-13 18:14:10
 Tags: 
 ---

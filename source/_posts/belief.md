@@ -1,4 +1,4 @@
-Title: Belief
+title: "Belief"
 Date: 2004-10-09 18:11:27
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Perl on the NYMag
+title: "Perl on the NYMag"
 Date: 2009-08-10 09:21:33
 Tags: feed,perl,xml
 ---

@@ -1,4 +1,4 @@
-Title: Back from Spain
+title: "Back from Spain"
 Date: 2009-08-07 16:42:24
 Tags: life,nyc,photos,spain,vacations
 ---

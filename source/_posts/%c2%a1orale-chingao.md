@@ -1,4 +1,4 @@
-Title: ¡Órale, chingá'o!
+title: "¡Órale, chingá'o!"
 Date: 2006-11-24 21:28:43
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Stuck on my way to Edinburgh
+title: "Stuck on my way to Edinburgh"
 Date: 2007-06-16 22:25:50
 Tags: 
 ---

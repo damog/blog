@@ -1,4 +1,4 @@
-Title: New features on Dancer 1.130
+title: "New features on Dancer 1.130"
 Date: 2010-02-08 22:36:50
 Tags: dancer,perl
 ---

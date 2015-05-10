@@ -1,4 +1,4 @@
-Title: El juego del hombre
+title: "El juego del hombre"
 Date: 2006-06-12 07:39:47
 Tags: 
 ---

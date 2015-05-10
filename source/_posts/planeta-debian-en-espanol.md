@@ -1,4 +1,4 @@
-Title: Planeta Debian en Español
+title: "Planeta Debian en Español"
 Date: 2006-06-29 22:18:40
 Tags: 
 ---

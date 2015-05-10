@@ -1,4 +1,4 @@
-Title: Finally at DebConf 9
+title: "Finally at DebConf 9"
 Date: 2009-07-22 21:13:12
 Tags: debconf,debconf9,debian,love,twitter
 ---

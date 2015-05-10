@@ -1,4 +1,4 @@
-Title: LiveJournal 2
+title: "LiveJournal 2"
 Date: 2004-11-28 15:42:28
 Tags: 
 ---

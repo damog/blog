@@ -1,4 +1,4 @@
-Title: La liga del día
+title: "La liga del día"
 Date: 2003-12-21 14:45:13
 Tags: 
 ---

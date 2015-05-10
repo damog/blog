@@ -1,4 +1,4 @@
-Title: Mambo fancyness; CONSOL
+title: "Mambo fancyness; CONSOL"
 Date: 2005-02-06 03:14:22
 Tags: 
 ---

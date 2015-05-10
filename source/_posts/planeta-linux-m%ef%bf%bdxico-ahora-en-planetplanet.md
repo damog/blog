@@ -1,4 +1,4 @@
-Title: Planeta Linux M�xico ahora en planetplanet ;-)
+title: "Planeta Linux M�xico ahora en planetplanet ;-)"
 Date: 2005-04-03 20:57:34
 Tags: 
 ---

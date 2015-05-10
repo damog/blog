@@ -1,4 +1,4 @@
-Title: 12 de junio de 2005
+title: "12 de junio de 2005"
 Date: 2005-06-12 21:27:07
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Call for Gathering of the Indigenous People of the Americas
+title: "Call for Gathering of the Indigenous People of the Americas"
 Date: 2007-06-15 22:24:56
 Tags: 
 ---

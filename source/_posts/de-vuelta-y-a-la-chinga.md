@@ -1,4 +1,4 @@
-Title: De vuelta y a la chinga
+title: "De vuelta y a la chinga"
 Date: 2005-05-11 02:21:05
 Tags: 
 ---

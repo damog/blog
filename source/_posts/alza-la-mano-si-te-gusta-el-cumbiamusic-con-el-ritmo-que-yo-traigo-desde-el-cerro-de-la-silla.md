@@ -1,4 +1,4 @@
-Title: Alza la mano si te gusta el cumbiamusic con el ritmo que yo traigo desde el Cerro de la Silla
+title: "Alza la mano si te gusta el cumbiamusic con el ritmo que yo traigo desde el Cerro de la Silla"
 Date: 2004-12-23 16:01:44
 Tags: 
 ---

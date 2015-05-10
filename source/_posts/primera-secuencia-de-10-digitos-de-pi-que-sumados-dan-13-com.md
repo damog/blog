@@ -1,4 +1,4 @@
-Title: { primera secuencia de 10 dígitos de Pi, que sumados dan 13 } .com
+title: "{ primera secuencia de 10 dígitos de Pi, que sumados dan 13 } .com"
 Date: 2006-11-07 17:58:04
 Tags: 
 ---

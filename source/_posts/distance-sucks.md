@@ -1,4 +1,4 @@
-Title: Distance sucks
+title: "Distance sucks"
 Date: 2005-10-23 17:59:57
 Tags: 
 ---

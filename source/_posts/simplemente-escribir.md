@@ -1,4 +1,4 @@
-Title: Simplemente escribir...
+title: "Simplemente escribir..."
 Date: 2003-08-01 20:00:58
 Tags: 
 ---

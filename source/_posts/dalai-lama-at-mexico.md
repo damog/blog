@@ -1,4 +1,4 @@
-Title: Dalai Lama at Mexico
+title: "Dalai Lama at Mexico"
 Date: 2004-09-21 14:38:20
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: El problema de la cafetería y las niñas tontas de la Ibero
+title: "El problema de la cafetería y las niñas tontas de la Ibero"
 Date: 2006-05-29 00:50:41
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: 11 years in Freenode now
+title: "11 years in Freenode now"
 Date: 2013-08-17 19:29:51
 Tags: linux, irc, opensource, freenode
 ---

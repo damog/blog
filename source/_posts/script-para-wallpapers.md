@@ -1,4 +1,4 @@
-Title: Script para wallpapers
+title: "Script para wallpapers"
 Date: 2004-12-01 15:45:57
 Tags: 
 ---

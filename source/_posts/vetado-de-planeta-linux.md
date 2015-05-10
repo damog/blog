@@ -1,4 +1,4 @@
-Title: Vetado de Planeta Linux
+title: "Vetado de Planeta Linux"
 Date: 2007-01-20 19:12:03
 Tags: 
 ---

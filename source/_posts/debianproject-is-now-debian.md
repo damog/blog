@@ -1,4 +1,4 @@
-Title: @debianproject is now @debian!
+title: "@debianproject is now @debian!"
 Date: 2009-06-05 11:08:59
 Tags: awesome,debian,twitter
 ---

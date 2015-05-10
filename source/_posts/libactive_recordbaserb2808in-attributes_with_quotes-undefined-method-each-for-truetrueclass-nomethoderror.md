@@ -1,4 +1,4 @@
-Title: lib/active_record/base.rb:2808:in `attributes_with_quotes': undefined method `each' for true:TrueClass (NoMethodError)
+title: "lib/active_record/base.rb:2808:in `attributes_with_quotes': undefined method `each' for true:TrueClass (NoMethodError)"
 Date: 2009-02-09 20:49:54
 Tags: activerecord,issues,ruby
 ---

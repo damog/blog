@@ -1,4 +1,4 @@
-Title: Punto al infinito
+title: "Punto al infinito"
 Date: 2006-11-28 19:22:16
 Tags: 
 ---

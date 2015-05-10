@@ -1,4 +1,4 @@
-Title: Julio C�sar Ch�vez, or when the glory is gone
+title: "Julio C�sar Ch�vez, or when the glory is gone"
 Date: 2005-09-18 16:51:01
 Tags: 
 ---

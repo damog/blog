@@ -1,4 +1,4 @@
-Title: Es 'Garza', no 'Garc�a'...
+title: "Es 'Garza', no 'Garc�a'..."
 Date: 2005-05-22 17:32:18
 Tags: 
 ---

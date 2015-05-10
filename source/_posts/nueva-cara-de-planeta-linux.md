@@ -1,4 +1,4 @@
-Title: Nueva cara de Planeta Linux
+title: "Nueva cara de Planeta Linux"
 Date: 2006-04-06 07:42:24
 Tags: 
 ---

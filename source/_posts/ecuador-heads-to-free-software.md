@@ -1,4 +1,4 @@
-Title: Ecuador heads to free software
+title: "Ecuador heads to free software"
 Date: 2006-12-14 19:44:47
 Tags: 
 ---

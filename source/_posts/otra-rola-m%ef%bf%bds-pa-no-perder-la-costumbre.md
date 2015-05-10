@@ -1,4 +1,4 @@
-Title: Otra rola m�s, pa' no perder la costumbre
+title: "Otra rola m�s, pa' no perder la costumbre"
 Date: 2005-12-10 19:05:14
 Tags: 
 ---

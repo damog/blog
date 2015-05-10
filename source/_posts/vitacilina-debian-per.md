@@ -1,4 +1,4 @@
-Title: Vitacilina now in Debian + 0.2 released!
+title: "Vitacilina now in Debian + 0.2 released!"
 Date: 2009-11-29 14:24:51
 Tags: cpan,debian,perl,planet,planeta linux,vitacilina
 ---

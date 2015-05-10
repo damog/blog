@@ -1,4 +1,4 @@
-Title: Rubx: Twitter's Ruby shell
+title: "Rubx: Twitter's Ruby shell"
 Date: 2009-04-06 09:32:05
 Tags: axiombox,rubx,ruby,tli,twitter
 ---

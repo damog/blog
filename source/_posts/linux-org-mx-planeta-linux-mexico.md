@@ -1,4 +1,4 @@
-Title: linux.org.mx is now Planeta Linux México
+title: "linux.org.mx is now Planeta Linux México"
 Date: 2009-11-24 16:19:56
 Tags: linux.org.mx,planeta linux
 ---

@@ -1,4 +1,4 @@
-Title: Embestido por la Geometría Analítica
+title: "Embestido por la Geometría Analítica"
 Date: 2006-10-20 16:24:29
 Tags: 
 ---

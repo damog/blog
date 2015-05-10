@@ -1,4 +1,4 @@
-Title: Perl Seminar NY: Meets Tuesday, Nov 17
+title: "Perl Seminar NY: Meets Tuesday, Nov 17"
 Date: 2009-11-16 13:21:21
 Tags: nyc,perl,web
 ---

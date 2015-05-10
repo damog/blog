@@ -1,4 +1,4 @@
-Title: Contra el EZLN: Primero fue BBVA/Bancomer, ahora HSBC
+title: "Contra el EZLN: Primero fue BBVA/Bancomer, ahora HSBC"
 Date: 2006-02-15 18:26:48
 Tags: 
 ---

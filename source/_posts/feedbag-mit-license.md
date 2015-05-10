@@ -1,4 +1,4 @@
-Title: Feedbag released under MIT license
+title: "Feedbag released under MIT license"
 Date: 2012-03-16 10:55:10
 Tags: copyright,feed,feedbag,gpl,mit,ruby
 ---

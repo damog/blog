@@ -1,4 +1,4 @@
-Title: La Columna.pl #1
+title: "La Columna.pl #1"
 Date: 2007-05-21 22:08:40
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Support the DebConf6's abrotman petition!
+title: "Support the DebConf6's abrotman petition!"
 Date: 2006-01-31 03:07:11
 Tags: 
 ---

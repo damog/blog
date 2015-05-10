@@ -1,4 +1,4 @@
-Title: Ruby and libv8: Exactly my feelings
+title: "Ruby and libv8: Exactly my feelings"
 Date: 2012-04-23 13:33:09
 Tags: feces,libv8,ruby,v8
 ---

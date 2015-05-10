@@ -1,4 +1,4 @@
-Title: Dirty Mind
+title: "Dirty Mind"
 Date: 2007-10-05 16:44:13
 Tags: 
 ---

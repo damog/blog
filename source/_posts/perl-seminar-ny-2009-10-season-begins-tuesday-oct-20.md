@@ -1,4 +1,4 @@
-Title: Perl Seminar NY: 2009-10 Season Begins Tuesday Oct 20
+title: "Perl Seminar NY: 2009-10 Season Begins Tuesday Oct 20"
 Date: 2009-10-05 12:22:41
 Tags: git,github,nyc,perl
 ---

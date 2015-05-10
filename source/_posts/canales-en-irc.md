@@ -1,4 +1,4 @@
-Title: Canales en IRC
+title: "Canales en IRC"
 Date: 2006-09-27 05:12:10
 Tags: 
 ---

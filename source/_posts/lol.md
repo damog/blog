@@ -1,4 +1,4 @@
-Title: LOL
+title: "LOL"
 Date: 2008-07-15 18:30:50
 Tags: comic,ortografía
 ---

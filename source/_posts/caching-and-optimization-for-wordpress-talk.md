@@ -1,4 +1,4 @@
-Title: Caching and optimization for WordPress talk
+title: "Caching and optimization for WordPress talk"
 Date: 2009-12-21 14:18:48
 Tags: caching,optimization,wcnyc,wordpress
 ---

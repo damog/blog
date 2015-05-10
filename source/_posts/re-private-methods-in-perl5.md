@@ -1,4 +1,4 @@
-Title: Re: Private methods in Perl5
+title: "Re: Private methods in Perl5"
 Date: 2009-08-14 15:41:33
 Tags: debian,moose,perl
 ---

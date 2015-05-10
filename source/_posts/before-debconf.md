@@ -1,4 +1,4 @@
-Title: Before DebConf
+title: "Before DebConf"
 Date: 2004-05-24 13:57:44
 Tags: 
 ---

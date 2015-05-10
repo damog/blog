@@ -1,4 +1,4 @@
-Title: DebConf8 official training started!
+title: "DebConf8 official training started!"
 Date: 2007-07-16 22:32:56
 Tags: 
 ---

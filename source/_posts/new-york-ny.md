@@ -1,4 +1,4 @@
-Title: New York, NY
+title: "New York, NY"
 Date: 2007-10-07 04:13:54
 Tags: 
 ---

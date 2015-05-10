@@ -1,4 +1,4 @@
-Title: Solaris
+title: "Solaris"
 Date: 2003-10-12 18:46:13
 Tags: 
 ---

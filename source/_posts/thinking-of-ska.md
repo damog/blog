@@ -1,4 +1,4 @@
-Title: Thinking of ska
+title: "Thinking of ska"
 Date: 2005-10-30 23:05:45
 Tags: 
 ---

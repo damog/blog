@@ -1,4 +1,4 @@
-Title: tbm hackergotchi with the new crown
+title: "tbm hackergotchi with the new crown"
 Date: 2005-03-02 04:30:46
 Tags: 
 ---

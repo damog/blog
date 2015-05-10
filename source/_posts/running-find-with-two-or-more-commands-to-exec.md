@@ -1,4 +1,4 @@
-Title: Running find with two or more commands to -exec
+title: "Running find with two or more commands to -exec"
 Date: 2010-09-28 12:02:38
 Tags: bash,find,tips,unix
 ---

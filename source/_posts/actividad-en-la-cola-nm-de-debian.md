@@ -1,4 +1,4 @@
-Title: Actividad en la cola NM de Debian
+title: "Actividad en la cola NM de Debian"
 Date: 2005-05-21 23:27:15
 Tags: 
 ---

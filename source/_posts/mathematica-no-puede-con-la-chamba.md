@@ -1,4 +1,4 @@
-Title: Mathematica no puede con la chamba
+title: "Mathematica no puede con la chamba"
 Date: 2003-11-07 19:40:29
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Firefox 3 for Debian Lenny
+title: "Firefox 3 for Debian Lenny"
 Date: 2008-06-22 16:38:00
 Tags: debian,firefox,iceweasel,lenny
 ---

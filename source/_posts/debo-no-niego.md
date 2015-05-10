@@ -1,4 +1,4 @@
-Title: Debo, no niego
+title: "Debo, no niego"
 Date: 2008-07-02 17:01:50
 Tags: dinero,life,tarjetas de crédito,vida
 ---

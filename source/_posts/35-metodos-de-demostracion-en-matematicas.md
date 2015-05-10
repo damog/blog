@@ -1,4 +1,4 @@
-Title: 35 métodos de demostración en matemáticas
+title: "35 métodos de demostración en matemáticas"
 Date: 2006-09-20 00:12:45
 Tags: 
 ---

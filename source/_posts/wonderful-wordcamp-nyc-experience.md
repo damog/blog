@@ -1,4 +1,4 @@
-Title: Wonderful WordCamp NYC experience
+title: "Wonderful WordCamp NYC experience"
 Date: 2009-11-15 20:15:45
 Tags: conference,nyc,wordcamp,wordpress
 ---

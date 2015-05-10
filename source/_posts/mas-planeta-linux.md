@@ -1,4 +1,4 @@
-Title: Más Planeta Linux
+title: "Más Planeta Linux"
 Date: 2008-06-09 11:46:12
 Tags: planeta linux,vitacilina
 ---

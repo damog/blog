@@ -1,4 +1,4 @@
-Title: Comunicado de prensa del Partido Alternativa Socialdemócrata y Campesina sobre el fallo del Tribunal Electoral
+title: "Comunicado de prensa del Partido Alternativa Socialdemócrata y Campesina sobre el fallo del Tribunal Electoral"
 Date: 2006-09-05 21:31:36
 Tags: 
 ---

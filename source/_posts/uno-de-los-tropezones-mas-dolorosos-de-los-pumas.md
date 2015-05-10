@@ -1,4 +1,4 @@
-Title: Uno de los tropezones más dolorosos de los Pumas
+title: "Uno de los tropezones más dolorosos de los Pumas"
 Date: 2006-02-23 19:09:15
 Tags: 
 ---

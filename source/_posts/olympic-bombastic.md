@@ -1,4 +1,4 @@
-Title: Olympic bombastic
+title: "Olympic bombastic"
 Date: 2008-08-25 14:50:19
 Tags: idiotas,nyc,tv
 ---

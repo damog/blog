@@ -1,4 +1,4 @@
-Title: Debian fails
+title: "Debian fails"
 Date: 2010-03-01 16:06:19
 Tags: bullshit,debian,fail,php
 ---

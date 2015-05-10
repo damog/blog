@@ -1,4 +1,4 @@
-Title: Freedom
+title: "Freedom"
 Date: 2005-05-23 22:09:48
 Tags: 
 ---

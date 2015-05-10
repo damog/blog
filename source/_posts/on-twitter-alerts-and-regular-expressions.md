@@ -1,4 +1,4 @@
-Title: On Twitter alerts and regular expressions
+title: "On Twitter alerts and regular expressions"
 Date: 2009-04-12 07:17:58
 Tags: alerts,nerd,regex,twitter
 ---

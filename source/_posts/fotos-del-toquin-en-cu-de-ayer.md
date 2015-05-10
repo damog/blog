@@ -1,4 +1,4 @@
-Title: Fotos del toquín en CU de ayer
+title: "Fotos del toquín en CU de ayer"
 Date: 2006-08-31 21:51:06
 Tags: 
 ---

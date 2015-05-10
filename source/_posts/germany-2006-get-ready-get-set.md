@@ -1,4 +1,4 @@
-Title: Germany 2006: Get ready, get set...
+title: "Germany 2006: Get ready, get set..."
 Date: 2005-12-09 22:04:36
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: La vida va
+title: "La vida va"
 Date: 2003-12-28 14:41:28
 Tags: 
 ---

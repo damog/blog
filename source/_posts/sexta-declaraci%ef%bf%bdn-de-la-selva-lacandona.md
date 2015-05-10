@@ -1,4 +1,4 @@
-Title: Sexta Declaraci�n de la Selva Lacandona
+title: "Sexta Declaraci�n de la Selva Lacandona"
 Date: 2005-06-29 02:18:10
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: DirectoryIndex and the "perl-script" handler
+title: "DirectoryIndex and the "perl-script" handler"
 Date: 2008-12-02 12:12:40
 Tags: apache,mod_perl,perl
 ---

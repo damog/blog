@@ -1,4 +1,4 @@
-Title: Infinite Pig Theorem!
+title: "Infinite Pig Theorem!"
 Date: 2008-02-24 18:28:00
 Tags: 
 ---

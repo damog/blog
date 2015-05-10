@@ -1,4 +1,4 @@
-Title: curl POST data and newlines
+title: "curl POST data and newlines"
 Date: 2010-08-15 22:10:35
 Tags: code,curl,debian,rails
 ---

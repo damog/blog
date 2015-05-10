@@ -1,4 +1,4 @@
-Title: 5 excelentes blogs mexicanos que quizás no conocías (parte 2)
+title: "5 excelentes blogs mexicanos que quizás no conocías (parte 2)"
 Date: 2008-10-07 14:25:56
 Tags: axiombox,blogging,recomendación
 ---

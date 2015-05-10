@@ -1,4 +1,4 @@
-Title: Job offering
+title: "Job offering"
 Date: 2009-08-10 19:16:24
 Tags: c,java,javascript,job,lisp,lytix,offer,perl
 ---

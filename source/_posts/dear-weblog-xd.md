@@ -1,4 +1,4 @@
-Title: Dear Weblog... xD
+title: "Dear Weblog... xD"
 Date: 2003-07-01 19:41:14
 Tags: 
 ---

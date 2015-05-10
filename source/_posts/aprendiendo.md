@@ -1,4 +1,4 @@
-Title: Aprendiendo
+title: "Aprendiendo"
 Date: 2003-11-01 19:44:40
 Tags: 
 ---

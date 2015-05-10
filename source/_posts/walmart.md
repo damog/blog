@@ -1,4 +1,4 @@
-Title: Wal*Mart
+title: "Wal*Mart"
 Date: 2004-10-16 18:16:47
 Tags: 
 ---

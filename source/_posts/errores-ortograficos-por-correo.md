@@ -1,4 +1,4 @@
-Title: Errores ortográficos por correo
+title: "Errores ortográficos por correo"
 Date: 2008-09-02 09:16:20
 Tags: idiotas,ortografía
 ---

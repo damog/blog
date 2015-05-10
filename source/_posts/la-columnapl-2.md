@@ -1,4 +1,4 @@
-Title: La Columna.pl #2
+title: "La Columna.pl #2"
 Date: 2007-06-07 22:13:44
 Tags: 
 ---

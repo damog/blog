@@ -1,4 +1,4 @@
-Title: Mi estado actual
+title: "Mi estado actual"
 Date: 2008-10-25 15:21:27
 Tags: chupe,cruda,idiotas,stewie
 ---

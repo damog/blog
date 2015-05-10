@@ -1,4 +1,4 @@
-Title: Sobre la sucesión presidencial
+title: "Sobre la sucesión presidencial"
 Date: 2006-12-02 19:39:20
 Tags: 
 ---

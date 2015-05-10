@@ -1,4 +1,4 @@
-Title: Foro: ¿Una alternativa democrática para la tecnología?
+title: "Foro: ¿Una alternativa democrática para la tecnología?"
 Date: 2007-03-26 19:50:41
 Tags: 
 ---

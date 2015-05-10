@@ -1,4 +1,4 @@
-Title: tr.im calls it quits
+title: "tr.im calls it quits"
 Date: 2009-08-09 16:50:32
 Tags: shortener,startup,tr.im,tweetie,url
 ---

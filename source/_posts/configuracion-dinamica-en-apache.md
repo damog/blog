@@ -1,4 +1,4 @@
-Title: Configuración dinámica en Apache
+title: "Configuración dinámica en Apache"
 Date: 2008-11-15 14:20:09
 Tags: la columna de perl,mod_perl,perl,planeta linux
 ---

@@ -1,4 +1,4 @@
-Title: "damog es un..."
+title: ""damog es un...""
 Date: 2006-09-01 20:21:48
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Debian Workshop 1 at New York City
+title: "Debian Workshop 1 at New York City"
 Date: 2009-10-15 18:41:25
 Tags: brooklyn,debian,nyc
 ---

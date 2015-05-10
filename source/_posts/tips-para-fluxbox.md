@@ -1,4 +1,4 @@
-Title: Tips para Fluxbox
+title: "Tips para Fluxbox"
 Date: 2006-07-24 22:26:32
 Tags: 
 ---

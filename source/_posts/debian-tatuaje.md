@@ -1,4 +1,4 @@
-Title: Debian-Tatuaje
+title: "Debian-Tatuaje"
 Date: 2005-06-27 21:58:37
 Tags: 
 ---

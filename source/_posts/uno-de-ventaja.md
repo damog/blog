@@ -1,4 +1,4 @@
-Title: Uno de ventaja
+title: "Uno de ventaja"
 Date: 2004-12-02 15:46:40
 Tags: 
 ---

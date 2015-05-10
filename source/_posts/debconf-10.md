@@ -1,4 +1,4 @@
-Title: DebConf 10
+title: "DebConf 10"
 Date: 2010-08-12 02:04:17
 Tags: debconf,debconf10,debian
 ---

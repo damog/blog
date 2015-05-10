@@ -1,4 +1,4 @@
-Title: Good looking Irb
+title: "Good looking Irb"
 Date: 2008-12-29 10:01:51
 Tags: config,irb,ruby,tips
 ---

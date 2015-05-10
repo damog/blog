@@ -1,4 +1,4 @@
-Title: Dancer::Template::Haml now available
+title: "Dancer::Template::Haml now available"
 Date: 2010-02-11 16:43:53
 Tags: dancer,haml,perl,ruby
 ---

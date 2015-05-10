@@ -1,4 +1,4 @@
-Title: DebConf 10 restricted access
+title: "DebConf 10 restricted access"
 Date: 2010-07-30 11:47:39
 Tags: debconf,debconf10,debian,security
 ---

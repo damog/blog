@@ -1,4 +1,4 @@
-Title: Feedbag now using feedvalidator
+title: "Feedbag now using feedvalidator"
 Date: 2009-02-11 16:00:53
 Tags: feed,feedbag,patch,w3c
 ---

@@ -1,4 +1,4 @@
-Title: Debian meetup in Utrecht, The Netherlands
+title: "Debian meetup in Utrecht, The Netherlands"
 Date: 2013-04-18 21:28:54
 Tags: debian, netherlands, utrecht
 ---

@@ -1,4 +1,4 @@
-Title: DebConf 11
+title: "DebConf 11"
 Date: 2011-07-01 12:46:54
 Tags: debconf,debconf11,debian
 ---

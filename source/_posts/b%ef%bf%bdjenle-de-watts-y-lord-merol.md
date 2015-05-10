@@ -1,4 +1,4 @@
-Title: B�jenle de watts y Lord Merol
+title: "B�jenle de watts y Lord Merol"
 Date: 2005-09-07 00:45:39
 Tags: 
 ---

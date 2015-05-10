@@ -1,4 +1,4 @@
-Title: X-Chat madness and FFII
+title: "X-Chat madness and FFII"
 Date: 2004-09-18 14:37:20
 Tags: 
 ---

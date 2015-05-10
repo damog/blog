@@ -1,4 +1,4 @@
-Title: Comics.com
+title: "Comics.com"
 Date: 2004-10-14 18:15:19
 Tags: 
 ---

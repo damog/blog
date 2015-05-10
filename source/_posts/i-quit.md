@@ -1,4 +1,4 @@
-Title: I quit
+title: "I quit"
 Date: 2012-07-25 12:35:15
 Tags: bjj,life,perl,work
 ---

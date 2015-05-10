@@ -1,4 +1,4 @@
-Title: GitHub's Octocat stickers!
+title: "GitHub's Octocat stickers!"
 Date: 2009-05-06 12:53:56
 Tags: github,mail,stickers
 ---

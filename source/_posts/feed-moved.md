@@ -1,4 +1,4 @@
-Title: Feed moved
+title: "Feed moved"
 Date: 2010-02-04 19:31:37
 Tags: beer,feed,feedburner,feeds,google,planeta linux
 ---

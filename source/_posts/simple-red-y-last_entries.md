@@ -1,4 +1,4 @@
-Title: simple-red y last_entries
+title: "simple-red y last_entries"
 Date: 2003-12-01 19:27:21
 Tags: 
 ---

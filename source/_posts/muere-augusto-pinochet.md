@@ -1,4 +1,4 @@
-Title: Muere Augusto Pinochet
+title: "Muere Augusto Pinochet"
 Date: 2006-12-10 22:33:47
 Tags: 
 ---

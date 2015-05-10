@@ -1,4 +1,4 @@
-Title: Deploying a Dancer app on Heroku
+title: "Deploying a Dancer app on Heroku"
 Date: 2012-07-16 21:03:45
 Tags: dancer,heroku,perl
 ---

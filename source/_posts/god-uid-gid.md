@@ -1,4 +1,4 @@
-Title: Setting uid on God processes
+title: "Setting uid on God processes"
 Date: 2010-01-20 15:36:32
 Tags: environment variables,god,processes,ruby,ssh,sysadmin
 ---

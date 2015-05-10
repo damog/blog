@@ -1,4 +1,4 @@
-Title: Mis 5 razones para no usar MacOS X en Mac
+title: "Mis 5 razones para no usar MacOS X en Mac"
 Date: 2007-03-12 09:02:29
 Tags: 
 ---

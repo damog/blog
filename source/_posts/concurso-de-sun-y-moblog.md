@@ -1,4 +1,4 @@
-Title: Concurso de Sun y moblog
+title: "Concurso de Sun y moblog"
 Date: 2005-11-17 22:39:22
 Tags: 
 ---

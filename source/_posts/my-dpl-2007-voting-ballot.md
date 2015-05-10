@@ -1,4 +1,4 @@
-Title: My DPL 2007 voting ballot
+title: "My DPL 2007 voting ballot"
 Date: 2007-03-27 17:15:34
 Tags: 
 ---

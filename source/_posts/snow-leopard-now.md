@@ -1,4 +1,4 @@
-Title: Snow Leopard Now
+title: "Snow Leopard Now"
 Date: 2009-08-29 14:03:16
 Tags: growmail,istat,mac,mac os x,macports,os x,snow leopard,upgrade,visor
 ---

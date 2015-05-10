@@ -1,4 +1,4 @@
-Title: The Last Day - A short film by Juan P. Guadarrama
+title: "The Last Day - A short film by Juan P. Guadarrama"
 Date: 2008-09-17 13:00:39
 Tags: 3d,animación,bff
 ---

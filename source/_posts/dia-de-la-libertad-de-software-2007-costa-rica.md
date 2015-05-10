@@ -1,4 +1,4 @@
-Title: Día de la Libertad de Software 2007: Costa Rica
+title: "Día de la Libertad de Software 2007: Costa Rica"
 Date: 2007-09-07 19:10:30
 Tags: 
 ---

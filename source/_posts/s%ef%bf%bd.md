@@ -1,4 +1,4 @@
-Title: S�
+title: "S�"
 Date: 2005-11-03 17:35:35
 Tags: 
 ---

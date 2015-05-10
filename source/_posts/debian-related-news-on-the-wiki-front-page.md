@@ -1,4 +1,4 @@
-Title: Debian-related news on the wiki front page
+title: "Debian-related news on the wiki front page"
 Date: 2006-05-31 00:40:40
 Tags: 
 ---

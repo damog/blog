@@ -1,4 +1,4 @@
-Title: Viaje por el B�ltico
+title: "Viaje por el B�ltico"
 Date: 2005-07-03 16:59:05
 Tags: 
 ---

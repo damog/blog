@@ -1,4 +1,4 @@
-Title: Mi cub�culo
+title: "Mi cub�culo"
 Date: 2005-06-13 22:07:32
 Tags: 
 ---

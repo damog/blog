@@ -1,4 +1,4 @@
-Title: Sync your Twitter followers and friends
+title: "Sync your Twitter followers and friends"
 Date: 2009-06-10 13:30:29
 Tags: code,debian,gems,ruby,twitter
 ---

@@ -1,4 +1,4 @@
-Title: Diferencias sociales...
+title: "Diferencias sociales..."
 Date: 2003-06-08 19:33:02
 Tags: 
 ---

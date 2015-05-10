@@ -1,4 +1,4 @@
-Title: Dragon Ball Z: Shin Budokai
+title: "Dragon Ball Z: Shin Budokai"
 Date: 2008-09-23 13:28:22
 Tags: dragon ball,gaming,psp,reseñas
 ---

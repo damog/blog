@@ -1,4 +1,4 @@
-Title: El mig
+title: "El mig"
 Date: 2006-09-10 17:23:16
 Tags: 
 ---

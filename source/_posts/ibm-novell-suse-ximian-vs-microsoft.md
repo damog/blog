@@ -1,4 +1,4 @@
-Title: IBM & Novell & SuSE & Ximian vs. Microsoft
+title: "IBM & Novell & SuSE & Ximian vs. Microsoft"
 Date: 2003-11-24 19:28:27
 Tags: 
 ---

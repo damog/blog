@@ -1,4 +1,4 @@
-Title: Trip to Central America
+title: "Trip to Central America"
 Date: 2005-08-22 05:28:44
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Por que no s�lo de Debian vive el hombre
+title: "Por que no s�lo de Debian vive el hombre"
 Date: 2005-09-21 17:47:34
 Tags: 
 ---

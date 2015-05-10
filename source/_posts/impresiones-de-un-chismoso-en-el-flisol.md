@@ -1,4 +1,4 @@
-Title: Impresiones de un chismoso en el FLISOL
+title: "Impresiones de un chismoso en el FLISOL"
 Date: 2006-03-25 20:31:50
 Tags: 
 ---

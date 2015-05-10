@@ -1,4 +1,4 @@
-Title: Leavander Johnson, RIP
+title: "Leavander Johnson, RIP"
 Date: 2005-09-26 17:31:50
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Bomberazo ‒ cosas que es bueno saber, antes de echar a perder
+title: "Bomberazo ‒ cosas que es bueno saber, antes de echar a perder"
 Date: 2008-09-22 10:41:59
 Tags: empresas,ideas,interesante
 ---

@@ -1,4 +1,4 @@
-Title: Compras navideñas responsables
+title: "Compras navideñas responsables"
 Date: 2004-12-16 15:56:19
 Tags: 
 ---

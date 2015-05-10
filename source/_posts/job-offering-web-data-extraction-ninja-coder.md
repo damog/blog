@@ -1,4 +1,4 @@
-Title: Job offering: Web data extraction ninja coder
+title: "Job offering: Web data extraction ninja coder"
 Date: 2009-08-29 10:22:00
 Tags: job,perl
 ---

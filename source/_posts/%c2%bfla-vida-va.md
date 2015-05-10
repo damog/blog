@@ -1,4 +1,4 @@
-Title: ¿La vida va?
+title: "¿La vida va?"
 Date: 2006-07-11 06:34:54
 Tags: 
 ---

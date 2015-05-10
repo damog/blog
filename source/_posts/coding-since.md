@@ -1,4 +1,4 @@
-Title: Coding since...
+title: "Coding since..."
 Date: 2010-01-16 23:05:27
 Tags: 90s,children,coding,fun,méxico,programming,quickbasic,telmex
 ---

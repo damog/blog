@@ -1,4 +1,4 @@
-Title: i3 respect
+title: "i3 respect"
 Date: 2014-01-11 13:02:27
 Tags: i3, debian, respect
 ---

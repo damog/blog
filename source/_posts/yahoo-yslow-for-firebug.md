@@ -1,4 +1,4 @@
-Title: Yahoo! YSlow for Firebug
+title: "Yahoo! YSlow for Firebug"
 Date: 2009-11-16 18:45:23
 Tags: firebug,firefox,optimization,web,yahoo,yslow
 ---

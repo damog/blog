@@ -1,4 +1,4 @@
-Title: Pensar
+title: "Pensar"
 Date: 2006-04-23 04:35:06
 Tags: 
 ---

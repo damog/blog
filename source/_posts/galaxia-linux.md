@@ -1,4 +1,4 @@
-Title: Galaxia Linux
+title: "Galaxia Linux"
 Date: 2008-09-27 13:23:42
 Tags: hack,idiotas,planeta linux
 ---

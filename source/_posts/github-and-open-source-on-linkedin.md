@@ -1,4 +1,4 @@
-Title: GitHub (and open source) on LinkedIn
+title: "GitHub (and open source) on LinkedIn"
 Date: 2011-03-08 12:07:34
 Tags: github,linkedin,open source,work
 ---

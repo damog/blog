@@ -1,4 +1,4 @@
-Title: Perl in the Time of Social Networks delivered in Pittsburgh, PA
+title: "Perl in the Time of Social Networks delivered in Pittsburgh, PA"
 Date: 2009-06-27 21:01:36
 Tags: baseball,git,perl,pittsburgh,social networks,yapc
 ---

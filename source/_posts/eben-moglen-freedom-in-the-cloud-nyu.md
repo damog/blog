@@ -1,4 +1,4 @@
-Title: Eben Moglen - 'Freedom in the Cloud' 2/5 @ NYU
+title: "Eben Moglen - 'Freedom in the Cloud' 2/5 @ NYU"
 Date: 2010-02-02 12:19:54
 Tags: cloud,columbia,debian,eben moglen,free software,nyc,nyu,privacy,talks,web 2.0
 ---

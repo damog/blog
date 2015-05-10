@@ -1,4 +1,4 @@
-Title: Is GitHub really necessary for your startup engineering team?
+title: "Is GitHub really necessary for your startup engineering team?"
 Date: 2012-03-11 23:52:52
 Tags: git,github,site reliability
 ---

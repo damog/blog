@@ -1,4 +1,4 @@
-Title: Re: On DebGem
+title: "Re: On DebGem"
 Date: 2009-01-08 10:40:38
 Tags: debgem,debian,gem,ruby
 ---

@@ -1,4 +1,4 @@
-Title: La Columna.pl #3
+title: "La Columna.pl #3"
 Date: 2007-07-09 22:32:04
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Blog Normalize on The Perl Foundation
+title: "Blog Normalize on The Perl Foundation"
 Date: 2008-05-02 16:52:00
 Tags: 
 ---

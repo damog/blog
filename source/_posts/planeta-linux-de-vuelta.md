@@ -1,4 +1,4 @@
-Title: Planeta Linux de vuelta
+title: "Planeta Linux de vuelta"
 Date: 2006-01-30 04:40:53
 Tags: 
 ---

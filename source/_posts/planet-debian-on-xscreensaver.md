@@ -1,4 +1,4 @@
-Title: Planet Debian on xscreensaver
+title: "Planet Debian on xscreensaver"
 Date: 2005-04-25 19:03:00
 Tags: 
 ---

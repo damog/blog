@@ -1,4 +1,4 @@
-Title: Círculo de estudios de Alternativa
+title: "Círculo de estudios de Alternativa"
 Date: 2006-08-01 21:39:57
 Tags: 
 ---

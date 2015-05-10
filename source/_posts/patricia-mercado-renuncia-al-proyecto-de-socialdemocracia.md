@@ -1,4 +1,4 @@
-Title: Patricia Mercado renuncia al proyecto de Socialdemocracia
+title: "Patricia Mercado renuncia al proyecto de Socialdemocracia"
 Date: 2008-09-24 12:14:13
 Tags: méxico,política,socialdemocracia,tristeza
 ---

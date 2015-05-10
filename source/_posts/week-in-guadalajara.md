@@ -1,4 +1,4 @@
-Title: Week in Guadalajara
+title: "Week in Guadalajara"
 Date: 2004-09-26 18:06:31
 Tags: 
 ---

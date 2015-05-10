@@ -1,4 +1,4 @@
-Title: Curso C
+title: "Curso C"
 Date: 2003-11-04 19:42:23
 Tags: 
 ---

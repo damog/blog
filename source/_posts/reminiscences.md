@@ -1,4 +1,4 @@
-Title: Reminiscences
+title: "Reminiscences"
 Date: 2005-01-30 21:36:05
 Tags: 
 ---

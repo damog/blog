@@ -1,4 +1,4 @@
-Title: OpenBSD 3.4 en Toshiba Tecra 8100
+title: "OpenBSD 3.4 en Toshiba Tecra 8100"
 Date: 2003-12-09 19:22:43
 Tags: 
 ---

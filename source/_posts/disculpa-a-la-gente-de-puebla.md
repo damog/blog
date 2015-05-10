@@ -1,4 +1,4 @@
-Title: Disculpa a la gente de Puebla
+title: "Disculpa a la gente de Puebla"
 Date: 2005-10-25 17:55:05
 Tags: 
 ---

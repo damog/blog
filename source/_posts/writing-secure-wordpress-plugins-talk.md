@@ -1,4 +1,4 @@
-Title: Writing Secure WordPress Plugins talk by Mark Jaquith
+title: "Writing Secure WordPress Plugins talk by Mark Jaquith"
 Date: 2009-11-24 17:29:18
 Tags: ajax,csrf,php,plugins,security,sql injection,wordcamp,wordpress,xss
 ---

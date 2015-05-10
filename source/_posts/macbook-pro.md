@@ -1,4 +1,4 @@
-Title: MacBook Pro
+title: "MacBook Pro"
 Date: 2009-01-14 12:27:23
 Tags: fetchmail,mac,macos,macports,mutt,mysql,ruby,rubygems,ssl
 ---

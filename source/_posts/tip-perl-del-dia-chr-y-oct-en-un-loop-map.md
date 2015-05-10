@@ -1,4 +1,4 @@
-Title: Tip Perl del día: chr y oct en un loop map
+title: "Tip Perl del día: chr y oct en un loop map"
 Date: 2007-10-22 06:50:03
 Tags: 
 ---

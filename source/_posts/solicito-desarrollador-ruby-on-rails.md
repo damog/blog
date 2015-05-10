@@ -1,4 +1,4 @@
-Title: Solicito desarrollador Ruby on Rails
+title: "Solicito desarrollador Ruby on Rails"
 Date: 2010-08-09 09:19:12
 Tags: job,méxico,nabbr,selectable media,work
 ---

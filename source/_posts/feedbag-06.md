@@ -1,4 +1,4 @@
-Title: Feedbag 0.6
+title: "Feedbag 0.6"
 Date: 2010-03-05 20:36:59
 Tags: feedbag,gemcutter,github,ruby,rubygems
 ---

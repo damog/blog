@@ -1,4 +1,4 @@
-Title: Descansa en paz, Danny.
+title: "Descansa en paz, Danny."
 Date: 2005-04-17 19:44:24
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Ni�a R
+title: "Ni�a R"
 Date: 2005-06-18 01:30:34
 Tags: 
 ---

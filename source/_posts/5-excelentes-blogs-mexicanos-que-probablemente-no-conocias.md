@@ -1,4 +1,4 @@
-Title: 5 excelentes blogs mexicanos que probablemente no conocías
+title: "5 excelentes blogs mexicanos que probablemente no conocías"
 Date: 2008-09-29 20:32:41
 Tags: axiombox,enlaces,recomendación
 ---

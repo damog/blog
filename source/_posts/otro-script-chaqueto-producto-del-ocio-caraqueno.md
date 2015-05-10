@@ -1,4 +1,4 @@
-Title: Otro script chaqueto producto del ocio caraqueño
+title: "Otro script chaqueto producto del ocio caraqueño"
 Date: 2006-03-09 18:44:13
 Tags: 
 ---

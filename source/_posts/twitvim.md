@@ -1,4 +1,4 @@
-Title: TwitVim: Nice Twitter client
+title: "TwitVim: Nice Twitter client"
 Date: 2009-01-10 17:18:41
 Tags: twitter,twitvim
 ---

@@ -1,4 +1,4 @@
-Title: Cuando las cosas no son lo que parecen.
+title: "Cuando las cosas no son lo que parecen."
 Date: 2003-07-27 18:55:41
 Tags: 
 ---

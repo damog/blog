@@ -1,4 +1,4 @@
-Title: Phusion Passenger™ on Debian
+title: "Phusion Passenger™ on Debian"
 Date: 2009-08-07 17:32:02
 Tags: apache,beer,debconf,debian,nginx,passenger,rails
 ---

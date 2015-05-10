@@ -1,4 +1,4 @@
-Title: I'm a brogrammer, brah!
+title: "I'm a brogrammer, brah!"
 Date: 2012-07-27 13:45:51
 Tags: life,perl,rants,startups,work
 ---

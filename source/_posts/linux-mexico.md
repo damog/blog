@@ -1,4 +1,4 @@
-Title: Linux México
+title: "Linux México"
 Date: 2008-11-09 12:48:32
 Tags: google,linkedin,linux,linux mexico,planeta linux
 ---

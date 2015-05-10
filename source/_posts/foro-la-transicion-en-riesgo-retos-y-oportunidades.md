@@ -1,4 +1,4 @@
-Title: Foro: "La transición en riesgo: retos y oportunidades"
+title: "Foro: "La transición en riesgo: retos y oportunidades""
 Date: 2006-08-29 21:52:24
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Places I've lived in
+title: "Places I've lived in"
 Date: 2008-03-15 20:38:49
 Tags: 
 ---

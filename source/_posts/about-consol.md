@@ -1,4 +1,4 @@
-Title: About CONSOL
+title: "About CONSOL"
 Date: 2005-02-26 18:44:49
 Tags: 
 ---

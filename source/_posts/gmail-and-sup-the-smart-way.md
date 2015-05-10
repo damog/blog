@@ -1,4 +1,4 @@
-Title: GMail and Sup, the smart way
+title: "GMail and Sup, the smart way"
 Date: 2008-04-20 19:31:00
 Tags: 
 ---

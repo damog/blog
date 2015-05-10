@@ -1,4 +1,4 @@
-Title: Liferea and rxvt
+title: "Liferea and rxvt"
 Date: 2005-10-06 16:36:17
 Tags: 
 ---

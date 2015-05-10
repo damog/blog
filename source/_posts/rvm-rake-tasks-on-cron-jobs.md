@@ -1,4 +1,4 @@
-Title: RVM + Rake tasks on Cron jobs
+title: "RVM + Rake tasks on Cron jobs"
 Date: 2011-08-02 10:57:38
 Tags: cron,crontab,rake,ruby,rubygems,rvm
 ---

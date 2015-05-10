@@ -1,4 +1,4 @@
-Title: ¡Quinielawaloca!
+title: "¡Quinielawaloca!"
 Date: 2006-07-31 22:25:07
 Tags: 
 ---

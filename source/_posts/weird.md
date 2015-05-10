@@ -1,4 +1,4 @@
-Title: Weird
+title: "Weird"
 Date: 2004-08-22 14:30:55
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Why the Kindle is a piece of shit next to the iPad
+title: "Why the Kindle is a piece of shit next to the iPad"
 Date: 2010-01-28 11:58:55
 Tags: amazon,apple,ipad,kindle,shit
 ---

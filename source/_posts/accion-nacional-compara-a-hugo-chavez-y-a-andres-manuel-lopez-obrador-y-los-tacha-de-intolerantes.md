@@ -1,4 +1,4 @@
-Title: Acción Nacional compara a Hugo Chávez y a Andrés Manuel López Obrador y los tacha de intolerantes
+title: "Acción Nacional compara a Hugo Chávez y a Andrés Manuel López Obrador y los tacha de intolerantes"
 Date: 2006-03-27 23:08:02
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Regular expressions capturing in Java for Perl hackers
+title: "Regular expressions capturing in Java for Perl hackers"
 Date: 2009-03-16 15:16:49
 Tags: java,perl,regex,scrapping
 ---

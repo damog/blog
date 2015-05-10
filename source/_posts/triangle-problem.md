@@ -1,4 +1,4 @@
-Title: Triangle Problem
+title: "Triangle Problem"
 Date: 2004-09-07 14:34:14
 Tags: 
 ---

@@ -1,4 +1,4 @@
-Title: Disable Nginx logging
+title: "Disable Nginx logging"
 Date: 2011-03-24 14:47:07
 Tags: http,nginx,tips
 ---

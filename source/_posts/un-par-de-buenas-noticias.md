@@ -1,4 +1,4 @@
-Title: Un par de buenas noticias
+title: "Un par de buenas noticias"
 Date: 2004-12-05 15:47:16
 Tags: 
 ---

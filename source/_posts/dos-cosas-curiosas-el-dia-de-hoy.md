@@ -1,4 +1,4 @@
-Title: Dos cosas curiosas el día de hoy
+title: "Dos cosas curiosas el día de hoy"
 Date: 2006-04-12 03:24:29
 Tags: 
 ---

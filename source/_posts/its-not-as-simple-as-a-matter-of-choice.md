@@ -1,4 +1,4 @@
-Title: It's not as simple as a matter of choice
+title: "It's not as simple as a matter of choice"
 Date: 2007-01-30 15:43:39
 Tags: 
 ---

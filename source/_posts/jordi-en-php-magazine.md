@@ -1,4 +1,4 @@
-Title: Jordi en PHP Magazine
+title: "Jordi en PHP Magazine"
 Date: 2005-06-29 03:18:32
 Tags: 
 ---

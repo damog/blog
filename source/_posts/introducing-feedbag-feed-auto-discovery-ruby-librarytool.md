@@ -1,4 +1,4 @@
-Title: Introducing Feedbag: Feed auto-discovery Ruby library/tool
+title: "Introducing Feedbag: Feed auto-discovery Ruby library/tool"
 Date: 2008-12-30 18:58:10
 Tags: feed,feedbag,ruby,web
 ---

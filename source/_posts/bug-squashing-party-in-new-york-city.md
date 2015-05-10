@@ -1,4 +1,4 @@
-Title: Bug Squashing Party in New York City
+title: "Bug Squashing Party in New York City"
 Date: 2008-09-17 09:56:13
 Tags: debian,nyc
 ---

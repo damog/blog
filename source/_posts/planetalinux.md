@@ -1,4 +1,4 @@
-Title: PlanetaLinux
+title: "PlanetaLinux"
 Date: 2004-10-12 18:13:16
 Tags: planeta linux
 ---

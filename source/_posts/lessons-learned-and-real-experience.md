@@ -1,4 +1,4 @@
-Title: Lessons learned and real experience
+title: "Lessons learned and real experience"
 Date: 2012-03-05 16:44:52
 Tags: life,tech,work
 ---
