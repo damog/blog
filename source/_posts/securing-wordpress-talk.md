@@ -1,6 +1,9 @@
 title: "Securing WordPress talk"
 date: 2009/11/20 13:20:25
-Tags: security,wordcamp,wordpress
+tags:
+- security
+- wordcamp
+- wordpress
 ---
 Here I start a series of posts with my comments, notes and remarks on the talks that I attended at last weekend's <a href="http://2009.newyork.wordcamp.org/">WordCamp</a> in NYC.
 

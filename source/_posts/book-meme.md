@@ -1,6 +1,11 @@
 title: "Book meme"
 date: 2008/11/21 12:38:20
-Tags: books,che,libros,meme,paco ignacio taibo II
+tags:
+- books
+- che
+- libros
+- meme
+- paco ignacio taibo II
 ---
 <ul>
 	<li>Grab the nearest book.</li>

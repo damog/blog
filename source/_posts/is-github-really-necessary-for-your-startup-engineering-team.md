@@ -1,6 +1,9 @@
 title: "Is GitHub really necessary for your startup engineering team?"
 date: 2012/3/11 23:52:52
-Tags: git,github,site reliability
+tags:
+- git
+- github
+- site reliability
 ---
 For the last few months, I've been ranting a little too much with <a href="http://selectablemedia.com">our</a> engineering team about <a href="http://github.com">GitHub</a>. These rantings, of course, didn't come out of the blue. I haven't been too satisfied with GitHub's reliability lately since we use it for our daily development and constant deployment on our different staging environments and our own operation has been affected by their recent multiple technical difficulties. This has led me to analyze whether we really need them, why we started paying for their service in the first place and if it's really necessary for our product development in the first place.
 

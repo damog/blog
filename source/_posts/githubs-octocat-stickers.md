@@ -1,6 +1,9 @@
 title: "GitHub's Octocat stickers!"
 date: 2009/5/6 12:53:56
-Tags: github,mail,stickers
+tags:
+- github
+- mail
+- stickers
 ---
 <a href="http://github.com/blog/369-get-your-github-stickers">They</a> arrived today!
 

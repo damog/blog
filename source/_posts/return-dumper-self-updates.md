@@ -1,6 +1,8 @@
 title: "return Dumper $self->updates;"
 date: 2008/5/26 17:44:46
-Tags: life,vida
+tags:
+- life
+- vida
 ---
 <ul>
 	<li>We took a chance and traveled to Boston during the weekend. We met there with <a href="http://blog.carrion.ws/">Mario Carrión</a>, <a href="http://mechulk.com/">Mauro Parra</a> and some other friends. It is a beautiful city, we walked on Boston Commons, Newbury St and got up to the Prudential Building, it was a quick visit. We also wandered around the MIT. Boston has the kind of charming touch you (or at least I) cannot find in New York City anymore. Fifteen bucks for each ride on the Fung Wah Bus (a Chinatown one), it was nicely cheap but utterly awful.</li>

@@ -1,6 +1,8 @@
 title: "WWW::Tumblr 5.00"
 date: 2013/8/28 00:27:19
-Tags: perl,tumblr
+tags:
+- perl
+- tumblr
 ---
 <a href="http://damog.net/blog/www-tumblr.html">A few years ago</a>, back when <a href="http://tumblr.com">Tumblr</a> had not been valued a billion dollars, I wrote <tt>WWW::Tumblr</tt>, which was basically Perl bindings for their REST API. Then I forgot about it for a long time, then Yahoo! bought them or something like that. I ended up getting contacted by some Perl programmers, telling me that they were using the Perl module. Great! Anyway, following the general rule on Internet startups, Tumblr migrated most of their endpoints to OAuth and left a bunch of other resources changed to use an API key and others not. Joy. I gotta say that at this point I was't interested on Tumblr too much, in spite of having a profile that followed a few very random blogs. But people were indeed interested on the module for their own stuff and I got contacted again a <a href="https://rt.cpan.org/Public/Bug/Display.html?id=86769">few</a> <a href="https://github.com/damog/www-tumblr/issues/2">times</a>.
 

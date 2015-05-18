@@ -1,6 +1,7 @@
 title: "PlanetaLinux"
 date: 2004/10/12 18:13:16
-Tags: planeta linux
+tags:
+- planeta linux
 ---
 Well, <a href="http://www.kublun.com/">Wieland</a> and me have created <a href="http://www.planetalinux.com.mx/">PlanetaLinux</a> which is a small planet feed reeder for Mexican Linux users. It is intended to grow as soon as we announce it officially.
 

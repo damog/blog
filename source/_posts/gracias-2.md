@@ -1,6 +1,10 @@
 title: "Gracias 2"
 date: 2008/11/27 21:22:24
-Tags: amor,gracias,thanks,thanksgiving
+tags:
+- amor
+- gracias
+- thanks
+- thanksgiving
 ---
 Aunque en realidad la gente no da gracias y es un hecho meramente histórico, la celebración de thanksgivin' me hace reflexionar al respecto de a quién y por qué daría gracias.
 

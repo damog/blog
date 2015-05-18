@@ -1,6 +1,12 @@
 title: "Perl in the Time of Social Networks delivered in Pittsburgh, PA"
 date: 2009/6/27 21:01:36
-Tags: baseball,git,perl,pittsburgh,social networks,yapc
+tags:
+- baseball
+- git
+- perl
+- pittsburgh
+- social networks
+- yapc
 ---
 I attended <a href="http://yapc10.org">YAPC|10</a> during this past week. The overall experience was quite particular, with ups and downs, but after all I made it back in one piece.
 

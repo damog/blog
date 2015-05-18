@@ -1,6 +1,10 @@
 title: "New York BSP personal to-do list"
 date: 2008/10/1 21:03:19
-Tags: bsp,debian,nyc,to-do
+tags:
+- bsp
+- debian
+- nyc
+- to-do
 ---
 So, as <a href="http://wiki.debian.org/BSP2008/Brooklyn">it was previously anounced</a> (and recently re-invited by <a href="http://lists.vireo.org/pipermail/debiannyc/2008-September/000190.html">Micah</a>), this weekend is the <a href="http://vireo.org/cgi-bin/mailman/listinfo/debiannyc">debiannyc</a> BSP. This makes me think on my lack of involvement on the technical part of Debian (I'm still socially involved with friends and groups) for the last couple of months. So, for the sake of encouraging others to join us on Saturday if you in the city (or the tri-state area, or beyond!), here it is, my personal list of tasks I'm willing to work on:
 <ul>

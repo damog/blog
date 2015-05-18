@@ -1,6 +1,8 @@
 title: "Errores ortográficos por correo"
 date: 2008/9/2 09:16:20
-Tags: idiotas,ortografía
+tags:
+- idiotas
+- ortografía
 ---
 Seguro a más de uno le llegó este correo:
 <div><span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img class="mt-image-center" style="margin: 0pt auto 20px; text-align: center; display: block;" src="http://log.damog.net/nicmx.png" alt="nicmx.png" width="568" height="289" /></span></div>

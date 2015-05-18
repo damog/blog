@@ -1,6 +1,10 @@
 title: "GitHub (and open source) on LinkedIn"
 date: 2011/3/8 12:07:34
-Tags: github,linkedin,open source,work
+tags:
+- github
+- linkedin
+- open source
+- work
 ---
 I am a huge fan of <a href="http://www.linkedin.com">LinkedIn</a>, I love it. Handled properly, it can allow you to establish great opportunities that eventually lead up to either work or paid gigs and we all know how good money is, right? I have spent time for the last couple of weeks making sure <a href="http://www.linkedin.com/in/damog">my own LinkedIn profile</a> is complete, fully up-to-date and that I'm taking full advantage of all the features that the site has to offer, and even though I'm not actively looking for a job it's always nice to get contacted by other developers or directors (heck, even recruiters) inviting you to consider other job opportunities. In my own personal space, it makes me more confident that I can still be of great value to other enterprises. It's like feeling you could date again, if you wanted to.
 

@@ -1,6 +1,15 @@
 title: "Snow Leopard Now"
 date: 2009/8/29 14:03:16
-Tags: growmail,istat,mac,mac os x,macports,os x,snow leopard,upgrade,visor
+tags:
+- growmail
+- istat
+- mac
+- mac os x
+- macports
+- os x
+- snow leopard
+- upgrade
+- visor
 ---
 We ordered a family pack of Snow Leopard for the whole development team last Tuesday. They arrived yesterday Friday, early morning.
 <p style="text-align: center;"><a rel="attachment wp-att-949" href="http://log.damog.net/2009/08/snow-leopard-now/26160910-0d08f14663f91c3af9df59f5e30971cf-4a99891f-full/"><img class="aligncenter size-full wp-image-949" title="26160910-0d08f14663f91c3af9df59f5e30971cf.4a99891f-full" src="http://damog.net/old/axiombox/2009/08/26160910-0d08f14663f91c3af9df59f5e30971cf.4a99891f-full.jpg" alt="26160910-0d08f14663f91c3af9df59f5e30971cf.4a99891f-full" width="259" height="346" /></a></p>

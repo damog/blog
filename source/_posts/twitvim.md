@@ -1,6 +1,8 @@
 title: "TwitVim: Nice Twitter client"
 date: 2009/1/10 17:18:41
-Tags: twitter,twitvim
+tags:
+- twitter
+- twitvim
 ---
 I do like <a href="http://twitter.com/">Twitter</a>. For quite some time now I've been trying to find a Twitter client that I'd really like. I've tried, lots of them, <a href="http://www.twhirl.org/">Twhirl</a>, <a href="http://live.gnome.org/DanielMorales/Twitux">Twitux</a>, <a href="http://code.google.com/p/microblog-purple/">microblog-purple</a> (which I started to dislike since I'm not IMing that much anymore and it can become extremely annoying if not blocked), <a href="http://www.tweetdeck.com/">TweetDeck</a>, etc. All of them don't seem to fill my own needs and preferences. Even when Twitter used to support IM, I came up with probably the best solution I've used so far, GTalk on <a href="http://www.bitlbee.org/main.php/news.r.html">Bitlbee</a>, so I could easily use <a href="http://www.irssi.org">Irssi</a> with it. I have also been suggested to use <a href="http://software.complete.org/software/projects/show/twidge">Twidge</a> but direct command-line IO is probably not the best for me. I want to have it a console emulator window, maybe screened in a remote server, running all the time, auto-updating, unobstrusive.
 

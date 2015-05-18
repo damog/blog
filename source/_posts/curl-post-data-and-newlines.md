@@ -1,6 +1,10 @@
 title: "curl POST data and newlines"
 date: 2010/8/15 22:10:35
-Tags: code,curl,debian,rails
+tags:
+- code
+- curl
+- debian
+- rails
 ---
 I'm writing a <a href="http://rubyonrails.org/">Rails</a> application for the <a href="http://en.wikipedia.org/wiki/Microblogging">microblogging</a> strategy for <a href="http://debian.org">Debian</a> (which I used to call, <a href="http://github.com/damog/debian-twitter">debian-twitter</a>, but you know how us Debian folks are :D). I came up with a strange issue, that at first I thought was <a href="http://guides.rubyonrails.org/action_controller_overview.html">ActionController</a>'s fault or some crap.
 

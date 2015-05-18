@@ -1,6 +1,11 @@
 title: "Why the Kindle is a piece of shit next to the iPad"
 date: 2010/1/28 11:58:55
-Tags: amazon,apple,ipad,kindle,shit
+tags:
+- amazon
+- apple
+- ipad
+- kindle
+- shit
 ---
 <p>The fact that the <a href="http://en.wikipedia.org/wiki/Amazon_Kindle">Amazon Kindle</a> per se exists, has attracted a copious amount of <a href="http://www.huffingtonpost.com/2010/01/27/ipad-vs-kindle-will-apple_n_437632.html">comparisons</a> to the now unveiled <a href="http://www.apple.com/ipad/">Apple iPad</a>. The Kindle of course, is a (<a href="http://www.techcrunch.com/2009/04/16/300000-kindle-2s-sold-to-date/">reportedly</a>, I don't own one) great e-book reader and <a href="http://www.techcrunch.com/2010/01/20/kindle-apps/">Sudoku console</a>. One should be comparing apples to apples, since comparing these two devices is like comparing a Nokia 5110, with an iPhone (ok bigots, or with a NexusOne), simply different times, different action scenarios.</p>
 <p style="text-align: center; "><a href="http://damog.net/old/stereonaut/2010/01/draft_lens6658522module53931922photo_1251308001Apple-and-Orange.jpg"><img alt="" title="draft_lens6658522module53931922photo_1251308001Apple-and-Orange" width="300" height="205" class="aligncenter size-medium wp-image-1084" src="http://damog.net/old/stereonaut/2010/01/draft_lens6658522module53931922photo_1251308001Apple-and-Orange-300x205.jpg" /></a>&nbsp;<a href="http://damog.net/old/stereonaut/2010/01/nokia5110camera.jpg"><img alt="" title="nokia5110camera" width="300" height="263" class="aligncenter size-medium wp-image-1085" src="http://damog.net/old/stereonaut/2010/01/nokia5110camera-300x263.jpg" /></a></p>

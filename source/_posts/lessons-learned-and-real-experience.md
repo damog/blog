@@ -1,6 +1,9 @@
 title: "Lessons learned and real experience"
 date: 2012/3/5 16:44:52
-Tags: life,tech,work
+tags:
+- life
+- tech
+- work
 ---
 I've been busy.
 

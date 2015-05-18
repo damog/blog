@@ -1,6 +1,9 @@
 title: "Harlem and the elections"
 date: 2008/11/6 17:54:12
-Tags: decision2008,harlem,obama
+tags:
+- decision2008
+- harlem
+- obama
 ---
 A lot has been said about the elections already. I just want to share my personal experiences about it. During the weekend, Tom invited us to his place in lower Harlem (we live upper Harlem) on 123rd St and Adam Clayton Powell Jr Ave, for Tuesday night. As Tuesday arrived, we didn't see too many people too excited about it. Living in Harlem, we were pretty used to black people supporting Obama, so getting closer and closer to the elections, we didn't feel people anxious. On Tuesday, we commuted to work and some of our co-workers got to work late because they have been standing in lines for a couple of hours to vote in polls. The whole day was about talking on how much that day was representing for the US and the world, guessing how they results were going to end up, etc.
 

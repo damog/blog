@@ -1,6 +1,9 @@
 title: "Another day, another dawn"
 date: 2012/8/18 14:04:34
-Tags: amsterdam,perl,work
+tags:
+- amsterdam
+- perl
+- work
 ---
 I started working for <a href="http://www.booking.com">Booking.com</a> two weeks ago now. These last two months have been probably the most chaotic and hectic in a long time from what I remember in my life. I left New York City, chilled out in Mexico City for several weeks and then finally relocated to beautiful Amsterdam. The decision of leaving New York was not simple, but I decided to take on new challenges, one cycle had ended for me and it was time for me to move on.
 

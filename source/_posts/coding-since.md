@@ -1,6 +1,14 @@
 title: "Coding since..."
 date: 2010/1/16 23:05:27
-Tags: 90s,children,coding,fun,méxico,programming,quickbasic,telmex
+tags:
+- 90s
+- children
+- coding
+- fun
+- méxico
+- programming
+- quickbasic
+- telmex
 ---
 <p>I recently read a blog's about page where the autor mentioned to have 11 years of programming experience, parenthesizing that he started really young. Although I certainly don't think any serious professional experience should include the kind of coding you do as a kid, it made me remember how I started programming myself when I was a a child.</p>
 <p>I didn't have my own computer before 1996, when I started <em>secundaria</em> (junior high school). Previously, my only computers' experience had been playing around with Flow on my elementary school's very recent computer lab. Those Commodores were cool but didn't really caught completely my attention. I was slightly surprised when, on late 95 or early 96 I went to my friend's place and saw he had a computer that displayed really neat colors and you could draw freely without a command line interface but with a mouse, a toolbar and all. As I learned later, that must have been Paint on either Windows 3.1 or 95. I was much more interested on that kind of computer action since I was more into paper drawing than the actual computer at the time. But it didn't caught completely my attention either (I was a very lame uninterested kid, I guess). During that time, I started playing with my cousin's machine in Mexico City, running Windows 3.1, but I was very afraid to use it or ask to use it, since I had no clue what to do with it. When my dad bought me my first computer, my cousin Bruno was my first-hand information resource. I remember I asked him if he knew how I could get rid of the &quot;Acer&quot; blue screen that appeared immediately every time I booted the machine. He said &quot;that, I don't know&quot;.</p>

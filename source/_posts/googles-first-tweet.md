@@ -1,6 +1,12 @@
 title: "Google's first tweet"
 date: 2009/2/26 13:02:34
-Tags: binary,google,map,octal,perl,twitter
+tags:
+- binary
+- google
+- map
+- octal
+- perl
+- twitter
 ---
 <a href="http://google.com">Google</a> created an official <a href="http://twitter.com">Twitter</a> <a href="http://twitter.com/google">account</a>. Its <a href="http://twitter.com/google/status/1251523388">first tweet</a> was something odd:
 <blockquote><span class="status-body"><span class="entry-content">I'm 01100110 01100101 01100101 01101100 01101001 01101110 01100111 00100000 01101100 01110101 01100011 01101011 01111001 00001010</span></span></blockquote>

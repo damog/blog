@@ -1,6 +1,9 @@
 title: "Debian on Twitter"
 date: 2009/3/22 09:33:21
-Tags: debian,gpg,twitter
+tags:
+- debian
+- gpg
+- twitter
 ---
 Or... for those who care about <a href="http://twitter.com">Twitter</a> and <a href="http://debian.org">Debian</a> :)
 

@@ -1,6 +1,9 @@
 title: "Re: Private methods in Perl5"
 date: 2009/8/14 15:41:33
-Tags: debian,moose,perl
+tags:
+- debian
+- moose
+- perl
 ---
 <a href="http://peter.makholm.net/2009/08/14/private-methods-in-perl5/">Peter</a>, I have a single word for you: <strong><a href="http://moose.perl.org/">Moose</a></strong>.
 

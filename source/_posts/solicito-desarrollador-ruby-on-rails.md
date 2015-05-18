@@ -1,6 +1,11 @@
 title: "Solicito desarrollador Ruby on Rails"
 date: 2010/8/9 09:19:12
-Tags: job,méxico,nabbr,selectable media,work
+tags:
+- job
+- méxico
+- nabbr
+- selectable media
+- work
 ---
 Estoy en busca de un desarrollador Ruby y Ruby on Rails para unirse a la empresa en la cual estoy trabajando en Nueva York. La posición es para trabajar permanentemente desde la Ciudad de México en la Col. Roma con muy buenas facilidades, ambiente y un salario altamente competitivo.
 

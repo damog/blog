@@ -1,6 +1,11 @@
 title: "Feedbag 0.6"
 date: 2010/3/5 20:36:59
-Tags: feedbag,gemcutter,github,ruby,rubygems
+tags:
+- feedbag
+- gemcutter
+- github
+- ruby
+- rubygems
 ---
 I just uploaded <a href="http://axiombox.com/feedbag">Feedbag</a> 0.6 to <a href="http://rubygems.org/gems/feedbag/versions/0.6">Gemcutter</a> and <a href="http://github.com/damog/feedbag">GitHub</a>.
 

@@ -1,6 +1,8 @@
 title: "Two Git tips"
 date: 2008/12/12 23:52:28
-Tags: git,tips
+tags:
+- git
+- tips
 ---
 Following the Git tips being thrown on <a href="http://planet.debian.org">Planet Debian</a>, here's a couple:
 

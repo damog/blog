@@ -1,6 +1,12 @@
 title: "Updates"
 date: 2008/7/8 14:44:50
-Tags: debconf,life,nyc,perl,psp,raquel
+tags:
+- debconf
+- life
+- nyc
+- perl
+- psp
+- raquel
 ---
 <ul>
 	<li>Personal stuff coming up; if you are not <em>that</em> kind of person, please skip :-)</li>

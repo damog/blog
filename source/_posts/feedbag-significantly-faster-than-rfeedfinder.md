@@ -1,6 +1,10 @@
 title: "Feedbag significantly faster than Rfeedfinder"
 date: 2009/3/7 16:57:45
-Tags: benchmark,feedbag,feeds,ruby
+tags:
+- benchmark
+- feedbag
+- feeds
+- ruby
 ---
 Alright so <a href="http://axiombox.com/feedbag">Feedbag</a> looks to be significantly faster than <a href="http://rfeedfinder.rubyforge.org/">Rfeedfinder</a> when tested against different URIs:
 <pre><code>      user     system      total        real

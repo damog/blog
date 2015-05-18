@@ -1,6 +1,12 @@
 title: "Yahoo! YSlow for Firebug"
 date: 2009/11/16 18:45:23
-Tags: firebug,firefox,optimization,web,yahoo,yslow
+tags:
+- firebug
+- firefox
+- optimization
+- web
+- yahoo
+- yslow
 ---
 <img class="alignright size-full wp-image-1020" title="firebug" src="http://damog.net/old/stereonaut/2009/11/firebug.jpg" alt="firebug" width="70" height="70" />During last weekend's <a href="http://2009.newyork.wordcamp.org/">WordCamp</a>, <a href="http://simianuprising.com/">Jeremy Clarke</a> gave a bunch of tips for websites server optimizations (I'll summarize my views on his talk later on a separate post) and he showcased a plugin for <a href="http://getfirebug.com/">Firebug</a> that I didn't know about and caught my attention: <strong><a href="http://developer.yahoo.com/yslow/">Yahoo! YSlow</a></strong>. It is a really nice piece of software, it adds a tab on your Firebug window and will grade the performance of the web page you are browsing with a set of tips on how to make it faster, ranging from images, CSS, JavaScript, headers, etc:
 <p style="text-align: left;"><a rel="attachment wp-att-1018" href="http://stereonaut.net/yahoo-yslow-for-firebug/screen-shot-2009-11-16-at-6-29-24-pm/"><img class="aligncenter size-full wp-image-1018" title="Screen shot 2009-11-16 at 6.29.24 PM" src="http://damog.net/old/stereonaut/2009/11/Screen-shot-2009-11-16-at-6.29.24-PM.png" alt="Screen shot 2009-11-16 at 6.29.24 PM" width="580" height="466" /></a></p>

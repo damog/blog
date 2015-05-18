@@ -1,6 +1,11 @@
 title: "Sync your Twitter followers and friends"
 date: 2009/6/10 13:30:29
-Tags: code,debian,gems,ruby,twitter
+tags:
+- code
+- debian
+- gems
+- ruby
+- twitter
 ---
 I have a couple of accounts in Twitter (namely @<a href="http://twitter.com/debian">debian</a> and @<a href="http://twitter.com/planetalinux">planetalinux</a>) that are starting to bring a lot of followers (well, at least some of them). And given that I consider these accounts to be Twitter-polite enough, I like to follow the followers back too; however, this task sometimes gets really hard and it's tiring to go through the followers pages and follow those that I don't follow yet over and over.
 

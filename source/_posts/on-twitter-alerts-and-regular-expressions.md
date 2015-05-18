@@ -1,6 +1,10 @@
 title: "On Twitter alerts and regular expressions"
 date: 2009/4/12 07:17:58
-Tags: alerts,nerd,regex,twitter
+tags:
+- alerts
+- nerd
+- regex
+- twitter
 ---
 I don't know if I'm the only one that does something like this, but I certainly <em>trust</em> I'm not alone.
 

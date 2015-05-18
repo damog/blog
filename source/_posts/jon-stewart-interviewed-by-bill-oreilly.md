@@ -1,6 +1,11 @@
 title: "Jon Stewart interviewed by Bill O'Reilly"
 date: 2010/2/9 18:30:24
-Tags: fox,o'reilly,politics,stewart,video
+tags:
+- fox
+- o'reilly
+- politics
+- stewart
+- video
 ---
 It is worth watching entirely.
 

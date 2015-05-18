@@ -1,6 +1,12 @@
 title: "Feed moved"
 date: 2010/2/4 19:31:37
-Tags: beer,feed,feedburner,feeds,google,planeta linux
+tags:
+- beer
+- feed
+- feedburner
+- feeds
+- google
+- planeta linux
 ---
 I have always been <em>against</em> <a href="http://feedburner.com/">FeedBurner</a>. I don't like it at all. I've never liked it, as a matter of fact, I have no actual idea why I've been using it on my blog. I do know why I used it on the country feeds on <a href="http://planetalinux.org">Planeta Linux</a>, and that is because it was very easy to mask all of our URL changes with some level of stability on the subscribers (in times where me being technically competent was a bad joke for myself). Plus, we could plug AdSense into it (that later on I removed because I like to earn actual dollars, not pennies, <em>you cheap clickers</em>!). Or maybe I'm just so against it because of pure jealousy: A few RSS feed geeks, <em>like myself</em>, sold a <strong>sub-par</strong>product to Google in a <strong>hundred million dollars</strong>. At the very end, I've never had a good reason to use FeedBurner or to stick with it, so hereby I'm dropping it entirely from my own personal blog.
 

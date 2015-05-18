@@ -1,6 +1,17 @@
 title: "MySpace, San Francisco and the future"
 date: 2009/2/7 19:45:37
-Tags: facebook,flickr,gogo,golden gate,inflight internet,mission,myspace,offerpal,osml,san francisco,travel
+tags:
+- facebook
+- flickr
+- gogo
+- golden gate
+- inflight internet
+- mission
+- myspace
+- offerpal
+- osml
+- san francisco
+- travel
 ---
 <a href="http://maggit.net">Raquel</a> and I came to San Francisco for a couple of days during this week, mainly to attend the <a href="http://myspacedevjam.eventbrite.com/">MySpace DevJam</a>. It was a great experience to get to know the west coast as we hadn't have the chance to come over. We also had the opportunity to meet with my great friend Marco Manzo, who is working for <a href="http://leapfrog.com">Leap Frog</a> in the Bay Area.
 

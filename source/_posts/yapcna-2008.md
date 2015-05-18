@@ -1,6 +1,9 @@
 title: "YAPC::NA 2008"
 date: 2008/6/25 11:34:52
-Tags: chicago,perl,yapc::na
+tags:
+- chicago
+- perl
+- yapc::na
 ---
 So I attended the <a href="http://conferences.mongueurs.net/yn2008/">conference</a> last week in Chicago, IL. I was just been procrastinating to write about this.
 

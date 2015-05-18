@@ -1,6 +1,10 @@
 title: "Regular expressions capturing in Java for Perl hackers"
 date: 2009/3/16 15:16:49
-Tags: java,perl,regex,scrapping
+tags:
+- java
+- perl
+- regex
+- scrapping
 ---
 Capturing is one of the more interesting things you can do with regular expressions, it gives you great power to get sub-strings out of strings with regex power.
 

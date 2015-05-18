@@ -1,6 +1,12 @@
 title: "Setting uid on God processes"
 date: 2010/1/20 15:36:32
-Tags: environment variables,god,processes,ruby,ssh,sysadmin
+tags:
+- environment variables
+- god
+- processes
+- ruby
+- ssh
+- sysadmin
 ---
 <p>I spent some minutes today at work figuring out why a script we use for files and assets propagation wasn't working when fired up under <a href="http://god.rubyforge.org/">God</a>, but it actually was working when run as its normal user.</p>
 <p>The script is a <a href="http://www.sinatrarb.com">Sinatra</a> application that, upon pings/requests, connects through SSH to different servers on our clusters and execute commands. Details on the implementation are irrelevant here. Since this is automatized, we use key files for the SSH authentication.</p>

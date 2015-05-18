@@ -1,6 +1,12 @@
 title: "Introducing Apache2::EmbedFLV – Exposing FLVs with Flowplayer and a customized interface"
 date: 2009/1/17 18:22:43
-Tags: apache,flowplayer,flv,mod_perl,perl,swf
+tags:
+- apache
+- flowplayer
+- flv
+- mod_perl
+- perl
+- swf
 ---
 <strong>Situation</strong>
 

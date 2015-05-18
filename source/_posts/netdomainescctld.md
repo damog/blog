@@ -1,6 +1,12 @@
 title: "Net::Domain::ES::ccTLD"
 date: 2009/9/1 15:28:23
-Tags: cpan,domains,perl,planeta linux,tld,wikipedia
+tags:
+- cpan
+- domains
+- perl
+- planeta linux
+- tld
+- wikipedia
 ---
 As I'm rewriting the core of <a href="http://planetalinux.org">Planeta Linux</a> (you can track progress <a href="http://github.com/axiombox/planetalinux">here</a>), I needed a reliable way to map a country TLD to its Spanish name. I headed to <a href="http://search.cpan.org/">CPAN</a> to see what was already built to do that and found out <a href="http://search.cpan.org/~dmuey/Locales-0.05/lib/Locales/Country.pm">Locales::Country</a> that looked awesome but it didn't work for me, <tt>code2country('ni')</tt> would return <tt>undef</tt> for me, plus the countries that were actually there had the encoding all fubar, so fuck it, drop it.
 

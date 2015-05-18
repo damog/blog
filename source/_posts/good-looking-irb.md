@@ -1,6 +1,10 @@
 title: "Good looking Irb"
 date: 2008/12/29 10:01:51
-Tags: config,irb,ruby,tips
+tags:
+- config
+- irb
+- ruby
+- tips
 ---
 <a href="http://en.wikipedia.org/wiki/Interactive_Ruby_Shell">Irb</a> is a pain to work with... when you don't know it enough. Fortunately, it can be configured extensively enough to make your Ruby interactive sessions much smoother. Pocahontas asked me to post my Irb configuration:
 <pre># ~/.irbrc

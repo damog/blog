@@ -1,6 +1,9 @@
 title: "Disable Nginx logging"
 date: 2011/3/24 14:47:07
-Tags: http,nginx,tips
+tags:
+- http
+- nginx
+- tips
 ---
 This is something that is specified clearly on the <a href="http://wiki.nginx.org/Modules#Nginx_core_modules">Nginx manual</a>, but it's nice to have it as a quick reference.
 
