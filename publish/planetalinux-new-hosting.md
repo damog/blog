@@ -1,5 +1,5 @@
 Title: New hosting for Planeta Linux
-Date: Sun Aug  3 14:50:05 CEST 2014
+Date: 2014-08-03 14:50:05
 Tags: planetalinux
 
 Just a very quick shout out.

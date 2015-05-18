@@ -1,4 +1,4 @@
-Title: Semana de la M�sica Ibero
+Title: Semana de la Música Ibero
 Date: 2005-03-08 02:01:48
 Tags: 
 

@@ -1,4 +1,4 @@
-Title: Si usted, amable lector, no entiende este post, entonces no est� dedicado para usted, seguramente.
+Title: Si usted, amable lector, no entiende este post, entonces no está dedicado para usted, seguramente.
 Date: 2005-08-26 04:26:31
 Tags: 
 

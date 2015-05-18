@@ -1,4 +1,4 @@
-Title: Lo Cort�s no quita lo Cuauht�moc
+Title: Lo Cortés no quita lo Cuauhtémoc
 Date: 2005-09-17 17:05:27
 Tags: 
 
