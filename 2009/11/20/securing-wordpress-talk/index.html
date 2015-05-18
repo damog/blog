@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Securing WordPress talk | dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Here I start a series of posts with my comments, notes and remarks on the talks that I attended at last weekend’s WordCamp in NYC.
+The first talk I attended was Securing WordPress, by Brad Williams (@">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Securing WordPress talk">
+<meta property="og:url" content="http://damog.net/blog/2009/11/20/securing-wordpress-talk/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description" content="Here I start a series of posts with my comments, notes and remarks on the talks that I attended at last weekend’s WordCamp in NYC.
+The first talk I attended was Securing WordPress, by Brad Williams (@">
+<meta property="og:image" content="http://damog.net/old/stereonaut/2009/11/Screen-shot-2009-11-20-at-1.19.12-PM.png">
+<meta property="og:image" content="http://damog.net/old/stereonaut/2009/11/IMG_3006.JPG">
+<meta property="og:image" content="http://damog.net/old/stereonaut/2009/11/screenshot-1.jpg">
+<meta property="og:image" content="http://damog.net/old/stereonaut/2009/11/exploit-scanner.gif">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Securing WordPress talk">
+<meta name="twitter:description" content="Here I start a series of posts with my comments, notes and remarks on the talks that I attended at last weekend’s WordCamp in NYC.
+The first talk I attended was Securing WordPress, by Brad Williams (@">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-securing-wordpress-talk" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/11/20/securing-wordpress-talk/" class="article-date">
+  <time datetime="2009-11-20T19:20:25.000Z" itemprop="datePublished">Fri Nov 20, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      Securing WordPress talk
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Here I start a series of posts with my comments, notes and remarks on the talks that I attended at last weekend’s <a href="http://2009.newyork.wordcamp.org/" target="_blank" rel="external">WordCamp</a> in NYC.</p>
+<p><img class="alignright size-full wp-image-1034" title="Screen shot 2009-11-20 at 1.19.12 PM" src="http://damog.net/old/stereonaut/2009/11/Screen-shot-2009-11-20-at-1.19.12-PM.png" alt="Screen shot 2009-11-20 at 1.19.12 PM" width="165" height="156">The first talk I attended was <strong>Securing WordPress</strong>, <a href="http://www.strangework.com/" target="_blank" rel="external">by Brad Williams</a> (@<a href="http://twitter.com/williamsba" target="_blank" rel="external">williamsba</a> on Twitter). First off, this talk wasn’t too technical since it was focused to beginning developers whose background wouldn’t be completely into systems administration, it was intended to a broader audience, which is exactly why I liked it so much and started taking notes. You need some mild level of expertise on <a href="http://wordpress.org" target="_blank" rel="external">WordPress</a> for most of what Brad mentioned but you don’t have to be an expert.</p>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-1043" title="IMG_3006" src="http://damog.net/old/stereonaut/2009/11/IMG_3006.JPG" alt="IMG_3006" width="403" height="302"></p>
+
+<p>So, most of the notes I took were taken directly from the slides (that you can browse below in the Slideshare widget), but I also add some homebrewed comments myself:</p>
+<p></p><h3>Don’t use the admin account: Change it</h3><br>Hackers will most likely target to the most privileged account on a WordPress that by default goes by the name of “admin” and you don’t seem to be able to change it easily from the administration panel. Go ahead and do it on the MySQL shell yourself:<p></p>
+<p>[sql]UPDATE wp_users SET user_login=”notadmin” WHERE user_login=”admin”;[/sql]</p>
+<p></p><h3>Change your files’ permissions</h3><br>This is what Brad called “<em>The Great Permission Debate</em>“. You are basically fine if you leave all files under 0644 and directories under 0755.<p></p>
+<p><code lang="bash">$ find wordpress_root/ -type f -exec chmod 644 {} \;<br>$ find wordpress_root/ -type d -exec chmod 755 {} \;</code></p>
+<p></p><h3>Take wp-config.php out of WordPress</h3><br>Starting in <a href="http://codex.wordpress.org/Version_2.6" target="_blank" rel="external">2.6</a>, WordPress will also look for the wp-config.php configuration file on the parent directory of your WordPress directory, which depending on your setup, might be not reachable to your web server’s public files.<p></p>
+<p></p><h3>Move plugins and uploads directory out of WordPress</h3><br>Also since 2.6, WordPress can be configured so that you don’t have your plugins and uploads directory (where you upload files from the administration panel) to point somewhere else. You can do it by setting the constants WP_CONTENT_DIR, WP_CONTENT_URL, WP_PLUGIN_DIR and WP_PLUGIN_URL:<p></p>
+<p>[php]define(‘WP_CONTENT_DIR’, $_SERVER[‘DOCUMENT_ROOT’] . ‘/your/blog/contents’);<br>define(‘WP_CONTENT_URL’, “<a href="http://myblog.com/contents" target="_blank" rel="external">http://myblog.com/contents</a>“);<br>…[/php]</p>
+<p></p><h3>Remove the WordPress version from the META head</h3><br>WordPress apparently uses the generator META tag to scan for WordPress installations and create statistics of usage. That also enables possible attackers to discover what version of WordPress you are using, and if you are using an old vulnerable one, you might get hit. You can use the WordPress function, <a href="http://codex.wordpress.org/Plugin_API/Action_Reference/wp_head" target="_blank" rel="external">wp_head()</a> instead.<p></p>
+<p></p><h3>Stay current on updates</h3><br>Of course, always focus on getting the latest <a href="http://wordpress.org/download/" target="_blank" rel="external">updates</a> installed.<p></p>
+<p></p><h3>Secure passwords</h3><br>Don’t use “password” or “a” or “123” as a password for your installations. I recommend generating your password with a little tool called <a href="http://pwgen.sourceforge.net/" target="_blank" rel="external">pwgen</a>.<p></p>
+<p></p><h3>Secret keys</h3><br>You can add some salt to your password by setting values for a few secret key constants. This will make a better encryption on the information stored on the user’s cookies. Codex puts this as an example:<p></p>
+<p>[php]<br>define(‘AUTH<em>KEY’, ‘:dr+%/5V4sAUG-gg%aS<em>v;&amp;amp;amp;amp;xGhd%{YKC^Z7KKGh j&amp;amp;gt;k[.Nf$y7iGKdJ3c</em>[Kr5Bg’);<br>define(‘SECURE_AUTH_KEY’, ‘TufWOuA </em>.t&amp;amp;gt;#+hA?^|3RfGTm&amp;amp;gt;@<em>+S=8\”\’+\”}]&amp;amp;lt;m#+}V)p:Qi?jXLq,&amp;amp;lt;h\`39m_(‘);<br>define(‘LOGGED_IN_KEY’, ‘S~AACm4h1;T^\”qW3_8Zv!Ji=y|)~5i63JI |Al[(&amp;amp;lt;YS&amp;amp;lt;2V^$T])=8Xh2a:b:}U_E’);<br>define(‘NONCE_KEY’, ‘k1+EOc-&amp;amp;amp;amp;w?hG8j84&amp;amp;gt;6L9v\”6C89NH?ui{</em>3\(t09mumL/fFP_!K$JCEkLuy ={x{0’);<br>[/php]</p>
+<p>For more information on each of these secret keys, go to read their <a href="http://codex.wordpress.org/Editing_wp-config.php#Security_Keys" target="_blank" rel="external">documentation</a>.</p>
+<p></p><h3>Change the WordPress tables prefix</h3><br>The database for a WordPress installation uses a prefix on each of the tables it uses, by default “wp_”. You can change it to be a custom value.<p></p>
+<p></p><h3>Make sure you have HTTPS and force login and admin access through it</h3><br>If it’s possible, enable SSL on your host and configure WordPress to pass all login information and <a href="http://codex.wordpress.org/Administration_Over_SSL" target="_blank" rel="external">administration access through it</a>. You can do it by setting the constants FORCE_SSL_LOGIN and FORCE_SSL_ADMIN to true.<p></p>
+<p></p><h3>IP lockdown</h3><br>If you are using the Apache webserver, you can configure it so that <a href="http://httpd.apache.org/docs/2.0/howto/htaccess.html" target="_blank" rel="external">it only allows  access</a> to /wp-admin from a given IP (work or home only). You can do just about the same with any other webserver available (namely, <a href="http://www.alrond.com/en/2007/apr/12/restriction-access-with-nginx/" target="_blank" rel="external">nginx</a>).<p></p>
+<p></p><h3>Security Plugins</h3><br>Some of the following plugins will make your life easier. I recommend taking a look at them, they are worthwhile!<p></p>
+<p></p><h4><a href="http://wordpress.org/extend/plugins/wp-security-scan/" target="_blank" rel="external">WP Security Scan</a></h4><br>Scans your WordPress installation for security vulnerabilities and suggests corrective actions.<p></p>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-1032" title="screenshot-1" src="http://damog.net/old/stereonaut/2009/11/screenshot-1.jpg" alt="screenshot-1" width="602" height="286"></p>
+
+<p></p><h4><a href="http://ocaoimh.ie/exploit-scanner/" target="_blank" rel="external">WordPress Exploit Scanner</a></h4><br>This plugin searches the files and database of your website for signs of suspicious activity.<p></p>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-1033" title="exploit-scanner" src="http://damog.net/old/stereonaut/2009/11/exploit-scanner.gif" alt="exploit-scanner" width="360" height="258"></p>
+
+<p></p><h4><a href="http://mattwalters.net/projects/wordpress-file-monitor/" target="_blank" rel="external">WordPress File Monitor</a></h4><br>Monitors your WordPress installation for added/deleted/changed files. When a change is detected an email alert can be sent to a specified address.<p></p>
+<p></p><h4><a href="http://wordpress.org/extend/plugins/login-lockdown/" target="_blank" rel="external">Login Lockdown</a></h4><br>Login LockDown records the IP address and timestamp of every failed login attempt. If more than a  certain number of attempts are detected within a short period of time from the same IP range, then the login function is disabled for all requests from that range.<p></p>
+<p></p><h3>Finally</h3><br>Some of the actions here are just preventive or simple security by obscurity. Truth is, you will never be 100% secure and you have to be certain that you understand that.<p></p>
+<p></p><h2>Presentation</h2><br>This is Brad’s presentation:<p></p>
+<div><object style="margin:0px" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height="355" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="src" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=wordpress-security-updated-091114122947-phpapp02&amp;rel=0&amp;stripped_title=wordpress-security-updated"><param name="allowfullscreen" value="true"><embed style="margin:0px" type="application/x-shockwave-flash" width="425" height="355" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=wordpress-security-updated-091114122947-phpapp02&amp;rel=0&amp;stripped_title=wordpress-security-updated" allowscriptaccess="always" allowfullscreen="true"></object></div>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/security/">security</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/wordcamp/">wordcamp</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/wordpress/">wordpress</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2009/11/24/linux-org-mx-planeta-linux-mexico/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          linux.org.mx is now Planeta Linux México
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2009/11/16/yahoo-yslow-for-firebug/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          Yahoo! YSlow for Firebug
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

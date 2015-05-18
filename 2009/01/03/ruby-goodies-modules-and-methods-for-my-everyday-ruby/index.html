@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Ruby goodies: Modules and methods for my everyday Ruby | dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="I make a lot of Web script processing, whether scraping, webservices, systems administration, etc. Because I sometimes happen to repeat small and useful chunks of code for different projects, I though">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ruby goodies: Modules and methods for my everyday Ruby">
+<meta property="og:url" content="http://damog.net/blog/2009/01/03/ruby-goodies-modules-and-methods-for-my-everyday-ruby/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description" content="I make a lot of Web script processing, whether scraping, webservices, systems administration, etc. Because I sometimes happen to repeat small and useful chunks of code for different projects, I though">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ruby goodies: Modules and methods for my everyday Ruby">
+<meta name="twitter:description" content="I make a lot of Web script processing, whether scraping, webservices, systems administration, etc. Because I sometimes happen to repeat small and useful chunks of code for different projects, I though">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-ruby-goodies-modules-and-methods-for-my-everyday-ruby" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/01/03/ruby-goodies-modules-and-methods-for-my-everyday-ruby/" class="article-date">
+  <time datetime="2009-01-04T05:27:50.000Z" itemprop="datePublished">Sat Jan 3, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      Ruby goodies: Modules and methods for my everyday Ruby
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>I make a lot of Web script processing, whether scraping, webservices, systems administration, etc. Because I sometimes happen to repeat small and useful chunks of code for different projects, I thought that, given making new modules and methods is usually hassleless in Ruby, I should make my own set of methods and goodies I constantly use. Example 1, I sometimes miss Perl’s LWP::Simple simplicity where I just pass a URL to a subroutine and get the content on a variable, quick, one-liner. Example 2, extract all links on a given URL on an array that I can then iterate and maybe fetch given the first example. Getting all A links is very easy to do, say with regex or with Hpricot (which should the best way to parse HTML), but most of the time I (and people, I’d bet) need absolute URLs which is fairly more complex (relative, absolute URLs, BASE href declarations, etc, the same case as in <a href="http://axiombox.com/feedbag" target="_blank" rel="external">Feedbag</a>).</p>
+<p>Well, for different cases like that one, I’ve started my own set of Ruby goodies. If you don’t find them useful, I understand, they are mostly for my <strongown< strong=""> needs, I just want to make it public, because maybe, some other people might indeed find them useful.</strongown<></p>
+<p>Simple installation:</p>
+<pre><code>sudo gem install damog-goodies -s http://gems.github.com/</code></pre>
+
+<p>As time and needs pass, I will be adding stuff into it. For the time being, here’s both above examples in action:</p>
+<pre><code>
+>> require "goodies"
+requiring /var/lib/gems/1.8/gems/damog-goodies-0.1/lib/goodies/array.rb
+requiring /var/lib/gems/1.8/gems/damog-goodies-0.1/lib/goodies/lwr.rb
+requiring /var/lib/gems/1.8/gems/damog-goodies-0.1/lib/goodies/html.rb
+=> true
+>> pp HTML::Links.find "damog.net"
+["mailto:david-YOUKNOWTHEDEAL-axiombox.com",
+ "http://log.damog.net/",
+ "http://historiasdenuevayork.com",
+ "http://axiombox.com/",
+ "http://flickr.com/photos/raquelydavid",
+ "http://last.fm/user/damog",
+ "http://maggit.com.mx",
+ "http://twitter.com/habanerd",
+ "http://www.facebook.com/profile.php?id=670490388",
+ "http://www.chess.com?ref_id=1380378",
+ "http://www.chess.com",
+ "http://www.chess.com/members/view/damog?ref_id=1380378",
+ "http://www.chess.com/echess/create_game.html?uid=1380378&ref_id=1380378",
+ "http://www.chess.com/home/game_archive.html?member=damog&ref_id=1380378"]
+=> nil
+>> pp HTML::Links.find("http://google.com").first(10)
+["http://images.google.com/imghp?hl=en&tab=wi",
+ "http://maps.google.com/maps?hl=en&tab=wl",
+ "http://news.google.com/nwshp?hl=en&tab=wn",
+ "http://www.google.com/prdhp?hl=en&tab=wf",
+ "http://mail.google.com/mail/?hl=en&tab=wm",
+ "http://www.google.com/intl/en/options/",
+ "http://video.google.com/?hl=en&tab=wv",
+ "http://groups.google.com/grphp?hl=en&tab=wg",
+ "http://books.google.com/bkshp?hl=en&tab=wp",
+ "http://scholar.google.com/schhp?hl=en&tab=ws"]
+=> nil
+>> get "debian.org"
+[snip]
+>> get("planeta.debian.net")[0, 100]
+=> "&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"
+>> 
+</code></pre>
+
+<p>Repository is, as usual, kindly hosted at <a href="http://github.com" target="_blank" rel="external">GitHub</a> on <a href="http://github.com/damog/goodies" target="_blank" rel="external">damog/goodies</a>.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/gem/">gem</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/ruby/">ruby</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2009/01/06/returning-an-specific-http-status-return-code-and-content-with-mod-perl-2/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Returning an specific HTTP status/return code and content with mod_perl 2
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2008/12/30/introducing-feedbag-feed-auto-discovery-ruby-librarytool/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          Introducing Feedbag: Feed auto-discovery Ruby library/tool
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

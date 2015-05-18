@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>TwitVim: Nice Twitter client | dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="I do like Twitter. For quite some time now I’ve been trying to find a Twitter client that I’d really like. I’ve tried, lots of them, Twhirl, Twitux, microblog-purple (which I started to dislike since">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TwitVim: Nice Twitter client">
+<meta property="og:url" content="http://damog.net/blog/2009/01/10/twitvim/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description" content="I do like Twitter. For quite some time now I’ve been trying to find a Twitter client that I’d really like. I’ve tried, lots of them, Twhirl, Twitux, microblog-purple (which I started to dislike since">
+<meta property="og:image" content="http://damog.net/old/axiombox/2009/01/twitvim-300x180.png">
+<meta property="og:image" content="http://damog.net/old/axiombox/2009/01/twitvim-user-300x180.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="TwitVim: Nice Twitter client">
+<meta name="twitter:description" content="I do like Twitter. For quite some time now I’ve been trying to find a Twitter client that I’d really like. I’ve tried, lots of them, Twhirl, Twitux, microblog-purple (which I started to dislike since">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-twitvim" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/01/10/twitvim/" class="article-date">
+  <time datetime="2009-01-10T23:18:41.000Z" itemprop="datePublished">Sat Jan 10, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      TwitVim: Nice Twitter client
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>I do like <a href="http://twitter.com/" target="_blank" rel="external">Twitter</a>. For quite some time now I’ve been trying to find a Twitter client that I’d really like. I’ve tried, lots of them, <a href="http://www.twhirl.org/" target="_blank" rel="external">Twhirl</a>, <a href="http://live.gnome.org/DanielMorales/Twitux" target="_blank" rel="external">Twitux</a>, <a href="http://code.google.com/p/microblog-purple/" target="_blank" rel="external">microblog-purple</a> (which I started to dislike since I’m not IMing that much anymore and it can become extremely annoying if not blocked), <a href="http://www.tweetdeck.com/" target="_blank" rel="external">TweetDeck</a>, etc. All of them don’t seem to fill my own needs and preferences. Even when Twitter used to support IM, I came up with probably the best solution I’ve used so far, GTalk on <a href="http://www.bitlbee.org/main.php/news.r.html" target="_blank" rel="external">Bitlbee</a>, so I could easily use <a href="http://www.irssi.org" target="_blank" rel="external">Irssi</a> with it. I have also been suggested to use <a href="http://software.complete.org/software/projects/show/twidge" target="_blank" rel="external">Twidge</a> but direct command-line IO is probably not the best for me. I want to have it a console emulator window, maybe screened in a remote server, running all the time, auto-updating, unobstrusive.</p>
+<p>Given this, I started to hack on my own personal client using <a href="http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/" target="_blank" rel="external">ncurses</a>. Sadly, my lack of deep knowledge of the not-too-intuitive ncurses API made me abort the project. Maybe some day I could retake it. Shame.</p>
+<p>Anyway, within the last week, I found and have been using <a href="http://www.vim.org/scripts/script.php?script_id=2204" target="_blank" rel="external">TwitVim</a>. I like <a href="http://vim.org" target="_blank" rel="external">Vim</a>: It’s my editor of choice for most of my projects. And TwitVim is a really nice project supporting a lot of interesting features:</p>
+<p style="text-align: center;"><a href="http://damog.net/old/axiombox/2009/01/twitvim.png" target="_blank" rel="external"><img class="aligncenter size-medium wp-image-783" title="twitvim" src="http://damog.net/old/axiombox/2009/01/twitvim-300x180.png" alt="twitvim" width="300" height="180"></a></p>
+
+<p>There you can see how, on a non-obstrusive way, you can have it running. Since it’s built on Vim, you can also do some key mappings so that you don’t have to type all the commands. And it has all sorts of really cool and interesting features, like if the cursor is on a given line, \r will start a reply, or other binding will start a direct message, etc.</p>
+<p>Here’s a picture of my own timeline:</p>
+<p style="text-align: center;"><a href="http://damog.net/old/axiombox/2009/01/twitvim-user.png" target="_blank" rel="external"><img class="aligncenter size-medium wp-image-784" title="twitvim-user" src="http://damog.net/old/axiombox/2009/01/twitvim-user-300x180.png" alt="twitvim-user" width="300" height="180"></a></p>
+
+<p>Once you have installed it, take a look at the extensive and detailed documentation with:</p>
+<p><pre><code>:help TwitVim</code></pre><br>However, the only downside is that it doesn’t auto-refresh. But you can map a key for quick update:</p>
+<p><pre><code>:nnoremap &lt;F8&gt; :FriendsTwitter&lt;cr&gt;</code></pre><br>What Twitter clients do you like and use?</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/twitter/">twitter</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/twitvim/">twitvim</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2009/01/14/macbook-pro/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          MacBook Pro
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2009/01/08/re-on-debgem/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          Re: On DebGem
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

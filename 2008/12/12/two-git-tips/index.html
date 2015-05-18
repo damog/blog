@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Two Git tips | dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Following the Git tips being thrown on Planet Debian, here’s a couple:
+1. Changing into a directory that contains a repo and shows you on PS1 what branch you are standing on:
+
+
+On .bashrc I have:
+GITP">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Two Git tips">
+<meta property="og:url" content="http://damog.net/blog/2008/12/12/two-git-tips/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description" content="Following the Git tips being thrown on Planet Debian, here’s a couple:
+1. Changing into a directory that contains a repo and shows you on PS1 what branch you are standing on:
+
+
+On .bashrc I have:
+GITP">
+<meta property="og:image" content="http://damog.net/old/axiombox/2008/12/git-ps1.png">
+<meta property="og:image" content="http://damog.net/old/axiombox/2008/12/git-log1.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Two Git tips">
+<meta name="twitter:description" content="Following the Git tips being thrown on Planet Debian, here’s a couple:
+1. Changing into a directory that contains a repo and shows you on PS1 what branch you are standing on:
+
+
+On .bashrc I have:
+GITP">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-two-git-tips" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2008/12/12/two-git-tips/" class="article-date">
+  <time datetime="2008-12-13T05:52:28.000Z" itemprop="datePublished">Fri Dec 12, 2008</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      Two Git tips
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Following the Git tips being thrown on <a href="http://planet.debian.org" target="_blank" rel="external">Planet Debian</a>, here’s a couple:</p>
+<p><strong>1.</strong> Changing into a directory that contains a repo and shows you on PS1 what branch you are standing on:</p>
+<div align="center"><a href="http://damog.net/old/axiombox/2008/12/git-ps1.png" target="_blank" rel="external"><img class="aligncenter size-full wp-image-739" title="git-ps1" src="http://damog.net/old/axiombox/2008/12/git-ps1.png" alt="" width="344" height="126"></a></div>
+
+<p>On .bashrc I have:</p>
+<p><pre>GITPS1=’$(__git_ps1 “:%s “)’<br>export PS1=”${GREEN}\w${RS} ${YELLOW}${GITPS1}${RS}\$ “</pre><br><strong>2.</strong> An alias I like to use on repos that are personal for quick tracking:</p>
+<div align="center"><a href="http://damog.net/old/axiombox/2008/12/git-log1.png" target="_blank" rel="external"><img class="aligncenter size-full wp-image-740" title="git-log1" src="http://damog.net/old/axiombox/2008/12/git-log1.png" alt="" width="328" height="100"></a></div>
+
+<p><pre>[alias]<br>  …<br>  log1 = log —pretty=oneline —abbrev-commit</pre><br>I hope you like them.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/tips/">tips</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2008/12/29/good-looking-irb/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Good looking Irb
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2008/12/09/high-order-perl-available-for-free/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          High-Order Perl available for free
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Blog Normalize on The Perl Foundation | dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="So I wrote an entry on my tumblelog about what&amp;#8217;s going on with my life currently. Since Tumblr&amp;#8217;s feed doesn&amp;#8217;t get pushed immediately, I showed the post to my co-worker and friend Chr">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Blog Normalize on The Perl Foundation">
+<meta property="og:url" content="http://damog.net/blog/2008/05/02/blog-normalize-on-the-perl-foundation/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description" content="So I wrote an entry on my tumblelog about what&amp;#8217;s going on with my life currently. Since Tumblr&amp;#8217;s feed doesn&amp;#8217;t get pushed immediately, I showed the post to my co-worker and friend Chr">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Blog Normalize on The Perl Foundation">
+<meta name="twitter:description" content="So I wrote an entry on my tumblelog about what&amp;#8217;s going on with my life currently. Since Tumblr&amp;#8217;s feed doesn&amp;#8217;t get pushed immediately, I showed the post to my co-worker and friend Chr">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-blog-normalize-on-the-perl-foundation" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2008/05/02/blog-normalize-on-the-perl-foundation/" class="article-date">
+  <time datetime="2008-05-02T21:52:00.000Z" itemprop="datePublished">Fri May 2, 2008</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      Blog Normalize on The Perl Foundation
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>So I wrote an entry on my tumblelog about what&#8217;s going on with my life currently. Since Tumblr&#8217;s feed doesn&#8217;t get pushed immediately, I showed the post to my co-worker and friend Chris, before it hit the planets:</p><br><p>- So, yeah I have my blog since it&#8217;s syndicated on <a href="http://planet.debian.org" target="_blank">Planet Debian</a> and other small feed aggregators -I said. </p><br><p>- But do they really care about your bike, your chess games or you attending that conference? -he asked-, I mean, I <i>do</i> care, but people?</p><br><p>- Well -I replied after a quick thought-, I think that&#8217;s how personal blogs work.</p><br><p>After a deeper thought I just realized that indeed no one cares and deleted the entry before it was pushed to the feed, updating it on FeedBurner, etc. It was a nice awakening.</p><br><hr><br><p>But on a bit more interesting (for people) things, <a href="http://www.perlfoundation.org/" target="_blank">The Perl Foundation</a> is currently requesting comments on <a href="http://news.perlfoundation.org/2008/05/2008q2_grant_proposals.html" target="_blank">the projects they received for grant requests</a>. My proposal is there, &#8220;Solidifying and Extending the Blog Normalize project&#8221;. I do think there are some other more deeper projects, of course, but I think B::N is also an interesting one and the amount requested is not as big for other projects, so it&#8217;d be nice to give it a try. </p><br><p>I believe B::N is a good idea that could be enhanced nicely. I proposed the idea to the <a href="http://textmotion.org/" target="_blank">TextMotion</a> developers yesterday on IRC (since that&#8217;s one of the CMS there would be a connector for -as of the grant proposal-). After deeper discussion, CMSs will not make translators for a lot of projects into theirs, but B::N would, so maybe we could make some sort of webservice that CMSs could call on their installation phases. That, or the user at the end could actually do the conversion himself locally.</p><br><p>Having the proper information, one could be able to get from TextMotion to <a href="http://wordpress.org" target="_blank">Wordpress</a>, to <a href="http://blogger.com" target="_blank">Blogger</a>, to <a href="http://joomla.org" target="_blank">Joomla</a>, to <a href="http://tumblr.com" target="_blank">Tumblr</a>, to <a href="http://www.movabletype.org/" target="_blank">MovableType</a> and to TextMotion again, making a transparent circular transformation.</p><br><p>Some of this is currently possible with the few code I&#8217;ve written for it, currently in <a href="http://search.cpan.org/~damog/Blog-Normalize-0.0rc2/lib/Blog/Normalize.pm" target="_blank">CPAN</a> (and a bit deeper proof of concept); if you are interested, please <a href="http://news.perlfoundation.org/2008/05/2008q2_grant_proposal_solidify.html" target="_blank">leave your comments</a> on the Perl Foundation blog entry. And review others too. At the end, I might end up doing the project myself, but if some money is granted to do so, why not apply to it, that&#8217;d just speed it up. </p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2008/05/02/post-over-mod_perl-handlers-with-unusual-content-types/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          POST over mod_perl handlers with unusual content types
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2008/04/20/gmail-and-sup-the-smart-way/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          GMail and Sup, the smart way
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

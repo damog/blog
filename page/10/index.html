@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="dm's blog">
+<meta property="og:url" content="http://damog.net/blog/page/10/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="dm's blog">
+<meta name="twitter:description">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      
+  
+    <article id="post-run-a-php-script-from-mod_perl-so-perlcleanuphandler-can-be-used" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/02/19/run-a-php-script-from-mod_perl-so-perlcleanuphandler-can-be-used/" class="article-date">
+  <time datetime="2009-02-20T01:21:44.000Z" itemprop="datePublished">Thu Feb 19, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/02/19/run-a-php-script-from-mod_perl-so-perlcleanuphandler-can-be-used/">Run a PHP script from mod_perl so PerlCleanupHandler can be used</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><strong>Situation</strong></p>
+<p>You need to run a time consuming task after a PHP script is run. The task will have to reuse the <tt>POST/GET</tt> data that is being sent to the service. The task would have to be done once the client has gone away.</p>
+<p><strong>Solution</strong></p>
+<p>Use mod_perl’s <tt>PerlFixupHandler</tt> to take the POST data, set the handler to be run by mod_php (or whatever else you are running it). Finally, use <tt>PerlCleanupHandler</tt> to run that task since that’s exactly what that phase is for, once the client went away.</p>
+<p><strong>Explanation</strong></p>
+<p><pre><code>&lt;Files ~ “myscript.php$”&gt;<br>  SetHandler modperl<br>  PerlFixupHandler My::App::Fixup<br>&lt;/Files&gt;</code></pre><br>Now, we are just indicating that we want a Fixup handler which is going to be run by <tt>My::App::Fixup</tt>. The Fixup phase runs right before content generation and delivery starts, which is the perfect moment to pass the execution of the PHP script.</p>
+<p>So our handler would look like this:</p>
+<p><pre><code>package My::App::Fixup;</code></pre></p>
+<p>use strict;<br>use warnings;</p>
+<p>use Apache2::Const -compile =&gt; qw/:common/;<br>use Apache2::Request;<br>use Apache2::RequestIO ();<br>use Apache2::RequestRec ();<br>use Apache2::RequestUtil ();<br>use Apache2::ServerUtil ();<br>Up to this moment, usual regular module-loading.</p>
+<p><pre><code>sub handler {<br>  my($r) = shift;</code></pre><br>Now, we’ll take the request object and assign it to $req.</p>
+<p><pre><code>  my $req = Apache2::Request-&gt;new($r);</code></pre><br>We now register a subroutine, cleanup, to be hooked with the Cleanup phase. PerlCleanupHandler is great, it’s the very last phase of a mod_perl execution, it will basically run after the client that made the request has gone away, once the connection with it has been terminated with the server. It’s because of that nature, that it makes it the best place to make any kind of time consuming task, since we wouldn’t want the client to wait for termination of that job. This phase is also not implemented in Apache, this is mod_perl specific.</p>
+<p><pre><code>  $r-&gt;push_handlers(PerlCleanupHandler =&gt; \&amp;cleanup);</code></pre><br>Now, we set the handler for the next Apache phase to be handled as PHP:</p>
+<p><pre><code>  $r-&gt;handler(“application/x-httpd-php”);</code></pre><br>In this point, I will have to start reading the POST information that was sent, since that will be gone when the Cleanup is reached:</p>
+<p><pre><code>  my $body = $req-&gt;body;</code></pre></p>
+<p>  my $st = {};</p>
+<p>  for my $key ( keys %$body ) {<br>    $st-&gt;{$key} = $req-&gt;body($key);<br>  }<br>All the key-value pairs of the POST data are on the <tt>$st</tt> hash reference and I record it now on a “<tt>pnote</tt>“, so I can catch it later:</p>
+<p><pre><code>  $r-&gt;pnotes(“POST”, $st);<br>  return Apache2::Const::OK;<br>}</code></pre><br>So, this is the cleanup subroutine I registered previously. I prefered to do it this way, I could also have set an specific handler for PerlCleanupHandler on the Apache configuration, but I just wanted to do it this way.</p>
+<p><pre><code>sub cleanup {<br>  my($r) = shift;</code></pre><br>I take now the request object again. The POST data is gone already, this is only for GET.</p>
+<p><pre><code>  my $req = Apache2::Request-&gt;new($r);<br>  my $table = $req-&gt;param;</code></pre><br>I retrieve the information that I left before on the <tt>pnote</tt>.</p>
+<p><pre><code>  my $st = $r-&gt;pnotes(“POST”);</code></pre></p>
+<p>  for my $key ( keys %$table ) {<br>    $st-&gt;{$key} = $req-&gt;param($key);<br>  }<br>In this moment, <tt>$st</tt> has all POST and GET data on a hash reference. It’s according to your application needs how to have proceeded with this.</p>
+<p><pre><code>  # All your time-consuming work</code></pre></p>
+<h1 id="sleep_600;">sleep 600;</h1><h1 id="or_whatever_you_want_:P">or whatever you want :P</h1><h1 id="for_the_sake_of_this_example,_I’ll_just_write_the_values_to_a_file:">for the sake of this example, I’ll just write the values to a file:</h1><p>  open my $fh, “&gt;/tmp/myexample” or die $!;<br>  while(my($k, $v) = each %$st) {<br>    print $fh “$k -&gt;$v”, “\n”;<br>  }<br>  return Apache2::Const::OK;<br>}<br>1;<br>The good thing about this is that, you can run arbitrary time-consuming code from a Cleanup phase, and that it doesn’t matter if you have to set the handler for the response phase to something else, like PHP, mod_perl will be able to handle it.</p>
+<p>Now, myscript.php would look like this:</p>
+<p><pre><code>&lt;?php<br>print “&lt;pre&gt;”;<br>print_r($_REQUEST);<br>print “&lt;/pre&gt;”;<br>?&gt;</code></pre><br>So, let’s test it:</p>
+<p><pre><code>cerdo ~ $ curl -d ‘name=david&amp;skill=lousy’ <a href="http://localhost:82/damog/php/myscript.php?arg1=1" target="_blank" rel="external">http://localhost:82/damog/php/myscript.php?arg1=1</a><br>&lt;pre&gt;Array<br>(<br>[arg1] =&gt; 1<br>[name] =&gt; david<br>[skill] =&gt; lousy<br>)<br>&lt;/pre&gt;<br>cerdo ~ $ cat /tmp/myexample<br>arg1 -&gt; 1<br>skill -&gt; lousy<br>name -&gt; david<br>cerdo ~ $</code></pre><br>As you can see, I’m sending both POST and GET parameters with curl. PHP displays it just fine, but also my temporary test file.</p>
+<p>How are you using PerlCleanupHandler?</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/apache/">apache</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/modperl/">modperl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/php/">php</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-1234567890" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/02/11/1234567890/" class="article-date">
+  <time datetime="2009-02-11T23:28:42.000Z" itemprop="datePublished">Wed Feb 11, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/02/11/1234567890/">Debian get-together in NYC this next 1234567890</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>So, <a href="http://gabriellacoleman.org/blog/?p=1293" target="_blank" rel="external">Biella already posted a reminder</a>, and I’m doing it again on my blog, here.</p>
+<p><pre><code>Attention New York City Debianistas,</code></pre></p>
+<p>The astrological confluence of 1234567890[0], the impending release of<br>Lenny[1], and the odd sighting of a horned mythical beast that<br>cryptozoologists are calling a ‘new FTP-master-assistant/slave’ being<br>sighted in the mist off the shores of the East River[2] will result in<br>all emacs users to transcend and all vim users to be transponded to<br>their respective motherships, which are scheduled for near-orbit on that<br>night.</p>
+<p>You will only be taken if you have a sip of beer on the 13th, before<br>6:31:30pm at the Pacific Standard[3]. </p>
+<p>If you come late, you may suffer nano for all eternity.</p>
+<p>Micah</p>
+<p>ps. All nano users will be Left Behind™ to tend to the servers that we<br>did not bring with us on the Rapture® rickshaw. </p>
+<p>ps. lets keep the the post-apocalyptic space editor battle that will<br>erupt between the S.S. Church of Emacs, and the H.R.H VIMperator<br>mothership for later, and drink with revelry together now.</p>
+<ol>
+<li><code>date -d &#39;@1234567890&#39;</code></li>
+<li><a href="http://lists.debian.org/debian-devel-announce/2009/02/msg00000.html" target="_blank" rel="external">http://lists.debian.org/debian-devel-announce/2009/02/msg00000.html</a></li>
+<li><a href="http://lists.debian.org/debian-devel-announce/2009/01/msg00004.html" target="_blank" rel="external">http://lists.debian.org/debian-devel-announce/2009/01/msg00004.html</a></li>
+<li><a href="http://www.pacificstandardbrooklyn.com" target="_blank" rel="external">http://www.pacificstandardbrooklyn.com</a><br><br>Don’t be late, it’s at <tt>1234567890</tt>!</li>
+</ol>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/beer/">beer</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debian/">debian</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/epoch/">epoch</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/get-together/">get-together</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/lenny/">lenny</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/time/">time</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-feedbag-now-using-feedvalidator" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/02/11/feedbag-now-using-feedvalidator/" class="article-date">
+  <time datetime="2009-02-11T22:00:53.000Z" itemprop="datePublished">Wed Feb 11, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/02/11/feedbag-now-using-feedvalidator/">Feedbag now using feedvalidator</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>There’s a very special case that I hadn’t spotted on <a href="http://axiombox.com/feedbag" target="_blank" rel="external">Feedbag</a>. Within the different methods that Feedbag uses to discover the feed on a given URL, the very first one is lookup on a table of “known” content types. If the alleged feed is served with any of the following content types, then Feedbag just returns that same URL as it assumes it’s the feed:</p>
+<p><pre><code>@content_types = [<br>‘application/x.atom+xml’,<br>‘application/atom+xml’,<br>‘application/xml’,<br>‘text/xml’,<br>‘application/rss+xml’,<br>‘application/rdf+xml’,<br>]</code></pre><br>However, what happens if the feed is not served with any of those but it’s a valid feed? Well, Feedbag wouldn’t auto-discover the feed itself but would start parsing the HTML, which is time-consuming (and unneeded after all). Because of this, between the content type lookup and the HTML parsing, I’ve added W3C feed validation using the nice gem <a href="http://feedvalidator.rubyforge.org/" target="_blank" rel="external">feedvalidator</a>. However, since this would result on an extra dependency, I’ve left it as optional. If the gem is available, it’ll use it, otherwise, it won’t and will start parsing the HTML.</p>
+<p>You can see the fix patch on <a href="http://github.com/damog/feedbag/commit/227434c850b6421e421a0fc54463c2e5f26cd619" target="_blank" rel="external">this commit</a>.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/feed/">feed</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/feedbag/">feedbag</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/patch/">patch</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/w3c/">w3c</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-libactive_recordbaserb2808in-attributes_with_quotes-undefined-method-each-for-truetrueclass-nomethoderror" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/02/09/libactive_recordbaserb2808in-attributes_with_quotes-undefined-method-each-for-truetrueclass-nomethoderror/" class="article-date">
+  <time datetime="2009-02-10T02:49:54.000Z" itemprop="datePublished">Mon Feb 9, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/02/09/libactive_recordbaserb2808in-attributes_with_quotes-undefined-method-each-for-truetrueclass-nomethoderror/">lib/active_record/base.rb:2808:in `attributes_with_quotes&#39;: undefined method `each&#39; for true:TrueClass (NoMethodError)</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>OK, hopefully this might help someone some time somewhere. If you are getting the error on the title, it’s mainly because you are using a <tt>changed</tt> method on your <a href="http://api.rubyonrails.org/classes/ActiveRecord/Base.html" target="_blank" rel="external">ActiveRecord</a> model.</p>
+<p>I was working with an ActiveRecord model that handles an string with quotes, so when trying to save the model, that exception was raised. The problem is that ActiveRecord uses a <tt>changed</tt> method internally for all attributes that were modified. When you are using a changed method yourself, you are overwriting it, hence the error. In my case:</p>
+<tt>/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:2808:in <code>attributes_with_quotes&#39;: undefined method</code>each’ for true:TrueClass (NoMethodError)<br>from /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:2706:in `update_without_lock’</tt>
+
+<p>Solution, just get rid of your changed method and rename it something else.</p>
+<p>Also helpful information, <a href="http://www.ruby-forum.com/topic/173908" target="_blank" rel="external">here</a>.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/activerecord/">activerecord</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/issues/">issues</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/ruby/">ruby</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-myspace-san-francisco-and-the-future" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/02/07/myspace-san-francisco-and-the-future/" class="article-date">
+  <time datetime="2009-02-08T01:45:37.000Z" itemprop="datePublished">Sat Feb 7, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/02/07/myspace-san-francisco-and-the-future/">MySpace, San Francisco and the future</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><a href="http://maggit.net" target="_blank" rel="external">Raquel</a> and I came to San Francisco for a couple of days during this week, mainly to attend the <a href="http://myspacedevjam.eventbrite.com/" target="_blank" rel="external">MySpace DevJam</a>. It was a great experience to get to know the west coast as we hadn’t have the chance to come over. We also had the opportunity to meet with my great friend Marco Manzo, who is working for <a href="http://leapfrog.com" target="_blank" rel="external">Leap Frog</a> in the Bay Area.</p>
+<p>On the MySpace side, I’m glad to see that some real and good improvements are being made to open the platform as much as possible. I think this is crucial to them, in order to re-gain the market that they have been losing over to Facebook. They are making great effort by following the <a href="http://code.google.com/apis/opensocial/docs/releasenotes.html" target="_blank" rel="external">Open Social 0.8</a> spec and working together for the upcoming 0.9 release. <a href="http://www.offerpalmedia.com/" target="_blank" rel="external">Offerpal</a> is also doing good, with an attractive business model for virtual economy. Props to them who organized the little get-together. Also, it’s going to be interesting to see how things go with the newly introduced OpenSocial markup language (OSML) and its integration into the MySpace platform. Some of the new interesting features are also notifications and the activities report. I’m looking forward to toy around with it later.</p>
+<p>Anyway, we didn’t tour that much of San Francisco, since we were also working most of Thursday and Friday. We visited the <a href="http://en.wikipedia.org/wiki/Mission_District" target="_blank" rel="external">Mission district</a>, which feels a little bit like the hood I was probably supposed to grow up into, but never did. It feels a little bit like the multicultural harmonic Mexico that we all would like to have, it really makes a lot of sense why a lot of Mexican people come either legally or illegally to these towns. I also bought some bread on a Mexican bakery, had tortas and ate a bit of jícama con chile on a fruit stand; most of the people is friendly, unlike real Mexico :-) We also went to the Golden Gate bridge, which is an amazing piece of technology, it’s just amazing. Pictures will be uploaded to <a href="http://flickr.com/photos/raquelydavid" target="_blank" rel="external">our Flickr photostream</a>.</p>
+<p>Finally, I’d like to point at how amazed I am right now. I’m currently sitting on a plane, but I’m not saving this blog post to publish it later, <strong>I’m fucking online on-flight!</strong> This is amazingly possible thanks to <a href="http://www.gogoinflight.com/" target="_blank" rel="external">Gogo</a>, which is a company that it’s enabling these services for some American Airlines flights, and other airlines apparently (see their <a href="http://en.wikipedia.org/wiki/Gogo_Inflight_Internet" target="_blank" rel="external">Wikipedia page</a> too). Apparently, they have some sort of land towers where they send some kind of signal to only some equipped planes. And it’s quite cheap, 12 or 13 bucks for the service; given that this is a 6-hr flight, it’s totally worth it. If your laptop’s battery dies, you can still use your portable handheld device or other computer even. The speed? It’s pretty shitty on upload, but it’s decent on download, it just kinds of reminds me of a regular aDSL connection in Mexico. I just wish planes would give people the ability to plug themselves into electricity, that’d kick ass too.</p>
+<p>Whoops, a bit of turbulence now :-)</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/facebook/">facebook</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/flickr/">flickr</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/gogo/">gogo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/golden-gate/">golden gate</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/inflight-internet/">inflight internet</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/mission/">mission</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/myspace/">myspace</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/offerpal/">offerpal</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/osml/">osml</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/san-francisco/">san francisco</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/travel/">travel</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-and-now-apache2embedmp3-for-your-songs-collections" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/02/02/and-now-apache2embedmp3-for-your-songs-collections/" class="article-date">
+  <time datetime="2009-02-02T21:01:52.000Z" itemprop="datePublished">Mon Feb 2, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/02/02/and-now-apache2embedmp3-for-your-songs-collections/">And now Apache2::EmbedMP3 for your songs collections!</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>After I spent time working on <a href="http://log.damog.net/2009/01/introducing-apache2embedflv-%e2%80%93-exposing-flvs-with-flowplayer-and-a-customized-interface/" target="_blank" rel="external">Apache2::EmbedFLV</a>, I thought it was a good idea to do the same for audio files, specifically MP3 files.</p>
+<p>So now that you have your MP3 files on your web server and they are accessible to the world, you may want to show them with an embedded audio player. Well, Apache2::EmbedMP3 is exactly for you!</p>
+<p>EmbedMP3 uses the fabulous <a href="http://wpaudioplayer.com/" target="_blank" rel="external">WP Audio Player</a>, a small, elegant, GPL Flash audio player, similarly to how <a href="http://search.cpan.org/~damog/Apache2-EmbedFLV-0.2/" target="_blank" rel="external">Apache2::EmbedFLV</a> uses Flowplayer. The interesting thing about EmbedMP3 is that you can display more interesting data on the template such as song name, artist, album, year and also lyrics, which was an interesting feature I added. In this fashion, it’s very easy to just drop a whole bunch of files into a directory and all be served with the custom interface.</p>
+<p>You have to instruct Apache2:</p>
+<p><pre><code>&lt;Files ~ “.mp3$”&gt;<br>       SetHandler modperl<br>       PerlSetVar wpaudioplayer /audio-player/player.swf<br>       PerlSetVar wpaudioplayer_js /audio-player/wpaudioplayer.js<br>       PerlResponseHandler Apache2::EmbedMP3<br>&lt;/Files&gt;<br></code></pre><br>And that’s it. Take a look at the documentation to see how to point it to specific locations for WP Audio Player, template file, etc.</p>
+<p>You can see the hack in action at <a href="http://dev.axiombox.com/~david/mp3" target="_blank" rel="external">http://dev.axiombox.com/~david/mp3</a>. If it struggles a bit by buffering, it’s because that’s directly from my home Internet connection, so give it a small break :-) And, as I suggested <a href="http://axiombox.com/apache2-embedflv/flv/radiohead_bodysnatchers2.flv" target="_blank" rel="external">the Radiohead video</a> with EmbedFLV, I suggest now <a href="http://dev.axiombox.com/~david/mp3/Black_Eyed_Peas_-_Like_That.mp3" target="_blank" rel="external">this Black Eyed Peas song</a>, Like That, it’s very catchy and I love it ;-)</p>
+<p>Go get the code at the <a href="http://github.com/damog/apache2-embedmp3" target="_blank" rel="external">Git repo</a> or at <a href="http://search.cpan.org/~damog/Apache2-EmbedMP3-0.1/" target="_blank" rel="external">CPAN</a> (once it’s updated and published).</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/apache/">apache</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/mod-perl/">mod_perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/mp3/">mp3</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-quick-feed-aggregation-with-vitacilina" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/01/29/quick-feed-aggregation-with-vitacilina/" class="article-date">
+  <time datetime="2009-01-30T03:36:06.000Z" itemprop="datePublished">Thu Jan 29, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/01/29/quick-feed-aggregation-with-vitacilina/">Quick feed aggregation with Vitacilina</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><em>Vitacilina, ¡ah, qué buena medicina!</em></p>
+<p>A few months ago. Maybe more than a year, I started hacking on Vitacilina, which was meant to be the replacement for <a href="http://planetplanet.org" target="_blank" rel="external">Planet</a> on all countries <a href="http://planetalinux.org" target="_blank" rel="external">Planeta Linux</a> supports. I was doing well, I even hosted the code back then in <a href="http://code.google.com/p/vitacilina" target="_blank" rel="external">Google Code</a>. Later, I forgot about it, but I’d always been wanting to replace Planet with some homebrew solution for the Planeta Linux community. Anyway, that hasn’t happened yet. However, I did start using Vitacilina for my own needs on a local sandbox for my employer and it used to work pretty well. I’ve been hacking it to fit very specific requirements, though.</p>
+<p>Anyway, I thought it was a good moment to release it publicly, just because it was all hidden there. So, I didn’t implement the changes I did for my employer (because they were very specific for our products) but I did clean it up and wrote some documentation.</p>
+<p>Now, what exactly is <em>Vitacilina</em>? Well, it’s a feed aggregator. It’s written in Perl (it’s a Perl module) and it uses <a href="http://www.yaml.org/" target="_blank" rel="external">YAML</a> to get its list of feeds and names and <a href="http://template-toolkit.org/" target="_blank" rel="external">Template Toolkit</a> to format and dump the output, it was efficient for me because it was very easy for me to create dumps:</p>
+<p><pre><code>use Vitacilina;</code></pre></p>
+<p>my $v = Vitacilina-&gt;new(<br>  config =&gt; “config.yml”,<br>  template =&gt; “template.tt”,<br>  output =&gt; “output.html”,<br>);<br>$v-&gt;render;<br><br>And that’s it. I used to create YAML files on the fly to create new <em>Vitacilina</em> objects and render them according to some data.</p>
+<p>The  config file would look something like this:</p>
+<p><pre><code><a href="http://myserver.com/myfeed" target="_blank" rel="external">http://myserver.com/myfeed</a>:<br>  name: Some Cool Feed<br><a href="http://feeds.feedburner.com/InfinitePigTheorem" target="_blank" rel="external">http://feeds.feedburner.com/InfinitePigTheorem</a>:<br>  name: David Moreno<br></code></pre><br>And the template file:</p>
+<p><pre><code> [% FOREACH p IN data %]<br>  &lt;a href=”[% p.permalink %]”&gt;[% p.title %]&lt;/a&gt;<br>   by &lt;a href=”[% p.channelUrl %]”&gt;[% p.author %]&lt;/a&gt;</code></pre></p>
+<p> [% END %]<br><br>In that way, it’s very simple, quick and easy to do aggregations. I just love TT, why wouldn’t I? :-)</p>
+<p>So go grab <a href="http://search.cpan.org/~damog/Vitacilina-0.1/" target="_blank" rel="external">Vitacilina at CPAN</a>. Also, the Git repo is at <a href="http://github.com/damog/vitacilina" target="_blank" rel="external">github.com/damog/vitacilina</a>.</p>
+<p>However… I started to hack on a similar more ambitious project called <a href="http://github.com/damog/rfeed" target="_blank" rel="external">rFeed</a>, that it’s more of a framework than a simple library, which is why I stopped further Vitacilina development. I’ll talk about rFeed later when the time comes.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/cpan/">cpan</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/feed/">feed</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/rfeed/">rfeed</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/vitacilina/">vitacilina</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/yaml/">yaml</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-more-git-tips" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/01/19/more-git-tips/" class="article-date">
+  <time datetime="2009-01-20T00:01:15.000Z" itemprop="datePublished">Mon Jan 19, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/01/19/more-git-tips/">More Git tips?</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Make sure you add the just launched <a href="http://gitready.com/" target="_blank" rel="external">git ready</a> blog to your feed reader. Made by <a href="http://litanyagainstfear.com/" target="_blank" rel="external">qrush</a>. Audience applauds!</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/blog/">blog</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/git/">git</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-introducing-apache2embedflv-%e2%80%93-exposing-flvs-with-flowplayer-and-a-customized-interface" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/01/17/introducing-apache2embedflv-%e2%80%93-exposing-flvs-with-flowplayer-and-a-customized-interface/" class="article-date">
+  <time datetime="2009-01-18T00:22:43.000Z" itemprop="datePublished">Sat Jan 17, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/01/17/introducing-apache2embedflv-%e2%80%93-exposing-flvs-with-flowplayer-and-a-customized-interface/">Introducing Apache2::EmbedFLV – Exposing FLVs with Flowplayer and a customized interface</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><strong>Situation</strong></p>
+<p>You have a bunch of Flash videos, FLV files. Every once in a while you dump new files on your publicly accessible Apache directory. You would like to give your users the ability to play those FLVs within a webpage you provide, instead of just serving them the files for a direct download. Maybe you want this for all FLVs, not only an specific directory.</p>
+<p><strong>Solution</strong></p>
+<p><a href="http://axiombox.com/apache2-embedflv" target="_blank" rel="external">Apache2::EmbedFLV</a>!</p>
+<p><pre><code>&lt;Files ~ “.flv$”&gt;<br>  SetHandler modperl<br>  PerlResponseHandler Apache2::EmbedFLV<br>&lt;/Files&gt;<br></code></pre><br>So now, all your FLV files will be served through Apache2::EmbedFLV on mod_perl with a neat interface you can define yourself, and using the very nice and GPL’ed <a href="http://flowplayer.org" target="_blank" rel="external">Flowplayer</a>.</p>
+<p>Apache2::EmbedFLV uses a default template, but you can define your own with:</p>
+<p><pre><code>&lt;Files ~ “.flv$”&gt;<br>  SetHandler modperl<br>  PerlSetVar template /path/to/your/template.tt<br>  PerlResponseHandler Apache2::EmbedFLV<br>&lt;/Files&gt;</code></pre><br>Also, Apache2::EmbedFLV expects to find Flowplayer (flowplayer.swf and flowplayer.controls.swf) on <a href="http://your.server.com/flowplayer.swf" target="_blank" rel="external">http://your.server.com/flowplayer.swf</a>, the root of your server. So you can do something like this to make it work:</p>
+<p><pre><code>Alias /flowplayer.swf /home/web/flowplayer/flowplayer.swf<br>Alias /flowplayer.controls.swf /home/web/flowplayer/flowplayer.controls.swf</code></pre><br>Or, you just define the flowplayer variable:</p>
+<p><pre><code>&lt;Files ~ “.flv$”&gt;<br>  SetHandler modperl</code></pre></p>
+<h1 id="relative_to_the_document_root">relative to the document root</h1><p>  PerlSetVar flowplayer /swf/flowplayer.swf</p>
+<h1 id="or_absolute:">or absolute:</h1><p>  PerlSetVar flowplayer <a href="http://my.other.server/was/hacked/flowplayer.swf" target="_blank" rel="external">http://my.other.server/was/hacked/flowplayer.swf</a><br>  PerlResponseHandler Apache2::EmbedFLV<br>&lt;/Files&gt;<br><strong>Action!</strong></p>
+<p>You can see it in action at <a href="http://axiombox.com/apache2-embedflv/flv" target="_blank" rel="external">http://axiombox.com/apache2-embedflv/flv</a>.</p>
+<p><a href="http://axiombox.com/apache2-embedflv/flv/radiohead_bodysnatchers2.flv" target="_blank" rel="external">This Radiohead video</a> is particularly cool :-)</p>
+<p><strong>Getting it</strong></p>
+<p><ul><br>    <li>More information at its homepage, <a href="http://axiombox.com/apache2-embedflv" target="_blank" rel="external">http://axiombox.com/apache2-embedflv</a></li><br>    <li><a href="http://search.cpan.org/~damog/Apache2-EmbedFLV-0.2/" target="_blank" rel="external">CPAN module</a>.</li><br>    <li><a href="http://github.com/damog/apache2-embedflv" target="_blank" rel="external">Git repository</a>, as usual, on GitHub.</li><br></ul><br>UPDATE: Oops! Fixed link to Flowplayer’s website! <a href="http://flowplayer.org" target="_blank" rel="external">flowplayer.org</a>. Thanks to those who noticed and let me knew.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/apache/">apache</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/flowplayer/">flowplayer</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/flv/">flv</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/mod-perl/">mod_perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/swf/">swf</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-feathercast-apache-software-foundation-unofficial-podcast" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/01/17/feathercast-apache-software-foundation-unofficial-podcast/" class="article-date">
+  <time datetime="2009-01-17T20:41:32.000Z" itemprop="datePublished">Sat Jan 17, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/01/17/feathercast-apache-software-foundation-unofficial-podcast/">FeatherCast: Apache Software Foundation /unofficial/ podcast</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>I recently stumbled upon <a href="http://feathercast.org/" target="_blank" rel="external">FeatherCast</a>, a nice little project made by <a href="http://wooga.drbacchus.com/" target="_blank" rel="external">Rich Bowen</a> and David Reid, the former, a recognized documenter within the Apache community, author of a few <a href="http://www.amazon.com/exec/obidos/search-handle-url/ref=ntt_athr_dp_sr_1?_encoding=UTF8&amp;search-type=ss&amp;index=books&amp;field-author=Rich%20Bowen" target="_blank" rel="external">books</a> on the webserver, mainly the <a href="http://www.apache-cookbook.com/" target="_blank" rel="external">Apache Cookbook</a>. FeatherCast is an unofficial podcast; its primary goal is supporting the <a href="http://apache.org" target="_blank" rel="external">Apache Software Foundation</a> community. I’ve found it to be greatly interesting, modern and up to date; more recently, bringing lights to some of the content and people, for instance, featured on <a href="http://www.us.apachecon.com/c/acus2008/" target="_blank" rel="external">ApacheCon</a>, which took place in New Orleans, LA, late last year.</p>
+<p>Great effort, great initiative: Subscribe and support FeatherCast!</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/apache/">apache</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/feathercast/">feathercast</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/podcast/">podcast</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/tips/">tips</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+  
+    <nav id="page-nav">
+      <a class="extend prev" rel="prev" href="/blog/page/9/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/8/">8</a><a class="page-number" href="/blog/page/9/">9</a><span class="page-number current">10</span><a class="page-number" href="/blog/page/11/">11</a><a class="page-number" href="/blog/page/12/">12</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/75/">75</a><a class="extend next" rel="next" href="/blog/page/11/">Next &raquo;</a>
+    </nav>
+  
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Tip Perl del día: chr y oct en un loop map | dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="La función map de Perl es muy poderosa. O como diría entre cuates, mucho muy poderosa. Básicamente lo que hace es evaluar en un bloque, cada uno de los elementos de una lista.El día de hoy, en uno de">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Tip Perl del día: chr y oct en un loop map">
+<meta property="og:url" content="http://damog.net/blog/2007/10/22/tip-perl-del-dia-chr-y-oct-en-un-loop-map/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description" content="La función map de Perl es muy poderosa. O como diría entre cuates, mucho muy poderosa. Básicamente lo que hace es evaluar en un bloque, cada uno de los elementos de una lista.El día de hoy, en uno de">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Tip Perl del día: chr y oct en un loop map">
+<meta name="twitter:description" content="La función map de Perl es muy poderosa. O como diría entre cuates, mucho muy poderosa. Básicamente lo que hace es evaluar en un bloque, cada uno de los elementos de una lista.El día de hoy, en uno de">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-tip-perl-del-dia-chr-y-oct-en-un-loop-map" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2007/10/22/tip-perl-del-dia-chr-y-oct-en-un-loop-map/" class="article-date">
+  <time datetime="2007-10-22T11:50:03.000Z" itemprop="datePublished">Mon Oct 22, 2007</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      Tip Perl del día: chr y oct en un loop map
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>La función map de Perl es muy poderosa. O como diría entre cuates, <em>mucho muy</em> poderosa. Básicamente lo que hace es evaluar en un bloque, cada uno de los elementos de una lista.<br><br>El día de hoy, en uno de los blogs que <a href="http://www.maggit.com.mx" target="_blank">mi chava</a> y yo (y otra bola de nacos por ahí de quienes estamos al pendiente) solemos visitar a menudo (porque es muy pendejo y nos gusta reírnos de vez en cuando), la escritora publicó <a href="http://plaqueta.blogspot.com/2007/10/ceros-y-unos-todo-bajo-control.html" target="_blank">un post</a> con cadenas en binario (típico entre personas que quieren parecer interesantes usando truquitos que siempre han existido). Como buen chismoso que soy, me di a la tarea de descifrar aquella maraña, pues suponía era un mensaje oculto. Como el resultado de dicha cadena es irrelevante aquí, crearé otra diferente que servirá para ejemplificar el tip del día.<br></p><br><blockquote>my $string = &#8220;10100001&#160;01001000&#160;01101111&#160;01101100&#160;01100001&#160;00101100&#160;00100000&#160;01110011&#160;01101111&#160;01111001&#160;00100000&#160;01110101&#160;01101110&#160;00100000&#160;01101101&#160;01100101&#160;01101110&#160;01110011&#160;01100001&#160;01101010&#160;01100101&#160;00100000&#160;01101111&#160;01100011&#160;01110101&#160;01101100&#160;01110100&#160;01101111&#160;00100000&#160;01100101&#160;01101110&#160;00100000&#160;01100011&#160;01100101&#160;01110010&#160;01101111&#160;01110011&#160;00100000&#160;01111001&#160;00100000&#160;01110101&#160;01101110&#160;01101111&#160;01110011&#160;00100001&#8221;;</blockquote><br><p><br>Ahora, con un poco de magia de map, podríamos iterar en cada uno de esos octales. Nos ayudaremos de split, para que haga la chamba:<br></p><br><blockquote><br><p align="left">map {<br>print chr oct &#8216;0b&#8217;.$_;<br>} split /\s/, $string;</p><br></blockquote><br><p align="left">A map, le pasamos un arreglo. ¿Qué arreglo? El producido por split, que nos devuelve uno, precisamente, a partir de la cadena $string y el delimitador para separar cada uno de los elementos es /\s/, whitespace. Ya obtenido el arreglo, es pasado a map que toma cada uno de los elementos, les agrega el prefijo &#8216;0b&#8217;, para que Perl entienda que la cadena pasada es en realidad un dato binario. Luego oct toma esa cadena y la interpreta como una cadena octal y le pasa a chr el valor correspondiente. Éste último toma ese valor, representado por el número obtenido por oct y lo traduce a su caracter correspondiente en ASCII o Unicode. Ese valor, finalmente, se lo pasa a print que lo imprime en pantalla, desde luego :-)</p><br><p align="left">Le queda de tarea al lector descifrar lo que $string contenía. ;-) Próximo tip, relacionado con map: Divirtiéndonos con grep.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2007/10/22/uhm-2/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Uhm... 2
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2007/10/18/tip-perl-del-dia-0e0/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          Tip Perl del día: 0E0
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

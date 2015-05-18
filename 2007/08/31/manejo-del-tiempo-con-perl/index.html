@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Manejo del tiempo con Perl | dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Manejo del tiempo con Perl
+La Columna.pl #1 - Mayo 21, 2007.Recientemente, por algunas de las necesidades que tuvimos en el trabajo, necesitamos manejar de alguna forma fechas y horas desde nuestros s">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Manejo del tiempo con Perl">
+<meta property="og:url" content="http://damog.net/blog/2007/08/31/manejo-del-tiempo-con-perl/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description" content="Manejo del tiempo con Perl
+La Columna.pl #1 - Mayo 21, 2007.Recientemente, por algunas de las necesidades que tuvimos en el trabajo, necesitamos manejar de alguna forma fechas y horas desde nuestros s">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Manejo del tiempo con Perl">
+<meta name="twitter:description" content="Manejo del tiempo con Perl
+La Columna.pl #1 - Mayo 21, 2007.Recientemente, por algunas de las necesidades que tuvimos en el trabajo, necesitamos manejar de alguna forma fechas y horas desde nuestros s">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-manejo-del-tiempo-con-perl" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2007/08/31/manejo-del-tiempo-con-perl/" class="article-date">
+  <time datetime="2007-09-01T03:46:54.000Z" itemprop="datePublished">Fri Aug 31, 2007</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      Manejo del tiempo con Perl
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p></p><h2><br><strong>Manejo</strong> <strong>del</strong> <strong>tiempo</strong> <strong>con</strong> <strong>Perl</strong><br></h2><p></p>
+<p><a href="http://www.damog.net/columnapl" target="_blank">La Columna.pl</a> #1 - Mayo 21, 2007.<br><br>Recientemente, por algunas de las necesidades que <a href="http://www.maggit.com.mx/" target="_blank">tuvimos</a> en el trabajo, necesitamos manejar de alguna forma fechas y horas desde nuestros scripts y aplicaciones en <a href="http://www.perl.com/pub/a/1999/03/pm.html" target="_blank"><strong>Perl</strong></a>. Hace no-sé-cuántos años, los franceses propusieron un sistema decimal para manejar el <strong>tiempo</strong>, pero el método fue impopular entre la comunidad científica. Si hubiera sido así, manejar las fechas y horas en cualquier sistema, hubiera sido tan fácil que no habría tantas implementaciones para trabajar <strong>con</strong> él, como hoy en día. Pero bueno, el hubiera no existe.<br><br>En <strong>Perl</strong> a veces nos confunde sobre si necesitamos usar <a href="http://perldoc.perl.org/functions/localtime.html" target="_blank">localtime</a>, <a href="http://perldoc.perl.org/functions/time.html" target="_blank">time</a>, <a href="http://perldoc.perl.org/functions/gmtime.html" target="_blank">gmtime</a>, <a href="http://search.cpan.org/%7Edrolsky/DateTime-0.37/lib/DateTime.pm" target="_blank">DateTime.pm</a>, etc. para trabajar <strong>con</strong> el <strong>tiempo</strong>. En realidad es mucho más sencillo de lo que parece. Espero que estas minirecetas le sirvan a alguien cuando encuentre este texto buscando por ahí en la red el <strong>manejo</strong> <strong>del</strong> <strong>tiempo</strong> <strong>con</strong> <strong>Perl</strong>. Lo haré a manera de FAQ.<br><br>¿Cómo obtengo la fecha actual?<br>La función localtime nos devuelve la fecha actual, pero lo hace en forma de una lista de 9 elementos que podemos obtener de una manera sencilla:<br><br>my @fecha = localtime; # La lista tiene el formato (seg, min, hora, día mes, mes, año, día sem, día año, DST).<br><br>De esta forma, cada uno de los elementos <strong>del</strong> arreglo @fecha, será, por orden, el de ese formato, de ahí podrías usar $fecha[0] para obtener el segundo, $fecha[1] para los minutos, y así sucesivamente. Puedes obtener más información en perldoc -f localtime.<br><br>¿Y time? ¿Qué es? ¿Cuándo lo utilizo? ¿localtime no se mandaba llamar como localtime(time)?<br><br>La función time nos regresa la cantidad de segundos desde el epoch, léase, el 1 de enero de 1970, UTC, como en la mayoría de los sistemas actuales. time realmente lo hace desde cualquier epoch de acuerdo a la arquitectura de la máquina, pero supondremos que ese no es el caso.<br><br>damog@cochina:~$ <strong>perl</strong> -e ‘print time.”\n”;’<br>1179168385<br>localtime toma como parámetro una cierta cantidad de segundos. Por default, toma el valor de time. Así que podemos usar tanto localtime como localtime(time) cuando usemos dicha función.<br><br>Pero lo que yo quiero es obtener la fecha en el formato que yo quiera.<br><br>Tienes dos opciones. Una, es usar el contexto escalar de localtime, es decir, tratar lo que nos regresa localtime como una variable escalar, no como una lista. Ejemplo:<br><br>damog@cochina:~$ <strong>perl</strong> -e ‘$fecha = localtime; print $fecha, “\n”;’<br>Wed May 16&#160;19:29:55&#160;2007<br>damog@cochina:~$<br><br>Sencillo, ¿no? Lo cual es lo mismo que usar la función scalar, sin tener que asignar forzosamente a una variable escalar:<br><br>damog@cochina:~$ <strong>perl</strong> -e ‘print scalar localtime, “\n”‘<br>Wed May 16&#160;19:30:55&#160;2007<br>damog@cochina:~$<br><br>Puedes echar un ojo a <a href="http://perldoc.perl.org/perllocale.html" target="_blank">perllocale</a> si es que la fecha te interesa en otro idioma.<br><br>Lo más sencillo, desde mi muy personal punto de vista, y la otra opción, es usar strftime. No hay que temer a usarlo, básicamente utiliza la misma sintaxis que su predecesor, strftime de C. A final de cuentas es bien sencillo (incluso a veces yo echo un rápido vistazo a la página de strftime de PHP que explica cómo usar la función y es la misma implementación). Esta función se encuentra en el módulo estándar <a href="http://perldoc.perl.org/POSIX.html" target="_blank">POSIX</a>, que podría ser que ya tengas cargado en tu distribución o sistema operativo. Lo que strftime necesita, es el formato en el que necesitas la fecha, y el <strong>tiempo</strong> en segundos desde el epoch.<br><br>Supongamos que queremos la fecha <strong>del</strong> día de hoy, en el formato AAAA-MM-DD:<br><br>damog@cochina:~$ <strong>perl</strong> -e ‘<br>&gt; use POSIX qw(strftime);<br>&gt; print strftime(”%Y-%m-%d”, localtime), “\n”;<br>&gt; ‘<br>2007-05-17<br>damog@cochina:~$<br><br>¿Muy simple, no?<br><br>Incluso, si queremos hacer un poco de matemáticas <strong>con</strong> días, lo podemos hacer <strong>con</strong> strftime, por ejemplo, queremos la fecha de ayer en formato AAAA-MM-DD hh-mm-ss:<br><br>damog@cochina:~$ <strong>perl</strong> -e ‘<br>&gt; use POSIX qw(strftime);<br>&gt; print strftime(”%Y-%m-%d %H:%M:%S”, localtime(time - 86400)), “\n”;<br>&gt; ‘<br>2007-05-16&#160;10:14:06<br>damog@cochina:~$<br>Como que no entendí muy bien eso de los contextos de localtime. ¿Me lo podrías aclarar?<br><br>Claro. localtime es manejado por <strong>Perl</strong> desde dos conceptos para su valor de retorno. Uno es el contexto de escalar y uno en el contexto de lista (como sabes, <strong>Perl</strong> utiliza estos dos tipos -u otros- de conceptos para el <strong>manejo</strong> de sus variables). El contexto escalar de localtime es el que nos regresa una fecha formateada (puedes echar un ojo también a la función scalar, si tienes duda al respecto); el contexto de lista de localtime nos regresa un arreglo, donde cada uno de sus elementos, corresponde a un atributo de la fecha, como la documentación de la función nos lo indica y como lo indicaba líneas arriba. Es bien simple.<br><br>De hecho, los conceptos de escalar y lista es muy simple. Una variable escalar puede contener cadenas, valores numéricos, referencias, etc. Una variable de lista son arreglos, los cuales, a su vez, contienen elementos escalares, listados en ellos. Como una nota al margen, actualmente las variables escalares de las listas son manejadas de la forma $arreglo[2], por ejemplo, así es como <strong>Perl</strong> 5 lo maneja. En <a href="http://dev.perl.org/perl6/" target="_blank"><strong>Perl</strong> 6</a> se utilizarán los elementos de las listas de la forma @arreglo[2], lo cual es mucho más intuitivo y natural, pero mientras <strong>Perl</strong> 6 no vea la luz oficialmente, esta nota queda sólo como una acotación adicional :-)<br><br>Aún se me hace un poco complicado, ¿no hay una forma más fácil?<br><br>¡Desde luego! There is more than one way to do it. Hay una cantidad enorme de módulos de fecha y hora disponibles en <a href="http://search.cpan.org/" target="_blank" rel="external">CPAN</a>, sin embargo, el que ha gozado de gran aceptación por su buena implementación y diseño, es DateTime.<br><br><strong>Con</strong> DateTime podemos manejar fechas y tiempos en una forma mucho más natural e intuitiva, podemos hacer operaciones matemáticas de una forma mucho más lingüística, que puede terminar ayudando mucho más la naturaleza y la lógica de nuestros programas:<br><br>¿Cómo puedo obtener la hora actual <strong>con</strong> DateTime?<br><br>Bien simple:<br><br>damog@cochina:~$ <strong>perl</strong> -e ‘<br>&gt; use DateTime;<br>&gt;<br>&gt; my $hoy = DateTime-&gt;now();<br>&gt; print $hoy, “\n”;<br>&gt; ‘<br>2007-05-17T16:26:12<br>damog@cochina:~$<br><br>Sin embargo, hay que ser un poco cuidadosos al usar el método now() pues nos regresa la fecha en UTC. Para eso, podemos crear el objeto $hoy, especificando nuestra zona horaria:<br><br>damog@cochina:~$ <strong>perl</strong> -e ‘<br>&gt; use DateTime;<br>&gt; my $hoy = DateTime-&gt;now(time_zone =&gt; “America/Chicago”);<br>&gt; print $hoy, “\n”;<br>&gt; ‘<br>2007-05-17T11:29:51<br>damog@cochina:~$<br><br>Ese objeto, puede ser utilizado para muchas más cosas. Por ejemplo, a una fecha, sumarle un mes, no es lo mismo que sumarle 28 días, ó 30, ó 31. Mira este ejemplo, donde crearemos un objeto DateTime <strong>con</strong> una fecha en el pasado y le sumaremos un mes y luego le restaremos dos años:<br><br>damog@cochina:~$ <strong>perl</strong> -e ‘<br>&gt; use DateTime;<br>&gt; my $fecha = DateTime-&gt;new(<br>&gt; year =&gt; 1984,<br>&gt; month =&gt; 8,<br>&gt; day =&gt; 8,<br>&gt; hour =&gt; 2,<br>&gt; minute =&gt; 0);<br>&gt; print $fecha-&gt;add(months =&gt; 1), “\n”;<br>&gt; print $fecha-&gt;add(years =&gt; -2), “\n”;<br>&gt; print “DateTime es la onda!\n”;<br>&gt; ‘<br>1984-09-08T02:00:00<br>1982-09-08T02:00:00<br>DateTime es la onda!<br>damog@cochina:~$<br><br>Podemos ver que creamos un objecto DateTime llamado $fecha que apunta hacia el 8 de agosto de 1984, 2 de la mañana. A él, le sumamos un mes y luego le restamos dos años. Simple, ¿no crees?<br><br>¿Y cómo puedo hacer una diferencia de fechas?<br><br>Creo que lo más sencillo para utilizar, es Date::Manip. Observa este ejemplo:<br><br>damog@cochina:~$ <strong>perl</strong> -e ‘<br>&gt; use Date::Manip;<br>&gt; my $hoy = ParseDate(”today”);<br>&gt; my $fecha_nacimiento = ParseDate(”1984-08-08&#160;02:00:00″);<br>&gt; $delta = DateCalc($fecha_nacimiento, $hoy, \$err, 1);<br>&gt; print $delta, “\n”;<br>&gt; ‘<br>+22:9:1:2:9:55:34<br>damog@cochina:~$<br><br>Básicamente, creamos dos cadenas, $hoy y $fecha_nacimiento y luego las pasamos por &amp;DateCalc, que requiere ambas fechas, una referencia a una variable de error y la variable 1, como modo de operación que nos hará la diferencia entre ambas fechas. Esto nos regresa una cadena parseable para el método &amp;ParseDateDelta, cuyo formato nosotros podemos utilizar y parsear:<br><br>my ($anos, $meses, $semanas, $dias, $horas, $minutos, $segundos)<br><br>= $delta =~ /^+(\d+):(\d+):(\d+):(\d+):(\d+):(\d+):(\d+)$/;<br><br>Echando rápidamente una mirada a la cadena, podemos saber que en el momento de escribir esta guía, tengo 22 años, 9 meses, 1 semana, 2 días, 9 horas, 55 minutos y 34 segundos de vida. :-)<br><br>¿Pero y si quiero convertir una cierta fecha a segundos desde el epoch?<br><br>El módulo POSIX también proporciona una función bien sencilla llamada <a href="http://perldoc.perl.org/POSIX.html" target="_blank">mktime</a> que puede ser usada para precisamente esto.<br><br>Como puede verse en la documentación de esta función, la sintaxis es la siguiente:<br><br>mktime(sec, min, hour, mday, mon, year, wday = 0, yday = 0, isdst = 0);<br><br>Quiero saber la cantidad de segundos hasta el momento que mis padres me han dicho que nací, 2 am, <strong>del</strong> 8 de agosto de 1984. El valor mon es contabilizado desde 0, el cual es enero, y así sucesivamente hasta el 11 que es diciembre. De forma similar <strong>con</strong> wday y yday. El argumento year, empieza desde 1900. Dicho lo anterior, podemos calcular:<br><br>damog@cochina:~$ <strong>perl</strong> -e ‘<br>&gt; use POSIX qw(mktime);<br>&gt;<br>&gt; print mktime(0, 0, 2, 8, 7, 84), “\n”;<br>&gt; ‘<br>460800000<br>damog@cochina:~$<br><br>Ahí utilizamos 0 para el segundo, 0 para el minuto, 2 para la hora, 8 para el día <strong>del</strong> mes, 7 para el mes <strong>del</strong> año (agosto, recordemos que empiezan desde cero) y 84 para el año desde 1900. Nací en el segundo 460800000 desde el epoch. Pero vamos a ver si eso es cierto, usaremos una combinación de mktime y localtime, en su contexto escalar:<br><br>damog@cochina:~$ <strong>perl</strong> -e ‘<br>&gt; use POSIX qw (mktime);<br>&gt;<br>&gt; print scalar localtime(mktime(0, 0, 2, 8, 7, 84)), “\n”;<br>&gt; ‘<br>Wed Aug  8&#160;02:00:00&#160;1984<br>damog@cochina:~$<br><br>Parece que así es :-) Nací en el segundo  460800000. Era miércoles :-)<br><br>Como puedes ver, no es la gran cosa procesar fechas y horas en <strong>Perl</strong>, realmente es sencillo y sólo es cosa de excarvarle un poquito por aquí y por allá y usar cinta adhesiva para obtener lo que queremos de una forma eficiente y útil.<br><br>Ojalá te sirva, espero que te hayas divertido aprendiendo un poquito sobre el <strong>tiempo</strong> en <strong>Perl</strong> así como yo me divertí escribiendo. Puedes hacerme llegar tus comentarios a &lt;<a href="mailto:damog@ciencias.unam.mx" target="_blank">damog@ciencias.unam.mx</a>&gt;.<br><br>Información extendida recomendada:<br></p><br><ul><br><li><a href="http://www.perl.com/pub/a/2003/03/13/datetime.html" target="_blank">The Many Dates and Times of <strong>Perl</strong></a></li><br><li><a href="http://perl.about.com/od/perltutorials/a/perllocaltime.htm" target="_blank">How to tell the current time in <strong>Perl</strong></a></li><br><li><a href="http://www.stonehenge.com/merlyn/UnixReview/col25.html" target="_blank">Getting a date with <strong>Perl</strong></a></li><br><li><a href="http://datetime.perl.org/?FAQ" target="_blank">DateTime Project FAQ</a></li><br></ul><br><hr><br><p><br>Sobre el autor: Durante el día, David Moreno Garza (<a href="http://www.damog.net//" target="_blank">damog</a>) desarrolla aplicaciones, sistemas y proyectos para una incipiente empresa internacional de telecomunicaciones; adicionalmente es consultor independiente en empresas mexicanas y extranjeras utilizando <strong>Perl</strong>. Durante la noche intenta salvar al mundo <strong>del</strong> mal usando expresiones regulares y netiquette.<br></p><br><hr><br><p><br>Copyright © 2007 David Moreno Garza.This material may be distributed only subject to the terms and conditions set forth in the Open Publication License, v1.0 or later (the latest version is presently available at <a href="http://www.opencontent.org/openpub/" target="_blank" rel="external"><a href="http://www.opencontent.org/openpub/" target="_blank" rel="external">http://www.opencontent.org/openpub/</a></a>). </p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2007/08/31/redirecciones/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Redirecciones
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2007/08/31/pequenas-herramientas-para-grandes-necesidades/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          Pequeñas herramientas para grandes necesidades
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

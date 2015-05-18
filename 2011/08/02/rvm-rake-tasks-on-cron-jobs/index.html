@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>RVM + Rake tasks on Cron jobs | dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="RVM hates my guts. And it doesn’t matter, because I hate RVM back even more. Since I was technologically raised by aging wolfs, I have strong reasons to believe that you just shouldn’t have mixed vers">
+<meta property="og:type" content="article">
+<meta property="og:title" content="RVM + Rake tasks on Cron jobs">
+<meta property="og:url" content="http://damog.net/blog/2011/08/02/rvm-rake-tasks-on-cron-jobs/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description" content="RVM hates my guts. And it doesn’t matter, because I hate RVM back even more. Since I was technologically raised by aging wolfs, I have strong reasons to believe that you just shouldn’t have mixed vers">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="RVM + Rake tasks on Cron jobs">
+<meta name="twitter:description" content="RVM hates my guts. And it doesn’t matter, because I hate RVM back even more. Since I was technologically raised by aging wolfs, I have strong reasons to believe that you just shouldn’t have mixed vers">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-rvm-rake-tasks-on-cron-jobs" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2011/08/02/rvm-rake-tasks-on-cron-jobs/" class="article-date">
+  <time datetime="2011-08-02T15:57:38.000Z" itemprop="datePublished">Tue Aug 2, 2011</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      RVM + Rake tasks on Cron jobs
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><a href="https://rvm.beginrescueend.com/" target="_blank" rel="external">RVM</a> hates my guts. And it doesn’t matter, because I hate RVM back even more. Since I was technologically raised by aging wolfs, I have strong reasons to believe that you just shouldn’t have mixed versions of software on your production systems, specially, if a lot of things are poorly tested, like <a href="http://rubygems.org/" target="_blank" rel="external">most of Ruby libraries</a>, aren’t backward compatible. I was raised on a world where everything worked greatly because the good folks at projects like <a href="http://www.debian.org/" target="_blank" rel="external">Debian</a> or <a href="http://search.cpan.org/" target="_blank" rel="external">Perl</a> have some of the greatest QA processes of all time, hands down. So, when someone introduces a thing like RVM which not only promotes having hundreds of different versions of the same software, both on development, testing and production environments, but also encourages poor quality looking back and looking forward, there isn’t anything else but to lose faith in humanity.</p>
+<p>But enough for ranting.</p>
+<p>I had to deliver this side project that works with the <a href="http://dev.twitter.com/" target="_blank" rel="external">Twitter API</a> and the only requirement pretty much was that it had to be both run from the shell but also loaded as a class within a Ruby script. And so I did everything locally with my great local installation of Ruby 1.8.7. When it came the time to load on the testing/production server I found myself on a situation where pathetic RVM was installed. After spending hours trying to accommodate my changes to run properly with Ruby 1.9.2, I set up a cron job using crontab to run my shit every now and then. And the shit wasn’t even running properly. Basically, my crontab line looked something like this:</p>
+<p><code lang="bash"><br><em>/30 </em> <em> </em> * cd /home/david/myproject &amp;&amp; rake awesome_task<br></code></p>
+<p>And that was failing, crontab was returning some crazy shit like “Ruby and/or RubyGems cannot find the rake gem”. Seriously? Then I thought, well, maybe my environment needs to be loaded and whatever, so I made a bash script with something like this:</p>
+<p><code lang="bash"></code></p>
+<h1 id="!/bin/bash">!/bin/bash</h1><p>cd /home/david/myproject<br>/full/path/to/rvm/bin/rake -f Rakefile awesome_task<br></p>
+<p>And that was still failing with the same error. So after trying to find out how cron jobs and crontab load Bash source files, I took a look at <a href="http://wiki.debian.org/DotFiles" target="_blank" rel="external">how Debian starts its shell</a> upon login. And while that didn’t tell me that much that I didn’t know, I went to look at the system-wide /etc/profile and found a gem, a wonderful directory /etc/profile.d/ where a single shitty file was sitting, smiling back at me, like waiting for me to find it out and swear on all problems in life: rvm.sh. /etc/profile is not being loaded when I just run /bin/bash by my crappy script, only when I log in, I should’ve known this. Doesn’t RVM solve the issue of having system-wide installations so the user doesn’t have to deal with, you know, anything outside of his own /home ?</p>
+<p>So I had to go ahead and do:</p>
+<p><code lang="bash"></code></p>
+<h1 id="!/bin/bash-1">!/bin/bash</h1><p>source /etc/profile<br>cd /home/david/myproject<br>/full/path/to/rvm/bin/rake -f Rakefile awesome_task<br></p>
+<p>And hours later I was able to continue with work. Maybe this will help some poor bastard like myself on similar situation on the future.</p>
+<p>Of course one can argue that I could’ve installed my own RVM and its Ruby versions, but why, oh why, if it was, apparently, already there. Why would I have to fiddle with the Ruby installations if all I want is get my shit done and head to City Bakery where I can spend that money I just earned on chocolate cookies? My work is pretty simple to run with pretty much any ancient version of Ruby, nothing fancy (unless you call MongoMapper fancy). RVM is a great project that doesn’t solve an issue, but just hides some really fucked up shit on the Ruby community.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/cron/">cron</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/crontab/">crontab</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/rake/">rake</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/ruby/">ruby</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/rubygems/">rubygems</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/rvm/">rvm</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2012/03/05/lessons-learned-and-real-experience/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Lessons learned and real experience
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2011/07/01/debconf-11/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          DebConf 11
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>
