@@ -1,0 +1,67 @@
+title: dm's blog
+subtitle: David Moreno's technical and not too technical blog
+description:
+author: David Moreno
+language:
+timezone:
+
+url: http://damog.net/blog
+root: /blog/
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  tab_replace:
+
+default_category: uncategorized
+category_map:
+tag_map:
+
+date_format: ddd MMM D, YYYY
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+theme: apollo
+
+deploy:
+- type: git
+  repo: git@github.com:damog/blog.git
+- type: rsync
+  user: damog
+  host: home
+  root: blog
+  delete: true
+  verbose: true
+  ignore_errors: true
+
+feed:
+    type: atom
+    path: atom.xml
+    limit: 30
+
