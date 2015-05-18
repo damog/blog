@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Google&#39;s first tweet | dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Google created an official Twitter account. Its first tweet was something odd:
+I’m 01100110 01100101 01100101 01101100 01101001 01101110 01100111 00100000 01101100 01110101 01100011 01101011 01111001">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Google's first tweet">
+<meta property="og:url" content="http://damog.net/blog/2009/02/26/googles-first-tweet/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description" content="Google created an official Twitter account. Its first tweet was something odd:
+I’m 01100110 01100101 01100101 01101100 01101001 01101110 01100111 00100000 01101100 01110101 01100011 01101011 01111001">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Google's first tweet">
+<meta name="twitter:description" content="Google created an official Twitter account. Its first tweet was something odd:
+I’m 01100110 01100101 01100101 01101100 01101001 01101110 01100111 00100000 01101100 01110101 01100011 01101011 01111001">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-googles-first-tweet" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/02/26/googles-first-tweet/" class="article-date">
+  <time datetime="2009-02-26T19:02:34.000Z" itemprop="datePublished">Thu Feb 26, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      Google&#39;s first tweet
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><a href="http://google.com" target="_blank" rel="external">Google</a> created an official <a href="http://twitter.com" target="_blank" rel="external">Twitter</a> <a href="http://twitter.com/google" target="_blank" rel="external">account</a>. Its <a href="http://twitter.com/google/status/1251523388" target="_blank" rel="external">first tweet</a> was something odd:</p>
+<p><blockquote><span class="status-body"><span class="entry-content">I’m 01100110 01100101 01100101 01101100 01101001 01101110 01100111 00100000 01101100 01110101 01100011 01101011 01111001 00001010</span></span></blockquote><br>I had <a href="http://log.damog.net/2007/10/tip-perl-del-dia-chr-y-oct-en-un-loop-map/" target="_blank" rel="external">previously written</a> (in Spanish, for <a href="http://log.damog.net/index.php?s=columna+de+perl" target="_blank" rel="external">La Columna de Perl</a>), how to quickly decode this “way” of binary writing with Perl’s <tt>chr</tt> and <tt>oct</tt>. So, to find out what was Google really tweeting, run:</p>
+<p><blockquote><br><code>perl -e ‘map { print chr oct “0b”.$_; } split /\s/, “01100110 01100101 01100101 01101100 01101001 01101110 01100111 00100000 01101100 01110101 01100011 01101011 01111001 00001010”;’</code><br></blockquote><br>So, what’s really happening with this snippet? Well, the zeroes-ones string is being passed to the <tt>split</tt> function that explodes the string with a whitespace delimiter and passes that exploded string, a list, to <tt>map</tt>. <tt>map</tt> takes each one of the elements, the 8-character substring, one by one and preppends “<tt>0b</tt>“ so that <tt>oct</tt> can understand it as an octal string and returns the value for that character. Then, that value is passed to <tt>chr</tt> that takes the numerical representation of a given character and returns that character. Then, it’s just passed to print that, surprise, prints out that value.</p>
+<p>How do you do it in your language of choice?</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/binary/">binary</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/google/">google</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/map/">map</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/octal/">octal</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/twitter/">twitter</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2009/03/07/feedbag-significantly-faster-than-rfeedfinder/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Feedbag significantly faster than Rfeedfinder
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2009/02/19/run-a-php-script-from-mod_perl-so-perlcleanuphandler-can-be-used/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          Run a PHP script from mod_perl so PerlCleanupHandler can be used
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

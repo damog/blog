@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>DirectoryIndex and the &quot;perl-script&quot; handler | dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Wouter Verhelst blogs about combining ScriptAlias (or a way to run CGIs) and DirectoryIndex in Apache.
+
+Recently, developing a TinyURL clone I had a similar (not identical, though) issue.
+
+Basically,">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DirectoryIndex and the "perl-script" handler">
+<meta property="og:url" content="http://damog.net/blog/2008/12/02/directoryindex-and-perl-script-handler/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description" content="Wouter Verhelst blogs about combining ScriptAlias (or a way to run CGIs) and DirectoryIndex in Apache.
+
+Recently, developing a TinyURL clone I had a similar (not identical, though) issue.
+
+Basically,">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="DirectoryIndex and the "perl-script" handler">
+<meta name="twitter:description" content="Wouter Verhelst blogs about combining ScriptAlias (or a way to run CGIs) and DirectoryIndex in Apache.
+
+Recently, developing a TinyURL clone I had a similar (not identical, though) issue.
+
+Basically,">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-directoryindex-and-perl-script-handler" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2008/12/02/directoryindex-and-perl-script-handler/" class="article-date">
+  <time datetime="2008-12-02T18:12:40.000Z" itemprop="datePublished">Tue Dec 2, 2008</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      DirectoryIndex and the &quot;perl-script&quot; handler
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><a href="http://www.grep.be/blog/en/computer/play/scriptalias_index.cgi" target="_blank" rel="external">Wouter Verhelst blogs about combining</a> ScriptAlias (or a way to run CGIs) and DirectoryIndex in Apache.</p>
+
+<p>Recently, developing a TinyURL clone I had a similar (not identical, though) issue.</p>
+
+<p>Basically, I set <tt>SetHandler</tt> to <tt>perl-script</tt> on the <tt>“/“</tt> location, which basically means, everything accessed on a given virtual host, is affected. Because you are changing the handler for the entire location, <tt>DirectoryIndex</tt> will have no effect on it because <tt>mod_dir</tt> is the one dealing with the <tt>DirectoryIndex</tt> function, that is, using the <tt>DIR_MAGIC_TYPE</tt> handler.</p>
+
+<p>To fix this you can use a mod_perl (2, I never really used 1) <tt>Fixup</tt> phase handler:</p>
+
+<p><pre><br>&lt;VirtualHost *:80&gt;<br>    …<br>    <font color="#444444"># some stuff<br>    </font>…<br><br>    <font color="#444444"># PerlSections rule.<br>    </font>&lt;Perl&gt;<br>    <font color="#2040a0">$Location</font><font color="4444FF"><strong>{</strong></font><font color="#008000">&quot;/&quot;</font><font color="4444FF"><strong>}</strong></font> = <font color="4444FF"><strong>{</strong></font><br>        SetHandler =&gt; <font color="#008000">‘perl-script’</font>,<br>        <font color="#444444"># some stuff<br>        </font>PerlFixupHandler =&gt; <font color="#008000">‘Axiombox::Awbox::Fixup’</font>,<br>        <font color="#444444"># some other stuff<br>        </font>DirectoryIndex =&gt; <font color="#008000">‘whatever.html’</font>,<br>    <font color="4444FF"><strong>}</strong></font>;<br>    &lt;/Perl&gt;<br><br>&lt;/VirtualHost&gt;<br><br></pre></p>
+
+<p>If it looks incomplete is because some other information, out of the scope of this sample, like DocumentRoot or other mod_perl directives, are hidden as the “other stuff”. My <tt>Fixup.pm</tt> handler looks like this:</p>
+
+<p><pre><br><strong>package</strong> Axiombox::Awbox::Fixup;<br><br><strong>use</strong> strict;<br><strong>use</strong> warnings FATAL =&gt; <font color="a52a2a"><strong>qw</strong></font><font color="4444FF"><strong>(</strong></font>all<font color="4444FF"><strong>)</strong></font>;<br><br><strong>use</strong> Apache2::Const -compile =&gt; <font color="a52a2a"><strong>qw</strong></font><font color="4444FF"><strong>(</strong></font>DIR_MAGIC_TYPE OK DECLINED<font color="4444FF"><strong>)</strong></font>;<br><strong>use</strong> Apache2::RequestRec;<br><br><strong>sub<font color="ff0000"> handler</font> {</strong><br>    <strong>my</strong> <font color="#2040a0">$r</font> = <font color="a52a2a"><strong>shift</strong></font>;<br><br>    <strong>if</strong> <font color="4444FF"><strong>(</strong></font><font color="#2040a0">$r</font>-&gt;handler <strong>eq</strong> <font color="#008000">‘perl-script’</font> &amp;&amp;<br>        -d <font color="#2040a0">$r</font>-&gt;filename              &amp;&amp;<br>        <font color="#2040a0">$r</font>-&gt;is_initial_req<font color="4444FF"><strong>)</strong></font><br>    <font color="4444FF"><strong>{</strong></font><br>        <font color="#2040a0">$r</font>-&gt;handler<font color="4444FF"><strong>(</strong></font>Apache2::Const::DIR_MAGIC_TYPE<font color="4444FF"><strong>)</strong></font>;<br><br>        <strong>return</strong> Apache2::Const::OK;<br>    <font color="4444FF"><strong>}</strong></font><br><br>    <strong>return</strong> Apache2::Const::DECLINED;<br><font color="4444FF"><strong>}</strong></font><br><br>1;<br><br></pre></p>
+
+<p>Which is very straight-forward: If the request is set to <tt>perl-script</tt>, the requested file is a directory and if the current request is the main one, then change the handler and return to the normal flow of phases. Otherwise, decline the <tt>Fixup</tt> phase handler.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/apache/">apache</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/mod-perl/">mod_perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2008/12/09/high-order-perl-available-for-free/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          High-Order Perl available for free
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2008/11/27/gracias-2/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          Gracias 2
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

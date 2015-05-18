@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Galaxia Linux | dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Hace unos cuantos días vi que un nuevo proyecto de blogueros sobre Linux estaba siendo formado, Galaxia Linux. Al formar parte del selecto grupo de administradores de Planeta Linux, siempre nos intere">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Galaxia Linux">
+<meta property="og:url" content="http://damog.net/blog/2008/09/27/galaxia-linux/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description" content="Hace unos cuantos días vi que un nuevo proyecto de blogueros sobre Linux estaba siendo formado, Galaxia Linux. Al formar parte del selecto grupo de administradores de Planeta Linux, siempre nos intere">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Galaxia Linux">
+<meta name="twitter:description" content="Hace unos cuantos días vi que un nuevo proyecto de blogueros sobre Linux estaba siendo formado, Galaxia Linux. Al formar parte del selecto grupo de administradores de Planeta Linux, siempre nos intere">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-galaxia-linux" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2008/09/27/galaxia-linux/" class="article-date">
+  <time datetime="2008-09-27T18:23:42.000Z" itemprop="datePublished">Sat Sep 27, 2008</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      Galaxia Linux
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Hace unos cuantos días vi que un nuevo proyecto de blogueros sobre Linux estaba siendo formado, Galaxia Linux. Al formar parte del <a href="http://www.planetalinux.org/creditos.php" target="_blank" rel="external">selecto grupo de administradores de Planeta Linux</a>, siempre nos interesa sumar esfuerzos: No nos gusta pensar que hay proyectos que lo único que quieren es aprovechar el trabajo de los demás sin crédito, me gusta pensar en <a href="http://planetalinux.org/" target="_blank" rel="external">Planeta Linux</a> como un proyecto que puede ayudar a muchos otros más a formarse reforzando la comunidad latinoamericana linuxera, engordándola, consolidándola, sin embargo, bueno, ésto no es lo mismo en la dirección opuesta.</p>
+<p>Me interesó mucho que Galaxia Linux intentara hacer un ranking hispanoamericano de blogs sobre Linux y quise saber cómo lo hacían. Me sorprendió que en su sitio, para “formar parte” había que colocar una simple y burda imagen en el sitio. ¿Así es como rankean a los sitios? Lo puse pues, en varias de las instancias de Planeta Linux y cada que recargaba el sitio, se le sumaba una hit más al contador en la página del ranking. ¿No es lo más burdo e ineficaz que se les ocurre? ¿Cómo lo estaban haciendo? Su banner es claramente un GIF generado por un script en PHP. Me lo imagino tan simple como que cada que se ejecuta, lee la variable HTTP_REFERER, si el sitio ya se encuentra en una base de datos, aumenta el contador, si no es así, crea un nuevo sitio en la tablita con el hit en 1. Y ya, ese es el ranking que intentan crear. Luego, en la página principal, pues simplemente ponen los sitios que tienen más hits, aparentemente “semanalmente”. Es decir, si en el sexto día de la semana, un sitio con muchísimo tráfico “se une”, básicamente se la pela porque el contador semanal ya contó hits para otros sitios durante seis días y un par de sitios puede que tengan más por los seis días que un verdadero sitio en uno solo. Jugando, puedes hacer ésto:</p>
+<p><code><br>use LWP::UserAgent;<br>my $ua = LWP::UserAgent-&gt;new;</code></p>
+<h1 id="Ternurita…">Ternurita…</h1><p>$ua-&gt;agent(“Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)”);<br>while(1) {</p>
+<h1 id="Para_ahorrar_ancho_de_banda,_hago_HEAD,_en_lugar_de_GET">Para ahorrar ancho de banda, hago HEAD, en lugar de GET</h1><p>my $req = HTTP::Request-&gt;new(HEAD =&gt; ‘<a href="http://www.galaxialinux.com/rank/banners/banner.php" target="_blank" rel="external">http://www.galaxialinux.com/rank/banners/banner.php</a>‘);<br>$req-&gt;referer(‘<a href="http://mx.planetalinux.org/" target="_blank" rel="external">http://mx.planetalinux.org/</a>‘);<br>my $res = $c-&gt;request($req);</p>
+<h1 id="Gracias,_vuelvas_prontos-">Gracias, vuelvas prontos.</h1><p>}<br></p>
+<p>Claro, ésto también pudo haber sido hecho mucho más rápido con <a href="http://linux.about.com/library/cmd/blcmdl1_lwp-request.htm" target="_blank" rel="external">lwp-request</a>, por ejemplo, que hace precisamente lo mismo utilizando LWP. O <a href="http://log.damog.net/2008/09/galaxia-linux/" target="_blank" rel="external">como dice MaoP en los comentarios</a>, claro, con wget.</p>
+<p>¿Qué define un ranking? Rankear blogs o sitios web no es nada sencillo, no es nada más darles a los sitios una imagen para que la inserten, me gustaría saber qué opina por ejemplo, <a href="http://www.alianzo.com/" target="_blank" rel="external">Alianzo</a> o <a href="http://bloglines.com" target="_blank" rel="external">Bloglines</a>, o <a href="http://technorati.com" target="_blank" rel="external">Technorati</a>, o <a href="http://google.com/reader" target="_blank" rel="external">Google Reader</a>, de la forma en que Galaxia Linux rankea los sitios: No es algo sencillo, no es algo a la ligera. Corrí mi script desde varios lugares y luego de un ratito Planeta Linux México estaba en primer lugar (luego ya no estuvo, supongo que se dieron cuenta que mi ranking “subió” rápido en poco tiempo y le quitaron hits, este tipo de cosas tampoco debería tener intervención manual, quita la fiabilidad).</p>
+<p>Invito a la gente de Galaxia Linux a que arreglen los problemas de fiabilidad y credibilidad que tienen en su sistema porque es una excelente idea, y nadie se las va a quitar o robar, si hacen bien las cosas y no se lo toman a la ligera.</p>
+<p><strong>UPDATE</strong>: “El sitio es beta” es uno de los pobres argumentos. Bueno, si realmente desean hacer un ranking fiable, la imagen que le ofrecen insertar a la gente está de más, ¿cuando no sea beta el sitio la imagen dejará de necesitarse? Debería, ¿no? Porque seguir haciendo un ranking basado en referers y hits… ¿dónde se ha visto eso? El objetivo es claro y bueno, la forma en que lo hacen no, todo su diseño de concepto está errado.<br><strong>UPDATE</strong>: He cambiado el término que uso de visitas por hits, porque tiene más claridad y evita ambigüedad pues fueron páginas vistas, o hits, a lo que me referí todo el tiempo. Hasta un simio pudo haberlo entendido.<br><strong>UPDATE</strong>: Las reacciones no se hicieron esperar, mi tocayo <a href="http://gnuget.org/blog/view/192/galaxialinux-y-como-no-reaccionar-como-un-perdedor" target="_blank" rel="external">David Valdez lo cuenta mejor</a>.<br><strong>UPDATE</strong>: Había optado por mantener despublicado esta entrada para evitar mayores confrontaciones y le había ofrecido una disculpa a la gente de Galaxia Linux por no haber escogido bien mis palabras desde el principio, pero dada su reacción y ataque, he decidido volver a publicar este post.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/hack/">hack</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/idiotas/">idiotas</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/planeta-linux/">planeta linux</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2008/09/29/5-excelentes-blogs-mexicanos-que-probablemente-no-conocias/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          5 excelentes blogs mexicanos que probablemente no conocías
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2008/09/25/historias-de-nueva-york-actualizacion/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          Historias de Nueva York: Actualización
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

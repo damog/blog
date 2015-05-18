@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Quick feed aggregation with Vitacilina | dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Vitacilina, ¡ah, qué buena medicina!
+A few months ago. Maybe more than a year, I started hacking on Vitacilina, which was meant to be the replacement for Planet on all countries Planeta Linux supports">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Quick feed aggregation with Vitacilina">
+<meta property="og:url" content="http://damog.net/blog/2009/01/29/quick-feed-aggregation-with-vitacilina/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description" content="Vitacilina, ¡ah, qué buena medicina!
+A few months ago. Maybe more than a year, I started hacking on Vitacilina, which was meant to be the replacement for Planet on all countries Planeta Linux supports">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Quick feed aggregation with Vitacilina">
+<meta name="twitter:description" content="Vitacilina, ¡ah, qué buena medicina!
+A few months ago. Maybe more than a year, I started hacking on Vitacilina, which was meant to be the replacement for Planet on all countries Planeta Linux supports">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-quick-feed-aggregation-with-vitacilina" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/01/29/quick-feed-aggregation-with-vitacilina/" class="article-date">
+  <time datetime="2009-01-30T03:36:06.000Z" itemprop="datePublished">Thu Jan 29, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      Quick feed aggregation with Vitacilina
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><em>Vitacilina, ¡ah, qué buena medicina!</em></p>
+<p>A few months ago. Maybe more than a year, I started hacking on Vitacilina, which was meant to be the replacement for <a href="http://planetplanet.org" target="_blank" rel="external">Planet</a> on all countries <a href="http://planetalinux.org" target="_blank" rel="external">Planeta Linux</a> supports. I was doing well, I even hosted the code back then in <a href="http://code.google.com/p/vitacilina" target="_blank" rel="external">Google Code</a>. Later, I forgot about it, but I’d always been wanting to replace Planet with some homebrew solution for the Planeta Linux community. Anyway, that hasn’t happened yet. However, I did start using Vitacilina for my own needs on a local sandbox for my employer and it used to work pretty well. I’ve been hacking it to fit very specific requirements, though.</p>
+<p>Anyway, I thought it was a good moment to release it publicly, just because it was all hidden there. So, I didn’t implement the changes I did for my employer (because they were very specific for our products) but I did clean it up and wrote some documentation.</p>
+<p>Now, what exactly is <em>Vitacilina</em>? Well, it’s a feed aggregator. It’s written in Perl (it’s a Perl module) and it uses <a href="http://www.yaml.org/" target="_blank" rel="external">YAML</a> to get its list of feeds and names and <a href="http://template-toolkit.org/" target="_blank" rel="external">Template Toolkit</a> to format and dump the output, it was efficient for me because it was very easy for me to create dumps:</p>
+<p><pre><code>use Vitacilina;</code></pre></p>
+<p>my $v = Vitacilina-&gt;new(<br>  config =&gt; “config.yml”,<br>  template =&gt; “template.tt”,<br>  output =&gt; “output.html”,<br>);<br>$v-&gt;render;<br><br>And that’s it. I used to create YAML files on the fly to create new <em>Vitacilina</em> objects and render them according to some data.</p>
+<p>The  config file would look something like this:</p>
+<p><pre><code><a href="http://myserver.com/myfeed" target="_blank" rel="external">http://myserver.com/myfeed</a>:<br>  name: Some Cool Feed<br><a href="http://feeds.feedburner.com/InfinitePigTheorem" target="_blank" rel="external">http://feeds.feedburner.com/InfinitePigTheorem</a>:<br>  name: David Moreno<br></code></pre><br>And the template file:</p>
+<p><pre><code> [% FOREACH p IN data %]<br>  &lt;a href=”[% p.permalink %]”&gt;[% p.title %]&lt;/a&gt;<br>   by &lt;a href=”[% p.channelUrl %]”&gt;[% p.author %]&lt;/a&gt;</code></pre></p>
+<p> [% END %]<br><br>In that way, it’s very simple, quick and easy to do aggregations. I just love TT, why wouldn’t I? :-)</p>
+<p>So go grab <a href="http://search.cpan.org/~damog/Vitacilina-0.1/" target="_blank" rel="external">Vitacilina at CPAN</a>. Also, the Git repo is at <a href="http://github.com/damog/vitacilina" target="_blank" rel="external">github.com/damog/vitacilina</a>.</p>
+<p>However… I started to hack on a similar more ambitious project called <a href="http://github.com/damog/rfeed" target="_blank" rel="external">rFeed</a>, that it’s more of a framework than a simple library, which is why I stopped further Vitacilina development. I’ll talk about rFeed later when the time comes.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/cpan/">cpan</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/feed/">feed</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/rfeed/">rfeed</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/vitacilina/">vitacilina</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/yaml/">yaml</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2009/02/02/and-now-apache2embedmp3-for-your-songs-collections/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          And now Apache2::EmbedMP3 for your songs collections!
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2009/01/19/more-git-tips/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          More Git tips?
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

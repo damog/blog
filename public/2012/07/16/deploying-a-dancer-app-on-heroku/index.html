@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Deploying a Dancer app on Heroku | dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="There’s a few different posts out there on how to run Perl apps, such as Mojolicious-based, on Heroku, but I’d like to show how to deploy a Perl Dancer application on Heroku.
+The startup script of a D">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Deploying a Dancer app on Heroku">
+<meta property="og:url" content="http://damog.net/blog/2012/07/16/deploying-a-dancer-app-on-heroku/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description" content="There’s a few different posts out there on how to run Perl apps, such as Mojolicious-based, on Heroku, but I’d like to show how to deploy a Perl Dancer application on Heroku.
+The startup script of a D">
+<meta property="og:image" content="http://damog.net/old/stereonaut/2012/07/Screen-Shot-2012-07-16-at-8.54.03-PM.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Deploying a Dancer app on Heroku">
+<meta name="twitter:description" content="There’s a few different posts out there on how to run Perl apps, such as Mojolicious-based, on Heroku, but I’d like to show how to deploy a Perl Dancer application on Heroku.
+The startup script of a D">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-deploying-a-dancer-app-on-heroku" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2012/07/16/deploying-a-dancer-app-on-heroku/" class="article-date">
+  <time datetime="2012-07-17T02:03:45.000Z" itemprop="datePublished">Mon Jul 16, 2012</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      Deploying a Dancer app on Heroku
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>There’s a <a href="http://blog.kraih.com/mojolicious-in-the-cloud-hello-heroku" target="_blank" rel="external">few</a> different posts out there on how to run Perl apps, such as Mojolicious-based, on Heroku, but I’d like to show how to deploy a <a href="http://perldancer.org/" target="_blank" rel="external">Perl Dancer</a> application on <a href="http://www.heroku.com/" target="_blank" rel="external">Heroku</a>.</p>
+<p>The startup script of a Dancer application (bin/app.pl) can be used as a <a href="http://plackperl.org/" target="_blank" rel="external">PSGI</a> file. With that in mind, I was able to take the good work of <a href="http://bulknews.typepad.com/" target="_blank" rel="external">Miyagawa’s</a> <a href="https://github.com/miyagawa/heroku-buildpack-perl" target="_blank" rel="external">Heroku buildpack</a> for general PSGI apps and hack it a little bit to use Dancer’s, specifically. What I like about Miyagawa’s approach is that uses the fantastic <a href="http://search.cpan.org/~miyagawa/App-cpanminus-1.5015/bin/cpanm" target="_blank" rel="external">cpanm</a> and makes it available within your application, instead of the monotonous cpan, to solve dependencies.</p>
+<p>Let’s make a simple Dancer app to show how to make this happen:</p>
+<p><code lang="bash"><br>/tmp $ dancer -a heroku</code></p>
+<ul>
+<li>heroku</li>
+<li>heroku/bin</li>
+<li>heroku/bin/app.pl</li>
+<li>heroku/config.yml</li>
+<li>heroku/environments</li>
+<li>heroku/environments/development.yml</li>
+<li>heroku/environments/production.yml</li>
+<li>heroku/views</li>
+<li>heroku/views/index.tt</li>
+<li>heroku/views/layouts</li>
+<li>heroku/views/layouts/main.tt</li>
+<li>heroku/MANIFEST.SKIP</li>
+<li>heroku/lib<br>heroku/lib/</li>
+<li>heroku/lib/heroku.pm</li>
+<li>heroku/public</li>
+<li>heroku/public/css</li>
+<li>heroku/public/css/style.css</li>
+<li>heroku/public/css/error.css</li>
+<li>heroku/public/images</li>
+<li>heroku/public/500.html</li>
+<li>heroku/public/404.html</li>
+<li>heroku/public/dispatch.fcgi</li>
+<li>heroku/public/dispatch.cgi</li>
+<li>heroku/public/javascripts</li>
+<li>heroku/public/javascripts/jquery.js</li>
+<li>heroku/t</li>
+<li>heroku/t/002_index_route.t</li>
+<li>heroku/t/001_base.t</li>
+<li>heroku/Makefile.PL<br></li>
+</ul>
+<p>Now, you already know that by firing ‘perl bin/app.pl’ you can get your development server up and running. So I’ll just proceed to show how to make this work on Heroku, you should already have your development environment configured for it:</p>
+<p><code lang="bash"><br>/tmp $ cd heroku/<br>/tmp/heroku $ git init<br>Initialized empty Git repository in /private/tmp/heroku/.git/<br>/tmp/heroku :master $ git add .<br>/tmp/heroku :master $ git commit -a -m ‘Dancer on Heroku’<br>[master (root-commit) 6c0c55a] Dancer on Heroku<br>22 files changed, 809 insertions(+), 0 deletions(-)<br>create mode 100644 MANIFEST<br>create mode 100644 MANIFEST.SKIP<br>create mode 100644 Makefile.PL<br>create mode 100755 bin/app.pl<br>create mode 100644 config.yml<br>create mode 100644 environments/development.yml<br>create mode 100644 environments/production.yml<br>create mode 100644 lib/heroku.pm<br>create mode 100644 public/404.html<br>create mode 100644 public/500.html<br>create mode 100644 public/css/error.css<br>create mode 100644 public/css/style.css<br>create mode 100755 public/dispatch.cgi<br>create mode 100755 public/dispatch.fcgi<br>create mode 100644 public/favicon.ico<br>create mode 100644 public/images/perldancer-bg.jpg<br>create mode 100644 public/images/perldancer.jpg<br>create mode 100644 public/javascripts/jquery.js<br>create mode 100644 t/001_base.t<br>create mode 100644 t/002_index_route.t<br>create mode 100644 views/index.tt<br>create mode 100644 views/layouts/main.tt<br>/tmp/heroku :master $<br></code></p>
+<p>And now, run <tt>heroku create</tt>, please note the buildpack URL, <tt><a href="http://github.com/damog/heroku-buildpack-perl.git" target="_blank" rel="external">http://github.com/damog/heroku-buildpack-perl.git</a></tt>:</p>
+<p><code lang="bash"><br>/tmp/heroku :master $ heroku create —stack cedar —buildpack <a href="http://github.com/damog/heroku-buildpack-perl.git" target="_blank" rel="external">http://github.com/damog/heroku-buildpack-perl.git</a><br>Creating blazing-beach-7280… done, stack is cedar<br><a href="http://blazing-beach-7280.herokuapp.com/" target="_blank" rel="external">http://blazing-beach-7280.herokuapp.com/</a> | git@heroku.com:blazing-beach-7280.git<br>Git remote heroku added<br>/tmp/heroku :master $<br></code></p>
+<p>And just push:</p>
+<p><code lang="bash"><br>/tmp/heroku :master $ git push heroku master<br>Counting objects: 34, done.<br>Delta compression using up to 4 threads.<br>Compressing objects: 100% (30/30), done.<br>Writing objects: 100% (34/34), 40.60 KiB, done.<br>Total 34 (delta 3), reused 0 (delta 0)</code></p>
+<p>——-&gt; Heroku receiving push<br>——-&gt; Fetching custom buildpack… done<br>——-&gt; Perl/PSGI Dancer! app detected<br>——-&gt; Bootstrapping cpanm<br>Successfully installed JSON-PP-2.27200<br>Successfully installed CPAN-Meta-YAML-0.008<br>Successfully installed Parse-CPAN-Meta-1.4404 (upgraded from 1.39)<br>Successfully installed version-0.99 (upgraded from 0.77)<br>Successfully installed Module-Metadata-1.000009<br>Successfully installed CPAN-Meta-Requirements-2.122<br>Successfully installed CPAN-Meta-2.120921<br>Successfully installed Perl-OSType-1.002<br>Successfully installed ExtUtils-CBuilder-0.280205 (upgraded from 0.2602)<br>Successfully installed ExtUtils-ParseXS-3.15 (upgraded from 2.2002)<br>Successfully installed Module-Build-0.4001 (upgraded from 0.340201)<br>Successfully installed App-cpanminus-1.5015<br>12 distributions installed<br>——-&gt; Installing dependencies<br>Successfully installed ExtUtils-MakeMaker-6.62 (upgraded from 6.55_02)<br>Successfully installed YAML-0.84<br>Successfully installed Test-Simple-0.98 (upgraded from 0.92)<br>Successfully installed Try-Tiny-0.11<br>Successfully installed HTTP-Server-Simple-0.44<br>Successfully installed HTTP-Server-Simple-PSGI-0.14<br>Successfully installed URI-1.60<br>Successfully installed Test-Tester-0.108<br>Successfully installed Test-NoWarnings-1.04<br>Successfully installed Test-Deep-0.110<br>Successfully installed LWP-MediaTypes-6.02<br>Successfully installed Encode-Locale-1.03<br>Successfully installed HTTP-Date-6.02<br>Successfully installed HTML-Tagset-3.20<br>Successfully installed HTML-Parser-3.69<br>Successfully installed Compress-Raw-Bzip2-2.052 (upgraded from 2.020)<br>Successfully installed Compress-Raw-Zlib-2.054 (upgraded from 2.020)<br>Successfully installed IO-Compress-2.052 (upgraded from 2.020)<br>Successfully installed HTTP-Message-6.03<br>Successfully installed HTTP-Body-1.15<br>Successfully installed MIME-Types-1.35<br>Successfully installed HTTP-Negotiate-6.01<br>Successfully installed File-Listing-6.04<br>Successfully installed HTTP-Daemon-6.01<br>Successfully installed Net-HTTP-6.03<br>Successfully installed HTTP-Cookies-6.01<br>Successfully installed WWW-RobotRules-6.02<br>Successfully installed libwww-perl-6.04<br>Successfully installed Dancer-1.3097<br>29 distributions installed<br>——-&gt; Installing Starman<br>Successfully installed Test-Requires-0.06<br>Successfully installed Hash-MultiValue-0.12<br>Successfully installed Devel-StackTrace-1.27<br>Successfully installed Test-SharedFork-0.20<br>Successfully installed Test-TCP-1.16<br>Successfully installed Class-Inspector-1.27<br>Successfully installed File-ShareDir-1.03<br>Successfully installed Filesys-Notify-Simple-0.08<br>Successfully installed Devel-StackTrace-AsHTML-0.11<br>Successfully installed Plack-0.9989<br>Successfully installed Net-Server-2.006<br>Successfully installed HTTP-Parser-XS-0.14<br>Successfully installed Data-Dump-1.21<br>Successfully installed Starman-0.3001<br>14 distributions installed<br>——-&gt; Discovering process types<br>Procfile declares types -&amp;gt; (none)<br>Default types for Perl/PSGI Dancer! -&amp;gt; web<br>——-&gt; Compiled slug size is 2.7MB<br>——-&gt; Launching… done, v4<br><a href="http://blazing-beach-7280.herokuapp.com" target="_blank" rel="external">http://blazing-beach-7280.herokuapp.com</a> deployed to Heroku</p>
+<p>To git@heroku.com:blazing-beach-7280.git</p>
+<ul>
+<li>[new branch] master -&amp;gt; master<br>/tmp/heroku :master $<br></li>
+</ul>
+<p>And you can confirm it works:</p>
+<p></p><p style="text-align: center;"><a href="http://damog.net/old/stereonaut/2012/07/Screen-Shot-2012-07-16-at-8.54.03-PM.png" target="_blank" rel="external"><img class="aligncenter  wp-image-1313" title="Screen Shot 2012-07-16 at 8.54.03 PM" src="http://damog.net/old/stereonaut/2012/07/Screen-Shot-2012-07-16-at-8.54.03-PM.png" alt="" width="538" height="346"></a></p><br>Please note that the environment it runs on is “deployment”. The backend server it uses is the great Starman, also by the great Miyagawa.<p></p>
+<p>Now, if you add or change dependencies on Makefile.PL, next time you push, those will get updated.</p>
+<p>Very cool, right? :)</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/dancer/">dancer</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/heroku/">heroku</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2012/07/25/i-quit/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          I quit
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2012/04/23/ruby-and-libv8-exactly-my-feelings/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          Ruby and libv8: Exactly my feelings
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

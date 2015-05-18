@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Sync your Twitter followers and friends | dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="I have a couple of accounts in Twitter (namely @debian and @planetalinux) that are starting to bring a lot of followers (well, at least some of them). And given that I consider these accounts to be Tw">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Sync your Twitter followers and friends">
+<meta property="og:url" content="http://damog.net/blog/2009/06/10/sync-your-twitter-followers-and-friends/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description" content="I have a couple of accounts in Twitter (namely @debian and @planetalinux) that are starting to bring a lot of followers (well, at least some of them). And given that I consider these accounts to be Tw">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Sync your Twitter followers and friends">
+<meta name="twitter:description" content="I have a couple of accounts in Twitter (namely @debian and @planetalinux) that are starting to bring a lot of followers (well, at least some of them). And given that I consider these accounts to be Tw">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-sync-your-twitter-followers-and-friends" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/06/10/sync-your-twitter-followers-and-friends/" class="article-date">
+  <time datetime="2009-06-10T18:30:29.000Z" itemprop="datePublished">Wed Jun 10, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      Sync your Twitter followers and friends
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>I have a couple of accounts in Twitter (namely @<a href="http://twitter.com/debian" target="_blank" rel="external">debian</a> and @<a href="http://twitter.com/planetalinux" target="_blank" rel="external">planetalinux</a>) that are starting to bring a lot of followers (well, at least some of them). And given that I consider these accounts to be Twitter-polite enough, I like to follow the followers back too; however, this task sometimes gets really hard and it’s tiring to go through the followers pages and follow those that I don’t follow yet over and over.</p>
+<p>So, I spent a few minutes and came up with this simple Ruby script that uses <a href="http://addictedtonew.com/" target="_blank" rel="external">John Nunemaker</a>‘s awesome <a href="http://twitter.rubyforge.org" target="_blank" rel="external">Twitter gem</a>.</p>
+<p><code lang="ruby"></code></p>
+<h1 id="!/opt/local/bin/ruby">!/opt/local/bin/ruby</h1><p>require “rubygems”<br>require “twitter”</p>
+<p>httpauth = Twitter::HTTPAuth.new(<br>    ARGV[0] || ‘yehyeh’,<br>    ARGV[1] || ‘kissm3’<br>)</p>
+<p>base = Twitter::Base.new(httpauth)</p>
+<p>i = 0<br>(base.follower_ids - base.friend_ids).each do |id|<br>  i += 1<br>  begin<br>    base.friendship_create id<br>  rescue Twitter::General =&gt; e<br>    puts “#{e.class}: #{e.message}”<br>  end<br>end<br>puts “#{i} new friendships.”</p>
+<p>i = 0<br>(base.friend_ids - base.follower_ids).each do |id|<br>  i += 1<br>  base.friendship_destroy id<br>end<br>puts “#{i} destroyed friendships.”</p>
+<p>puts “#{base.friend_ids.size} friends now.”<br>puts “#{base.follower_ids.size} followers now.”<br></p>
+<p>What this little code does is exactly that, it will start following the followers you don’t follow yet, and it will stop following the people that don’t follow you back, right? Got it? It’s basically synchronizing your friends with your followers. As said, this is particularly helpful when you are maintaining a community account and want to keep up befriending your kind followers :-) Handling the exception <code>Twitter::General</code> on line 18 is only done because the twitter gem raises it even when you are trying to befriend an account to which you have already requested friendship (like pending requests to protected updates accounts) or those of suspended accounts (spammers).</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/code/">code</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debian/">debian</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/gems/">gems</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/ruby/">ruby</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/twitter/">twitter</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2009/06/27/perl-in-the-time-of-social-networks-delivered-in-pittsburgh-pa/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Perl in the Time of Social Networks delivered in Pittsburgh, PA
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2009/06/08/cheating-the-world-you-tweet-less/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          Cheating the world you tweet less
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

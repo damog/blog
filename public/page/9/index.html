@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="dm's blog">
+<meta property="og:url" content="http://damog.net/blog/page/9/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="dm's blog">
+<meta name="twitter:description">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      
+  
+    <article id="post-twitters-oauth-perl" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/05/21/twitters-oauth-perl/" class="article-date">
+  <time datetime="2009-05-21T19:06:42.000Z" itemprop="datePublished">Thu May 21, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/05/21/twitters-oauth-perl/">Twitter&#39;s OAuth + Perl</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>During the last week, unbeatable <a href="http://bulknews.vox.com/" target="_blank" rel="external">Tatsuhiko Miyagawa</a> uploaded <a href="http://search.cpan.org/dist/Net-Twitter-OAuth/" target="_blank" rel="external">Net::Twitter::OAuth</a> to <a href="http://search.cpan.org/" target="_blank" rel="external">CPAN</a>, which provides an awesome interface for <a href="http://search.cpan.org/dist/Net-OAuth-Simple/" target="_blank" rel="external">Net::OAuth::Simple</a> and <a href="http://twitter.com/" target="_blank" rel="external">Twitter</a> by subclassing <a href="http://search.cpan.org/dist/Net-Twitter/" target="_blank" rel="external">Net::Twitter</a>. This way, it’s very easy to develop Twitter client applications using its <em>new</em> <a href="http://apiwiki.twitter.com/OAuth-FAQ" target="_blank" rel="external">OAuth method</a> dropping the need for users to hand their credentials to third parties.</p>
+<p>You will have to register your application on Twitter previously. You can do so <a href="http://twitter.com/oauth_clients" target="_blank" rel="external">here</a>. If this is a web application that you will be building, you can provide a callback URL which is the page where the user will get redirected once she has granted access to your application. If you just want to test, setting a desktop application is probably the way to go.</p>
+<p>Once you have registered your application, you will get two strings, key and secret consumer. Refer to general <a href="http://oauth.net/" target="_blank" rel="external">OAuth</a> documentation for deeper details.</p>
+<p>Install Net::Twitter::OAuth as any other Perl module:</p>
+<p>[shell]<br>$ sudo cpan Net::Twitter::OAuth<br>[/shell]</p>
+<p>Now, using it is very simple:</p>
+<p><code lang="perl"><br>my $client = Net::Twitter::OAuth-&gt;new(<br>  consumer_key    =&gt; “YOUR-CONSUMER-KEY”,<br>  consumer_secret =&gt; “YOUR-CONSUMER-SECRET”,<br>);<br></code></p>
+<p>No transactions or requests have been made yet. Here you need the user’s access and secret tokens. If you already have them, which means that the user has already gone through the authorization process, you have to pass it now (you already stored them on database, a configuration file or whatever the data model you use):</p>
+<p><code lang="perl"><br>if ($access_token &amp;&amp; $access_token_secret) {<br>  $client-&gt;oauth-&gt;access_token($access_token);<br>  $client-&gt;oauth-&gt;access_token_secret($access_token_secret);<br>}<br></code></p>
+<p>Now you can query Twitter so it can provide you access:</p>
+<p><code lang="perl"><br>unless ($client-&gt;oauth-&gt;authorized) {</code></p>
+<h1 id="The_client_is_not_yet_authorized:_Do_it_now">The client is not yet authorized: Do it now</h1><p>  print “Authorize this app at “, $client-&gt;oauth-&gt;get_authorization_url, “ and hit RET\n”;</p>
+<p>  <stdin>; # wait for input</stdin></p>
+<p>  my($access_token, $access_token_secret) = $client-&gt;oauth-&gt;request_access_token;<br>  save_tokens($access_token, $access_token_secret); # if necessary<br>}<br></p>
+<p>All these snippets come from the example’s of Net::Twitter::OAuth. So basically, if you are not authorized, which means that either the user hasn’t even been prompted for authorization or denied access before, then you get the authorization URL which you can give to the user to visit.</p>
+<p>Once the user has granted access, you can call <tt>request_access_token</tt> which will return the user’s tokens. Here’s where you can save those tokens for future use.</p>
+<p>After that block, you are pretty much done and can use the regular Net::Twitter methods:</p>
+<p><code lang="perl"><br>my $res = $client-&gt;update({ status =&gt; ‘me ownz oauth!!1’ });<br></code></p>
+<p>Soon, a real life application post using <a href="http://search.cpan.org/dist/HTTP-Engine/" target="_blank" rel="external">HTTP::Engine</a>, <a href="http://search.cpan.org/dist/KiokuDB/" target="_blank" rel="external">KiokuDB</a> and Net::Twitter::OAuth.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/oauth/">oauth</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/twitter/">twitter</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-perl-in-the-time-of-social-networks" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/05/09/perl-in-the-time-of-social-networks/" class="article-date">
+  <time datetime="2009-05-09T17:43:15.000Z" itemprop="datePublished">Sat May 9, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/05/09/perl-in-the-time-of-social-networks/">Perl in the Time of Social Networks</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>This is going to be a fantastic and exciting Perl summer.</p>
+<p>During the last week, I received notification that the talk I’ve proposed for both <a href="http://yapc10.org/yn2009/" target="_blank" rel="external">YAPC::NA</a> and <a href="http://yapceurope2009.org/ye2009/" target="_blank" rel="external">YAPC::EU</a> was accepted.</p>
+<p>I will be talking about <strong>Perl in the Time of Social Networks</strong>, which is mainly two broad things: how Perl can actively power a modern social networking site (I’ll be releasing a free -<em>as in speech</em>- social network website, similar to <a href="http://lovdbyless.com/" target="_blank" rel="external">Lovd</a> or <a href="http://railsspace.com/" target="_blank" rel="external">RailSpace</a>, built with pure <a href="http://www.catalystframework.org/" target="_blank" rel="external">Catalyst</a>); and about high-load applications dealing with social networks’ APIs and users (a <a href="http://www.iinteractive.com/moose/" target="_blank" rel="external">Moose</a>-based universal social network distributor), with <a href="http://twitter.com" target="_blank" rel="external">Twitter</a>, <a href="http://www.facebook.com" target="_blank" rel="external">Facebook</a>, <a href="http://www.myspace.com/" target="_blank" rel="external">MySpace</a>, <a href="http://www.blogger.com" target="_blank" rel="external">Blogger</a>, <a href="http://last.fm" target="_blank" rel="external">LastFM</a>, and others. My current contractor has been sponsoring the development and research for this since almost two years now, and we believe it’s ready to go public: there’s a lot of work backing us up.</p>
+<p>I’ll be presenting <a href="http://yapc10.org/yn2009/talk/2019" target="_blank" rel="external">the talk</a> in Pittsburgh, PA, on <a href="http://yapc10.org/yn2009/schedule?day=2009-06-23" target="_blank" rel="external">June 23rd</a> at YAPC|10. If you are around the area, come and attend the talk!</p>
+<p>On YAPC::EU::2009, I will be <a href="http://yapceurope2009.org/ye2009/talk/2028" target="_blank" rel="external">presenting</a> in Lisbon, Portugal, on <a href="http://yapceurope2009.org/ye2009/schedule?day=2009-08-04" target="_blank" rel="external">August 4th</a>, which is conveniently placed just after <a href="http://debconf9.debconf.org" target="_blank" rel="external">DebConf 9</a>, which will happen in Cáceres, Spain the week before (I will also be there).</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/YAPCEU2009/">YAPCEU2009</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/YAPCNA10/">YAPCNA10</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/blogger/">blogger</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/catalyst/">catalyst</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/facebook/">facebook</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/moose/">moose</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/myspace/">myspace</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/social-networks/">social networks</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/twitter/">twitter</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/yapc/">yapc</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-githubs-octocat-stickers" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/05/06/githubs-octocat-stickers/" class="article-date">
+  <time datetime="2009-05-06T17:53:56.000Z" itemprop="datePublished">Wed May 6, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/05/06/githubs-octocat-stickers/">GitHub&#39;s Octocat stickers!</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><a href="http://github.com/blog/369-get-your-github-stickers" target="_blank" rel="external">They</a> arrived today!</p>
+<p><a href="http://www.flickr.com/photos/raquelydavid/3508311774/" target="_blank" rel="external"><img class="aligncenter" src="http://farm4.static.flickr.com/3664/3508311774_23324a98be.jpg" alt="" width="500" height="375"></a></p>
+<p>Also, I must say, they flew away immediately with work buddies, so from the 8 stickers the guys kindly sent, I only kept two, but that’s cool. I guess :-)</p>
+<p>Thanks <a href="http://github.com" target="_blank" rel="external">GitHub</a>!</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/mail/">mail</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/stickers/">stickers</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-debian-nyc-get-together-and-pgp-key-signing" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/05/06/debian-nyc-get-together-and-pgp-key-signing/" class="article-date">
+  <time datetime="2009-05-06T15:08:07.000Z" itemprop="datePublished">Wed May 6, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/05/06/debian-nyc-get-together-and-pgp-key-signing/">Debian NYC get-together and PGP key signing</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>If you happen to be in the NYC area this Friday May 8th, come over to our get-together to have a few beers/club sodas at <a href="http://www.pacificstandardbrooklyn.com/" target="_blank" rel="external">Pacific Standard</a> in Park Slope, Brooklyn (at 8 pm, <a href="http://maps.google.com/maps?oi=map&amp;q=82+Fourth+Avenue,+Brooklyn,+NY" target="_blank" rel="external">map here</a>). We will also be holding a PGP/GPG key signing par-tay at 9 pm, so make sure you bring your government-issued ID and your printed keys. More information about it, <a href="http://lists.vireo.org/pipermail/debiannyc/2009-May/000277.html" target="_blank" rel="external">here</a>.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/beer/">beer</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debian/">debian</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/gpg/">gpg</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/keysigning/">keysigning</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/nyc/">nyc</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-on-twitter-alerts-and-regular-expressions" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/04/12/on-twitter-alerts-and-regular-expressions/" class="article-date">
+  <time datetime="2009-04-12T12:17:58.000Z" itemprop="datePublished">Sun Apr 12, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/04/12/on-twitter-alerts-and-regular-expressions/">On Twitter alerts and regular expressions</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>I don’t know if I’m the only one that does something like this, but I certainly <em>trust</em> I’m not alone.</p>
+<p>I love regular expressions (to which some people say there’s nothing <em>regular</em> about) and I just found <a href="http://tweetbeep.com" target="_blank" rel="external">TweetBeep</a> recently, which is a simple alerts system. There’s nothing really new or innovative about it, given that you can get the results yourself using advanced search on Twitter and consuming the results from a feed. However, I for sure, I don’t want to spend time setting any of that up, and they do that quite easily, which is the whole difference, ease of use. You can get the results on time intervals via mail. Rocks.</p>
+<p>So, one of my alerts is about regular expressions: I’m receiving <em>everything</em> Twitter tweets about them, whether <em>regex</em>, <em>regexp</em>, <em>regexes</em>, <em>regexps</em>, etc. are mentioned, I get them. Now, I feel a bit nerdish/dorky about it given that I like to reply on those tweets on totally random people and try help them whenever it’s possible (or just learn a bit more from other regex gurus), but what the hell.</p>
+<p>Now, the good thing about this is that being a “good person” and fellow <em>regex</em> buddy with people is starting to pay off. Whether I’m getting new very interesting followers, I also found a nice opportunities niche to take advantage of, and a couple of gigs have come up. I worship building strong relationships with people (as in long-term clients), and when starting to get to know some persons via a common interesting thing such as a regular expressions is just awesome, little piece of awesomeness.</p>
+<p>For the geeky part of this post, if my regular expression Twitter alert had to be written as a regex, this would be it:</p>
+<p><blockquote><tt>/regex(?:(ps?|es))?/</tt></blockquote><br>The questions now is, should I start following <tt>/regular\s*expres{1,2}ions?/</tt> too? Maybe I will :-)</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/alerts/">alerts</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/nerd/">nerd</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/regex/">regex</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/twitter/">twitter</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-rubx-twitters-ruby-shell" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/04/06/rubx-twitters-ruby-shell/" class="article-date">
+  <time datetime="2009-04-06T14:32:05.000Z" itemprop="datePublished">Mon Apr 6, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/04/06/rubx-twitters-ruby-shell/">Rubx: Twitter&#39;s Ruby shell</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><a href="http://axiombox.com/rubx" target="_blank" rel="external"><img align="right" class="alignright size-full wp-image-851" title="rubx" src="http://damog.net/old/axiombox/2009/04/rubx.png" alt="rubx" width="100" height="100">Rubx</a>, also known as <em>Ruby Boobie</em>, is a nice spoiled girlie bot that runs on Twitter. She listens when you talk to her and when you do, it’ll better be with Ruby: She will interpret your tweet in Ruby and reply to you with what your code returns.</p>
+<p>How does it work? You send a message to her:</p>
+<p><blockquote><tt>@rubx “The day I was born it was a “ &lt;&lt; Time.local(1984, “aug”, 8).strftime(“%A”)</tt></blockquote><br>And @<a href="http://twitter.com/rubx" target="_blank" rel="external">rubx</a> will reply:</p>
+<p><blockquote><tt>@damog “The day I was born it was a Wednesday”</tt></blockquote><br>Go see more about her (examples, FAQ, etc) on <a href="http://axiombox.com/rubx" target="_blank" rel="external">axiombox.com/rubx</a> or on her <a href="http://twitter.com/rubx" target="_blank" rel="external">Twitter profile</a>.</p>
+<p>As we tested the hack, a bunch of people started interacting with Rubx too, <a href="http://twitter.com/anibalrojas/status/1455257553" target="_blank" rel="external">some people</a> calling her <em>Twitter Line Interface Ruby Interpreter</em>! :). See what other people has tried with her <a href="http://search.twitter.com/search?q=%40rubx" target="_blank" rel="external">here</a>.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/axiombox/">axiombox</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/rubx/">rubx</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/ruby/">ruby</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/tli/">tli</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/twitter/">twitter</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-debian-on-twitter" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/03/22/debian-on-twitter/" class="article-date">
+  <time datetime="2009-03-22T15:33:21.000Z" itemprop="datePublished">Sun Mar 22, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/03/22/debian-on-twitter/">Debian on Twitter</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Or… for those who care about <a href="http://twitter.com" target="_blank" rel="external">Twitter</a> and <a href="http://debian.org" target="_blank" rel="external">Debian</a> :)</p>
+<p>We’ve setup a Twitter account for the project to use on Twitter. Go follow it, go now!</p>
+<p style="text-align: center;"><a href="http://twitter.com/debianproject" target="_blank" rel="external"><strong>twitter.com/debianproject</strong></a></p>
+
+<p>Now, the interesting part about this is that any Debian developer with a GPG key on the Debian keyring can tweet to it. You basically only have to do something like this:</p>
+<tt>$ echo “Squeeze is scheduled for Winter 2014” | gpg —clearsign | lwp-request -m POST <a href="http://twitter.debian.net/post" target="_blank" rel="external">http://twitter.debian.net/post</a></tt>
+
+<p>…or, what it’s the same, just send a clearsigned POST data to <a href="http://twitter.debian.net/post" target="_blank" rel="external">http://twitter.debian.net/post</a>. If the data is signed by a Debian developer, it’ll go through and post it. The Debian uid is appended on the tweet, as found on Debian’s LDAP DB, so if joetheplumber@d.o is the one posting, it’ll be posted with “(via joetheplumber)” on it.</p>
+<p>If you are more interested about this, you can go to <a href="http://twitter.debian.net/" target="_blank" rel="external"><strong>twitter.debian.net</strong></a> where you will find deeper information and details about this service.</p>
+<p>I encourage you, Debian user and advocate, to start following the <em>@debianproject</em> account; and I encourage you, Debian developer, to communicate with our users and advocates by using and posting to this service.</p>
+<p>More news to follow soon.</p>
+<p><strong>UPDATE</strong>: Support for <a href="http://identi.ca" target="_blank" rel="external">Identi.ca</a> has been added and now both <a href="http://twitter.com/debianproject" target="_blank" rel="external">Twitter</a> and <a href="http://identi.ca/debianproject" target="_blank" rel="external">Identi.ca</a> accounts are updated at once and sync’ed.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debian/">debian</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/gpg/">gpg</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/twitter/">twitter</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-regular-expressions-capturing-in-java-for-perl-hackers" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/03/16/regular-expressions-capturing-in-java-for-perl-hackers/" class="article-date">
+  <time datetime="2009-03-16T21:16:49.000Z" itemprop="datePublished">Mon Mar 16, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/03/16/regular-expressions-capturing-in-java-for-perl-hackers/">Regular expressions capturing in Java for Perl hackers</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Capturing is one of the more interesting things you can do with regular expressions, it gives you great power to get sub-strings out of strings with regex power.</p>
+<p>I recently came up with the need to do it with Java. Having Perl background, you can understand how awful any other regular expressions implementation can be after been hacked with Perl’s, but it’s alright, it’s cool to learn.</p>
+<p>Anyway, it’s just simple, you want to capture Perl’s <tt>$0</tt>, <tt>$1</tt>, <tt>$2</tt>, etc, in your Java class. Not a problem.</p>
+<p>On my example, an HTML string needs to be scrapped. Let’s say…</p>
+<p><blockquote><tt>&lt;a href=”<a href="http://google.com/&quot;&gt;Visit" target="_blank" rel="external">http://google.com/&quot;&gt;Visit</a> Google today!&lt;/a&gt;</tt></blockquote><br>We want to get both the URL and the string between the <tt>&lt;a&gt;</tt> and <tt>&lt;/a&gt;</tt> tags.</p>
+<script src="http://gist.github.com/80065.js" type="text/javascript"></script>
+
+<p>So, after all it’s very simple. You have your <tt>inputStr</tt> string, and you compile your regex <tt>patternStr</tt> string as a <tt>Pattern</tt> object. Then, create a <tt>Matcher</tt> object crossing both. If we find any matches, we’ll make a <tt>for</tt> loop that will iterate on <tt>matcher</tt>‘s grouping, printing each group at a time.</p>
+<p>I hope some of you Perl hackers, find this information helpful when dealing with Java and need to group/capture your strings.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/regex/">regex</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/scrapping/">scrapping</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-feedbag-significantly-faster-than-rfeedfinder" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/03/07/feedbag-significantly-faster-than-rfeedfinder/" class="article-date">
+  <time datetime="2009-03-07T22:57:45.000Z" itemprop="datePublished">Sat Mar 7, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/03/07/feedbag-significantly-faster-than-rfeedfinder/">Feedbag significantly faster than Rfeedfinder</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Alright so <a href="http://axiombox.com/feedbag" target="_blank" rel="external">Feedbag</a> looks to be significantly faster than <a href="http://rfeedfinder.rubyforge.org/" target="_blank" rel="external">Rfeedfinder</a> when tested against different URIs:</p>
+<p><pre><code>      user     system      total        real<br>log.damog.net:<br> feedbag<br>  0.280000   0.050000   0.330000 (  1.486712)<br>  rfeedfinder<br>  0.140000   0.030000   0.170000 (  4.259612)<br><a href="http://cnn.com" target="_blank" rel="external">http://cnn.com</a>:<br> feedbag<br>  0.200000   0.020000   0.220000 (  0.703625)<br>  rfeedfinder<br>  0.240000   0.030000   0.270000 (  1.071508)<br>scripting.com:<br> feedbag<br>  0.170000   0.030000   0.200000 (  0.682292)<br>  rfeedfinder<br>  0.220000   0.040000   0.260000 (  1.668234)<br>mx.planetalinux.org:<br> feedbag<br>  0.550000   0.050000   0.600000 (  1.636884)<br>  rfeedfinder<br>  0.760000   0.120000   0.880000 (  3.189143)<br><a href="http://feedproxy.google.com/UniversoPlanetaLinux" target="_blank" rel="external">http://feedproxy.google.com/UniversoPlanetaLinux</a>:<br> feedbag<br>  0.030000   0.010000   0.040000 (  0.696871)<br>  rfeedfinder<br>  0.160000   0.030000   0.190000 (  1.613874)<br></code></pre><br>As <a href="http://log.damog.net/2009/02/feedbag-now-using-feedvalidator/" target="_blank" rel="external">I had previously blogged</a>, Feedbag also can use <a href="http://feedvalidator.rubyforge.org/" target="_blank" rel="external">feedvalidator</a> to get most accurate results. The results above were tested with <tt>feedvalidator</tt> deactivated, which is the default behavior anyway. When activating it, the following results are seen:</p>
+<p><pre><code>      user     system      total        real<br>log.damog.net:<br> feedbag<br>  0.390000   0.070000   0.460000 (  3.434350)<br>  rfeedfinder<br>  0.170000   0.030000   0.200000 (  2.819837)<br><a href="http://cnn.com" target="_blank" rel="external">http://cnn.com</a>:<br> feedbag<br>Feed looked like feed but might not have passed validation or timed out<br>  0.200000   0.020000   0.220000 (  1.103810)<br>  rfeedfinder<br>  0.200000   0.030000   0.230000 (  1.036161)<br>scripting.com:<br> feedbag<br>  0.220000   0.030000   0.250000 (  1.282081)<br>  rfeedfinder<br>  0.150000   0.040000   0.190000 (  1.520435)<br>mx.planetalinux.org:<br> feedbag<br>  0.660000   0.050000   0.710000 (  2.784598)<br>  rfeedfinder<br>  0.760000   0.110000   0.870000 (  3.984222)<br><a href="http://feedproxy.google.com/UniversoPlanetaLinux" target="_blank" rel="external">http://feedproxy.google.com/UniversoPlanetaLinux</a>:<br> feedbag<br>  0.050000   0.010000   0.060000 (  1.275603)<br>  rfeedfinder<br>  0.170000   0.030000   0.200000 (  2.067279)<br></code></pre><br>So Rfeedfinder appears to be slightly faster on small pages but even slower than Feedbag with big ones (even when Feedbag calls <tt>feedvalidator</tt> which makes it to make the request twice!). Also, it’s noticeable that Feedbag will return more significant results than Rfeedfinder:</p>
+<p><code>&gt;&gt; Feedbag.find “<a href="http://log.damog.net" target="_blank" rel="external">http://log.damog.net</a>“<br>=&gt; [“<a href="http://feeds.feedburner.com/InfinitePigTheorem" target="_blank" rel="external">http://feeds.feedburner.com/InfinitePigTheorem</a>“, “<a href="http://log.damog.net/category/feed/" target="_blank" rel="external">http://log.damog.net/category/feed/</a>“, “<a href="http://log.damog.net/tag/feed/" target="_blank" rel="external">http://log.damog.net/tag/feed/</a>“, “<a href="http://github.com/damog/rfeed" target="_blank" rel="external">http://github.com/damog/rfeed</a>“, “<a href="http://log.damog.net/tag/rfeed/" target="_blank" rel="external">http://log.damog.net/tag/rfeed/</a>“, “<a href="http://log.damog.net/comments/feed/" target="_blank" rel="external">http://log.damog.net/comments/feed/</a>“]<br>&gt;&gt; require “rfeedfinder”<br>=&gt; true<br>&gt;&gt; Rfeedfinder.feed “<a href="http://log.damog.net" target="_blank" rel="external">http://log.damog.net</a>“<br>=&gt; “<a href="http://feedproxy.feedburner.com/InfinitePigTheorem" target="_blank" rel="external">http://feedproxy.feedburner.com/InfinitePigTheorem</a>“</code></p>
+<p>After this, it really makes more sense to use Feedbag than Rfeedfinder.</p>
+<p>The benchmark code can be found <a href="http://github.com/damog/feedbag/blob/bb091ae9ff6c54883763fb62f99ed746a66fb259/benchmark/rfeedfinder_benchmark.rb" target="_blank" rel="external">here</a>. As I wrote the bechmark test, I did put the Feedbag requests first in order to make it less likely to have better results for Feedbag for a possible cache favoring it, even then, Feedbag was superior.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/benchmark/">benchmark</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/feedbag/">feedbag</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/feeds/">feeds</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/ruby/">ruby</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-googles-first-tweet" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/02/26/googles-first-tweet/" class="article-date">
+  <time datetime="2009-02-26T19:02:34.000Z" itemprop="datePublished">Thu Feb 26, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/02/26/googles-first-tweet/">Google&#39;s first tweet</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><a href="http://google.com" target="_blank" rel="external">Google</a> created an official <a href="http://twitter.com" target="_blank" rel="external">Twitter</a> <a href="http://twitter.com/google" target="_blank" rel="external">account</a>. Its <a href="http://twitter.com/google/status/1251523388" target="_blank" rel="external">first tweet</a> was something odd:</p>
+<p><blockquote><span class="status-body"><span class="entry-content">I’m 01100110 01100101 01100101 01101100 01101001 01101110 01100111 00100000 01101100 01110101 01100011 01101011 01111001 00001010</span></span></blockquote><br>I had <a href="http://log.damog.net/2007/10/tip-perl-del-dia-chr-y-oct-en-un-loop-map/" target="_blank" rel="external">previously written</a> (in Spanish, for <a href="http://log.damog.net/index.php?s=columna+de+perl" target="_blank" rel="external">La Columna de Perl</a>), how to quickly decode this “way” of binary writing with Perl’s <tt>chr</tt> and <tt>oct</tt>. So, to find out what was Google really tweeting, run:</p>
+<p><blockquote><br><code>perl -e ‘map { print chr oct “0b”.$_; } split /\s/, “01100110 01100101 01100101 01101100 01101001 01101110 01100111 00100000 01101100 01110101 01100011 01101011 01111001 00001010”;’</code><br></blockquote><br>So, what’s really happening with this snippet? Well, the zeroes-ones string is being passed to the <tt>split</tt> function that explodes the string with a whitespace delimiter and passes that exploded string, a list, to <tt>map</tt>. <tt>map</tt> takes each one of the elements, the 8-character substring, one by one and preppends “<tt>0b</tt>“ so that <tt>oct</tt> can understand it as an octal string and returns the value for that character. Then, that value is passed to <tt>chr</tt> that takes the numerical representation of a given character and returns that character. Then, it’s just passed to print that, surprise, prints out that value.</p>
+<p>How do you do it in your language of choice?</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/binary/">binary</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/google/">google</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/map/">map</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/octal/">octal</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/twitter/">twitter</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+  
+    <nav id="page-nav">
+      <a class="extend prev" rel="prev" href="/blog/page/8/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/7/">7</a><a class="page-number" href="/blog/page/8/">8</a><span class="page-number current">9</span><a class="page-number" href="/blog/page/10/">10</a><a class="page-number" href="/blog/page/11/">11</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/75/">75</a><a class="extend next" rel="next" href="/blog/page/10/">Next &raquo;</a>
+    </nav>
+  
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

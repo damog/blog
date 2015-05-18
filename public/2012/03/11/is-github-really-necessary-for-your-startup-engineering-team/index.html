@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Is GitHub really necessary for your startup engineering team? | dm&#39;s blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="For the last few months, I’ve been ranting a little too much with our engineering team about GitHub. These rantings, of course, didn’t come out of the blue. I haven’t been too satisfied with GitHub’s">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Is GitHub really necessary for your startup engineering team?">
+<meta property="og:url" content="http://damog.net/blog/2012/03/11/is-github-really-necessary-for-your-startup-engineering-team/index.html">
+<meta property="og:site_name" content="dm's blog">
+<meta property="og:description" content="For the last few months, I’ve been ranting a little too much with our engineering team about GitHub. These rantings, of course, didn’t come out of the blue. I haven’t been too satisfied with GitHub’s">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Is GitHub really necessary for your startup engineering team?">
+<meta name="twitter:description" content="For the last few months, I’ve been ranting a little too much with our engineering team about GitHub. These rantings, of course, didn’t come out of the blue. I haven’t been too satisfied with GitHub’s">
+  
+    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://damog.net/blog"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-is-github-really-necessary-for-your-startup-engineering-team" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2012/03/11/is-github-really-necessary-for-your-startup-engineering-team/" class="article-date">
+  <time datetime="2012-03-12T05:52:52.000Z" itemprop="datePublished">Sun Mar 11, 2012</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      Is GitHub really necessary for your startup engineering team?
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>For the last few months, I’ve been ranting a little too much with <a href="http://selectablemedia.com" target="_blank" rel="external">our</a> engineering team about <a href="http://github.com" target="_blank" rel="external">GitHub</a>. These rantings, of course, didn’t come out of the blue. I haven’t been too satisfied with GitHub’s reliability lately since we use it for our daily development and constant deployment on our different staging environments and our own operation has been affected by their recent multiple technical difficulties. This has led me to analyze whether we really need them, why we started paying for their service in the first place and if it’s really necessary for our product development in the first place.</p>
+<p>Being an startup that originated its main product on Ruby and Ruby on Rails, some of our initial engineers were more oriented towards Ruby and open source technologies. We started using GitHub because it was the natural and de facto choice. Creation of repositories and private contributors was easy and would put you up to speed with collaboration. As we grew in developers count, our repositories did too as well as different projects. We even brought a system administrator in place. Do we still need GitHub right now? I won’t be dropping Git as our main version control system, but what has GitHub provided my company and project in exchange for the $200 we are paying them every month? Is it only hype for a company to use it for their internal repositories? Or is it hype to use them for their open repositories?</p>
+<p>The lack of site reliability on their side is what has led me thinking about whether we should still use them. What really concerns me is that they seem to have operational issues on a daily basis, they’re constantly announcing new hires, new pub meetings and new <a href="http://octodex.github.com/" target="_blank" rel="external">Octocat</a> designs, and little effort has been shown about the technical operations. It sometimes amazes me how people is so much in love with GitHub to the point where I even find “liked” articles on their feed on Google Reader whenever they announce downtimes and br0kenage (now +1’s). It’s like people enjoy what’s wrong.</p>
+<p>Are we using their issues functionality? The nice thread comments per commit, per line? Are we using pull requests? Are we using any of their actual offering compared to what a native Git server setup offers? No. The only thing is just pretty much the collaboration management, and even then, the “Groups” feature per organization is still lacking. The only main feature we use is the web browsing for the repos, which we can do with open source tools anyway. At the end, there’s other great GUIs for Git we also use on a daily basis, such as <a href="http://gitx.frim.nl/" target="_blank" rel="external">GitX</a> or <a href="http://www.git-tower.com/" target="_blank" rel="external">Tower</a> (and for now, yes, <a href="http://mac.github.com/" target="_blank" rel="external">GitHub’s GUI client</a>).</p>
+<p>The issue they were attacked with last week makes me wonder whether they are the right organization to give us version control system services or we’re just using them because we haven’t know any better or even looked at our own resources (people and machines). Someone got commit access to an open source repository. What if it would have been a malicious user getting access to private repositories where passwords and other sensitive are stored? How serious is this company? $200 is not much for a startup to spend on a neat service, but when that provider seems to be more concerned about stickers or beer than fixing their tech operations from the inside out is when it gets worrying. I like to see how other similar services we’re using compare to GitHub, how stable they feel and how notorious that reliability is shown. For example, <a href="http://newrelic.com/" target="_blank" rel="external">New Relic</a> which we also use, seems rock solid and they don’t show issues at all. What’s the difference here anyway?</p>
+<p>Site reliability is tricky anyway: when it’s faulty, it shows and screams because it affects business operations and reaches the entire company; when it’s working perfectly, the way it should, you can barely realize people are doing an stupendous job. GitHub, however, doesn’t seem to have this clear.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/site-reliability/">site reliability</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2012/03/16/feedbag-mit-license/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Feedbag released under MIT license
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2012/03/05/lessons-learned-and-real-experience/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          Lessons learned and real experience
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:damog.net/blog">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/blog/">dm&#39;s blog</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2015 David Moreno<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>
