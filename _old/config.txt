@@ -1,7 +1,0 @@
-blog_title = dm's blog
-blog_subtitle = David Moreno's technical and not too technical blog
-url_prefix = http://damog.net/blog/
-author = david@axiombox.com
-input = publish
-format = markdown
-pattern = *.md

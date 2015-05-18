@@ -1,9 +1,0 @@
----
-blog:
-    title: dm's blog
-    subtitle: David Moreno's technical and not too technical blog
-url: http://damog.net/blog/
-author: david@axiombox.com
-input: publish
-format: markdown
-pattern: "*.md"
