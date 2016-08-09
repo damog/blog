@@ -15,10 +15,10 @@
 <meta name="twitter:title" content="dm's blog">
 <meta name="twitter:description">
   
-    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+    <link rel="alternative" href="/blog/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/blog/favicon.png">
   
   <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -35,9 +35,9 @@
 	</h1>
 	<nav class="nav">
 		<ul>
-			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a href="/">Home</a></li><li><a href="/blog/archives">Archives</a></li>
 			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
-			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+			<li><a href="/blog/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
 		</ul>
 	</nav>
 	<div id="search-form-wrap">
@@ -47,11 +47,173 @@
     <div id="main">
       
   
+    <article id="post-more-git-tips" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/01/19/more-git-tips/" class="article-date">
+  <time datetime="2009-01-19T17:01:15.000Z" itemprop="datePublished">Mon Jan 19, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/01/19/more-git-tips/">More Git tips?</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Make sure you add the just launched <a href="http://gitready.com/" target="_blank" rel="external">git ready</a> blog to your feed reader. Made by <a href="http://litanyagainstfear.com/" target="_blank" rel="external">qrush</a>. Audience applauds!</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/blog/">blog</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/git/">git</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-introducing-apache2embedflv-%e2%80%93-exposing-flvs-with-flowplayer-and-a-customized-interface" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/01/17/introducing-apache2embedflv-%e2%80%93-exposing-flvs-with-flowplayer-and-a-customized-interface/" class="article-date">
+  <time datetime="2009-01-17T17:22:43.000Z" itemprop="datePublished">Sat Jan 17, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/01/17/introducing-apache2embedflv-%e2%80%93-exposing-flvs-with-flowplayer-and-a-customized-interface/">Introducing Apache2::EmbedFLV – Exposing FLVs with Flowplayer and a customized interface</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><strong>Situation</strong></p>
+<p>You have a bunch of Flash videos, FLV files. Every once in a while you dump new files on your publicly accessible Apache directory. You would like to give your users the ability to play those FLVs within a webpage you provide, instead of just serving them the files for a direct download. Maybe you want this for all FLVs, not only an specific directory.</p>
+<p><strong>Solution</strong></p>
+<p><a href="http://axiombox.com/apache2-embedflv" target="_blank" rel="external">Apache2::EmbedFLV</a>!</p>
+<p><pre><code>&lt;Files ~ “.flv$”&gt;<br>  SetHandler modperl<br>  PerlResponseHandler Apache2::EmbedFLV<br>&lt;/Files&gt;<br></code></pre><br>So now, all your FLV files will be served through Apache2::EmbedFLV on mod_perl with a neat interface you can define yourself, and using the very nice and GPL’ed <a href="http://flowplayer.org" target="_blank" rel="external">Flowplayer</a>.</p>
+<p>Apache2::EmbedFLV uses a default template, but you can define your own with:</p>
+<p><pre><code>&lt;Files ~ “.flv$”&gt;<br>  SetHandler modperl<br>  PerlSetVar template /path/to/your/template.tt<br>  PerlResponseHandler Apache2::EmbedFLV<br>&lt;/Files&gt;</code></pre><br>Also, Apache2::EmbedFLV expects to find Flowplayer (flowplayer.swf and flowplayer.controls.swf) on <a href="http://your.server.com/flowplayer.swf" target="_blank" rel="external">http://your.server.com/flowplayer.swf</a>, the root of your server. So you can do something like this to make it work:</p>
+<p><pre><code>Alias /flowplayer.swf /home/web/flowplayer/flowplayer.swf<br>Alias /flowplayer.controls.swf /home/web/flowplayer/flowplayer.controls.swf</code></pre><br>Or, you just define the flowplayer variable:</p>
+<p><pre><code>&lt;Files ~ “.flv$”&gt;<br>  SetHandler modperl</code></pre></p>
+<h1 id="relative_to_the_document_root">relative to the document root</h1><p>  PerlSetVar flowplayer /swf/flowplayer.swf</p>
+<h1 id="or_absolute:">or absolute:</h1><p>  PerlSetVar flowplayer <a href="http://my.other.server/was/hacked/flowplayer.swf" target="_blank" rel="external">http://my.other.server/was/hacked/flowplayer.swf</a><br>  PerlResponseHandler Apache2::EmbedFLV<br>&lt;/Files&gt;<br><strong>Action!</strong></p>
+<p>You can see it in action at <a href="http://axiombox.com/apache2-embedflv/flv" target="_blank" rel="external">http://axiombox.com/apache2-embedflv/flv</a>.</p>
+<p><a href="http://axiombox.com/apache2-embedflv/flv/radiohead_bodysnatchers2.flv" target="_blank" rel="external">This Radiohead video</a> is particularly cool :-)</p>
+<p><strong>Getting it</strong></p>
+<p><ul><br>    <li>More information at its homepage, <a href="http://axiombox.com/apache2-embedflv" target="_blank" rel="external">http://axiombox.com/apache2-embedflv</a></li><br>    <li><a href="http://search.cpan.org/~damog/Apache2-EmbedFLV-0.2/" target="_blank" rel="external">CPAN module</a>.</li><br>    <li><a href="http://github.com/damog/apache2-embedflv" target="_blank" rel="external">Git repository</a>, as usual, on GitHub.</li><br></ul><br>UPDATE: Oops! Fixed link to Flowplayer’s website! <a href="http://flowplayer.org" target="_blank" rel="external">flowplayer.org</a>. Thanks to those who noticed and let me knew.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/apache/">apache</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/flowplayer/">flowplayer</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/flv/">flv</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/mod-perl/">mod_perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/swf/">swf</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-feathercast-apache-software-foundation-unofficial-podcast" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/01/17/feathercast-apache-software-foundation-unofficial-podcast/" class="article-date">
+  <time datetime="2009-01-17T13:41:32.000Z" itemprop="datePublished">Sat Jan 17, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/01/17/feathercast-apache-software-foundation-unofficial-podcast/">FeatherCast: Apache Software Foundation /unofficial/ podcast</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>I recently stumbled upon <a href="http://feathercast.org/" target="_blank" rel="external">FeatherCast</a>, a nice little project made by <a href="http://wooga.drbacchus.com/" target="_blank" rel="external">Rich Bowen</a> and David Reid, the former, a recognized documenter within the Apache community, author of a few <a href="http://www.amazon.com/exec/obidos/search-handle-url/ref=ntt_athr_dp_sr_1?_encoding=UTF8&amp;search-type=ss&amp;index=books&amp;field-author=Rich%20Bowen" target="_blank" rel="external">books</a> on the webserver, mainly the <a href="http://www.apache-cookbook.com/" target="_blank" rel="external">Apache Cookbook</a>. FeatherCast is an unofficial podcast; its primary goal is supporting the <a href="http://apache.org" target="_blank" rel="external">Apache Software Foundation</a> community. I’ve found it to be greatly interesting, modern and up to date; more recently, bringing lights to some of the content and people, for instance, featured on <a href="http://www.us.apachecon.com/c/acus2008/" target="_blank" rel="external">ApacheCon</a>, which took place in New Orleans, LA, late last year.</p>
+<p>Great effort, great initiative: Subscribe and support FeatherCast!</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/apache/">apache</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/feathercast/">feathercast</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/podcast/">podcast</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/tips/">tips</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
     <article id="post-macbook-pro" class="post">
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2009/01/14/macbook-pro/" class="article-date">
-  <time datetime="2009-01-14T18:27:23.000Z" itemprop="datePublished">Wed Jan 14, 2009</time>
+  <time datetime="2009-01-14T11:27:23.000Z" itemprop="datePublished">Wed Jan 14, 2009</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -104,7 +266,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2009/01/10/twitvim/" class="article-date">
-  <time datetime="2009-01-10T23:18:41.000Z" itemprop="datePublished">Sat Jan 10, 2009</time>
+  <time datetime="2009-01-10T16:18:41.000Z" itemprop="datePublished">Sat Jan 10, 2009</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -164,7 +326,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2009/01/08/re-on-debgem/" class="article-date">
-  <time datetime="2009-01-08T16:40:38.000Z" itemprop="datePublished">Thu Jan 8, 2009</time>
+  <time datetime="2009-01-08T09:40:38.000Z" itemprop="datePublished">Thu Jan 8, 2009</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -214,7 +376,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2009/01/06/returning-an-specific-http-status-return-code-and-content-with-mod-perl-2/" class="article-date">
-  <time datetime="2009-01-06T17:35:12.000Z" itemprop="datePublished">Tue Jan 6, 2009</time>
+  <time datetime="2009-01-06T10:35:12.000Z" itemprop="datePublished">Tue Jan 6, 2009</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -317,7 +479,7 @@ You suck.
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2009/01/03/ruby-goodies-modules-and-methods-for-my-everyday-ruby/" class="article-date">
-  <time datetime="2009-01-04T05:27:50.000Z" itemprop="datePublished">Sat Jan 3, 2009</time>
+  <time datetime="2009-01-03T22:27:50.000Z" itemprop="datePublished">Sat Jan 3, 2009</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -413,7 +575,7 @@ requiring /var/lib/gems/1.8/gems/damog-goodies-0.1/lib/goodies/html.rb
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2008/12/30/introducing-feedbag-feed-auto-discovery-ruby-librarytool/" class="article-date">
-  <time datetime="2008-12-31T00:58:10.000Z" itemprop="datePublished">Tue Dec 30, 2008</time>
+  <time datetime="2008-12-30T17:58:10.000Z" itemprop="datePublished">Tue Dec 30, 2008</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -464,7 +626,7 @@ requiring /var/lib/gems/1.8/gems/damog-goodies-0.1/lib/goodies/html.rb
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2008/12/29/good-looking-irb/" class="article-date">
-  <time datetime="2008-12-29T16:01:51.000Z" itemprop="datePublished">Mon Dec 29, 2008</time>
+  <time datetime="2008-12-29T09:01:51.000Z" itemprop="datePublished">Mon Dec 29, 2008</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -516,177 +678,6 @@ requiring /var/lib/gems/1.8/gems/damog-goodies-0.1/lib/goodies/html.rb
 
 
   
-    <article id="post-two-git-tips" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2008/12/12/two-git-tips/" class="article-date">
-  <time datetime="2008-12-13T05:52:28.000Z" itemprop="datePublished">Fri Dec 12, 2008</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2008/12/12/two-git-tips/">Two Git tips</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>Following the Git tips being thrown on <a href="http://planet.debian.org" target="_blank" rel="external">Planet Debian</a>, here’s a couple:</p>
-<p><strong>1.</strong> Changing into a directory that contains a repo and shows you on PS1 what branch you are standing on:</p>
-<div align="center"><a href="http://damog.net/old/axiombox/2008/12/git-ps1.png" target="_blank" rel="external"><img class="aligncenter size-full wp-image-739" title="git-ps1" src="http://damog.net/old/axiombox/2008/12/git-ps1.png" alt="" width="344" height="126"></a></div>
-
-<p>On .bashrc I have:</p>
-<p><pre>GITPS1=’$(__git_ps1 “:%s “)’<br>export PS1=”${GREEN}\w${RS} ${YELLOW}${GITPS1}${RS}\$ “</pre><br><strong>2.</strong> An alias I like to use on repos that are personal for quick tracking:</p>
-<div align="center"><a href="http://damog.net/old/axiombox/2008/12/git-log1.png" target="_blank" rel="external"><img class="aligncenter size-full wp-image-740" title="git-log1" src="http://damog.net/old/axiombox/2008/12/git-log1.png" alt="" width="328" height="100"></a></div>
-
-<p><pre>[alias]<br>  …<br>  log1 = log —pretty=oneline —abbrev-commit</pre><br>I hope you like them.</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/tips/">tips</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-high-order-perl-available-for-free" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2008/12/09/high-order-perl-available-for-free/" class="article-date">
-  <time datetime="2008-12-09T22:56:04.000Z" itemprop="datePublished">Tue Dec 9, 2008</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2008/12/09/high-order-perl-available-for-free/">High-Order Perl available for free</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>My friend <a href="http://search.cpan.org/~amnesiac/" target="_blank" rel="external">Marco</a> first told me on IM, then I read it on <a href="http://perlbuzz.com/2008/12/higher-order-perl-available-for-free-download.html" target="_blank" rel="external">PerlBuzz</a>. The nice <strong>High-Order Perl</strong> book by<br>Mark Jason Dominus is now available for free (as in free beer) at its <a href="http://hop.perl.plover.com/book/" target="_blank" rel="external">website</a>.</p>
-<p>This book caught my attention a long time ago on a Barnes &amp; Noble once, but since I had just too many book on queue, I decided not to buy it. I then read that it’s actually a good book on “advanced” techniques on Perl, so my interest grew, but for random reasons I just didn’t get it.</p>
-<p>Now I have no excuses not to, and either do you :)</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/books/">books</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-directoryindex-and-perl-script-handler" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2008/12/02/directoryindex-and-perl-script-handler/" class="article-date">
-  <time datetime="2008-12-02T18:12:40.000Z" itemprop="datePublished">Tue Dec 2, 2008</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2008/12/02/directoryindex-and-perl-script-handler/">DirectoryIndex and the &quot;perl-script&quot; handler</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p><a href="http://www.grep.be/blog/en/computer/play/scriptalias_index.cgi" target="_blank" rel="external">Wouter Verhelst blogs about combining</a> ScriptAlias (or a way to run CGIs) and DirectoryIndex in Apache.</p>
-
-<p>Recently, developing a TinyURL clone I had a similar (not identical, though) issue.</p>
-
-<p>Basically, I set <tt>SetHandler</tt> to <tt>perl-script</tt> on the <tt>“/“</tt> location, which basically means, everything accessed on a given virtual host, is affected. Because you are changing the handler for the entire location, <tt>DirectoryIndex</tt> will have no effect on it because <tt>mod_dir</tt> is the one dealing with the <tt>DirectoryIndex</tt> function, that is, using the <tt>DIR_MAGIC_TYPE</tt> handler.</p>
-
-<p>To fix this you can use a mod_perl (2, I never really used 1) <tt>Fixup</tt> phase handler:</p>
-
-<p><pre><br>&lt;VirtualHost *:80&gt;<br>    …<br>    <font color="#444444"># some stuff<br>    </font>…<br><br>    <font color="#444444"># PerlSections rule.<br>    </font>&lt;Perl&gt;<br>    <font color="#2040a0">$Location</font><font color="4444FF"><strong>{</strong></font><font color="#008000">&quot;/&quot;</font><font color="4444FF"><strong>}</strong></font> = <font color="4444FF"><strong>{</strong></font><br>        SetHandler =&gt; <font color="#008000">‘perl-script’</font>,<br>        <font color="#444444"># some stuff<br>        </font>PerlFixupHandler =&gt; <font color="#008000">‘Axiombox::Awbox::Fixup’</font>,<br>        <font color="#444444"># some other stuff<br>        </font>DirectoryIndex =&gt; <font color="#008000">‘whatever.html’</font>,<br>    <font color="4444FF"><strong>}</strong></font>;<br>    &lt;/Perl&gt;<br><br>&lt;/VirtualHost&gt;<br><br></pre></p>
-
-<p>If it looks incomplete is because some other information, out of the scope of this sample, like DocumentRoot or other mod_perl directives, are hidden as the “other stuff”. My <tt>Fixup.pm</tt> handler looks like this:</p>
-
-<p><pre><br><strong>package</strong> Axiombox::Awbox::Fixup;<br><br><strong>use</strong> strict;<br><strong>use</strong> warnings FATAL =&gt; <font color="a52a2a"><strong>qw</strong></font><font color="4444FF"><strong>(</strong></font>all<font color="4444FF"><strong>)</strong></font>;<br><br><strong>use</strong> Apache2::Const -compile =&gt; <font color="a52a2a"><strong>qw</strong></font><font color="4444FF"><strong>(</strong></font>DIR_MAGIC_TYPE OK DECLINED<font color="4444FF"><strong>)</strong></font>;<br><strong>use</strong> Apache2::RequestRec;<br><br><strong>sub<font color="ff0000"> handler</font> {</strong><br>    <strong>my</strong> <font color="#2040a0">$r</font> = <font color="a52a2a"><strong>shift</strong></font>;<br><br>    <strong>if</strong> <font color="4444FF"><strong>(</strong></font><font color="#2040a0">$r</font>-&gt;handler <strong>eq</strong> <font color="#008000">‘perl-script’</font> &amp;&amp;<br>        -d <font color="#2040a0">$r</font>-&gt;filename              &amp;&amp;<br>        <font color="#2040a0">$r</font>-&gt;is_initial_req<font color="4444FF"><strong>)</strong></font><br>    <font color="4444FF"><strong>{</strong></font><br>        <font color="#2040a0">$r</font>-&gt;handler<font color="4444FF"><strong>(</strong></font>Apache2::Const::DIR_MAGIC_TYPE<font color="4444FF"><strong>)</strong></font>;<br><br>        <strong>return</strong> Apache2::Const::OK;<br>    <font color="4444FF"><strong>}</strong></font><br><br>    <strong>return</strong> Apache2::Const::DECLINED;<br><font color="4444FF"><strong>}</strong></font><br><br>1;<br><br></pre></p>
-
-<p>Which is very straight-forward: If the request is set to <tt>perl-script</tt>, the requested file is a directory and if the current request is the main one, then change the handler and return to the normal flow of phases. Otherwise, decline the <tt>Fixup</tt> phase handler.</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/apache/">apache</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/mod-perl/">mod_perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/blog/page/10/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/9/">9</a><a class="page-number" href="/blog/page/10/">10</a><span class="page-number current">11</span><a class="page-number" href="/blog/page/12/">12</a><a class="page-number" href="/blog/page/13/">13</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/75/">75</a><a class="extend next" rel="next" href="/blog/page/12/">Next &raquo;</a>
@@ -705,7 +696,7 @@ requiring /var/lib/gems/1.8/gems/damog-goodies-0.1/lib/goodies/html.rb
 		<a href="/blog/">dm&#39;s blog</a>
 	</h1>
 	<span class="copyright">
-		&copy; 2015 David Moreno<br>
+		&copy; 2016 David Moreno<br>
 		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
 		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
 	</span>

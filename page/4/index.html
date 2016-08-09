@@ -15,10 +15,10 @@
 <meta name="twitter:title" content="dm's blog">
 <meta name="twitter:description">
   
-    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+    <link rel="alternative" href="/blog/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/blog/favicon.png">
   
   <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -35,9 +35,9 @@
 	</h1>
 	<nav class="nav">
 		<ul>
-			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a href="/">Home</a></li><li><a href="/blog/archives">Archives</a></li>
 			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
-			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+			<li><a href="/blog/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
 		</ul>
 	</nav>
 	<div id="search-form-wrap">
@@ -47,11 +47,169 @@
     <div id="main">
       
   
+    <article id="post-apache2archive-0-2" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2010/08/22/apache2archive-0-2/" class="article-date">
+  <time datetime="2010-08-22T17:45:00.000Z" itemprop="datePublished">Sun Aug 22, 2010</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2010/08/22/apache2archive-0-2/">Apache2::Archive 0.2</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><a href="http://search.cpan.org/dist/Apache2-Archive" target="_blank" rel="external">Apache2::Archive</a> is a mod_perl 2 extension that allows the Apache HTTP server to expose tar and tar.gz archives on the fly. When a client requests such an archive file, the server will return a page displaying information about the file that allows the user to view or download individual files from within the archive.</p>
+<p>I just uploaded version <strong>0.2</strong> to <a href="http://search.cpan.org/~damog" target="_blank" rel="external">CPAN</a> and <a href="http://github.com/damog/apache2-archive/tree/0.2" target="_blank" rel="external">GitHub</a> correcting a few automatic build issues presented with dependencies. Grab it now with <tt><a href="http://search.cpan.org/dist/App-CPAN-Fresh/" target="_blank" rel="external">cpanf</a></tt>!</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-curl-post-data-and-newlines" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2010/08/15/curl-post-data-and-newlines/" class="article-date">
+  <time datetime="2010-08-15T20:10:35.000Z" itemprop="datePublished">Sun Aug 15, 2010</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2010/08/15/curl-post-data-and-newlines/">curl POST data and newlines</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>I’m writing a <a href="http://rubyonrails.org/" target="_blank" rel="external">Rails</a> application for the <a href="http://en.wikipedia.org/wiki/Microblogging" target="_blank" rel="external">microblogging</a> strategy for <a href="http://debian.org" target="_blank" rel="external">Debian</a> (which I used to call, <a href="http://github.com/damog/debian-twitter" target="_blank" rel="external">debian-twitter</a>, but you know how us Debian folks are :D). I came up with a strange issue, that at first I thought was <a href="http://guides.rubyonrails.org/action_controller_overview.html" target="_blank" rel="external">ActionController</a>‘s fault or some crap.</p>
+<p>So, I was testing one of my controllers with something like this:</p>
+<p><code lang="bash">cat /tmp/mm.txt | curl -d @- <a href="http://localhost:3000/message/new" target="_blank" rel="external">http://localhost:3000/message/new</a></code></p>
+<p>/tmp/mm.txt is a <a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy" target="_blank" rel="external">PGP</a> signed message which then I just send as POST data to my application. So far so good. However, when accessing the data from Rails, using request.body.read, I was a getting a single line, with the newlines (carriage returns) removed. So I started looking at how ActionController was getting the HTTP data and stuff. But then I tested:</p>
+<p><code lang="bash">cat /tmp/mm.txt | lwp-request -m POST  <a href="http://localhost:3000/message/new" target="_blank" rel="external">http://localhost:3000/message/new</a></code></p>
+<p>And that had the carriage returns in place.</p>
+<p>So, I started looking at the curl man page and discovered this little gem:</p>
+<p><blockquote>—data-binary &lt;data&gt;</blockquote></p>
+<p>(HTTP) This posts data exactly as specified with no extra processing whatsoever.</p>
+<p>If you start the data with the letter @, the rest should be a filename. Data is posted in a similar manner as —data-ascii does, except that newlines are preserved and conversions are never done.</p>
+<p>If this option is used several times, the ones following the first will append data as described in -d/—data.<br><code lang="bash">cat /tmp/mm.txt | curl —data-binary @- <a href="http://localhost:3000/message/new" target="_blank" rel="external">http://localhost:3000/message/new</a></code></p>
+<p>…did indeed the tricky. Maybe someone needs this info some day.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/code/">code</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/curl/">curl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debian/">debian</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/rails/">rails</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-debconf-10" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2010/08/12/debconf-10/" class="article-date">
+  <time datetime="2010-08-12T00:04:17.000Z" itemprop="datePublished">Thu Aug 12, 2010</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2010/08/12/debconf-10/">DebConf 10</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>I was in New York for three full weeks, before, during and after DebConf 10 took place. Unfortunately, I wasn’t able to attend talks or go hang out with folks as much as I would’ve wanted. Most of the time I was busy at the office with a new product launch we have been preparing for the last few months. However, I was able to come and say hi to a few people, attend the C&amp;W party and talk with friends and ran into. I was, however, following all conversations on IRC so I was pretty informed of all of what was going on. Some random thoughts:</p>
+<p><ul><br>    <li>Being surrounded by so many amazing Debian people made me realize how much I’ve been apart from the project. My involvement decreased pretty much since I moved to New York. But because of that, I’m now slowly retaking my activity, trying to work on actual things that I use on my daily work instead of just packaging tons of shit that nobody really cared about.</li><br>    <li>DebConf is pretty awesome. After attending six out of the last seven Debian conferences, you get to establish a nice connection with people and they become your friends. This year, even if I only came a couple of nights, I made stronger friendships, and for that I’m thankful. It is only within Debian that this human part of bonding really takes place.</li><br>    <li>I really regret missing a couple of events: First, the Day trip to Coney Island and the Cyclones game; and the group photo. Both because of work, yes.</li><br>    <li>It was interesting to hear the thoughts from one of the Bosnian attendees about next year’s DebConf there. I’m really sorry I can’t recall his name, but it shocked a bit that he stated that they might try to find <em>better speakers</em> next year, because a lot of them “sucked a lot” here. All I can say is that, even though everybody’s opinions are valid, this might come from an outsider, not used to Debian conferences. Where are you going to find better speakers? Us developers are the only speakers out there, good or bad, we are the ones making the conferences by and for.</li><br>    <li>I like Zach’s attitude as DPL, even when I introduced him to a very nice friend of mine that came to the party to hang out.</li><br></ul><br>DebConf 10 rocked and I appreciate everybody’s participation in it. See you in Banja Luka, next year!</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debconf/">debconf</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debconf10/">debconf10</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debian/">debian</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
     <article id="post-2010-26" class="post">
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/08/09/2010-26/" class="article-date">
-  <time datetime="2010-08-09T16:42:33.000Z" itemprop="datePublished">Mon Aug 9, 2010</time>
+  <time datetime="2010-08-09T09:42:33.000Z" itemprop="datePublished">Mon Aug 9, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -100,7 +258,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/08/09/solicito-desarrollador-ruby-on-rails/" class="article-date">
-  <time datetime="2010-08-09T14:19:12.000Z" itemprop="datePublished">Mon Aug 9, 2010</time>
+  <time datetime="2010-08-09T07:19:12.000Z" itemprop="datePublished">Mon Aug 9, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -155,7 +313,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/07/30/debconf-10-restricted-access/" class="article-date">
-  <time datetime="2010-07-30T16:47:39.000Z" itemprop="datePublished">Fri Jul 30, 2010</time>
+  <time datetime="2010-07-30T09:47:39.000Z" itemprop="datePublished">Fri Jul 30, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -206,7 +364,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/04/21/nginx-talk-on-flisol-at-uia/" class="article-date">
-  <time datetime="2010-04-21T15:30:21.000Z" itemprop="datePublished">Wed Apr 21, 2010</time>
+  <time datetime="2010-04-21T08:30:21.000Z" itemprop="datePublished">Wed Apr 21, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -255,7 +413,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/03/14/techcrunch-top-stories-news-feed/" class="article-date">
-  <time datetime="2010-03-15T00:54:33.000Z" itemprop="datePublished">Sun Mar 14, 2010</time>
+  <time datetime="2010-03-14T17:54:33.000Z" itemprop="datePublished">Sun Mar 14, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -307,7 +465,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/03/05/feedbag-06/" class="article-date">
-  <time datetime="2010-03-06T02:36:59.000Z" itemprop="datePublished">Fri Mar 5, 2010</time>
+  <time datetime="2010-03-05T19:36:59.000Z" itemprop="datePublished">Fri Mar 5, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -369,7 +527,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/03/01/debian-fails/" class="article-date">
-  <time datetime="2010-03-01T22:06:19.000Z" itemprop="datePublished">Mon Mar 1, 2010</time>
+  <time datetime="2010-03-01T15:06:19.000Z" itemprop="datePublished">Mon Mar 1, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -421,170 +579,6 @@
 
 
   
-    <article id="post-dancer-template-haml" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2010/02/11/dancer-template-haml/" class="article-date">
-  <time datetime="2010-02-11T22:43:53.000Z" itemprop="datePublished">Thu Feb 11, 2010</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2010/02/11/dancer-template-haml/">Dancer::Template::Haml now available</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>I put together a quick template engine for <a href="http://dancer.sukria.net/" target="_blank" rel="external">Dancer</a> using <a href="http://haml-lang.com" target="_blank" rel="external">Haml</a> via <a href="http://search.cpan.org/dist/Text-Haml/" target="_blank" rel="external">Text::Haml</a>. You know Haml, right?</p>
-<p>Now you can do neat shit like this:</p>
-<p><code lang="perl"><br> set template =&gt; ‘haml’;</code></p>
-<p> get ‘/bazinga’, sub {<br>        template ‘bazinga’ =&gt; {<br>                title =&gt; ‘Bazinga!’,<br>                content =&gt; ‘Bazinga?’,<br>        };<br> };<br></p>
-<p>Using:</p>
-<p><code lang="ruby"><br> !!!<br> %html{ : xmlns =&gt; “<a href="http://www.w3.org/1999/xhtml" target="_blank" rel="external">http://www.w3.org/1999/xhtml</a>“, :lang =&gt; “en”, “xml:lang” =&gt; “en”}<br>   %head<br>     %title= title<br>   %body</code></p>
-<pre><code>#content
-<span class="tag">  %<span class="title">strong</span></span>= content
-</code></pre><p></p>
-<p>The dope thing about Text::Haml is that things like the Ruby interpolation will keep working.</p>
-<p>Hurray! <a href="http://search.cpan.org/dist/Dancer-Template-Haml/" target="_blank" rel="external">Go get it now</a>.</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/dancer/">dancer</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/haml/">haml</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/ruby/">ruby</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-jon-stewart-interviewed-by-bill-oreilly" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2010/02/09/jon-stewart-interviewed-by-bill-oreilly/" class="article-date">
-  <time datetime="2010-02-10T00:30:24.000Z" itemprop="datePublished">Tue Feb 9, 2010</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2010/02/09/jon-stewart-interviewed-by-bill-oreilly/">Jon Stewart interviewed by Bill O&#39;Reilly</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>It is worth watching entirely.</p>
-<div align="center"><script src="http://video.foxnews.com/v/embed.js?id=4003531&amp;w=400&amp;h=249" type="text/javascript"></script></div>
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/fox/">fox</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/o-reilly/">o'reilly</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/politics/">politics</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/stewart/">stewart</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/video/">video</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-features-on-dancer-1-130" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2010/02/08/features-on-dancer-1-130/" class="article-date">
-  <time datetime="2010-02-09T04:36:50.000Z" itemprop="datePublished">Mon Feb 8, 2010</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2010/02/08/features-on-dancer-1-130/">New features on Dancer 1.130</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>Last week, or the one before that one, <a href="http://www.sukria.net/" target="_blank" rel="external">Alexis</a> released <a href="http://dancer.sukria.net" target="_blank" rel="external">Dancer</a> <a href="http://search.cpan.org/~sukria/Dancer-1.130/lib/Dancer.pm" target="_blank" rel="external">1.130</a> which represents a big refactoring of the Dancer core code, taking all optional modules away from it: Logging, session and template engines were splited into their respective non-core modules, etc. Additionally, two keyword features were added, header and prefix. I will showcase both in case you haven’t heard the good word from them :)</p>
-<h3>header</h3><br>The <tt>header</tt> keyword allows you to modify or alter the response headers by hand. That was a nice little feature that still hadn’t been implemented. With <tt>header</tt> you can do nice little things like this:<br><br><code lang="perl"><br>get ‘/set/header’ =&gt; sub {<br>  header ‘X-Foo’ =&gt; ‘bar’;<br>  “I’m a happy string.” . “\n”;<br>}<br></code><br><br>And this is what that very same code does:<br><br><code lang="bash"><br>~ $ curl -i <a href="http://0.0.0.0:3000/set/header" target="_blank" rel="external">http://0.0.0.0:3000/set/header</a><br>HTTP/1.0 200 OK<br>X-Foo: bar<br>Content-Type: text/html<br>X-Powered-By: Perl Dancer 1.130<br><br>I’m a happy string.<br></code><br><br>Also, <tt>header</tt> has a method synonym, <tt>headers</tt>, and you can use both indistinctly:<br><br><code lang="perl"><br>get ‘/some/crap’, sub {<br>  headers ‘X-Foo’ =&gt; ‘Bar’,<br>    ‘X-Bar’ =&gt; ‘Foo’;<br>}</code><br><br>And it will produce the result that you are expecting.<br><br><h3>prefix</h3>
-
-<p><tt>prefix</tt> is also interesting. It will indicate that the following route handlers’ path patters defined for Dancer will be prepended with such prefix. So:</p>
-<p><code lang="perl"><br>prefix ‘/user’;<br>get ‘/home’, sub { template ‘user_home’ };<br>get ‘/logout’, sub { “bye!” };<br></code></p>
-<p>So here we are instructing Dancer two route handlers that happen to be really pointing to “/user/home” and “/user/logout”. In order to stop prefixing the route handlers’ paths you just do:</p>
-<p><code lang="perl">prefix undef;</code></p>
-<p>And continue with your un-prepended paths.</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/dancer/">dancer</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/blog/page/3/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/blog/page/2/">2</a><a class="page-number" href="/blog/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/blog/page/5/">5</a><a class="page-number" href="/blog/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/75/">75</a><a class="extend next" rel="next" href="/blog/page/5/">Next &raquo;</a>
@@ -603,7 +597,7 @@
 		<a href="/blog/">dm&#39;s blog</a>
 	</h1>
 	<span class="copyright">
-		&copy; 2015 David Moreno<br>
+		&copy; 2016 David Moreno<br>
 		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
 		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
 	</span>

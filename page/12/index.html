@@ -15,10 +15,10 @@
 <meta name="twitter:title" content="dm's blog">
 <meta name="twitter:description">
   
-    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+    <link rel="alternative" href="/blog/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/blog/favicon.png">
   
   <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -35,9 +35,9 @@
 	</h1>
 	<nav class="nav">
 		<ul>
-			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a href="/">Home</a></li><li><a href="/blog/archives">Archives</a></li>
 			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
-			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+			<li><a href="/blog/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
 		</ul>
 	</nav>
 	<div id="search-form-wrap">
@@ -47,11 +47,182 @@
     <div id="main">
       
   
+    <article id="post-two-git-tips" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2008/12/12/two-git-tips/" class="article-date">
+  <time datetime="2008-12-12T22:52:28.000Z" itemprop="datePublished">Fri Dec 12, 2008</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2008/12/12/two-git-tips/">Two Git tips</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Following the Git tips being thrown on <a href="http://planet.debian.org" target="_blank" rel="external">Planet Debian</a>, here’s a couple:</p>
+<p><strong>1.</strong> Changing into a directory that contains a repo and shows you on PS1 what branch you are standing on:</p>
+<div align="center"><a href="http://damog.net/old/axiombox/2008/12/git-ps1.png" target="_blank" rel="external"><img class="aligncenter size-full wp-image-739" title="git-ps1" src="http://damog.net/old/axiombox/2008/12/git-ps1.png" alt="" width="344" height="126"></a></div>
+
+<p>On .bashrc I have:</p>
+<p><pre>GITPS1=’$(__git_ps1 “:%s “)’<br>export PS1=”${GREEN}\w${RS} ${YELLOW}${GITPS1}${RS}\$ “</pre><br><strong>2.</strong> An alias I like to use on repos that are personal for quick tracking:</p>
+<div align="center"><a href="http://damog.net/old/axiombox/2008/12/git-log1.png" target="_blank" rel="external"><img class="aligncenter size-full wp-image-740" title="git-log1" src="http://damog.net/old/axiombox/2008/12/git-log1.png" alt="" width="328" height="100"></a></div>
+
+<p><pre>[alias]<br>  …<br>  log1 = log —pretty=oneline —abbrev-commit</pre><br>I hope you like them.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/tips/">tips</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-high-order-perl-available-for-free" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2008/12/09/high-order-perl-available-for-free/" class="article-date">
+  <time datetime="2008-12-09T15:56:04.000Z" itemprop="datePublished">Tue Dec 9, 2008</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2008/12/09/high-order-perl-available-for-free/">High-Order Perl available for free</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>My friend <a href="http://search.cpan.org/~amnesiac/" target="_blank" rel="external">Marco</a> first told me on IM, then I read it on <a href="http://perlbuzz.com/2008/12/higher-order-perl-available-for-free-download.html" target="_blank" rel="external">PerlBuzz</a>. The nice <strong>High-Order Perl</strong> book by<br>Mark Jason Dominus is now available for free (as in free beer) at its <a href="http://hop.perl.plover.com/book/" target="_blank" rel="external">website</a>.</p>
+<p>This book caught my attention a long time ago on a Barnes &amp; Noble once, but since I had just too many book on queue, I decided not to buy it. I then read that it’s actually a good book on “advanced” techniques on Perl, so my interest grew, but for random reasons I just didn’t get it.</p>
+<p>Now I have no excuses not to, and either do you :)</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/books/">books</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-directoryindex-and-perl-script-handler" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2008/12/02/directoryindex-and-perl-script-handler/" class="article-date">
+  <time datetime="2008-12-02T11:12:40.000Z" itemprop="datePublished">Tue Dec 2, 2008</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2008/12/02/directoryindex-and-perl-script-handler/">DirectoryIndex and the &quot;perl-script&quot; handler</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><a href="http://www.grep.be/blog/en/computer/play/scriptalias_index.cgi" target="_blank" rel="external">Wouter Verhelst blogs about combining</a> ScriptAlias (or a way to run CGIs) and DirectoryIndex in Apache.</p>
+
+<p>Recently, developing a TinyURL clone I had a similar (not identical, though) issue.</p>
+
+<p>Basically, I set <tt>SetHandler</tt> to <tt>perl-script</tt> on the <tt>“/“</tt> location, which basically means, everything accessed on a given virtual host, is affected. Because you are changing the handler for the entire location, <tt>DirectoryIndex</tt> will have no effect on it because <tt>mod_dir</tt> is the one dealing with the <tt>DirectoryIndex</tt> function, that is, using the <tt>DIR_MAGIC_TYPE</tt> handler.</p>
+
+<p>To fix this you can use a mod_perl (2, I never really used 1) <tt>Fixup</tt> phase handler:</p>
+
+<p><pre><br>&lt;VirtualHost *:80&gt;<br>    …<br>    <font color="#444444"># some stuff<br>    </font>…<br><br>    <font color="#444444"># PerlSections rule.<br>    </font>&lt;Perl&gt;<br>    <font color="#2040a0">$Location</font><font color="4444FF"><strong>{</strong></font><font color="#008000">&quot;/&quot;</font><font color="4444FF"><strong>}</strong></font> = <font color="4444FF"><strong>{</strong></font><br>        SetHandler =&gt; <font color="#008000">‘perl-script’</font>,<br>        <font color="#444444"># some stuff<br>        </font>PerlFixupHandler =&gt; <font color="#008000">‘Axiombox::Awbox::Fixup’</font>,<br>        <font color="#444444"># some other stuff<br>        </font>DirectoryIndex =&gt; <font color="#008000">‘whatever.html’</font>,<br>    <font color="4444FF"><strong>}</strong></font>;<br>    &lt;/Perl&gt;<br><br>&lt;/VirtualHost&gt;<br><br></pre></p>
+
+<p>If it looks incomplete is because some other information, out of the scope of this sample, like DocumentRoot or other mod_perl directives, are hidden as the “other stuff”. My <tt>Fixup.pm</tt> handler looks like this:</p>
+
+<p><pre><br><strong>package</strong> Axiombox::Awbox::Fixup;<br><br><strong>use</strong> strict;<br><strong>use</strong> warnings FATAL =&gt; <font color="a52a2a"><strong>qw</strong></font><font color="4444FF"><strong>(</strong></font>all<font color="4444FF"><strong>)</strong></font>;<br><br><strong>use</strong> Apache2::Const -compile =&gt; <font color="a52a2a"><strong>qw</strong></font><font color="4444FF"><strong>(</strong></font>DIR_MAGIC_TYPE OK DECLINED<font color="4444FF"><strong>)</strong></font>;<br><strong>use</strong> Apache2::RequestRec;<br><br><strong>sub<font color="ff0000"> handler</font> {</strong><br>    <strong>my</strong> <font color="#2040a0">$r</font> = <font color="a52a2a"><strong>shift</strong></font>;<br><br>    <strong>if</strong> <font color="4444FF"><strong>(</strong></font><font color="#2040a0">$r</font>-&gt;handler <strong>eq</strong> <font color="#008000">‘perl-script’</font> &amp;&amp;<br>        -d <font color="#2040a0">$r</font>-&gt;filename              &amp;&amp;<br>        <font color="#2040a0">$r</font>-&gt;is_initial_req<font color="4444FF"><strong>)</strong></font><br>    <font color="4444FF"><strong>{</strong></font><br>        <font color="#2040a0">$r</font>-&gt;handler<font color="4444FF"><strong>(</strong></font>Apache2::Const::DIR_MAGIC_TYPE<font color="4444FF"><strong>)</strong></font>;<br><br>        <strong>return</strong> Apache2::Const::OK;<br>    <font color="4444FF"><strong>}</strong></font><br><br>    <strong>return</strong> Apache2::Const::DECLINED;<br><font color="4444FF"><strong>}</strong></font><br><br>1;<br><br></pre></p>
+
+<p>Which is very straight-forward: If the request is set to <tt>perl-script</tt>, the requested file is a directory and if the current request is the main one, then change the handler and return to the normal flow of phases. Otherwise, decline the <tt>Fixup</tt> phase handler.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/apache/">apache</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/mod-perl/">mod_perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
     <article id="post-gracias-2" class="post">
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2008/11/27/gracias-2/" class="article-date">
-  <time datetime="2008-11-28T03:22:24.000Z" itemprop="datePublished">Thu Nov 27, 2008</time>
+  <time datetime="2008-11-27T20:22:24.000Z" itemprop="datePublished">Thu Nov 27, 2008</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -103,7 +274,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2008/11/21/book-meme/" class="article-date">
-  <time datetime="2008-11-21T18:38:20.000Z" itemprop="datePublished">Fri Nov 21, 2008</time>
+  <time datetime="2008-11-21T11:38:20.000Z" itemprop="datePublished">Fri Nov 21, 2008</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -154,7 +325,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2008/11/15/configuracion-dinamica-en-apache/" class="article-date">
-  <time datetime="2008-11-15T20:20:09.000Z" itemprop="datePublished">Sat Nov 15, 2008</time>
+  <time datetime="2008-11-15T13:20:09.000Z" itemprop="datePublished">Sat Nov 15, 2008</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -260,7 +431,7 @@ Agrego cada <code>$virtualh</code> al arreglo de VirtualHosts en "*:80". Si tuvi
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2008/11/09/linux-mexico/" class="article-date">
-  <time datetime="2008-11-09T18:48:32.000Z" itemprop="datePublished">Sun Nov 9, 2008</time>
+  <time datetime="2008-11-09T11:48:32.000Z" itemprop="datePublished">Sun Nov 9, 2008</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -311,7 +482,7 @@ Agrego cada <code>$virtualh</code> al arreglo de VirtualHosts en "*:80". Si tuvi
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2008/11/06/harlem-and-the-elections/" class="article-date">
-  <time datetime="2008-11-06T23:54:12.000Z" itemprop="datePublished">Thu Nov 6, 2008</time>
+  <time datetime="2008-11-06T16:54:12.000Z" itemprop="datePublished">Thu Nov 6, 2008</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -363,7 +534,7 @@ Agrego cada <code>$virtualh</code> al arreglo de VirtualHosts en "*:80". Si tuvi
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2008/10/25/mi-estado-actual/" class="article-date">
-  <time datetime="2008-10-25T20:21:27.000Z" itemprop="datePublished">Sat Oct 25, 2008</time>
+  <time datetime="2008-10-25T13:21:27.000Z" itemprop="datePublished">Sat Oct 25, 2008</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -412,7 +583,7 @@ Agrego cada <code>$virtualh</code> al arreglo de VirtualHosts en "*:80". Si tuvi
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2008/10/12/ebbie-twitter/" class="article-date">
-  <time datetime="2008-10-12T18:41:28.000Z" itemprop="datePublished">Sun Oct 12, 2008</time>
+  <time datetime="2008-10-12T11:41:28.000Z" itemprop="datePublished">Sun Oct 12, 2008</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -460,165 +631,6 @@ Agrego cada <code>$virtualh</code> al arreglo de VirtualHosts en "*:80". Si tuvi
 
 
   
-    <article id="post-5-excelentes-blogs-mexicanos-que-quizas-no-conocias-parte-2" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2008/10/07/5-excelentes-blogs-mexicanos-que-quizas-no-conocias-parte-2/" class="article-date">
-  <time datetime="2008-10-07T19:25:56.000Z" itemprop="datePublished">Tue Oct 7, 2008</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2008/10/07/5-excelentes-blogs-mexicanos-que-quizas-no-conocias-parte-2/">5 excelentes blogs mexicanos que quizás no conocías (parte 2)</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>Luego del buen feedback que recibí <a href="http://log.damog.net/2008/09/5-excelentes-blogs-mexicanos-que-probablemente-no-conocias/" target="_blank" rel="external">en el post anterior en el que recomiendo cinco buenos blogs mexicanos</a>, decidí hacer secuelas porque tenemos mucho material. Aquí la segunda parte, pues.</p>
-<p></p><p style="padding-left: 30px;"><strong><a href="http://www.si-claro.com/sexy-feet/" target="_blank" rel="external">* Sexy Feet</a></strong><br><a href="http://www.si-claro.com/sexy-feet/" target="_blank" rel="external">http://www.si-claro.com/sexy-feet/</a><br>Según su propia descripción, un tributo a los pies femeninos; en <a href="http://axiombox.com/" target="_blank" rel="external">Axiombox</a> nosotros lo vemos como un gran escape para todos aquellos que quieren saciar ese raro pero fascinante fetiche :)</p>
-<p></p><p style="padding-left: 30px;"><strong><a href="http://blog.perlasgenuinas.com/" target="_blank" rel="external">* Perlas Genuinas</a></strong><br><a href="http://blog.perlasgenuinas.com/" target="_blank" rel="external">http://blog.perlasgenuinas.com/</a><br>El elegante mundo de las perlas. Perlas en collares, aretes, en celebridades; diseñadores, productores, vendedores. Este blog me llamó mucho la atención ahora que mi hermana está lanzando su línea de joyería exclusiva de plata mexicana, <a href="http://www.lo925.com" target="_blank" rel="external">lo925</a>.</p>
-<p></p><p style="padding-left: 30px;"><strong><a href="http://www.diezauno.net/" target="_blank" rel="external">* DiezAuno</a></strong><br><a href="http://www.diezauno.net/" target="_blank" rel="external">http://www.diezauno.net/</a><br>Música, música, música. Específicamente de rock, mucho contenido original, reseñas, descargas, enlaces, festivales, conciertos, tocadas, foros. Muy buen trabajo de un buen grupo de editores.</p>
-<p></p><p style="padding-left: 30px;"><strong><a href="http://www.pendejaditas.com/" target="_blank" rel="external">* Pendejaditas.com</a></strong><br><a href="http://www.pendejaditas.com/" target="_blank" rel="external">http://www.pendejaditas.com/</a><br>Pendejamente divertido. Igual de adictivo, igual de entretenido. Seguro lo disfrutan.</p>
-<p></p><p style="padding-left: 30px;"><strong><a href="http://deliciosadas.com/" target="_blank" rel="external">* Deliciosadas</a></strong><br><a href="http://deliciosadas.com/" target="_blank" rel="external">http://deliciosadas.com/</a><br>Un excelente blog de cocina, comida y recetas, pero también reseñas de libros y restaurantes. Está enfocado a todo público hispanoparlante con posts que hacen que se te haga agua la boca. <a href="http://maggit.com.mx/" target="_blank" rel="external">Raquel</a> fue quien lo recomendó.</p>
-<p>Y, para hacerlo una tradición, el pilón:</p>
-<p></p><p style="padding-left: 30px;"><strong><a href="http://www.festivalcervantino.gob.mx/fic08/blog" target="_blank" rel="external">* Podcast del Festival Cervantino 2008</a></strong><br><a href="http://www.festivalcervantino.gob.mx/fic08/blog" target="_blank" rel="external">http://www.festivalcervantino.gob.mx/fic08/blog</a><br>El día de mañana da comienzo el Festival Cervantino 2008 en Guanajuato, así que si tú no puedes darte el rol por allá, qué mejor manera de acercarte a él que siguiendo su podcast/blog.</p>
-<p>¡Que los disfruten!</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/axiombox/">axiombox</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/blogging/">blogging</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/recomendacion/">recomendación</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-new-york-bsp-personal-to-do-list" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2008/10/01/new-york-bsp-personal-to-do-list/" class="article-date">
-  <time datetime="2008-10-02T02:03:19.000Z" itemprop="datePublished">Wed Oct 1, 2008</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2008/10/01/new-york-bsp-personal-to-do-list/">New York BSP personal to-do list</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>So, as <a href="http://wiki.debian.org/BSP2008/Brooklyn" target="_blank" rel="external">it was previously anounced</a> (and recently re-invited by <a href="http://lists.vireo.org/pipermail/debiannyc/2008-September/000190.html" target="_blank" rel="external">Micah</a>), this weekend is the <a href="http://vireo.org/cgi-bin/mailman/listinfo/debiannyc" target="_blank" rel="external">debiannyc</a> BSP. This makes me think on my lack of involvement on the technical part of Debian (I’m still socially involved with friends and groups) for the last couple of months. So, for the sake of encouraging others to join us on Saturday if you in the city (or the tri-state area, or beyond!), here it is, my personal list of tasks I’m willing to work on:</p>
-<p><ul><br>    <li>Retake/rewrite the tools and scripts I used to mess <a href="http://debian.org/devel/wnpp" target="_blank" rel="external">WNPP</a> with.</li><br>    <li>Check what other things are missing to improve WNPP.</li><br>    <li><span style="text-decoration: line-through;">Deal with some of the <a href="http://bugs.debian.org/lists.debian.org" target="_blank" rel="external">lists.debian.org</a> bugs wearing my listmaster hat.</span></li><br>    <li><span style="text-decoration: line-through;">Install Debian on a <a href="http://www.dmp.com.tw/tech/vortex86/" target="_blank" rel="external">Vortex86</a> machine I’ve been having around for the last couple of months.</span></li><br>    <li><span style="text-decoration: line-through;">Dig into Ruby and Perl <a href="http://bugs.debian.org/release-critical/debian/all.html" target="_blank" rel="external">RC bugs</a> and try to squash some of them (after all, this is a BSP, and RC bugs is the primary target!).</span></li><br>    <li>Encouraging <a href="http://maggit.com.mx" target="_blank" rel="external">Raquel</a> to take a look at some of the previous <a href="http://www.debian.org" target="_blank" rel="external">www.debian.org</a> re-design proposals and try to come up with something useful out of it.</li><br>    <li><span style="text-decoration: line-through;">Have lots of beer while doing all of above.</span></li><br></ul><br>See you at <a href="http://vireo.org" target="_blank" rel="external">Vireo</a>!</p>
-<p><strong>UPDATE</strong>: The BSP was a lot of fun. Striking now the things I actually did from my list.</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/bsp/">bsp</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debian/">debian</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/nyc/">nyc</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/to-do/">to-do</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-5-excelentes-blogs-mexicanos-que-probablemente-no-conocias" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2008/09/29/5-excelentes-blogs-mexicanos-que-probablemente-no-conocias/" class="article-date">
-  <time datetime="2008-09-30T01:32:41.000Z" itemprop="datePublished">Mon Sep 29, 2008</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2008/09/29/5-excelentes-blogs-mexicanos-que-probablemente-no-conocias/">5 excelentes blogs mexicanos que probablemente no conocías</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>En <a href="http://axiombox.com" target="_blank" rel="external">Axiombox</a> estamos trabajando en un proyecto muy grande e importante ligado a blogs y sitios mexicanos y aunque no puedo hablar mucho al respecto por el momento, me gustaría mostrar algunas cosillas interesantes que seguramente van a gustar. Así que, si mis dos lectores geeks lo permiten, quiero listar cinco muy buenos blogs mexicanos que es probable que no conozcan:</p>
-<p><ul><br>    <li><strong><a href="http://superluchas.net" target="_blank" rel="external">Superluchas.net</a>.</strong> De todo tipo de lucha libre, mexicana, gringa y de varios más países. De AAA, CMLL, WWE y mucho, mucho más.</li><br>    <li><strong><a href="http://soy-mama.blogspot.com/" target="_blank" rel="external">Soy Mama Blog</a></strong>. Un muy tierno blog de una mamá argentina compartiendo su vida y su maternidad desde Cancún, para el mundo.</li><br>    <li><strong><a href="http://lasmalcogidas.blogspot.com/" target="_blank" rel="external">Las Malkogidas</a></strong>. Calientes historias, experiencias y frustraciones de aquellas que no quedan satisfechas en la cama.</li><br>    <li><strong><a href="http://cindylaregia.com" target="_blank" rel="external">Cindy La Regia</a></strong>. Una espectacular tira cómica que cuenta la vida de Cindy, una niña rica de San Pedro Garza García, en Monterrey, viviendo su vida bien.</li><br>    <li><strong><a href="http://conversacionesajenas.com/" target="_blank" rel="external">Conversaciones Ajenas</a></strong>. Lo que nuestras chismosas orejas no pudieron escuchar pero nuestros ojos voyeristas agradecerán.</li><br></ul><br>Y como pilón:</p>
-<p><ul><br>    <li><strong><a href="http://atijuanate.com" target="_blank" rel="external">Atijuanate</a></strong>. Para la gente de Tijuana, un gran metroblog.</li><br></ul><br>¡Que los disfruten!</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/axiombox/">axiombox</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/enlaces/">enlaces</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/recomendacion/">recomendación</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/blog/page/11/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/10/">10</a><a class="page-number" href="/blog/page/11/">11</a><span class="page-number current">12</span><a class="page-number" href="/blog/page/13/">13</a><a class="page-number" href="/blog/page/14/">14</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/75/">75</a><a class="extend next" rel="next" href="/blog/page/13/">Next &raquo;</a>
@@ -637,7 +649,7 @@ Agrego cada <code>$virtualh</code> al arreglo de VirtualHosts en "*:80". Si tuvi
 		<a href="/blog/">dm&#39;s blog</a>
 	</h1>
 	<span class="copyright">
-		&copy; 2015 David Moreno<br>
+		&copy; 2016 David Moreno<br>
 		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
 		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
 	</span>

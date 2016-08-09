@@ -15,10 +15,10 @@
 <meta name="twitter:title" content="dm's blog">
 <meta name="twitter:description">
   
-    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+    <link rel="alternative" href="/blog/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/blog/favicon.png">
   
   <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -35,9 +35,9 @@
 	</h1>
 	<nav class="nav">
 		<ul>
-			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a href="/">Home</a></li><li><a href="/blog/archives">Archives</a></li>
 			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
-			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+			<li><a href="/blog/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
 		</ul>
 	</nav>
 	<div id="search-form-wrap">
@@ -47,11 +47,160 @@
     <div id="main">
       
   
+    <article id="post-respeto" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2006/08/26/respeto/" class="article-date">
+  <time datetime="2006-08-26T19:54:20.000Z" itemprop="datePublished">Sat Aug 26, 2006</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2006/08/26/respeto/">Respeto</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>¿Por qué la gente aboga y clama por respeto cuando claramente se insulta elegantemente al pedirlo? ¿La gente realmente merece respeto cuando se pide? ¿No el respeto se gana? ¿No el respeto es una cosa mutua? Quizás si te encuentas en la posición de solicitar respeto, quizás realmente no lo mereces porque también falta respeto de tu parte hacia la otra parte.</p>
+
+<p>Lo que puedes terminar haciendo es simplemente insultar, ofender y denigrar a las personas con un escudo y capa de solicitud de respeto.</p>
+
+<p>El respeto va mucho más allá de lo que la gente común y normal llamamos respeto. Si el respeto fuera tan fácil de obtener, la gente se tomaría muy a la ligera el hecho de pedirlo. Y justo así es. Justo así.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-audio-en-archivos-de-video-3gp" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2006/08/20/audio-en-archivos-de-video-3gp/" class="article-date">
+  <time datetime="2006-08-20T18:02:31.000Z" itemprop="datePublished">Sun Aug 20, 2006</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2006/08/20/audio-en-archivos-de-video-3gp/">Audio en archivos de video 3GP</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p></p><p>Recientemente me ha dado por grabar algunos videos desde mi celular. Luego de echar a andar el bluetooth en la laptop, pasar fotos, música y videos desde el celular se hizo muy facilito. El problema fue que el <a target="_blank" href="http://chocolate.lgmobile.com">LG Chocolate</a> graba los videos en un formato <a target="_blank" href="http://en.wikipedia.org/wiki/3GP">3GP</a>, que <em>mplayer</em>, por ejemplo, sí puede reproducir, pero sin audio.</p>
+<p>Googleando un poco y metiéndome a la lista de correos de mplayer, encontré que hay que recompilar mplayer agregando el códec AMR. Siempre me ha molestado recompilar. No recompilo ni siquiera mi kernel, me ladilla tremendamente. Además, Debian tiene facilidades muy sencillas para construir módulos a partir de los headers que te puedes bajar en forma de paquetes. Entonces generalmente las cosas que trae el kernel empaquetado en stock de Debian, al menos en powerpc, satisface muchas de las actuales necesidades, sobre todo en el kernel 2.6.17. Pero bueno, el kernel no era el punto. El punto es que hay que recompilar mplayer.</p>
+<p>Estos celulares de 3G utilizan precisamente el códec AMR, Adaptive Multi-Rate, el cual está disponible gratuitamente para uso personal, desde el sitio de <a target="_blank" href="http://www.3gpp.org">3GPP</a>. Para todo esto, utilizo el paquete de mplayer de A Menucc1, DD, pues tiene el QA requerido por Debian, aún cuando no está oficialmente en el archivo de Debian y su versión para Etch es altamente estable.</p>
+<p>Cito la <a target="_blank" href="http://www.mplayerhq.hu/DOCS/HTML/en/audio-codecs.html">página de códecs</a> de <em>mplayer</em>:<br></p><p></p>
+<blockquote>To enable support, download the sources for <a target="_top" href="http://www.3gpp.org/ftp/Specs/latest/Rel-6/26_series/26104-610.zip">AMR-NB</a> and <a target="_top" href="http://www.3gpp.org/ftp/Specs/latest/Rel-6/26_series/26204-600.zip">AMR-WB</a> codecs, put them in the directory where you unpacked the MPlayer source and run the following commands:<br><pre>unzip 26104-610.zip<br>unzip 26104-610_ANSI_C_source_code.zip<br>mv c-code libavcodec/amr_float<br>unzip 26204-600.zip<br>unzip 26204-600_ANSI-C_source_code.zip<br>mv c-code libavcodec/amrwb_float</pre><br>After that, follow the usual MPlayer build procedure.</blockquote><br><p><br>Bastante sencillo. En sistemas Debian, se pueden obtener los sources del paquete desde <a target="_blank" href="http://tonelli.sns.it/pub/mplayer/etch/"><a href="http://tonelli.sns.it/pub/mplayer/etch/" target="_blank" rel="external">http://tonelli.sns.it/pub/mplayer/etch/</a></a> y se desempaqueta normalmente:<br></p><br><blockquote>$ dpkg-source -x mplayer_1.0pre8-1.dsc</blockquote><br><p><br>&#8230;teniendo ya, obviamente, el orig.tar.gz, el diff.gz y el dsc. Luego de aplicado el código adicional de 3GPP, basta con construir nuevamente el paquete. Recomiendo altamente utilizar el wrapper <em>pdebuild</em> de <em>pbuilder</em> para dicho fin, si no van a hacer un menjurgue extremo de paquetes y dependencias de compilación. Luego de construido el paquete, basta buscar el .deb resultante en <em>/var/cache/pbuilder/result</em>. Si a alguien más le interesa, el paquete de mplayer 1.0pre8-1 para powerpc, lo puse <a target="_blank" href="http://www.damog.net/files/misc/mplayer_1.0pre8-1_powerpc.deb">acá</a>.<br><br>Nota: Si por alguna razón <em>mplayer</em> falla al compilarse por no encontrar <em>/usr/lib/libxmms.so.1</em>, basta con que se agregue <em>xmms</em> como Build-Depends en el debian/control, o que hagan login al chroot de pbuilder y lo instalen manualmente, que fue lo que yo hice:<br></p><br><blockquote>$ sudo pbuilder login &#8212;save-after-login<br># apt-get install xmms</blockquote><br><p><br>Ya teniendo el soporte de AMR, es posible convertir los 3GPs a formatos más amigables con mplayer usando mencoder, como AVI, y ver al <a target="_blank" href="http://www.damog.net/files/misc/wada-limosna.avi.zip">Wada pidiendo limosnas en el Poli</a> :-)<br></p><br><blockquote></blockquote>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-i-am-a-little-devil" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2006/08/18/i-am-a-little-devil/" class="article-date">
+  <time datetime="2006-08-17T22:56:02.000Z" itemprop="datePublished">Fri Aug 18, 2006</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2006/08/18/i-am-a-little-devil/">i am a little devil</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><a title="click here to do the best personality test ever" href="http://www.theboyleastlikelyto.co.uk/quiz/" target="_blank" rel="external"><img border="0" title="the devil with a saw" src="http://www.theboyleastlikelyto.co.uk/quiz/i_C.gif"></a></p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
     <article id="post-dia-debian-en-la-comarca-lagunera" class="post">
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2006/08/17/dia-debian-en-la-comarca-lagunera/" class="article-date">
-  <time datetime="2006-08-18T01:37:52.000Z" itemprop="datePublished">Thu Aug 17, 2006</time>
+  <time datetime="2006-08-17T18:37:52.000Z" itemprop="datePublished">Thu Aug 17, 2006</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -98,7 +247,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2006/08/16/invitacion-al-curso-taller-el-derecho-a-la-informacion-en-mexico-de-alternativa/" class="article-date">
-  <time datetime="2006-08-17T02:52:46.000Z" itemprop="datePublished">Wed Aug 16, 2006</time>
+  <time datetime="2006-08-16T19:52:46.000Z" itemprop="datePublished">Wed Aug 16, 2006</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -158,7 +307,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2006/08/15/the-caracas-sound-machine-tunayt/" class="article-date">
-  <time datetime="2006-08-16T04:57:26.000Z" itemprop="datePublished">Tue Aug 15, 2006</time>
+  <time datetime="2006-08-15T21:57:26.000Z" itemprop="datePublished">Tue Aug 15, 2006</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -206,7 +355,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2006/08/13/congreso-nacional-de-software-libre-2006/" class="article-date">
-  <time datetime="2006-08-13T21:22:11.000Z" itemprop="datePublished">Sun Aug 13, 2006</time>
+  <time datetime="2006-08-13T14:22:11.000Z" itemprop="datePublished">Sun Aug 13, 2006</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -253,7 +402,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2006/08/10/trece/" class="article-date">
-  <time datetime="2006-08-11T02:35:35.000Z" itemprop="datePublished">Thu Aug 10, 2006</time>
+  <time datetime="2006-08-10T19:35:35.000Z" itemprop="datePublished">Thu Aug 10, 2006</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -313,7 +462,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2006/08/09/cumpleanos-22/" class="article-date">
-  <time datetime="2006-08-10T01:21:20.000Z" itemprop="datePublished">Wed Aug 9, 2006</time>
+  <time datetime="2006-08-09T18:21:20.000Z" itemprop="datePublished">Wed Aug 9, 2006</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -360,7 +509,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2006/08/07/piggybank-hash/" class="article-date">
-  <time datetime="2006-08-08T03:00:54.000Z" itemprop="datePublished">Mon Aug 7, 2006</time>
+  <time datetime="2006-08-07T20:00:54.000Z" itemprop="datePublished">Mon Aug 7, 2006</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -410,221 +559,6 @@
 
 
   
-    <article id="post-horario-2007-1" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2006/08/04/horario-2007-1/" class="article-date">
-  <time datetime="2006-08-04T20:53:15.000Z" itemprop="datePublished">Fri Aug 4, 2006</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2006/08/04/horario-2007-1/">Horario 2007-1</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>Horario<br><br>lunes<br><br>martes<br><br>miércoles<br><br>jueves<br><br>viernes<br><br>sábado<br><br>8:00<br><br>9:00</p>
-
-<p>Geometría Moderna I. [4060] Profesor.</p>
-
-<p><br><br>Geometría Moderna I. [4060] Ayudante.</p>
-
-<p><br><br>Geometría Moderna I. [4060] Profesor.</p>
-
-<p><br><br>Geometría Moderna I. [4060] Ayudante.</p>
-
-<p><br><br>Geometría Moderna I. [4060] Profesor.</p>
-
-<p><br><br>9:00<br><br>10:00</p>
-
-<p>Álgebra Superior I. [4004] Profesor.</p>
-
-<p><br><br>Álgebra Superior I. [4004] Ayudante.</p>
-
-<p><br><br>Álgebra Superior I. [4004] Profesor.</p>
-
-<p><br><br>Álgebra Superior I. [4004] Ayudante.</p>
-
-<p><br><br>Álgebra Superior I. [4004] Profesor.</p>
-
-<p><br><br>10:00<br><br>11:00</p>
-
-<p>Cálculo Diferencial e Integral I. [4022] Profesor.</p>
-
-<p><br><br>Cálculo Diferencial e Integral I. [4022] Profesor.</p>
-
-<p><br><br>Cálculo Diferencial e Integral I. [4022] Profesor.</p>
-
-<p><br><br>Cálculo Diferencial e Integral I. [4022] Profesor.</p>
-
-<p><br><br>Cálculo Diferencial e Integral I. [4022] Profesor.</p>
-
-<p><br><br>Cálculo Diferencial e Integral I. [4022] Profesor.</p>
-
-<p>11:00<br><br>12:00</p>
-
-<p>Cálculo Diferencial e Integral I. [4022] Ayudante.</p>
-
-
-
-<p>Cálculo Diferencial e Integral I. [4022] Ayudante.</p>
-
-
-
-<p>Cálculo Diferencial e Integral I. [4022] Ayudante.</p>
-
-<p><br><br>12:00<br><br>13:00</p>
-
-<p>Geometría Analítica I. [4047] Profesor.</p>
-
-<p><br><br>Geometría Analítica I. [4047] Ayudante.</p>
-
-<p><br><br>Geometría Analítica I. [4047] Profesor.</p>
-
-<p><br><br>Geometría Analítica I. [4047] Ayudante.</p>
-
-<p><br><br>Geometría Analítica I. [4047] Profesor.</p>
-
-
-
-<p>Así las cosas :-)</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-5to-festival-gnulinux-y-software-libre" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2006/08/03/5to-festival-gnulinux-y-software-libre/" class="article-date">
-  <time datetime="2006-08-04T00:04:54.000Z" itemprop="datePublished">Thu Aug 3, 2006</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2006/08/03/5to-festival-gnulinux-y-software-libre/">5to. Festival GNU/Linux y Software Libre</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>Las dos charlas que propuse para el comúnmente llamado <a target="_blank" href="http://www.festivaldesoftwarelibre.org">Festival de Software Libre</a> fueron aceptadas. Este festival se ha convertido en uno de los más importantes eventos alrededor del software libre y Linux en nuestro país, y me da gusto volver a él dos años después.<br><br>En ediciones anteriores, el festival se realizó en la ciudad de Guadalajara, Jalisco, y desde el año pasado se lleva a cabo en <a target="_blank" href="http://en.wikipedia.org/wiki/Puerto_Vallarta">Puerto Vallarta</a>, una de las ciudades más hermosas que nuestro hermoso Oceáno Pacífico nos regala.<br><br>Las dos pláticas que ofreceré son:<br></p><br><ul><br><li><a target="_blank" href="http://festivaldesoftwarelibre.org/yacomas/lista/Vponencia.php?vopc=43%2053%20/yacomas/lista/">         6 soluciones bondadosas usando Perl para 6 problemas malvados</a></li><br><ul><br><li>Sí, ya sé que no me se me ocurrió un título menos ingenioso :-) La descripción de la charla: &#8220;Utilicemos Perl para ofrecer soluciones a seis problemas que al autor se le han presentado, ya sea por placer o por negocios. Desde el desarrollo de un sitio Web dinámico para predecir el futuro hasta la generación independiente de feeds RSS, pasando por la creación de un robot que inserte contenido dinámico al markup de un wiki. El autor presentará seis problemas y seis posibles soluciones que tuvo cada uno de ellas utilizando Perl y algunos comandos extras y básicos encontrados en cualquier *nix. Perl permite hacer cosas cómicas, mágicas y musicales: en esta plática se mostrará como hacer esas tareas cotidianas de una forma divertida y entretenida pero útiles y funcionales a la vez&#8221;.</li><br></ul><br></ul><br><ul><br><li><a target="_blank" href="http://festivaldesoftwarelibre.org/yacomas/lista/Vponencia.php?vopc=43%2054%20/yacomas/lista/">         Debian Etch GNU/Linux 3.2: Lo que prepara el proyecto del sistema operativo universal</a></li><br><ul><br><li>Etch está siendo cada día una realidad: &#8220;Debian Etch GNU/Linux 3.2 se prepara para ser liberada el próximo diciembre. El proyecto Debian es quizás el proyecto más grande de software libre en el mundo, en conjunto quizás con GNOME y GNU. Su elevado control de calidad, su enorme archivo de software, su estabilidad y poderío, su gran cantidad de usuarios, desarrolladores y entuasiastas, lo hacen la opción para casi cualquier necesidad. El próximo release estable del proyecto está prospectado para diciembre de 2006, ¿qué se prepara para Etch? ¿Qué cambios ha habido y habrá? ¿Cuál es la relación que se guarda aún con las doce arquitecturas soportadas? ¿Qué ha pasado con los núcleos diferentes a Linux? ¿Qué se logró en la pasada reunión anual de desarrolladores de Debian el pasado mayo en Oaxtepec, Mor.? ¿Por qué es importante la liberación estable? En conclusión, ¿qué es lo que se prepara para Debian Etch GNU/Linux?</li><br></ul><br></ul><br><p><br>Las demás propuestas de charlas pueden ser <a target="_blank" href="http://festivaldesoftwarelibre.org/fsl2006/component/option,com_wrapper/Itemid,26/">consultadas</a> en su sitio web.<br><br>Espero no tener mucho problema con la chamba/escuela, para esos días. Si alguien tiene la oportunidad de asistir al evento, ya sea por proximidad en el occidente del país o porque se quiera transportar desde más lejos, no lo duden, seguro será una experiencia para recordar. :D </p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-circulo-de-estudios-de-alternativa" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2006/08/01/circulo-de-estudios-de-alternativa/" class="article-date">
-  <time datetime="2006-08-02T02:39:57.000Z" itemprop="datePublished">Tue Aug 1, 2006</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2006/08/01/circulo-de-estudios-de-alternativa/">Círculo de estudios de Alternativa</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>Ayer lunes, tuve la oportunidad de ir con <a target="_blank" href="http://www.tacvbo.net">Tato</a> a la primera reunión del <a target="_blank" href="http://www.alternativadf.org.mx/j/index.php?option=com_content&amp;task=view&amp;id=308&amp;Itemid=4">círculo de estudios</a> que <a target="_blank" href="http://www.alternativa.org.mx">Alternativa</a> está organizando. Tuve también la oportunidad de enterarme del mismo, gracias al blog de <a target="_blank" href="http://andreslajous.blogs.com">Andrés Lajous</a>, se lo comenté a Tato y también se entusiasmó y mandó su correo de igual forma para pedir informes.</p>
-
-<p>Las oficinas de Alternativa se encuentran en la calle de Palermo, en la Col. Américas Unidas, muy cerca del cruce de la Calz. de Tlalpan y Eje 5 Sur: Bastante cerca de casa. Tato tuvo a bien despertarme a las diez de la mañana y luego de varios minutos pasé por él y fuimos. Tato leyó sus copias y yo no.</p>
-
-<p>Llegamos alrededor de las 11:15 am y nos indicaron que la gente se encontraba en el segundo piso. Subimos. Dijimos hola y nos sentamos a la mesa. Nos presentamos todos. En ese momento éramos alrededor de doce personas, quizás. Todos pertenecientes al partido de alguna forma, excepto Tato y yo. Lo cual fue algo raro y me ha dejado pensando desde entonces. Luego llegaron más, todos los cuales parecían también pertenecientes del partido (no supimos exactamente pues quienes llegaron más tarde no tuvieron la oportunidad de presentarse).</p>
-
-<p>Tato y yo comentamos el fin de semana anterior que le habían enviado el correo con las lecturas a sólo dieciséis personas (de acuerdo a los correos en <a target="_blank" href="http://en.wikipedia.org/wiki/Carbon_copy">CC</a>), cuando el cupo límite que se había anunciado era de veinte. Es una tristeza. Incluso cuando yo le dije a Tato sobre el círculo, un día después de que yo había mandado mi información, pensé que sería tarde para él tomando en cuenta el reducido número del cupo. Concluimos que a la gente le vale madres, vil y puerilmente le vale madres a la gente muchas de las cosas y las oportunidades que se les ofrecen. Y finalmente no los culpo. Si Tato no me hubiera despertado el lunes, muy probablemente me hubiera quedado dormido y me hubiera perdido la oportunidad de asistir. Tampoco los culpo porque finalmente no pude/quise leer los textos de la primera sesión. Shame on me. Pero lo que se me hace inverosímil, lo cual le comenté otra vez a Tato al salir de la sesión, fue de verdad fuéramos los únicos que no perteneciéramos al partido. Yo no soy más que un metiche de lo que hace Alternativa y Tato está más al tanto del perredismo y el fraude electoral, finalmente ninguno de nosotros tenemos relación directa con Alternativa y ahí estuvimos. ¿Por qué no hubo más participación ciudadana? ¿De verdad sí es así como comentábamos que simple y llanamente a la gente la vale madres?</p>
-
-<p>Los temas de los círculos de estudio son ampliamente interesantes y deberían ser de interés de gente que se jacta de no pertenecer a la derecha. Son dieciséis sesiones donde se leerá, estudiará y debatirá sobre izquierda, izquierdismo, socialismo, democracia, socialdemocracia, las revoluciones sociales, etc. ¿Por qué no hay más gente ahí? ¿Le vale madres a la gente, en realidad? Hoy hablaba con una persona (tú sabes quién eres, si es que estás leyendo estas líneas, no te hagas :-P), la cual tenía en el MSN un nick que decía &#8220;Disculpe las molestias que esta obra democrática le ocasiona&#8221;. ¿De verdad el plantarse en plena Reforma, el paseo turístico más importante de esta demente ciudad, bloquearla, ponerse a hacer gorditas y a reírse de la oposición es una obra democrática? ¿Los manifestantes ahí están realmente contribuyendo con la democracia del país? ¿Es válido ofrecer disculpas adelantadas con respecto a futuros caos viales? ¿Es esa la forma en que nos interesa nuestro país? ¿Esa es la izquierda que el país necesita? ¿Es la que el país quiere? Obra democrática, mis pinches güevos. Y mientras tanto, ofertas de estudio de socialismo e izquierda son ofrecidas y a pocos les interesa, son ignoradas y sólo unos cuantos están ahí. ¿Quizás hizo falta difusión? Claro, un partido pequeño no tiene la maquinaria, apoyo y dinero que el gobierno del DF le puede ofrecer al PRD, por ejemplo. Espero de verdad equivocarme y no ser, junto con Octavio, los únicos no pertenecientes al partido, tal como sociedad civil.</p>
-
-<p>De cualquier forma, el círculo fue una grata experiencia a la cual pretendo sacarle el mejor partido durante las próximas semanas.</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/blog/page/30/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/29/">29</a><a class="page-number" href="/blog/page/30/">30</a><span class="page-number current">31</span><a class="page-number" href="/blog/page/32/">32</a><a class="page-number" href="/blog/page/33/">33</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/75/">75</a><a class="extend next" rel="next" href="/blog/page/32/">Next &raquo;</a>
@@ -643,7 +577,7 @@
 		<a href="/blog/">dm&#39;s blog</a>
 	</h1>
 	<span class="copyright">
-		&copy; 2015 David Moreno<br>
+		&copy; 2016 David Moreno<br>
 		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
 		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
 	</span>

@@ -15,10 +15,10 @@
 <meta name="twitter:title" content="dm's blog">
 <meta name="twitter:description">
   
-    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+    <link rel="alternative" href="/blog/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/blog/favicon.png">
   
   <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -35,9 +35,9 @@
 	</h1>
 	<nav class="nav">
 		<ul>
-			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a href="/">Home</a></li><li><a href="/blog/archives">Archives</a></li>
 			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
-			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+			<li><a href="/blog/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
 		</ul>
 	</nav>
 	<div id="search-form-wrap">
@@ -47,11 +47,175 @@
     <div id="main">
       
   
+    <article id="post-dancer-template-haml" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2010/02/11/dancer-template-haml/" class="article-date">
+  <time datetime="2010-02-11T15:43:53.000Z" itemprop="datePublished">Thu Feb 11, 2010</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2010/02/11/dancer-template-haml/">Dancer::Template::Haml now available</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>I put together a quick template engine for <a href="http://dancer.sukria.net/" target="_blank" rel="external">Dancer</a> using <a href="http://haml-lang.com" target="_blank" rel="external">Haml</a> via <a href="http://search.cpan.org/dist/Text-Haml/" target="_blank" rel="external">Text::Haml</a>. You know Haml, right?</p>
+<p>Now you can do neat shit like this:</p>
+<p><code lang="perl"><br> set template =&gt; ‘haml’;</code></p>
+<p> get ‘/bazinga’, sub {<br>        template ‘bazinga’ =&gt; {<br>                title =&gt; ‘Bazinga!’,<br>                content =&gt; ‘Bazinga?’,<br>        };<br> };<br></p>
+<p>Using:</p>
+<p><code lang="ruby"><br> !!!<br> %html{ : xmlns =&gt; “<a href="http://www.w3.org/1999/xhtml" target="_blank" rel="external">http://www.w3.org/1999/xhtml</a>“, :lang =&gt; “en”, “xml:lang” =&gt; “en”}<br>   %head<br>     %title= title<br>   %body</code></p>
+<pre><code>#content
+<span class="tag">  %<span class="title">strong</span></span>= content
+</code></pre><p></p>
+<p>The dope thing about Text::Haml is that things like the Ruby interpolation will keep working.</p>
+<p>Hurray! <a href="http://search.cpan.org/dist/Dancer-Template-Haml/" target="_blank" rel="external">Go get it now</a>.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/dancer/">dancer</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/haml/">haml</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/ruby/">ruby</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-jon-stewart-interviewed-by-bill-oreilly" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2010/02/09/jon-stewart-interviewed-by-bill-oreilly/" class="article-date">
+  <time datetime="2010-02-09T17:30:24.000Z" itemprop="datePublished">Tue Feb 9, 2010</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2010/02/09/jon-stewart-interviewed-by-bill-oreilly/">Jon Stewart interviewed by Bill O&#39;Reilly</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>It is worth watching entirely.</p>
+<div align="center"><script src="http://video.foxnews.com/v/embed.js?id=4003531&amp;w=400&amp;h=249" type="text/javascript"></script></div>
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/fox/">fox</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/o-reilly/">o'reilly</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/politics/">politics</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/stewart/">stewart</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/video/">video</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-features-on-dancer-1-130" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2010/02/08/features-on-dancer-1-130/" class="article-date">
+  <time datetime="2010-02-08T21:36:50.000Z" itemprop="datePublished">Mon Feb 8, 2010</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2010/02/08/features-on-dancer-1-130/">New features on Dancer 1.130</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Last week, or the one before that one, <a href="http://www.sukria.net/" target="_blank" rel="external">Alexis</a> released <a href="http://dancer.sukria.net" target="_blank" rel="external">Dancer</a> <a href="http://search.cpan.org/~sukria/Dancer-1.130/lib/Dancer.pm" target="_blank" rel="external">1.130</a> which represents a big refactoring of the Dancer core code, taking all optional modules away from it: Logging, session and template engines were splited into their respective non-core modules, etc. Additionally, two keyword features were added, header and prefix. I will showcase both in case you haven’t heard the good word from them :)</p>
+<h3>header</h3><br>The <tt>header</tt> keyword allows you to modify or alter the response headers by hand. That was a nice little feature that still hadn’t been implemented. With <tt>header</tt> you can do nice little things like this:<br><br><code lang="perl"><br>get ‘/set/header’ =&gt; sub {<br>  header ‘X-Foo’ =&gt; ‘bar’;<br>  “I’m a happy string.” . “\n”;<br>}<br></code><br><br>And this is what that very same code does:<br><br><code lang="bash"><br>~ $ curl -i <a href="http://0.0.0.0:3000/set/header" target="_blank" rel="external">http://0.0.0.0:3000/set/header</a><br>HTTP/1.0 200 OK<br>X-Foo: bar<br>Content-Type: text/html<br>X-Powered-By: Perl Dancer 1.130<br><br>I’m a happy string.<br></code><br><br>Also, <tt>header</tt> has a method synonym, <tt>headers</tt>, and you can use both indistinctly:<br><br><code lang="perl"><br>get ‘/some/crap’, sub {<br>  headers ‘X-Foo’ =&gt; ‘Bar’,<br>    ‘X-Bar’ =&gt; ‘Foo’;<br>}</code><br><br>And it will produce the result that you are expecting.<br><br><h3>prefix</h3>
+
+<p><tt>prefix</tt> is also interesting. It will indicate that the following route handlers’ path patters defined for Dancer will be prepended with such prefix. So:</p>
+<p><code lang="perl"><br>prefix ‘/user’;<br>get ‘/home’, sub { template ‘user_home’ };<br>get ‘/logout’, sub { “bye!” };<br></code></p>
+<p>So here we are instructing Dancer two route handlers that happen to be really pointing to “/user/home” and “/user/logout”. In order to stop prefixing the route handlers’ paths you just do:</p>
+<p><code lang="perl">prefix undef;</code></p>
+<p>And continue with your un-prepended paths.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/dancer/">dancer</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
     <article id="post-feed-moved" class="post">
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/02/04/feed-moved/" class="article-date">
-  <time datetime="2010-02-05T01:31:37.000Z" itemprop="datePublished">Thu Feb 4, 2010</time>
+  <time datetime="2010-02-04T18:31:37.000Z" itemprop="datePublished">Thu Feb 4, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -103,7 +267,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/02/03/large-php-truncated-on-nginx/" class="article-date">
-  <time datetime="2010-02-03T17:35:14.000Z" itemprop="datePublished">Wed Feb 3, 2010</time>
+  <time datetime="2010-02-03T10:35:14.000Z" itemprop="datePublished">Wed Feb 3, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -157,7 +321,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/02/02/eben-moglen-freedom-in-the-cloud-nyu/" class="article-date">
-  <time datetime="2010-02-02T18:19:54.000Z" itemprop="datePublished">Tue Feb 2, 2010</time>
+  <time datetime="2010-02-02T11:19:54.000Z" itemprop="datePublished">Tue Feb 2, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -205,7 +369,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/01/28/kindle-is-shit-next-to-ipad/" class="article-date">
-  <time datetime="2010-01-28T17:58:55.000Z" itemprop="datePublished">Thu Jan 28, 2010</time>
+  <time datetime="2010-01-28T10:58:55.000Z" itemprop="datePublished">Thu Jan 28, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -253,7 +417,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/01/20/god-uid-gid/" class="article-date">
-  <time datetime="2010-01-20T21:36:32.000Z" itemprop="datePublished">Wed Jan 20, 2010</time>
+  <time datetime="2010-01-20T14:36:32.000Z" itemprop="datePublished">Wed Jan 20, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -307,7 +471,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/01/19/plack/" class="article-date">
-  <time datetime="2010-01-19T16:21:42.000Z" itemprop="datePublished">Tue Jan 19, 2010</time>
+  <time datetime="2010-01-19T09:21:42.000Z" itemprop="datePublished">Tue Jan 19, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -355,7 +519,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/01/16/coding-since/" class="article-date">
-  <time datetime="2010-01-17T05:05:27.000Z" itemprop="datePublished">Sat Jan 16, 2010</time>
+  <time datetime="2010-01-16T22:05:27.000Z" itemprop="datePublished">Sat Jan 16, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -399,150 +563,6 @@
 
 
   
-    <article id="post-cherokee-summit-2010" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2010/01/12/cherokee-summit-2010/" class="article-date">
-  <time datetime="2010-01-12T20:02:03.000Z" itemprop="datePublished">Tue Jan 12, 2010</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2010/01/12/cherokee-summit-2010/">Cherokee Summit 2010</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p style="text-align: left; ">The <a href="http://cherokee-project.com" target="_blank" rel="external">Cherokee web server project</a> is hosting the <a href="http://summit.cherokee-project.com/" target="_blank" rel="external">Cherokee Summit</a> 2010 in Madrid, Spain on May 7th and 8th. The summit will be focused on high-performance and scalable Web technologies. I truly believe this is a major opportunity for hackers, developers and administrators looking for the new alternatives on the Web to bond and share experiences to benefit each other’s projects and enterprises, and keep up to date on this field.</p><br><p>If you are interested on attending, proceed to the <a href="http://summit.cherokee-project.com/register/" target="_blank" rel="external">registration site</a> (it’s free of charge but seat-limited) and see you there in May!</p>
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/cherokee/">cherokee</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debian/">debian</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/spain/">spain</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/summit/">summit</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/web/">web</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-2010" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2010/01/02/2010/" class="article-date">
-  <time datetime="2010-01-02T06:03:03.000Z" itemprop="datePublished">Sat Jan 2, 2010</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2010/01/02/2010/">2010</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>&nbsp;My blog has served me throughout the years as a getaway medium. I’ve found comfort writing its pages, and more recently, writing a little bit more of my technical life and whereabouts. The personal side of it, in spite of being very well handled in the past, has been left behind in recent times. And I believe <a href="http://twitter.com" target="_blank" rel="external">Twitter</a> has taken that part of my postings. However, I believe that a lot of the thing I’m currently doing in my life are based on the measurable fact of the impact or weight that those actions would have on my <a href="http://twitter.com/habanerd" target="_blank" rel="external">Twitter</a> (and <a href="http://facebook.com/damog" target="_blank" rel="external">Facebook</a> for that matter) stream and contacts. This has also prevented me from developing further interests and getting deep into more interesting or worthwhile affairs. All the time spent reading and watching what others are doing, what I’m not doing and show what I do or pretend I’m doing has affected social relationships of mine and, as said, damaged, my growing or professional aspiring persona, that it even hurts deep down.</p><br><p>2010 marks the beginning of a lot of stuff and new plans, as usual. But it also marks the end of that ill poison I’m usually infected with. I want to grow up and move on to more interesting matters, retake the life I’m supposed to live and spend with the people I deserve.</p><br><p>Here, then, is for 2010.</p>
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/2010/">2010</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/facebook/">facebook</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/life/">life</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/twitter/">twitter</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-caching-and-optimization-for-wordpress-talk" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2009/12/21/caching-and-optimization-for-wordpress-talk/" class="article-date">
-  <time datetime="2009-12-21T20:18:48.000Z" itemprop="datePublished">Mon Dec 21, 2009</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2009/12/21/caching-and-optimization-for-wordpress-talk/">Caching and optimization for WordPress talk</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>Continuing with my <a href="http://2009.newyork.wordcamp.org/" target="_blank" rel="external">WordCamp NYC</a> talks review, I’d like to point out the notes I took attending the talk <em>Caching and Optimization for WordPress</em>, by <a href="http://simianuprising.com/" target="_blank" rel="external">Jeremy Clarke</a>.</p><br><p>I believe this was a great topic to be covered for people who actively maintain <a href="http://wordpress.org/" target="_blank" rel="external">WordPress</a> installations and have to deal with upgrades, stability and reliability. However, I also think Jeremy took a much more basic approach for this topic the way it shouldn’t have to be. He would describe all the tools that he was showcasing from the most basic parts of it, like what’s a terminal or why you should use it, to an audience attending the advanced development track.</p><br><p>Anyway, here are my notes:</p><br><ul><br>    <li>Expect a lot of traffic for your websites.</li><br>    <li>First point of review, <a href="http://wordpress.org/support/topic/300880" target="_blank" rel="external">slow database queries</a>.</li><br>    <li><a href="http://en.wikipedia.org/wiki/Web_cache" target="_blank" rel="external">Caching</a>.<br>    <ul><br>        <li>Serving already fetched data.</li><br>    </ul><br>    </li><br>    <li><a href="http://wordpress.org/extend/plugins/wp-super-cache/" target="_blank" rel="external">WP Super Cache</a> (mandatory cache plugin).</li><br>    <li><a href="http://wordpress.org/extend/plugins/wptuner/" target="_blank" rel="external">WP Tuner</a> (resources information).</li><br>    <li><a href="http://stereonaut.net/yahoo-yslow-for-firebug/" target="_blank" rel="external">YSlow, Yahoo’s Firebug plugin</a>.</li><br>    <li>If necessary, use <a href="http://gravatar.com" target="_blank" rel="external">Gravatar</a>.</li><br>    <li><a href="http://mohanjith.net/blog/2008/10/using-memcached-with-wordpress-object-cache.html" target="_blank" rel="external">Memcached for WordPress</a>.</li><br>    <li>&quot;CLI: The DOS-style of using a computer&quot;. What a quote.</li><br>    <li><a href="http://htop.sourceforge.net/" target="_blank" rel="external">htop</a>, a much more intuitive top.</li><br>    <li><a href="http://www.webta.org/projects/apachetop/" target="_blank" rel="external">apachetop</a>, an Apache processes visualizer.</li><br>    <li><a href="http://www.day32.com/MySQL/" target="_blank" rel="external">MySQL Tuning Primer Script</a>.</li><br>    <li>Use either <a href="http://pecl.php.net/package/APC" target="_blank" rel="external">APC</a>, <a href="http://php.net/manual/en/book.memcache.php" target="_blank" rel="external">memcached</a> or <a href="http://xcache.lighttpd.net/" target="_blank" rel="external">XCache</a>.</li><br>    <li><a href="http://mmonit.com/monit/" target="_blank" rel="external">Monit</a>, triggering commands.</li><br></ul><br><p>After the talk I prompted him to whether he would consider also moving away from <a href="http://httpd.apache.org/" target="_blank" rel="external">Apache</a> and trying much faster alternatives like <a href="http://www.fastcgi.com/drupal/node/5?q=node/10" target="_blank" rel="external">FastCGI PHP</a> on <a href="http://nginx.org/" target="_blank" rel="external">nginx</a> or <a href="http://www.cherokee-project.com/" target="_blank" rel="external">Cherokee</a>. He mentioned that he had considered it, but he preferred to stick with the most conventional and commonly used software for his installations. That’s his opinion, of course. On mine, based on my own experience, dropping Apache is usually one of the best ways to workaround most of the issues around a slow WordPress.</p><br><p>Now thanks to <a href="http://wordpress.tv/" target="_blank" rel="external">WordPress.tv</a>, we have a video of the talk that Jeremy delivered on a previos event:</p><br><p style="text-align: center; "><embed src="http://v.wordpress.com/wp-content/plugins/video/flvplayer.swf?ver=1.11" type="application/x-shockwave-flash" width="400" height="300" allowscriptaccess="always" allowfullscreen="true" flashvars="guid=P1pO85U7&amp;width=400&amp;height=300" title=""></p><br><p style="text-align: left; ">And his slides:</p><br><p style="text-align: center; "><object style="margin:0px" width="425" height="355"><br><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=jeremyclarke-wcmtl-optimization-090711143857-phpapp02&amp;rel=0&amp;stripped_title=caching-and-optimization-for-wordpress"><br><param name="allowFullScreen" value="true"><br><param name="allowScriptAccess" value="always"><embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=jeremyclarke-wcmtl-optimization-090711143857-phpapp02&amp;rel=0&amp;stripped_title=caching-and-optimization-for-wordpress" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></object></p>
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/caching/">caching</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/optimization/">optimization</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/wcnyc/">wcnyc</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/wordpress/">wordpress</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/blog/page/4/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/3/">3</a><a class="page-number" href="/blog/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/blog/page/6/">6</a><a class="page-number" href="/blog/page/7/">7</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/75/">75</a><a class="extend next" rel="next" href="/blog/page/6/">Next &raquo;</a>
@@ -561,7 +581,7 @@
 		<a href="/blog/">dm&#39;s blog</a>
 	</h1>
 	<span class="copyright">
-		&copy; 2015 David Moreno<br>
+		&copy; 2016 David Moreno<br>
 		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
 		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
 	</span>

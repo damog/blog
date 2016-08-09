@@ -15,10 +15,10 @@
 <meta name="twitter:title" content="dm's blog">
 <meta name="twitter:description">
   
-    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+    <link rel="alternative" href="/blog/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/blog/favicon.png">
   
   <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -35,9 +35,9 @@
 	</h1>
 	<nav class="nav">
 		<ul>
-			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a href="/">Home</a></li><li><a href="/blog/archives">Archives</a></li>
 			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
-			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+			<li><a href="/blog/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
 		</ul>
 	</nav>
 	<div id="search-form-wrap">
@@ -47,11 +47,167 @@
     <div id="main">
       
   
+    <article id="post-job-offering" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/08/10/job-offering/" class="article-date">
+  <time datetime="2009-08-10T17:16:24.000Z" itemprop="datePublished">Mon Aug 10, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/08/10/job-offering/">Job offering</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>A friend of mine is asking me to publish his company’s job offering to the wild. I’ve seen the offer, what they are doing and it’s a very, very nice project/opportunity, I wouldn’t announce it here on my blog if it wasn’t something worthwhile:</p>
+<p><blockquote><a href="http://lytix.com" target="_blank" rel="external">Lytix</a> is seeking an experienced software developer with proven ability<br>to produce, understand and critique code in C, Java and JavaScript;<br>Perl and LISP are a plus.  He or she should have broad experience<br>working with heterogeneous environments and multiple platforms,<br>including BSD Unix/Linux, LAMP and other relevant F/OSS platforms.<br>Work will initially be project-based, but could evolve quickly into a<br>full-time position.  The candidate will be based in Mexico City.</blockquote><br>I’d also add: fluent English, both written and spoken is a must. If you are interested, please drop him a line, <a href="mailto:diego.villarreal@lytix.com" target="_blank" rel="external">Diego Villarreal</a>, and avoid putting me in between. :)</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/c/">c</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/job/">job</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/lisp/">lisp</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/lytix/">lytix</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/offer/">offer</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-perl-nymag" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/08/10/perl-nymag/" class="article-date">
+  <time datetime="2009-08-10T07:21:33.000Z" itemprop="datePublished">Mon Aug 10, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/08/10/perl-nymag/">Perl on the NYMag</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Reading <a href="http://www.google.com/reader/shared/02195294431377468397" target="_blank" rel="external">my morning load of feed news</a>, I spotted an interesting bit on the <a href="http://nymag.com" target="_blank" rel="external">New York Magazine</a> <a href="http://nymag.com/rss/Travel.xml" target="_blank" rel="external">travel feed</a>:</p>
+<p><img class="aligncenter size-full wp-image-928" title="Picture 18" src="http://damog.net/old/axiombox/2009/08/Picture-18.png" alt="Picture 18" width="503" height="327"></p>
+<p>Of course, someone’s doing something wrong there, but I’d say it’s their usage of <a href="http://search.cpan.org/dist/XML-Feed/" target="_blank" rel="external">XML::Feed</a> (my guess on what they are using since the generator tag is omitted), by not dereferencing that hash reference or trying to forcibly stringify it.</p>
+<p>Of course that comes from the feed itself:</p>
+<p><img class="aligncenter size-full wp-image-929" title="Picture 20" src="http://damog.net/old/axiombox/2009/08/Picture-20.png" alt="Picture 20" width="217" height="301"></p>
+<p>It’s awesome, and nothing new of course, that big publications and organizations are using Perl to process and offer data to users, but I find it always super cool when they make it so obvious :)</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/feed/">feed</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/xml/">xml</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-tr-im-calls-it-quits" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2009/08/09/tr-im-calls-it-quits/" class="article-date">
+  <time datetime="2009-08-09T14:50:32.000Z" itemprop="datePublished">Sun Aug 9, 2009</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2009/08/09/tr-im-calls-it-quits/">tr.im calls it quits</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>It’s very sad when projects close down because of lack of financial interest on them. I’ve seen that on very near projects to me in the last couple of years and it doesn’t stop getting me sad. Now, it’s <a href="http://tr.im" target="_blank" rel="external">tr.im</a>, which was a nice URL shortening service.</p>
+<p>They weren’t, of course, amything new, but it was really cool. They had a great short domain name and it just worked, plus they weren’t one of the shitty services like <a href="http://twitter.com/" target="_blank" rel="external">Twitter</a>-whore <a href="http://bit.ly/" target="_blank" rel="external">bit.ly</a> or elder <a href="http://tinyurl.com" target="_blank" rel="external">TinyURL</a>.</p>
+<p>I had my <a href="http://en.wikipedia.org/wiki/Tweetie" target="_blank" rel="external">Tweeties</a> (Mac’s and iPhone’s) configured to short my URLs using it so I will have to migrate to something else. Thing is, I didn’t like any of others as much as I liked tr.im. Life’s hard now.</p>
+<p>Too bad. Good luck to the <a href="http://nambu.com" target="_blank" rel="external"><strong>Nambu</strong></a> team and thanks for all the fish. Their blog post <a href="http://blog.tr.im/post/159369789/tr-im-r-i-p?dsq=14529199" target="_blank" rel="external">here</a>.</p>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-922" title="Picture 17" src="http://damog.net/old/axiombox/2009/08/Picture-17.png" alt="Picture 17" width="618" height="250"></p>
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/shortener/">shortener</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/startup/">startup</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/tr-im/">tr.im</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/tweetie/">tweetie</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/url/">url</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
     <article id="post-twentyfive" class="post">
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2009/08/09/twentyfive/" class="article-date">
-  <time datetime="2009-08-09T17:43:48.000Z" itemprop="datePublished">Sun Aug 9, 2009</time>
+  <time datetime="2009-08-09T10:43:48.000Z" itemprop="datePublished">Sun Aug 9, 2009</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -101,7 +257,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2009/08/07/phusion-passenger%e2%84%a2-on-debian/" class="article-date">
-  <time datetime="2009-08-07T22:32:02.000Z" itemprop="datePublished">Fri Aug 7, 2009</time>
+  <time datetime="2009-08-07T15:32:02.000Z" itemprop="datePublished">Fri Aug 7, 2009</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -152,7 +308,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2009/08/07/back-from-spain/" class="article-date">
-  <time datetime="2009-08-07T21:42:24.000Z" itemprop="datePublished">Fri Aug 7, 2009</time>
+  <time datetime="2009-08-07T14:42:24.000Z" itemprop="datePublished">Fri Aug 7, 2009</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -202,7 +358,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2009/08/03/yapceu2009-fail/" class="article-date">
-  <time datetime="2009-08-03T21:12:05.000Z" itemprop="datePublished">Mon Aug 3, 2009</time>
+  <time datetime="2009-08-03T14:12:05.000Z" itemprop="datePublished">Mon Aug 3, 2009</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -252,7 +408,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2009/07/22/finally-at-debconf-9/" class="article-date">
-  <time datetime="2009-07-23T02:13:12.000Z" itemprop="datePublished">Wed Jul 22, 2009</time>
+  <time datetime="2009-07-22T19:13:12.000Z" itemprop="datePublished">Wed Jul 22, 2009</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -302,7 +458,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2009/06/27/perl-in-the-time-of-social-networks-delivered-in-pittsburgh-pa/" class="article-date">
-  <time datetime="2009-06-28T02:01:36.000Z" itemprop="datePublished">Sat Jun 27, 2009</time>
+  <time datetime="2009-06-27T19:01:36.000Z" itemprop="datePublished">Sat Jun 27, 2009</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -357,7 +513,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2009/06/10/sync-your-twitter-followers-and-friends/" class="article-date">
-  <time datetime="2009-06-10T18:30:29.000Z" itemprop="datePublished">Wed Jun 10, 2009</time>
+  <time datetime="2009-06-10T11:30:29.000Z" itemprop="datePublished">Wed Jun 10, 2009</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -411,181 +567,6 @@
 
 
   
-    <article id="post-cheating-the-world-you-tweet-less" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2009/06/08/cheating-the-world-you-tweet-less/" class="article-date">
-  <time datetime="2009-06-08T21:41:56.000Z" itemprop="datePublished">Mon Jun 8, 2009</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2009/06/08/cheating-the-world-you-tweet-less/">Cheating the world you tweet less</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>The number of updates on my <a href="http://twitter.com/habanerd" target="_blank" rel="external">Twitter page</a> kind of <strong>bothers me</strong> sometimes. It’s a reminder of the amount of time I’ve spent and wasted on Twitter, it’s an ever-itching mole in front of my face. However, I can cheat the system and society and still feel good about myself. What if I just remove all freaking replies I’ve made, <em>except</em> for those of people I do care about (like <a href="http://maggit.net" target="_blank" rel="external">my fiance</a> or <a href="http://twitter.com/rubx" target="_blank" rel="external">Ruby Boobie</a>)? And also, I don’t want to remove very recent replies.</p>
-<p>Well, let’s just do it already.<br><code lang="perl"></code></p>
-<h1 id="!/opt/local/bin/perl">!/opt/local/bin/perl</h1><p>use Modern::Perl;</p>
-<p>use Net::Twitter;<br>use DateTime::Format::DateParse;<br>use DateTime;</p>
-<p>binmode STDOUT, “:utf8”;</p>
-<p>my $t = Net::Twitter-&gt;new(<br>    user =&gt; shift @ARGV || ‘lazy_fuck’,<br>    password =&gt; shift @ARGV || ‘bl0wm3’);</p>
-<p>my $whitelist = [qw/maggit rubx axiombox/];</p>
-<p>my $then = DateTime-&gt;now;<br>$then-&gt;subtract(days =&gt; 5);</p>
-<p>my $x = 1;<br>for my $i (1..80) {</p>
-<pre><code>my <span class="variable">$tweets</span> = <span class="variable">$t</span>-&gt;user_timeline({ page =&gt; <span class="variable">$i</span>, count =&gt; <span class="number">200</span> })
-    <span class="keyword">or</span> die <span class="string">"No fish for you, loser.\n"</span>;
-
-<span class="keyword">for</span> my <span class="variable">$h</span> (@<span class="variable">$tweets</span>) {
-    <span class="keyword">next</span> <span class="keyword">unless</span> <span class="variable">$h</span>-&gt;{<span class="string">"in_reply_to_screen_name"</span>};
-    <span class="keyword">next</span> if grep { <span class="variable">$_</span> eq <span class="variable">$h</span>-&gt;{<span class="string">"in_reply_to_screen_name"</span>} } @<span class="variable">$whitelist</span>;
-
-    my <span class="variable">$date</span> = <span class="constant">DateTime:</span><span class="symbol">:Format</span><span class="symbol">:</span><span class="symbol">:DateParse-&gt;parse_datetime</span>(<span class="variable">$h</span>-&gt;{<span class="string">"created_at"</span>});
-    <span class="keyword">next</span> <span class="keyword">unless</span> <span class="variable">$date</span> &lt; <span class="variable">$then</span>;
-
-    say <span class="variable">$x</span>, <span class="string">": ("</span>, <span class="variable">$h</span>-&gt;{<span class="string">"id"</span>}, <span class="string">") "</span>, <span class="variable">$h</span>-&gt;{<span class="string">"text"</span>};
-    <span class="variable">$t</span>-&gt;destroy_status(<span class="variable">$h</span>-&gt;{<span class="string">"id"</span>});
-    <span class="variable">$x</span>++;
-}
-</code></pre><p>}<br></p>
-<p>This little fucker will try to fetch your latest 16’000 tweets (if you have… <em>twat</em>, <em>grin</em>, more than that, you’ve got real issues and I cannot help there, get a shrink or something).</p>
-<p>It’ll make 80 requests for your timeline (remember Twitter gives you a 100-request hour limit), so only if the reply doesn’t come from a certain people AND the reply is older than a given period of time (I’m setting it to one week for me), it’ll get rid of it. If a friend doesn’t see the reply in a week, she probably never will. After that, it just destroys the tweet (or it tries at least, from my experience, Twitter is still experimenting a hell lot of issues on their service).</p>
-<p>That way you can cheat the system removing useless tweets that no one (not even you or the recipient) cares about anymore. Or just… don’t give a shit, and you are all set too.</p>
-<p>The first time I ran it, I went from like 6k tweets to 2500, which was a nice drop :-). If you feel like it, just grab it and customize to fit your needs. You will be needing the <a href="http://search.cpan.org" target="_blank" rel="external">CPAN</a> modules <a href="http://search.cpan.org/dist/Modern-Perl" target="_blank" rel="external">Modern::Perl</a>, <a href="http://search.cpan.org/dist/DateTime" target="_blank" rel="external">DateTime</a>, <a href="http://search.cpan.org/dist/DateTime-Format-DateParse" target="_blank" rel="external">DateTime::Format::DateParse</a> and of course, <a href="http://search.cpan.org/dist/Net-Twitter" target="_blank" rel="external">Net::Twitter</a>.</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/perl/">perl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/rubx/">rubx</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/twitter/">twitter</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-debianproject-is-now-debian" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2009/06/05/debianproject-is-now-debian/" class="article-date">
-  <time datetime="2009-06-05T16:08:59.000Z" itemprop="datePublished">Fri Jun 5, 2009</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2009/06/05/debianproject-is-now-debian/">@debianproject is now @debian!</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>Thanks to <a href="http://twitter.com/macwarlock" target="_blank" rel="external">Jamie</a>, who used to have the name registered and now handed it over, <a href="http://twitter.debian.net" target="_blank" rel="external">Twitter Debian</a>‘s <a href="http://twitter.com/" target="_blank" rel="external">Twitter</a> username is now <strong>@<a href="http://twitter.com/debian" target="_blank" rel="external">debian</a></strong> (go follow Jamie now!). If you were already following @debianproject, nothing will change.</p>
-<p>Having <strong>@<a href="http://twitter.com/debian" target="_blank" rel="external">debian</a></strong> on Twitter is actually kind of awesome!</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/awesome/">awesome</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debian/">debian</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/twitter/">twitter</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-debian-maintainers-now-able-to-post-to-debian-twitter" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2009/05/26/debian-maintainers-now-able-to-post-to-debian-twitter/" class="article-date">
-  <time datetime="2009-05-26T20:17:46.000Z" itemprop="datePublished">Tue May 26, 2009</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2009/05/26/debian-maintainers-now-able-to-post-to-debian-twitter/">Debian Maintainers now able to post to Debian Twitter</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>I’ve added support for <a href="http://wiki.debian.org/Maintainers" target="_blank" rel="external">Debian Maintainers</a> to post tweets to <a href="http://twitter.debian.net" target="_blank" rel="external">Debian Twitter</a> (both on <a href="http://identi.ca/debianproject" target="_blank" rel="external">Identi.ca</a> and <a href="http://twitter.com/debianproject" target="_blank" rel="external">Twitter</a>). Feel free to use it.</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debian/">debian</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/gpg/">gpg</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/identi-ca/">identi.ca</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/twitter/">twitter</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/blog/page/7/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/6/">6</a><a class="page-number" href="/blog/page/7/">7</a><span class="page-number current">8</span><a class="page-number" href="/blog/page/9/">9</a><a class="page-number" href="/blog/page/10/">10</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/75/">75</a><a class="extend next" rel="next" href="/blog/page/9/">Next &raquo;</a>
@@ -604,7 +585,7 @@
 		<a href="/blog/">dm&#39;s blog</a>
 	</h1>
 	<span class="copyright">
-		&copy; 2015 David Moreno<br>
+		&copy; 2016 David Moreno<br>
 		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
 		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
 	</span>

@@ -15,10 +15,10 @@
 <meta name="twitter:title" content="dm's blog">
 <meta name="twitter:description">
   
-    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+    <link rel="alternative" href="/blog/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/blog/favicon.png">
   
   <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -35,9 +35,9 @@
 	</h1>
 	<nav class="nav">
 		<ul>
-			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a href="/">Home</a></li><li><a href="/blog/archives">Archives</a></li>
 			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
-			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+			<li><a href="/blog/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
 		</ul>
 	</nav>
 	<div id="search-form-wrap">
@@ -47,11 +47,181 @@
     <div id="main">
       
   
+    <article id="post-is-github-really-necessary-for-your-startup-engineering-team" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2012/03/11/is-github-really-necessary-for-your-startup-engineering-team/" class="article-date">
+  <time datetime="2012-03-11T22:52:52.000Z" itemprop="datePublished">Sun Mar 11, 2012</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2012/03/11/is-github-really-necessary-for-your-startup-engineering-team/">Is GitHub really necessary for your startup engineering team?</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>For the last few months, I’ve been ranting a little too much with <a href="http://selectablemedia.com" target="_blank" rel="external">our</a> engineering team about <a href="http://github.com" target="_blank" rel="external">GitHub</a>. These rantings, of course, didn’t come out of the blue. I haven’t been too satisfied with GitHub’s reliability lately since we use it for our daily development and constant deployment on our different staging environments and our own operation has been affected by their recent multiple technical difficulties. This has led me to analyze whether we really need them, why we started paying for their service in the first place and if it’s really necessary for our product development in the first place.</p>
+<p>Being an startup that originated its main product on Ruby and Ruby on Rails, some of our initial engineers were more oriented towards Ruby and open source technologies. We started using GitHub because it was the natural and de facto choice. Creation of repositories and private contributors was easy and would put you up to speed with collaboration. As we grew in developers count, our repositories did too as well as different projects. We even brought a system administrator in place. Do we still need GitHub right now? I won’t be dropping Git as our main version control system, but what has GitHub provided my company and project in exchange for the $200 we are paying them every month? Is it only hype for a company to use it for their internal repositories? Or is it hype to use them for their open repositories?</p>
+<p>The lack of site reliability on their side is what has led me thinking about whether we should still use them. What really concerns me is that they seem to have operational issues on a daily basis, they’re constantly announcing new hires, new pub meetings and new <a href="http://octodex.github.com/" target="_blank" rel="external">Octocat</a> designs, and little effort has been shown about the technical operations. It sometimes amazes me how people is so much in love with GitHub to the point where I even find “liked” articles on their feed on Google Reader whenever they announce downtimes and br0kenage (now +1’s). It’s like people enjoy what’s wrong.</p>
+<p>Are we using their issues functionality? The nice thread comments per commit, per line? Are we using pull requests? Are we using any of their actual offering compared to what a native Git server setup offers? No. The only thing is just pretty much the collaboration management, and even then, the “Groups” feature per organization is still lacking. The only main feature we use is the web browsing for the repos, which we can do with open source tools anyway. At the end, there’s other great GUIs for Git we also use on a daily basis, such as <a href="http://gitx.frim.nl/" target="_blank" rel="external">GitX</a> or <a href="http://www.git-tower.com/" target="_blank" rel="external">Tower</a> (and for now, yes, <a href="http://mac.github.com/" target="_blank" rel="external">GitHub’s GUI client</a>).</p>
+<p>The issue they were attacked with last week makes me wonder whether they are the right organization to give us version control system services or we’re just using them because we haven’t know any better or even looked at our own resources (people and machines). Someone got commit access to an open source repository. What if it would have been a malicious user getting access to private repositories where passwords and other sensitive are stored? How serious is this company? $200 is not much for a startup to spend on a neat service, but when that provider seems to be more concerned about stickers or beer than fixing their tech operations from the inside out is when it gets worrying. I like to see how other similar services we’re using compare to GitHub, how stable they feel and how notorious that reliability is shown. For example, <a href="http://newrelic.com/" target="_blank" rel="external">New Relic</a> which we also use, seems rock solid and they don’t show issues at all. What’s the difference here anyway?</p>
+<p>Site reliability is tricky anyway: when it’s faulty, it shows and screams because it affects business operations and reaches the entire company; when it’s working perfectly, the way it should, you can barely realize people are doing an stupendous job. GitHub, however, doesn’t seem to have this clear.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/site-reliability/">site reliability</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-lessons-learned-and-real-experience" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2012/03/05/lessons-learned-and-real-experience/" class="article-date">
+  <time datetime="2012-03-05T15:44:52.000Z" itemprop="datePublished">Mon Mar 5, 2012</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2012/03/05/lessons-learned-and-real-experience/">Lessons learned and real experience</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>I’ve been busy.</p>
+<p><a href="http://selectablemedia.com/" target="_blank" rel="external">We</a>‘ve been building a next generation video ad serving platform with all of lessons and experience we’ve gained over the last couple of years and specially over last one. In an industry where there’s too much client demand there’s only a few key supply players doing a good job and we’ve identified strengths, weaknesses, opportunities and threats. We’ve kept ourselves busy.</p>
+<p>Over the course of last year, especially on the second half and as far as this first quarter of 2012 has been running, aims for a new better product have made me reconsider what I thought I knew and what I thought I had to learn on an engineering point of view, about how to build not only regular or good software, but enterprise software. Having a startup background where dynamics are key, we’ve shifted into a more concise, long-term, sustainable technology where pieces need not to change easily, but at the same time, provide flexibility, customizable solutions for clients’ needs and that would allow us to continue growing.</p>
+<p>Question for me has been whether all of what I thought I knew about Web dynamics, engineering and technology is what I really thought it was. How do you get to the point where you start using some sort of product to enable you to build another. How is that decision made in your head. What business decisions are made that affect the technology stack on the technology your peers are building, on the product you are taking care of to produce something usable. How are those decisions considered from a technology point of view, are they just passed along and executed or do they really carry along considerations from all points of the company.</p>
+<p>A modern life Web engineer does not only write software. That person should also understand how the entire business stack works, why are positions covered around him and how are those dots connecting to provide a good solution for some one who pays to use it. The engineer has to understand that very well.</p>
+<p>It’s amazing the amount of strategies that I’ve personally met and thought of over the time. Real life experience is invaluable, but basic understanding of how things work is what enables that, and some people sometimes seem to forget that. Are you paying overpriced developers because you’re using hyped technology? Are you putting enough thought on what you are building and what could lead to in terms of those bricks.</p>
+<p>It is not a myth that when you learn and increase your knowledge on something, something else seems to open up and leave your mind with more questions. Learning more makes you realize you’re ignorant. And it’s only the ability and willingness to continue learning that would lead you to a much better thought process that could even eventually make you think that the answer to the question was just right there from the very beginning, from the basics.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/life/">life</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/tech/">tech</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/work/">work</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-rvm-rake-tasks-on-cron-jobs" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2011/08/02/rvm-rake-tasks-on-cron-jobs/" class="article-date">
+  <time datetime="2011-08-02T08:57:38.000Z" itemprop="datePublished">Tue Aug 2, 2011</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2011/08/02/rvm-rake-tasks-on-cron-jobs/">RVM + Rake tasks on Cron jobs</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><a href="https://rvm.beginrescueend.com/" target="_blank" rel="external">RVM</a> hates my guts. And it doesn’t matter, because I hate RVM back even more. Since I was technologically raised by aging wolfs, I have strong reasons to believe that you just shouldn’t have mixed versions of software on your production systems, specially, if a lot of things are poorly tested, like <a href="http://rubygems.org/" target="_blank" rel="external">most of Ruby libraries</a>, aren’t backward compatible. I was raised on a world where everything worked greatly because the good folks at projects like <a href="http://www.debian.org/" target="_blank" rel="external">Debian</a> or <a href="http://search.cpan.org/" target="_blank" rel="external">Perl</a> have some of the greatest QA processes of all time, hands down. So, when someone introduces a thing like RVM which not only promotes having hundreds of different versions of the same software, both on development, testing and production environments, but also encourages poor quality looking back and looking forward, there isn’t anything else but to lose faith in humanity.</p>
+<p>But enough for ranting.</p>
+<p>I had to deliver this side project that works with the <a href="http://dev.twitter.com/" target="_blank" rel="external">Twitter API</a> and the only requirement pretty much was that it had to be both run from the shell but also loaded as a class within a Ruby script. And so I did everything locally with my great local installation of Ruby 1.8.7. When it came the time to load on the testing/production server I found myself on a situation where pathetic RVM was installed. After spending hours trying to accommodate my changes to run properly with Ruby 1.9.2, I set up a cron job using crontab to run my shit every now and then. And the shit wasn’t even running properly. Basically, my crontab line looked something like this:</p>
+<p><code lang="bash"><br><em>/30 </em> <em> </em> * cd /home/david/myproject &amp;&amp; rake awesome_task<br></code></p>
+<p>And that was failing, crontab was returning some crazy shit like “Ruby and/or RubyGems cannot find the rake gem”. Seriously? Then I thought, well, maybe my environment needs to be loaded and whatever, so I made a bash script with something like this:</p>
+<p><code lang="bash"></code></p>
+<h1 id="!/bin/bash">!/bin/bash</h1><p>cd /home/david/myproject<br>/full/path/to/rvm/bin/rake -f Rakefile awesome_task<br></p>
+<p>And that was still failing with the same error. So after trying to find out how cron jobs and crontab load Bash source files, I took a look at <a href="http://wiki.debian.org/DotFiles" target="_blank" rel="external">how Debian starts its shell</a> upon login. And while that didn’t tell me that much that I didn’t know, I went to look at the system-wide /etc/profile and found a gem, a wonderful directory /etc/profile.d/ where a single shitty file was sitting, smiling back at me, like waiting for me to find it out and swear on all problems in life: rvm.sh. /etc/profile is not being loaded when I just run /bin/bash by my crappy script, only when I log in, I should’ve known this. Doesn’t RVM solve the issue of having system-wide installations so the user doesn’t have to deal with, you know, anything outside of his own /home ?</p>
+<p>So I had to go ahead and do:</p>
+<p><code lang="bash"></code></p>
+<h1 id="!/bin/bash-1">!/bin/bash</h1><p>source /etc/profile<br>cd /home/david/myproject<br>/full/path/to/rvm/bin/rake -f Rakefile awesome_task<br></p>
+<p>And hours later I was able to continue with work. Maybe this will help some poor bastard like myself on similar situation on the future.</p>
+<p>Of course one can argue that I could’ve installed my own RVM and its Ruby versions, but why, oh why, if it was, apparently, already there. Why would I have to fiddle with the Ruby installations if all I want is get my shit done and head to City Bakery where I can spend that money I just earned on chocolate cookies? My work is pretty simple to run with pretty much any ancient version of Ruby, nothing fancy (unless you call MongoMapper fancy). RVM is a great project that doesn’t solve an issue, but just hides some really fucked up shit on the Ruby community.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/cron/">cron</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/crontab/">crontab</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/rake/">rake</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/ruby/">ruby</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/rubygems/">rubygems</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/rvm/">rvm</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
     <article id="post-debconf-11" class="post">
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2011/07/01/debconf-11/" class="article-date">
-  <time datetime="2011-07-01T17:46:54.000Z" itemprop="datePublished">Fri Jul 1, 2011</time>
+  <time datetime="2011-07-01T10:46:54.000Z" itemprop="datePublished">Fri Jul 1, 2011</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -101,7 +271,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2011/03/24/disable-nginx-logging/" class="article-date">
-  <time datetime="2011-03-24T20:47:07.000Z" itemprop="datePublished">Thu Mar 24, 2011</time>
+  <time datetime="2011-03-24T13:47:07.000Z" itemprop="datePublished">Thu Mar 24, 2011</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -159,7 +329,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2011/03/08/github-and-open-source-on-linkedin/" class="article-date">
-  <time datetime="2011-03-08T18:07:34.000Z" itemprop="datePublished">Tue Mar 8, 2011</time>
+  <time datetime="2011-03-08T11:07:34.000Z" itemprop="datePublished">Tue Mar 8, 2011</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -213,7 +383,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2011/03/02/youtube-html5-trial-opt/" class="article-date">
-  <time datetime="2011-03-03T04:24:13.000Z" itemprop="datePublished">Wed Mar 2, 2011</time>
+  <time datetime="2011-03-02T21:24:13.000Z" itemprop="datePublished">Wed Mar 2, 2011</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -262,7 +432,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2011/02/02/twitter-feed-for-planet-perl-iron-man/" class="article-date">
-  <time datetime="2011-02-02T23:58:20.000Z" itemprop="datePublished">Wed Feb 2, 2011</time>
+  <time datetime="2011-02-02T16:58:20.000Z" itemprop="datePublished">Wed Feb 2, 2011</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -311,7 +481,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/09/28/running-find-with-two-or-more-commands-to-exec/" class="article-date">
-  <time datetime="2010-09-28T17:02:38.000Z" itemprop="datePublished">Tue Sep 28, 2010</time>
+  <time datetime="2010-09-28T10:02:38.000Z" itemprop="datePublished">Tue Sep 28, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -367,7 +537,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2010/09/23/perl-5-12s-each-function/" class="article-date">
-  <time datetime="2010-09-23T22:21:46.000Z" itemprop="datePublished">Thu Sep 23, 2010</time>
+  <time datetime="2010-09-23T15:21:46.000Z" itemprop="datePublished">Thu Sep 23, 2010</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -423,164 +593,6 @@
 
 
   
-    <article id="post-apache2archive-0-2" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2010/08/22/apache2archive-0-2/" class="article-date">
-  <time datetime="2010-08-23T00:45:00.000Z" itemprop="datePublished">Sun Aug 22, 2010</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2010/08/22/apache2archive-0-2/">Apache2::Archive 0.2</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p><a href="http://search.cpan.org/dist/Apache2-Archive" target="_blank" rel="external">Apache2::Archive</a> is a mod_perl 2 extension that allows the Apache HTTP server to expose tar and tar.gz archives on the fly. When a client requests such an archive file, the server will return a page displaying information about the file that allows the user to view or download individual files from within the archive.</p>
-<p>I just uploaded version <strong>0.2</strong> to <a href="http://search.cpan.org/~damog" target="_blank" rel="external">CPAN</a> and <a href="http://github.com/damog/apache2-archive/tree/0.2" target="_blank" rel="external">GitHub</a> correcting a few automatic build issues presented with dependencies. Grab it now with <tt><a href="http://search.cpan.org/dist/App-CPAN-Fresh/" target="_blank" rel="external">cpanf</a></tt>!</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-curl-post-data-and-newlines" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2010/08/15/curl-post-data-and-newlines/" class="article-date">
-  <time datetime="2010-08-16T03:10:35.000Z" itemprop="datePublished">Sun Aug 15, 2010</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2010/08/15/curl-post-data-and-newlines/">curl POST data and newlines</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>I’m writing a <a href="http://rubyonrails.org/" target="_blank" rel="external">Rails</a> application for the <a href="http://en.wikipedia.org/wiki/Microblogging" target="_blank" rel="external">microblogging</a> strategy for <a href="http://debian.org" target="_blank" rel="external">Debian</a> (which I used to call, <a href="http://github.com/damog/debian-twitter" target="_blank" rel="external">debian-twitter</a>, but you know how us Debian folks are :D). I came up with a strange issue, that at first I thought was <a href="http://guides.rubyonrails.org/action_controller_overview.html" target="_blank" rel="external">ActionController</a>‘s fault or some crap.</p>
-<p>So, I was testing one of my controllers with something like this:</p>
-<p><code lang="bash">cat /tmp/mm.txt | curl -d @- <a href="http://localhost:3000/message/new" target="_blank" rel="external">http://localhost:3000/message/new</a></code></p>
-<p>/tmp/mm.txt is a <a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy" target="_blank" rel="external">PGP</a> signed message which then I just send as POST data to my application. So far so good. However, when accessing the data from Rails, using request.body.read, I was a getting a single line, with the newlines (carriage returns) removed. So I started looking at how ActionController was getting the HTTP data and stuff. But then I tested:</p>
-<p><code lang="bash">cat /tmp/mm.txt | lwp-request -m POST  <a href="http://localhost:3000/message/new" target="_blank" rel="external">http://localhost:3000/message/new</a></code></p>
-<p>And that had the carriage returns in place.</p>
-<p>So, I started looking at the curl man page and discovered this little gem:</p>
-<p><blockquote>—data-binary &lt;data&gt;</blockquote></p>
-<p>(HTTP) This posts data exactly as specified with no extra processing whatsoever.</p>
-<p>If you start the data with the letter @, the rest should be a filename. Data is posted in a similar manner as —data-ascii does, except that newlines are preserved and conversions are never done.</p>
-<p>If this option is used several times, the ones following the first will append data as described in -d/—data.<br><code lang="bash">cat /tmp/mm.txt | curl —data-binary @- <a href="http://localhost:3000/message/new" target="_blank" rel="external">http://localhost:3000/message/new</a></code></p>
-<p>…did indeed the tricky. Maybe someone needs this info some day.</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/code/">code</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/curl/">curl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debian/">debian</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/rails/">rails</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-debconf-10" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2010/08/12/debconf-10/" class="article-date">
-  <time datetime="2010-08-12T07:04:17.000Z" itemprop="datePublished">Thu Aug 12, 2010</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2010/08/12/debconf-10/">DebConf 10</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>I was in New York for three full weeks, before, during and after DebConf 10 took place. Unfortunately, I wasn’t able to attend talks or go hang out with folks as much as I would’ve wanted. Most of the time I was busy at the office with a new product launch we have been preparing for the last few months. However, I was able to come and say hi to a few people, attend the C&amp;W party and talk with friends and ran into. I was, however, following all conversations on IRC so I was pretty informed of all of what was going on. Some random thoughts:</p>
-<p><ul><br>    <li>Being surrounded by so many amazing Debian people made me realize how much I’ve been apart from the project. My involvement decreased pretty much since I moved to New York. But because of that, I’m now slowly retaking my activity, trying to work on actual things that I use on my daily work instead of just packaging tons of shit that nobody really cared about.</li><br>    <li>DebConf is pretty awesome. After attending six out of the last seven Debian conferences, you get to establish a nice connection with people and they become your friends. This year, even if I only came a couple of nights, I made stronger friendships, and for that I’m thankful. It is only within Debian that this human part of bonding really takes place.</li><br>    <li>I really regret missing a couple of events: First, the Day trip to Coney Island and the Cyclones game; and the group photo. Both because of work, yes.</li><br>    <li>It was interesting to hear the thoughts from one of the Bosnian attendees about next year’s DebConf there. I’m really sorry I can’t recall his name, but it shocked a bit that he stated that they might try to find <em>better speakers</em> next year, because a lot of them “sucked a lot” here. All I can say is that, even though everybody’s opinions are valid, this might come from an outsider, not used to Debian conferences. Where are you going to find better speakers? Us developers are the only speakers out there, good or bad, we are the ones making the conferences by and for.</li><br>    <li>I like Zach’s attitude as DPL, even when I introduced him to a very nice friend of mine that came to the party to hang out.</li><br></ul><br>DebConf 10 rocked and I appreciate everybody’s participation in it. See you in Banja Luka, next year!</p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debconf/">debconf</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debconf10/">debconf10</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/debian/">debian</a></li></ul>
-
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/blog/page/2/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/blog/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/blog/page/4/">4</a><a class="page-number" href="/blog/page/5/">5</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/75/">75</a><a class="extend next" rel="next" href="/blog/page/4/">Next &raquo;</a>
@@ -599,7 +611,7 @@
 		<a href="/blog/">dm&#39;s blog</a>
 	</h1>
 	<span class="copyright">
-		&copy; 2015 David Moreno<br>
+		&copy; 2016 David Moreno<br>
 		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
 		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
 	</span>

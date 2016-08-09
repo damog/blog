@@ -15,10 +15,10 @@
 <meta name="twitter:title" content="dm's blog">
 <meta name="twitter:description">
   
-    <link rel="alternative" href="/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
+    <link rel="alternative" href="/blog/atom.xml" title="dm&#39;s blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/blog/favicon.png">
   
   <link rel="stylesheet" href="/blog/css/style.css" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -35,9 +35,9 @@
 	</h1>
 	<nav class="nav">
 		<ul>
-			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a href="/">Home</a></li><li><a href="/blog/archives">Archives</a></li>
 			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
-			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+			<li><a href="/blog/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
 		</ul>
 	</nav>
 	<div id="search-form-wrap">
@@ -47,11 +47,161 @@
     <div id="main">
       
   
+    <article id="post-i-need-it" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2005/03/30/i-need-it/" class="article-date">
+  <time datetime="2005-03-30T17:29:17.000Z" itemprop="datePublished">Wed Mar 30, 2005</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2005/03/30/i-need-it/">I need it!</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><img src="http://www.latestbuy.com.au/img/productImages/clocmain.jpg" align="left">Amaya, I definitively need the <a href="http://www.latestbuy.com.au/puzzle_clock_gadget.html" target="_blank" rel="external">Puzzle Alarm Clock</a>, thanks for showing it up! That thing totally rocks. I&#8217;m buying it right now! My 7 am class teacher will thank this buy ;-)<br><br><br><br><br></p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-how-to-make-a-simple-valid-rss-feed" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2005/03/28/how-to-make-a-simple-valid-rss-feed/" class="article-date">
+  <time datetime="2005-03-28T02:26:44.000Z" itemprop="datePublished">Mon Mar 28, 2005</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2005/03/28/how-to-make-a-simple-valid-rss-feed/">How to make a simple valid RSS feed</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p></p><p>I finally found some time to update my RSS feed creator script and port it into Ruby. I have to say, <a href="http://packages.debian.org/mambo" target="_blank" rel="external">Mambo</a> is a really cool cms, but its feed creator sucks. So if you are wanting to generate your own RSS feed you can do it with this little Ruby script (yes, I know you can also do it with Perl, but Ruby is funnier :-):</p><p></p>
+<p><pre>#!/usr/bin/env ruby</pre></p>
+<h1 id="You’ll_need_libdbd-mysql-ruby_(in_MySQL’s_case)_and_libruby">You’ll need libdbd-mysql-ruby (in MySQL’s case) and libruby</h1><p>require “dbi”<br>require “rss/maker”</p>
+<h1 id="Similar_to_Perl’s_DBI">Similar to Perl’s DBI</h1><p>dbh = DBI.connect(“dbi:Mysql:TABLE:HOSTNAME”, ‘USER’, ‘PASSWD’)</p>
+<h1 id="This_is_the_case_for_Mambo,_it_would_depend_on_your_cms:">This is the case for Mambo, it would depend on your cms:</h1><p>sth=dbh.prepare(‘select id, title, introtext, created from content where \<br>catid=69 order by <code>created</code> desc limit 10’)<br>sth.execute</p>
+<p>rss = RSS::Maker.make(“2.0”) do |maker|<br>maker.channel.title = “YOUR TITLE”<br>maker.channel.description = “I AM A DESCRIPTION”<br>maker.channel.link = “YOUR WEBSITE”<br>maker.channel.generator = “libruby1.8, libdbi-ruby1.8 and mambo, \<br>all debian packages”</p>
+<p>sth.fetch do |row|<br>item = maker.items.new_item<br>item.link = “<a href="http://damog.net/index.php?option=com_content&amp;task=view&amp;id=" target="_blank" rel="external">http://damog.net/index.php?option=com_content&amp;task=view&amp;id=</a>“, row[0]<br>item.title = row[1]<br>item.description = row[2]<br>item.date = Time.parse(“%s”, row[3])<br>item.author = “David Moreno Garza &lt;damog@damog.net&gt;”<br>end<br>sth.finish</p>
+<p>end</p>
+<p>puts rss<br>dbh.disconnect if dbh<br></p>
+<p></p><p>Nice, isn&#8217;t it?</p><br><br><br><p></p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-montsserrat" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/blog/2005/03/28/montsserrat/" class="article-date">
+  <time datetime="2005-03-27T23:09:05.000Z" itemprop="datePublished">Mon Mar 28, 2005</time>
+</a>
+		</span>
+		<span class="meta-elements author">David Moreno</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/blog/2005/03/28/montsserrat/">Montsserrat...</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Que te vaya chido, cr饭e que no pasa nada, más que el futuro y el destino.<br><br></p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
     <article id="post-platica-sobre-creacion-de-paquetes-de-debian" class="post">
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2005/03/17/platica-sobre-creacion-de-paquetes-de-debian/" class="article-date">
-  <time datetime="2005-03-17T09:38:30.000Z" itemprop="datePublished">Thu Mar 17, 2005</time>
+  <time datetime="2005-03-17T02:38:30.000Z" itemprop="datePublished">Thu Mar 17, 2005</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -100,7 +250,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2005/03/13/fiesta-de-la-semana-de-la-m%ef%bf%bdsica/" class="article-date">
-  <time datetime="2005-03-14T01:23:02.000Z" itemprop="datePublished">Sun Mar 13, 2005</time>
+  <time datetime="2005-03-13T18:23:02.000Z" itemprop="datePublished">Sun Mar 13, 2005</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -150,7 +300,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2005/03/10/no-s%ef%bf%bd-por-qu%ef%bf%bd-lleg%ef%bf%bd-pero-quiz%ef%bf%bds-ayude/" class="article-date">
-  <time datetime="2005-03-11T01:14:04.000Z" itemprop="datePublished">Thu Mar 10, 2005</time>
+  <time datetime="2005-03-10T18:14:04.000Z" itemprop="datePublished">Thu Mar 10, 2005</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -201,7 +351,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2005/03/08/semana-de-la-m%ef%bf%bdsica-ibero/" class="article-date">
-  <time datetime="2005-03-08T08:01:48.000Z" itemprop="datePublished">Tue Mar 8, 2005</time>
+  <time datetime="2005-03-08T01:01:48.000Z" itemprop="datePublished">Tue Mar 8, 2005</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -250,7 +400,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2005/03/03/mar%ef%bf%bda-daniela-y-su-sonido-lasser/" class="article-date">
-  <time datetime="2005-03-04T00:55:49.000Z" itemprop="datePublished">Thu Mar 3, 2005</time>
+  <time datetime="2005-03-03T17:55:49.000Z" itemprop="datePublished">Thu Mar 3, 2005</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -299,7 +449,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2005/03/02/tbm-hackergotchi-with-the-new-crown/" class="article-date">
-  <time datetime="2005-03-02T10:30:46.000Z" itemprop="datePublished">Wed Mar 2, 2005</time>
+  <time datetime="2005-03-02T03:30:46.000Z" itemprop="datePublished">Wed Mar 2, 2005</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -348,7 +498,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/blog/2005/02/27/if-you-own-an-ibook/" class="article-date">
-  <time datetime="2005-02-27T10:08:37.000Z" itemprop="datePublished">Sun Feb 27, 2005</time>
+  <time datetime="2005-02-27T03:08:37.000Z" itemprop="datePublished">Sun Feb 27, 2005</time>
 </a>
 		</span>
 		<span class="meta-elements author">David Moreno</span>
@@ -394,153 +544,6 @@
 
 
   
-    <article id="post-about-consol" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2005/02/26/about-consol/" class="article-date">
-  <time datetime="2005-02-27T00:44:49.000Z" itemprop="datePublished">Sat Feb 26, 2005</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2005/02/26/about-consol/">About CONSOL</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p></p><p><a href="http://www.consol.org.mx" target="_blank" rel="external">CONSOL</a> is finally over. Organization stuff has been pretty tiring this year. But I&#8217;m widely satisfied what we&#8217;ve reached: Being probably the most important free software conference in Mexico.</p><p></p>
-<p></p><p>Not too much people attended this year, but I&#8217;m happy I could shake hands with lots of them. I want to thank specially Steve Langasek, who only could be here three days; Gustavo Noronha, what could I say about him? kov rocks ;-) and Fernanda Weiden who gave CONSOL a nice and interesting &#8220;Free software with a female touch&#8221; talk.</p><p></p>
-<p></p><p>Mexico has not too many people involved in Debian development, there are obviuosly more user parties: I&#8217;m definitively convinced this should change, that&#8217;s why I tried to give two talks about it, one about helping the Debian project (in some of the common tasks) and one about package creation. I really enjoyed giving this last one, it was on a room with 20 computers, which every one of them had an interested people on it. Even some other persons gathered on the halls trying to see the workshop (kov sat on the rug with his laptop ;-).</p><p></p>
-<p></p><p>2005 is only two months old, but we&#8217;ve having a feeling more free software development and usage (as well as nice conferences) will be coming. Just for 2006 there would be some other interesting conferences: CONSOL, DebConf6, LinuxWorld (rumors say it will be held in Mexico - at least a Latin(?) version), and some kind of mexican GUADEC (with the folks of the Novell Ximian mexican office).</p><br><br><br><p></p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-%ef%bf%bdno-no-no-al-desafuero" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2005/02/17/%ef%bf%bdno-no-no-al-desafuero/" class="article-date">
-  <time datetime="2005-02-18T02:03:36.000Z" itemprop="datePublished">Thu Feb 17, 2005</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2005/02/17/%ef%bf%bdno-no-no-al-desafuero/">�No, no, no al desafuero!</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p align="center"><br><a href="http://www.damog.net/files/misc/mitin01.jpg" target="_blank" rel="external"><img src="http://www.damog.net/files/misc/mitin01-mini.jpg"></a><br></p>
-
-<p></p><p align="center"><br><a href="http://www.damog.net/files/misc/mitin02.jpg" target="_blank" rel="external"><img src="http://www.damog.net/files/misc/mitin02-mini.jpg"></a></p><br><br><br><p></p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-debian-packages-new-queue-summary" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/blog/2005/02/13/debian-packages-new-queue-summary/" class="article-date">
-  <time datetime="2005-02-13T13:39:59.000Z" itemprop="datePublished">Sun Feb 13, 2005</time>
-</a>
-		</span>
-		<span class="meta-elements author">David Moreno</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/blog/2005/02/13/debian-packages-new-queue-summary/">Debian packages NEW queue summary</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p></p><p>As it was already showed on debian-devel mailing list, Miriam Ruiz, Anibal Monsalve and me have been working on a new face for the <a href="http://qa.debian.org/~anibal/debian-NEW.html" target="_blank" rel="external">NEW queue summary</a>.</p><p></p>
-<p></p><p>Every comment on the discussion has been appreciated and discussed, we are working hard on them :-)</p><br><br><br><p></p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/blog/page/53/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/52/">52</a><a class="page-number" href="/blog/page/53/">53</a><span class="page-number current">54</span><a class="page-number" href="/blog/page/55/">55</a><a class="page-number" href="/blog/page/56/">56</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/75/">75</a><a class="extend next" rel="next" href="/blog/page/55/">Next &raquo;</a>
@@ -559,7 +562,7 @@
 		<a href="/blog/">dm&#39;s blog</a>
 	</h1>
 	<span class="copyright">
-		&copy; 2015 David Moreno<br>
+		&copy; 2016 David Moreno<br>
 		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
 		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
 	</span>
