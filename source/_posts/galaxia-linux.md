@@ -9,21 +9,22 @@ Hace unos cuantos días vi que un nuevo proyecto de blogueros sobre Linux estaba
 
 Me interesó mucho que Galaxia Linux intentara hacer un ranking hispanoamericano de blogs sobre Linux y quise saber cómo lo hacían. Me sorprendió que en su sitio, para "formar parte" había que colocar una simple y burda imagen en el sitio. ¿Así es como rankean a los sitios? Lo puse pues, en varias de las instancias de Planeta Linux y cada que recargaba el sitio, se le sumaba una hit más al contador en la página del ranking. ¿No es lo más burdo e ineficaz que se les ocurre? ¿Cómo lo estaban haciendo? Su banner es claramente un GIF generado por un script en PHP. Me lo imagino tan simple como que cada que se ejecuta, lee la variable HTTP_REFERER, si el sitio ya se encuentra en una base de datos, aumenta el contador, si no es así, crea un nuevo sitio en la tablita con el hit en 1. Y ya, ese es el ranking que intentan crear. Luego, en la página principal, pues simplemente ponen los sitios que tienen más hits, aparentemente "semanalmente". Es decir, si en el sexto día de la semana, un sitio con muchísimo tráfico "se une", básicamente se la pela porque el contador semanal ya contó hits para otros sitios durante seis días y un par de sitios puede que tengan más por los seis días que un verdadero sitio en uno solo. Jugando, puedes hacer ésto:
 
-<code>
-use LWP::UserAgent;
-my $ua = LWP::UserAgent-&gt;new;
-# Ternurita...
-$ua-&gt;agent("Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)");
-while(1) {
-# Para ahorrar ancho de banda, hago HEAD, en lugar de GET
-my $req = HTTP::Request-&gt;new(HEAD =&gt; 'http://www.galaxialinux.com/rank/banners/banner.php');
-$req-&gt;referer('http://mx.planetalinux.org/');
-my $res = $c-&gt;request($req);
-# Gracias, vuelvas prontos.
-}
-</code>
+    use LWP::UserAgent;
+    my $ua = LWP::UserAgent->new;
 
-Claro, ésto también pudo haber sido hecho mucho más rápido con <a href="http://linux.about.com/library/cmd/blcmdl1_lwp-request.htm">lwp-request</a>, por ejemplo, que hace precisamente lo mismo utilizando LWP. O <a href="http://log.damog.net/2008/09/galaxia-linux/">como dice MaoP en los comentarios</a>, claro, con wget.
+    # Ternurita...
+    $ua->agent("Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)");
+
+    while(1) {
+        # Para ahorrar ancho de banda, hago HEAD, en lugar de GET
+        my $req = HTTP::Request->new(HEAD => 'http://www.galaxialinux.com/rank/banners/banner.php');
+        $req->referer('http://mx.planetalinux.org/');
+        my $res = $c->request($req);
+        # Gracias, vuelvas prontos.
+    }
+
+
+Claro, ésto también pudo haber sido hecho mucho más rápido con <a href="http://linux.about.com/library/cmd/blcmdl1_lwp-request.htm">lwp-request</a>, por ejemplo, que hace precisamente lo mismo utilizando LWP. O <a href="/blog/2008/09/27/galaxia-linux/">como dice MaoP en los comentarios</a>, claro, con wget.
 
 ¿Qué define un ranking? Rankear blogs o sitios web no es nada sencillo, no es nada más darles a los sitios una imagen para que la inserten, me gustaría saber qué opina por ejemplo, <a href="http://www.alianzo.com/">Alianzo</a> o <a href="http://bloglines.com">Bloglines</a>, o <a href="http://technorati.com">Technorati</a>, o <a href="http://google.com/reader">Google Reader</a>, de la forma en que Galaxia Linux rankea los sitios: No es algo sencillo, no es algo a la ligera. Corrí mi script desde varios lugares y luego de un ratito Planeta Linux México estaba en primer lugar (luego ya no estuvo, supongo que se dieron cuenta que mi ranking "subió" rápido en poco tiempo y le quitaron hits, este tipo de cosas tampoco debería tener intervención manual, quita la fiabilidad).
 

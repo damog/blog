@@ -12,4 +12,4 @@ Dicho lo anterior.
 
 Le doy gracias a Dios por hacerme feliz. Por tener la mejor mujer del mundo, la mejor familia, los mejores amigos y una vida llena de sueños, anhelos y esperanzas. Le doy gracias a Dios por colmarme de amor, por bendecirme con una vida tan plena y completa como la que creo tener.
 
-<a href="http://log.damog.net/2007/11/gracias/">El año pasado también di gracias</a>.
+[El año pasado también di gracias](/blog/2007/11/23/gracias/).

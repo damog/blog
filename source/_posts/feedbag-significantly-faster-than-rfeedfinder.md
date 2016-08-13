@@ -38,7 +38,7 @@ Alright so [Feedbag](http://github.com/damog/feedbag) looks to be significantly 
 As [I had previously blogged](/blog/2009/02/11/feedbag-now-using-feedvalidator/), Feedbag also can use [feedvalidator](http://feedvalidator.rubyforge.org/) to get most accurate results. The results above were tested with `feedvalidator` deactivated, which is the default behavior anyway. When activating it, the following results are seen:
 
           user     system      total        real
-    log.damog.net:
+    damog.net:
      feedbag
       0.390000   0.070000   0.460000 (  3.434350)
       rfeedfinder
