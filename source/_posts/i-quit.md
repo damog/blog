@@ -15,12 +15,15 @@ This was me, on my last day at work, last Friday of June:
 <a href="http://damog.net/old/axiombox/2012/07/damog-respect1.jpg"><img class="aligncenter size-full wp-image-1322" title="damog-respect" src="http://damog.net/old/axiombox/2012/07/damog-respect1.jpg" alt="" width="534" height="426" /></a>
 
 (Some) people seem to be anxious to know what I'm doing next, and my answer is, go mind your own fucking business. However, life is short and I would love to do any of the following:
-<ul>
-	<li>Go back to Brazil again, now as a blue belt in Brazilian jiujitsu, and train non-stop in Rio, this time as a local. I happened to come to Rio last November (as a four stripe white belt) and it'd been a great experience, with the <a href="http://www.connectionrio.com/">Connection Rio</a> guys. I kind of regretted not staying any longer, as a lot of people use to do, maybe three months. You don't get to do anything else but train and roll with black belts on a daily basis, eat the healthy good stuff that a wonderful country like Brazil has to offer, hang out with amazing people and chill the fuck out all day long.</li>
-	<li>Make a road trip through Central America and get to know all of those countries where I've never been to even when I've travelled extensively around them for the last few years. I would head to the southernmost tip of Mexico and then take a bus to backpack travel in the cities all the way to Panama. Beer all along, a lot of swimming, plenty of heaven.</li>
-	<li>Head to any Russian consulate so I can get an entry visa for their amazing country and travel to any chess club on any of its big cities. Or maybe Hungary (do I need a visa to visit it?). Stay on small hostels where all I could use is a few good chess books and a chessboard, absorbe myself into chess sounds like a dream come true.</li>
-	<li>Stop procrastinating and write all the good Perl stuff I've wanting to do on my own time. All of those good projects I always thought of and only had opportunity to try at work but not on a giving-back-to-the-community kind of way.</li>
-</ul>
+
+- Go back to Brazil again, now as a blue belt in Brazilian jiujitsu, and train non-stop in Rio, this time as a local. I happened to come to Rio last November (as a four stripe white belt) and it'd been a great experience, with the <a href="http://www.connectionrio.com/">Connection Rio</a> guys. I kind of regretted not staying any longer, as a lot of people use to do, maybe three months. You don't get to do anything else but train and roll with black belts on a daily basis, eat the healthy good stuff that a wonderful country like Brazil has to offer, hang out with amazing people and chill the fuck out all day long.
+
+- Make a road trip through Central America and get to know all of those countries where I've never been to even when I've travelled extensively around them for the last few years. I would head to the southernmost tip of Mexico and then take a bus to backpack travel in the cities all the way to Panama. Beer all along, a lot of swimming, plenty of heaven.
+
+- Head to any Russian consulate so I can get an entry visa for their amazing country and travel to any chess club on any of its big cities. Or maybe Hungary (do I need a visa to visit it?). Stay on small hostels where all I could use is a few good chess books and a chessboard, absorbe myself into chess sounds like a dream come true.
+
+- Stop procrastinating and write all the good Perl stuff I've wanting to do on my own time. All of those good projects I always thought of and only had opportunity to try at work but not on a giving-back-to-the-community kind of way.
+
 Decisions, decisions...
 
 For the time being, I'm chilling with my people, friends and family in beautiful Mexico City. I've been doing so for the entire month of July and I couldn't be more content. August will see my 28th birthday and as I approach thirty, I believe I need to continue moving forward.
