@@ -14,28 +14,22 @@ But enough for ranting.
 
 I had to deliver this side project that works with the <a href="http://dev.twitter.com/">Twitter API</a> and the only requirement pretty much was that it had to be both run from the shell but also loaded as a class within a Ruby script. And so I did everything locally with my great local installation of Ruby 1.8.7. When it came the time to load on the testing/production server I found myself on a situation where pathetic RVM was installed. After spending hours trying to accommodate my changes to run properly with Ruby 1.9.2, I set up a cron job using crontab to run my shit every now and then. And the shit wasn't even running properly. Basically, my crontab line looked something like this:
 
-<code lang="bash">
-*/30 * * * * cd /home/david/myproject &amp;&amp; rake awesome_task
-</code>
+    */30 * * * * cd /home/david/myproject && rake awesome_task
 
 And that was failing, crontab was returning some crazy shit like "Ruby and/or RubyGems cannot find the rake gem". Seriously? Then I thought, well, maybe my environment needs to be loaded and whatever, so I made a bash script with something like this:
 
-<code lang="bash">
-#!/bin/bash
-cd /home/david/myproject
-/full/path/to/rvm/bin/rake -f Rakefile awesome_task
-</code>
+    #!/bin/bash
+    cd /home/david/myproject
+    /full/path/to/rvm/bin/rake -f Rakefile awesome_task
 
 And that was still failing with the same error. So after trying to find out how cron jobs and crontab load Bash source files, I took a look at <a href="http://wiki.debian.org/DotFiles">how Debian starts its shell</a> upon login. And while that didn't tell me that much that I didn't know, I went to look at the system-wide /etc/profile and found a gem, a wonderful directory /etc/profile.d/ where a single shitty file was sitting, smiling back at me, like waiting for me to find it out and swear on all problems in life: rvm.sh. /etc/profile is not being loaded when I just run /bin/bash by my crappy script, only when I log in, I should've known this. Doesn't RVM solve the issue of having system-wide installations so the user doesn't have to deal with, you know, anything outside of his own /home ?
 
 So I had to go ahead and do:
 
-<code lang="bash">
-#!/bin/bash
-source /etc/profile
-cd /home/david/myproject
-/full/path/to/rvm/bin/rake -f Rakefile awesome_task
-</code>
+    #!/bin/bash
+    source /etc/profile
+    cd /home/david/myproject
+    /full/path/to/rvm/bin/rake -f Rakefile awesome_task
 
 And hours later I was able to continue with work. Maybe this will help some poor bastard like myself on similar situation on the future.
 

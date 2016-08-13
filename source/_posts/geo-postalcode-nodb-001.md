@@ -15,4 +15,5 @@ So basically, and taken from the POD:
 On a busy day at work, I couldn't get Geo::PostalCode to work with newer data (the data source <a href="http://search.cpan.org/~tjmather/">TJMATHER</a> points <a href="http://cpansearch.perl.org/src/TJMATHER/Geo-PostalCode-0.07/INSTALL">to</a> is no longer available), so the tests shipped with his module pass, but trying to use real data no longer seems to work. DB_File marked the <a href="http://search.cpan.org/~tjmather/Geo-PostalCode-0.07/lib/Geo/PostalCode/InstallDB.pm">Geo::PostalCode::InstallDB</a> output file as invalid type or format. If you don't run into that issue by not wanting to use this module, please drop <a href="http://damog.net/">me</a> a note! I would love to learn how other people made it work.
 
 So, in order to get my shit done, I decided to create this module. Loading the whole data into memory from the class constructor has been proven to be enough for massive usage (citation needed) on a <a href="http://perldancer.org">Dancer</a> application where this module is instantiated only once.</blockquote>
-<tt>$ sudo cpanm <a href="https://metacpan.org/module/DAMOG/Geo-PostalCode-NoDB-0.01/lib/Geo/PostalCode/NoDB.pm">Geo::PostalCode::NoDB</a></tt> now!
+
+$ sudo cpanm <a href="https://metacpan.org/module/DAMOG/Geo-PostalCode-NoDB-0.01/lib/Geo/PostalCode/NoDB.pm">Geo::PostalCode::NoDB</a> now!
