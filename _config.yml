@@ -12,7 +12,7 @@ permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: /Users/dmoreno/www/damog.net/blog
+public_dir: /Users/dmoreno/git_tree/damog.net/blog
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -64,4 +64,3 @@ feed:
     type: atom
     path: atom.xml
     limit: 30
-
