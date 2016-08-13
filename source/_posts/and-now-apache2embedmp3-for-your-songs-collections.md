@@ -5,7 +5,7 @@ tags:
 - mod_perl
 - mp3
 ---
-After I spent time working on <a href="http://log.damog.net/2009/01/introducing-apache2embedflv-%e2%80%93-exposing-flvs-with-flowplayer-and-a-customized-interface/">Apache2::EmbedFLV</a>, I thought it was a good idea to do the same for audio files, specifically MP3 files.
+After I spent time working on <a href="/blog/2009/01/17/introducing-apache2embedflv-exposing-flvs-with-flowplayer-and-a-customized-interface/">Apache2::EmbedFLV</a>, I thought it was a good idea to do the same for audio files, specifically MP3 files.
 
 So now that you have your MP3 files on your web server and they are accessible to the world, you may want to show them with an embedded audio player. Well, Apache2::EmbedMP3 is exactly for you!
 
