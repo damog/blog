@@ -14,8 +14,8 @@ Now you can do neat shit like this:
 
      get '/bazinga', sub {
             template 'bazinga' => {
-                    title => 'Bazinga!',
-                    content => 'Bazinga?',
+                title => 'Bazinga!',
+                content => 'Bazinga?',
             };
      };
 
