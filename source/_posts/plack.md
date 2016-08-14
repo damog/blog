@@ -7,5 +7,4 @@ tags:
 - web
 - web server
 ---
-<p>Yes, <a href="http://plackperl.org/">Perl Web Server</a> is PSGI/Plack. That's <a href="http://bulknews.typepad.com/blog/2010/01/perl-oasis.html">it</a>.</p>
-<p>&nbsp;</p>
+Yes, [Plack Web Server](http://plackperl.org/) is PSGI/Plack. That's [it](http://bulknews.typepad.com/blog/2010/01/perl-oasis.html).
