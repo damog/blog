@@ -5,7 +5,7 @@ tags:
 - perl
 - twitter
 ---
-During the last week, unbeatable [Tatsuhiko Miyagawa](http://twitter.com/miyagawa) uploaded [https://metacpan.org/pod/Net::Twitter::OAuth](http://search.cpan.org/dist/Net-Twitter-OAuth/) to [CPAN](http://search.cpan.org/), which provides an awesome interface for [Net::OAuth::Simple](http://search.cpan.org/dist/Net-OAuth-Simple/) and [Twitter](http://twitter.com) by subclassing [Net::Twitter](http://search.cpan.org/dist/Net-Twitter/). This way, it's very easy to develop Twitter client applications using its *new* [OAuth method](https://dev.twitter.com/oauth) dropping the need for users to hand their credentials to third parties.
+During the last week, unbeatable [Tatsuhiko Miyagawa](http://twitter.com/miyagawa) uploaded [Net::Twitter::OAuth](http://search.cpan.org/dist/Net-Twitter-OAuth/) to [CPAN](http://search.cpan.org/), which provides an awesome interface for [Net::OAuth::Simple](http://search.cpan.org/dist/Net-OAuth-Simple/) and [Twitter](http://twitter.com) by subclassing [Net::Twitter](http://search.cpan.org/dist/Net-Twitter/). This way, it's very easy to develop Twitter client applications using its *new* [OAuth method](https://dev.twitter.com/oauth) dropping the need for users to hand their credentials to third parties.
 
 You will have to register your application on Twitter previously. You can do so [here](http://twitter.com/oauth_clients). If this is a web application that you will be building, you can provide a callback URL which is the page where the user will get redirected once she has granted access to your application. If you just want to test, setting a desktop application is probably the way to go.
 
