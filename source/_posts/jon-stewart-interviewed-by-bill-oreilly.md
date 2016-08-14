@@ -9,4 +9,4 @@ tags:
 ---
 It is worth watching entirely.
 
-<div align="center"><script src="http://video.foxnews.com/v/embed.js?id=4003531&amp;w=400&amp;h=249" type="text/javascript"></script></div>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/YO_om3iK9kE" frameborder="0" allowfullscreen></iframe>
