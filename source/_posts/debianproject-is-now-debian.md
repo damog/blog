@@ -5,6 +5,6 @@ tags:
 - debian
 - twitter
 ---
-Thanks to <a href="http://twitter.com/macwarlock">Jamie</a>, who used to have the name registered and now handed it over, <a href="http://twitter.debian.net">Twitter Debian</a>'s <a href="http://twitter.com/">Twitter</a> username is now <strong>@<a href="http://twitter.com/debian">debian</a></strong> (go follow Jamie now!). If you were already following @debianproject, nothing will change.
+Thanks to [Jamie](http://twitter.com/macwarlock), who used to have the name registered and now handed it over, Twitter Debian's [Twitter](http://twitter.com/) username is now [**@debian**](http://twitter.com/debian) (go follow Jamie now!). If you were already following `@debianproject`, nothing will change.
 
-Having <strong>@<a href="http://twitter.com/debian">debian</a></strong> on Twitter is actually kind of awesome!
+Having **@debian**> on Twitter is actually kind of awesome!
