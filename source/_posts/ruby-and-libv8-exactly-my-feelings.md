@@ -6,6 +6,6 @@ tags:
 - ruby
 - v8
 ---
-<img class="aligncenter" style="-webkit-user-select: none;" src="http://dan.sel.ec/kimura_images/KimuraLIBV8.jpg" alt="" />
+![](/files/misc/KimuraLIBV8.jpg)
 
-Thanks to my coworker <a href="http://dantylkowski.com/" target="_blank">Dan</a> for making a whole bunch of these based on our day job adventures :)
+Thanks to my coworker [Dan](http://dantylkowski.com/) for making a whole bunch of these based on our day job adventures :)
