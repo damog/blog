@@ -1,6 +1,6 @@
 title: "Places I've lived in"
 date: 2008/3/15 20:38:49
-Tags: 
+Tags:
 ---
 <p>Recently, chatting with some folks on the <a href="http://textmotion.org" target="_blank">TextMotion</a> IRC channel, I started thinking on the places I&#8217;ve lived my whole life. From the bottom of my mind, this is a rough list:</p>
 <ul>
@@ -16,7 +16,7 @@ Tags:
 <a href="http://es.wikipedia.org/wiki/Bello_Monte" target="_blank">Bello Monte</a>, <a href="http://en.wikipedia.org/wiki/Caracas" target="_blank">Caracas</a>, <a href="http://en.wikipedia.org/wiki/Venezuela" target="_blank">Venezuela</a>. 2006. On my stay in Venezuela for a couple of months, kindly hosted by my very nice friend, <a href="http://bureado.com.ve/" target="_blank">José Parrella</a> (now with <a href="http://qa.debian.org/developer.php?login=bureado" target="_blank">DD-powers</a>!) and his family.</li>
 <li>Col. Vértiz-Narvarte, Mexico City, Mexico. 2006-2007. Got back to my parents&#8217; place.</li>
 <li>
-<a href="http://en.wikipedia.org/wiki/Colonia_Roma" target="_blank">Col. Roma</a>, Mexico City, Mexico. 2007. Moved here with my beloved fiancé <a href="http://maggit.com.mx" target="_blank">Raquel</a> in February.</li>
+<a href="http://en.wikipedia.org/wiki/Colonia_Roma" target="_blank">Col. Roma</a>, Mexico City, Mexico. 2007. Moved here with my beloved fiancé <a href="http://raquelhernandez.net/" target="_blank">Raquel</a> in February.</li>
 <li>
 <a href="http://en.wikipedia.org/wiki/Lower_East_Side" target="_blank">Lower East Side</a>, <a href="http://en.wikipedia.org/wiki/New_York_City" target="_blank">New York City</a>, <a href="http://en.wikipedia.org/wiki/United_States" target="_blank">US</a>. 2007. Lived there for two weeks while finding a place in the Big Apple.</li>
 <li>

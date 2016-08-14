@@ -1,8 +1,8 @@
 title: "Red Hot Chili Peppers in Mexico"
 date: 2007/3/20 19:29:37
-Tags: 
+Tags:
 ---
-<p>Two weekends ago, <a target="_blank" href="http://www.maggit.com.mx">Raquel</a> and I went to see the <a href="http://en.wikipedia.org/wiki/RHCP">RHCP</a> at Foro Sol, on eastern Mexico City. She already blogged a bit about it (in Spanish).</p>
+<p>Two weekends ago, <a target="_blank" href="http://raquelhernandez.net/">Raquel</a> and I went to see the <a href="http://en.wikipedia.org/wiki/RHCP">RHCP</a> at Foro Sol, on eastern Mexico City. She already blogged a bit about it (in Spanish).</p>
 
 <p>It was fuckingly awesome. They still rock the way the have been doing it for so many years (no matter what abrotman or resiak say about them). A set of huge leds screens were put all the way through the stage and beyond. The sound was excellent for such a big place and they simply got the audience. Frusciante is already a master on guitar playing and I also like Kiedis not being the big star being the vocalist. Flea also showed why his bass is respected between other rock bassists.</p>
 

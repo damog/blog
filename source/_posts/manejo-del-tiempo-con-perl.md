@@ -1,13 +1,13 @@
 title: "Manejo del tiempo con Perl"
 date: 2007/8/31 22:46:54
-Tags: 
+Tags:
 ---
 <h2>
 <strong>Manejo</strong> <strong>del</strong> <strong>tiempo</strong> <strong>con</strong> <strong>Perl</strong>
 </h2>
 <p><a href="http://www.damog.net/columnapl" target="_blank">La Columna.pl</a> #1 - Mayo 21, 2007.
 
-Recientemente, por algunas de las necesidades que <a href="http://www.maggit.com.mx/" target="_blank">tuvimos</a> en el trabajo, necesitamos manejar de alguna forma fechas y horas desde nuestros scripts y aplicaciones en <a href="http://www.perl.com/pub/a/1999/03/pm.html" target="_blank"><strong>Perl</strong></a>. Hace no-sé-cuántos años, los franceses propusieron un sistema decimal para manejar el <strong>tiempo</strong>, pero el método fue impopular entre la comunidad científica. Si hubiera sido así, manejar las fechas y horas en cualquier sistema, hubiera sido tan fácil que no habría tantas implementaciones para trabajar <strong>con</strong> él, como hoy en día. Pero bueno, el hubiera no existe.
+Recientemente, por algunas de las necesidades que <a href="http://raquelhernandez.net/" target="_blank">tuvimos</a> en el trabajo, necesitamos manejar de alguna forma fechas y horas desde nuestros scripts y aplicaciones en <a href="http://www.perl.com/pub/a/1999/03/pm.html" target="_blank"><strong>Perl</strong></a>. Hace no-sé-cuántos años, los franceses propusieron un sistema decimal para manejar el <strong>tiempo</strong>, pero el método fue impopular entre la comunidad científica. Si hubiera sido así, manejar las fechas y horas en cualquier sistema, hubiera sido tan fácil que no habría tantas implementaciones para trabajar <strong>con</strong> él, como hoy en día. Pero bueno, el hubiera no existe.
 
 En <strong>Perl</strong> a veces nos confunde sobre si necesitamos usar <a href="http://perldoc.perl.org/functions/localtime.html" target="_blank">localtime</a>, <a href="http://perldoc.perl.org/functions/time.html" target="_blank">time</a>, <a href="http://perldoc.perl.org/functions/gmtime.html" target="_blank">gmtime</a>, <a href="http://search.cpan.org/%7Edrolsky/DateTime-0.37/lib/DateTime.pm" target="_blank">DateTime.pm</a>, etc. para trabajar <strong>con</strong> el <strong>tiempo</strong>. En realidad es mucho más sencillo de lo que parece. Espero que estas minirecetas le sirvan a alguien cuando encuentre este texto buscando por ahí en la red el <strong>manejo</strong> <strong>del</strong> <strong>tiempo</strong> <strong>con</strong> <strong>Perl</strong>. Lo haré a manera de FAQ.
 

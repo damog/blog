@@ -5,7 +5,7 @@ tags:
 - nyc
 - tv
 ---
-Bueno pues las Olimpiadas ya terminaron. Ésto es una buena noticia dado que <a href="http://maggit.com.mx/">Raquel</a> ya me dejará desvelarme en las noches otra vez viendo capítulos viejos de Sex and the City y Will &amp; Grace que pasan siempre en CBS (o una de esas televisoras secundarias) a la medianoche. Sin embargo, hay algo que me gustaría comentar al respecto de las olimpiadas.
+Bueno pues las Olimpiadas ya terminaron. Ésto es una buena noticia dado que <a href="http://raquelhernandez.net/">Raquel</a> ya me dejará desvelarme en las noches otra vez viendo capítulos viejos de Sex and the City y Will &amp; Grace que pasan siempre en CBS (o una de esas televisoras secundarias) a la medianoche. Sin embargo, hay algo que me gustaría comentar al respecto de las olimpiadas.
 
 Ésta fue la primera vez que viví un evento de tal <strong>envergadura</strong> (qué palabra tan soez) fuera de casa, fuera de México. Me di cuenta de que a algunos gringos sí les importa representar a su país dignamente  y no traerle medallas al presidente, si no llevárselas a su casa y llenar de orgullo a su familia. Aquí no se andan con mamadas de que se vanaglorien por las medallas que sacan, los medios de televisión no los maman, simplemente se alegran de que diariamente haya hasta decenas de medallas de oro. Tienen mejores cosas que engrandecer, como por ejemplo, Michael Phelps y compañía. Si yo fuera gringo me llenaría de orgullo ver a mi país ganando en muchas competencias, luchando el mismo nivel que los mejores del mundo de otros países. Si fuera gringo o si fuera cualquier otra cosa (menos chino), en todo caso.
 

@@ -1,6 +1,6 @@
 title: "CONSOL y UNAM"
 date: 2007/2/18 21:20:33
-Tags: 
+Tags:
 ---
 <p>Esta semana volví a clases en la <a href="http://www.fciencias.unam.mx" target="_blank">Facultad de Ciencias</a> en la <a href="http://www.unam.mx" target="_blank">UNAM</a>. También esta semana, desde el martes, se llevó a cabo el <a href="http://www.consol.org.mx" target="_blank">CONSOL</a> en la <a href="http://www.fi.unam.mx" target="_blank">FI</a>.</p>
 
@@ -10,6 +10,6 @@ Tags:
 
 <p>La escuela es por demás divertida. Este semestre metí <a href="http://en.wikipedia.org/wiki/Number_theory" target="_blank">Teoría de Números</a>, entre otras, la cual luego de un par de clases he visto que estará demasiado chingona (tomar una clase de puros matemáticos es diametralmente opuesto, incluso en la facultad misma, a tomar una clase de matemáticas básicas con puros actuarios, ¿por qué cree? :P). Las matemáticas teóricas son algo que me gustan mucho y que me gustaría seguir estudiando, más por gusto que por el típico «¿y eso para qué te va a servir?». Si en la vida no haces las cosas por gusto y por amor, ¿de qué sirve hacer las cosas?</p>
 
-<p>La vida no podría ser mejor por ahora, no me puedo quejar en nada, me encuentro feliz, con <a href="http://www.maggit.com.mx" target="_blank">amor</a>, con <a href="http://www.ulteo.com" target="_blank">tra</a><a href="http://www.nekotec.com.mx" target="_blank">bajo</a> y quizás únicamente necesite echarle montón a la salud para estar al 100%.</p>
+<p>La vida no podría ser mejor por ahora, no me puedo quejar en nada, me encuentro feliz, con <a href="http://raquelhernandez.net/" target="_blank">amor</a>, con <a href="http://www.ulteo.com" target="_blank">tra</a><a href="http://www.nekotec.com.mx" target="_blank">bajo</a> y quizás únicamente necesite echarle montón a la salud para estar al 100%.</p>
 
 <p>Creo que por primera vez en mi vida me siento completo, estoy haciendo las cosas a mi alrededor por pasión, por convicción, porque soy feliz y porque me gusta hacerlas. Eso es la meritita neta, y no podría sentirme más afortunado en tantos aspectos a mi alrededor. Gracias a quienes han colaborado porque mi vida sea lo fenomenal que es ahora, pero sobre todo a ti, peque.</p>

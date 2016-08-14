@@ -1,6 +1,6 @@
 title: "Yo pecador"
 date: 2006/11/3 06:50:17
-Tags: 
+Tags:
 ---
 <p>He pecado.</p>
 
@@ -11,7 +11,7 @@ Tags:
 <p>Y de repente volteé para atrás y vi todo lo que dejaba, lo que había hecho y lo que podía seguir haciendo. Empecé a hacer algunas cosas con Jordi que necesitaba acceso remoto a servidores. Terminal no me ayudó, ni iTerm, ni muchos otros muy pendejos proyectos similares. Me harté de los acentos en las terminales. Tato me jodía con que dejara la mierda de MacOS: Me conoce bien, aunque luego nomás le gusta hacerle a la mamada.<br/>
 Y mandé todo a la chingada.</p>
 
-<p>Y heme aquí otra vez. Pensando muchos proyectos más, con el Debian que siempre debí tener instalado. Peleándome con el bluetooth y con la suspensión. Con el teclado en X. Dejándolo a mi gusto. Si no me gusta algo a mi alrededor, seguramente lo puedo modificar, lo puedo poner a mi gusto. Vuelvo a la flexibilidad de <a target="_blank" href="http://www.mutt.org">Mutt</a>, aunque <a target="_blank" href="http://www.maggit.com.mx">ella</a> me pregunte, &#8220;<em>¿por qué ves así el correo?</em>&#8221;. Porque me gusta. Porque me apasiona. Porque encuentro en el software libre un mundo que ha transformado mi vida desde hace apenas casi cinco años. Porque me ha traído de los mejores amigos, de las mejores personas y de los mejores lugares que he conocido jamás en mi vida.</p>
+<p>Y heme aquí otra vez. Pensando muchos proyectos más, con el Debian que siempre debí tener instalado. Peleándome con el bluetooth y con la suspensión. Con el teclado en X. Dejándolo a mi gusto. Si no me gusta algo a mi alrededor, seguramente lo puedo modificar, lo puedo poner a mi gusto. Vuelvo a la flexibilidad de <a target="_blank" href="http://www.mutt.org">Mutt</a>, aunque <a target="_blank" href="http://raquelhernandez.net/">ella</a> me pregunte, &#8220;<em>¿por qué ves así el correo?</em>&#8221;. Porque me gusta. Porque me apasiona. Porque encuentro en el software libre un mundo que ha transformado mi vida desde hace apenas casi cinco años. Porque me ha traído de los mejores amigos, de las mejores personas y de los mejores lugares que he conocido jamás en mi vida.</p>
 
 <p>Estoy de vuelta y recargado. Y de no haber sido por el puto y miserable manejo que tuve con mi dominio en días pasados, ya habría empezado a disparar a diestra y siniestra.</p>
 

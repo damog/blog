@@ -24,7 +24,7 @@ Pendejamente divertido. Igual de adictivo, igual de entretenido. Seguro lo disfr
 
 <p style="padding-left: 30px;"><strong><a href="http://deliciosadas.com/">* Deliciosadas</a></strong>
 <a href="http://deliciosadas.com/">http://deliciosadas.com/</a>
-Un excelente blog de cocina, comida y recetas, pero también reseñas de libros y restaurantes. Está enfocado a todo público hispanoparlante con posts que hacen que se te haga agua la boca. <a href="http://maggit.com.mx/">Raquel</a> fue quien lo recomendó.
+Un excelente blog de cocina, comida y recetas, pero también reseñas de libros y restaurantes. Está enfocado a todo público hispanoparlante con posts que hacen que se te haga agua la boca. <a href="http://raquelhernandez.net/">Raquel</a> fue quien lo recomendó.
 
 Y, para hacerlo una tradición, el pilón:
 <p style="padding-left: 30px;"><strong><a href="http://www.festivalcervantino.gob.mx/fic08/blog">* Podcast del Festival Cervantino 2008</a></strong>

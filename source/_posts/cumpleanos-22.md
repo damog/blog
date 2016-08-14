@@ -1,6 +1,6 @@
 title: "Cumpleaños 22"
 date: 2006/8/9 20:21:20
-Tags: 
+Tags:
 ---
 <p>Pues <strong>ayer</strong> fue mi cumpleaños, ocho de agosto. Cumplí veintidós años.
 
@@ -50,7 +50,7 @@ Hice un pequeño experimento y no le dije a nadie que era mi cumpleaños y fui a
 <li>
 <strong><a target="_blank" href="http://www.pitakill.net/">Polo</a></strong>. Me llamó en la noche, pero como tenía a Tato en otra llamada, le pedí que me llamara cinco minutos después pero no lo hizo. Aunque sé que me llamaba para felicitarme. Gracias, carnal.</li>
 <li>
-<strong><a target="_blank" href="http://www.maggit.com.mx">Raquel</a></strong>. Me felicitó desde el MSN, pues está en Nicaragua.</li>
+<strong><a target="_blank" href="http://raquelhernandez.net/">Raquel</a></strong>. Me felicitó desde el MSN, pues está en Nicaragua.</li>
 <li>
 <strong><a target="_blank" href="http://sonny_taz.blogspot.com">Sonia</a></strong>. Me mandó un correo muy bonito, como siempre me apapacha :D</li>
 <li>

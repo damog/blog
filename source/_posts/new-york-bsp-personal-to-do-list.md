@@ -13,7 +13,7 @@ So, as <a href="http://wiki.debian.org/BSP2008/Brooklyn">it was previously anoun
 	<li><span style="text-decoration: line-through;">Deal with some of the <a href="http://bugs.debian.org/lists.debian.org">lists.debian.org</a> bugs wearing my listmaster hat.</span></li>
 	<li><span style="text-decoration: line-through;">Install Debian on a <a href="http://www.dmp.com.tw/tech/vortex86/">Vortex86</a> machine I've been having around for the last couple of months.</span></li>
 	<li><span style="text-decoration: line-through;">Dig into Ruby and Perl <a href="http://bugs.debian.org/release-critical/debian/all.html">RC bugs</a> and try to squash some of them (after all, this is a BSP, and RC bugs is the primary target!).</span></li>
-	<li>Encouraging <a href="http://maggit.com.mx">Raquel</a> to take a look at some of the previous <a href="http://www.debian.org">www.debian.org</a> re-design proposals and try to come up with something useful out of it.</li>
+	<li>Encouraging <a href="http://raquelhernandez.net/">Raquel</a> to take a look at some of the previous <a href="http://www.debian.org">www.debian.org</a> re-design proposals and try to come up with something useful out of it.</li>
 	<li><span style="text-decoration: line-through;">Have lots of beer while doing all of above.</span></li>
 </ul>
 See you at <a href="http://vireo.org">Vireo</a>!
