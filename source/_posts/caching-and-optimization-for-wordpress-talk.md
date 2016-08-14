@@ -28,7 +28,7 @@ Anyway, here are my notes:
 - Use either [APC](http://pecl.php.net/package/APC), [memcached](http://php.net/manual/en/book.memcache.php) or [XCache](http://xcache.lighttpd.net/).
 - [Monit](http://mmonit.com/monit/), triggering commands.
 
-After the talk I prompted him to whether he would consider also moving away from [Apache](http://httpd.apache.org/) and trying much faster alternatives like [FastCGI PHP](http://www.fastcgi.com/drupal/node/5?q=node/10) on [nginx](http://nginx.org/) or [Cherokee](http://www.cherokee-project.com/). He mentioned that he had considered it, but he preferred to stick with the most conventional and commonly used software for his installations. That's his opinion, of course. On mine, based on my own experience, dropping Apache is usually one of the best ways to workaround most of the issues around a slow WordPress.
+After the talk I prompted him to whether he would consider also moving away from [Apache](http://httpd.apache.org/) and trying much faster alternatives like [FastCGI PHP](https://www.nginx.com/resources/wiki/start/topics/examples/phpfcgi/) on [nginx](http://nginx.org/) or [Cherokee](http://www.cherokee-project.com/). He mentioned that he had considered it, but he preferred to stick with the most conventional and commonly used software for his installations. That's his opinion, of course. On mine, based on my own experience, dropping Apache is usually one of the best ways to workaround most of the issues around a slow WordPress.
 
 Now thanks to [WordPress.tv](http://wordpress.tv/), we have a video of the talk that Jeremy delivered on a previous event:
 
