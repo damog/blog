@@ -49,16 +49,16 @@ pagination_dir: page
 
 theme: apollo
 
-deploy:
-- type: git
-  repo: git@github.com:damog/blog.git
-- type: rsync
-  user: damog
-  host: home
-  root: blog
-  delete: true
-  verbose: true
-  ignore_errors: true
+# deploy:
+# - type: git
+#   repo: git@github.com:damog/blog.git
+# - type: rsync
+#   user: damog
+#   host: home
+#   root: blog
+#   delete: true
+#   verbose: true
+#   ignore_errors: true
 
 feed:
     type: atom

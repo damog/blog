@@ -15,7 +15,7 @@ tags:
 ---
 This is going to be a fantastic and exciting Perl summer.
 
-During the last week, I received notification that the talk I've proposed for both <a href="http://yapc10.org/yn2009/">YAPC::NA</a> and <a href="http://yapceurope2009.org/ye2009/">YAPC::EU</a> was accepted.
+During the last week, I received notification that the talk I've proposed for both <a href="http://yapc10.org/yn2009/">YAPC::NA</a> and <a href="http://yapceurope2009.org/ye2009/">YAPC::EU</a>, was accepted.
 
 I will be talking about <strong>Perl in the Time of Social Networks</strong>, which is mainly two broad things: how Perl can actively power a modern social networking site (I'll be releasing a free -<em>as in speech</em>- social network website, similar to <a href="http://lovdbyless.com/">Lovd</a> or <a href="http://railsspace.com/">RailSpace</a>, built with pure <a href="http://www.catalystframework.org/">Catalyst</a>); and about high-load applications dealing with social networks' APIs and users (a <a href="http://www.iinteractive.com/moose/">Moose</a>-based universal social network distributor), with <a href="http://twitter.com">Twitter</a>, <a href="http://www.facebook.com">Facebook</a>, <a href="http://www.myspace.com/">MySpace</a>, <a href="http://www.blogger.com">Blogger</a>, <a href="http://last.fm">LastFM</a>, and others. My current contractor has been sponsoring the development and research for this since almost two years now, and we believe it's ready to go public: there's a lot of work backing us up.
 
