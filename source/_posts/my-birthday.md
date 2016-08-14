@@ -1,10 +1,10 @@
 title: "My birthday"
 date: 2004/8/8 14:25:18
-Tags: 
+Tags:
 ---
 <p>Well, today was my 20th birthday. It was pretty nice all the weekend.</p>
 
-<p>On Friday 6th, some friends, my lady and I went to Xochimilco&#8217;s <em><a href="http://www.xochimilco.df.gob.mx/turismo/trajineras.html">trajineras</a></em>. For my surprise, it was the birthday of some other guy, so he had priority on partying about birthdays ;-)</p>
+<p>On Friday 6th, some friends, my lady and I went to Xochimilco's [*trajineras*](https://en.wikipedia.org/wiki/Xochimilco#Trajineras). For my surprise, it was the birthday of some other guy, so he had priority on partying about birthdays ;-)</p>
 
 <p>Yesterday, we were planning to go to a cantina which we used to go often in the past, <em>Cantina La México</em>. So, I invited some friends. We arrived there and it was empty. A couple of persons inside the bar, so it was awful. So, Joss (a friend) and his girl friends proposed to go to some other place. So we went to Ihú (not very sure if it is some kind of discotheque or so), but we were there all night long.</p>
 
