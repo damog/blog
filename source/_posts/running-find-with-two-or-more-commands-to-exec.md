@@ -6,7 +6,7 @@ tags:
 - tips
 - unix
 ---
-I spent a couple of minutes today trying to understand how to make <a href="http://unixhelp.ed.ac.uk/CGI/man-cgi?find" target="_blank">`find (1)`</a> to execute two commands on the same target.
+I spent a couple of minutes today trying to understand how to make `find (1)` to execute two commands on the same target.
 
 Instead of this or any similar crappy variants:
 
