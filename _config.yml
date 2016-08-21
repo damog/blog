@@ -64,3 +64,11 @@ feed:
     type: atom
     path: atom.xml
     limit: 5
+
+tagFeed:
+  type: atom
+  path:
+    pre: tag
+    post: atom.xml
+  limit: 5
+  
