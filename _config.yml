@@ -5,7 +5,7 @@ author: David Moreno
 language:
 timezone:
 
-url: https://damog.net/blog
+url: http://damog.net/blog
 root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -64,6 +64,7 @@ feed:
     type: atom
     path: atom.xml
     limit: 5
+    content: true
 
 tagFeed:
   type: atom
@@ -71,4 +72,5 @@ tagFeed:
     pre: tag
     post: atom.xml
   limit: 5
+ 
   
