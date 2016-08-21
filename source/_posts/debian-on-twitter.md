@@ -16,7 +16,7 @@ Now, the interesting part about this is that any Debian developer with a GPG key
 
 ...or, what it's the same, just send a clearsigned POST data to `http://twitter.debian.net/post`. If the data is signed by a Debian developer, it'll go through and post it. The Debian uid is appended on the tweet, as found on Debian's LDAP DB, so if `joetheplumber@d.o` is the one posting, it'll be posted with "(via joetheplumber)" on it.
 
-If you are more interested about this, you can go to http://twitter.debian.net/ (dead link now) where you will find deeper information and details about this service.
+If you are more interested about this, you can go to `http://twitter.debian.net/` (dead link now) where you will find deeper information and details about this service.
 
 I encourage you, Debian user and advocate, to start following the *@debianproject* account; and I encourage you, Debian developer, to communicate with our users and advocates by using and posting to this service.
 
