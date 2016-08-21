@@ -5,7 +5,7 @@ author: David Moreno
 language:
 timezone:
 
-url: http://damog.net/blog
+url: https://damog.net/blog
 root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
