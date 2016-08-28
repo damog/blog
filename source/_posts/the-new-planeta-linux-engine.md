@@ -131,7 +131,7 @@ Note that you'll have to be running [perl 5.10](http://dev.perl.org/perl5/news/2
     .. the recommended way is: `port install p5-perlmagick` in Mac,
     .. ..or 'aptitude install perlmagick' in Debian/Ubuntu.
 
-Now, for the [ImageMagick Perl bindings](http://www.imagemagick.org/script/perl-magick.php">ImageMagick Perl bindings) (for the "adder" funcionality) you'll need to install it depending on your operating system. If you are running some flavor of Debian (or Ubuntu), you just have to install the perlmagick package. On MacOS, I recommend installing the ImageMagick MacPorts port with the `+perl` flag. Depending on your configuration, you might need to install the `Image::Magick` module either from the CPAN shell or downloading it from web. Once all of that is done, you can just fire up the building system:
+Now, for the [ImageMagick Perl bindings](http://www.imagemagick.org/script/perl-magick.php) (for the "adder" funcionality) you'll need to install it depending on your operating system. If you are running some flavor of Debian (or Ubuntu), you just have to install the perlmagick package. On MacOS, I recommend installing the ImageMagick MacPorts port with the `+perl` flag. Depending on your configuration, you might need to install the `Image::Magick` module either from the CPAN shell or downloading it from web. Once all of that is done, you can just fire up the building system:
 
     $ ./script/build all
 
