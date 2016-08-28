@@ -2,7 +2,7 @@ title: "Solicito desarrollador Ruby on Rails"
 date: 2010/8/9 09:19:12
 tags:
 - job
-- méxico
+- mexico
 - nabbr
 - selectable media
 - work

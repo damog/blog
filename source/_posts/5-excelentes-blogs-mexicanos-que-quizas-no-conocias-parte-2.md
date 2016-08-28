@@ -3,7 +3,6 @@ date: 2008/10/7 14:25:56
 tags:
 - axiombox
 - blogging
-- recomendación
 ---
 Luego del buen feedback que recibí <a href="/blog/2008/09/29/5-excelentes-blogs-mexicanos-que-probablemente-no-conocias/index.html">en el post anterior en el que recomiendo cinco buenos blogs mexicanos</a>, decidí hacer secuelas porque tenemos mucho material. Aquí la segunda parte, pues.
 <p style="padding-left: 30px;"><strong><a href="http://www.si-claro.com/sexy-feet/">* Sexy Feet</a></strong>

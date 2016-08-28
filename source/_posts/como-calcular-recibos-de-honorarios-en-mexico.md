@@ -5,7 +5,7 @@ tags:
 - impuestos
 - ISR
 - IVA
-- méxico
+- mexico
 - recibos de honorarios
 ---
 Una vez que una persona está dada de alta en Hacienda y puede expedir recibos de honorarios por actividades profesionales extras, como muchos de nosotros, programadores y desarrolladores que nos salen chambitas eventuales, nos topamos a veces con que no entendemos cómo es que se calculan bien las cantidades para los recibos de honorarios. Y a mí también me ha pasado mucho hasta que realmente me puse a estudiar al respecto (en realidad no, pero <a href="http://www.flickr.com/photos/raquelydavid/2126893555/in/set-72157603513946786/">mi papá</a> me echó la mano entendiéndolo).
