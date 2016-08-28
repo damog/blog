@@ -5,7 +5,7 @@ tags:
 - children
 - coding
 - fun
-- méxico
+- mexico
 - programming
 - quickbasic
 - telmex

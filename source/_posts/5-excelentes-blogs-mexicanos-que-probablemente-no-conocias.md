@@ -3,7 +3,6 @@ date: 2008/9/29 20:32:41
 tags:
 - axiombox
 - enlaces
-- recomendación
 ---
 En <a href="http://axiombox.com">Axiombox</a> estamos trabajando en un proyecto muy grande e importante ligado a blogs y sitios mexicanos y aunque no puedo hablar mucho al respecto por el momento, me gustaría mostrar algunas cosillas interesantes que seguramente van a gustar. Así que, si mis dos lectores geeks lo permiten, quiero listar cinco muy buenos blogs mexicanos que es probable que no conozcan:
 <ul>
