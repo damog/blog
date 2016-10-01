@@ -6,6 +6,6 @@ tags:
 - life
 - twitter
 ---
-Yes, those are twenty-five hands. As of yesterday 8/8, I turned 25. Thanks to all of you who shouted out on <a href="http://facebook.com/damog">Facebook</a>, <a href="http://twitter.com/habanerd">Twitter</a> or elsewhere.
+Yes, those are twenty-five hands. As of yesterday 8/8, I turned 25. Thanks to all of you who shouted out on <a href="http://facebook.com/damog">Facebook</a>, <a href="http://twitter.com/amsterdamog">Twitter</a> or elsewhere.
 
 Oh, the ephemeralness of time; adulthood, a low-hanging fruit now.

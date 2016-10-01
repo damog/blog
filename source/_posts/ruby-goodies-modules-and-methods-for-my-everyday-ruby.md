@@ -27,7 +27,7 @@ As time and needs pass, I will be adding stuff into it. For the time being, here
      "http://axiombox.com/",
      "http://flickr.com/photos/raquelydavid",
      "http://last.fm/user/damog",
-     "http://twitter.com/habanerd",
+     "http://twitter.com/amsterdamog",
      "http://www.facebook.com/profile.php?id=670490388",
      "http://www.chess.com?ref_id=1380378",
      "http://www.chess.com",

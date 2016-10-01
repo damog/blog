@@ -57,7 +57,7 @@ I received a couple of questions about my decision here. I basically don't feel 
 
 Regardless, my contributions to Debian were never noteworthy so it's also not that big of a deal. I just need to close cycles myself and move forward, and the ten year anniversary looked like a significant mark for that.
 
-Poke [me](http://twitter.com/habanerd) in case you wanna discuss some more. I'll always be happy to. Specially over beer :)
+Poke [me](http://twitter.com/amsterdamog) in case you wanna discuss some more. I'll always be happy to. Specially over beer :)
 
 Peace.
 
