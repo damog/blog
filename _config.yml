@@ -73,4 +73,9 @@ tagFeed:
     post: atom.xml
   limit: 5
  
-  
+fbcomments:
+  enabled: true
+  lang: en_US
+  appId: 670000596501820
+  numPosts: 20
+
