@@ -11,7 +11,7 @@ tags:
 - rubygems
 - ssl
 ---
-As I <a href="http://twitter.com/amsterdamog/status/1116401225 ">tweeted yesterday</a>, I received my new MacBook Pro. I was a bit skeptical on choosing this computer being a Linux user/developer for quite some time now. I thought it was worth giving it a try anyway. Besides, I still use <a href="/blog/2005/12/06/un-amor-mas-en-mi-vida/">my old Powerbook</a>; as my home server since I've always liked the Mac hardware.
+As I <a href="http://twitter.com/mrdamog/status/1116401225 ">tweeted yesterday</a>, I received my new MacBook Pro. I was a bit skeptical on choosing this computer being a Linux user/developer for quite some time now. I thought it was worth giving it a try anyway. Besides, I still use <a href="/blog/2005/12/06/un-amor-mas-en-mi-vida/">my old Powerbook</a>; as my home server since I've always liked the Mac hardware.
 
 <a href="http://damog.net/old/axiombox/2009/01/0113091346.jpg"><img class="size-medium wp-image-791 alignright" title="0113091346" src="http://damog.net/old/axiombox/2009/01/0113091346-300x225.jpg" alt="0113091346" width="300" height="225" /></a>
 
