@@ -2,7 +2,7 @@ title: dm's blog
 subtitle: David Moreno's technical and not too technical blog
 description:
 author: David Moreno
-language:
+language: en
 timezone:
 
 url: http://damog.net/blog
@@ -12,7 +12,7 @@ permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: /Users/dmoreno/git_tree/damog.net/blog
+public_dir: /Users/dmoreno/git/damog.net/blog
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -39,7 +39,7 @@ default_category: uncategorized
 category_map:
 tag_map:
 
-date_format: ddd MMM D, YYYY
+date_format: ddd MMM DD, YYYY
 time_format: HH:mm:ss
 
 # Pagination
@@ -47,7 +47,13 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
-theme: apollo
+theme: cactus
+theme_config:
+  colorscheme: white
+  highlight: idea
+
+
+
 
 # deploy:
 # - type: git
@@ -72,10 +78,9 @@ tagFeed:
     pre: tag
     post: atom.xml
   limit: 5
- 
+
 #fbcomments:
 #  enabled: true
 #  lang: en_US
 #  appId: 670000596501820
 #  numPosts: 20
-

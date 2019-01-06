@@ -6,7 +6,9 @@
     "version": "3.3.7"
   },
   "dependencies": {
+    "fsevents": "^1.2.4",
     "hexo": "^3.3.7",
+    "hexo-cli": "^1.1.0",
     "hexo-deployer-git": "0.0.4",
     "hexo-deployer-rsync": "0.0.2",
     "hexo-generator-archive": "^0.1.0",
