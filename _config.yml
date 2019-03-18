@@ -53,6 +53,8 @@ theme_config:
   highlight: idea
 
 
+all_minifier: true
+
 
 
 # deploy:
