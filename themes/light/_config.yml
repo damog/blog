@@ -1,0 +1,14 @@
+menu:
+  Home: /blog
+  Archives: /blog/archives
+
+widgets:
+- search
+- category
+- tag
+
+excerpt_link: Read More
+
+addthis:
+    enable: false
+
