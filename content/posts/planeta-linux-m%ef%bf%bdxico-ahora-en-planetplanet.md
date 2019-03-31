@@ -1,5 +1,5 @@
 ---
-title: "Planeta Linux M�xico ahora en planetplanet ;-)"
+title: "Planeta Linux México ahora en planetplanet ;-)"
 date: 2005-04-03 20:57:34
 tag: 
 ---

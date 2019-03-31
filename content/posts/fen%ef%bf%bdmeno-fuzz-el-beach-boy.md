@@ -1,5 +1,5 @@
 ---
-title: "Fen�meno Fuzz - El Beach Boy"
+title: "Fenómeno Fuzz - El Beach Boy"
 date: 2005-04-03 18:35:09
 tag: 
 ---

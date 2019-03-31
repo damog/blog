@@ -1,5 +1,5 @@
 ---
-title: "Ya estoy en Espa�a"
+title: "Ya estoy en España"
 date: 2005-05-02 15:29:02
 tag: 
 ---
