@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Isr on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/isr/</link>
+    <description>Recent content in Isr on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 May 2008 13:11:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/isr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo calcular recibos de honorarios en México</title>
+      <link>https://damog.net/blog/2008/05/26/c%C3%B3mo-calcular-recibos-de-honorarios-en-m%C3%A9xico/</link>
+      <pubDate>Mon, 26 May 2008 13:11:31 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/05/26/c%C3%B3mo-calcular-recibos-de-honorarios-en-m%C3%A9xico/</guid>
+      <description>Una vez que una persona está dada de alta en Hacienda y puede expedir recibos de honorarios por actividades profesionales extras, como muchos de nosotros, programadores y desarrolladores que nos salen chambitas eventuales, nos topamos a veces con que no entendemos cómo es que se calculan bien las cantidades para los recibos de honorarios. Y a mí también me ha pasado mucho hasta que realmente me puse a estudiar al respecto (en realidad no, pero mi papá me echó la mano entendiéndolo).</description>
+    </item>
+    
+  </channel>
+</rss>

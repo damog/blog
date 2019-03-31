@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social Networks on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/social-networks/</link>
+    <description>Recent content in Social Networks on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Aug 2009 16:12:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/social-networks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>YAPC::EU::2009 fail</title>
+      <link>https://damog.net/blog/2009/08/03/yapceu2009-fail/</link>
+      <pubDate>Mon, 03 Aug 2009 16:12:05 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/03/yapceu2009-fail/</guid>
+      <description>Given an awful work/travel schedule that I couldn&amp;rsquo;t handle in the last days, I wasn&amp;rsquo;t able to get to Lisbon, Portugal to attend YAPC::EU, until today, day one of the conference, I was still looking forward to get a cheapish flight from Madrid, but it was just impossible, schedules wouldn&amp;rsquo;t match with my work and vacation plans. Bummer. Because of this, I will not be able to give my talk Perl in the Time of Social Networks (that I had already revisited and improved) there as it was expected for tomorrow.</description>
+    </item>
+    
+    <item>
+      <title>Perl in the Time of Social Networks delivered in Pittsburgh, PA</title>
+      <link>https://damog.net/blog/2009/06/27/perl-in-the-time-of-social-networks-delivered-in-pittsburgh-pa/</link>
+      <pubDate>Sat, 27 Jun 2009 21:01:36 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/06/27/perl-in-the-time-of-social-networks-delivered-in-pittsburgh-pa/</guid>
+      <description>I attended YAPC|10 during this past week. The overall experience was quite particular, with ups and downs, but after all I made it back in one piece.
+I rode a Greyhound bus on my crusade of saving a few bucks. I always had issues with buses, when I was a child I used to go from Celaya to Mexico City (and back) almost every weekend for a couple of years and I developed a phobia against the whole bus experience.</description>
+    </item>
+    
+    <item>
+      <title>Perl in the Time of Social Networks</title>
+      <link>https://damog.net/blog/2009/05/09/perl-in-the-time-of-social-networks/</link>
+      <pubDate>Sat, 09 May 2009 12:43:15 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/05/09/perl-in-the-time-of-social-networks/</guid>
+      <description>This is going to be a fantastic and exciting Perl summer.
+During the last week, I received notification that the talk I&amp;rsquo;ve proposed for both YAPC::NA and YAPC::EU, was accepted.
+I will be talking about Perl in the Time of Social Networks, which is mainly two broad things: how Perl can actively power a modern social networking site (I&amp;rsquo;ll be releasing a free -as in speech- social network website, similar to Lovd or RailSpace, built with pure Catalyst); and about high-load applications dealing with social networks&amp;rsquo; APIs and users (a Moose-based universal social network distributor), with Twitter, Facebook, MySpace, Blogger, LastFM, and others.</description>
+    </item>
+    
+  </channel>
+</rss>

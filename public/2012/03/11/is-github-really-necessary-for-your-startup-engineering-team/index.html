@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Is GitHub really necessary for your startup engineering team? | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Is GitHub really necessary for your startup engineering team?</span></h1>
+
+<p class="date">Sun 11 Mar 2012 11:52:52 PM UTC</p>
+</div>
+
+<main>
+<p>For the last few months, I&rsquo;ve been ranting a little too much with <a href="http://selectablemedia.com">our</a> engineering team about <a href="http://github.com">GitHub</a>. These rantings, of course, didn&rsquo;t come out of the blue. I haven&rsquo;t been too satisfied with GitHub&rsquo;s reliability lately since we use it for our daily development and constant deployment on our different staging environments and our own operation has been affected by their recent multiple technical difficulties. This has led me to analyze whether we really need them, why we started paying for their service in the first place and if it&rsquo;s really necessary for our product development in the first place.</p>
+
+<p>Being an startup that originated its main product on Ruby and Ruby on Rails, some of our initial engineers were more oriented towards Ruby and open source technologies. We started using GitHub because it was the natural and de facto choice. Creation of repositories and private contributors was easy and would put you up to speed with collaboration. As we grew in developers count, our repositories did too as well as different projects. We even brought a system administrator in place. Do we still need GitHub right now? I won&rsquo;t be dropping Git as our main version control system, but what has GitHub provided my company and project in exchange for the $200 we are paying them every month? Is it only hype for a company to use it for their internal repositories? Or is it hype to use them for their open repositories?</p>
+
+<p>The lack of site reliability on their side is what has led me thinking about whether we should still use them. What really concerns me is that they seem to have operational issues on a daily basis, they&rsquo;re constantly announcing new hires, new pub meetings and new <a href="http://octodex.github.com/">Octocat</a> designs, and little effort has been shown about the technical operations. It sometimes amazes me how people is so much in love with GitHub to the point where I even find &ldquo;liked&rdquo; articles on their feed on Google Reader whenever they announce downtimes and br0kenage (now +1&rsquo;s). It&rsquo;s like people enjoy what&rsquo;s wrong.</p>
+
+<p>Are we using their issues functionality? The nice thread comments per commit, per line? Are we using pull requests? Are we using any of their actual offering compared to what a native Git server setup offers? No. The only thing is just pretty much the collaboration management, and even then, the &ldquo;Groups&rdquo; feature per organization is still lacking. The only main feature we use is the web browsing for the repos, which we can do with open source tools anyway. At the end, there&rsquo;s other great GUIs for Git we also use on a daily basis, such as <a href="http://gitx.frim.nl/">GitX</a> or <a href="http://www.git-tower.com/">Tower</a> (and for now, yes, <a href="http://mac.github.com/">GitHub&rsquo;s GUI client</a>).</p>
+
+<p>The issue they were attacked with last week makes me wonder whether they are the right organization to give us version control system services or we&rsquo;re just using them because we haven&rsquo;t know any better or even looked at our own resources (people and machines). Someone got commit access to an open source repository. What if it would have been a malicious user getting access to private repositories where passwords and other sensitive are stored? How serious is this company? $200 is not much for a startup to spend on a neat service, but when that provider seems to be more concerned about stickers or beer than fixing their tech operations from the inside out is when it gets worrying. I like to see how other similar services we&rsquo;re using compare to GitHub, how stable they feel and how notorious that reliability is shown. For example, <a href="http://newrelic.com/">New Relic</a> which we also use, seems rock solid and they don&rsquo;t show issues at all. What&rsquo;s the difference here anyway?</p>
+
+<p>Site reliability is tricky anyway: when it&rsquo;s faulty, it shows and screams because it affects business operations and reaches the entire company; when it&rsquo;s working perfectly, the way it should, you can barely realize people are doing an stupendous job. GitHub, however, doesn&rsquo;t seem to have this clear.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2012/03/16/feedbag-released-under-mit-license/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2012/03/05/lessons-learned-and-real-experience/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

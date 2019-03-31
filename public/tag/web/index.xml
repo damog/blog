@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/web/</link>
+    <description>Recent content in Web on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Jan 2010 10:21:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Plack</title>
+      <link>https://damog.net/blog/2010/01/19/plack/</link>
+      <pubDate>Tue, 19 Jan 2010 10:21:42 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/01/19/plack/</guid>
+      <description>Yes, Plack Web Server is PSGI/Plack. That&amp;rsquo;s it.</description>
+    </item>
+    
+    <item>
+      <title>Cherokee Summit 2010</title>
+      <link>https://damog.net/blog/2010/01/12/cherokee-summit-2010/</link>
+      <pubDate>Tue, 12 Jan 2010 14:02:03 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/01/12/cherokee-summit-2010/</guid>
+      <description>The Cherokee web server project is hosting the Cherokee Summit 2010 in Madrid, Spain on May 7th and 8th. The summit will be focused on high-performance and scalable Web technologies. I truly believe this is a major opportunity for hackers, developers and administrators looking for the new alternatives on the Web to bond and share experiences to benefit each other&amp;rsquo;s projects and enterprises, and keep up to date on this field.</description>
+    </item>
+    
+    <item>
+      <title>Yahoo! YSlow for Firebug</title>
+      <link>https://damog.net/blog/2009/11/16/yahoo-yslow-for-firebug/</link>
+      <pubDate>Mon, 16 Nov 2009 18:45:23 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/16/yahoo-yslow-for-firebug/</guid>
+      <description>During last weekend&amp;rsquo;s WordCamp, Jeremy Clarke gave a bunch of tips for websites server optimizations (I&amp;rsquo;ll summarize my views on his talk later on a separate post) and he showcased a plugin for Firebug that I didn&amp;rsquo;t know about and caught my attention: Yahoo! YSlow. It is a really nice piece of software, it adds a tab on your Firebug window and will grade the performance of the web page you are browsing with a set of tips on how to make it faster, ranging from images, CSS, JavaScript, headers, etc:</description>
+    </item>
+    
+    <item>
+      <title>Perl Seminar NY: Meets Tuesday, Nov 17</title>
+      <link>https://damog.net/blog/2009/11/16/perl-seminar-ny-meets-tuesday-nov-17/</link>
+      <pubDate>Mon, 16 Nov 2009 13:21:21 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/16/perl-seminar-ny-meets-tuesday-nov-17/</guid>
+      <description>Our tenth season continues next Tuesday night: Perl Seminar New York Tuesday Nov 17 2009 6:15 - 8:15 pm NYPC User Group 481 8th Ave (Ramada New Yorker Hotel, West 34 St) Suite 550 Main Topic: Perrin Harkins: &amp;ldquo;Choosing a Web Architecture for Perl&amp;rdquo;
+Perl Seminar NY is once again pleased to welcome Apache expert and veteran Open Source contributor Perrin Harkins to speak at our meeting.
+In the past few years, many new web proxy servers have come onto the scene with new performance promises and features.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Feedbag: Feed auto-discovery Ruby library/tool</title>
+      <link>https://damog.net/blog/2008/12/30/introducing-feedbag-feed-auto-discovery-ruby-library/tool/</link>
+      <pubDate>Tue, 30 Dec 2008 18:58:10 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/12/30/introducing-feedbag-feed-auto-discovery-ruby-library/tool/</guid>
+      <description>Last week, I spent some time building a good (that I liked) feed auto-discovery tool to use in Ruby for other project I&amp;rsquo;m building, rFeed. I liked CPAN&amp;rsquo;s Feed::Find, and at some point I made a wrapper class to run a Perl script using such module, however, I wasn&amp;rsquo;t happy by mixing it all. So, Feedbag was born:
+&amp;gt;&amp;gt; require &amp;quot;rubygems&amp;quot; =&amp;gt; true &amp;gt;&amp;gt; require &amp;quot;feedbag&amp;quot; =&amp;gt; true &amp;gt;&amp;gt; Feedbag.find &amp;quot;damog.</description>
+    </item>
+    
+  </channel>
+</rss>

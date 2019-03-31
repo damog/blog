@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yapcna on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/yapcna/</link>
+    <description>Recent content in Yapcna on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Jun 2008 11:34:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/yapcna/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>YAPC::NA 2008</title>
+      <link>https://damog.net/blog/2008/06/25/yapcna-2008/</link>
+      <pubDate>Wed, 25 Jun 2008 11:34:52 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/06/25/yapcna-2008/</guid>
+      <description>So I attended the conference last week in Chicago, IL. I was just been procrastinating to write about this.
+As a (almost) complete outsider of the Perl community, I have countered thoughts about the whole event:
+ I was actually expecting a deeper technical content on some of the talks. Some speakers were just very bad at presenting, they were either boring with a very exciting topic or lacked the spark to get the audience attentive.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bash on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/bash/</link>
+    <description>Recent content in Bash on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Sep 2010 12:02:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Running find with two or more commands to -exec</title>
+      <link>https://damog.net/blog/2010/09/28/running-find-with-two-or-more-commands-to-exec/</link>
+      <pubDate>Tue, 28 Sep 2010 12:02:38 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/09/28/running-find-with-two-or-more-commands-to-exec/</guid>
+      <description>I spent a couple of minutes today trying to understand how to make find (1) to execute two commands on the same target.
+Instead of this or any similar crappy variants:
+$ find . -type d -iname &amp;quot;*0&amp;quot; -mtime +60 -exec scp -r -P 1337 &amp;quot;{}&amp;quot; &amp;quot;meh.server.com:/mnt/1/backup/storage&amp;quot; &amp;amp;&amp;amp; rm -rf &amp;quot;{}&amp;quot; \;  Try something like this:
+$ find . -type d -iname &amp;quot;*0&amp;quot; -mtime +60 -exec scp -r -P 1337 &amp;quot;{}&amp;quot; &amp;quot;meh.</description>
+    </item>
+    
+  </channel>
+</rss>

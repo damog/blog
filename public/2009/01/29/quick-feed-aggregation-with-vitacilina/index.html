@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quick feed aggregation with Vitacilina | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Quick feed aggregation with Vitacilina</span></h1>
+
+<p class="date">Thu 29 Jan 2009 09:36:06 PM UTC</p>
+</div>
+
+<main>
+<p><em>Vitacilina, ¡ah, qué buena medicina!</em></p>
+
+<p>A few months ago. Maybe more than a year, I started hacking on Vitacilina, which was meant to be the replacement for <a href="http://planetplanet.org">Planet</a> on all countries <a href="http://planetalinux.org">Planeta Linux</a> supports. I was doing well, I even hosted the code back then in <a href="http://code.google.com/p/vitacilina">Google Code</a>. Later, I forgot about it, but I&rsquo;d always been wanting to replace Planet with some homebrew solution for the Planeta Linux community. Anyway, that hasn&rsquo;t happened yet. However, I did start using Vitacilina for my own needs on a local sandbox for my employer and it used to work pretty well. I&rsquo;ve been hacking it to fit very specific requirements, though.</p>
+
+<p>Anyway, I thought it was a good moment to release it publicly, just because it was all hidden there. So, I didn&rsquo;t implement the changes I did for my employer (because they were very specific for our products) but I did clean it up and wrote some documentation.</p>
+
+<p>Now, what exactly is <em>Vitacilina</em>? Well, it&rsquo;s a feed aggregator. It&rsquo;s written in Perl (it&rsquo;s a Perl module) and it uses <a href="http://www.yaml.org/">YAML</a> to get its list of feeds and names and <a href="http://template-toolkit.org/">Template Toolkit</a> to format and dump the output, it was efficient for me because it was very easy for me to create dumps:</p>
+
+<pre><code>use Vitacilina;
+
+my $v = Vitacilina-&gt;new(
+  config =&gt; &quot;config.yml&quot;,
+  template =&gt; &quot;template.tt&quot;,
+  output =&gt; &quot;output.html&quot;,
+);
+$v-&gt;render;
+</code></pre>
+
+<p>And that&rsquo;s it. I used to create YAML files on the fly to create new <em>Vitacilina</em> objects and render them according to some data.</p>
+
+<p>The  config file would look something like this:</p>
+
+<pre><code>http://myserver.com/myfeed:
+  name: Some Cool Feed
+http://feeds.feedburner.com/InfinitePigTheorem:
+  name: David Moreno
+</code></pre>
+
+<p>And the template file:</p>
+
+<pre><code>[% FOREACH p IN data %]
+  &lt;a href=&quot;[% p.permalink %]&quot;&gt;[% p.title %]&lt;/a&gt;
+   by &lt;a href=&quot;[% p.channelUrl %]&quot;&gt;[% p.author %]&lt;/a&gt;
+[% END %]
+</code></pre>
+
+<p>In that way, it&rsquo;s very simple, quick and easy to do aggregations. I just love TT, why wouldn&rsquo;t I? :-)</p>
+
+<p>So go grab <a href="https://metacpan.org/pod/Vitacilina">Vitacilina at CPAN</a>. Also, the Git repo is at <a href="http://github.com/damog/vitacilina">github.com/damog/vitacilina</a>.</p>
+
+<p>However&hellip; I started to hack on a similar more ambitious project called <a href="http://github.com/damog/rfeed">rFeed</a>, that it&rsquo;s more of a framework than a simple library, which is why I stopped further Vitacilina development. I&rsquo;ll talk about rFeed later when the time comes.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2009/02/02/and-now-apache2embedmp3-for-your-songs-collections/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2009/01/19/more-git-tips/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

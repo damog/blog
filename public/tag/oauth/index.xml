@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oauth on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/oauth/</link>
+    <description>Recent content in Oauth on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 May 2009 14:06:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/oauth/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Twitter&#39;s OAuth &#43; Perl</title>
+      <link>https://damog.net/blog/2009/05/21/twitters-oauth-perl/</link>
+      <pubDate>Thu, 21 May 2009 14:06:42 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/05/21/twitters-oauth-perl/</guid>
+      <description>During the last week, unbeatable Tatsuhiko Miyagawa uploaded Net::Twitter::OAuth to CPAN, which provides an awesome interface for Net::OAuth::Simple and Twitter by subclassing Net::Twitter. This way, it&amp;rsquo;s very easy to develop Twitter client applications using its new OAuth method dropping the need for users to hand their credentials to third parties.
+You will have to register your application on Twitter previously. You can do so here. If this is a web application that you will be building, you can provide a callback URL which is the page where the user will get redirected once she has granted access to your application.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Setting uid on God processes | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Setting uid on God processes</span></h1>
+
+<p class="date">Wed 20 Jan 2010 03:36:32 PM UTC</p>
+</div>
+
+<main>
+<p>I spent some minutes today at work figuring out why a script we use for files and assets propagation wasn&rsquo;t working when fired up under <a href="http://godrb.com/">God</a>, but it actually was working when run as its normal user.</p>
+
+<p>The script is a <a href="http://www.sinatrarb.com">Sinatra</a> application that, upon pings/requests, connects through SSH to different servers on our clusters and execute commands. Details on the implementation are irrelevant here. Since this is automatized, we use key files for the SSH authentication.</p>
+
+<p>When the script was running as the regular user, everything was working fine, but it wasn&rsquo;t under root. So I figured, <a href="http://www.rubydoc.info/github/net-ssh/net-ssh/Net/SSH">Net::SSH</a> was trying to use root&rsquo;s private keys file. After reading God&rsquo;s examples I found out that you can also set uid and gid on the watched processes, so that&rsquo;s what I configured:</p>
+
+<pre><code> w.uid = &quot;myuser&quot;
+ w.gid = &quot;myuser&quot;
+</code></pre>
+
+<p>However, this was still not working. So I made the script print some verification:</p>
+
+<pre><code>puts &quot;My uid is: #{Process.uid} and euid: #{Process.euid} and user: #{ENV['USER']}&quot;
+</code></pre>
+
+<p>So <code>Process.uid</code> and <code>Process.euid</code> was correctly printing the UID for <code>myuser</code>, but <code>ENV['USER']</code> was still <code>root</code>. I figured that <code>ENV[&quot;HOME&quot;]</code> would be the home directory based on the user, <code>/root</code>, so maybe <code>Net::SSH</code> was still trying to read <code>/root/.ssh/id_rsa</code>, and it was, quoting Net::SSH&rsquo;s <code>:keys</code> option:</p>
+
+<blockquote>
+<p>:keys     This specifies the list of private key files to use instead of the
+          defaults ($HOME/.ssh/id_dsa, $HOME/.ssh2/id_dsa, $HOME/.ssh/id_rsa,
+          and $HOME/.ssh2/id_rsa). The value of this option should be an array
+          of strings.</p>
+</blockquote>
+
+<p>God correctly runs the process with the given uid/gid but it will not change your environment variables. And there&rsquo;s nothing wrong with it, all generated processes on Unix systems will inherit its parent&rsquo;s set of variables. God shouldn&rsquo;t necessarily have to be different, but in case you mess around with a given user&rsquo;s environment variables on a process watched by God, remember this post :-)</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2010/01/28/why-the-kindle-is-a-piece-of-shit-next-to-the-ipad/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2010/01/19/plack/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

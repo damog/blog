@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rubx on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/rubx/</link>
+    <description>Recent content in Rubx on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Jun 2009 16:41:56 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/rubx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cheating the world you tweet less</title>
+      <link>https://damog.net/blog/2009/06/08/cheating-the-world-you-tweet-less/</link>
+      <pubDate>Mon, 08 Jun 2009 16:41:56 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/06/08/cheating-the-world-you-tweet-less/</guid>
+      <description>The number of updates on my Twitter page kind of bothers me sometimes. It&amp;rsquo;s a reminder of the amount of time I&amp;rsquo;ve spent and wasted on Twitter, it&amp;rsquo;s an ever-itching mole in front of my face. However, I can cheat the system and society and still feel good about myself. What if I just remove all freaking replies I&amp;rsquo;ve made, except for those of people I do care about (like my fiance or Ruby Boobie)?</description>
+    </item>
+    
+    <item>
+      <title>Rubx: Twitter&#39;s Ruby shell</title>
+      <link>https://damog.net/blog/2009/04/06/rubx-twitters-ruby-shell/</link>
+      <pubDate>Mon, 06 Apr 2009 09:32:05 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/04/06/rubx-twitters-ruby-shell/</guid>
+      <description>Rubx, also known as Ruby Boobie, is a nice spoiled girlie bot that runs on Twitter. She listens when you talk to her and when you do, it&amp;rsquo;ll better be with Ruby: She will interpret your tweet in Ruby and reply to you with what your code returns.
+How does it work? You send a message to her: @rubx &amp;ldquo;The day I was born it was a &amp;rdquo; &amp;lt;&amp;lt; Time.local(1984, &amp;ldquo;aug&amp;rdquo;, 8).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Debian on Twitter | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Debian on Twitter</span></h1>
+
+<p class="date">Sun 22 Mar 2009 09:33:21 AM UTC</p>
+</div>
+
+<main>
+<p>Or&hellip; for those who care about <a href="http://twitter.com">Twitter</a> and <a href="http://debian.org">Debian</a> :)</p>
+
+<p>We&rsquo;ve setup a Twitter account for the project to use on Twitter. Go follow it, go now!
+<p style="text-align: center;"><a href="http://twitter.com/debianproject"><strong>twitter.com/debianproject</strong></a></p></p>
+
+<p>Now, the interesting part about this is that any Debian developer with a GPG key on the Debian keyring can tweet to it. You basically only have to do something like this:</p>
+
+<pre><code>$ echo &quot;Squeeze is scheduled for Winter 2014&quot; | gpg --clearsign | lwp-request -m POST http://twitter.debian.net/post
+</code></pre>
+
+<p>&hellip;or, what it&rsquo;s the same, just send a clearsigned POST data to <code>http://twitter.debian.net/post</code>. If the data is signed by a Debian developer, it&rsquo;ll go through and post it. The Debian uid is appended on the tweet, as found on Debian&rsquo;s LDAP DB, so if <code>joetheplumber@d.o</code> is the one posting, it&rsquo;ll be posted with &ldquo;(via joetheplumber)&rdquo; on it.</p>
+
+<p>If you are more interested about this, you can go to <code>http://twitter.debian.net/</code> (dead link now) where you will find deeper information and details about this service.</p>
+
+<p>I encourage you, Debian user and advocate, to start following the <em>@debianproject</em> account; and I encourage you, Debian developer, to communicate with our users and advocates by using and posting to this service.</p>
+
+<p>More news to follow soon.</p>
+
+<p><strong>UPDATE</strong>: Support for <a href="http://identi.ca">Identi.ca</a> has been added and now both <a href="http://twitter.com/debianproject">Twitter</a> and <a href="http://identi.ca/debianproject">Identi.ca</a> accounts are updated at once and sync&rsquo;ed.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2009/04/06/rubx-twitters-ruby-shell/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2009/03/16/regular-expressions-capturing-in-java-for-perl-hackers/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

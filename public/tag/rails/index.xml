@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rails on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/rails/</link>
+    <description>Recent content in Rails on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Aug 2010 22:10:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/rails/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>curl POST data and newlines</title>
+      <link>https://damog.net/blog/2010/08/15/curl-post-data-and-newlines/</link>
+      <pubDate>Sun, 15 Aug 2010 22:10:35 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/08/15/curl-post-data-and-newlines/</guid>
+      <description>I&amp;rsquo;m writing a Rails application for the microblogging strategy for Debian (which I used to call, debian-twitter, but you know how us Debian folks are :D). I came up with a strange issue, that at first I thought was ActionController&amp;rsquo;s fault or some crap.
+So, I was testing one of my controllers with something like this:
+cat /tmp/mm.txt | curl -d @- http://localhost:3000/message/new  /tmp/mm.txt is a PGP signed message which then I just send as POST data to my application.</description>
+    </item>
+    
+    <item>
+      <title>Phusion Passenger™ on Debian</title>
+      <link>https://damog.net/blog/2009/08/07/phusion-passenger-on-debian/</link>
+      <pubDate>Fri, 07 Aug 2009 17:32:02 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/07/phusion-passenger-on-debian/</guid>
+      <description>During DebConf 9 I had the opportunity to work together with Señor Micah to try to bring Passenger back to shape and get it back to the NEW queue on Debian. We spent way too much time dealing with the build for the pkg-ruby-extras build model than to the actual fixing and updating. At the end we came up with a very well updated and DFSG-compatible (in contrast to the one that Brightbox provides, which isn&amp;rsquo;t bad either to be honest) package for the 2.</description>
+    </item>
+    
+  </channel>
+</rss>

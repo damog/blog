@@ -1,0 +1,16 @@
+---
+title: "Bomberazo ‒ cosas que es bueno saber, antes de echar a perder"
+date: 2008-09-22 10:41:59
+tag:
+- empresas
+- ideas
+- interesante
+---
+Al darme un acostumbrado paseo por <a href="http://not-yet.com">mis feeds</a>, encontré un enlace en la <a href="http://www.cafedealtura.com/2008/09/17/resena-cafe-de-altura-030908-%E2%80%93-mexico-df/">reseña de una de las reuniones</a> de la gente de <a href="http://www.cafedealtura.com/">Café de Altura</a> a un proyecto que me llamó mucho la atención: <strong><a href="http://www.bomberazo.com.mx/">Bomberazo</a></strong>.
+<p style="text-align: center;"><a href="http://bomberazo.com.mx"><img class="aligncenter size-full wp-image-644" title="bomberazo" src="http://damog.net/old/axiombox/2008/09/bomberazo.jpg" alt="" width="301" height="144" /></a></p>
+
+Bomberazo no es más que, diciéndolo planamente, un blog; pero lo interesante el respecto es que es un blog bien hecho y con un buen e interesante propósito: Dar consejos, tips y notas en general para hacer bien las cosas en el horrible ambiente corporativo. <a href="http://www.bomberazo.com.mx/acerca-de/">La autora</a> tiene un buen ejemplo de <a href="http://www.bomberazo.com.mx/como-hacer-presentaciones-en-publico-y-no-hacer-el-oso-como-yo/#comments">qué hacer y qué no hacer al hacer una presentación</a>, o al <a href="http://www.bomberazo.com.mx/como-responder-a-una-oferta-de-empleo/#respond">enviar un resume</a>, incluso <a href="http://www.bomberazo.com.mx/algunos-consejos-para-nombrar-archivos/#comments">cómo acomodar tus archivos</a> en el filesystem de tu sistema operativo. Un post que me interesó mucho es el de <a href="http://www.bomberazo.com.mx/saber-negociar/#comments">cómo negociar</a>, cosa que muchos nosotros no sabemos hacer porque en ciertas ocasiones consideramos a nuestros clientes unos idiotas, lo cual sólo nos hace unos <em>cerdos insolentes irrespetuosos</em>. Y aún cuando las entradas están orientadas a diseñadores, muy bien aplica a aquellos que estamos orientados a la informática. En general, cosas sencillas y bien interesantes.
+
+Es algo similar, no exactamente igual, a lo que algunos teníamos pensado lanzar con <a href="http://www.sueldosegunaptitudes.com/">Sueldo Según Aptitudes</a> (que era más bien dirigido a atacar a las empresas pendejas que siguen manejándose por prácticas obsoletas, anticuadas y absurdas).
+
+Dénse una vuelta por el blog, les va a gustar.

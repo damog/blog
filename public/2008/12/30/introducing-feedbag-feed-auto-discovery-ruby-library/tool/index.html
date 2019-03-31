@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Introducing Feedbag: Feed auto-discovery Ruby library/tool | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Introducing Feedbag: Feed auto-discovery Ruby library/tool</span></h1>
+
+<p class="date">Tue 30 Dec 2008 06:58:10 PM UTC</p>
+</div>
+
+<main>
+<p>Last week, I spent some time building a good (that I liked) feed auto-discovery tool to use in Ruby for other project I&rsquo;m building, <a href="http://github.com/damog/rfeed">rFeed</a>. I liked CPAN&rsquo;s <a href="https://metacpan.org/pod/Feed::Find">Feed::Find</a>, and at some point I made a wrapper class to run a Perl script using such module, however, I wasn&rsquo;t happy by mixing it all. So, <a href="http://github.com/damog/feedbag">Feedbag</a> was born:</p>
+
+<pre><code>&gt;&gt; require &quot;rubygems&quot;
+=&gt; true
+&gt;&gt; require &quot;feedbag&quot;
+=&gt; true
+&gt;&gt; Feedbag.find &quot;damog.net&quot;
+=&gt; [&quot;http://feeds.feedburner.com/TeoremaDelCerdoInfinito&quot;,
+ &quot;http://damog.net/comments/feed/&quot;]
+&gt;&gt; planet_feeds = Feedbag.find(&quot;planet.debian.org&quot;)
+[ ... ]
+&gt;&gt; planet_feeds.first(3)
+=&gt; [&quot;http://planet.debian.org/rss10.xml&quot;,
+ &quot;http://planet.debian.org/rss20.xml&quot;,
+ &quot;http://planet.debian.org/atom.xml&quot;]
+&gt;&gt; planet_feeds.size
+=&gt; 104
+&gt;&gt;
+</code></pre>
+
+<p>It makes smart use of relative and absolute bases, hrefs, links, content types, etc. It is also a single Ruby file, so you can grab it and use it on your application. Plus, it only requires <a href="https://code.whytheluckystiff.net/hpricot/">Hpricot</a> as dependency. It can find all feeds linked on a web page, but it will return the most important at the beginning of the resulting array, so you will have the important one on the first results (see example above with Planet Debian).</p>
+
+<p>Please take a look at the <a href="http://github.com/damog/feedbag">git repo</a>, hosted in <a href="http://github.com/">GitHub</a>.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2009/01/03/ruby-goodies-modules-and-methods-for-my-everyday-ruby/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2008/12/29/good-looking-irb/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

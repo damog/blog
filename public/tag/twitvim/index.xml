@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Twitvim on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/twitvim/</link>
+    <description>Recent content in Twitvim on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jan 2009 17:18:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/twitvim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TwitVim: Nice Twitter client</title>
+      <link>https://damog.net/blog/2009/01/10/twitvim-nice-twitter-client/</link>
+      <pubDate>Sat, 10 Jan 2009 17:18:41 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/10/twitvim-nice-twitter-client/</guid>
+      <description>I do like Twitter. For quite some time now I&amp;rsquo;ve been trying to find a Twitter client that I&amp;rsquo;d really like. I&amp;rsquo;ve tried, lots of them, Twhirl, Twitux, microblog-purple (which I started to dislike since I&amp;rsquo;m not IMing that much anymore and it can become extremely annoying if not blocked), TweetDeck, etc. All of them don&amp;rsquo;t seem to fill my own needs and preferences. Even when Twitter used to support IM, I came up with probably the best solution I&amp;rsquo;ve used so far, GTalk on Bitlbee, so I could easily use Irssi with it.</description>
+    </item>
+    
+  </channel>
+</rss>

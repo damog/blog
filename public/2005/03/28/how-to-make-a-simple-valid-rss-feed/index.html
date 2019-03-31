@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How to make a simple valid RSS feed | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">How to make a simple valid RSS feed</span></h1>
+
+<p class="date">Mon 28 Mar 2005 04:26:44 AM UTC</p>
+</div>
+
+<main>
+
+
+<p><p>I finally found some time to update my RSS feed creator script and port it into Ruby. I have to say, <a href="http://packages.debian.org/mambo">Mambo</a> is a really cool cms, but its feed creator sucks. So if you are wanting to generate your own RSS feed you can do it with this little Ruby script (yes, I know you can also do it with Perl, but Ruby is funnier :-):</p>
+<pre>#!/usr/bin/env ruby</p>
+
+<h1 id="you-ll-need-libdbd-mysql-ruby-in-mysql-s-case-and-libruby">You&rsquo;ll need libdbd-mysql-ruby (in MySQL&rsquo;s case) and libruby</h1>
+
+<p>require &ldquo;dbi&rdquo;
+require &ldquo;rss/maker&rdquo;</p>
+
+<h1 id="similar-to-perl-s-dbi">Similar to Perl&rsquo;s DBI</h1>
+
+<p>dbh = DBI.connect(&ldquo;dbi:Mysql:TABLE:HOSTNAME&rdquo;, &lsquo;USER&rsquo;, &lsquo;PASSWD&rsquo;)</p>
+
+<h1 id="this-is-the-case-for-mambo-it-would-depend-on-your-cms">This is the case for Mambo, it would depend on your cms:</h1>
+
+<p>sth=dbh.prepare(&lsquo;select id, title, introtext, created from content where <br />
+catid=69 order by <code>created</code> desc limit 10&rsquo;)
+sth.execute</p>
+
+<p>rss = RSS::Maker.make(&ldquo;2.0&rdquo;) do |maker|
+maker.channel.title = &ldquo;YOUR TITLE&rdquo;
+maker.channel.description = &ldquo;I AM A DESCRIPTION&rdquo;
+maker.channel.link = &ldquo;YOUR WEBSITE&rdquo;
+maker.channel.generator = &ldquo;libruby1.8, libdbi-ruby1.8 and mambo, <br />
+all debian packages&rdquo;</p>
+
+<p>sth.fetch do |row|
+item = maker.items.new_item
+item.link = &ldquo;<a href="http://damog.net/index.php?option=com_content&amp;task=view&amp;id=&quot;">http://damog.net/index.php?option=com_content&amp;task=view&amp;id=&quot;</a>, row[0]
+item.title = row[1]
+item.description = row[2]
+item.date = Time.parse(&ldquo;%s&rdquo;, row[3])
+item.author = &ldquo;David Moreno Garza &lt;damog@damog.net&gt;&ldquo;
+end
+sth.finish</p>
+
+<p>end</p>
+
+<p>puts rss
+dbh.disconnect if dbh
+</pre>
+<p>Nice, isn&#8217;t it?</p>
+<br/><br/></p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2005/03/30/i-need-it/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2005/03/28/montsserrat.../">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

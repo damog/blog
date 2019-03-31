@@ -1,0 +1,10 @@
+---
+title: "Vetado de Planeta Linux"
+date: 2007-01-20 19:12:03
+tag: 
+---
+<p>La semana pasada fue <em>mucho muy</em> pesada para mí. Entre la guardia, los proyectos que tengo en la chamba, <a target="_blank" href="http://www.ulteo.com/">Ulteo</a> y otras cosas, he quedado exhausto. De cualquier forma, durante la semana estuve revisando algunas cosas de <a target="_blank" href="http://www.planetalinux.org">Planeta Linux</a>, y entre ellas he tiránicamente decidido en vetar a <a target="_blank" href="http://damog.net/pipermail/planetalinux_damog.net/2007-January/000162.html">una persona</a> de Planeta Linux.</p>
+
+<p>Desde luego, que puede no ser gran cosa este hecho ni para la persona del blog, ni para Planeta Linux, pero siento que los usuarios se deben una explicación. Generalmente no veto nada, no banneo a nadie (y soy más libertino de poner blogs de tecnología que enrriquezcan el sitio, aunque <a target="_blank" href="http://www.milmazz.com">Milton</a> y los <a target="_blank" href="http://www.planetalinux.org/lineamientos.php">lineamientos</a> no estén muy de acuerdo :P), me gusta mucho la diversidad que existe en los planetas, pero simplemente me cansé de un sindicado en <a target="_blank" href="http://ec.planetalinux.org">Planeta Linux Ecuador</a> que lo único que hace es chingar a la gente. El blog es de un tipo egocéntrico, patán, troll, engreído, creído y que hizo derramar el vaso con la gota al poner una imagen de <a target="_blank" href="http://en.wikipedia.org/wiki/Goatse.cx">goatse</a> tamaño familiar en su blog. Yo no me había dado cuenta hasta que Raquel me lo dijo, con expresión entre asco, disgusto y demás. La verdad es que yo no quiero este tipo de reacciones, en primer lugar de ella y que simplemente se entretiene un poco viendo los posts en Planeta Linux, y mucho menos quiero la misma reacción para los lectores del sitio.</p>
+
+<p>Y sí, no me importa aplicar el fascismo tecnológico aquí, si alguno de los que tienen acceso para commit en el subversion de Planeta Linux, vuelve a habilitar el feed, perderá inmediatamente sus privilegios en el sistema.</p>

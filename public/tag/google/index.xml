@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/google/</link>
+    <description>Recent content in Google on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Feb 2010 19:31:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/google/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Feed moved</title>
+      <link>https://damog.net/blog/2010/02/04/feed-moved/</link>
+      <pubDate>Thu, 04 Feb 2010 19:31:37 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/02/04/feed-moved/</guid>
+      <description>I have always been against FeedBurner. I don&amp;rsquo;t like it at all. I&amp;rsquo;ve never liked it, as a matter of fact, I have no actual idea why I&amp;rsquo;ve been using it on my blog. I do know why I used it on the country feeds on Planeta Linux, and that is because it was very easy to mask all of our URL changes with some level of stability on the subscribers (in times where me being technically competent was a bad joke for myself).</description>
+    </item>
+    
+    <item>
+      <title>Google&#39;s first tweet</title>
+      <link>https://damog.net/blog/2009/02/26/googles-first-tweet/</link>
+      <pubDate>Thu, 26 Feb 2009 13:02:34 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/02/26/googles-first-tweet/</guid>
+      <description>Google created an official Twitter account. Its first tweet was something odd:
+ I&amp;rsquo;m 01100110 01100101 01100101 01101100 01101001 01101110 01100111 00100000 01101100 01110101 01100011 01101011 01111001 00001010
+ I had previously written (in Spanish, for La Columna de Perl), how to quickly decode this &amp;ldquo;way&amp;rdquo; of binary writing with Perl&amp;rsquo;s chr and oct. So, to find out what was Google really tweeting, run:
+perl -e &#39;map { print chr oct &amp;quot;0b&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>Linux México</title>
+      <link>https://damog.net/blog/2008/11/09/linux-m%C3%A9xico/</link>
+      <pubDate>Sun, 09 Nov 2008 12:48:32 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/11/09/linux-m%C3%A9xico/</guid>
+      <description>Con la reciente y repentina muerte de Cofradía, la comunidad de linuxeros (y demás rarezas) en México necesita más que nunca un nuevo nicho. Afortunadamente, Planeta Linux México se ha consolidado como una verdadera comunidad de linuxeros mexicanos, y tan es así que ahora somos el resultado número uno en Google y en Google México para «linux méxico».
+Aunado a ésto, algunos colegas y yo hemos iniciado un simple y sencillo grupo LinkedIn de Linux en México para que todos nosotros, profesionales, desarrolladores (y usuarios también, ¿por qué no?</description>
+    </item>
+    
+  </channel>
+</rss>

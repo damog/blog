@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tli on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/tli/</link>
+    <description>Recent content in Tli on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Apr 2009 09:32:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/tli/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rubx: Twitter&#39;s Ruby shell</title>
+      <link>https://damog.net/blog/2009/04/06/rubx-twitters-ruby-shell/</link>
+      <pubDate>Mon, 06 Apr 2009 09:32:05 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/04/06/rubx-twitters-ruby-shell/</guid>
+      <description>Rubx, also known as Ruby Boobie, is a nice spoiled girlie bot that runs on Twitter. She listens when you talk to her and when you do, it&amp;rsquo;ll better be with Ruby: She will interpret your tweet in Ruby and reply to you with what your code returns.
+How does it work? You send a message to her: @rubx &amp;ldquo;The day I was born it was a &amp;rdquo; &amp;lt;&amp;lt; Time.local(1984, &amp;ldquo;aug&amp;rdquo;, 8).</description>
+    </item>
+    
+  </channel>
+</rss>

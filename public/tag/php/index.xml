@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/php/</link>
+    <description>Recent content in Php on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Mar 2010 16:06:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debian fails</title>
+      <link>https://damog.net/blog/2010/03/01/debian-fails/</link>
+      <pubDate>Mon, 01 Mar 2010 16:06:19 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/03/01/debian-fails/</guid>
+      <description>Generalizations are fun, they always are because they tend to offend people and offended people by stupid shit is usually lots of fun.
+Here Debian, as a whole, fails; it sucks. Here Debian blows ass, the entire project is whack.
+My good friend Chris Lee sent me this:
+ If you can&amp;rsquo;t see the above iframe, here.
+Debian, full of fail. Wasn&amp;rsquo;t this generalization fun?
+Let the non-sense bullshit horses be released.</description>
+    </item>
+    
+    <item>
+      <title>Large PHP scripts truncated on nginx</title>
+      <link>https://damog.net/blog/2010/02/03/large-php-scripts-truncated-on-nginx/</link>
+      <pubDate>Wed, 03 Feb 2010 11:35:14 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/02/03/large-php-scripts-truncated-on-nginx/</guid>
+      <description>I spent a couple of hours yesterday trying to debug an issue that made me hit my head against the wall while it lasted.
+I run multiple instances of WordPress, and with it, comes a nice little editor bundled called TinyMCE. But on my main WordPress installation (this very blog, dear reader, where you are reading this from), TinyMCE wouldn&amp;rsquo;t come up, it wouldn&amp;rsquo;t render properly on the browser, it didn&amp;rsquo;t matter if it was my main browser, Chrome, or Firefox, Safari, cached, uncached, it was just broken.</description>
+    </item>
+    
+    <item>
+      <title>Writing Secure WordPress Plugins talk by Mark Jaquith</title>
+      <link>https://damog.net/blog/2009/11/24/writing-secure-wordpress-plugins-talk-by-mark-jaquith/</link>
+      <pubDate>Tue, 24 Nov 2009 17:29:18 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/24/writing-secure-wordpress-plugins-talk-by-mark-jaquith/</guid>
+      <description>Continuing my notes and remarks from WordCamp, I attended Writing Secure Plugins, which was given by Mark Jaquith (@markjaquith on Twitter). I found the talk to be also slightly introductory on security matters but nicely oriented to WordPress plugins and general PHP Web app development. I believe most of the tips given should be taken into consideration by every PHP coder out there, not just WP people. 
+The talk was split into the different attacks that are common on Web applications and mainly pointing to functions and actions to be taken.</description>
+    </item>
+    
+    <item>
+      <title>Attending WordCamp NYC</title>
+      <link>https://damog.net/blog/2009/11/10/attending-wordcamp-nyc/</link>
+      <pubDate>Tue, 10 Nov 2009 17:19:56 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/10/attending-wordcamp-nyc/</guid>
+      <description>I&amp;rsquo;ll be attending WordCamp NYC this upcoming weekend. There&amp;rsquo;s a lot of very interesting talks and people speaking at the conference, so it was basically a no-brainer since it&amp;rsquo;s being held in Manhattan. Plus, WordPress is one of the platforms I&amp;rsquo;ve always liked and admired on how they have achieved to become a mainstream product with a huge amount of active users and developers. I started using it way back in 2004 when it was b2/cafelog, so it&amp;rsquo;s been a long ride.</description>
+    </item>
+    
+    <item>
+      <title>Run a PHP script from mod_perl so PerlCleanupHandler can be used</title>
+      <link>https://damog.net/blog/2009/02/19/run-a-php-script-from-mod_perl-so-perlcleanuphandler-can-be-used/</link>
+      <pubDate>Thu, 19 Feb 2009 19:21:44 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/02/19/run-a-php-script-from-mod_perl-so-perlcleanuphandler-can-be-used/</guid>
+      <description>Situation
+You need to run a time consuming task after a PHP script is run. The task will have to reuse the POST/GET data that is being sent to the service. The task would have to be done once the client has gone away.
+Solution
+Use mod_perl&amp;rsquo;s PerlFixupHandler to take the POST data, set the handler to be run by mod_php (or whatever else you are running it). Finally, use PerlCleanupHandler to run that task since that&amp;rsquo;s exactly what that phase is for, once the client went away.</description>
+    </item>
+    
+  </channel>
+</rss>

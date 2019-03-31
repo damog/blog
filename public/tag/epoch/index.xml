@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Epoch on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/epoch/</link>
+    <description>Recent content in Epoch on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Feb 2009 17:28:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/epoch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debian get-together in NYC this next 1234567890</title>
+      <link>https://damog.net/blog/2009/02/11/debian-get-together-in-nyc-this-next-1234567890/</link>
+      <pubDate>Wed, 11 Feb 2009 17:28:42 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/02/11/debian-get-together-in-nyc-this-next-1234567890/</guid>
+      <description>So, Biella already posted a reminder, and I&amp;rsquo;m doing it again on my blog, here. Attention New York City Debianistas,
+The astrological confluence of 1234567890[0], the impending release of Lenny[1], and the odd sighting of a horned mythical beast that cryptozoologists are calling a &amp;lsquo;new FTP-master-assistant/slave&amp;rsquo; being sighted in the mist off the shores of the East River[2] will result in all emacs users to transcend and all vim users to be transponded to their respective motherships, which are scheduled for near-orbit on that night.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Messenger on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/messenger/</link>
+    <description>Recent content in Messenger on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Aug 2016 20:42:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/messenger/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Webhook Setup with Facebook::Messenger::Bot</title>
+      <link>https://damog.net/blog/2016/08/29/webhook-setup-with-facebookmessengerbot/</link>
+      <pubDate>Mon, 29 Aug 2016 20:42:40 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2016/08/29/webhook-setup-with-facebookmessengerbot/</guid>
+      <description>The documentation for the Facebook Messenger API points out how to setup your initial bot webhook. I just committed a quick patch that would make it very easy to setup a quick script to get it done using the unreleased and still in progress Perl&amp;rsquo;s Facebook::Messenger::Bot:
+use Facebook::Messenger::Bot; use constant VERIFY_TOKEN =&amp;gt; &#39;imsosecret&#39;; my $bot = Facebook::Messenger::Bot-&amp;gt;new(); # no config specified! $bot-&amp;gt;expect_verify_token( VERIFY_TOKEN ); $bot-&amp;gt;spin();  This should get you sorted.</description>
+    </item>
+    
+    <item>
+      <title>WIP: Perl bindings for Facebook Messenger</title>
+      <link>https://damog.net/blog/2016/08/21/wip-perl-bindings-for-facebook-messenger/</link>
+      <pubDate>Sun, 21 Aug 2016 18:35:26 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2016/08/21/wip-perl-bindings-for-facebook-messenger/</guid>
+      <description>A couple of weeks ago I started looking into wrapping the Facebook Messenger API into Perl. Since all the calls are extremely simple using a REST API, I thought it could be easier and simpler even, to provide a small framework to hook bots using PSGI/Plack.
+So I started putting some things together and with a very simple interface you could do a lot:
+use strict; use warnings; use Facebook::Messenger::Bot; my $bot = Facebook::Messenger::Bot-&amp;gt;new({ access_token =&amp;gt; &#39;.</description>
+    </item>
+    
+  </channel>
+</rss>

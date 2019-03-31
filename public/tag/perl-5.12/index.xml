@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Perl 5.12 on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/perl-5.12/</link>
+    <description>Recent content in Perl 5.12 on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Sep 2010 17:21:46 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/perl-5.12/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Perl 5.12&#39;s each function</title>
+      <link>https://damog.net/blog/2010/09/23/perl-5.12s-each-function/</link>
+      <pubDate>Thu, 23 Sep 2010 17:21:46 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/09/23/perl-5.12s-each-function/</guid>
+      <description>With Perl 5.12 released earlier this summer, the each function got a nice little addition that I&amp;rsquo;d like to talk about: It now has the ability to work on arrays, not only key-value pair hashes, but not exactly as you&amp;rsquo;d expect it (not like Ruby&amp;rsquo;s each method).
+The traditional way to work with each, using a hash:
+my %h = ( a =&amp;gt; 1, b =&amp;gt; 2, c =&amp;gt; 3, ); while(my($key, $value) = each %h) { say &amp;quot;index: $key =&amp;gt; value: $value&amp;quot;; }  And the output.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Offer on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/offer/</link>
+    <description>Recent content in Offer on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Aug 2009 19:16:24 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/offer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Job offering</title>
+      <link>https://damog.net/blog/2009/08/10/job-offering/</link>
+      <pubDate>Mon, 10 Aug 2009 19:16:24 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/10/job-offering/</guid>
+      <description>A friend of mine is asking me to publish his company&amp;rsquo;s job offering to the wild. I&amp;rsquo;ve seen the offer, what they are doing and it&amp;rsquo;s a very, very nice project/opportunity, I wouldn&amp;rsquo;t announce it here on my blog if it wasn&amp;rsquo;t something worthwhile: Lytix is seeking an experienced software developer with proven ability to produce, understand and critique code in C, Java and JavaScript; Perl and LISP are a plus.</description>
+    </item>
+    
+  </channel>
+</rss>

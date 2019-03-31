@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html5 on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/html5/</link>
+    <description>Recent content in Html5 on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Mar 2011 22:24:13 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/html5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>YouTube&#39;s HTML5 trial opt-in</title>
+      <link>https://damog.net/blog/2011/03/02/youtubes-html5-trial-opt-in/</link>
+      <pubDate>Wed, 02 Mar 2011 22:24:13 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2011/03/02/youtubes-html5-trial-opt-in/</guid>
+      <description>If you use any non-retarded Web browser (aka not Internet Explorer) and usually run into and enjoy the huge inventory of videos that YouTube has to offer, please consider opting in to YouTube&amp;rsquo;s HTML5 trial, which means that you&amp;rsquo;ll be running HTML5 browser-based video instead of Flash for most of the website&amp;rsquo;s videos. If you&amp;rsquo;re also nerd enough, make sure to send them feedback and shit.</description>
+    </item>
+    
+  </channel>
+</rss>

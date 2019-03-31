@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feed on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/feed/</link>
+    <description>Recent content in Feed on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Mar 2012 10:55:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/feed/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Feedbag released under MIT license</title>
+      <link>https://damog.net/blog/2012/03/16/feedbag-released-under-mit-license/</link>
+      <pubDate>Fri, 16 Mar 2012 10:55:10 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2012/03/16/feedbag-released-under-mit-license/</guid>
+      <description>I was contacted by Pivotal Labs regarding licensing of Feedbag. I guess releasing open source software as GPL only makes sense if you continue to live under a rock. I&amp;rsquo;ve bumped the version to 0.9 and released it under MIT license.
+Feedbag 1.0, which I plan to work on during the following days will bring in a brand new shiny backend powered by Nokogiri, instead of Hpricot (I mean, give me a break, I&amp;rsquo;m trying to catch up with the Ruby community, after all I&amp;rsquo;m primarily a Perl guy :D) and hopefully I will be able to recreate most of the feed auto-discovery test suite that Mark Pilgrim retired (410 Gone) when he committed infosuicide.</description>
+    </item>
+    
+    <item>
+      <title>TechCrunch top-stories news feed</title>
+      <link>https://damog.net/blog/2010/03/14/techcrunch-top-stories-news-feed/</link>
+      <pubDate>Sun, 14 Mar 2010 18:54:33 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/03/14/techcrunch-top-stories-news-feed/</guid>
+      <description>Being surrounded by the Web 2.0, I have to keep myself informed. TechCrunch is the most natural source of information. However, they write a lot of news stories every single day. A lot. Enough to make me feel stressed just to have so many shit to read on my feed reader.
+Well, since I still wanted to read the top stories, but they don&amp;rsquo;t provide such a feed, like Lifehacker (kind of) does, I hacked a feed (no longer active):</description>
+    </item>
+    
+    <item>
+      <title>Feed moved</title>
+      <link>https://damog.net/blog/2010/02/04/feed-moved/</link>
+      <pubDate>Thu, 04 Feb 2010 19:31:37 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/02/04/feed-moved/</guid>
+      <description>I have always been against FeedBurner. I don&amp;rsquo;t like it at all. I&amp;rsquo;ve never liked it, as a matter of fact, I have no actual idea why I&amp;rsquo;ve been using it on my blog. I do know why I used it on the country feeds on Planeta Linux, and that is because it was very easy to mask all of our URL changes with some level of stability on the subscribers (in times where me being technically competent was a bad joke for myself).</description>
+    </item>
+    
+    <item>
+      <title>Perl on the NYMag</title>
+      <link>https://damog.net/blog/2009/08/10/perl-on-the-nymag/</link>
+      <pubDate>Mon, 10 Aug 2009 09:21:33 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/10/perl-on-the-nymag/</guid>
+      <description>Reading my morning load of feed news, I spotted an interesting bit on the New York Magazine travel feed:
+Of course, someone&amp;rsquo;s doing something wrong there, but I&amp;rsquo;d say it&amp;rsquo;s their usage of XML::Feed (my guess on what they are using since the generator tag is omitted), by not dereferencing that hash reference or trying to forcibly stringify it.
+Of course that comes from the feed itself:
+It&amp;rsquo;s awesome, and nothing new of course, that big publications and organizations are using Perl to process and offer data to users, but I find it always super cool when they make it so obvious :)</description>
+    </item>
+    
+    <item>
+      <title>Feedbag now using feedvalidator</title>
+      <link>https://damog.net/blog/2009/02/11/feedbag-now-using-feedvalidator/</link>
+      <pubDate>Wed, 11 Feb 2009 16:00:53 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/02/11/feedbag-now-using-feedvalidator/</guid>
+      <description>There&amp;rsquo;s a very special case that I hadn&amp;rsquo;t spotted on Feedbag. Within the different methods that Feedbag uses to discover the feed on a given URL, the very first one is lookup on a table of &amp;ldquo;known&amp;rdquo; content types. If the alleged feed is served with any of the following content types, then Feedbag just returns that same URL as it assumes it&amp;rsquo;s the feed: @content_types = [ &amp;lsquo;application/x.atom+xml&amp;rsquo;, &amp;lsquo;application/atom+xml&amp;rsquo;, &amp;lsquo;application/xml&amp;rsquo;, &amp;lsquo;text/xml&amp;rsquo;, &amp;lsquo;application/rss+xml&amp;rsquo;, &amp;lsquo;application/rdf+xml&amp;rsquo;, ] However, what happens if the feed is not served with any of those but it&amp;rsquo;s a valid feed?</description>
+    </item>
+    
+    <item>
+      <title>Quick feed aggregation with Vitacilina</title>
+      <link>https://damog.net/blog/2009/01/29/quick-feed-aggregation-with-vitacilina/</link>
+      <pubDate>Thu, 29 Jan 2009 21:36:06 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/29/quick-feed-aggregation-with-vitacilina/</guid>
+      <description>Vitacilina, ¡ah, qué buena medicina!
+A few months ago. Maybe more than a year, I started hacking on Vitacilina, which was meant to be the replacement for Planet on all countries Planeta Linux supports. I was doing well, I even hosted the code back then in Google Code. Later, I forgot about it, but I&amp;rsquo;d always been wanting to replace Planet with some homebrew solution for the Planeta Linux community. Anyway, that hasn&amp;rsquo;t happened yet.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Feedbag: Feed auto-discovery Ruby library/tool</title>
+      <link>https://damog.net/blog/2008/12/30/introducing-feedbag-feed-auto-discovery-ruby-library/tool/</link>
+      <pubDate>Tue, 30 Dec 2008 18:58:10 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/12/30/introducing-feedbag-feed-auto-discovery-ruby-library/tool/</guid>
+      <description>Last week, I spent some time building a good (that I liked) feed auto-discovery tool to use in Ruby for other project I&amp;rsquo;m building, rFeed. I liked CPAN&amp;rsquo;s Feed::Find, and at some point I made a wrapper class to run a Perl script using such module, however, I wasn&amp;rsquo;t happy by mixing it all. So, Feedbag was born:
+&amp;gt;&amp;gt; require &amp;quot;rubygems&amp;quot; =&amp;gt; true &amp;gt;&amp;gt; require &amp;quot;feedbag&amp;quot; =&amp;gt; true &amp;gt;&amp;gt; Feedbag.find &amp;quot;damog.</description>
+    </item>
+    
+  </channel>
+</rss>

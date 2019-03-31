@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/code/</link>
+    <description>Recent content in Code on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Aug 2010 22:10:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>curl POST data and newlines</title>
+      <link>https://damog.net/blog/2010/08/15/curl-post-data-and-newlines/</link>
+      <pubDate>Sun, 15 Aug 2010 22:10:35 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/08/15/curl-post-data-and-newlines/</guid>
+      <description>I&amp;rsquo;m writing a Rails application for the microblogging strategy for Debian (which I used to call, debian-twitter, but you know how us Debian folks are :D). I came up with a strange issue, that at first I thought was ActionController&amp;rsquo;s fault or some crap.
+So, I was testing one of my controllers with something like this:
+cat /tmp/mm.txt | curl -d @- http://localhost:3000/message/new  /tmp/mm.txt is a PGP signed message which then I just send as POST data to my application.</description>
+    </item>
+    
+    <item>
+      <title>Sync your Twitter followers and friends</title>
+      <link>https://damog.net/blog/2009/06/10/sync-your-twitter-followers-and-friends/</link>
+      <pubDate>Wed, 10 Jun 2009 13:30:29 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/06/10/sync-your-twitter-followers-and-friends/</guid>
+      <description>I have a couple of accounts in Twitter (namely @debian and @planetalinux) that are starting to bring a lot of followers (well, at least some of them). And given that I consider these accounts to be Twitter-polite enough, I like to follow the followers back too; however, this task sometimes gets really hard and it&amp;rsquo;s tiring to go through the followers pages and follow those that I don&amp;rsquo;t follow yet over and over.</description>
+    </item>
+    
+  </channel>
+</rss>

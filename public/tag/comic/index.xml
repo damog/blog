@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comic on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/comic/</link>
+    <description>Recent content in Comic on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Jul 2008 18:30:50 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/comic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LOL</title>
+      <link>https://damog.net/blog/2008/07/15/lol/</link>
+      <pubDate>Tue, 15 Jul 2008 18:30:50 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/07/15/lol/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Twitter&#39;s OAuth &#43; Perl | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Twitter&rsquo;s OAuth + Perl</span></h1>
+
+<p class="date">Thu 21 May 2009 02:06:42 PM UTC</p>
+</div>
+
+<main>
+<p>During the last week, unbeatable <a href="http://twitter.com/miyagawa">Tatsuhiko Miyagawa</a> uploaded <a href="http://search.cpan.org/dist/Net-Twitter-OAuth/">Net::Twitter::OAuth</a> to <a href="http://search.cpan.org/">CPAN</a>, which provides an awesome interface for <a href="http://search.cpan.org/dist/Net-OAuth-Simple/">Net::OAuth::Simple</a> and <a href="http://twitter.com">Twitter</a> by subclassing <a href="http://search.cpan.org/dist/Net-Twitter/">Net::Twitter</a>. This way, it&rsquo;s very easy to develop Twitter client applications using its <em>new</em> <a href="https://dev.twitter.com/oauth">OAuth method</a> dropping the need for users to hand their credentials to third parties.</p>
+
+<p>You will have to register your application on Twitter previously. You can do so <a href="http://twitter.com/oauth_clients">here</a>. If this is a web application that you will be building, you can provide a callback URL which is the page where the user will get redirected once she has granted access to your application. If you just want to test, setting a desktop application is probably the way to go.</p>
+
+<p>Once you have registered your application, you will get two strings, key and secret consumer. Refer to general <a href="http://oauth.net/">OAuth</a> documentation for deeper details.</p>
+
+<p>Install <code>Net::Twitter::OAuth</code> as any other Perl module:</p>
+
+<pre><code>$ sudo cpan Net::Twitter::OAuth
+</code></pre>
+
+<p>Now, using it is very simple:</p>
+
+<pre><code>my $client = Net::Twitter::OAuth-&gt;new(
+    consumer_key    =&gt; &quot;YOUR-CONSUMER-KEY&quot;,
+    consumer_secret =&gt; &quot;YOUR-CONSUMER-SECRET&quot;,
+);
+</code></pre>
+
+<p>No transactions or requests have been made yet. Here you need the user&rsquo;s access and secret tokens. If you already have them, which means that the user has already gone through the authorization process, you have to pass it now (you already stored them on database, a configuration file or whatever the data model you use):</p>
+
+<pre><code>if ($access_token &amp;&amp; $access_token_secret) {
+    $client-&gt;oauth-&gt;access_token($access_token);
+    $client-&gt;oauth-&gt;access_token_secret($access_token_secret);
+}
+</code></pre>
+
+<p>Now you can query Twitter so it can provide you access:</p>
+
+<pre><code>unless ($client-&gt;oauth-&gt;authorized) {
+    # The client is not yet authorized: Do it now
+    print &quot;Authorize this app at &quot;, $client-&gt;oauth-&gt;get_authorization_url, &quot; and hit RET\n&quot;;
+
+    &lt;STDIN&gt;; # wait for input
+
+    my($access_token, $access_token_secret) = $client-&gt;oauth-&gt;request_access_token;
+    save_tokens($access_token, $access_token_secret); # if necessary
+}
+</code></pre>
+
+<p>All these snippets come from the example&rsquo;s of <code>Net::Twitter::OAuth</code>. So basically, if you are not authorized, which means that either the user hasn&rsquo;t even been prompted for authorization or denied access before, then you get the authorization URL which you can give to the user to visit.</p>
+
+<p>Once the user has granted access, you can call <code>request_access_token</code> which will return the user&rsquo;s tokens. Here&rsquo;s where you can save those tokens for future use.</p>
+
+<p>After that block, you are pretty much done and can use the regular <code>Net::Twitter</code> methods:</p>
+
+<pre><code>my $res = $client-&gt;update({ status =&gt; 'me ownz oauth!!1' });
+</code></pre>
+
+<p>Soon, a real life application post using <a href="http://search.cpan.org/dist/HTTP-Engine/">HTTP::Engine</a>, <a href="http://search.cpan.org/dist/KiokuDB/">KiokuDB</a> and Net::Twitter::OAuth.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2009/05/26/debian-maintainers-now-able-to-post-to-debian-twitter/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2009/05/09/perl-in-the-time-of-social-networks/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

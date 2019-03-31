@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beer on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/beer/</link>
+    <description>Recent content in Beer on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Feb 2010 19:31:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/beer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Feed moved</title>
+      <link>https://damog.net/blog/2010/02/04/feed-moved/</link>
+      <pubDate>Thu, 04 Feb 2010 19:31:37 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/02/04/feed-moved/</guid>
+      <description>I have always been against FeedBurner. I don&amp;rsquo;t like it at all. I&amp;rsquo;ve never liked it, as a matter of fact, I have no actual idea why I&amp;rsquo;ve been using it on my blog. I do know why I used it on the country feeds on Planeta Linux, and that is because it was very easy to mask all of our URL changes with some level of stability on the subscribers (in times where me being technically competent was a bad joke for myself).</description>
+    </item>
+    
+    <item>
+      <title>Phusion Passenger™ on Debian</title>
+      <link>https://damog.net/blog/2009/08/07/phusion-passenger-on-debian/</link>
+      <pubDate>Fri, 07 Aug 2009 17:32:02 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/07/phusion-passenger-on-debian/</guid>
+      <description>During DebConf 9 I had the opportunity to work together with Señor Micah to try to bring Passenger back to shape and get it back to the NEW queue on Debian. We spent way too much time dealing with the build for the pkg-ruby-extras build model than to the actual fixing and updating. At the end we came up with a very well updated and DFSG-compatible (in contrast to the one that Brightbox provides, which isn&amp;rsquo;t bad either to be honest) package for the 2.</description>
+    </item>
+    
+    <item>
+      <title>Debian NYC get-together and PGP key signing</title>
+      <link>https://damog.net/blog/2009/05/06/debian-nyc-get-together-and-pgp-key-signing/</link>
+      <pubDate>Wed, 06 May 2009 10:08:07 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/05/06/debian-nyc-get-together-and-pgp-key-signing/</guid>
+      <description>If you happen to be in the NYC area this Friday May 8th, come over to our get-together to have a few beers/club sodas at Pacific Standard in Park Slope, Brooklyn (at 8 pm, map here). We will also be holding a PGP/GPG key signing par-tay at 9 pm, so make sure you bring your government-issued ID and your printed keys. More information about it, here.</description>
+    </item>
+    
+    <item>
+      <title>Debian get-together in NYC this next 1234567890</title>
+      <link>https://damog.net/blog/2009/02/11/debian-get-together-in-nyc-this-next-1234567890/</link>
+      <pubDate>Wed, 11 Feb 2009 17:28:42 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/02/11/debian-get-together-in-nyc-this-next-1234567890/</guid>
+      <description>So, Biella already posted a reminder, and I&amp;rsquo;m doing it again on my blog, here. Attention New York City Debianistas,
+The astrological confluence of 1234567890[0], the impending release of Lenny[1], and the odd sighting of a horned mythical beast that cryptozoologists are calling a &amp;lsquo;new FTP-master-assistant/slave&amp;rsquo; being sighted in the mist off the shores of the East River[2] will result in all emacs users to transcend and all vim users to be transponded to their respective motherships, which are scheduled for near-orbit on that night.</description>
+    </item>
+    
+  </channel>
+</rss>

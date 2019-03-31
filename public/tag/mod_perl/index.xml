@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mod_perl on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/mod_perl/</link>
+    <description>Recent content in Mod_perl on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Feb 2009 15:01:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/mod_perl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>And now Apache2::EmbedMP3 for your songs collections!</title>
+      <link>https://damog.net/blog/2009/02/02/and-now-apache2embedmp3-for-your-songs-collections/</link>
+      <pubDate>Mon, 02 Feb 2009 15:01:52 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/02/02/and-now-apache2embedmp3-for-your-songs-collections/</guid>
+      <description>After I spent time working on Apache2::EmbedFLV, I thought it was a good idea to do the same for audio files, specifically MP3 files.
+So now that you have your MP3 files on your web server and they are accessible to the world, you may want to show them with an embedded audio player. Well, Apache2::EmbedMP3 is exactly for you!
+EmbedMP3 uses the fabulous WP Audio Player, a small, elegant, GPL Flash audio player, similarly to how Apache2::EmbedFLV uses Flowplayer.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Apache2::EmbedFLV – Exposing FLVs with Flowplayer and a customized interface</title>
+      <link>https://damog.net/blog/2009/01/17/introducing-apache2embedflv-exposing-flvs-with-flowplayer-and-a-customized-interface/</link>
+      <pubDate>Sat, 17 Jan 2009 18:22:43 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/17/introducing-apache2embedflv-exposing-flvs-with-flowplayer-and-a-customized-interface/</guid>
+      <description>Situation
+You have a bunch of Flash videos, FLV files. Every once in a while you dump new files on your publicly accessible Apache directory. You would like to give your users the ability to play those FLVs within a webpage you provide, instead of just serving them the files for a direct download. Maybe you want this for all FLVs, not only an specific directory.
+Solution
+Apache2::EmbedFLV!
+&amp;lt;Files ~ &amp;quot;\.</description>
+    </item>
+    
+    <item>
+      <title>Returning an specific HTTP status/return code and content with mod_perl 2</title>
+      <link>https://damog.net/blog/2009/01/06/returning-an-specific-http-status/return-code-and-content-with-mod_perl-2/</link>
+      <pubDate>Tue, 06 Jan 2009 11:35:12 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/06/returning-an-specific-http-status/return-code-and-content-with-mod_perl-2/</guid>
+      <description>Making a simple PerlResponseHandler that does something like this: sub handler { my($r) = shift; $r-&amp;gt;content_type(&amp;ldquo;text/plain&amp;rdquo;); $r-&amp;gt;print(&amp;ldquo;You suck.\n&amp;rdquo;); return Apache2::Const::HTTP_BAD_REQUEST; } &amp;hellip;doesn&amp;rsquo;t make what you&amp;rsquo;d be expecting. This is because mod_perl assumes, since you are specifying content type and something to print, that this is a legit and valid (200-ish) request. This is what you get:  POST http://myserver/resource &amp;ndash;&amp;gt; 200 OK Connection: close Date: Mon, 05 Jan 2009 23:02:57 GMT Content-Type: text/plain; charset=UTF-8 Client-Date: Mon, 05 Jan 2009 23:03:00 GMT Client-Response-Num: 1 Client-Transfer-Encoding: chunked [ some headers snipped ]</description>
+    </item>
+    
+    <item>
+      <title>DirectoryIndex and the &#34;perl-script&#34; handler</title>
+      <link>https://damog.net/blog/2008/12/02/directoryindex-and-the-perl-script-handler/</link>
+      <pubDate>Tue, 02 Dec 2008 12:12:40 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/12/02/directoryindex-and-the-perl-script-handler/</guid>
+      <description>Wouter Verhelst blogs about combining ScriptAlias (or a way to run CGIs) and DirectoryIndex in Apache.
+Recently, developing a TinyURL clone I had a similar (not identical, though) issue.
+Basically, I set SetHandler to perl-script on the &#34;/&#34; location, which basically means, everything accessed on a given virtual host, is affected. Because you are changing the handler for the entire location, DirectoryIndex will have no effect on it because mod_dir is the one dealing with the DirectoryIndex function, that is, using the DIR_MAGIC_TYPE handler.</description>
+    </item>
+    
+    <item>
+      <title>Configuración dinámica en Apache</title>
+      <link>https://damog.net/blog/2008/11/15/configuraci%C3%B3n-din%C3%A1mica-en-apache/</link>
+      <pubDate>Sat, 15 Nov 2008 14:20:09 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/11/15/configuraci%C3%B3n-din%C3%A1mica-en-apache/</guid>
+      <description>Una de las cosas más bonitas que puedes hacer gracias a mod_perl, son las PerlSections.
+Básicamente con éstas, lo que puedes hacer es definir dinámicamente directivas de configuración de Apache y hacer cosas bien interesantes. Por ejemplo, recientemente, para Planeta Linux quería tener una sola configuración de Apache para los virtual hosts que son repetitivos dada cada instancia (mx.planetalinux.org, ve.planetalinux.org, gt.planetalinux.org, etc). Precisamente lo que quiero evitar es tener que poner una interminable lista de VirtualHost&amp;rsquo;s, así que lo puedo hacer con secciones en Perl (que son denotadas en cualquier archivo de configuración en Apache con &amp;lt;Perl&amp;gt; y &amp;lt;/Perl&amp;gt;):</description>
+    </item>
+    
+  </channel>
+</rss>

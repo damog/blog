@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vida on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/vida/</link>
+    <description>Recent content in Vida on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Jul 2008 17:01:50 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/vida/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debo, no niego</title>
+      <link>https://damog.net/blog/2008/07/02/debo-no-niego/</link>
+      <pubDate>Wed, 02 Jul 2008 17:01:50 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/07/02/debo-no-niego/</guid>
+      <description>En una calurosa mañana de diciembre de&amp;hellip; creo que 2005, desperté. La noche anterior había soñado que tenía una muy bonita PowerBook y que era un feliz usuario de Mac. La idea me rondó por dos minutos mientras, recostado en la cama, decidía mi futuro tecnológico. Era perfecto, utilizando mi Mac y siendo todo tan hermoso, simplemente perfecto. Perfecto imbécil terminé siendo porque me paré de la cama, me vestí, me subí al coche (así es, no me lavé los dientes, ni me bañé ni nada de eso) y me dirigí al Lumen de Insurgentes.</description>
+    </item>
+    
+    <item>
+      <title>return Dumper $self-&gt;updates;</title>
+      <link>https://damog.net/blog/2008/05/26/return-dumper-self-updates/</link>
+      <pubDate>Mon, 26 May 2008 17:44:46 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/05/26/return-dumper-self-updates/</guid>
+      <description>We took a chance and traveled to Boston during the weekend. We met there with Mario Carrión, Mauro Parra and some other friends. It is a beautiful city, we walked on Boston Commons, Newbury St and got up to the Prudential Building, it was a quick visit. We also wandered around the MIT. Boston has the kind of charming touch you (or at least I) cannot find in New York City anymore.</description>
+    </item>
+    
+  </channel>
+</rss>

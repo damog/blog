@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debian on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/debian/</link>
+    <description>Recent content in Debian on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Feb 2019 15:53:34 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/debian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dell XPS 13 9380</title>
+      <link>https://damog.net/blog/2019/02/16/dell-xps-13-9380/</link>
+      <pubDate>Sat, 16 Feb 2019 15:53:34 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2019/02/16/dell-xps-13-9380/</guid>
+      <description>Got myself a XPS 13&amp;rdquo; 9380 that Dell just released as &amp;ldquo;Developer Edition&amp;rdquo; with Ubuntu 18.04 LTS pre-installed. They just released it on January 2019.
+Ubuntu didn&amp;rsquo;t last long though. I prefer OS X Mojave than any of the Ubuntu installations. It&amp;rsquo;s okay though, it&amp;rsquo;s just not for me.
+Big big big shoutout to Jérémy Garrouste for his documentation only a few days ago of the Debian installation for Buster on the laptop which helped me figure out I needed to upgrade the BIOS to fix a couple of issues and be able to run the d-i alpha 5 with the Atheros drivers.</description>
+    </item>
+    
+    <item>
+      <title>FOSDEM 2019</title>
+      <link>https://damog.net/blog/2019/02/03/fosdem-2019/</link>
+      <pubDate>Sun, 03 Feb 2019 14:13:46 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2019/02/03/fosdem-2019/</guid>
+      <description>Spent the Saturday at FOSDEM with my friend jackdoe.
+It was great to both see some and avoid other familiar faces. It was great to meet some unfamiliar faces as well.
+Until next year! Maybe.</description>
+    </item>
+    
+    <item>
+      <title>Thanks Debian</title>
+      <link>https://damog.net/blog/2015/08/23/thanks-debian/</link>
+      <pubDate>Sun, 23 Aug 2015 09:15:57 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2015/08/23/thanks-debian/</guid>
+      <description>I sent this email to debian-private a few days ago, on the 10th anniversary of my Debian account creation:
+ Date: Fri, 14 Aug 2015 19:37:20 +0200 From: David Moreno  To: debian-private@lists.debian.org Subject: Retiring from Debian User-Agent: Mutt/1.5.23 (2014-03-12) [-- PGP output follows (current time: Sun 23 Aug 2015 06:18:36 PM CEST) --] gpg: Signature made Fri 14 Aug 2015 07:37:20 PM CEST using RSA key ID 4DADEC2F gpg: Good signature from &#34;</description>
+    </item>
+    
+    <item>
+      <title>i3 respect</title>
+      <link>https://damog.net/blog/2014/01/11/i3-respect/</link>
+      <pubDate>Sat, 11 Jan 2014 13:02:27 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2014/01/11/i3-respect/</guid>
+      <description>Hey Michael Stapelberg, thanks for creating i3 and making me believe again that people have a clue and things can be done just right (specially when it comes to something easily done crappy like window managers). Thanks for just getting it all right, and not only from the software point of view, but also for the community, the style around it, etc. Kudos.</description>
+    </item>
+    
+    <item>
+      <title>FOSDEM 2014</title>
+      <link>https://damog.net/blog/2013/12/28/fosdem-2014/</link>
+      <pubDate>Sat, 28 Dec 2013 14:17:52 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2013/12/28/fosdem-2014/</guid>
+      <description>I just booked my train tickets for FOSDEM 2014. Accommodation will be sorted out later.
+This year I planned it well in advance to get decent prices for Thalys, unlike last year that we ended up riding the slow trains that stop in every single town in the Netherlands and Belgium taking forever.
+See you there!</description>
+    </item>
+    
+    <item>
+      <title>Debian meetup in Utrecht, The Netherlands</title>
+      <link>https://damog.net/blog/2013/04/18/debian-meetup-in-utrecht-the-netherlands/</link>
+      <pubDate>Thu, 18 Apr 2013 21:28:54 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2013/04/18/debian-meetup-in-utrecht-the-netherlands/</guid>
+      <description>This next Tuesday, April 23rd, 2013, a few of us Debian people in the Netherlands will get together for beer and keysigning in Belgisch Bier Café Olivier in Utrecht. If you are in the area, feel free to come, have a beer or two and mingle!
+Find the exact details in this debian-events-nl mail.
+See you there!</description>
+    </item>
+    
+    <item>
+      <title>FOSDEM 2013</title>
+      <link>https://damog.net/blog/2013/01/26/fosdem-2013/</link>
+      <pubDate>Sat, 26 Jan 2013 16:57:09 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2013/01/26/fosdem-2013/</guid>
+      <description>One of the conferences that I always wanted to attend is FOSDEM. Now, since I live close enough to Brussels, it&amp;rsquo;d be a gigantic letdown not to make it there next weekend. I plan to be in Brussels Fri to Sun, see you there!</description>
+    </item>
+    
+    <item>
+      <title>DebConf 11</title>
+      <link>https://damog.net/blog/2011/07/01/debconf-11/</link>
+      <pubDate>Fri, 01 Jul 2011 12:46:54 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2011/07/01/debconf-11/</guid>
+      <description>Last year, I had all the intention in the world to go to Bosnia and Herzegovina this summer to attend DebConf 11, but given my non-existent involvement on the project for the last couple of years, there&amp;rsquo;s no reason for me to do it. Even last year when the event was held in town, I was not entirely thrilled about it. Life has changed quite a bit in the last few years, allowing me to just find and allocate my priorities on their right places.</description>
+    </item>
+    
+    <item>
+      <title>curl POST data and newlines</title>
+      <link>https://damog.net/blog/2010/08/15/curl-post-data-and-newlines/</link>
+      <pubDate>Sun, 15 Aug 2010 22:10:35 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/08/15/curl-post-data-and-newlines/</guid>
+      <description>I&amp;rsquo;m writing a Rails application for the microblogging strategy for Debian (which I used to call, debian-twitter, but you know how us Debian folks are :D). I came up with a strange issue, that at first I thought was ActionController&amp;rsquo;s fault or some crap.
+So, I was testing one of my controllers with something like this:
+cat /tmp/mm.txt | curl -d @- http://localhost:3000/message/new  /tmp/mm.txt is a PGP signed message which then I just send as POST data to my application.</description>
+    </item>
+    
+    <item>
+      <title>DebConf 10</title>
+      <link>https://damog.net/blog/2010/08/12/debconf-10/</link>
+      <pubDate>Thu, 12 Aug 2010 02:04:17 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/08/12/debconf-10/</guid>
+      <description>I was in New York for three full weeks, before, during and after DebConf 10 took place. Unfortunately, I wasn&amp;rsquo;t able to attend talks or go hang out with folks as much as I would&amp;rsquo;ve wanted. Most of the time I was busy at the office with a new product launch we have been preparing for the last few months. However, I was able to come and say hi to a few people, attend the C&amp;amp;W party and talk with friends and ran into.</description>
+    </item>
+    
+    <item>
+      <title>DebConf 10 restricted access</title>
+      <link>https://damog.net/blog/2010/07/30/debconf-10-restricted-access/</link>
+      <pubDate>Fri, 30 Jul 2010 11:47:39 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/07/30/debconf-10-restricted-access/</guid>
+      <description>This is how we roll at DebConf 10.
+That chair protects our router :)</description>
+    </item>
+    
+    <item>
+      <title>Debian fails</title>
+      <link>https://damog.net/blog/2010/03/01/debian-fails/</link>
+      <pubDate>Mon, 01 Mar 2010 16:06:19 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/03/01/debian-fails/</guid>
+      <description>Generalizations are fun, they always are because they tend to offend people and offended people by stupid shit is usually lots of fun.
+Here Debian, as a whole, fails; it sucks. Here Debian blows ass, the entire project is whack.
+My good friend Chris Lee sent me this:
+ If you can&amp;rsquo;t see the above iframe, here.
+Debian, full of fail. Wasn&amp;rsquo;t this generalization fun?
+Let the non-sense bullshit horses be released.</description>
+    </item>
+    
+    <item>
+      <title>Eben Moglen - &#39;Freedom in the Cloud&#39; 2/5 @ NYU</title>
+      <link>https://damog.net/blog/2010/02/02/eben-moglen-freedom-in-the-cloud-2/5-nyu/</link>
+      <pubDate>Tue, 02 Feb 2010 12:19:54 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/02/02/eben-moglen-freedom-in-the-cloud-2/5-nyu/</guid>
+      <description>Biella passed this flyer around on the Debian-NYC mailing list. If you are in New York City this Friday, you won&amp;rsquo;t want to miss this Eben Moglen&amp;rsquo;s talk.
+ If you can&amp;rsquo;t see the embedded object, go here or to this post&amp;rsquo;s permalink.</description>
+    </item>
+    
+    <item>
+      <title>Cherokee Summit 2010</title>
+      <link>https://damog.net/blog/2010/01/12/cherokee-summit-2010/</link>
+      <pubDate>Tue, 12 Jan 2010 14:02:03 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/01/12/cherokee-summit-2010/</guid>
+      <description>The Cherokee web server project is hosting the Cherokee Summit 2010 in Madrid, Spain on May 7th and 8th. The summit will be focused on high-performance and scalable Web technologies. I truly believe this is a major opportunity for hackers, developers and administrators looking for the new alternatives on the Web to bond and share experiences to benefit each other&amp;rsquo;s projects and enterprises, and keep up to date on this field.</description>
+    </item>
+    
+    <item>
+      <title>Vitacilina now in Debian &#43; 0.2 released!</title>
+      <link>https://damog.net/blog/2009/11/29/vitacilina-now-in-debian-0.2-released/</link>
+      <pubDate>Sun, 29 Nov 2009 14:24:51 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/29/vitacilina-now-in-debian-0.2-released/</guid>
+      <description>Remember Vitacilina? A small aggregation library I wrote last year to be intended to replace Planet on Planeta Linux? Well, it never quite replaced it but it achieved some level of stability since I was using it for a number of tasks at work. So, during this long holiday weekend, I received a notification that the Request To Package bug I had filled against the Work-Needing and Prospective Packages in Debian has already been taken care of and the library had been uploaded.</description>
+    </item>
+    
+    <item>
+      <title>Debian Workshop 1 at New York City</title>
+      <link>https://damog.net/blog/2009/10/15/debian-workshop-1-at-new-york-city/</link>
+      <pubDate>Thu, 15 Oct 2009 18:41:25 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/10/15/debian-workshop-1-at-new-york-city/</guid>
+      <description>So Debian-NYC, mainly the DebConf10 local team, organized a workshop for people interested on Debian packaging. The nice people of drop.io offered their handy location in Brooklyn.
+So this is the first attempt to bring new comers to Debian aiming DebConf10 next summer. Micah and dkg are the ones leading the workshop so far.
+Pictures!
+[gallery columns=&amp;ldquo;2&amp;rdquo; orderby=&amp;ldquo;rand&amp;rdquo;]</description>
+    </item>
+    
+    <item>
+      <title>Re: Private methods in Perl5</title>
+      <link>https://damog.net/blog/2009/08/14/re-private-methods-in-perl5/</link>
+      <pubDate>Fri, 14 Aug 2009 15:41:33 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/14/re-private-methods-in-perl5/</guid>
+      <description>Peter, I have a single word for you: Moose.
+   :)</description>
+    </item>
+    
+    <item>
+      <title>Phusion Passenger™ on Debian</title>
+      <link>https://damog.net/blog/2009/08/07/phusion-passenger-on-debian/</link>
+      <pubDate>Fri, 07 Aug 2009 17:32:02 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/07/phusion-passenger-on-debian/</guid>
+      <description>During DebConf 9 I had the opportunity to work together with Señor Micah to try to bring Passenger back to shape and get it back to the NEW queue on Debian. We spent way too much time dealing with the build for the pkg-ruby-extras build model than to the actual fixing and updating. At the end we came up with a very well updated and DFSG-compatible (in contrast to the one that Brightbox provides, which isn&amp;rsquo;t bad either to be honest) package for the 2.</description>
+    </item>
+    
+    <item>
+      <title>Finally at DebConf 9</title>
+      <link>https://damog.net/blog/2009/07/22/finally-at-debconf-9/</link>
+      <pubDate>Wed, 22 Jul 2009 21:13:12 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/07/22/finally-at-debconf-9/</guid>
+      <description>After a random series of hazardous events, I&amp;rsquo;m finally at DebConf 9 in Cáceres, Spain. I&amp;rsquo;ll post more updates later, right now I&amp;rsquo;m trying to put my sh*t together and find my way through around here for the next couple of weeks. Interested people can always follow my microblogging feed too.
+Love, D.</description>
+    </item>
+    
+    <item>
+      <title>Sync your Twitter followers and friends</title>
+      <link>https://damog.net/blog/2009/06/10/sync-your-twitter-followers-and-friends/</link>
+      <pubDate>Wed, 10 Jun 2009 13:30:29 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/06/10/sync-your-twitter-followers-and-friends/</guid>
+      <description>I have a couple of accounts in Twitter (namely @debian and @planetalinux) that are starting to bring a lot of followers (well, at least some of them). And given that I consider these accounts to be Twitter-polite enough, I like to follow the followers back too; however, this task sometimes gets really hard and it&amp;rsquo;s tiring to go through the followers pages and follow those that I don&amp;rsquo;t follow yet over and over.</description>
+    </item>
+    
+    <item>
+      <title>@debianproject is now @debian!</title>
+      <link>https://damog.net/blog/2009/06/05/debianproject-is-now-debian/</link>
+      <pubDate>Fri, 05 Jun 2009 11:08:59 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/06/05/debianproject-is-now-debian/</guid>
+      <description>Thanks to Jamie, who used to have the name registered and now handed it over, Twitter Debian&amp;rsquo;s Twitter username is now @debian (go follow Jamie now!). If you were already following @debianproject, nothing will change.
+Having @debian on Twitter is actually kind of awesome!</description>
+    </item>
+    
+    <item>
+      <title>Debian Maintainers now able to post to Debian Twitter</title>
+      <link>https://damog.net/blog/2009/05/26/debian-maintainers-now-able-to-post-to-debian-twitter/</link>
+      <pubDate>Tue, 26 May 2009 15:17:46 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/05/26/debian-maintainers-now-able-to-post-to-debian-twitter/</guid>
+      <description>I&amp;rsquo;ve added support for Debian Maintainers to post tweets to Debian Twitter (both on Identi.ca and Twitter). Feel free to use it.</description>
+    </item>
+    
+    <item>
+      <title>Debian NYC get-together and PGP key signing</title>
+      <link>https://damog.net/blog/2009/05/06/debian-nyc-get-together-and-pgp-key-signing/</link>
+      <pubDate>Wed, 06 May 2009 10:08:07 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/05/06/debian-nyc-get-together-and-pgp-key-signing/</guid>
+      <description>If you happen to be in the NYC area this Friday May 8th, come over to our get-together to have a few beers/club sodas at Pacific Standard in Park Slope, Brooklyn (at 8 pm, map here). We will also be holding a PGP/GPG key signing par-tay at 9 pm, so make sure you bring your government-issued ID and your printed keys. More information about it, here.</description>
+    </item>
+    
+    <item>
+      <title>Debian on Twitter</title>
+      <link>https://damog.net/blog/2009/03/22/debian-on-twitter/</link>
+      <pubDate>Sun, 22 Mar 2009 09:33:21 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/03/22/debian-on-twitter/</guid>
+      <description>Or&amp;hellip; for those who care about Twitter and Debian :)
+We&amp;rsquo;ve setup a Twitter account for the project to use on Twitter. Go follow it, go now! twitter.com/debianproject
+Now, the interesting part about this is that any Debian developer with a GPG key on the Debian keyring can tweet to it. You basically only have to do something like this:
+$ echo &amp;quot;Squeeze is scheduled for Winter 2014&amp;quot; | gpg --clearsign | lwp-request -m POST http://twitter.</description>
+    </item>
+    
+    <item>
+      <title>Debian get-together in NYC this next 1234567890</title>
+      <link>https://damog.net/blog/2009/02/11/debian-get-together-in-nyc-this-next-1234567890/</link>
+      <pubDate>Wed, 11 Feb 2009 17:28:42 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/02/11/debian-get-together-in-nyc-this-next-1234567890/</guid>
+      <description>So, Biella already posted a reminder, and I&amp;rsquo;m doing it again on my blog, here. Attention New York City Debianistas,
+The astrological confluence of 1234567890[0], the impending release of Lenny[1], and the odd sighting of a horned mythical beast that cryptozoologists are calling a &amp;lsquo;new FTP-master-assistant/slave&amp;rsquo; being sighted in the mist off the shores of the East River[2] will result in all emacs users to transcend and all vim users to be transponded to their respective motherships, which are scheduled for near-orbit on that night.</description>
+    </item>
+    
+    <item>
+      <title>Re: On DebGem</title>
+      <link>https://damog.net/blog/2009/01/08/re-on-debgem/</link>
+      <pubDate>Thu, 08 Jan 2009 10:40:38 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/08/re-on-debgem/</guid>
+      <description>Wouter, I find your thinking on DebGem a bit overreacted. I think you are taking the product and commercial efforts that a company make as the proposed solution we&amp;rsquo;ve all been expecting for a similar problem, which is not. You are considering DebGem to be an outcome provided by the Ruby community, which is not, to this issue.
+Phusion is obviously not the Ruby community, but part of it. How I see it, it&amp;rsquo;s great: I applaud that more companies take a look at nice technologies and try to provide their own products.</description>
+    </item>
+    
+    <item>
+      <title>New York BSP personal to-do list</title>
+      <link>https://damog.net/blog/2008/10/01/new-york-bsp-personal-to-do-list/</link>
+      <pubDate>Wed, 01 Oct 2008 21:03:19 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/10/01/new-york-bsp-personal-to-do-list/</guid>
+      <description>So, as it was previously announced (and recently re-invited by Micah), this weekend is the debiannyc BSP. This makes me think on my lack of involvement on the technical part of Debian (I&amp;rsquo;m still socially involved with friends and groups) for the last couple of months. So, for the sake of encouraging others to join us on Saturday if you in the city (or the tri-state area, or beyond!), here it is, my personal list of tasks I&amp;rsquo;m willing to work on:</description>
+    </item>
+    
+    <item>
+      <title>Bug Squashing Party in New York City</title>
+      <link>https://damog.net/blog/2008/09/17/bug-squashing-party-in-new-york-city/</link>
+      <pubDate>Wed, 17 Sep 2008 09:56:13 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/09/17/bug-squashing-party-in-new-york-city/</guid>
+      <description>stew has announced on the Debian NYC social list the bug squashing party to happen in his place at Brooklyn, NY. If you are around the area and willing to attend, write your name down on the wiki page and get ready to be rewarded by home-brewed beer and grilled bounties per squashed RC bug! stew also offers sleeping facilities in case you need it.</description>
+    </item>
+    
+    <item>
+      <title>RE: When did we start attacking each other?</title>
+      <link>https://damog.net/blog/2008/08/04/re-when-did-we-start-attacking-each-other/</link>
+      <pubDate>Mon, 04 Aug 2008 11:52:55 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/08/04/re-when-did-we-start-attacking-each-other/</guid>
+      <description>Machu, what you posted recently made me recall how some local friends told me were treated upon check-in at Oaxtepec, where DebConf6 was happening. It was maybe four or five persons, including myself, treated with arrogance, indifference and rudeness when there were issues (or say, situations) with the rooms or something, by that Argentinian woman, who was the nice representative of the Orga team with the local venue.
+UPDATE: Edited. Only posting bullshit now that I know about after madduck&amp;rsquo;s reply.</description>
+    </item>
+    
+    <item>
+      <title>No DebConf for you</title>
+      <link>https://damog.net/blog/2008/07/30/no-debconf-for-you/</link>
+      <pubDate>Wed, 30 Jul 2008 16:42:29 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/07/30/no-debconf-for-you/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Firefox 3 for Debian Lenny</title>
+      <link>https://damog.net/blog/2008/06/22/firefox-3-for-debian-lenny/</link>
+      <pubDate>Sun, 22 Jun 2008 16:38:00 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/06/22/firefox-3-for-debian-lenny/</guid>
+      <description>Well, it is actually Iceweasel 3 for Debian testing. Iceweasel just hit unstable yesterday (it had been for a while on experimental) and if you are running testing and can&amp;rsquo;t wait for it to get through QA, I&amp;rsquo;ve made a backport for you:
+ deb http://debian.axiombox.com/ testing main
+ The newest xulrunner was also backported, which was, yes, the whole point for this.
+UPDATE: Iceweasel 3 was uploaded a couple of weeks now, not yesterday :)</description>
+    </item>
+    
+  </channel>
+</rss>

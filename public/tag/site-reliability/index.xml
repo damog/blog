@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site Reliability on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/site-reliability/</link>
+    <description>Recent content in Site Reliability on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Mar 2012 23:52:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/site-reliability/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Is GitHub really necessary for your startup engineering team?</title>
+      <link>https://damog.net/blog/2012/03/11/is-github-really-necessary-for-your-startup-engineering-team/</link>
+      <pubDate>Sun, 11 Mar 2012 23:52:52 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2012/03/11/is-github-really-necessary-for-your-startup-engineering-team/</guid>
+      <description>For the last few months, I&amp;rsquo;ve been ranting a little too much with our engineering team about GitHub. These rantings, of course, didn&amp;rsquo;t come out of the blue. I haven&amp;rsquo;t been too satisfied with GitHub&amp;rsquo;s reliability lately since we use it for our daily development and constant deployment on our different staging environments and our own operation has been affected by their recent multiple technical difficulties. This has led me to analyze whether we really need them, why we started paying for their service in the first place and if it&amp;rsquo;s really necessary for our product development in the first place.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cheating the world you tweet less | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Cheating the world you tweet less</span></h1>
+
+<p class="date">Mon 08 Jun 2009 04:41:56 PM UTC</p>
+</div>
+
+<main>
+<p>The number of updates on my <a href="http://twitter.com/mrdamog">Twitter page</a> kind of <strong>bothers me</strong> sometimes. It&rsquo;s a reminder of the amount of time I&rsquo;ve spent and wasted on Twitter, it&rsquo;s an ever-itching mole in front of my face. However, I can cheat the system and society and still feel good about myself. What if I just remove all freaking replies I&rsquo;ve made, <em>except</em> for those of people I do care about (like <a href="http://maggit.net">my fiance</a> or <a href="http://twitter.com/rubx">Ruby Boobie</a>)? And also, I don&rsquo;t want to remove very recent replies.</p>
+
+<p>Well, let&rsquo;s just do it already.
+<code lang="perl">
+#!/opt/local/bin/perl</p>
+
+<p>use Modern::Perl;</p>
+
+<p>use Net::Twitter;
+use DateTime::Format::DateParse;
+use DateTime;</p>
+
+<p>binmode STDOUT, &ldquo;:utf8&rdquo;;</p>
+
+<p>my $t = Net::Twitter-&gt;new(
+    user =&gt; shift @ARGV || &lsquo;lazy_fuck&rsquo;,
+    password =&gt; shift @ARGV || &lsquo;bl0wm3&rsquo;);</p>
+
+<p>my $whitelist = [qw/maggit rubx axiombox/];</p>
+
+<p>my $then = DateTime-&gt;now;
+$then-&gt;subtract(days =&gt; 5);</p>
+
+<p>my $x = 1;
+for my $i (1..80) {</p>
+
+<pre><code>my $tweets = $t-&gt;user_timeline({ page =&gt; $i, count =&gt; 200 })
+    or die &quot;No fish for you, loser.\n&quot;;
+
+for my $h (@$tweets) {
+    next unless $h-&gt;{&quot;in_reply_to_screen_name&quot;};
+    next if grep { $_ eq $h-&gt;{&quot;in_reply_to_screen_name&quot;} } @$whitelist;
+
+    my $date = DateTime::Format::DateParse-&gt;parse_datetime($h-&gt;{&quot;created_at&quot;});
+    next unless $date &lt; $then;
+
+    say $x, &quot;: (&quot;, $h-&gt;{&quot;id&quot;}, &quot;) &quot;, $h-&gt;{&quot;text&quot;};
+    $t-&gt;destroy_status($h-&gt;{&quot;id&quot;});
+    $x++;
+}
+</code></pre>
+
+<p>}
+</code></p>
+
+<p>This little fucker will try to fetch your latest 16&rsquo;000 tweets (if you have&hellip; <em>twat</em>, <em>grin</em>, more than that, you&rsquo;ve got real issues and I cannot help there, get a shrink or something).</p>
+
+<p>It&rsquo;ll make 80 requests for your timeline (remember Twitter gives you a 100-request hour limit), so only if the reply doesn&rsquo;t come from a certain people AND the reply is older than a given period of time (I&rsquo;m setting it to one week for me), it&rsquo;ll get rid of it. If a friend doesn&rsquo;t see the reply in a week, she probably never will. After that, it just destroys the tweet (or it tries at least, from my experience, Twitter is still experimenting a hell lot of issues on their service).</p>
+
+<p>That way you can cheat the system removing useless tweets that no one (not even you or the recipient) cares about anymore. Or just&hellip; don&rsquo;t give a shit, and you are all set too.</p>
+
+<p>The first time I ran it, I went from like 6k tweets to 2500, which was a nice drop :-). If you feel like it, just grab it and customize to fit your needs. You will be needing the <a href="http://search.cpan.org">CPAN</a> modules <a href="http://search.cpan.org/dist/Modern-Perl">Modern::Perl</a>, <a href="http://search.cpan.org/dist/DateTime">DateTime</a>, <a href="http://search.cpan.org/dist/DateTime-Format-DateParse">DateTime::Format::DateParse</a> and of course, <a href="http://search.cpan.org/dist/Net-Twitter">Net::Twitter</a>.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2009/06/10/sync-your-twitter-followers-and-friends/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2009/06/05/debianproject-is-now-debian/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

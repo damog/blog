@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Copyright on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/copyright/</link>
+    <description>Recent content in Copyright on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Mar 2012 10:55:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/copyright/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Feedbag released under MIT license</title>
+      <link>https://damog.net/blog/2012/03/16/feedbag-released-under-mit-license/</link>
+      <pubDate>Fri, 16 Mar 2012 10:55:10 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2012/03/16/feedbag-released-under-mit-license/</guid>
+      <description>I was contacted by Pivotal Labs regarding licensing of Feedbag. I guess releasing open source software as GPL only makes sense if you continue to live under a rock. I&amp;rsquo;ve bumped the version to 0.9 and released it under MIT license.
+Feedbag 1.0, which I plan to work on during the following days will bring in a brand new shiny backend powered by Nokogiri, instead of Hpricot (I mean, give me a break, I&amp;rsquo;m trying to catch up with the Ruby community, after all I&amp;rsquo;m primarily a Perl guy :D) and hopefully I will be able to recreate most of the feed auto-discovery test suite that Mark Pilgrim retired (410 Gone) when he committed infosuicide.</description>
+    </item>
+    
+  </channel>
+</rss>

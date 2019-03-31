@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Planetalinux on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/planetalinux/</link>
+    <description>Recent content in Planetalinux on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Jan 2019 17:36:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/planetalinux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adiós, sitio de Planeta Linux</title>
+      <link>https://damog.net/blog/2019/01/12/adi%C3%B3s-sitio-de-planeta-linux/</link>
+      <pubDate>Sat, 12 Jan 2019 17:36:23 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2019/01/12/adi%C3%B3s-sitio-de-planeta-linux/</guid>
+      <description>Como que ya iba siendo tiempo de darle cuello al agregador automático de Planeta Linux. Nos sirvió por mucho tiempo, pero ya era hora de no tener un sitio tan muerto. La gente ya no bloguea tanto ni nada, entonces mejor evolucionar esa comunidad.
+Las páginas de comunidad en Facebook y Twitter seguirán abiertas. Igual y la banda quiere darle un empujón. A ver qué sale.
+Muchas gracias a los carnales que han trabajado en el sitio por años, especialmente a vicm3, julioh y hace años a Milton.</description>
+    </item>
+    
+    <item>
+      <title>New hosting for Planeta Linux</title>
+      <link>https://damog.net/blog/2014/08/03/new-hosting-for-planeta-linux/</link>
+      <pubDate>Sun, 03 Aug 2014 14:50:05 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2014/08/03/new-hosting-for-planeta-linux/</guid>
+      <description>Just a very quick shout out.
+A few weeks/months ago, Planeta Linux lost its hosting. As I&amp;rsquo;m less and less involved on third party projects, it was a bit hard for me to just put it somewhere else. Víctor, however, approached me and offered to pay for it. A few days later, we hosted Planeta Linux on one of his hosting instances. A big round of applause goes to him! He is the one making that community possible.</description>
+    </item>
+    
+    <item>
+      <title>Twitter de Planeta Linux</title>
+      <link>https://damog.net/blog/2008/09/11/twitter-de-planeta-linux/</link>
+      <pubDate>Thu, 11 Sep 2008 12:08:57 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/09/11/twitter-de-planeta-linux/</guid>
+      <description>Pues algunos de los que me siguen ya lo habrán visto: hemos colocado una cuenta de Twitter en donde se sindican los feeds de todas las instancias de Planeta Linux. Es una buena forma para seguirle la pista a los alrededor de 550 blogs que Planeta Linux abarca en sus doce instancias.
+http://twitter.com/planetalinux
+¡Disfrútenlo!</description>
+    </item>
+    
+  </channel>
+</rss>

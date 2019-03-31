@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tip Perl del día: chr y oct en un loop map | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Tip Perl del día: chr y oct en un loop map</span></h1>
+
+<p class="date">Mon 22 Oct 2007 06:50:03 AM UTC</p>
+</div>
+
+<main>
+<p>La función `map` de Perl es muy poderosa. O como diría entre cuates, *mucho muy* poderosa. Básicamente lo que hace es evaluar en un bloque, cada uno de los elementos de una lista.
+
+El día de hoy, en uno de los blogs que <a href="http://raquelhernandez.net/" target="_blank">mi chava</a> y yo (y otra bola de nacos por ahí de quienes estamos al pendiente) solemos visitar a menudo (porque es muy pendejo y nos gusta reírnos de vez en cuando), la escritora publicó <a href="http://plaqueta.blogspot.com/2007/10/ceros-y-unos-todo-bajo-control.html" target="_blank">un post</a> con cadenas en binario (típico entre personas que quieren parecer interesantes usando truquitos que siempre han existido). Como buen chismoso que soy, me di a la tarea de descifrar aquella maraña, pues suponía era un mensaje oculto. Como el resultado de dicha cadena es irrelevante aquí, crearé otra diferente que servirá para ejemplificar el tip del día.
+</p>
+
+<pre><code>my $string = &quot;10100001 01001000 01101111 01101100 01100001 00101100 00100000 01110011 01101111 01111001 00100000 01110101 01101110 00100000 01101101 01100101 01101110 01110011 01100001 01101010 01100101 00100000 01101111 01100011 01110101 01101100 01110100 01101111 00100000 01100101 01101110 00100000 01100011 01100101 01110010 01101111 01110011 00100000 01111001 00100000 01110101 01101110 01101111 01110011 00100001&quot;;
+</code></pre>
+
+<p>Ahora, con un poco de magia de <code>map</code>, podríamos iterar en cada uno de esos octales. Nos ayudaremos de split, para que haga la chamba:</p>
+
+<pre><code>map {
+    print chr oct &quot;0b&quot;.$_;
+} split /\s/, $string;
+</code></pre>
+
+<p>A <code>map</code>, le pasamos un arreglo. ¿Qué arreglo? El producido por split, que nos devuelve uno, precisamente, a partir de la cadena <code>$string</code> y el delimitador para separar cada uno de los elementos es <code>/\s/</code>, whitespace. Ya obtenido el arreglo, es pasado a <code>map</code> que toma cada uno de los elementos, les agrega el prefijo <code>0b</code>, para que Perl entienda que la cadena pasada es en realidad un dato binario. Luego <code>oct</code> toma esa cadena y la interpreta como una cadena octal y le pasa a <code>chr</code> el valor correspondiente. Éste último toma ese valor, representado por el número obtenido por <code>oct</code> y lo traduce a su caracter correspondiente en ASCII o Unicode. Ese valor, finalmente, se lo pasa a <code>print</code> que lo imprime en pantalla, desde luego :-)</p>
+
+<p>Le queda de tarea al lector descifrar lo que <code>$string</code> contenía. ;-) Próximo tip, relacionado con <code>map</code>: Divirtiéndonos con grep.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2007/10/22/uhm...-2/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2007/10/18/tip-perl-del-d%C3%ADa-0e0/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

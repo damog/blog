@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>notest from CPAN::Shell | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">notest from CPAN::Shell</span></h1>
+
+<p class="date">Tue 15 Sep 2009 10:11:37 AM UTC</p>
+</div>
+
+<main>
+<p>I implemented a simple <a href="http://github.com/planetalinux/planetalinux/blob/master/installdeps.pl">dependencies installer</a> for the <a href="http://github.com/planetalinux/planetalinux">new Planeta Linux</a>. I spent some time trying to find how to make <a href="https://metacpan.org/pod/CPAN#CPAN::Shell">CPAN::Shell</a>::install to install modules without running the test units, it&rsquo;s quite simple.</p>
+
+<pre><code>CPAN::Shell-&gt;rematein(&quot;notest&quot;, &quot;install&quot;, $module);
+</code></pre>
+
+<p>Kudos to <a href="http://shadow.cat/blog/matt-s-trout/">mst</a> for the pointer.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2009/10/05/perl-seminar-ny-2009-10-season-begins-tuesday-oct-20/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2009/09/07/living-supercentenarians/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

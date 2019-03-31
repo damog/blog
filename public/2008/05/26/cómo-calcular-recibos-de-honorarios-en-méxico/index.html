@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cómo calcular recibos de honorarios en México | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Cómo calcular recibos de honorarios en México</span></h1>
+
+<p class="date">Mon 26 May 2008 01:11:31 PM UTC</p>
+</div>
+
+<main>
+<p>Una vez que una persona está dada de alta en Hacienda y puede expedir recibos de honorarios por actividades profesionales extras, como muchos de nosotros, programadores y desarrolladores que nos salen chambitas eventuales, nos topamos a veces con que no entendemos cómo es que se calculan bien las cantidades para los recibos de honorarios. Y a mí también me ha pasado mucho hasta que realmente me puse a estudiar al respecto (en realidad no, pero <a href="http://www.flickr.com/photos/raquelydavid/2126893555/in/set-72157603513946786/">mi papá</a> me echó la mano entendiéndolo).</p>
+
+<p>Hay tres casos en la vida de un consultor que expedirá un recibo de honorarios. Digamos que hemos quedado de acuerdo que la programación del HolaMundo.pl va a costar $1&rsquo;000 pesos.
+<ol>
+    <li>Actividad limpia.</li>
+</ol>
+Es decir, quedas de acuerdo con quien te está empleando que las actividades que realizarás no les van a incluir impuestos. Ésto tiene sus ventajas buenas y malas, tanto para la empresa como para uno, pero puede darse. En ese caso, como es de acuerdo mutuo, haces tu trabajo y te pagan los 1&rsquo;000 pesos.</p>
+
+<ol>
+<li>Cantidad antes de impuestos.</li>
+</ol>
+
+<p>Ésto es lo que usualmente le conviene a las empresas. Al total pactado se le suma el IVA, luego del total pactado se calcula el 10% para retenciones, uno para la retención del IVA y otra para la retención del ISR. Finalmente, al subtotal se le restan ambas retenciones:
+<ul>
+    <li>Honorarios: $1&rsquo;000</li>
+    <li>+ IVA 15%: $150</li>
+    <li>Subtotal: $1&rsquo;150</li>
+    <li>- retención ISR 10%: $100</li>
+    <li>- retención IVA 10%: $100</li>
+    <li>Total a pagar: $950</li>
+</ul>
+A final de cuentas uno termina viendo un poco menos de lo que se pactó al principio, 5%.</p>
+
+<ol>
+<li>Cantidad después de impuestos (o «hacia arriba»).</li>
+</ol>
+
+<p>Para muchos de nosotros es mejor acordar que el costo total será, después del cálculo de impuestos. Se hace la misma operación, pero al revés, ahora los $1000 pesos deben terminar como el total a pagar. Primero dividimos esa cantidad por 0.95, para obtener la primera cantidad de honorarios, y luego hacemos el mismo mecanismo usado anteriormente:
+<ul>
+    <li>Yo quiero cobrar: $1&rsquo;000</li>
+    <li>David me dijo que divida entre 0.95 y da: $1&rsquo;052.63.</li>
+    <li>Honorarios: $1&rsquo;052.64</li>
+    <li>+ IVA 15%: $157.89</li>
+    <li>Subtotal: $1&rsquo;210.52</li>
+    <li>- retención IVA 10%: $105.26</li>
+    <li>- retención ISR 10%: $105.26</li>
+    <li>Total a pagar: $1&rsquo;000</li>
+</ul>
+¿Por qué entre 0.95? Porque esa es los $1&rsquo;000 son la cantidad que quieres obtener luego de agregar 15% y restar 20% por las retenciones.</p>
+
+<p>De cualquiera de ambas formas, a quien le das el recibo de honorarios debe darte un acuse de recibo de que se quedó con tus retenciones, cosa que tú presentarás ante el SAT a su debido tiempo.</p>
+
+<p>También suele suceder que la empresa te requiera el recibo de honorarios antes de que te paguen, precisamente para que el dinero pueda ser comprobado. Aunque este es un paso completamente innecesario es mejor respetarlo, en México las empresas hacen cosas muy raras para &ldquo;protegerse&rdquo;.</p>
+
+<p>Espero que te sirva.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2008/05/26/return-dumper-self-updates/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2008/05/22/im-back-2/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

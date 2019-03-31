@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Planetplanet on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/planetplanet/</link>
+    <description>Recent content in Planetplanet on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Nov 2009 19:06:50 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/planetplanet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The new Planeta Linux engine</title>
+      <link>https://damog.net/blog/2009/11/11/the-new-planeta-linux-engine/</link>
+      <pubDate>Wed, 11 Nov 2009 19:06:50 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/11/the-new-planeta-linux-engine/</guid>
+      <description>So I&amp;rsquo;ve spent quite some time in the last couple of months (whenever I had a chance, actually), to redesign how the core of Planeta Linux works, and I&amp;rsquo;ll explain all the changes I&amp;rsquo;ve made to make it a much better solution that fully fits our current needs. If you are reading this with a feed reader, star this item, share the item, retweet the post! Let everyone know we are doing this for the Linux Latin American community!</description>
+    </item>
+    
+  </channel>
+</rss>

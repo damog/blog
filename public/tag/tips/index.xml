@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/tips/</link>
+    <description>Recent content in Tips on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Mar 2011 14:47:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Disable Nginx logging</title>
+      <link>https://damog.net/blog/2011/03/24/disable-nginx-logging/</link>
+      <pubDate>Thu, 24 Mar 2011 14:47:07 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2011/03/24/disable-nginx-logging/</guid>
+      <description>This is something that is specified clearly on the Nginx manual, but it&amp;rsquo;s nice to have it as a quick reference.
+The access_log and error_log directives on Nginx are on separate modules (HTTP Log and Core modules respectively) and they don&amp;rsquo;t behave the same way when all you want is to disable all logging on your server (in our case, we serve a gazillion static files and perform a lot of reverse proxying and we&amp;rsquo;re not interested on tracking that).</description>
+    </item>
+    
+    <item>
+      <title>Running find with two or more commands to -exec</title>
+      <link>https://damog.net/blog/2010/09/28/running-find-with-two-or-more-commands-to-exec/</link>
+      <pubDate>Tue, 28 Sep 2010 12:02:38 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/09/28/running-find-with-two-or-more-commands-to-exec/</guid>
+      <description>I spent a couple of minutes today trying to understand how to make find (1) to execute two commands on the same target.
+Instead of this or any similar crappy variants:
+$ find . -type d -iname &amp;quot;*0&amp;quot; -mtime +60 -exec scp -r -P 1337 &amp;quot;{}&amp;quot; &amp;quot;meh.server.com:/mnt/1/backup/storage&amp;quot; &amp;amp;&amp;amp; rm -rf &amp;quot;{}&amp;quot; \;  Try something like this:
+$ find . -type d -iname &amp;quot;*0&amp;quot; -mtime +60 -exec scp -r -P 1337 &amp;quot;{}&amp;quot; &amp;quot;meh.</description>
+    </item>
+    
+    <item>
+      <title>Perl 5.12&#39;s each function</title>
+      <link>https://damog.net/blog/2010/09/23/perl-5.12s-each-function/</link>
+      <pubDate>Thu, 23 Sep 2010 17:21:46 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/09/23/perl-5.12s-each-function/</guid>
+      <description>With Perl 5.12 released earlier this summer, the each function got a nice little addition that I&amp;rsquo;d like to talk about: It now has the ability to work on arrays, not only key-value pair hashes, but not exactly as you&amp;rsquo;d expect it (not like Ruby&amp;rsquo;s each method).
+The traditional way to work with each, using a hash:
+my %h = ( a =&amp;gt; 1, b =&amp;gt; 2, c =&amp;gt; 3, ); while(my($key, $value) = each %h) { say &amp;quot;index: $key =&amp;gt; value: $value&amp;quot;; }  And the output.</description>
+    </item>
+    
+    <item>
+      <title>FeatherCast: Apache Software Foundation /unofficial/ podcast</title>
+      <link>https://damog.net/blog/2009/01/17/feathercast-apache-software-foundation-/unofficial/-podcast/</link>
+      <pubDate>Sat, 17 Jan 2009 14:41:32 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/17/feathercast-apache-software-foundation-/unofficial/-podcast/</guid>
+      <description>I recently stumbled upon FeatherCast, a nice little project made by Rich Bowen and David Reid, the former, a recognized documenter within the Apache community, author of a few books on the webserver, mainly the Apache Cookbook. FeatherCast is an unofficial podcast; its primary goal is supporting the Apache Software Foundation community. I&amp;rsquo;ve found it to be greatly interesting, modern and up to date; more recently, bringing lights to some of the content and people, for instance, featured on ApacheCon, which took place in New Orleans, LA, late last year.</description>
+    </item>
+    
+    <item>
+      <title>Good looking Irb</title>
+      <link>https://damog.net/blog/2008/12/29/good-looking-irb/</link>
+      <pubDate>Mon, 29 Dec 2008 10:01:51 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/12/29/good-looking-irb/</guid>
+      <description>Irb is a pain to work with&amp;hellip; when you don&amp;rsquo;t know it enough. Fortunately, it can be configured extensively enough to make your Ruby interactive sessions much smoother. Pocahontas asked me to post my Irb configuration: # ~/.irbrc IRB.conf[:AUTO_INDENT] = true IRB.conf[:USE_READLINE] = true IRB.conf[:SAVE_HISTORY] = 5000 IRB.conf[:HISTORY_FILE] = &amp;ldquo;#{ENV[&amp;lsquo;HOME&amp;rsquo;]}/.irb_history&amp;rdquo; IRB.conf[:PROMPT_MODE] = :SIMPLE
+require &amp;lsquo;irb/completion&amp;rsquo; require &amp;lsquo;irb/ext/save-history&amp;rsquo; require &amp;lsquo;pp&amp;rsquo;
+load rubygems and wirble require &amp;lsquo;rubygems&amp;rsquo; rescue nil require &amp;lsquo;wirble&amp;rsquo; require &amp;lsquo;utility_belt&amp;rsquo;</description>
+    </item>
+    
+    <item>
+      <title>Two Git tips</title>
+      <link>https://damog.net/blog/2008/12/12/two-git-tips/</link>
+      <pubDate>Fri, 12 Dec 2008 23:52:28 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/12/12/two-git-tips/</guid>
+      <description>Following the Git tips being thrown on Planet Debian, here&amp;rsquo;s a couple:
+1. Changing into a directory that contains a repo and shows you on PS1 what branch you are standing on:
+ On .bashrc I have: GITPS1=&amp;lsquo;$(__git_ps1 &amp;ldquo;:%s &amp;ldquo;)&amp;rsquo; export PS1=&amp;ldquo;${GREEN}\w${RS} ${YELLOW}${GITPS1}${RS}\$ &amp;ldquo; 2. An alias I like to use on repos that are personal for quick tracking:
+ [alias] &amp;hellip; log1 = log &amp;ndash;pretty=oneline &amp;ndash;abbrev-commit I hope you like them.</description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t usually take the queen out too soon</title>
+      <link>https://damog.net/blog/2008/07/04/dont-usually-take-the-queen-out-too-soon/</link>
+      <pubDate>Fri, 04 Jul 2008 13:40:29 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/07/04/dont-usually-take-the-queen-out-too-soon/</guid>
+      <description>And this is the perfect example. While I had a wonderful position, my opponent failed by trying to checkmate me too soon, and it took me some time to figure out a way to mate him myself. I consider a bit disrespectful to take the queen out too soon. See the game here. No more PGNs for you.</description>
+    </item>
+    
+  </channel>
+</rss>

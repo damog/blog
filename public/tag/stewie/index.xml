@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stewie on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/stewie/</link>
+    <description>Recent content in Stewie on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Oct 2008 15:21:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/stewie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mi estado actual</title>
+      <link>https://damog.net/blog/2008/10/25/mi-estado-actual/</link>
+      <pubDate>Sat, 25 Oct 2008 15:21:27 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/10/25/mi-estado-actual/</guid>
+      <description>Mi estado físico y mental actual es fielmente representado por esta imagen de Stewie: 
+Sí, así es.</description>
+    </item>
+    
+  </channel>
+</rss>

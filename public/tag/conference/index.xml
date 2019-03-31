@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conference on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/conference/</link>
+    <description>Recent content in Conference on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Nov 2009 20:15:45 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/conference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wonderful WordCamp NYC experience</title>
+      <link>https://damog.net/blog/2009/11/15/wonderful-wordcamp-nyc-experience/</link>
+      <pubDate>Sun, 15 Nov 2009 20:15:45 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/15/wonderful-wordcamp-nyc-experience/</guid>
+      <description>I had a blast on Saturday. Let me put it again in bold, I had an awesome experience yesterday at WordCamp NYC. If you ever have the opportunity, you shouldn&amp;rsquo;t miss the chance to attend one of them, it&amp;rsquo;s really inspiring, people is very, very welcome and I loved the fact that there&amp;rsquo;s so many people with all sorts of backgrounds and focused on many fronts on the Web and blogging world, not just technical.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The new Planeta Linux engine | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">The new Planeta Linux engine</span></h1>
+
+<p class="date">Wed 11 Nov 2009 07:06:50 PM UTC</p>
+</div>
+
+<main>
+
+
+<p>So I&rsquo;ve spent quite some time in the last couple of months (whenever I had a chance, actually), to redesign how the core of <a href="http://planetalinux.org">Planeta Linux</a> works, and I&rsquo;ll explain all the changes I&rsquo;ve made to make it a much better solution that fully fits our current needs. If you are reading this with a feed reader, <strong>star this item, share the item, retweet the post</strong>! Let everyone know we are doing this for the Linux Latin American community!</p>
+
+<p><img src="/files/misc/planetalinux-125x125.jpg" alt="http://planetalinux.org/" /></p>
+
+<p>If you&rsquo;re naive enough, you&rsquo;ll think about Planeta Linux as a simple <a href="http://planetplanet.org">Planet</a> aggregation instance with a different set of people collections, which we used to call, ironically, instances, which aren&rsquo;t anything else but countries. If you don&rsquo;t know how we&rsquo;ve been doing Planeta Linux for almost <strong><a href="/blog/2004/10/12/planetalinux/">five years now</a></strong>, you&rsquo;ll think it&rsquo;s all just <code>config.ini</code> being fed to the <code>planetplanet</code> binary. Well, it has been like that, yes, but having a big set of planets (more than ten now) makes it a bit of a hassle to do any changes or try to do anything else but add, edit and remove people. The way we were handling it with Apache was already documented in the <a href="/blog/2008/11/15/configuracion-dinamica-en-apache/">past</a>.</p>
+
+<p>Some of the multiple issues Planeta Linux has had in the past could be summarized as:</p>
+
+<ul>
+<li>Inability to have a unified templates set.</li>
+<li>Repeated feeds of the same person on multiple countries.</li>
+<li>Inability to know when a feed started to properly return valid items.</li>
+<li>Error-prone parsing.</li>
+<li>Difficulty to test on local environments.</li>
+<li>Decentralized subdomains with difficulty on sharing content or awkward navigation between contries.</li>
+</ul>
+
+<p>And the list could go on. I realized this was a huge pain in the ass when I had the intention to centralize the subdomains into a single one: Instead of using the model <code>$country.planetalinux.org</code>, everything would have to come out from just <code>planetalinux.org</code>. Changing to that on our previous scheme was simply an <em>hemorrhoid</em>. So, I changed it all and the new model is much better and robust, even though you probably don&rsquo;t see a single difference on the current Planeta Linux output.</p>
+
+<p><img src="/old/stereonaut/2009/11/authors-file.jpg" alt="" /></p>
+
+<p>I started by getting rid of the horrible <code>config.ini</code> editing. Whenever you want to add an author, you simple drop a YAML file into the authors directory. It doesn&rsquo;t matter the location of the file as long as it&rsquo;s inside the <code>authors</code> directory. When I started importing all of the subscribers, I ended up with more than <strong>620+ author files</strong> so I made a simple separation of files a-la CPAN: <code>authors/d/da/david_moreno.yml</code>. But at the end, it doesn&rsquo;t really matter, a) what your file is named, and b) where you put it, they will all get parsed and interpreted. Now, inside that YAML file there&rsquo;s a bunch of goodies. Firstly, you have the feed URL, the name of the person, his or her email, an array of countries where the feed should be aggregated into and other stuff such as the path for the hackergotchi, a <code>twitter</code> parameter for the <a href="http://twitter.com/">Twitter</a> feed, an <code>enabled</code> switch, etc. The good thing about it is that you can have all the parameters you want so we can build on top of that later (maybe identica profiles, LastFM usernames, whatever).</p>
+
+<p>One of my future intentions is to have also an array of feeds on each author file which would empower us to have the same info for several feeds. With the new model, this should be much easier to implement anyway.</p>
+
+<p>Anyway, basically, when you want to add or edit a feed, you just edit or drop the file on the authors directory. <strong>KISS</strong>.</p>
+
+<p>Second big change, we switched to <a href="http://intertwingly.net/code/venus/">Planet Venus</a>, as opposed to just Planet for the aggregation engine and you no longer need to have it installed since it&rsquo;s included now on the entire Planeta Linux tree under the <code>venus</code> directory. Venus implements a whole new world of features and good stuff on top of Planet, it was just a no-brainer to switch to it.</p>
+
+<p>However, Venus still requires <code>config.ini</code> for each of its instances, so this is where the whole build process comes to play. I implemented a tool, <code>script/build</code> that does exactly that, it gathers all the info from authors and builds each of the countries. To create a new country, you just basically only have to add it to <code>config/countries.list</code>. The build script will use all of them as tasks and execute them at will.</p>
+
+<p>Now, how the build tool works? As said, it gathers the data from authors and generates a <code>config.ini</code> on the fly. There&rsquo;s a <code>config.ini</code> template file on the template directory, as well as an <code>index.html</code> template (and <code>rss.xml</code>), and for the build script, it&rsquo;s just another <a href="http://template-toolkit.org/">TT</a> file so you can do all sorts of awesome and crazy shit with it. So it&rsquo;s all generated dynamically, with the information from authors, information from the <code>config</code> directory and it dumps it all on the <code>www</code> directory. Because of that, you can generate your own working copy of Planeta Linux or implement others or just play with it!</p>
+
+<p>So basically, the whole process is like this for each of the countries:</p>
+
+<p><img src="/old/stereonaut/2009/11/build-process.jpg" alt="" /></p>
+
+<p>The good thing about it is that there&rsquo;s no interaction for the administrator to deal with the config.ini either when adding an instance since I integrated a tool that adds a new subscriber to the authors tree automatically:</p>
+
+<pre><code>~/axiombox/planetalinux :master $ ./script/planetalinux.pl help add
+planetalinux.pl add [-p] [long options...]
+
+Adds a new author to Planeta Linux. The name, email, feed URL and
+country where to place the author are mandatory. If the hackergotchi
+image path is provided, the script will check the size for the image
+and resize it if needed (ImageMagick needed). Any other flags and
+values passed to this command will be appended on the resulting
+YAML file.
+
+Examples:
+
+./script/planetalinux.pl add \
+--feed http://example.com/feed \
+--name &amp;amp;amp;quot;Tía Chonita&amp;amp;amp;quot; \
+--email tia@chonita.com \
+--countries ve \
+--hackergotchi ~/images/chonita.jpg \
+--twitter @chonita
+
+./script/planetalinux.pl add \
+--feed http://blog.wordpress.com/feed/atom \
+--name &amp;amp;amp;quot;Isela Crelló&amp;amp;amp;quot; \
+--email yeah@yeah.com.mx \
+--countries mx,sv,gt \
+
+./script/planetalinux.pl add \
+--feed http://cofradia.sucks/feed \
+--portal \
+...etc
+
+--feed feed URL -- mandatory
+--name name of author of feed -- mandatory
+--email email of author of feed -- mandatory
+--countries country(ies) of author -- mandatory
+--hackergotchi path to the hackergotchi image -- optional
+-p --portal portal site flag -- optional
+--twitter twitter feed of author -- optional
+
+~/axiombox/planetalinux :master $
+</code></pre>
+
+<p>Cool things about this new &ldquo;adder&rdquo; script:</p>
+
+<ul>
+<li>It ensures that the author has an stored feed, name, email and country, at the very least.</li>
+<li>It checks whether the URL is a valid feed URL against the <a href="http://validator.w3.org/feed/">W3C feed validator</a>.</li>
+<li>It checks that the email is valid.</li>
+<li>It checks that the countries specified are supported by the system.</li>
+<li><strong>It takes a file path for the hackergotchi and using <a href="http://www.imagemagick.org/script/index.php">ImageMagick</a>, it resizes it, converts it into the proper image type and places it under the appropiate image heads path.</strong></li>
+<li>It creates the YAML and places under an appropriate location under the authors directory.</li>
+<li>It&rsquo;s awesome :)</li>
+</ul>
+
+<h3 id="tutorial">Tutorial</h3>
+
+<p>Now, one of the good things about all of this is that you can create your own Planeta Linux running right there on your machine, given that well, it&rsquo;s just a nice big glue involving Perl for the processing, Python for the parsing and aggregation, the cache is stored on the tree as well, etc.</p>
+
+<p>To start, you&rsquo;ll have to clone the repository if you haven&rsquo;t done it yet:</p>
+
+<pre><code>$ git clone git://github.com/planetalinux/planetalinux.git
+</code></pre>
+
+<p>Change the directory to the repository and just run the dependencies installer for all of the modules used:</p>
+
+<pre><code>$ sudo perl installdeps.pl
+</code></pre>
+
+<p>Note that you&rsquo;ll have to be running <a href="http://dev.perl.org/perl5/news/2007/perl-5.10.0.html">perl 5.10</a> (it&rsquo;s been stable for almost two years now, dude! <strong>Upgrade</strong>!). If you already have most of the modules installed on your system, this shouldn&rsquo;t take that long. If you have nearly no Perl modules installed, it will probably take a little while. It might even need your intervention for some basic CPAN configuration. Once it&rsquo;s done, you should see something like this, at the end of the output:</p>
+
+<pre><code>.. testing loading modules...
+- App::Cmd
+- App::PPBuild
+- Config::IniFiles
+- Data::Validate::Email
+- DateTime
+- File::MimeInfo::Simple
+- File::Path
+- Modern::Perl
+- Net::Domain::ES::ccTLD
+- Template
+- WebService::Validator::Feed::W3C
+- YAML::Syck
+
+.. done. enjoy!
+
+.. please make sure you have PerlMagick installed.
+.. the recommended way is: `port install p5-perlmagick` in Mac,
+.. ..or 'aptitude install perlmagick' in Debian/Ubuntu.
+</code></pre>
+
+<p>Now, for the <a href="http://www.imagemagick.org/script/perl-magick.php">ImageMagick Perl bindings</a> (for the &ldquo;adder&rdquo; funcionality) you&rsquo;ll need to install it depending on your operating system. If you are running some flavor of Debian (or Ubuntu), you just have to install the perlmagick package. On MacOS, I recommend installing the ImageMagick MacPorts port with the <code>+perl</code> flag. Depending on your configuration, you might need to install the <code>Image::Magick</code> module either from the CPAN shell or downloading it from web. Once all of that is done, you can just fire up the building system:</p>
+
+<pre><code>$ ./script/build all
+</code></pre>
+
+<p>You can just fire up a single country or other tasks by seeing which ones are available:</p>
+
+<pre><code>$ ./script/build --tasks
+</code></pre>
+
+<p>At this point you can go to your browser and navigate to the <code>www</code> directory on the repository where all the output has been dumped.</p>
+
+<p>If you have any issues running your own local copy of Planeta Linux, please put a comment on this post, I&rsquo;ll glad you help you solve it and you&rsquo;ll be helping us making Planeta Linux much better than ever.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2009/11/15/wonderful-wordcamp-nyc-experience/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2009/11/10/attending-wordcamp-nyc/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conferences on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/conferences/</link>
+    <description>Recent content in Conferences on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Dec 2013 14:17:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/conferences/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FOSDEM 2014</title>
+      <link>https://damog.net/blog/2013/12/28/fosdem-2014/</link>
+      <pubDate>Sat, 28 Dec 2013 14:17:52 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2013/12/28/fosdem-2014/</guid>
+      <description>I just booked my train tickets for FOSDEM 2014. Accommodation will be sorted out later.
+This year I planned it well in advance to get decent prices for Thalys, unlike last year that we ended up riding the slow trains that stop in every single town in the Netherlands and Belgium taking forever.
+See you there!</description>
+    </item>
+    
+    <item>
+      <title>FOSDEM 2013</title>
+      <link>https://damog.net/blog/2013/01/26/fosdem-2013/</link>
+      <pubDate>Sat, 26 Jan 2013 16:57:09 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2013/01/26/fosdem-2013/</guid>
+      <description>One of the conferences that I always wanted to attend is FOSDEM. Now, since I live close enough to Brussels, it&amp;rsquo;d be a gigantic letdown not to make it there next weekend. I plan to be in Brussels Fri to Sun, see you there!</description>
+    </item>
+    
+  </channel>
+</rss>

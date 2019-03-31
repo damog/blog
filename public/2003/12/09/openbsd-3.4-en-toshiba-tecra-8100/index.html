@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OpenBSD 3.4 en Toshiba Tecra 8100 | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">OpenBSD 3.4 en Toshiba Tecra 8100</span></h1>
+
+<p class="date">Tue 09 Dec 2003 07:22:43 PM UTC</p>
+</div>
+
+<main>
+
+
+<p>Bueno, tratando de colaborar un poco con la documentación de OpenBSD en lo referente a mi computadora, quiero escribir un poco de mis aventuras y vivencias instalando el sistema operativo que hasta ahora me ha dejado un excelente sabor de boca.</p>
+
+<p>Tengo que aclarar que no soy ningún gurú sobre esto. Todo lo que escribo son las experiencias de un novato instalando su primer sistema *BSD.</p>
+
+<p>Aclarado lo anterior, procedamos.</p>
+
+<p>Un par de características rápidas de mi máquina:
+<li>Procesador Pentium III 795&#160;MHz (que por alguna extraña razón me lo detecta sólo a 392&#160;MHz).</li>
+<li>256&#160;MB RAM.</li>
+<li>20&#160;GB HD.</p>
+
+<p>Pues bueno, el primer problema que tuve es que mi computadora no podía bootear el CD de OpenBSD, cosa similar ya me había pasado alguna vez curioseando con FreeBSD y NetBSD, con puro BSD, ni siquiera la vez que instalé BeOS me produjo esos problemas el booteo del CD. En fin, gracias al <a href="http://web.archive.org/web/20031226230140/http://www.mig-29.net/">MiG</a> aquella vez pudimos forzar el booteo del CD con el binario `smbinst&#8217; del <a href="http://web.archive.org/web/20031226230140/http://btmgr.sourceforge.net/">Smart BootManager</a>. Esta vez también lo ocupé, bajé el binario y se instaló sobre el MBR, todo desde Debian. Cabe aclarar que mi laptop no tiene floppy interno, y no cuento con uno externo, por eso se me complicó más; de tener el floppy hubiera sido <a href="http://web.archive.org/web/20031226230140/http://openbsd.org/faq/faq4.html#UnixFlop">bastante sencillo y rápido</a>.</p>
+
+<p>En fin, comencé la instalación, la cual es bastante sencilla, muy amigable, además, el multipremiado <a href="http://web.archive.org/web/20031226230140/http://www.openbsd.org/faq/faq.html">FAQ</a> de OpenBSD está muy bien detallado, todo estupendamente escrito.</p>
+
+<p>Previamente ya había realizado mis particiones para OpenBSD, Debian, Fedora (o Mandrake, o alguna otra distribución cucha :P) y Windows.
+<pre># fdisk wd0
+Disk: wd0       geometry: 2432/255/63 [39070080 Sectors]
+Offset: 0       Signature: 0xAA55
+Starting       Ending       LBA Info:</p>
+
+<h2 id="id-c-h-s-c-h-s-start-size">#: id    C   H  S -    C   H  S [       start:      size   ]</h2>
+
+<p>*0: A6  203   1  1 -  972 254 63 [     3261258:    12369987 ] OpenBSD
+1: 0B  973   0  1 - 1458 254 63 [    15631245:     7807590 ] Win95 FAT-32
+2: 05 1459   0  1 - 2431 254 63 [    23438835:    15631245 ] Extended DOS
+3: 00    0   0  0 -    0   0  0 [           0:           0 ] unused
+Offset: 23438835        Signature: 0xAA55
+Starting       Ending       LBA Info:</p>
+
+<h2 id="id-c-h-s-c-h-s-start-size-1">#: id    C   H  S -    C   H  S [       start:      size   ]</h2>
+
+<p><em>0: 83 1459   1  1 - 2370 254 63 [    23438898:    14651217 ] Linux files</em>
+1: 05 2371   0  1 - 2431 254 63 [    38090115:      979965 ] Extended DOS
+2: 00    0   0  0 -    0   0  0 [           0:           0 ] unused
+3: 00    0   0  0 -    0   0  0 [           0:           0 ] unused
+Offset: 38090115        Signature: 0xAA55
+Starting       Ending       LBA Info:</p>
+
+<h2 id="id-c-h-s-c-h-s-start-size-2">#: id    C   H  S -    C   H  S [       start:      size   ]</h2>
+
+<p>0: 82 2371   1  1 - 2431 254 63 [    38090178:      979902 ] Linux swap
+1: 00    0   0  0 -    0   0  0 [           0:           0 ] unused
+2: 00    0   0  0 -    0   0  0 [           0:           0 ] unused
+3: 00    0   0  0 -    0   0  0 [           0:           0 ] unused
+#</pre>
+Y mis `rebanadas&#8217; de la partición de OpenBSD quedaron así:
+<pre># disklabel wd0</p>
+
+<h1 id="using-mbr-partition-0-type-a6-off-3261258-0x31c34a-size-12369987-0xbcc043">using MBR partition 0: type A6 off 3261258 (0x31c34a) size 12369987 (0xbcc043)</h1>
+
+<h1 id="dev-rwd0c">/dev/rwd0c:</h1>
+
+<p>type: ESDI
+disk: ESDI/IDE disk
+label: IC25N020ATCS04-0
+flags:
+bytes/sector: 512
+sectors/track: 63
+tracks/cylinder: 16
+sectors/cylinder: 1008
+cylinders: 16383
+total sectors: 39070080
+rpm: 3600
+interleave: 1
+trackskew: 0
+cylinderskew: 0
+headswitch: 0           # microseconds
+track-to-track seek: 0  # microseconds
+drivedata: 0</p>
+
+<p>16 partitions:</p>
+
+<h1 id="size-offset-fstype-fsize-bsize-cpg">size   offset    fstype   [fsize bsize   cpg]</h1>
+
+<p>a:   511686  3261258    4.2BSD     2048 16384   328   # (Cyl. 3235<em>- 3742)
+b:   819504  3772944      swap                        # (Cyl. 3743 - 4555)
+c: 39070080        0    unused        0     0         # (Cyl.    0 - 38759)
+d:   368928  4592448    4.2BSD     2048 16384   328   # (Cyl. 4556 - 4921)
+e:   245952  4961376    4.2BSD     2048 16384   244   # (Cyl. 4922 - 5165)
+g:  6758640  5207328    4.2BSD     2048 16384   328   # (Cyl. 5166 - 11870)
+h:  3665277 11965968    4.2BSD     2048 16384   328   # (Cyl. 11871 - 15507</em>)
+i:  7807590 15631245     MSDOS                        # (Cyl. 15507<em>- 23252</em>)
+j: 14651217 23438898    ext2fs                        # (Cyl. 23252<em>- 37787</em>)
+k:   979902 38090178   unknown                        # (Cyl. 37787*- 38759)
+#</pre>
+Particioné de esa forma, debido a que el FAQ lo marca de esa manera, únicamente que le agregué tamaño a las rebanadas, para aprovechar toda la partición de Open. Los puntos de montaje quedaron así:
+<pre># more /etc/fstab
+/dev/wd0a / ffs rw 1 1
+/dev/wd0h /home ffs rw,nodev,nosuid 1 2
+/dev/wd0d /tmp ffs rw,nodev,nosuid 1 2
+/dev/wd0g /usr ffs rw,nodev 1 2
+/dev/wd0e /var ffs rw,nodev,nosuid 1 2
+#</pre>
+;-)</p>
+
+<p>Quise poner toda la explicación sobre el disco duro debido a que toda la instalación es bastante sencilla, esa parte es lo único que nos produce muchos problemas a las personas que empezamos en el mundo BSD, pero una vez estudiando bien, es bastante agradable.</p>
+
+<p>Todo lo demás de la instalación es bastante intuitivo y rápido. Todo lo demás jaló de pelos.</p>
+
+<p>Generé mi configuración de X con xf86config y corre bastante bien XFree86&#160;4.3 con mi tarjeta de video (más abajo, pongo mi dmesg para ver más especificaciones).</p>
+
+<p>Algo que me produjo una enorme sorpresa fue la forma en que OpenBSD maneja USB. Acá en el trabajo tengo un mouse Microsoft IntelliMouse USB, me decidí a configurarlo. Lo enchufé en el puerto y maravilla, jaló inmediatamente. Caray, eso sí es bonito ;-)</p>
+
+<p>Otra cosa que me encantó fue ver cómo se levantó mi tarjeta de red inalámbrica, y lo mejor de todo, cosa que siempre busqué con el kernel por default de Debian, limpieza. El kernel vomitaba una cantidad enorme de errores con la tarjeta de red inalámbrica, y con OpenBSD es bastante limpio.</p>
+
+<p>El sonido también fue automático. Instalé <code>xcdplayer&amp;#8217; y</code>aumix&#8217; y pude escuchar un CD de música, para probar el sonido automáticamente.</p>
+
+<p>Cabe decir que no estoy ocupando el sistema como servidor, es mi laptop, la estoy usando como workstation para un par de cosas en el trabajo y de proyectos personales, pero no como escritorio (aunque realizo muchas actividades también de escritorio: IRC, IM, audio, etc).</p>
+
+<p>En fin&#8230; <a href="http://web.archive.org/web/20031226230140/http://www.damog.net/files/xf86config-openbsd34-damog.txt?PHPSESSID=b35e73a509d50b80c0c8eb29a7c802d2">Acá</a> se puede encontrar mi XF86Config y <a href="http://web.archive.org/web/20031226230140/http://www.damog.net/files/dmesg-openbsd34-damog.txt?PHPSESSID=b35e73a509d50b80c0c8eb29a7c802d2">aquí</a> mi dmesg.</p>
+
+<p>También he tenido problemas con el ventilador. En Linux utilizaba el paquete `toshutils&#8217;, pero por acá <a href="http://web.archive.org/web/20031226230140/http://www.damog.net/index.php?gadget=blog&amp;action=single_view&amp;id=70&amp;PHPSESSID=b35e73a509d50b80c0c8eb29a7c802d2">no he podido</a>. Tendré que buscar un poco más de información.</p>
+
+<p><strong>Recomendación:</strong> Si quieren hacer una instalación de OpenBSD, compren CD&#8217;s originales. Ayudará al proyecto, los ayudará a ustedes, pues a la larga es mejor tener los paquetes precompilados disponibles, el árbol de ports y demás, en sus CD&#8217;s, además de que el arte y el diseño es muy bello.</p>
+
+<dl>
+<dt>En fin, me agradó mucho el sistema, hasta ahora. Sigo conociéndolo y asombrándome de la simplicidad, de la limpieza, de la flexibilidad y demás. Y muchísimas <strong>gracias</strong> a todos aquellos que me ayudaron: Al <a href="http://web.archive.org/web/20031226230140/http://www.mig-29.net/">MiG</a>, por recomendarme tanto los sistemas operativos *BSD; a <a href="http://web.archive.org/web/20031226230140/http://bsdcoders.org/%7Ealex">Alex</a>, por conminarme a seguir aprendiendo sobre OpenBSD, aún cuando no le parezcan interesantes mis preguntas :P; a <a href="http://web.archive.org/web/20031226230140/http://www.tungsteno.com/">Wulfrano</a>, por hacer la imagen de OpenBSD 3.4 y por inspirarme a instalarlo gracias a su conferencia del ESIME, y en general a toda la banda.</dt>
+</dl>
+
+<p>:-D</li></p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2003/12/13/jaws-links-gadget/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2003/12/08/viaje-parte-dos/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

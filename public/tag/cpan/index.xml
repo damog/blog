@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cpan on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/cpan/</link>
+    <description>Recent content in Cpan on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Mar 2012 11:19:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/cpan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Geo::PostalCode::NoDB 0.01</title>
+      <link>https://damog.net/blog/2012/03/21/geopostalcodenodb-0.01/</link>
+      <pubDate>Wed, 21 Mar 2012 11:19:17 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2012/03/21/geopostalcodenodb-0.01/</guid>
+      <description>Geo::PostalCode is a great Perl module. It lets you find surrounding postal areas (zip codes) around a given an amount of miles (radius), calculate distance between them, among other nice features. Sadly, I couldn&amp;rsquo;t get it to work with updated data and because the file its Berkely DB installer was producing was not being recognized by its parser, which bases off on DB_File. Since I was able to find working data for the source of zip codes, I ended up hacking the module and producing a version with no Berkeley DB support.</description>
+    </item>
+    
+    <item>
+      <title>Vitacilina now in Debian &#43; 0.2 released!</title>
+      <link>https://damog.net/blog/2009/11/29/vitacilina-now-in-debian-0.2-released/</link>
+      <pubDate>Sun, 29 Nov 2009 14:24:51 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/29/vitacilina-now-in-debian-0.2-released/</guid>
+      <description>Remember Vitacilina? A small aggregation library I wrote last year to be intended to replace Planet on Planeta Linux? Well, it never quite replaced it but it achieved some level of stability since I was using it for a number of tasks at work. So, during this long holiday weekend, I received a notification that the Request To Package bug I had filled against the Work-Needing and Prospective Packages in Debian has already been taken care of and the library had been uploaded.</description>
+    </item>
+    
+    <item>
+      <title>notest from CPAN::Shell</title>
+      <link>https://damog.net/blog/2009/09/15/notest-from-cpanshell/</link>
+      <pubDate>Tue, 15 Sep 2009 10:11:37 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/09/15/notest-from-cpanshell/</guid>
+      <description>I implemented a simple dependencies installer for the new Planeta Linux. I spent some time trying to find how to make CPAN::Shell::install to install modules without running the test units, it&amp;rsquo;s quite simple.
+CPAN::Shell-&amp;gt;rematein(&amp;quot;notest&amp;quot;, &amp;quot;install&amp;quot;, $module);  Kudos to mst for the pointer.</description>
+    </item>
+    
+    <item>
+      <title>Net::Domain::ES::ccTLD</title>
+      <link>https://damog.net/blog/2009/09/01/netdomainescctld/</link>
+      <pubDate>Tue, 01 Sep 2009 15:28:23 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/09/01/netdomainescctld/</guid>
+      <description>As I&amp;rsquo;m rewriting the core of Planeta Linux (you can track progress here), I needed a reliable way to map a country TLD to its Spanish name. I headed to metaCPAN to see what was already built to do that and found out Locales::Country that looked awesome but didn&amp;rsquo;t work for me, code2country(&#39;ni&#39;) would return undef for me, plus the countries that were actually there had the encoding all fubar, so fuck it, drop it.</description>
+    </item>
+    
+    <item>
+      <title>Quick feed aggregation with Vitacilina</title>
+      <link>https://damog.net/blog/2009/01/29/quick-feed-aggregation-with-vitacilina/</link>
+      <pubDate>Thu, 29 Jan 2009 21:36:06 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/29/quick-feed-aggregation-with-vitacilina/</guid>
+      <description>Vitacilina, ¡ah, qué buena medicina!
+A few months ago. Maybe more than a year, I started hacking on Vitacilina, which was meant to be the replacement for Planet on all countries Planeta Linux supports. I was doing well, I even hosted the code back then in Google Code. Later, I forgot about it, but I&amp;rsquo;d always been wanting to replace Planet with some homebrew solution for the Planeta Linux community. Anyway, that hasn&amp;rsquo;t happened yet.</description>
+    </item>
+    
+  </channel>
+</rss>

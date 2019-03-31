@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spain on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/spain/</link>
+    <description>Recent content in Spain on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Jan 2010 14:02:03 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/spain/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cherokee Summit 2010</title>
+      <link>https://damog.net/blog/2010/01/12/cherokee-summit-2010/</link>
+      <pubDate>Tue, 12 Jan 2010 14:02:03 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/01/12/cherokee-summit-2010/</guid>
+      <description>The Cherokee web server project is hosting the Cherokee Summit 2010 in Madrid, Spain on May 7th and 8th. The summit will be focused on high-performance and scalable Web technologies. I truly believe this is a major opportunity for hackers, developers and administrators looking for the new alternatives on the Web to bond and share experiences to benefit each other&amp;rsquo;s projects and enterprises, and keep up to date on this field.</description>
+    </item>
+    
+    <item>
+      <title>Back from Spain</title>
+      <link>https://damog.net/blog/2009/08/07/back-from-spain/</link>
+      <pubDate>Fri, 07 Aug 2009 16:42:24 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/07/back-from-spain/</guid>
+      <description>We got back from Spain yesterday. It was a nice overall vacation experience but a little too long for our own style and like, specially after spending two weeks in Mexico City. Lots of photos (at least some) are on our Flickr and some more on my TwitPic.
+I couldn&amp;rsquo;t be happier to be back in New York.</description>
+    </item>
+    
+  </channel>
+</rss>

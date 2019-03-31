@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>lib/active_record/base.rb:2808:in `attributes_with_quotes&#39;: undefined method `each&#39; for true:TrueClass (NoMethodError) | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">lib/active_record/base.rb:2808:in <code>attributes_with_quotes': undefined method</code>each&rsquo; for true:TrueClass (NoMethodError)</span></h1>
+
+<p class="date">Mon 09 Feb 2009 08:49:54 PM UTC</p>
+</div>
+
+<main>
+<p>OK, hopefully this might help someone some time somewhere. If you are getting the error on the title, it&rsquo;s mainly because you are using a <tt>changed</tt> method on your <a href="http://api.rubyonrails.org/classes/ActiveRecord/Base.html">ActiveRecord</a> model.</p>
+
+<p>I was working with an ActiveRecord model that handles an string with quotes, so when trying to save the model, that exception was raised. The problem is that ActiveRecord uses a <tt>changed</tt> method internally for all attributes that were modified. When you are using a changed method yourself, you are overwriting it, hence the error. In my case:</p>
+
+<p><tt>/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:2808:in <code>attributes_with_quotes': undefined method</code>each&rsquo; for true:TrueClass (NoMethodError)
+from /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:2706:in `update_without_lock&rsquo;</tt></p>
+
+<p>Solution, just get rid of your changed method and rename it something else.</p>
+
+<p>Also helpful information, <a href="http://www.ruby-forum.com/topic/173908">here</a>.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2009/02/11/feedbag-now-using-feedvalidator/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2009/02/07/myspace-san-francisco-and-the-future/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

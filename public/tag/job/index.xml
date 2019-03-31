@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Job on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/job/</link>
+    <description>Recent content in Job on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Aug 2010 09:19:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/job/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Solicito desarrollador Ruby on Rails</title>
+      <link>https://damog.net/blog/2010/08/09/solicito-desarrollador-ruby-on-rails/</link>
+      <pubDate>Mon, 09 Aug 2010 09:19:12 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/08/09/solicito-desarrollador-ruby-on-rails/</guid>
+      <description>Estoy en busca de un desarrollador Ruby y Ruby on Rails para unirse a la empresa en la cual estoy trabajando en Nueva York. La posición es para trabajar permanentemente desde la Ciudad de México en la Col. Roma con muy buenas facilidades, ambiente y un salario altamente competitivo.
+A continuación la descripción de la oferta:
+Selectable Media is looking for a talented engineer to be a major contributor to the development of its new social video platform.</description>
+    </item>
+    
+    <item>
+      <title>Job offering: Web data extraction ninja coder</title>
+      <link>https://damog.net/blog/2009/08/29/job-offering-web-data-extraction-ninja-coder/</link>
+      <pubDate>Sat, 29 Aug 2009 10:22:00 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/29/job-offering-web-data-extraction-ninja-coder/</guid>
+      <description>I just posted a gig-based job offering onjobs.perl.org:
+Description
+I&amp;rsquo;m looking for a developer with interest in Web data harvesting and scraping. I&amp;rsquo;m currently developing a number of projects with this model and I cannot continue doing them alone. You will be a vital part of these fun projects: I usually enjoy doing them, you should be into that too :)
+You can be anywhere in the world, I don&amp;rsquo;t care as long as results are shown.</description>
+    </item>
+    
+    <item>
+      <title>Job offering</title>
+      <link>https://damog.net/blog/2009/08/10/job-offering/</link>
+      <pubDate>Mon, 10 Aug 2009 19:16:24 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/10/job-offering/</guid>
+      <description>A friend of mine is asking me to publish his company&amp;rsquo;s job offering to the wild. I&amp;rsquo;ve seen the offer, what they are doing and it&amp;rsquo;s a very, very nice project/opportunity, I wouldn&amp;rsquo;t announce it here on my blog if it wasn&amp;rsquo;t something worthwhile: Lytix is seeking an experienced software developer with proven ability to produce, understand and critique code in C, Java and JavaScript; Perl and LISP are a plus.</description>
+    </item>
+    
+  </channel>
+</rss>

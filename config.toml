@@ -1,0 +1,50 @@
+baseurl = "https://damog.net/blog"
+languageCode = "en-us"
+title = "David Moreno blog"
+theme = "xmin"
+googleAnalytics = "UA-136378273-1"
+disqusShortname = "https-damog-net"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+footnotereturnlinkcontents = "↩"
+disableHugoGeneratorInject = true
+paginate = 20
+
+[taxonomies]
+tag = "tag"
+
+[permalinks]
+    posts = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "/blog"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "damog.net"
+    url = "https://damog.net/"
+    weight = 3
+[[menu.main]]
+    name = "feed"
+    url = "/atom.xml"
+
+[params]
+    description = "David Moreno blog"
+    footer = "Copyright &copy; 2003-2019 David Moreno, powered by [Hugo](https://gohugo.io/); template by [Yihui Xie](https://yihui.name)."
+
+
+[mediaTypes]
+  [mediaTypes."application/atom"]
+    suffixes = ["xml"]
+
+[outputFormats]
+  [outputFormats.Atom]
+    mediaType = "application/atom"
+    baseName = "atom"
+    isPlainText = false
+
+
+[outputs]
+home = [ "HTML", "Atom" ]
+taxonomy = ["HTML", "Atom"]
+taxonomyTerm = ["HTML", "Atom"]
+

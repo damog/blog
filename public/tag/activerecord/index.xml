@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Activerecord on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/activerecord/</link>
+    <description>Recent content in Activerecord on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Feb 2009 20:49:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/activerecord/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lib/active_record/base.rb:2808:in `attributes_with_quotes&#39;: undefined method `each&#39; for true:TrueClass (NoMethodError)</title>
+      <link>https://damog.net/blog/2009/02/09/lib/active_record/base.rb2808in-attributes_with_quotes-undefined-method-each-for-truetrueclass-nomethoderror/</link>
+      <pubDate>Mon, 09 Feb 2009 20:49:54 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/02/09/lib/active_record/base.rb2808in-attributes_with_quotes-undefined-method-each-for-truetrueclass-nomethoderror/</guid>
+      <description>OK, hopefully this might help someone some time somewhere. If you are getting the error on the title, it&amp;rsquo;s mainly because you are using a changed method on your ActiveRecord model.
+I was working with an ActiveRecord model that handles an string with quotes, so when trying to save the model, that exception was raised. The problem is that ActiveRecord uses a changed method internally for all attributes that were modified.</description>
+    </item>
+    
+  </channel>
+</rss>

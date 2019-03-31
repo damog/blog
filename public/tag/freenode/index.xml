@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Freenode on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/freenode/</link>
+    <description>Recent content in Freenode on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Aug 2013 19:29:51 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/freenode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>11 years in Freenode now</title>
+      <link>https://damog.net/blog/2013/08/17/11-years-in-freenode-now/</link>
+      <pubDate>Sat, 17 Aug 2013 19:29:51 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2013/08/17/11-years-in-freenode-now/</guid>
+      <description>Somehow last year I missed the fact that I&amp;rsquo;ve been around Freenode for 10 years. It is more than 11 years now at this point. Oh my! I understand this is nothing compared to the very old wolves in free software, but bear with me on this one :)
+ 19:25  info 19:25 -NickServ(NickServ@services.)- Information on Damog (account Damog): 19:25 -NickServ(NickServ@services.)- Registered : Jun 26 23:45:11 2002 (11 years, 7 weeks, 5 days, 17:39:50 ago) 19:25 -NickServ(NickServ@services.</description>
+    </item>
+    
+  </channel>
+</rss>

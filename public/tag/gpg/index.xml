@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gpg on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/gpg/</link>
+    <description>Recent content in Gpg on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 May 2009 15:17:46 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/gpg/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debian Maintainers now able to post to Debian Twitter</title>
+      <link>https://damog.net/blog/2009/05/26/debian-maintainers-now-able-to-post-to-debian-twitter/</link>
+      <pubDate>Tue, 26 May 2009 15:17:46 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/05/26/debian-maintainers-now-able-to-post-to-debian-twitter/</guid>
+      <description>I&amp;rsquo;ve added support for Debian Maintainers to post tweets to Debian Twitter (both on Identi.ca and Twitter). Feel free to use it.</description>
+    </item>
+    
+    <item>
+      <title>Debian NYC get-together and PGP key signing</title>
+      <link>https://damog.net/blog/2009/05/06/debian-nyc-get-together-and-pgp-key-signing/</link>
+      <pubDate>Wed, 06 May 2009 10:08:07 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/05/06/debian-nyc-get-together-and-pgp-key-signing/</guid>
+      <description>If you happen to be in the NYC area this Friday May 8th, come over to our get-together to have a few beers/club sodas at Pacific Standard in Park Slope, Brooklyn (at 8 pm, map here). We will also be holding a PGP/GPG key signing par-tay at 9 pm, so make sure you bring your government-issued ID and your printed keys. More information about it, here.</description>
+    </item>
+    
+    <item>
+      <title>Debian on Twitter</title>
+      <link>https://damog.net/blog/2009/03/22/debian-on-twitter/</link>
+      <pubDate>Sun, 22 Mar 2009 09:33:21 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/03/22/debian-on-twitter/</guid>
+      <description>Or&amp;hellip; for those who care about Twitter and Debian :)
+We&amp;rsquo;ve setup a Twitter account for the project to use on Twitter. Go follow it, go now! twitter.com/debianproject
+Now, the interesting part about this is that any Debian developer with a GPG key on the Debian keyring can tweet to it. You basically only have to do something like this:
+$ echo &amp;quot;Squeeze is scheduled for Winter 2014&amp;quot; | gpg --clearsign | lwp-request -m POST http://twitter.</description>
+    </item>
+    
+  </channel>
+</rss>

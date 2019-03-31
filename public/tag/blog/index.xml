@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/blog/</link>
+    <description>Recent content in Blog on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Aug 2016 18:52:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cosmetic changes to my posts archive</title>
+      <link>https://damog.net/blog/2016/08/21/cosmetic-changes-to-my-posts-archive/</link>
+      <pubDate>Sun, 21 Aug 2016 18:52:12 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2016/08/21/cosmetic-changes-to-my-posts-archive/</guid>
+      <description>I&amp;rsquo;ve been doing a lot of cosmetic/layout changes to the nearly 750 posts in my blog&amp;rsquo;s archive. I apologize if this has broken some feed readers or aggregators. It appears like Hexo still needs better syndication support.</description>
+    </item>
+    
+    <item>
+      <title>More Git tips?</title>
+      <link>https://damog.net/blog/2009/01/19/more-git-tips/</link>
+      <pubDate>Mon, 19 Jan 2009 18:01:15 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/19/more-git-tips/</guid>
+      <description>Make sure you add the just launched git ready blog to your feed reader. Made by qrush. Audience applauds!</description>
+    </item>
+    
+  </channel>
+</rss>

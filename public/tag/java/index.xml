@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/java/</link>
+    <description>Recent content in Java on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Aug 2009 19:16:24 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Job offering</title>
+      <link>https://damog.net/blog/2009/08/10/job-offering/</link>
+      <pubDate>Mon, 10 Aug 2009 19:16:24 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/10/job-offering/</guid>
+      <description>A friend of mine is asking me to publish his company&amp;rsquo;s job offering to the wild. I&amp;rsquo;ve seen the offer, what they are doing and it&amp;rsquo;s a very, very nice project/opportunity, I wouldn&amp;rsquo;t announce it here on my blog if it wasn&amp;rsquo;t something worthwhile: Lytix is seeking an experienced software developer with proven ability to produce, understand and critique code in C, Java and JavaScript; Perl and LISP are a plus.</description>
+    </item>
+    
+    <item>
+      <title>Regular expressions capturing in Java for Perl hackers</title>
+      <link>https://damog.net/blog/2009/03/16/regular-expressions-capturing-in-java-for-perl-hackers/</link>
+      <pubDate>Mon, 16 Mar 2009 15:16:49 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/03/16/regular-expressions-capturing-in-java-for-perl-hackers/</guid>
+      <description>Capturing is one of the more interesting things you can do with regular expressions, it gives you great power to get sub-strings out of strings with regex power.
+I recently came up with the need to do it with Java. Having Perl background, you can understand how awful any other regular expressions implementation can be after been hacked with Perl&amp;rsquo;s, but it&amp;rsquo;s alright, it&amp;rsquo;s cool to learn.
+Anyway, it&amp;rsquo;s just simple, you want to capture Perl&amp;rsquo;s $0, $1, $2, etc, in your Java class.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cron on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/cron/</link>
+    <description>Recent content in Cron on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Aug 2011 10:57:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/cron/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RVM &#43; Rake tasks on Cron jobs</title>
+      <link>https://damog.net/blog/2011/08/02/rvm-rake-tasks-on-cron-jobs/</link>
+      <pubDate>Tue, 02 Aug 2011 10:57:38 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2011/08/02/rvm-rake-tasks-on-cron-jobs/</guid>
+      <description>RVM hates my guts. And it doesn&amp;rsquo;t matter, because I hate RVM back even more. Since I was technologically raised by aging wolfs, I have strong reasons to believe that you just shouldn&amp;rsquo;t have mixed versions of software on your production systems, specially, if a lot of things are poorly tested, like most of Ruby libraries, aren&amp;rsquo;t backward compatible. I was raised on a world where everything worked greatly because the good folks at projects like Debian or Perl have some of the greatest QA processes of all time, hands down.</description>
+    </item>
+    
+  </channel>
+</rss>

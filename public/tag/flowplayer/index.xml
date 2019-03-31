@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flowplayer on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/flowplayer/</link>
+    <description>Recent content in Flowplayer on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Jan 2009 18:22:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/flowplayer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introducing Apache2::EmbedFLV – Exposing FLVs with Flowplayer and a customized interface</title>
+      <link>https://damog.net/blog/2009/01/17/introducing-apache2embedflv-exposing-flvs-with-flowplayer-and-a-customized-interface/</link>
+      <pubDate>Sat, 17 Jan 2009 18:22:43 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/17/introducing-apache2embedflv-exposing-flvs-with-flowplayer-and-a-customized-interface/</guid>
+      <description>Situation
+You have a bunch of Flash videos, FLV files. Every once in a while you dump new files on your publicly accessible Apache directory. You would like to give your users the ability to play those FLVs within a webpage you provide, instead of just serving them the files for a direct download. Maybe you want this for all FLVs, not only an specific directory.
+Solution
+Apache2::EmbedFLV!
+&amp;lt;Files ~ &amp;quot;\.</description>
+    </item>
+    
+  </channel>
+</rss>

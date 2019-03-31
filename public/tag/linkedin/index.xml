@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linkedin on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/linkedin/</link>
+    <description>Recent content in Linkedin on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Mar 2011 12:07:34 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/linkedin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GitHub (and open source) on LinkedIn</title>
+      <link>https://damog.net/blog/2011/03/08/github-and-open-source-on-linkedin/</link>
+      <pubDate>Tue, 08 Mar 2011 12:07:34 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2011/03/08/github-and-open-source-on-linkedin/</guid>
+      <description>I am a huge fan of LinkedIn, I love it. Handled properly, it can allow you to establish great opportunities that eventually lead up to either work or paid gigs and we all know how good money is, right? I have spent time for the last couple of weeks making sure my own LinkedIn profile is complete, fully up-to-date and that I&amp;rsquo;m taking full advantage of all the features that the site has to offer, and even though I&amp;rsquo;m not actively looking for a job it&amp;rsquo;s always nice to get contacted by other developers or directors (heck, even recruiters) inviting you to consider other job opportunities.</description>
+    </item>
+    
+    <item>
+      <title>Linux México</title>
+      <link>https://damog.net/blog/2008/11/09/linux-m%C3%A9xico/</link>
+      <pubDate>Sun, 09 Nov 2008 12:48:32 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/11/09/linux-m%C3%A9xico/</guid>
+      <description>Con la reciente y repentina muerte de Cofradía, la comunidad de linuxeros (y demás rarezas) en México necesita más que nunca un nuevo nicho. Afortunadamente, Planeta Linux México se ha consolidado como una verdadera comunidad de linuxeros mexicanos, y tan es así que ahora somos el resultado número uno en Google y en Google México para «linux méxico».
+Aunado a ésto, algunos colegas y yo hemos iniciado un simple y sencillo grupo LinkedIn de Linux en México para que todos nosotros, profesionales, desarrolladores (y usuarios también, ¿por qué no?</description>
+    </item>
+    
+  </channel>
+</rss>

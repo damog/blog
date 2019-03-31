@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gems on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/gems/</link>
+    <description>Recent content in Gems on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jun 2009 13:30:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/gems/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sync your Twitter followers and friends</title>
+      <link>https://damog.net/blog/2009/06/10/sync-your-twitter-followers-and-friends/</link>
+      <pubDate>Wed, 10 Jun 2009 13:30:29 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/06/10/sync-your-twitter-followers-and-friends/</guid>
+      <description>I have a couple of accounts in Twitter (namely @debian and @planetalinux) that are starting to bring a lot of followers (well, at least some of them). And given that I consider these accounts to be Twitter-polite enough, I like to follow the followers back too; however, this task sometimes gets really hard and it&amp;rsquo;s tiring to go through the followers pages and follow those that I don&amp;rsquo;t follow yet over and over.</description>
+    </item>
+    
+  </channel>
+</rss>

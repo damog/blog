@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Script para wallpapers | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Script para wallpapers</span></h1>
+
+<p class="date">Wed 01 Dec 2004 03:45:57 PM UTC</p>
+</div>
+
+<main>
+<p>Pues jugando un poco con GConf, me he hecho un mini scriptcito en Perl para cambiar los wallpapers cada 60 segundos, en GNOME.
+
+Esta idea me surgió debido a que alguna vez vi que el <a href="http://blog.tacvbo.net/">Ta^3</a> tiene esta conducta en su XFCE4.
+
+Quizás haya una forma más limpia de hacer ésto, pero bueno, al menos funciona, incluso lanzando el script como una aplicación al iniciar GNOME.
+
+Lo único que necesitamos es, obviamente GConf.
+</p>
+<pre>#!/usr/bin/env perl
+
+# Seamos estrictos con nuestro pedazo de código.
+use strict;
+
+# El lugar donde se encuentran nuestros wallpapers:
+my $wallpath = '/home/damog/fondos';
+
+# Lanzamos el comando para que nuestros wallpapers llenen la pantalla,
+# lo cual creo que es la mejor conducta al poner los wallpapers.
+`gconftool-2 -t str -s /desktop/gnome/background/picture_options stretched`;
+
+# Empieza el ciclo infinito...
+while(1) {
+# Todo lo empaquetamos en la lista @files.
+my @files = glob("$wallpath/*");
+
+# Agarramos uno al azar.
+my $fondo = $files[rand(scalar(@files))];
+
+# Imprimimos información pertinente.
+print 'Cambiando el fondo a ', $fondo, "...\n";
+my ($sec, $min, $hor) = localtime(time);
+print ' - a las ', "$hor:$min:$sec\n\n";
+
+# Hacemos la magia ;-)
+`gconftool-2 -t str -s /desktop/gnome/background/picture_filename $fondo`;
+
+# Y nos echamos a dormir un minuto para luego volver a ciclar.
+sleep 60;
+}</pre>
+<p>
+No me maldigan, apenas estoy aprendiendo Perl :-) </p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2004/12/02/uno-de-ventaja/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2004/11/30/junta-de-consol/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

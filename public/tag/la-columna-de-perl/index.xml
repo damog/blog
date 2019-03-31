@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>La Columna De Perl on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/la-columna-de-perl/</link>
+    <description>Recent content in La Columna De Perl on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Nov 2008 14:20:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/la-columna-de-perl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configuración dinámica en Apache</title>
+      <link>https://damog.net/blog/2008/11/15/configuraci%C3%B3n-din%C3%A1mica-en-apache/</link>
+      <pubDate>Sat, 15 Nov 2008 14:20:09 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/11/15/configuraci%C3%B3n-din%C3%A1mica-en-apache/</guid>
+      <description>Una de las cosas más bonitas que puedes hacer gracias a mod_perl, son las PerlSections.
+Básicamente con éstas, lo que puedes hacer es definir dinámicamente directivas de configuración de Apache y hacer cosas bien interesantes. Por ejemplo, recientemente, para Planeta Linux quería tener una sola configuración de Apache para los virtual hosts que son repetitivos dada cada instancia (mx.planetalinux.org, ve.planetalinux.org, gt.planetalinux.org, etc). Precisamente lo que quiero evitar es tener que poner una interminable lista de VirtualHost&amp;rsquo;s, así que lo puedo hacer con secciones en Perl (que son denotadas en cualquier archivo de configuración en Apache con &amp;lt;Perl&amp;gt; y &amp;lt;/Perl&amp;gt;):</description>
+    </item>
+    
+  </channel>
+</rss>

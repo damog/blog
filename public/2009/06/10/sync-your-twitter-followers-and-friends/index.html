@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sync your Twitter followers and friends | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Sync your Twitter followers and friends</span></h1>
+
+<p class="date">Wed 10 Jun 2009 01:30:29 PM UTC</p>
+</div>
+
+<main>
+<p>I have a couple of accounts in Twitter (namely @<a href="http://twitter.com/debian">debian</a> and @<a href="http://twitter.com/planetalinux">planetalinux</a>) that are starting to bring a lot of followers (well, at least some of them). And given that I consider these accounts to be Twitter-polite enough, I like to follow the followers back too; however, this task sometimes gets really hard and it&rsquo;s tiring to go through the followers pages and follow those that I don&rsquo;t follow yet over and over.</p>
+
+<p>So, I spent a few minutes and came up with this simple Ruby script that uses <a href="http://addictedtonew.com/">John Nunemaker</a>&rsquo;s awesome <a href="http://twitter.rubyforge.org">Twitter gem</a>.</p>
+
+<p><code lang="ruby">
+#!/opt/local/bin/ruby</p>
+
+<p>require &ldquo;rubygems&rdquo;
+require &ldquo;twitter&rdquo;</p>
+
+<p>httpauth = Twitter::HTTPAuth.new(
+    ARGV[0] || &lsquo;yehyeh&rsquo;,
+    ARGV[1] || &lsquo;kissm3&rsquo;
+)</p>
+
+<p>base = Twitter::Base.new(httpauth)</p>
+
+<p>i = 0
+(base.follower_ids - base.friend_ids).each do |id|
+  i += 1
+  begin
+    base.friendship_create id
+  rescue Twitter::General =&gt; e
+    puts &ldquo;#{e.class}: #{e.message}&rdquo;
+  end
+end
+puts &ldquo;#{i} new friendships.&rdquo;</p>
+
+<p>i = 0
+(base.friend_ids - base.follower_ids).each do |id|
+  i += 1
+  base.friendship_destroy id
+end
+puts &ldquo;#{i} destroyed friendships.&rdquo;</p>
+
+<p>puts &ldquo;#{base.friend_ids.size} friends now.&rdquo;
+puts &ldquo;#{base.follower_ids.size} followers now.&rdquo;
+</code></p>
+
+<p>What this little code does is exactly that, it will start following the followers you don&rsquo;t follow yet, and it will stop following the people that don&rsquo;t follow you back, right? Got it? It&rsquo;s basically synchronizing your friends with your followers. As said, this is particularly helpful when you are maintaining a community account and want to keep up befriending your kind followers :-) Handling the exception <code>Twitter::General</code> on line 18 is only done because the twitter gem raises it even when you are trying to befriend an account to which you have already requested friendship (like pending requests to protected updates accounts) or those of suspended accounts (spammers).</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2009/06/27/perl-in-the-time-of-social-networks-delivered-in-pittsburgh-pa/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2009/06/08/cheating-the-world-you-tweet-less/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

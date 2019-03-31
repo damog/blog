@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Google&#39;s first tweet | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Google&rsquo;s first tweet</span></h1>
+
+<p class="date">Thu 26 Feb 2009 01:02:34 PM UTC</p>
+</div>
+
+<main>
+<p><a href="http://google.com">Google</a> created an official <a href="http://twitter.com">Twitter</a> <a href="http://twitter.com/google">account</a>. Its <a href="http://twitter.com/google/status/1251523388">first tweet</a> was something odd:</p>
+
+<blockquote>
+<p>I&rsquo;m 01100110 01100101 01100101 01101100 01101001 01101110 01100111 00100000 01101100 01110101 01100011 01101011 01111001 00001010</p>
+</blockquote>
+
+<p>I had <a href="/blog/2007/10/22/tip-perl-del-dia-chr-y-oct-en-un-loop-map/">previously written</a> (in Spanish, for <em>La Columna de Perl</em>), how to quickly decode this &ldquo;way&rdquo; of binary writing with Perl&rsquo;s <code>chr</code> and <code>oct</code>. So, to find out what was Google really tweeting, run:</p>
+
+<pre><code>perl -e 'map { print chr oct &quot;0b&quot;.$_; } split /\s/, &quot;01100110 01100101 01100101 01101100 01101001 01101110 01100111 00100000 01101100 01110101 01100011 01101011 01111001 00001010&quot;;'
+</code></pre>
+
+<p>So, what&rsquo;s really happening with this snippet? Well, the zeroes-ones string is being passed to the <code>split</code> function that explodes the string with a whitespace delimiter and passes that exploded string, a list, to <code>map</code>. <code>map</code> takes each one of the elements, the 8-character substring, one by one and preppends &ldquo;<code>0b</code>&rdquo; so that <code>oct</code> can understand it as an octal string and returns the value for that character. Then, that value is passed to <code>chr</code> that takes the numerical representation of a given character and returns that character. Then, it&rsquo;s just passed to print that, surprise, prints out that value.</p>
+
+<p>How do you do it in your language of choice?</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2009/03/07/feedbag-significantly-faster-than-rfeedfinder/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2009/02/19/run-a-php-script-from-mod_perl-so-perlcleanuphandler-can-be-used/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

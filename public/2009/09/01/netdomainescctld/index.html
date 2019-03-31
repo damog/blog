@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Net::Domain::ES::ccTLD | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Net::Domain::ES::ccTLD</span></h1>
+
+<p class="date">Tue 01 Sep 2009 03:28:23 PM UTC</p>
+</div>
+
+<main>
+<p>As I&rsquo;m rewriting the core of <a href="http://planetalinux.org">Planeta Linux</a> (you can track progress <a href="http://github.com/axiombox/planetalinux">here</a>), I needed a reliable way to map a country TLD to its Spanish name. I headed to <em>meta</em><a href="https://metacpan.org/">CPAN</a> to see what was already built to do that and found out <a href="https://metacpan.org/pod/release/DYACOB/Locales-0.04/lib/Locales/Country.pm">Locales::Country</a> that looked awesome but didn&rsquo;t work for me, <code>code2country('ni')</code> would return <tt>undef</tt> for me, plus the countries that were actually there had the encoding all <em>fubar</em>, so fuck it, drop it.</p>
+
+<p>So I came up with <a href="http://search.cpan.org/dist/Net-Domain-ES-ccTLD/">Net::Domain::ES::ccTLD</a> using the data from the <a href="http://es.wikipedia.org/">Spanish Wikipedia</a> for the <a href="http://es.wikipedia.org/wiki/Dominio_de_nivel_superior_geogr%C3%A1fico">countries TLDs</a>:</p>
+
+<pre><code>use Net::Domain::ES::ccTLD;
+
+my $country = find_name_by_cctld('mx')     # $country is 'México'
+  or die &quot;Couldn't find name.&quot;;
+
+my $current = find_name_by_cctld('us');    # $current is 'Estados Unidos';
+</code></pre>
+
+<p>Why would I reinvent the wheel for this? Because it was easier and faster for me and it&rsquo;s all about practicality, isn&rsquo;t it? Plus the code is super tiny, maybe the smallest module I have in CPAN in terms of actual code.</p>
+
+<p>Feel free to use if you will.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2009/09/07/living-supercentenarians/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2009/08/29/snow-leopard-now/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

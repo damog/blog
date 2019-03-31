@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Disable Nginx logging | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Disable Nginx logging</span></h1>
+
+<p class="date">Thu 24 Mar 2011 02:47:07 PM UTC</p>
+</div>
+
+<main>
+<p>This is something that is specified clearly on the <a href="http://wiki.nginx.org/Modules#Nginx_core_modules">Nginx manual</a>, but it&rsquo;s nice to have it as a quick reference.</p>
+
+<p>The <code>access_log</code> and <code>error_log</code> directives on Nginx are on separate modules (<a href="http://wiki.nginx.org/HttpLogModule">HTTP Log</a> and <a href="http://wiki.nginx.org/CoreModule">Core</a> modules respectively) and they don&rsquo;t behave the same way when all you want is to disable all logging on your server (in our case, <a href="http://nabbr.com/">we</a> serve a gazillion static files and perform a lot of reverse proxying and we&rsquo;re not interested on tracking that). It&rsquo;s a common misconception that you can set <code>error_log</code> to off, because that&rsquo;s how you disable <code>access_log</code> (if you do that, the server will still log to the file <code>$nginx_path/off</code>). Instead, you have to set <code>error_log</code> to log to the always mighty black hole <code>/dev/null</code> using the highest level for logging (which triggers the fewest events), <code>crit</code>:</p>
+
+<pre><code>http {
+  server {
+    # ...
+    access_log off;
+    error_log /dev/null crit;
+    # ...
+  }
+  #...
+}
+</code></pre>
+
+<p>If you&rsquo;re the possessor of the blingest of bling-bling, you can disable all logging (not only for a server block), by putting <code>error_log</code> on the root of the configuration and <code>access_log</code> within your http block and make sure you don&rsquo;t override that on any of the inner blocks. And you&rsquo;re good to go.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2011/07/01/debconf-11/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2011/03/08/github-and-open-source-on-linkedin/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

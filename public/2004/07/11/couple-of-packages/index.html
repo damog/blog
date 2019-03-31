@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Couple of packages | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Couple of packages</span></h1>
+
+<p class="date">Sun 11 Jul 2004 02:19:44 PM UTC</p>
+</div>
+
+<main>
+<p><p>Finally, <a href="http://ruby-gnome2.sourceforge.jp/#Ruby%2FGtkTrayIcon+0.1.0">libgtk-trayicon-ruby</a> (and -ruby1.8) has entered to Debian queue. This was done thanks to <a href="mailto:paulvtATdebian.org">Paul van Tilburg</a>.</p>
+
+<p>The reason I filled an <a href="http://lists.debian.org/debian-devel/2004/06/msg01494.html">ITP</a> for trayicon library of Ruby was a couple of things:
+</p>
+<ul>
+<li>I wanted to learn Ruby stuff, which seems pretty cool. Like a nice combination of Perl and Python. The best of both are on Ruby.</li>
+<li>I was planning to package <a href="http://fraggle.alkali.org/projects/gtray/">GNOME GTray</a>.</li>
+</ul>
+<p>
+The first reason was pretty cool. Although, I am having problems with the second which will bring me to not package it. Why? Two main reasons:
+</p>
+<ul>
+<li>GTray is released on GPL. It uses OpenSSL stuff. It doesn&#8217;t provide an exemption for this incompatibility issues. So, it can&#8217;t be packaged for Debian, at least, not officially.</li>
+<li>
+<strong>It is illegal</strong> to code external programs of <a href="http://gmail.google.com/">GMail</a>, really.</li>
+</ul>
+<p>
+Reading the Terms of Use document of GMail, I finally get to the conclusion for the last reason:
+</p>
+<pre>5. Intellectual Property Rights. Google&rsquo;s Intellectual Property Rights. You acknowledge that Google owns
+all right, title and interest in and to the Service, including without limitation all intellectual property
+rights (the &ldquo;Google Rights&rdquo;), and such Google Rights are protected by U.S. and international intellectual
+property laws. Accordingly, you agree that you will not copy, reproduce, alter, modify, or create derivative
+works from the Service. (!!!!!!!!!!!! -&gt;)You also agree that you will not use any robot, spider, other
+automated device, or manual process to monitor or copy any content from the Service. The Google Rights
+include rights to (i) the Service developed and provided by Google; and (ii) all software associated with
+the Service.  The Google Rights do not include third-party content used as part of Service, including the
+content of communications appearing on the Service.</pre>
+<p>
+Interesting. Tomorrow I will send this issue to debian-legal to see what are their thoughts.</p>
+
+<p>I also have a couple of packages ready: <a href="http://mirjami.net/%7Eville/kipina/">kipina</a> and <a href="http://www.lightlink.com/computer/math/">mathomatic</a>, the last one is a great piece of maths software, studying Computing and Electronic Engineering I find it wide cool. :-)
+</p>
+<strong>Current Mood:</strong> <img width="15" height="15" src="http://stat.livejournal.com/img/mood/growf/smileys/sad.gif"/> cold
+<strong>Current Music:</strong>  - <a href="http://www.degrees.us">www.degrees.us</a></p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2004/07/14/dwn/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2004/07/05/back/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

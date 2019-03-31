@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/linux/</link>
+    <description>Recent content in Linux on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Feb 2019 15:53:34 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dell XPS 13 9380</title>
+      <link>https://damog.net/blog/2019/02/16/dell-xps-13-9380/</link>
+      <pubDate>Sat, 16 Feb 2019 15:53:34 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2019/02/16/dell-xps-13-9380/</guid>
+      <description>Got myself a XPS 13&amp;rdquo; 9380 that Dell just released as &amp;ldquo;Developer Edition&amp;rdquo; with Ubuntu 18.04 LTS pre-installed. They just released it on January 2019.
+Ubuntu didn&amp;rsquo;t last long though. I prefer OS X Mojave than any of the Ubuntu installations. It&amp;rsquo;s okay though, it&amp;rsquo;s just not for me.
+Big big big shoutout to Jérémy Garrouste for his documentation only a few days ago of the Debian installation for Buster on the laptop which helped me figure out I needed to upgrade the BIOS to fix a couple of issues and be able to run the d-i alpha 5 with the Atheros drivers.</description>
+    </item>
+    
+    <item>
+      <title>FOSDEM 2019</title>
+      <link>https://damog.net/blog/2019/02/03/fosdem-2019/</link>
+      <pubDate>Sun, 03 Feb 2019 14:13:46 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2019/02/03/fosdem-2019/</guid>
+      <description>Spent the Saturday at FOSDEM with my friend jackdoe.
+It was great to both see some and avoid other familiar faces. It was great to meet some unfamiliar faces as well.
+Until next year! Maybe.</description>
+    </item>
+    
+    <item>
+      <title>11 years in Freenode now</title>
+      <link>https://damog.net/blog/2013/08/17/11-years-in-freenode-now/</link>
+      <pubDate>Sat, 17 Aug 2013 19:29:51 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2013/08/17/11-years-in-freenode-now/</guid>
+      <description>Somehow last year I missed the fact that I&amp;rsquo;ve been around Freenode for 10 years. It is more than 11 years now at this point. Oh my! I understand this is nothing compared to the very old wolves in free software, but bear with me on this one :)
+ 19:25  info 19:25 -NickServ(NickServ@services.)- Information on Damog (account Damog): 19:25 -NickServ(NickServ@services.)- Registered : Jun 26 23:45:11 2002 (11 years, 7 weeks, 5 days, 17:39:50 ago) 19:25 -NickServ(NickServ@services.</description>
+    </item>
+    
+    <item>
+      <title>Linux México</title>
+      <link>https://damog.net/blog/2008/11/09/linux-m%C3%A9xico/</link>
+      <pubDate>Sun, 09 Nov 2008 12:48:32 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/11/09/linux-m%C3%A9xico/</guid>
+      <description>Con la reciente y repentina muerte de Cofradía, la comunidad de linuxeros (y demás rarezas) en México necesita más que nunca un nuevo nicho. Afortunadamente, Planeta Linux México se ha consolidado como una verdadera comunidad de linuxeros mexicanos, y tan es así que ahora somos el resultado número uno en Google y en Google México para «linux méxico».
+Aunado a ésto, algunos colegas y yo hemos iniciado un simple y sencillo grupo LinkedIn de Linux en México para que todos nosotros, profesionales, desarrolladores (y usuarios también, ¿por qué no?</description>
+    </item>
+    
+  </channel>
+</rss>

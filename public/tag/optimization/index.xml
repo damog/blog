@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optimization on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/optimization/</link>
+    <description>Recent content in Optimization on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Dec 2009 14:18:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/optimization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Caching and optimization for WordPress talk</title>
+      <link>https://damog.net/blog/2009/12/21/caching-and-optimization-for-wordpress-talk/</link>
+      <pubDate>Mon, 21 Dec 2009 14:18:48 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/12/21/caching-and-optimization-for-wordpress-talk/</guid>
+      <description>Continuing with my WordCamp NYC talks review, I&amp;rsquo;d like to point out the notes I took attending the talk Caching and Optimization for WordPress, by Jeremy Clarke.
+I believe this was a great topic to be covered for people who actively maintain WordPress installations and have to deal with upgrades, stability and reliability. However, I also think Jeremy took a much more basic approach for this topic the way it shouldn&amp;rsquo;t have to be.</description>
+    </item>
+    
+    <item>
+      <title>Yahoo! YSlow for Firebug</title>
+      <link>https://damog.net/blog/2009/11/16/yahoo-yslow-for-firebug/</link>
+      <pubDate>Mon, 16 Nov 2009 18:45:23 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/16/yahoo-yslow-for-firebug/</guid>
+      <description>During last weekend&amp;rsquo;s WordCamp, Jeremy Clarke gave a bunch of tips for websites server optimizations (I&amp;rsquo;ll summarize my views on his talk later on a separate post) and he showcased a plugin for Firebug that I didn&amp;rsquo;t know about and caught my attention: Yahoo! YSlow. It is a really nice piece of software, it adds a tab on your Firebug window and will grade the performance of the web page you are browsing with a set of tips on how to make it faster, ranging from images, CSS, JavaScript, headers, etc:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New features on Dancer 1.130 | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">New features on Dancer 1.130</span></h1>
+
+<p class="date">Mon 08 Feb 2010 10:36:50 PM UTC</p>
+</div>
+
+<main>
+<p>Last week, or the one before that one, <a href="http://www.sukria.net/">Alexis</a> released <a href="http://perldancer.org/">Dancer</a> 1.130 which represents a big refactoring of the Dancer core code, taking all optional modules away from it: Logging, session and template engines were splited into their respective non-core modules, etc. Additionally, two keyword features were added, header and prefix. I will showcase both in case you haven&rsquo;t heard the good word from them :)</p>
+
+<p><strong>header</strong>
+The <code>header</code> keyword allows you to modify or alter the response headers by hand. That was a nice little feature that still hadn&rsquo;t been implemented. With <code>header</code> you can do nice little things like this:</p>
+
+<pre><code>get '/set/header' =&gt; sub {
+    header 'X-Foo' =&gt; 'bar';
+    &quot;I'm a happy string.&quot; . &quot;\n&quot;;
+}
+</code></pre>
+
+<p>And this is what that very same code does:</p>
+
+<pre><code>~ $ curl -i http://0.0.0.0:3000/set/header
+HTTP/1.0 200 OK
+X-Foo: bar
+Content-Type: text/html
+X-Powered-By: Perl Dancer 1.130
+
+I'm a happy string.
+</code></pre>
+
+<p>Also, <code>header</code> has a method synonym, <code>headers</code>, and you can use both indistinctly:</p>
+
+<pre><code>get '/some/crap', sub {
+    headers 'X-Foo' =&gt; 'Bar',
+        'X-Bar' =&gt; 'Foo';
+}
+</code></pre>
+
+<p>And it will produce the result that you are expecting.</p>
+
+<p><strong>prefix</strong></p>
+
+<p><code>prefix</code> is also interesting. It will indicate that the following route handlers&rsquo; path patters defined for Dancer will be prepended with such prefix. So:</p>
+
+<pre><code>prefix '/user';
+get '/home', sub { template 'user_home' };
+get '/logout', sub { &quot;bye!&quot; };
+</code></pre>
+
+<p>So here we are instructing Dancer two route handlers that happen to be really pointing to <code>/user/home</code> and <code>/user/logout</code>. In order to stop prefixing the route handlers&rsquo; paths you just do:</p>
+
+<pre><code>prefix undef;
+</code></pre>
+
+<p>And continue with your un-prepended paths.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2010/02/09/jon-stewart-interviewed-by-bill-oreilly/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2010/02/04/feed-moved/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

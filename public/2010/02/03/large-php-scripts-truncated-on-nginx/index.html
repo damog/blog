@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Large PHP scripts truncated on nginx | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Large PHP scripts truncated on nginx</span></h1>
+
+<p class="date">Wed 03 Feb 2010 11:35:14 AM UTC</p>
+</div>
+
+<main>
+<p>I spent a couple of <em>hours</em> yesterday trying to debug an issue that made me hit my head against the wall while it lasted.</p>
+
+<p>I run multiple instances of <a href="http://wordpress.org">WordPress</a>, and with it, comes a nice little editor bundled called <a href="http://tinymce.moxiecode.com/">TinyMCE</a>. But on my main WordPress installation (<em>this</em> very blog, dear reader, where you are reading this from), TinyMCE wouldn&rsquo;t come up, it wouldn&rsquo;t render properly on the browser, it didn&rsquo;t matter if it was my main browser, Chrome, or Firefox, Safari, cached, uncached, it was just broken. Since I hadn&rsquo;t have the time to go through this issue before, I was using a different editor installed as a plugin. <em>LAME</em>. And coward.</p>
+
+<p><img src="/old/stereonaut/2010/02/nginx.gif" alt="" /></p>
+
+<p>Anyway, I found out that one of the scripts <a href="http://phpxref.ftwr.co.uk/wordpress/nav.html?wp-includes/js/tinymce/wp-tinymce.php.html"><code>wp-tinymce.php</code></a> was being returned truncated. Because of that, <a href="http://getfirebug.com/">Firebug</a> would report that some TinyMCE bullshit wasn&rsquo;t defined (JavaScript, oh I&rsquo;m not very fond of you). Oh, well. I tested calling that script under <a href="http://curl.haxx.se/">curl</a> separately and in fact, it was only returning a fraction of the script, 44K out of the actual 200+K. I also found out that even though my <a href="http://nginx.org/">nginx</a> installation had gzip compression enabled and the PHP had zlib as well, the script wouldn&rsquo;t process the <tt>tinymce.js.gz</tt> but it was returning directly <tt>tinymce.js</tt>. It&rsquo;s alright, I just wanted it to work, no matter if it wouldn&rsquo;t go through gzip, that&rsquo;d be a matter of some other day.</p>
+
+<p>After a lot of googling I ended up reading <a href="http://www.republicavirtual.com.br/blog/2009/11/03/nginx-truncate-php/">this blog post</a> (in Portuguese), suggesting to make sure the file permissions for both the <tt>client_body_temp</tt> and <tt>fastcgi_temp</tt> directories allowed the user running nginx (<tt>www-data</tt> in my case) to write in them. Apparently large scripts would start writing to disk on them temporarily while processing the shit. Of course, you wouldn&rsquo;t have this issue if you are running an nginx from your operating system package manager (like <a href="http://packages.debian.org/search?keywords=nginx">Debian</a>&rsquo;s), but this might very well happen when you are running a custom nginx with separate modules and all sorts of crap on top of it:</p>
+
+<pre><code>chown www-data:www-data -R /usr/local/nginx/fastcgi_temp/;
+chmod -R 777 /usr/local/nginx/fastcgi_temp/;
+chown www-data:www-data -R /usr/local/nginx/client_body_temp/;
+chmod -R 777 /usr/local/nginx/client_body_temp/;
+</code></pre>
+
+<p>Obrigado, <a href="http://www.republicavirtual.com.br/blog/">republicavirtual.com.br</a> :-)</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2010/02/04/feed-moved/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2010/02/02/eben-moglen-freedom-in-the-cloud-2/5-nyu/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

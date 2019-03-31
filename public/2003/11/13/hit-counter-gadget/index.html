@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hit Counter gadget | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Hit Counter gadget</span></h1>
+
+<p class="date">Thu 13 Nov 2003 07:36:08 PM UTC</p>
+</div>
+
+<main>
+<p><p>Pues continuando de colaborar con <a href="http://web.archive.org/web/20031125134728/http://jaws-project.sf.net/">JAWS</a> un poquito, me hice <a href="http://web.archive.org/web/20031125134728/http://www.damog.net/files/hit_counter.phps">éste</a> gadget que cuenta los hits que se hacen del sitio.</p>
+
+<p>Hay que crear una tabla dentro de la base de datos de JAWS, es muy sencillo: Nos ubicamos en el prompt de MySQL y empezamos:
+</p>
+<pre>mysql&gt; USE base_de_datos_de_jaws;</p>
+
+<p>mysql&gt; CREATE TABLE counter (visits int(9));</p>
+
+<p>mysql&gt; INSERT INTO counter VALUES (0);</p>
+
+<p>mysql&gt; INSERT INTO registry VALUES (36,&lsquo;/gadgets/hit_counter/enabled&rsquo;,&lsquo;true&rsquo;);</pre>
+<p>
+Algunas observaciones:
+</p>
+<li>Obviamente puede usarse cualquier otro tipo de parámetro para la columna &#8216;visits&#8217; de la tabla &#8216;counter&#8217;. Sobre todo, si el sitio recibe más de 999&#8217;999&#8217;999 de visitas :P</li>
+<li>El &#8216;id&#8217; del &#8216;INSERT INTO registry&#8230;&#8217; depende del último registro que se tenga en la tabla.</p>
+
+<p>Ahora, copia el código del archivo:</p>
+
+<p><a href="http://web.archive.org/web/20031125134728/http://damog.net/files/hit_counter.phps"><a href="http://www.damog.net/files/hit_counter.phps">http://www.damog.net/files/hit_counter.phps</a></a></p>
+
+<p>(Ojo con la &#8216;ESE&#8217; al final del nombre del archivo)</p>
+
+<p>Y pégalo en el archivo &#8216;raíz_de_jaws/gadgets/hit_counter.php&#8217;</p>
+
+<p>Por último, edita el archivo hit_counter.php en la línea 33, para que despliegue la fecha en que insertas el gadget.</p>
+
+<p>Y listo, ya puedes ponerlo desde tu Control Panel de JAWS.</li></p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2003/11/14/logo/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2003/11/12/hoy-no-tengo-nada-que-decir/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

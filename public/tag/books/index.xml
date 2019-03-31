@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/books/</link>
+    <description>Recent content in Books on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Dec 2008 16:56:04 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>High-Order Perl available for free</title>
+      <link>https://damog.net/blog/2008/12/09/high-order-perl-available-for-free/</link>
+      <pubDate>Tue, 09 Dec 2008 16:56:04 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/12/09/high-order-perl-available-for-free/</guid>
+      <description>My friend Marco first told me on IM, then I read it on PerlBuzz. The nice High-Order Perl book by Mark Jason Dominus is now available for free (as in free beer) at its website.
+This book caught my attention a long time ago on a Barnes &amp;amp; Noble once, but since I had just too many book on queue, I decided not to buy it. I then read that it&amp;rsquo;s actually a good book on advanced techniques on Perl, so my interest grew, but for random reasons I just didn&amp;rsquo;t get it.</description>
+    </item>
+    
+    <item>
+      <title>Book meme</title>
+      <link>https://damog.net/blog/2008/11/21/book-meme/</link>
+      <pubDate>Fri, 21 Nov 2008 12:38:20 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/11/21/book-meme/</guid>
+      <description>Grab the nearest book. Open it to page 56. Find the fifth sentence. Post the text of the sentence in your journal along with these instructions. Don&amp;rsquo;t dig for your favorite book, the cool book, or the intellectual one: pick the CLOSEST.  &amp;ldquo;De esta triste estancia en la capital de Colombia se rescata el que pudieron ver jugar al mítico Real Madrid contra el Millonarios.&amp;ldquo;
+Translation: &amp;ldquo;From this sad stay in the capital of Colombia, it was worth they saw the mitical Real Madrid play Millonarios.</description>
+    </item>
+    
+  </channel>
+</rss>

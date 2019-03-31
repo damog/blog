@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chess on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/chess/</link>
+    <description>Recent content in Chess on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Jul 2008 13:40:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/chess/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Don&#39;t usually take the queen out too soon</title>
+      <link>https://damog.net/blog/2008/07/04/dont-usually-take-the-queen-out-too-soon/</link>
+      <pubDate>Fri, 04 Jul 2008 13:40:29 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/07/04/dont-usually-take-the-queen-out-too-soon/</guid>
+      <description>And this is the perfect example. While I had a wonderful position, my opponent failed by trying to checkmate me too soon, and it took me some time to figure out a way to mate him myself. I consider a bit disrespectful to take the queen out too soon. See the game here. No more PGNs for you.</description>
+    </item>
+    
+    <item>
+      <title>Small slips make great victories</title>
+      <link>https://damog.net/blog/2008/06/10/small-slips-make-great-victories/</link>
+      <pubDate>Tue, 10 Jun 2008 19:53:58 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/06/10/small-slips-make-great-victories/</guid>
+      <description>World, here&amp;rsquo;s another one:
+ e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. c3 d6 5. d4 Bg4 6. h3 Bxf3 7. Qxf3 f6 8. Qh5+ Kd7 9. d5 Nce7 10. b3 c6 11. Ba3 c5 12. b4 cxb4 13. Bxb4 Rc8 14. Bb5+ Nc6 15. dxc6+ bxc6 16. Ba6 Ne7 17. Bxc8+ Qxc8 18. Na3 g6 19. Qe2 f5 20. exf5 Nxf5 21. g4 Nh4 22. O-O-O c5 23.</description>
+    </item>
+    
+    <item>
+      <title>Sometimes it doesn&#39;t suck</title>
+      <link>https://damog.net/blog/2008/06/07/sometimes-it-doesnt-suck/</link>
+      <pubDate>Sat, 07 Jun 2008 17:30:21 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/06/07/sometimes-it-doesnt-suck/</guid>
+      <description>I get content every once in a while. For instance:
+1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. d3 Bg4 5. Bg5 Be7 6. h4 Bxf3 7. gxf3 Bxg5 8. hxg5 Qxg5 9. Ke2 Nd4+ 10. Ke1 Qg2 11. Rf1 Nxf3+ 12. Ke2 Nf6 13. Nd2 Nd4+ 14. Ke3 Ng4+ 15. Qxg4 Qxg4 16. f3 Qf4+ 17. Kf2 Qxd2+ 18. Kg3 Nf5+ 19. Kg4 Qf4+ 20. Kh3 Qg3# 0-1</description>
+    </item>
+    
+  </channel>
+</rss>

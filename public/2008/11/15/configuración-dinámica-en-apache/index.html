@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Configuración dinámica en Apache | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Configuración dinámica en Apache</span></h1>
+
+<p class="date">Sat 15 Nov 2008 02:20:09 PM UTC</p>
+</div>
+
+<main>
+<p>Una de las cosas más bonitas que puedes hacer gracias a <a href="http://perl.apache.org/"><tt>mod_perl</tt></a>, son las <a href="http://perl.apache.org/docs/2.0/api/Apache2/PerlSections.html"><code>PerlSections</code></a>.</p>
+
+<p>Básicamente con éstas, lo que puedes hacer es definir dinámicamente directivas de configuración de Apache y hacer cosas bien interesantes. Por ejemplo, recientemente, para <a href="http://planetalinux.org">Planeta Linux</a> quería tener una sola configuración de Apache para los virtual hosts que son repetitivos dada cada instancia (mx.planetalinux.org, ve.planetalinux.org, gt.planetalinux.org, etc). Precisamente lo que quiero evitar es tener que poner una interminable lista de <code>VirtualHost</code>&rsquo;s, así que lo puedo hacer con secciones en Perl (que son denotadas en cualquier archivo de configuración en Apache con <code>&lt;Perl&gt;</code> y <code>&lt;/Perl&gt;</code>):</p>
+
+<p><code>&lt;Perl&gt;</code>
+<pre>   <strong>my</strong> <span style="color: #2040a0;">$names</span> = <span style="color: #4444ff;"><strong>{</strong></span>
+        cl =&gt; <span style="color: #008000;">&lsquo;PlanetaLinuxChile&rsquo;</span>,
+        co =&gt; <span style="color: #008000;">&lsquo;PlanetaLinuxColombia&rsquo;</span>,
+        cr =&gt; <span style="color: #008000;">&lsquo;PlanetaLinuxCostaRica&rsquo;</span>,
+        ec =&gt; <span style="color: #008000;">&lsquo;PlanetaLinuxEcuador&rsquo;</span>,
+        sv =&gt; <span style="color: #008000;">&lsquo;PlanetaLinuxElSalvador&rsquo;</span>,
+        es =&gt; <span style="color: #008000;">&lsquo;PlanetaLinuxEspana&rsquo;</span>,
+        gt =&gt; <span style="color: #008000;">&lsquo;PlanetaLinuxGuatemala&rsquo;</span>,
+        mx =&gt; <span style="color: #008000;">&lsquo;PlanetaLinuxMexico&rsquo;</span>,
+        ni =&gt; <span style="color: #008000;">&lsquo;PlanetaLinuxNicaragua&rsquo;</span>,
+        pa =&gt; <span style="color: #008000;">&lsquo;PlanetaLinuxPanama&rsquo;</span>,
+        pe =&gt; <span style="color: #008000;">&lsquo;PlanetaLinuxPeru&rsquo;</span>,
+        ve =&gt; <span style="color: #008000;">&lsquo;PlanetaLinuxVenezuela&rsquo;</span>,
+        debian =&gt; <span style="color: #008000;">&lsquo;PlanetaDebian&rsquo;</span>,
+    <span style="color: #4444ff;"><strong>}</strong></span>;</pre></p>
+
+<p>Defino una referencia a hash en <code>$names</code> que lista contra los &ldquo;TLDs&rdquo; de cada instancia y con su nombre largo.</p>
+
+<pre>   <strong>my</strong> <span style="color: #2040a0;">$instancias</span> = <span style="color: #4444ff;"><strong>[</strong></span><span style="color: #a52a2a;"><strong>keys</strong></span> <span style="color: #2040a0;">%{$names}</span><span style="color: #4444ff;"><strong>]</strong></span>;</pre>
+
+<p>Para facilitar trabajar con las llaves, creo una referencia a un arreglo que contiene exclusivamente las llaves del hash que previamente tenía definido.</p>
+
+<pre>   <span style="color: #2040a0;">$VirtualHost</span><span style="color: #4444ff;"><strong>{</strong></span><span style="color: #008000;">"*:80"</span><span style="color: #4444ff;"><strong>}</strong></span> = <span style="color: #4444ff;"><strong>[</strong></span><span style="color: #4444ff;"><strong>]</strong></span>;</pre>
+
+<p>Como voy a definir todos mis VirtualHost&rsquo;s apuntando hacia &ldquo;<em>:80&rdquo;, defino el valor de la llave &ldquo;</em>:80&rdquo; del hash pre-definido <code>$VirtualHost</code> (pre-definido por mod_perl), hacia una referencia de arreglo vacío (por el momento).</p>
+
+<pre>   <strong>for</strong> <strong>my</strong> <span style="color: #2040a0;">$pais</span><span style="color: #4444ff;"><strong>(</strong></span><span style="color: #2040a0;">@{$instancias}</span><span style="color: #4444ff;"><strong>)</strong></span> <span style="color: #4444ff;"><strong>{</strong></span></pre>
+Empiezo a interar cada uno de los elementos de <code>$instancias</code> y asigno cada valor en la interación a <code>$pais</code>.
+<pre>       <strong>my</strong> <span style="color: #2040a0;">$vhost</span> = <span style="color: #2040a0;">$pais</span>.<span style="color: #008000;">".planetalinux.org"</span>;
+
+        <strong>if</strong> <span style="color: #4444ff;"><strong>(</strong></span><span style="color: #2040a0;">$pais</span> <strong>eq</strong> <span style="color: #008000;">'debian'</span><span style="color: #4444ff;"><strong>)</strong></span> <span style="color: #4444ff;"><strong>{</strong></span>
+            <span style="color: #2040a0;">$vhost</span> = <span style="color: #008000;">'planeta.debian.net'</span>;
+        <span style="color: #4444ff;"><strong>}</strong></span></pre>
+
+<p>El nombre del servidor será <code>$pais.&ldquo;.planetalinux.org&rdquo;</code>, a menos que sea &ldquo;debian&rdquo;, que no lleva el dominio de Planeta Linux.
+<pre>       <strong>my</strong> <span style="color: #2040a0;">$virtualh</span> = <span style="color: #4444ff;"><strong>{</strong></span>
+            SuexecUserGroup =&gt; <span style="color: #4444ff;"><strong>[</strong></span><span style="color: #008000;">&ldquo;planetalinux&rdquo;</span>, <span style="color: #008000;">&ldquo;planetalinux&rdquo;</span><span style="color: #4444ff;"><strong>]</strong></span>,
+            ServerAdmin =&gt; <span style="color: #008000;">&lsquo;planetalinux@googlegroups.com&rsquo;</span>,
+            ServerName =&gt; <span style="color: #2040a0;">$vhost</span>,
+            DocumentRoot =&gt; <span style="color: #008000;">&rdquo;/var/www/planetalinux/&rdquo;</span>.<span style="color: #2040a0;">$vhost</span>,
+            ErrorLog =&gt; <span style="color: #008000;">&rdquo;/var/log/apache2/planetalinux_&rdquo;</span>.<span style="color: #2040a0;">$pais</span>.<span style="color: #008000;">&ldquo;<em>error&rdquo;</span>,
+            CustomLog =&gt; <span style="color: #4444ff;"><strong>[</strong></span><span style="color: #008000;">&rdquo;/var/log/apache2/planetalinux</em>&ldquo;</span>.<span style="color: #2040a0;">$pais</span>.<span style="color: #008000;">&ldquo;_access&rdquo;</span>, <span style="color: #008000;">&ldquo;combined&rdquo;</span><span style="color: #4444ff;"><strong>]</strong></span>,
+            LogLevel =&gt; <span style="color: #008000;">&ldquo;info&rdquo;</span>,
+            Alias =&gt; <span style="color: #4444ff;"><strong>[</strong></span><span style="color: #008000;">&rdquo;/images/&rdquo;</span>, <span style="color: #008000;">&rdquo;/home/planetalinux/current/www/instancias/&rdquo;</span>.<span style="color: #2040a0;">$pais</span>.<span style="color: #008000;">&rdquo;/images/&rdquo;</span><span style="color: #4444ff;"><strong>]</strong></span>,
+            Redirect =&gt; <span style="color: #4444ff;"><strong>[</strong></span><span style="color: #008000;">&rdquo;/rss20.xml&rdquo;</span>, <span style="color: #008000;">&ldquo;<a href="http://feedproxy.google.com/&quot;">http://feedproxy.google.com/&quot;</a></span>.<span style="color: #2040a0;">$names</span>-&gt;<span style="color: #4444ff;"><strong>{</strong></span><span style="color: #2040a0;">$pais</span><span style="color: #4444ff;"><strong>}</strong></span><span style="color: #4444ff;"><strong>]</strong></span>,
+        <span style="color: #4444ff;"><strong>}</strong></span>;</pre></p>
+
+<p>Aquí defino la referencia al hash principal del virtual host. Los valores son definidos con los nombres de las directivas que utiliza Apache:
+<ul>
+    <li><code>SuexecUserGroup</code>, pues utilizamos suexec en el servidor se asigna a una referencia de arreglo anónima con dos valores, que son los dos valores que se le pasan a Apache en sus directivas regulares.</li>
+    <li><code>ServerAdmin</code>, es el mismo para todas las instancias, nuestra lista de correos.</li>
+    <li><code>ServerName</code>, es el nombre que definí previamente como <code>$vhost</code>.</li>
+    <li><code>DocumentRoot</code>, depende también de <code>$vhost</code> pues así lo tenemos definido en nuestro sistema de archivos.</li>
+    <li><code>ErrorLog</code>, caso similar a <code>DocumentRoot</code>.</li>
+    <li><code>CustomLog</code>, caso similar a ErrorLog, pero defino, igual que en <code>SuexecUserGroup</code>, un arreglo anónimo con los dos valores que toma este parámetro.</li>
+    <li><code>LogLevel</code>, igual que en Apache.</li>
+    <li><code>Alias</code>. Defino un alias simple.</li>
+    <li><code>Redirect</code>, puedo utilizar cualquier tipo de directivas, <code>Alias</code>, <code>Redirect</code>, lo que sea. En este caso, realizo la redirección de los viejos feeds <code>&rdquo;/rss20.xml&rdquo;</code> hacia la nueva URL de FeedBurner, que es ahora como manejamos los feeds en Planeta Linux. El valor que se concatena al final es el valor del hash <code>%{$names}</code> dada la llave <code>$pais</code>.</li>
+</ul></p>
+
+<pre>       <span style="color: #a52a2a;"><strong>push</strong></span> <span style="color: #2040a0;">@{$VirtualHost{"*:80"}</span><span style="color: #4444ff;"><strong>}</strong></span>, <span style="color: #2040a0;">$virtualh</span>;</pre>
+Agrego cada <code>$virtualh</code> al arreglo de VirtualHosts en "*:80". Si tuviera una IP por cada uno de los VirtualHosts, no es necesario hacer push a un arreglo, simplemente tendría que declarar las variables $VirtualHost con la IP como llave. Sin embargo, si declaro muchas veces la misma variable, como en este caso, <code>$VirtualHost{"*:80"}</code>, en cada interación el valor se reescribirá, es por eso que mod_perl nos ofrece definir esa variable como referecia a arreglo en donde podemos meter cuantos virtual hosts como queramos.
+<pre>   <span style="color: #4444ff;"><strong>}</strong></span></pre>
+
+<p>Termino el ciclo for.</p>
+
+<p><code>&lt;/Perl&gt;</code></p>
+
+<p>Las posibilidades son muchas para la configuración dinámica de Apache y en secciones Perl puedes utilizar cualquier cosa, abrir tus archivos para ver otros parámetros de configuración, conectarte a bases de datos para sacar información, lo que sea.</p>
+
+<p>Si te interesa ver todo el archivo de configuración, está <a href="http://github.com/damog/planetalinux/tree/master/conf/apache.conf">acá</a>, en el <a href="http://github.com/damog/planetalinux">GitHub público de Planeta Linux</a>.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2008/11/21/book-meme/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2008/11/09/linux-m%C3%A9xico/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

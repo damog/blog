@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feeds on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/feeds/</link>
+    <description>Recent content in Feeds on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Feb 2010 19:31:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/feeds/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Feed moved</title>
+      <link>https://damog.net/blog/2010/02/04/feed-moved/</link>
+      <pubDate>Thu, 04 Feb 2010 19:31:37 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/02/04/feed-moved/</guid>
+      <description>I have always been against FeedBurner. I don&amp;rsquo;t like it at all. I&amp;rsquo;ve never liked it, as a matter of fact, I have no actual idea why I&amp;rsquo;ve been using it on my blog. I do know why I used it on the country feeds on Planeta Linux, and that is because it was very easy to mask all of our URL changes with some level of stability on the subscribers (in times where me being technically competent was a bad joke for myself).</description>
+    </item>
+    
+    <item>
+      <title>Feedbag significantly faster than Rfeedfinder</title>
+      <link>https://damog.net/blog/2009/03/07/feedbag-significantly-faster-than-rfeedfinder/</link>
+      <pubDate>Sat, 07 Mar 2009 16:57:45 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/03/07/feedbag-significantly-faster-than-rfeedfinder/</guid>
+      <description>Alright so Feedbag looks to be significantly faster than Rfeedfinder when tested against different URIs:
+ user system total real damog.net: feedbag 0.280000 0.050000 0.330000 ( 1.486712) rfeedfinder 0.140000 0.030000 0.170000 ( 4.259612) http://cnn.com: feedbag 0.200000 0.020000 0.220000 ( 0.703625) rfeedfinder 0.240000 0.030000 0.270000 ( 1.071508) scripting.com: feedbag 0.170000 0.030000 0.200000 ( 0.682292) rfeedfinder 0.220000 0.040000 0.260000 ( 1.668234) mx.planetalinux.org: feedbag 0.550000 0.050000 0.600000 ( 1.636884) rfeedfinder 0.760000 0.120000 0.880000 ( 3.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Facebook on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/facebook/</link>
+    <description>Recent content in Facebook on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Aug 2016 20:42:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/facebook/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Webhook Setup with Facebook::Messenger::Bot</title>
+      <link>https://damog.net/blog/2016/08/29/webhook-setup-with-facebookmessengerbot/</link>
+      <pubDate>Mon, 29 Aug 2016 20:42:40 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2016/08/29/webhook-setup-with-facebookmessengerbot/</guid>
+      <description>The documentation for the Facebook Messenger API points out how to setup your initial bot webhook. I just committed a quick patch that would make it very easy to setup a quick script to get it done using the unreleased and still in progress Perl&amp;rsquo;s Facebook::Messenger::Bot:
+use Facebook::Messenger::Bot; use constant VERIFY_TOKEN =&amp;gt; &#39;imsosecret&#39;; my $bot = Facebook::Messenger::Bot-&amp;gt;new(); # no config specified! $bot-&amp;gt;expect_verify_token( VERIFY_TOKEN ); $bot-&amp;gt;spin();  This should get you sorted.</description>
+    </item>
+    
+    <item>
+      <title>WIP: Perl bindings for Facebook Messenger</title>
+      <link>https://damog.net/blog/2016/08/21/wip-perl-bindings-for-facebook-messenger/</link>
+      <pubDate>Sun, 21 Aug 2016 18:35:26 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2016/08/21/wip-perl-bindings-for-facebook-messenger/</guid>
+      <description>A couple of weeks ago I started looking into wrapping the Facebook Messenger API into Perl. Since all the calls are extremely simple using a REST API, I thought it could be easier and simpler even, to provide a small framework to hook bots using PSGI/Plack.
+So I started putting some things together and with a very simple interface you could do a lot:
+use strict; use warnings; use Facebook::Messenger::Bot; my $bot = Facebook::Messenger::Bot-&amp;gt;new({ access_token =&amp;gt; &#39;.</description>
+    </item>
+    
+    <item>
+      <title>2010</title>
+      <link>https://damog.net/blog/2010/01/02/2010/</link>
+      <pubDate>Sat, 02 Jan 2010 00:03:03 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/01/02/2010/</guid>
+      <description>My blog has served me throughout the years as a getaway medium. I&amp;rsquo;ve found comfort writing its pages, and more recently, writing a little bit more of my technical life and whereabouts. The personal side of it, in spite of being very well handled in the past, has been left behind in recent times. And I believe Twitter has taken that part of my postings. However, I believe that a lot of the thing I&amp;rsquo;m currently doing in my life are based on the measurable fact of the impact or weight that those actions would have on my Twitter (and Facebook for that matter) stream and contacts.</description>
+    </item>
+    
+    <item>
+      <title>✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌</title>
+      <link>https://damog.net/blog/2009/08/09/</link>
+      <pubDate>Sun, 09 Aug 2009 12:43:48 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/09/</guid>
+      <description>Yes, those are twenty-five hands. As of yesterday 8&amp;frasl;8, I turned 25. Thanks to all of you who shouted out on Facebook, Twitter or elsewhere.
+Oh, the ephemeralness of time; adulthood, a low-hanging fruit now.</description>
+    </item>
+    
+    <item>
+      <title>Perl in the Time of Social Networks</title>
+      <link>https://damog.net/blog/2009/05/09/perl-in-the-time-of-social-networks/</link>
+      <pubDate>Sat, 09 May 2009 12:43:15 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/05/09/perl-in-the-time-of-social-networks/</guid>
+      <description>This is going to be a fantastic and exciting Perl summer.
+During the last week, I received notification that the talk I&amp;rsquo;ve proposed for both YAPC::NA and YAPC::EU, was accepted.
+I will be talking about Perl in the Time of Social Networks, which is mainly two broad things: how Perl can actively power a modern social networking site (I&amp;rsquo;ll be releasing a free -as in speech- social network website, similar to Lovd or RailSpace, built with pure Catalyst); and about high-load applications dealing with social networks&amp;rsquo; APIs and users (a Moose-based universal social network distributor), with Twitter, Facebook, MySpace, Blogger, LastFM, and others.</description>
+    </item>
+    
+    <item>
+      <title>MySpace, San Francisco and the future</title>
+      <link>https://damog.net/blog/2009/02/07/myspace-san-francisco-and-the-future/</link>
+      <pubDate>Sat, 07 Feb 2009 19:45:37 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/02/07/myspace-san-francisco-and-the-future/</guid>
+      <description>Raquel and I came to San Francisco for a couple of days during this week, mainly to attend the MySpace DevJam. It was a great experience to get to know the west coast as we hadn&amp;rsquo;t have the chance to come over. We also had the opportunity to meet with my great friend Marco Manzo, who is working for Leap Frog in the Bay Area.
+On the MySpace side, I&amp;rsquo;m glad to see that some real and good improvements are being made to open the platform as much as possible.</description>
+    </item>
+    
+  </channel>
+</rss>

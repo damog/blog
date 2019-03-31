@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amsterdam on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/amsterdam/</link>
+    <description>Recent content in Amsterdam on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Aug 2013 22:17:34 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/amsterdam/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>One year</title>
+      <link>https://damog.net/blog/2013/08/06/one-year/</link>
+      <pubDate>Tue, 06 Aug 2013 22:17:34 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2013/08/06/one-year/</guid>
+      <description>A year ago today, I started working for Booking.com. I wish I could say that the time has flown by, but it really hasn&amp;rsquo;t. It has been one hell of a ride on all fronts: work, learning experiences, friends, but specially at home, since working for this company didn&amp;rsquo;t come without a complete life change. So far so good, and for that I&amp;rsquo;m grateful :)</description>
+    </item>
+    
+    <item>
+      <title>Another day, another dawn</title>
+      <link>https://damog.net/blog/2012/08/18/another-day-another-dawn/</link>
+      <pubDate>Sat, 18 Aug 2012 14:04:34 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2012/08/18/another-day-another-dawn/</guid>
+      <description>I started working for Booking.com two weeks ago now. These last two months have been probably the most chaotic and hectic in a long time from what I remember in my life. I left New York City, chilled out in Mexico City for several weeks and then finally relocated to beautiful Amsterdam. The decision of leaving New York was not simple, but I decided to take on new challenges, one cycle had ended for me and it was time for me to move on.</description>
+    </item>
+    
+  </channel>
+</rss>

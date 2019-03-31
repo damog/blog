@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rfeed on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/rfeed/</link>
+    <description>Recent content in Rfeed on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Jan 2009 21:36:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/rfeed/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quick feed aggregation with Vitacilina</title>
+      <link>https://damog.net/blog/2009/01/29/quick-feed-aggregation-with-vitacilina/</link>
+      <pubDate>Thu, 29 Jan 2009 21:36:06 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/29/quick-feed-aggregation-with-vitacilina/</guid>
+      <description>Vitacilina, ¡ah, qué buena medicina!
+A few months ago. Maybe more than a year, I started hacking on Vitacilina, which was meant to be the replacement for Planet on all countries Planeta Linux supports. I was doing well, I even hosted the code back then in Google Code. Later, I forgot about it, but I&amp;rsquo;d always been wanting to replace Planet with some homebrew solution for the Planeta Linux community. Anyway, that hasn&amp;rsquo;t happened yet.</description>
+    </item>
+    
+  </channel>
+</rss>

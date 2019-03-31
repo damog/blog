@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Identi.ca on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/identi.ca/</link>
+    <description>Recent content in Identi.ca on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 May 2009 15:17:46 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/identi.ca/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debian Maintainers now able to post to Debian Twitter</title>
+      <link>https://damog.net/blog/2009/05/26/debian-maintainers-now-able-to-post-to-debian-twitter/</link>
+      <pubDate>Tue, 26 May 2009 15:17:46 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/05/26/debian-maintainers-now-able-to-post-to-debian-twitter/</guid>
+      <description>I&amp;rsquo;ve added support for Debian Maintainers to post tweets to Debian Twitter (both on Identi.ca and Twitter). Feel free to use it.</description>
+    </item>
+    
+  </channel>
+</rss>

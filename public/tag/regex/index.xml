@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regex on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/regex/</link>
+    <description>Recent content in Regex on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Apr 2009 07:17:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/regex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On Twitter alerts and regular expressions</title>
+      <link>https://damog.net/blog/2009/04/12/on-twitter-alerts-and-regular-expressions/</link>
+      <pubDate>Sun, 12 Apr 2009 07:17:58 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/04/12/on-twitter-alerts-and-regular-expressions/</guid>
+      <description>I don&amp;rsquo;t know if I&amp;rsquo;m the only one that does something like this, but I certainly trust I&amp;rsquo;m not alone.
+I love regular expressions (to which some people say there&amp;rsquo;s nothing regular about) and I just found TweetBeep recently, which is a simple alerts system. There&amp;rsquo;s nothing really new or innovative about it, given that you can get the results yourself using advanced search on Twitter and consuming the results from a feed.</description>
+    </item>
+    
+    <item>
+      <title>Regular expressions capturing in Java for Perl hackers</title>
+      <link>https://damog.net/blog/2009/03/16/regular-expressions-capturing-in-java-for-perl-hackers/</link>
+      <pubDate>Mon, 16 Mar 2009 15:16:49 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/03/16/regular-expressions-capturing-in-java-for-perl-hackers/</guid>
+      <description>Capturing is one of the more interesting things you can do with regular expressions, it gives you great power to get sub-strings out of strings with regex power.
+I recently came up with the need to do it with Java. Having Perl background, you can understand how awful any other regular expressions implementation can be after been hacked with Perl&amp;rsquo;s, but it&amp;rsquo;s alright, it&amp;rsquo;s cool to learn.
+Anyway, it&amp;rsquo;s just simple, you want to capture Perl&amp;rsquo;s $0, $1, $2, etc, in your Java class.</description>
+    </item>
+    
+  </channel>
+</rss>

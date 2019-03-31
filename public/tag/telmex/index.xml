@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Telmex on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/telmex/</link>
+    <description>Recent content in Telmex on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Jan 2010 23:05:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/telmex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coding since...</title>
+      <link>https://damog.net/blog/2010/01/16/coding-since.../</link>
+      <pubDate>Sat, 16 Jan 2010 23:05:27 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/01/16/coding-since.../</guid>
+      <description>I recently read a blog&#39;s about page where the autor mentioned to have 11 years of programming experience, parenthesizing that he started really young. Although I certainly don&#39;t think any serious professional experience should include the kind of coding you do as a kid, it made me remember how I started programming myself when I was a a child.
+I didn&#39;t have my own computer before 1996, when I started secundaria (junior high school).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yslow on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/yslow/</link>
+    <description>Recent content in Yslow on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Nov 2009 18:45:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/yslow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Yahoo! YSlow for Firebug</title>
+      <link>https://damog.net/blog/2009/11/16/yahoo-yslow-for-firebug/</link>
+      <pubDate>Mon, 16 Nov 2009 18:45:23 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/16/yahoo-yslow-for-firebug/</guid>
+      <description>During last weekend&amp;rsquo;s WordCamp, Jeremy Clarke gave a bunch of tips for websites server optimizations (I&amp;rsquo;ll summarize my views on his talk later on a separate post) and he showcased a plugin for Firebug that I didn&amp;rsquo;t know about and caught my attention: Yahoo! YSlow. It is a really nice piece of software, it adds a tab on your Firebug window and will grade the performance of the web page you are browsing with a set of tips on how to make it faster, ranging from images, CSS, JavaScript, headers, etc:</description>
+    </item>
+    
+  </channel>
+</rss>

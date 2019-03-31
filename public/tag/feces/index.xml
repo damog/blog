@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feces on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/feces/</link>
+    <description>Recent content in Feces on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Apr 2012 13:33:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/feces/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ruby and libv8: Exactly my feelings</title>
+      <link>https://damog.net/blog/2012/04/23/ruby-and-libv8-exactly-my-feelings/</link>
+      <pubDate>Mon, 23 Apr 2012 13:33:09 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2012/04/23/ruby-and-libv8-exactly-my-feelings/</guid>
+      <description>Thanks to my coworker Dan for making a whole bunch of these based on our day job adventures :)</description>
+    </item>
+    
+  </channel>
+</rss>

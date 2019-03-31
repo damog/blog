@@ -1,0 +1,7 @@
+---
+title: "Posada Cultural Alternativa"
+date: 2006-12-12 18:26:09
+tag: 
+---
+<p align="center"><img src="http://www.damog.net/files/misc/posada-alternativa-1.jpg"/></p>
+<p align="center"><img src="http://www.damog.net/files/misc/posada-alternativa-2.jpg"/></p>

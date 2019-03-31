@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/javascript/</link>
+    <description>Recent content in Javascript on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Feb 2010 11:35:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Large PHP scripts truncated on nginx</title>
+      <link>https://damog.net/blog/2010/02/03/large-php-scripts-truncated-on-nginx/</link>
+      <pubDate>Wed, 03 Feb 2010 11:35:14 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/02/03/large-php-scripts-truncated-on-nginx/</guid>
+      <description>I spent a couple of hours yesterday trying to debug an issue that made me hit my head against the wall while it lasted.
+I run multiple instances of WordPress, and with it, comes a nice little editor bundled called TinyMCE. But on my main WordPress installation (this very blog, dear reader, where you are reading this from), TinyMCE wouldn&amp;rsquo;t come up, it wouldn&amp;rsquo;t render properly on the browser, it didn&amp;rsquo;t matter if it was my main browser, Chrome, or Firefox, Safari, cached, uncached, it was just broken.</description>
+    </item>
+    
+    <item>
+      <title>Job offering</title>
+      <link>https://damog.net/blog/2009/08/10/job-offering/</link>
+      <pubDate>Mon, 10 Aug 2009 19:16:24 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/10/job-offering/</guid>
+      <description>A friend of mine is asking me to publish his company&amp;rsquo;s job offering to the wild. I&amp;rsquo;ve seen the offer, what they are doing and it&amp;rsquo;s a very, very nice project/opportunity, I wouldn&amp;rsquo;t announce it here on my blog if it wasn&amp;rsquo;t something worthwhile: Lytix is seeking an experienced software developer with proven ability to produce, understand and critique code in C, Java and JavaScript; Perl and LISP are a plus.</description>
+    </item>
+    
+  </channel>
+</rss>

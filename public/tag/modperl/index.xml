@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modperl on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/modperl/</link>
+    <description>Recent content in Modperl on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Feb 2009 19:21:44 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/modperl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Run a PHP script from mod_perl so PerlCleanupHandler can be used</title>
+      <link>https://damog.net/blog/2009/02/19/run-a-php-script-from-mod_perl-so-perlcleanuphandler-can-be-used/</link>
+      <pubDate>Thu, 19 Feb 2009 19:21:44 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/02/19/run-a-php-script-from-mod_perl-so-perlcleanuphandler-can-be-used/</guid>
+      <description>Situation
+You need to run a time consuming task after a PHP script is run. The task will have to reuse the POST/GET data that is being sent to the service. The task would have to be done once the client has gone away.
+Solution
+Use mod_perl&amp;rsquo;s PerlFixupHandler to take the POST data, set the handler to be run by mod_php (or whatever else you are running it). Finally, use PerlCleanupHandler to run that task since that&amp;rsquo;s exactly what that phase is for, once the client went away.</description>
+    </item>
+    
+  </channel>
+</rss>

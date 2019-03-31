@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zipcodes on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/zipcodes/</link>
+    <description>Recent content in Zipcodes on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Mar 2012 11:19:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/zipcodes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Geo::PostalCode::NoDB 0.01</title>
+      <link>https://damog.net/blog/2012/03/21/geopostalcodenodb-0.01/</link>
+      <pubDate>Wed, 21 Mar 2012 11:19:17 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2012/03/21/geopostalcodenodb-0.01/</guid>
+      <description>Geo::PostalCode is a great Perl module. It lets you find surrounding postal areas (zip codes) around a given an amount of miles (radius), calculate distance between them, among other nice features. Sadly, I couldn&amp;rsquo;t get it to work with updated data and because the file its Berkely DB installer was producing was not being recognized by its parser, which bases off on DB_File. Since I was able to find working data for the source of zip codes, I ended up hacking the module and producing a version with no Berkeley DB support.</description>
+    </item>
+    
+  </channel>
+</rss>

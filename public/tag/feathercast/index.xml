@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feathercast on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/feathercast/</link>
+    <description>Recent content in Feathercast on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Jan 2009 14:41:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/feathercast/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FeatherCast: Apache Software Foundation /unofficial/ podcast</title>
+      <link>https://damog.net/blog/2009/01/17/feathercast-apache-software-foundation-/unofficial/-podcast/</link>
+      <pubDate>Sat, 17 Jan 2009 14:41:32 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/17/feathercast-apache-software-foundation-/unofficial/-podcast/</guid>
+      <description>I recently stumbled upon FeatherCast, a nice little project made by Rich Bowen and David Reid, the former, a recognized documenter within the Apache community, author of a few books on the webserver, mainly the Apache Cookbook. FeatherCast is an unofficial podcast; its primary goal is supporting the Apache Software Foundation community. I&amp;rsquo;ve found it to be greatly interesting, modern and up to date; more recently, bringing lights to some of the content and people, for instance, featured on ApacheCon, which took place in New Orleans, LA, late last year.</description>
+    </item>
+    
+  </channel>
+</rss>

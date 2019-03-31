@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mp3 on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/mp3/</link>
+    <description>Recent content in Mp3 on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Feb 2009 15:01:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/mp3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>And now Apache2::EmbedMP3 for your songs collections!</title>
+      <link>https://damog.net/blog/2009/02/02/and-now-apache2embedmp3-for-your-songs-collections/</link>
+      <pubDate>Mon, 02 Feb 2009 15:01:52 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/02/02/and-now-apache2embedmp3-for-your-songs-collections/</guid>
+      <description>After I spent time working on Apache2::EmbedFLV, I thought it was a good idea to do the same for audio files, specifically MP3 files.
+So now that you have your MP3 files on your web server and they are accessible to the world, you may want to show them with an embedded audio player. Well, Apache2::EmbedMP3 is exactly for you!
+EmbedMP3 uses the fabulous WP Audio Player, a small, elegant, GPL Flash audio player, similarly to how Apache2::EmbedFLV uses Flowplayer.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brooklyn on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/brooklyn/</link>
+    <description>Recent content in Brooklyn on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Oct 2009 18:41:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/brooklyn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debian Workshop 1 at New York City</title>
+      <link>https://damog.net/blog/2009/10/15/debian-workshop-1-at-new-york-city/</link>
+      <pubDate>Thu, 15 Oct 2009 18:41:25 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/10/15/debian-workshop-1-at-new-york-city/</guid>
+      <description>So Debian-NYC, mainly the DebConf10 local team, organized a workshop for people interested on Debian packaging. The nice people of drop.io offered their handy location in Brooklyn.
+So this is the first attempt to bring new comers to Debian aiming DebConf10 next summer. Micah and dkg are the ones leading the workshop so far.
+Pictures!
+[gallery columns=&amp;ldquo;2&amp;rdquo; orderby=&amp;ldquo;rand&amp;rdquo;]</description>
+    </item>
+    
+  </channel>
+</rss>

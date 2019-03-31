@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>curl POST data and newlines | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">curl POST data and newlines</span></h1>
+
+<p class="date">Sun 15 Aug 2010 10:10:35 PM UTC</p>
+</div>
+
+<main>
+<p>I&rsquo;m writing a <a href="http://rubyonrails.org/">Rails</a> application for the <a href="http://en.wikipedia.org/wiki/Microblogging">microblogging</a> strategy for <a href="http://debian.org">Debian</a> (which I used to call, <a href="http://github.com/damog/debian-twitter">debian-twitter</a>, but you know how us Debian folks are :D). I came up with a strange issue, that at first I thought was <a href="http://guides.rubyonrails.org/action_controller_overview.html">ActionController</a>&rsquo;s fault or some crap.</p>
+
+<p>So, I was testing one of my controllers with something like this:</p>
+
+<pre><code>cat /tmp/mm.txt | curl -d @- http://localhost:3000/message/new
+</code></pre>
+
+<p><code>/tmp/mm.txt</code> is a <a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy">PGP</a> signed message which then I just send as POST data to my application. So far so good. However, when accessing the data from Rails, using request.body.read, I was a getting a single line, with the newlines (carriage returns) removed. So I started looking at how ActionController was getting the HTTP data and stuff. But then I tested:</p>
+
+<pre><code>cat /tmp/mm.txt | lwp-request -m POST  http://localhost:3000/message/new
+</code></pre>
+
+<p>And that had the carriage returns in place.</p>
+
+<p>So, I started looking at the curl man page and discovered this little gem:</p>
+
+<blockquote>
+<p>&ndash;data-binary <data></p>
+
+<p>(HTTP) This posts data exactly as specified with no extra processing whatsoever.</p>
+
+<p>If you start the data with the letter @, the rest should be a filename. Data is posted in a similar manner as &ndash;data-ascii does, except that newlines are preserved and conversions are never done.</p>
+
+<p>If this option is used several times, the ones following the first will append data as described in -d/&ndash;data.</p>
+</blockquote>
+
+<pre><code>cat /tmp/mm.txt | curl --data-binary @- http://localhost:3000/message/new
+</code></pre>
+
+<p>&hellip;did indeed the tricky. Maybe someone needs this info some day.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2010/08/22/apache2archive-0.2/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2010/08/12/debconf-10/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

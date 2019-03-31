@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Config on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/config/</link>
+    <description>Recent content in Config on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Dec 2008 10:01:51 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Good looking Irb</title>
+      <link>https://damog.net/blog/2008/12/29/good-looking-irb/</link>
+      <pubDate>Mon, 29 Dec 2008 10:01:51 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/12/29/good-looking-irb/</guid>
+      <description>Irb is a pain to work with&amp;hellip; when you don&amp;rsquo;t know it enough. Fortunately, it can be configured extensively enough to make your Ruby interactive sessions much smoother. Pocahontas asked me to post my Irb configuration: # ~/.irbrc IRB.conf[:AUTO_INDENT] = true IRB.conf[:USE_READLINE] = true IRB.conf[:SAVE_HISTORY] = 5000 IRB.conf[:HISTORY_FILE] = &amp;ldquo;#{ENV[&amp;lsquo;HOME&amp;rsquo;]}/.irb_history&amp;rdquo; IRB.conf[:PROMPT_MODE] = :SIMPLE
+require &amp;lsquo;irb/completion&amp;rsquo; require &amp;lsquo;irb/ext/save-history&amp;rsquo; require &amp;lsquo;pp&amp;rsquo;
+load rubygems and wirble require &amp;lsquo;rubygems&amp;rsquo; rescue nil require &amp;lsquo;wirble&amp;rsquo; require &amp;lsquo;utility_belt&amp;rsquo;</description>
+    </item>
+    
+  </channel>
+</rss>

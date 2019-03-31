@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WIP: Perl bindings for Facebook Messenger | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">WIP: Perl bindings for Facebook Messenger</span></h1>
+
+<p class="date">Sun 21 Aug 2016 06:35:26 PM UTC</p>
+</div>
+
+<main>
+<p>A couple of weeks ago I started looking into wrapping the <a href="https://developers.facebook.com/docs/messenger-platform">Facebook Messenger API</a> into Perl. Since all the calls are extremely simple using a REST API, I thought it could be easier and simpler even, to provide a small framework to hook bots using <a href="http://plackperl.org/">PSGI/Plack</a>.</p>
+
+<p>So I started putting some things together and with a very simple interface you could do a lot:</p>
+
+<pre><code>use strict;
+use warnings;
+use Facebook::Messenger::Bot;
+
+my $bot = Facebook::Messenger::Bot-&gt;new({
+    access_token   =&gt; '...',
+    app_secret     =&gt; '...',
+    verify_token   =&gt; '...'
+});
+
+$bot-&gt;register_hook_for('message', sub {
+    my $bot = shift;
+    my $message = shift;
+
+    my $res = $bot-&gt;deliver({
+        recipient =&gt; $message-&gt;sender,
+        message =&gt; { text =&gt; &quot;You said: &quot; . $message-&gt;text() }
+    });
+    ...
+});
+
+$bot-&gt;spin();
+</code></pre>
+
+<p>You can hook a script like that as a <code>.psgi</code> file and plug it in to whatever you want.</p>
+
+<p>Once you have some more decent user flow and whatnot, you can build something like:</p>
+
+<p align="center">
+    <img src="https://github.com/damog/facebook-messenger-perl/blob/master/media/sample-01.gif?raw=true">
+</p>
+
+<p>&hellip;using a <em>simple</em> script like <a href="https://github.com/damog/facebook-messenger-perl/blob/master/examples/reply-bot.pl">this one</a>.</p>
+
+<p>The work is not finished and not yet CPAN-ready but I&rsquo;m posting this in case someone wants to join me in this mini-project or have suggestions, the work in progress is <a href="https://github.com/damog/facebook-messenger-perl">here</a>.</p>
+
+<p>Thanks!</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2016/08/21/cosmetic-changes-to-my-posts-archive/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2016/08/08/0x20/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Random on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/random/</link>
+    <description>Recent content in Random on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2009 20:03:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/random/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Living supercentenarians</title>
+      <link>https://damog.net/blog/2009/09/07/living-supercentenarians/</link>
+      <pubDate>Mon, 07 Sep 2009 20:03:42 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/09/07/living-supercentenarians/</guid>
+      <description>The fact that in a few years, we might not have a single person on this planet that was born in the 1800s (or before January 1st, 1900), makes me sad and depresses me.
+Living supercentenarians.</description>
+    </item>
+    
+  </channel>
+</rss>

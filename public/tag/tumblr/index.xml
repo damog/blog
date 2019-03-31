@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tumblr on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/tumblr/</link>
+    <description>Recent content in Tumblr on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Aug 2013 00:27:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/tumblr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WWW::Tumblr 5.00</title>
+      <link>https://damog.net/blog/2013/08/28/wwwtumblr-5.00/</link>
+      <pubDate>Wed, 28 Aug 2013 00:27:19 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2013/08/28/wwwtumblr-5.00/</guid>
+      <description>A few years ago, back when Tumblr had not been valued a billion dollars, I wrote WWW::Tumblr, which was basically Perl bindings for their REST API. Then I forgot about it for a long time, then Yahoo! bought them or something like that. I ended up getting contacted by some Perl programmers, telling me that they were using the Perl module. Great! Anyway, following the general rule on Internet startups, Tumblr migrated most of their endpoints to OAuth and left a bunch of other resources changed to use an API key and others not.</description>
+    </item>
+    
+  </channel>
+</rss>

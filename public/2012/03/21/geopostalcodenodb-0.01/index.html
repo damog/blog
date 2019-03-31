@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Geo::PostalCode::NoDB 0.01 | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Geo::PostalCode::NoDB 0.01</span></h1>
+
+<p class="date">Wed 21 Mar 2012 11:19:17 AM UTC</p>
+</div>
+
+<main>
+<p><a href="https://metacpan.org/module/Geo::PostalCode">Geo::PostalCode</a> is a great Perl module. It lets you find surrounding postal areas (zip codes) around a given an amount of miles (radius), calculate distance between them, among other nice features. Sadly, I couldn&rsquo;t get it to work with updated data and because the file its Berkely DB installer was producing was not being recognized by its parser, which bases off on <a href="http://perldoc.perl.org/DB_File.html">DB_File</a>. Since I was able to find <a href="http://damog.net/files/misc/zipcodes-csv-10-Aug-2004.zip">working data</a> for the source of zip codes, I ended up hacking the module and producing a version with no Berkeley DB support.</p>
+
+<p>So basically, and taken from the POD:
+<blockquote>RATIONALE BEHIND NO BERKELEY DB
+On a busy day at work, I couldn&rsquo;t get Geo::PostalCode to work with newer data (the data source <a href="http://search.cpan.org/~tjmather/">TJMATHER</a> points <a href="http://cpansearch.perl.org/src/TJMATHER/Geo-PostalCode-0.07/INSTALL">to</a> is no longer available), so the tests shipped with his module pass, but trying to use real data no longer seems to work. DB_File marked the <a href="http://search.cpan.org/~tjmather/Geo-PostalCode-0.07/lib/Geo/PostalCode/InstallDB.pm">Geo::PostalCode::InstallDB</a> output file as invalid type or format. If you don&rsquo;t run into that issue by not wanting to use this module, please drop <a href="http://damog.net/">me</a> a note! I would love to learn how other people made it work.</p>
+
+<p>So, in order to get my shit done, I decided to create this module. Loading the whole data into memory from the class constructor has been proven to be enough for massive usage (citation needed) on a <a href="http://perldancer.org">Dancer</a> application where this module is instantiated only once.</blockquote></p>
+
+<p>$ sudo cpanm <a href="https://metacpan.org/module/DAMOG/Geo-PostalCode-NoDB-0.01/lib/Geo/PostalCode/NoDB.pm">Geo::PostalCode::NoDB</a> now!</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2012/04/23/ruby-and-libv8-exactly-my-feelings/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2012/03/16/feedbag-released-under-mit-license/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

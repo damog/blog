@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordcamp on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/wordcamp/</link>
+    <description>Recent content in Wordcamp on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Nov 2009 17:29:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/wordcamp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Writing Secure WordPress Plugins talk by Mark Jaquith</title>
+      <link>https://damog.net/blog/2009/11/24/writing-secure-wordpress-plugins-talk-by-mark-jaquith/</link>
+      <pubDate>Tue, 24 Nov 2009 17:29:18 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/24/writing-secure-wordpress-plugins-talk-by-mark-jaquith/</guid>
+      <description>Continuing my notes and remarks from WordCamp, I attended Writing Secure Plugins, which was given by Mark Jaquith (@markjaquith on Twitter). I found the talk to be also slightly introductory on security matters but nicely oriented to WordPress plugins and general PHP Web app development. I believe most of the tips given should be taken into consideration by every PHP coder out there, not just WP people. 
+The talk was split into the different attacks that are common on Web applications and mainly pointing to functions and actions to be taken.</description>
+    </item>
+    
+    <item>
+      <title>Securing WordPress talk</title>
+      <link>https://damog.net/blog/2009/11/20/securing-wordpress-talk/</link>
+      <pubDate>Fri, 20 Nov 2009 13:20:25 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/20/securing-wordpress-talk/</guid>
+      <description>Here I start a series of posts with my comments, notes and remarks on the talks that I attended at last weekend&amp;rsquo;s WordCamp in NYC.
+The first talk I attended was Securing WordPress, by Brad Williams (@williamsba on Twitter). First off, this talk wasn&amp;rsquo;t too technical since it was focused to beginning developers whose background wouldn&amp;rsquo;t be completely into systems administration, it was intended to a broader audience, which is exactly why I liked it so much and started taking notes.</description>
+    </item>
+    
+    <item>
+      <title>Wonderful WordCamp NYC experience</title>
+      <link>https://damog.net/blog/2009/11/15/wonderful-wordcamp-nyc-experience/</link>
+      <pubDate>Sun, 15 Nov 2009 20:15:45 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/15/wonderful-wordcamp-nyc-experience/</guid>
+      <description>I had a blast on Saturday. Let me put it again in bold, I had an awesome experience yesterday at WordCamp NYC. If you ever have the opportunity, you shouldn&amp;rsquo;t miss the chance to attend one of them, it&amp;rsquo;s really inspiring, people is very, very welcome and I loved the fact that there&amp;rsquo;s so many people with all sorts of backgrounds and focused on many fronts on the Web and blogging world, not just technical.</description>
+    </item>
+    
+  </channel>
+</rss>

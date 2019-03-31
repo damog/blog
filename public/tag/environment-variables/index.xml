@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Environment Variables on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/environment-variables/</link>
+    <description>Recent content in Environment Variables on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Jan 2010 15:36:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/environment-variables/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting uid on God processes</title>
+      <link>https://damog.net/blog/2010/01/20/setting-uid-on-god-processes/</link>
+      <pubDate>Wed, 20 Jan 2010 15:36:32 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/01/20/setting-uid-on-god-processes/</guid>
+      <description>I spent some minutes today at work figuring out why a script we use for files and assets propagation wasn&amp;rsquo;t working when fired up under God, but it actually was working when run as its normal user.
+The script is a Sinatra application that, upon pings/requests, connects through SSH to different servers on our clusters and execute commands. Details on the implementation are irrelevant here. Since this is automatized, we use key files for the SSH authentication.</description>
+    </item>
+    
+  </channel>
+</rss>

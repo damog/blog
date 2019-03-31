@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awesome on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/awesome/</link>
+    <description>Recent content in Awesome on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jun 2009 11:08:59 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/awesome/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>@debianproject is now @debian!</title>
+      <link>https://damog.net/blog/2009/06/05/debianproject-is-now-debian/</link>
+      <pubDate>Fri, 05 Jun 2009 11:08:59 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/06/05/debianproject-is-now-debian/</guid>
+      <description>Thanks to Jamie, who used to have the name registered and now handed it over, Twitter Debian&amp;rsquo;s Twitter username is now @debian (go follow Jamie now!). If you were already following @debianproject, nothing will change.
+Having @debian on Twitter is actually kind of awesome!</description>
+    </item>
+    
+  </channel>
+</rss>

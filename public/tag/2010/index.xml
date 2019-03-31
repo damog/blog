@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2010 on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/2010/</link>
+    <description>Recent content in 2010 on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Jan 2010 00:03:03 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/2010/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2010</title>
+      <link>https://damog.net/blog/2010/01/02/2010/</link>
+      <pubDate>Sat, 02 Jan 2010 00:03:03 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/01/02/2010/</guid>
+      <description>My blog has served me throughout the years as a getaway medium. I&amp;rsquo;ve found comfort writing its pages, and more recently, writing a little bit more of my technical life and whereabouts. The personal side of it, in spite of being very well handled in the past, has been left behind in recent times. And I believe Twitter has taken that part of my postings. However, I believe that a lot of the thing I&amp;rsquo;m currently doing in my life are based on the measurable fact of the impact or weight that those actions would have on my Twitter (and Facebook for that matter) stream and contacts.</description>
+    </item>
+    
+  </channel>
+</rss>

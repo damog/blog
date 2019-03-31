@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Caching and optimization for WordPress talk | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Caching and optimization for WordPress talk</span></h1>
+
+<p class="date">Mon 21 Dec 2009 02:18:48 PM UTC</p>
+</div>
+
+<main>
+<p>Continuing with my <a href="http://2009.newyork.wordcamp.org/">WordCamp NYC</a> talks review, I&rsquo;d like to point out the notes I took attending the talk <em>Caching and Optimization for WordPress</em>, by <a href="http://simianuprising.com/">Jeremy Clarke</a>.</p>
+
+<p>I believe this was a great topic to be covered for people who actively maintain <a href="http://wordpress.org/">WordPress</a> installations and have to deal with upgrades, stability and reliability. However, I also think Jeremy took a much more basic approach for this topic the way it shouldn&rsquo;t have to be. He would describe all the tools that he was showcasing from the most basic parts of it, like what&rsquo;s a terminal or why you should use it, to an audience attending the advanced development track.</p>
+
+<p>Anyway, here are my notes:</p>
+
+<ul>
+<li>Expect a lot of traffic for your websites.</li>
+<li>First point of review, <a href="http://wordpress.org/support/topic/300880">slow database queries</a>.</li>
+<li><a href="http://en.wikipedia.org/wiki/Web_cache">Caching</a>.
+
+<ul>
+<li>Serving already fetched data.</li>
+</ul></li>
+<li><a href="http://wordpress.org/extend/plugins/wp-super-cache/">WP Super Cache</a> (mandatory cache plugin).</li>
+<li><a href="http://wordpress.org/extend/plugins/wptuner/">WP Tuner</a> (resources information).</li>
+<li><a href="/blog/2009/11/16/yahoo-yslow-for-firebug">YSlow, Yahoo&rsquo;s Firebug plugin</a>.</li>
+<li>If necessary, use <a href="http://gravatar.com">Gravatar</a>.</li>
+<li><a href="http://mohanjith.net/blog/2008/10/using-memcached-with-wordpress-object-cache.html">Memcached for WordPress</a>.</li>
+<li>&ldquo;CLI: The DOS-style of using a computer&rsquo;. What a quote.</li>
+<li><a href="http://htop.sourceforge.net/">htop</a>, a much more intuitive top.</li>
+<li><a href="http://www.webta.org/projects/apachetop/">apachetop</a>, an Apache processes visualizer.</li>
+<li><a href="http://www.day32.com/MySQL/">MySQL Tuning Primer Script</a></li>
+<li>Use either <a href="http://pecl.php.net/package/APC">APC</a>, <a href="http://php.net/manual/en/book.memcache.php">memcached</a> or <a href="http://xcache.lighttpd.net/">XCache</a>.</li>
+<li><a href="http://mmonit.com/monit/">Monit</a>, triggering commands.</li>
+</ul>
+
+<p>After the talk I prompted him to whether he would consider also moving away from <a href="http://httpd.apache.org/">Apache</a> and trying much faster alternatives like <a href="https://www.nginx.com/resources/wiki/start/topics/examples/phpfcgi/">FastCGI PHP</a> on <a href="http://nginx.org/">nginx</a> or <a href="http://www.cherokee-project.com/">Cherokee</a>. He mentioned that he had considered it, but he preferred to stick with the most conventional and commonly used software for his installations. That&rsquo;s his opinion, of course. On mine, based on my own experience, dropping Apache is usually one of the best ways to workaround most of the issues around a slow WordPress.</p>
+
+<p>Now thanks to <a href="http://wordpress.tv/">WordPress.tv</a>, we have a video of the talk that Jeremy delivered on a previous event:</p>
+
+<p style="text-align: center; "><embed src="http://v.wordpress.com/wp-content/plugins/video/flvplayer.swf?ver=1.11" type="application/x-shockwave-flash" width="400" height="300" allowscriptaccess="always" allowfullscreen="true" flashvars="guid=P1pO85U7&amp;width=400&amp;height=300" title=""></embed></p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2010/01/02/2010/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2009/11/29/vitacilina-now-in-debian-0.2-released/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

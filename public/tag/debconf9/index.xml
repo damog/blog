@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debconf9 on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/debconf9/</link>
+    <description>Recent content in Debconf9 on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jul 2009 21:13:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/debconf9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finally at DebConf 9</title>
+      <link>https://damog.net/blog/2009/07/22/finally-at-debconf-9/</link>
+      <pubDate>Wed, 22 Jul 2009 21:13:12 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/07/22/finally-at-debconf-9/</guid>
+      <description>After a random series of hazardous events, I&amp;rsquo;m finally at DebConf 9 in Cáceres, Spain. I&amp;rsquo;ll post more updates later, right now I&amp;rsquo;m trying to put my sh*t together and find my way through around here for the next couple of weeks. Interested people can always follow my microblogging feed too.
+Love, D.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xml on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/xml/</link>
+    <description>Recent content in Xml on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Aug 2009 09:21:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/xml/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Perl on the NYMag</title>
+      <link>https://damog.net/blog/2009/08/10/perl-on-the-nymag/</link>
+      <pubDate>Mon, 10 Aug 2009 09:21:33 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/10/perl-on-the-nymag/</guid>
+      <description>Reading my morning load of feed news, I spotted an interesting bit on the New York Magazine travel feed:
+Of course, someone&amp;rsquo;s doing something wrong there, but I&amp;rsquo;d say it&amp;rsquo;s their usage of XML::Feed (my guess on what they are using since the generator tag is omitted), by not dereferencing that hash reference or trying to forcibly stringify it.
+Of course that comes from the feed itself:
+It&amp;rsquo;s awesome, and nothing new of course, that big publications and organizations are using Perl to process and offer data to users, but I find it always super cool when they make it so obvious :)</description>
+    </item>
+    
+  </channel>
+</rss>

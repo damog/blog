@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WWW::Tumblr 5.00 | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">WWW::Tumblr 5.00</span></h1>
+
+<p class="date">Wed 28 Aug 2013 12:27:19 AM UTC</p>
+</div>
+
+<main>
+<p><a href="/blog/2008/03/20/wwwtumblr/">A few years ago</a>, back when <a href="http://tumblr.com">Tumblr</a> had not been valued a billion dollars, I wrote <code>WWW::Tumblr</code>, which was basically Perl bindings for their REST API. Then I forgot about it for a long time, then Yahoo! bought them or something like that. I ended up getting contacted by some Perl programmers, telling me that they were using the Perl module. Great! Anyway, following the general rule on Internet startups, Tumblr migrated most of their endpoints to OAuth and left a bunch of other resources changed to use an API key and others not. Joy. I gotta say that at this point I was&rsquo;t interested on Tumblr too much, in spite of having a profile that followed a few very random blogs. But people were indeed interested on the module for their own stuff and I got contacted again a <a href="https://rt.cpan.org/Public/Bug/Display.html?id=86769">few</a> <a href="https://github.com/damog/www-tumblr/issues/2">times</a>.</p>
+
+<p>Anyway, my coworker Fernando brought it to my attention more and more and I re-started working on my OAuth branch. A few weeks later now, I present you <a href="https://metacpan.org/module/WWW::Tumblr">WWW::Tumblr</a> 5.00, which supports all of the <a href="http://www.tumblr.com/docs/en/api/v2">methods</a> from the new Tumblr v2 API. During the development phase, Fernando tested a whole bunch, as well as <a href="http://yeupou.wordpress.com/2013/08/08/managing-a-tumblr-posts-queue-locally-with-tags/">this other project</a>: I am very thankful for their help, since it took a while to properly make the API work as Tumblr does not seem to have the most compliant OAuth implementation of them all, and they seem to be quite unimpressed with questions and inquiries on their development group, but what are you gonna do about it, right, <em>sigh</em>.</p>
+
+<p>Anyway, head to MetaCPAN to grab your copy today! And report bugs and stuff to the <a href="http://github.com/damog/www-tumblr">GitHub repo</a>.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2013/12/28/fosdem-2014/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2013/08/17/11-years-in-freenode-now/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rants on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/rants/</link>
+    <description>Recent content in Rants on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Jul 2012 13:45:51 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/rants/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I&#39;m a brogrammer, brah!</title>
+      <link>https://damog.net/blog/2012/07/27/im-a-brogrammer-brah/</link>
+      <pubDate>Fri, 27 Jul 2012 13:45:51 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2012/07/27/im-a-brogrammer-brah/</guid>
+      <description>My professional career has been kind of an interesting one. I believe that when I diverted from being a completely stereotype of a geek, my career as an IT professional really took off. Or at least, the real experience: that experience that no words can describe on a resume but that only you have within, that experience that only comes up when you&amp;rsquo;re facing a real-life problem and no interviews or screening processes or algorithms challenges and tests can really discover.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TwitVim: Nice Twitter client | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">TwitVim: Nice Twitter client</span></h1>
+
+<p class="date">Sat 10 Jan 2009 05:18:41 PM UTC</p>
+</div>
+
+<main>
+<p>I do like <a href="http://twitter.com/">Twitter</a>. For quite some time now I&rsquo;ve been trying to find a Twitter client that I&rsquo;d really like. I&rsquo;ve tried, lots of them, <a href="http://www.twhirl.org/">Twhirl</a>, <a href="http://live.gnome.org/DanielMorales/Twitux">Twitux</a>, <a href="http://code.google.com/p/microblog-purple/">microblog-purple</a> (which I started to dislike since I&rsquo;m not IMing that much anymore and it can become extremely annoying if not blocked), <a href="http://www.tweetdeck.com/">TweetDeck</a>, etc. All of them don&rsquo;t seem to fill my own needs and preferences. Even when Twitter used to support IM, I came up with probably the best solution I&rsquo;ve used so far, GTalk on <a href="http://www.bitlbee.org/main.php/news.r.html">Bitlbee</a>, so I could easily use <a href="http://www.irssi.org">Irssi</a> with it. I have also been suggested to use <a href="http://software.complete.org/software/projects/show/twidge">Twidge</a> but direct command-line IO is probably not the best for me. I want to have it a console emulator window, maybe screened in a remote server, running all the time, auto-updating, unobstrusive.</p>
+
+<p>Given this, I started to hack on my own personal client using <a href="http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/">ncurses</a>. Sadly, my lack of deep knowledge of the not-too-intuitive ncurses API made me abort the project. Maybe some day I could retake it. Shame.</p>
+
+<p>Anyway, within the last week, I found and have been using <a href="http://www.vim.org/scripts/script.php?script_id=2204">TwitVim</a>. I like <a href="http://vim.org">Vim</a>: It&rsquo;s my editor of choice for most of my projects. And TwitVim is a really nice project supporting a lot of interesting features:
+<p style="text-align: center;"><a href="http://damog.net/old/axiombox/2009/01/twitvim.png"><img class="aligncenter size-medium wp-image-783" title="twitvim" src="http://damog.net/old/axiombox/2009/01/twitvim-300x180.png" alt="twitvim" width="300" height="180" /></a></p></p>
+
+<p>There you can see how, on a non-obstrusive way, you can have it running. Since it&rsquo;s built on Vim, you can also do some key mappings so that you don&rsquo;t have to type all the commands. And it has all sorts of really cool and interesting features, like if the cursor is on a given line, \r will start a reply, or other binding will start a direct message, etc.</p>
+
+<p>Here&rsquo;s a picture of my own timeline:
+<p style="text-align: center;"><a href="http://damog.net/old/axiombox/2009/01/twitvim-user.png"><img class="aligncenter size-medium wp-image-784" title="twitvim-user" src="http://damog.net/old/axiombox/2009/01/twitvim-user-300x180.png" alt="twitvim-user" width="300" height="180" /></a></p></p>
+
+<p>Once you have installed it, take a look at the extensive and detailed documentation with:
+<pre><code>:help TwitVim</code></pre>
+However, the only downside is that it doesn&rsquo;t auto-refresh. But you can map a key for quick update:
+<pre><code>:nnoremap &lt;F8&gt; :FriendsTwitter&lt;cr&gt;</code></pre>
+What Twitter clients do you like and use?</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2009/01/14/macbook-pro/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2009/01/08/re-on-debgem/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Domains on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/domains/</link>
+    <description>Recent content in Domains on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Sep 2009 15:28:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/domains/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Net::Domain::ES::ccTLD</title>
+      <link>https://damog.net/blog/2009/09/01/netdomainescctld/</link>
+      <pubDate>Tue, 01 Sep 2009 15:28:23 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/09/01/netdomainescctld/</guid>
+      <description>As I&amp;rsquo;m rewriting the core of Planeta Linux (you can track progress here), I needed a reliable way to map a country TLD to its Spanish name. I headed to metaCPAN to see what was already built to do that and found out Locales::Country that looked awesome but didn&amp;rsquo;t work for me, code2country(&#39;ni&#39;) would return undef for me, plus the countries that were actually there had the encoding all fubar, so fuck it, drop it.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I3 on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/i3/</link>
+    <description>Recent content in I3 on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Jan 2014 13:02:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/i3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>i3 respect</title>
+      <link>https://damog.net/blog/2014/01/11/i3-respect/</link>
+      <pubDate>Sat, 11 Jan 2014 13:02:27 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2014/01/11/i3-respect/</guid>
+      <description>Hey Michael Stapelberg, thanks for creating i3 and making me believe again that people have a clue and things can be done just right (specially when it comes to something easily done crappy like window managers). Thanks for just getting it all right, and not only from the software point of view, but also for the community, the style around it, etc. Kudos.</description>
+    </item>
+    
+  </channel>
+</rss>

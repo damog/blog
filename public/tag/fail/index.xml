@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fail on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/fail/</link>
+    <description>Recent content in Fail on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Mar 2010 16:06:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/fail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debian fails</title>
+      <link>https://damog.net/blog/2010/03/01/debian-fails/</link>
+      <pubDate>Mon, 01 Mar 2010 16:06:19 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/03/01/debian-fails/</guid>
+      <description>Generalizations are fun, they always are because they tend to offend people and offended people by stupid shit is usually lots of fun.
+Here Debian, as a whole, fails; it sucks. Here Debian blows ass, the entire project is whack.
+My good friend Chris Lee sent me this:
+ If you can&amp;rsquo;t see the above iframe, here.
+Debian, full of fail. Wasn&amp;rsquo;t this generalization fun?
+Let the non-sense bullshit horses be released.</description>
+    </item>
+    
+  </channel>
+</rss>

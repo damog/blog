@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hack on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/hack/</link>
+    <description>Recent content in Hack on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Mar 2012 11:19:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/hack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Geo::PostalCode::NoDB 0.01</title>
+      <link>https://damog.net/blog/2012/03/21/geopostalcodenodb-0.01/</link>
+      <pubDate>Wed, 21 Mar 2012 11:19:17 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2012/03/21/geopostalcodenodb-0.01/</guid>
+      <description>Geo::PostalCode is a great Perl module. It lets you find surrounding postal areas (zip codes) around a given an amount of miles (radius), calculate distance between them, among other nice features. Sadly, I couldn&amp;rsquo;t get it to work with updated data and because the file its Berkely DB installer was producing was not being recognized by its parser, which bases off on DB_File. Since I was able to find working data for the source of zip codes, I ended up hacking the module and producing a version with no Berkeley DB support.</description>
+    </item>
+    
+    <item>
+      <title>TechCrunch top-stories news feed</title>
+      <link>https://damog.net/blog/2010/03/14/techcrunch-top-stories-news-feed/</link>
+      <pubDate>Sun, 14 Mar 2010 18:54:33 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/03/14/techcrunch-top-stories-news-feed/</guid>
+      <description>Being surrounded by the Web 2.0, I have to keep myself informed. TechCrunch is the most natural source of information. However, they write a lot of news stories every single day. A lot. Enough to make me feel stressed just to have so many shit to read on my feed reader.
+Well, since I still wanted to read the top stories, but they don&amp;rsquo;t provide such a feed, like Lifehacker (kind of) does, I hacked a feed (no longer active):</description>
+    </item>
+    
+    <item>
+      <title>Galaxia Linux</title>
+      <link>https://damog.net/blog/2008/09/27/galaxia-linux/</link>
+      <pubDate>Sat, 27 Sep 2008 13:23:42 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/09/27/galaxia-linux/</guid>
+      <description>Hace unos cuantos días vi que un nuevo proyecto de blogueros sobre Linux estaba siendo formado, Galaxia Linux. Al formar parte del selecto grupo de administradores de Planeta Linux, siempre nos interesa sumar esfuerzos: No nos gusta pensar que hay proyectos que lo único que quieren es aprovechar el trabajo de los demás sin crédito, me gusta pensar en Planeta Linux como un proyecto que puede ayudar a muchos otros más a formarse reforzando la comunidad latinoamericana linuxera, engordándola, consolidándola, sin embargo, bueno, ésto no es lo mismo en la dirección opuesta.</description>
+    </item>
+    
+  </channel>
+</rss>

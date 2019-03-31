@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Passenger on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/passenger/</link>
+    <description>Recent content in Passenger on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Aug 2009 17:32:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/passenger/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Phusion Passenger™ on Debian</title>
+      <link>https://damog.net/blog/2009/08/07/phusion-passenger-on-debian/</link>
+      <pubDate>Fri, 07 Aug 2009 17:32:02 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/07/phusion-passenger-on-debian/</guid>
+      <description>During DebConf 9 I had the opportunity to work together with Señor Micah to try to bring Passenger back to shape and get it back to the NEW queue on Debian. We spent way too much time dealing with the build for the pkg-ruby-extras build model than to the actual fixing and updating. At the end we came up with a very well updated and DFSG-compatible (in contrast to the one that Brightbox provides, which isn&amp;rsquo;t bad either to be honest) package for the 2.</description>
+    </item>
+    
+  </channel>
+</rss>

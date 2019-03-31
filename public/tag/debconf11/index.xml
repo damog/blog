@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debconf11 on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/debconf11/</link>
+    <description>Recent content in Debconf11 on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jul 2011 12:46:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/debconf11/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DebConf 11</title>
+      <link>https://damog.net/blog/2011/07/01/debconf-11/</link>
+      <pubDate>Fri, 01 Jul 2011 12:46:54 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2011/07/01/debconf-11/</guid>
+      <description>Last year, I had all the intention in the world to go to Bosnia and Herzegovina this summer to attend DebConf 11, but given my non-existent involvement on the project for the last couple of years, there&amp;rsquo;s no reason for me to do it. Even last year when the event was held in town, I was not entirely thrilled about it. Life has changed quite a bit in the last few years, allowing me to just find and allocate my priorities on their right places.</description>
+    </item>
+    
+  </channel>
+</rss>

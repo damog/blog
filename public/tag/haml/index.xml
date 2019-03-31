@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haml on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/haml/</link>
+    <description>Recent content in Haml on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Feb 2010 16:43:53 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/haml/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dancer::Template::Haml now available</title>
+      <link>https://damog.net/blog/2010/02/11/dancertemplatehaml-now-available/</link>
+      <pubDate>Thu, 11 Feb 2010 16:43:53 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/02/11/dancertemplatehaml-now-available/</guid>
+      <description>I put together a quick template engine for Dancer using Haml via Text::Haml. You know Haml, right?
+Now you can do neat shit like this:
+ set template =&amp;gt; &#39;haml&#39;; get &#39;/bazinga&#39;, sub { template &#39;bazinga&#39; =&amp;gt; { title =&amp;gt; &#39;Bazinga!&#39;, content =&amp;gt; &#39;Bazinga?&#39;, }; };  Using:
+!!! %html{ : xmlns =&amp;gt; &amp;quot;http://www.w3.org/1999/xhtml&amp;quot;, :lang =&amp;gt; &amp;quot;en&amp;quot;, &amp;quot;xml:lang&amp;quot; =&amp;gt; &amp;quot;en&amp;quot;} %head %title= title %body #content %strong= content  The dope thing about Text::Haml is that things like the Ruby interpolation will keep working.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debconf10 on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/debconf10/</link>
+    <description>Recent content in Debconf10 on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Aug 2010 02:04:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/debconf10/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DebConf 10</title>
+      <link>https://damog.net/blog/2010/08/12/debconf-10/</link>
+      <pubDate>Thu, 12 Aug 2010 02:04:17 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/08/12/debconf-10/</guid>
+      <description>I was in New York for three full weeks, before, during and after DebConf 10 took place. Unfortunately, I wasn&amp;rsquo;t able to attend talks or go hang out with folks as much as I would&amp;rsquo;ve wanted. Most of the time I was busy at the office with a new product launch we have been preparing for the last few months. However, I was able to come and say hi to a few people, attend the C&amp;amp;W party and talk with friends and ran into.</description>
+    </item>
+    
+    <item>
+      <title>DebConf 10 restricted access</title>
+      <link>https://damog.net/blog/2010/07/30/debconf-10-restricted-access/</link>
+      <pubDate>Fri, 30 Jul 2010 11:47:39 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/07/30/debconf-10-restricted-access/</guid>
+      <description>This is how we roll at DebConf 10.
+That chair protects our router :)</description>
+    </item>
+    
+  </channel>
+</rss>

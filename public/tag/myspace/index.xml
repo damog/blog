@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Myspace on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/myspace/</link>
+    <description>Recent content in Myspace on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 May 2009 12:43:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/myspace/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Perl in the Time of Social Networks</title>
+      <link>https://damog.net/blog/2009/05/09/perl-in-the-time-of-social-networks/</link>
+      <pubDate>Sat, 09 May 2009 12:43:15 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/05/09/perl-in-the-time-of-social-networks/</guid>
+      <description>This is going to be a fantastic and exciting Perl summer.
+During the last week, I received notification that the talk I&amp;rsquo;ve proposed for both YAPC::NA and YAPC::EU, was accepted.
+I will be talking about Perl in the Time of Social Networks, which is mainly two broad things: how Perl can actively power a modern social networking site (I&amp;rsquo;ll be releasing a free -as in speech- social network website, similar to Lovd or RailSpace, built with pure Catalyst); and about high-load applications dealing with social networks&amp;rsquo; APIs and users (a Moose-based universal social network distributor), with Twitter, Facebook, MySpace, Blogger, LastFM, and others.</description>
+    </item>
+    
+    <item>
+      <title>MySpace, San Francisco and the future</title>
+      <link>https://damog.net/blog/2009/02/07/myspace-san-francisco-and-the-future/</link>
+      <pubDate>Sat, 07 Feb 2009 19:45:37 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/02/07/myspace-san-francisco-and-the-future/</guid>
+      <description>Raquel and I came to San Francisco for a couple of days during this week, mainly to attend the MySpace DevJam. It was a great experience to get to know the west coast as we hadn&amp;rsquo;t have the chance to come over. We also had the opportunity to meet with my great friend Marco Manzo, who is working for Leap Frog in the Bay Area.
+On the MySpace side, I&amp;rsquo;m glad to see that some real and good improvements are being made to open the platform as much as possible.</description>
+    </item>
+    
+  </channel>
+</rss>

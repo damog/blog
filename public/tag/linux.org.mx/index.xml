@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux.org.mx on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/linux.org.mx/</link>
+    <description>Recent content in Linux.org.mx on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Nov 2009 16:19:56 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/linux.org.mx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>linux.org.mx is now Planeta Linux México</title>
+      <link>https://damog.net/blog/2009/11/24/linux.org.mx-is-now-planeta-linux-m%C3%A9xico/</link>
+      <pubDate>Tue, 24 Nov 2009 16:19:56 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/24/linux.org.mx-is-now-planeta-linux-m%C3%A9xico/</guid>
+      <description>It&amp;rsquo;s very pleasant for me to announce that the probably most descriptive domain name in Mexico for Linux, linux.org.mx, is now powered by Planeta Linux México.
+I see this as a great milestone of all the members of the Mexican Linux community that have made Planeta Linux the number one Web site in Mexico for Linux. Also, please raise your drinks for @negrabarba, who made this possible, administrator of the DNS at UPN, where the domain name points to; and of course for Miguel, the owner of it.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Axiombox on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/axiombox/</link>
+    <description>Recent content in Axiombox on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Apr 2009 09:32:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/axiombox/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rubx: Twitter&#39;s Ruby shell</title>
+      <link>https://damog.net/blog/2009/04/06/rubx-twitters-ruby-shell/</link>
+      <pubDate>Mon, 06 Apr 2009 09:32:05 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/04/06/rubx-twitters-ruby-shell/</guid>
+      <description>Rubx, also known as Ruby Boobie, is a nice spoiled girlie bot that runs on Twitter. She listens when you talk to her and when you do, it&amp;rsquo;ll better be with Ruby: She will interpret your tweet in Ruby and reply to you with what your code returns.
+How does it work? You send a message to her: @rubx &amp;ldquo;The day I was born it was a &amp;rdquo; &amp;lt;&amp;lt; Time.local(1984, &amp;ldquo;aug&amp;rdquo;, 8).</description>
+    </item>
+    
+    <item>
+      <title>5 excelentes blogs mexicanos que quizás no conocías (parte 2)</title>
+      <link>https://damog.net/blog/2008/10/07/5-excelentes-blogs-mexicanos-que-quiz%C3%A1s-no-conoc%C3%ADas-parte-2/</link>
+      <pubDate>Tue, 07 Oct 2008 14:25:56 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/10/07/5-excelentes-blogs-mexicanos-que-quiz%C3%A1s-no-conoc%C3%ADas-parte-2/</guid>
+      <description>Luego del buen feedback que recibí en el post anterior en el que recomiendo cinco buenos blogs mexicanos, decidí hacer secuelas porque tenemos mucho material. Aquí la segunda parte, pues. * Sexy Feet http://www.si-claro.com/sexy-feet/ Según su propia descripción, un tributo a los pies femeninos; en Axiombox nosotros lo vemos como un gran escape para todos aquellos que quieren saciar ese raro pero fascinante fetiche :)
+* Perlas Genuinas http://blog.perlasgenuinas.com/ El elegante mundo de las perlas.</description>
+    </item>
+    
+    <item>
+      <title>5 excelentes blogs mexicanos que probablemente no conocías</title>
+      <link>https://damog.net/blog/2008/09/29/5-excelentes-blogs-mexicanos-que-probablemente-no-conoc%C3%ADas/</link>
+      <pubDate>Mon, 29 Sep 2008 20:32:41 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/09/29/5-excelentes-blogs-mexicanos-que-probablemente-no-conoc%C3%ADas/</guid>
+      <description>En Axiombox estamos trabajando en un proyecto muy grande e importante ligado a blogs y sitios mexicanos y aunque no puedo hablar mucho al respecto por el momento, me gustaría mostrar algunas cosillas interesantes que seguramente van a gustar. Así que, si mis dos lectores geeks lo permiten, quiero listar cinco muy buenos blogs mexicanos que es probable que no conozcan:  Superluchas.net. De todo tipo de lucha libre, mexicana, gringa y de varios más países.</description>
+    </item>
+    
+  </channel>
+</rss>

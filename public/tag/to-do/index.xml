@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>To Do on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/to-do/</link>
+    <description>Recent content in To Do on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Oct 2008 21:03:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/to-do/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New York BSP personal to-do list</title>
+      <link>https://damog.net/blog/2008/10/01/new-york-bsp-personal-to-do-list/</link>
+      <pubDate>Wed, 01 Oct 2008 21:03:19 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/10/01/new-york-bsp-personal-to-do-list/</guid>
+      <description>So, as it was previously announced (and recently re-invited by Micah), this weekend is the debiannyc BSP. This makes me think on my lack of involvement on the technical part of Debian (I&amp;rsquo;m still socially involved with friends and groups) for the last couple of months. So, for the sake of encouraging others to join us on Saturday if you in the city (or the tri-state area, or beyond!), here it is, my personal list of tasks I&amp;rsquo;m willing to work on:</description>
+    </item>
+    
+  </channel>
+</rss>

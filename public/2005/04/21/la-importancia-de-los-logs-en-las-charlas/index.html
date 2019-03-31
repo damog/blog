@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La importancia de los logs en las charlas | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">La importancia de los logs en las charlas</span></h1>
+
+<p class="date">Thu 21 Apr 2005 03:57:48 AM UTC</p>
+</div>
+
+<main>
+<p>Siempre he dicho que las bitácoras (logs) de programas de conversación
+son infinitamente útiles. Incluso, me parece que tengo logs desde hace
+dos años, principalmente, del IRC (usando X-Chat) y de los IM&#8217;s (usando
+Gaim).<br/><br/>
+Sin embargo, ahora quiero postear algo que <em>interesante</em> que pasó en el canal #debian-women, de irc.debian.org.<br/><br/>
+Erinn, conocida como <em>helix</em>, al entrar hoy por la tarde al canal,
+me preguntó que si yo había editado su wiki. La verdad es que ni
+siquiera sabía que tenía un wiki. Dijo que alguien había modificado un
+nombre, de &#8220;Juan Luis Guerra&#8221;, le habían puesto &#8220;Juan Luis Guerra y su
+4-40&#8221;. Gracioso :-)<br/><br/>
+El sistema que ella ocupa como wiki está abierto libremente, cualquier
+persona lo puede editar; sin embargo, parecía molesta pues no publica
+mucho la URL del wiki, mas que precisamente en el canal de IRC.<br/><br/>
+¿Por qué me preguntó que si yo lo había modificado? Por que encontró
+que quien lo había modificado tenía una IP mexicana. En fin.<br/><br/>
+Luego de muchas discusiones y triviales conversaciones, le pedí la IP y ésto fue lo que hice:<br/><br/>
+damog@cebollita:~/.xchat2/xchatlogs$ grep &#8216;201&#46;137&#46;53&#46;118&#8217; *<br/>
+FreeNode-#debian-mentors.log:Apr 18&#160;20:41:50
+&#8212;&gt;        zarathustra
+(~zarathust@201.137.53.118) has joined #debian-mentors<br/>
+FreeNode-#debianmexico.log:Apr 18&#160;20:41:50 &#8212;&gt;  zarathustra (~zarathust@201.137.53.118) has joined #debianmexico<br/>
+FreeNode-#debian-women.log:Apr 18&#160;20:41:50 &#8212;&gt;  zarathustra (~zarathust@201.137.53.118) has joined #debian-women<br/>
+FreeNode-#debian-women.log:Apr 20&#160;22:33:57 &lt;helix&gt;      201.137.53.118<br/>
+FreeNode-#unixmexico.log:Apr 18&#160;20:47:15 &#8212;&gt;    zarathustra (~zarathust@201.137.53.118) has joined #unixmexico<br/>
+FreeNode-#unixmexico.log:Apr 18&#160;20:51:33 &lt;&#8212;   
+zarathustra (~zarathust@201.137.53.118) has left #unixmexico (&#8220;TschÃ¼ss
+!&#8221;)<br/>
+damog@cebollita:~/.xchat2/xchatlogs$<br/><br/>
+Lo peor es que zarathustra estaba en el canal cuando estaba la
+discusión. Le dije a helix que hasta donde yo sabía, él y yo éramos los
+únicos mexicanos en #debian-women. Él lo negó.<br/><br/>
+Finalmente cayó, gracias a los logs :-)<br/><br/><br/></p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2005/04/23/los-borgia/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2005/04/17/descansa-en-paz-danny./">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flisol on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/flisol/</link>
+    <description>Recent content in Flisol on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Apr 2010 10:30:21 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/flisol/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>nginx talk on FLISOL at UIA</title>
+      <link>https://damog.net/blog/2010/04/21/nginx-talk-on-flisol-at-uia/</link>
+      <pubDate>Wed, 21 Apr 2010 10:30:21 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/04/21/nginx-talk-on-flisol-at-uia/</guid>
+      <description>Friends, I&amp;rsquo;ll be attending the FLISOL (Latin American Free Software Install Fest) conference in Universidad Iberoamericana, this Friday, where I&amp;rsquo;ll be talking about how marvelous nginx is and why you should use it. If you are near, you should stop by! Tell of your co-workers and friends, it&amp;rsquo;ll be fun.</description>
+    </item>
+    
+  </channel>
+</rss>

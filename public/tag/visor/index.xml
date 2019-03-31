@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visor on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/visor/</link>
+    <description>Recent content in Visor on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Aug 2009 14:03:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/visor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Snow Leopard Now</title>
+      <link>https://damog.net/blog/2009/08/29/snow-leopard-now/</link>
+      <pubDate>Sat, 29 Aug 2009 14:03:16 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/29/snow-leopard-now/</guid>
+      <description>We ordered a family pack of Snow Leopard for the whole development team last Tuesday. They arrived yesterday Friday, early morning.
+A few thing don&amp;rsquo;t work entirely as they were, which was expectable, among other things: MacPorts starts broken (but you simply have to upgrade to the actual Snow Leopard version). Visor only works on position Full-Screen. iStat Menus simply doesn&amp;rsquo;t. No support for GrowMail yet neither. And everything else does, as far as I can tell.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Top Stories on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/top-stories/</link>
+    <description>Recent content in Top Stories on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Mar 2010 18:54:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/top-stories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TechCrunch top-stories news feed</title>
+      <link>https://damog.net/blog/2010/03/14/techcrunch-top-stories-news-feed/</link>
+      <pubDate>Sun, 14 Mar 2010 18:54:33 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/03/14/techcrunch-top-stories-news-feed/</guid>
+      <description>Being surrounded by the Web 2.0, I have to keep myself informed. TechCrunch is the most natural source of information. However, they write a lot of news stories every single day. A lot. Enough to make me feel stressed just to have so many shit to read on my feed reader.
+Well, since I still wanted to read the top stories, but they don&amp;rsquo;t provide such a feed, like Lifehacker (kind of) does, I hacked a feed (no longer active):</description>
+    </item>
+    
+  </channel>
+</rss>

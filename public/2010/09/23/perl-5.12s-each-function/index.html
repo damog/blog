@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Perl 5.12&#39;s each function | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Perl 5.12&rsquo;s each function</span></h1>
+
+<p class="date">Thu 23 Sep 2010 05:21:46 PM UTC</p>
+</div>
+
+<main>
+<p>With Perl <a href="http://www.nntp.perl.org/group/perl.perl5.porters/2010/04/msg158820.html">5.12</a> released earlier this summer, the <a href="http://perldoc.perl.org/functions/each.html">each</a> function got a nice little addition that I&rsquo;d like to talk about: It now has the ability to work on arrays, not only key-value pair hashes, but not exactly as you&rsquo;d expect it (not like Ruby&rsquo;s <a href="http://ruby-doc.org/core/classes/Array.html#M002173">each</a> method).</p>
+
+<p>The traditional way to work with each, using a hash:</p>
+
+<pre><code>my %h = (
+    a =&gt; 1,
+    b =&gt; 2,
+    c =&gt; 3,
+);
+
+while(my($key, $value) = each %h) {
+    say &quot;index: $key =&gt; value: $value&quot;;
+}
+</code></pre>
+
+<p>And the output. Of course, hashes being unordered lists, you won&rsquo;t get the nice little order of an array.</p>
+
+<pre><code>index: c =&gt; value: 3
+index: a =&gt; value: 1
+index: b =&gt; value: 2
+</code></pre>
+
+<p>Now, when you use an array, each will return the next pair on the list consisting on the index of that element&rsquo;s position and the position itself. Since it returns the next pair, you can iterate through it on the same fashion as when using a hash:</p>
+
+<pre><code>my @arr = ('a'..'z');
+
+while(my($index, $value) = each @arr) {
+    say &quot;index: $index =&gt; value: $value&quot;;
+}
+</code></pre>
+
+<p>This is particularly useful to access direct named variables, both the index and the element, while looping through an array.</p>
+
+<pre><code>index: 0 =&gt; value: a
+index: 1 =&gt; value: b
+index: 2 =&gt; value: c
+index: 3 =&gt; value: d
+index: 4 =&gt; value: e
+index: 5 =&gt; value: f
+index: 6 =&gt; value: g
+index: 7 =&gt; value: h
+index: 8 =&gt; value: i
+index: 9 =&gt; value: j
+index: 10 =&gt; value: k
+index: 11 =&gt; value: l
+index: 12 =&gt; value: m
+index: 13 =&gt; value: n
+index: 14 =&gt; value: o
+index: 15 =&gt; value: p
+index: 16 =&gt; value: q
+index: 17 =&gt; value: r
+index: 18 =&gt; value: s
+index: 19 =&gt; value: t
+index: 20 =&gt; value: u
+index: 21 =&gt; value: v
+index: 22 =&gt; value: w
+index: 23 =&gt; value: x
+index: 24 =&gt; value: y
+index: 25 =&gt; value: z
+</code></pre>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2010/09/28/running-find-with-two-or-more-commands-to-exec/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2010/08/22/apache2archive-0.2/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gem on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/gem/</link>
+    <description>Recent content in Gem on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Jan 2009 10:40:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/gem/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Re: On DebGem</title>
+      <link>https://damog.net/blog/2009/01/08/re-on-debgem/</link>
+      <pubDate>Thu, 08 Jan 2009 10:40:38 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/08/re-on-debgem/</guid>
+      <description>Wouter, I find your thinking on DebGem a bit overreacted. I think you are taking the product and commercial efforts that a company make as the proposed solution we&amp;rsquo;ve all been expecting for a similar problem, which is not. You are considering DebGem to be an outcome provided by the Ruby community, which is not, to this issue.
+Phusion is obviously not the Ruby community, but part of it. How I see it, it&amp;rsquo;s great: I applaud that more companies take a look at nice technologies and try to provide their own products.</description>
+    </item>
+    
+    <item>
+      <title>Ruby goodies: Modules and methods for my everyday Ruby</title>
+      <link>https://damog.net/blog/2009/01/03/ruby-goodies-modules-and-methods-for-my-everyday-ruby/</link>
+      <pubDate>Sat, 03 Jan 2009 23:27:50 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/03/ruby-goodies-modules-and-methods-for-my-everyday-ruby/</guid>
+      <description>I make a lot of Web script processing, whether scraping, webservices, systems administration, etc. Because I sometimes happen to repeat small and useful chunks of code for different projects, I thought that, given making new modules and methods is usually hassleless in Ruby, I should make my own set of methods and goodies I constantly use. Example 1, I sometimes miss Perl&amp;rsquo;s LWP::Simple simplicity where I just pass a URL to a subroutine and get the content on a variable, quick, one-liner.</description>
+    </item>
+    
+  </channel>
+</rss>

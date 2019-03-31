@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feedbag now using feedvalidator | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Feedbag now using feedvalidator</span></h1>
+
+<p class="date">Wed 11 Feb 2009 04:00:53 PM UTC</p>
+</div>
+
+<main>
+<p>There&rsquo;s a very special case that I hadn&rsquo;t spotted on <a href="http://axiombox.com/feedbag">Feedbag</a>. Within the different methods that Feedbag uses to discover the feed on a given URL, the very first one is lookup on a table of &ldquo;known&rdquo; content types. If the alleged feed is served with any of the following content types, then Feedbag just returns that same URL as it assumes it&rsquo;s the feed:
+<pre><code>@content_types = [
+&lsquo;application/x.atom+xml&rsquo;,
+&lsquo;application/atom+xml&rsquo;,
+&lsquo;application/xml&rsquo;,
+&lsquo;text/xml&rsquo;,
+&lsquo;application/rss+xml&rsquo;,
+&lsquo;application/rdf+xml&rsquo;,
+]</code></pre>
+However, what happens if the feed is not served with any of those but it&rsquo;s a valid feed? Well, Feedbag wouldn&rsquo;t auto-discover the feed itself but would start parsing the HTML, which is time-consuming (and unneeded after all). Because of this, between the content type lookup and the HTML parsing, I&rsquo;ve added W3C feed validation using the nice gem <a href="http://feedvalidator.rubyforge.org/">feedvalidator</a>. However, since this would result on an extra dependency, I&rsquo;ve left it as optional. If the gem is available, it&rsquo;ll use it, otherwise, it won&rsquo;t and will start parsing the HTML.</p>
+
+<p>You can see the fix patch on <a href="http://github.com/damog/feedbag/commit/227434c850b6421e421a0fc54463c2e5f26cd619">this commit</a>.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2009/02/11/debian-get-together-in-nyc-this-next-1234567890/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2009/02/09/lib/active_record/base.rb2808in-attributes_with_quotes-undefined-method-each-for-truetrueclass-nomethoderror/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

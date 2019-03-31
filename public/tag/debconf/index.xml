@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debconf on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/debconf/</link>
+    <description>Recent content in Debconf on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jul 2011 12:46:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/debconf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DebConf 11</title>
+      <link>https://damog.net/blog/2011/07/01/debconf-11/</link>
+      <pubDate>Fri, 01 Jul 2011 12:46:54 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2011/07/01/debconf-11/</guid>
+      <description>Last year, I had all the intention in the world to go to Bosnia and Herzegovina this summer to attend DebConf 11, but given my non-existent involvement on the project for the last couple of years, there&amp;rsquo;s no reason for me to do it. Even last year when the event was held in town, I was not entirely thrilled about it. Life has changed quite a bit in the last few years, allowing me to just find and allocate my priorities on their right places.</description>
+    </item>
+    
+    <item>
+      <title>DebConf 10</title>
+      <link>https://damog.net/blog/2010/08/12/debconf-10/</link>
+      <pubDate>Thu, 12 Aug 2010 02:04:17 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/08/12/debconf-10/</guid>
+      <description>I was in New York for three full weeks, before, during and after DebConf 10 took place. Unfortunately, I wasn&amp;rsquo;t able to attend talks or go hang out with folks as much as I would&amp;rsquo;ve wanted. Most of the time I was busy at the office with a new product launch we have been preparing for the last few months. However, I was able to come and say hi to a few people, attend the C&amp;amp;W party and talk with friends and ran into.</description>
+    </item>
+    
+    <item>
+      <title>DebConf 10 restricted access</title>
+      <link>https://damog.net/blog/2010/07/30/debconf-10-restricted-access/</link>
+      <pubDate>Fri, 30 Jul 2010 11:47:39 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/07/30/debconf-10-restricted-access/</guid>
+      <description>This is how we roll at DebConf 10.
+That chair protects our router :)</description>
+    </item>
+    
+    <item>
+      <title>Phusion Passenger™ on Debian</title>
+      <link>https://damog.net/blog/2009/08/07/phusion-passenger-on-debian/</link>
+      <pubDate>Fri, 07 Aug 2009 17:32:02 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/07/phusion-passenger-on-debian/</guid>
+      <description>During DebConf 9 I had the opportunity to work together with Señor Micah to try to bring Passenger back to shape and get it back to the NEW queue on Debian. We spent way too much time dealing with the build for the pkg-ruby-extras build model than to the actual fixing and updating. At the end we came up with a very well updated and DFSG-compatible (in contrast to the one that Brightbox provides, which isn&amp;rsquo;t bad either to be honest) package for the 2.</description>
+    </item>
+    
+    <item>
+      <title>Finally at DebConf 9</title>
+      <link>https://damog.net/blog/2009/07/22/finally-at-debconf-9/</link>
+      <pubDate>Wed, 22 Jul 2009 21:13:12 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/07/22/finally-at-debconf-9/</guid>
+      <description>After a random series of hazardous events, I&amp;rsquo;m finally at DebConf 9 in Cáceres, Spain. I&amp;rsquo;ll post more updates later, right now I&amp;rsquo;m trying to put my sh*t together and find my way through around here for the next couple of weeks. Interested people can always follow my microblogging feed too.
+Love, D.</description>
+    </item>
+    
+    <item>
+      <title>RE: When did we start attacking each other?</title>
+      <link>https://damog.net/blog/2008/08/04/re-when-did-we-start-attacking-each-other/</link>
+      <pubDate>Mon, 04 Aug 2008 11:52:55 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/08/04/re-when-did-we-start-attacking-each-other/</guid>
+      <description>Machu, what you posted recently made me recall how some local friends told me were treated upon check-in at Oaxtepec, where DebConf6 was happening. It was maybe four or five persons, including myself, treated with arrogance, indifference and rudeness when there were issues (or say, situations) with the rooms or something, by that Argentinian woman, who was the nice representative of the Orga team with the local venue.
+UPDATE: Edited. Only posting bullshit now that I know about after madduck&amp;rsquo;s reply.</description>
+    </item>
+    
+    <item>
+      <title>No DebConf for you</title>
+      <link>https://damog.net/blog/2008/07/30/no-debconf-for-you/</link>
+      <pubDate>Wed, 30 Jul 2008 16:42:29 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/07/30/no-debconf-for-you/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Updates</title>
+      <link>https://damog.net/blog/2008/07/08/updates/</link>
+      <pubDate>Tue, 08 Jul 2008 14:44:50 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/07/08/updates/</guid>
+      <description>Personal stuff coming up; if you are not that kind of person, please skip :-) I forgot to say on my previous post about YAPC::NA 2008 that while I was in Chicago, I had the really nice chance to meet Carlo Segre and Dirk Eddelbuettel and enjoy a couple of nice beers with them. Great guys! I&amp;rsquo;m probably not attending DebConf this year. It&amp;rsquo;s just too expensive right now and since sponsorship appears to be not enough, chances for me are quite low now.</description>
+    </item>
+    
+  </channel>
+</rss>

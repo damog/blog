@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keysigning on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/keysigning/</link>
+    <description>Recent content in Keysigning on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 May 2009 10:08:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/keysigning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debian NYC get-together and PGP key signing</title>
+      <link>https://damog.net/blog/2009/05/06/debian-nyc-get-together-and-pgp-key-signing/</link>
+      <pubDate>Wed, 06 May 2009 10:08:07 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/05/06/debian-nyc-get-together-and-pgp-key-signing/</guid>
+      <description>If you happen to be in the NYC area this Friday May 8th, come over to our get-together to have a few beers/club sodas at Pacific Standard in Park Slope, Brooklyn (at 8 pm, map here). We will also be holding a PGP/GPG key signing par-tay at 9 pm, so make sure you bring your government-issued ID and your printed keys. More information about it, here.</description>
+    </item>
+    
+  </channel>
+</rss>

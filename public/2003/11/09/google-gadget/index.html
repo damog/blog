@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Google gadget | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Google gadget</span></h1>
+
+<p class="date">Sun 09 Nov 2003 07:38:53 PM UTC</p>
+</div>
+
+<main>
+<p>Pues he terminado un pequeño gadgetcito para <a href="http://web.archive.org/web/20031125134728/http://jaws-project.sf.net/">JAWS</a> para hacer búsquedas en <a href="http://web.archive.org/web/20031125134728/http://www.google.com/">Google</a>. Espero adaptarle un pequeño admin, pero por lo pronto es usable.
+
+Para instalarlo, hay que hacer lo siguiente (ahora que lo pienso, estaría bien que JAWS tuviera una interfacecita para adhesión de gadgets nuevos, a ver qué se puede hacer).
+</p>
+<ul>
+<li>Bajar <a href="http://web.archive.org/web/20031125134728/http://damog.net/files/google.phps">éste</a> archivo PHP.
+<pre>% wget <a href="http://www.damog.net/files/google.phps">http://www.damog.net/files/google.phps</a></pre>
+Hay que renombrarlo a google.php, el google.phpS es para que se muestre el contenido.</li>
+<li>Poner el archivo en el directorio de gadgets de JAWS.
+<pre>% mv /ruta/al/archivo/google.php raíz_de_jaws/gadgets</pre>
+</li>
+<li>Añadir el gadget en la tabla &#8216;registry&#8217;. Si se está usando JAWS 0.2 se pueden insertar en el registro 35:
+<pre>mysql&gt; INSERT INTO registry VALUES (35,'/gadgets/google/enabled','true');</pre>
+</li>
+<li>Listo! Ya se puede cargar el gadget desde el Control Panel de JAWS. Hasta el momento, sólo está languagizado con spanish e english. En cuanto ponga una administracioncita para el gadget (tamaño y tipo de la imagen de Google, orden de los botones, etc), pondré más traducción en ./languages.</li>
+</ul>
+<p>
+:-D </p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2003/11/09/digicam/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2003/11/07/mathematica-no-puede-con-la-chamba/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

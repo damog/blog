@@ -1,0 +1,20 @@
+---
+title: "Embestido por la Geometría Analítica"
+date: 2006-10-20 16:24:29
+tag: 
+---
+El día de hoy hice el examen quizás más cabrón que me ha tocado en la <a target="_blank" href="http://www.fciencias.unam.mx">Facultad</a>, y es que conjuntó varias cosas que me lo pusieron muy cabrón. Explico a continuación.
+
+No suelo estudiar. No tengo tiempo o me da mucha flojera o invento pretextos para no hacerlo, pero bueno, una de las cosas por las que estudio Matemáticas es porque prefiero entender algo y chingarle a eso. Es más fácil para mí entender cómo se realizan ciertas operaciones o problemas (así nomás problemas porque sí, no como los ingenieros que sí tienen una causa para estudiar matemáticas :) ) o más recientemente, entender cómo demostrar un teorema que agarrar un libro y ponerme a estudiar, leerlo y hacerle al pendejo de que estoy entendiendo. Sin embargo, esto me es muchas veces contraproducente, justo como en este examen. Nunca tomé el cuaderno para estudiar si no hasta dos horas antes del examen y quise, como dice Tato, “construir castillos con palillos”.
+
+Geometría Analítica I la dan dos profesores. El profesor de martes y jueves, contrario a como es acostumbrado en las otras materias, no es un ayudante, si no es otro profesor “real”. Como a veces me siento bien chingón, dejé de ir algunos martes y jueves por el pretexto de los ayudantes, incluso perdiendo la clase de este profesor. Pues muchos apuntes no los tengo, tenía muchísimas dudas y los chingados libros que están en la Biblioteca de Ciencias no son suficientes. La mayoría tocan la geometría analítica como si fuera del curso de 5to de prepa en que dan una puta ecuacioncita chaqueta para una línea, y luego para el círculo y luego para la elipse, y así. Y no, es mucho más cabrón. Además, la geometría que nos da Daniel (nombre de este profesor), es vectorial, entonces todo está basado en vectores de posición y no en R² chaqueto como en todos lados.
+
+Además brutalmente largo el puto examen. O al menos así se me hizo, y muy enredado. En el examen tenías que usar un punto S que estaba definido por el lugar que ocupabas en el salón: a mí me tocó la coordenada <em>11,2</em>, entonces tuve que tomar el valor <em>S(11,2)</em>. Qué chingón para los que les tocaron <em>S(1,1)</em> ó <em>S(2,4)</em> o algo así. Pero bueno, la suerte de los feos, los bonitos la deseamos ;-)
+
+Lo único bueno fue que pues sólo estudié dos horas antes del examen y más o menos pude sacar algunas respuestas. Hubo dos cosas que no estudié y para mi puta mala fortuna, preguntaron mucho: La distancia de un punto dado con la ecuación vectorial de una recta dada y el modo de calcular las intersecciones de rectas en el espacio vectorial. ¡Que finalmente sé que son una mamada! Pero no estudié porque no lo tenía en los apuntes y los libros que tomé de la biblioteca nomás te daban una embarrada de lo que es la pendiente, la distancia entre dos puntos piteros y ya :(
+
+Y lo que más me caga es que siempre me pasa lo mismo. Las cosas están bien fáciles y por pinche güevón la cago. OBVIAMENTE voy a reprobar el examen, si rescato 5/10 me sentiré satisfecho, pero el coraje es que pude haberlo evitado asistiendo a todas las clases y resolviendo la tarea que también era una mamada y que luego de estudiar un poco, todos sus pinches ejercicios salían en chinga. En parte me encabrona, en parte me entristece y en parte me dan ganas de chingarle para el segundo examen: Sobre todo que si ya voy a volar Cálculo (en Venezuela se le llama “raspar”), lo cual es otra larga historia que no quiero contar en este momento, no quiero/puedo permitirme el privilegio de mamar Geometría Analítica I.
+
+Aquí pongo el examen. Como buena universidad, a nadie le importa si le regresas el examen al profesor, te lo fumas o te lo insertas por el fundillo: Lo que importa es que aprendas de él y de tus propios errores. Denle clic para verlo en grandote.
+
+<p align="center"><a target="_blank" href="http://www.damog.net/files/misc/geometria-analitica.jpg"><img src="http://www.damog.net/files/misc/geometria-analica-mini.jpg"/></a> </p>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iceweasel on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/iceweasel/</link>
+    <description>Recent content in Iceweasel on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jun 2008 16:38:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/iceweasel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Firefox 3 for Debian Lenny</title>
+      <link>https://damog.net/blog/2008/06/22/firefox-3-for-debian-lenny/</link>
+      <pubDate>Sun, 22 Jun 2008 16:38:00 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/06/22/firefox-3-for-debian-lenny/</guid>
+      <description>Well, it is actually Iceweasel 3 for Debian testing. Iceweasel just hit unstable yesterday (it had been for a while on experimental) and if you are running testing and can&amp;rsquo;t wait for it to get through QA, I&amp;rsquo;ve made a backport for you:
+ deb http://debian.axiombox.com/ testing main
+ The newest xulrunner was also backported, which was, yes, the whole point for this.
+UPDATE: Iceweasel 3 was uploaded a couple of weeks now, not yesterday :)</description>
+    </item>
+    
+  </channel>
+</rss>

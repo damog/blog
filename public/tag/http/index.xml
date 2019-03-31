@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Http on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/http/</link>
+    <description>Recent content in Http on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Mar 2011 14:47:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/http/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Disable Nginx logging</title>
+      <link>https://damog.net/blog/2011/03/24/disable-nginx-logging/</link>
+      <pubDate>Thu, 24 Mar 2011 14:47:07 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2011/03/24/disable-nginx-logging/</guid>
+      <description>This is something that is specified clearly on the Nginx manual, but it&amp;rsquo;s nice to have it as a quick reference.
+The access_log and error_log directives on Nginx are on separate modules (HTTP Log and Core modules respectively) and they don&amp;rsquo;t behave the same way when all you want is to disable all logging on your server (in our case, we serve a gazillion static files and perform a lot of reverse proxying and we&amp;rsquo;re not interested on tracking that).</description>
+    </item>
+    
+  </channel>
+</rss>

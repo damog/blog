@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/wordpress/</link>
+    <description>Recent content in Wordpress on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Feb 2010 11:35:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Large PHP scripts truncated on nginx</title>
+      <link>https://damog.net/blog/2010/02/03/large-php-scripts-truncated-on-nginx/</link>
+      <pubDate>Wed, 03 Feb 2010 11:35:14 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/02/03/large-php-scripts-truncated-on-nginx/</guid>
+      <description>I spent a couple of hours yesterday trying to debug an issue that made me hit my head against the wall while it lasted.
+I run multiple instances of WordPress, and with it, comes a nice little editor bundled called TinyMCE. But on my main WordPress installation (this very blog, dear reader, where you are reading this from), TinyMCE wouldn&amp;rsquo;t come up, it wouldn&amp;rsquo;t render properly on the browser, it didn&amp;rsquo;t matter if it was my main browser, Chrome, or Firefox, Safari, cached, uncached, it was just broken.</description>
+    </item>
+    
+    <item>
+      <title>Caching and optimization for WordPress talk</title>
+      <link>https://damog.net/blog/2009/12/21/caching-and-optimization-for-wordpress-talk/</link>
+      <pubDate>Mon, 21 Dec 2009 14:18:48 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/12/21/caching-and-optimization-for-wordpress-talk/</guid>
+      <description>Continuing with my WordCamp NYC talks review, I&amp;rsquo;d like to point out the notes I took attending the talk Caching and Optimization for WordPress, by Jeremy Clarke.
+I believe this was a great topic to be covered for people who actively maintain WordPress installations and have to deal with upgrades, stability and reliability. However, I also think Jeremy took a much more basic approach for this topic the way it shouldn&amp;rsquo;t have to be.</description>
+    </item>
+    
+    <item>
+      <title>Writing Secure WordPress Plugins talk by Mark Jaquith</title>
+      <link>https://damog.net/blog/2009/11/24/writing-secure-wordpress-plugins-talk-by-mark-jaquith/</link>
+      <pubDate>Tue, 24 Nov 2009 17:29:18 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/24/writing-secure-wordpress-plugins-talk-by-mark-jaquith/</guid>
+      <description>Continuing my notes and remarks from WordCamp, I attended Writing Secure Plugins, which was given by Mark Jaquith (@markjaquith on Twitter). I found the talk to be also slightly introductory on security matters but nicely oriented to WordPress plugins and general PHP Web app development. I believe most of the tips given should be taken into consideration by every PHP coder out there, not just WP people. 
+The talk was split into the different attacks that are common on Web applications and mainly pointing to functions and actions to be taken.</description>
+    </item>
+    
+    <item>
+      <title>Securing WordPress talk</title>
+      <link>https://damog.net/blog/2009/11/20/securing-wordpress-talk/</link>
+      <pubDate>Fri, 20 Nov 2009 13:20:25 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/20/securing-wordpress-talk/</guid>
+      <description>Here I start a series of posts with my comments, notes and remarks on the talks that I attended at last weekend&amp;rsquo;s WordCamp in NYC.
+The first talk I attended was Securing WordPress, by Brad Williams (@williamsba on Twitter). First off, this talk wasn&amp;rsquo;t too technical since it was focused to beginning developers whose background wouldn&amp;rsquo;t be completely into systems administration, it was intended to a broader audience, which is exactly why I liked it so much and started taking notes.</description>
+    </item>
+    
+    <item>
+      <title>Wonderful WordCamp NYC experience</title>
+      <link>https://damog.net/blog/2009/11/15/wonderful-wordcamp-nyc-experience/</link>
+      <pubDate>Sun, 15 Nov 2009 20:15:45 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/15/wonderful-wordcamp-nyc-experience/</guid>
+      <description>I had a blast on Saturday. Let me put it again in bold, I had an awesome experience yesterday at WordCamp NYC. If you ever have the opportunity, you shouldn&amp;rsquo;t miss the chance to attend one of them, it&amp;rsquo;s really inspiring, people is very, very welcome and I loved the fact that there&amp;rsquo;s so many people with all sorts of backgrounds and focused on many fronts on the Web and blogging world, not just technical.</description>
+    </item>
+    
+    <item>
+      <title>Attending WordCamp NYC</title>
+      <link>https://damog.net/blog/2009/11/10/attending-wordcamp-nyc/</link>
+      <pubDate>Tue, 10 Nov 2009 17:19:56 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/10/attending-wordcamp-nyc/</guid>
+      <description>I&amp;rsquo;ll be attending WordCamp NYC this upcoming weekend. There&amp;rsquo;s a lot of very interesting talks and people speaking at the conference, so it was basically a no-brainer since it&amp;rsquo;s being held in Manhattan. Plus, WordPress is one of the platforms I&amp;rsquo;ve always liked and admired on how they have achieved to become a mainstream product with a huge amount of active users and developers. I started using it way back in 2004 when it was b2/cafelog, so it&amp;rsquo;s been a long ride.</description>
+    </item>
+    
+  </channel>
+</rss>

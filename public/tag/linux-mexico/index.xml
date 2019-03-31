@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux Mexico on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/linux-mexico/</link>
+    <description>Recent content in Linux Mexico on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Nov 2008 12:48:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/linux-mexico/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux México</title>
+      <link>https://damog.net/blog/2008/11/09/linux-m%C3%A9xico/</link>
+      <pubDate>Sun, 09 Nov 2008 12:48:32 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/11/09/linux-m%C3%A9xico/</guid>
+      <description>Con la reciente y repentina muerte de Cofradía, la comunidad de linuxeros (y demás rarezas) en México necesita más que nunca un nuevo nicho. Afortunadamente, Planeta Linux México se ha consolidado como una verdadera comunidad de linuxeros mexicanos, y tan es así que ahora somos el resultado número uno en Google y en Google México para «linux méxico».
+Aunado a ésto, algunos colegas y yo hemos iniciado un simple y sencillo grupo LinkedIn de Linux en México para que todos nosotros, profesionales, desarrolladores (y usuarios también, ¿por qué no?</description>
+    </item>
+    
+  </channel>
+</rss>

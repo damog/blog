@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/ruby/</link>
+    <description>Recent content in Ruby on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Apr 2012 13:33:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ruby and libv8: Exactly my feelings</title>
+      <link>https://damog.net/blog/2012/04/23/ruby-and-libv8-exactly-my-feelings/</link>
+      <pubDate>Mon, 23 Apr 2012 13:33:09 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2012/04/23/ruby-and-libv8-exactly-my-feelings/</guid>
+      <description>Thanks to my coworker Dan for making a whole bunch of these based on our day job adventures :)</description>
+    </item>
+    
+    <item>
+      <title>Feedbag released under MIT license</title>
+      <link>https://damog.net/blog/2012/03/16/feedbag-released-under-mit-license/</link>
+      <pubDate>Fri, 16 Mar 2012 10:55:10 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2012/03/16/feedbag-released-under-mit-license/</guid>
+      <description>I was contacted by Pivotal Labs regarding licensing of Feedbag. I guess releasing open source software as GPL only makes sense if you continue to live under a rock. I&amp;rsquo;ve bumped the version to 0.9 and released it under MIT license.
+Feedbag 1.0, which I plan to work on during the following days will bring in a brand new shiny backend powered by Nokogiri, instead of Hpricot (I mean, give me a break, I&amp;rsquo;m trying to catch up with the Ruby community, after all I&amp;rsquo;m primarily a Perl guy :D) and hopefully I will be able to recreate most of the feed auto-discovery test suite that Mark Pilgrim retired (410 Gone) when he committed infosuicide.</description>
+    </item>
+    
+    <item>
+      <title>RVM &#43; Rake tasks on Cron jobs</title>
+      <link>https://damog.net/blog/2011/08/02/rvm-rake-tasks-on-cron-jobs/</link>
+      <pubDate>Tue, 02 Aug 2011 10:57:38 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2011/08/02/rvm-rake-tasks-on-cron-jobs/</guid>
+      <description>RVM hates my guts. And it doesn&amp;rsquo;t matter, because I hate RVM back even more. Since I was technologically raised by aging wolfs, I have strong reasons to believe that you just shouldn&amp;rsquo;t have mixed versions of software on your production systems, specially, if a lot of things are poorly tested, like most of Ruby libraries, aren&amp;rsquo;t backward compatible. I was raised on a world where everything worked greatly because the good folks at projects like Debian or Perl have some of the greatest QA processes of all time, hands down.</description>
+    </item>
+    
+    <item>
+      <title>Feedbag 0.6</title>
+      <link>https://damog.net/blog/2010/03/05/feedbag-0.6/</link>
+      <pubDate>Fri, 05 Mar 2010 20:36:59 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/03/05/feedbag-0.6/</guid>
+      <description>I just uploaded Feedbag 0.6 to Gemcutter and GitHub.
+Just a couple of small nice additions to this version:
+ The undocumented args[:narrow] option has been disabled until further notice. A nice little commit from one of Feedbag&amp;rsquo;s forks, by Patrick Reagan. Added an executable to find feed URLs directly.  Sometimes you need to find the feed for a URL quickly, not from a script. What I do, and what someone else showed me too, is this:</description>
+    </item>
+    
+    <item>
+      <title>Dancer::Template::Haml now available</title>
+      <link>https://damog.net/blog/2010/02/11/dancertemplatehaml-now-available/</link>
+      <pubDate>Thu, 11 Feb 2010 16:43:53 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/02/11/dancertemplatehaml-now-available/</guid>
+      <description>I put together a quick template engine for Dancer using Haml via Text::Haml. You know Haml, right?
+Now you can do neat shit like this:
+ set template =&amp;gt; &#39;haml&#39;; get &#39;/bazinga&#39;, sub { template &#39;bazinga&#39; =&amp;gt; { title =&amp;gt; &#39;Bazinga!&#39;, content =&amp;gt; &#39;Bazinga?&#39;, }; };  Using:
+!!! %html{ : xmlns =&amp;gt; &amp;quot;http://www.w3.org/1999/xhtml&amp;quot;, :lang =&amp;gt; &amp;quot;en&amp;quot;, &amp;quot;xml:lang&amp;quot; =&amp;gt; &amp;quot;en&amp;quot;} %head %title= title %body #content %strong= content  The dope thing about Text::Haml is that things like the Ruby interpolation will keep working.</description>
+    </item>
+    
+    <item>
+      <title>Setting uid on God processes</title>
+      <link>https://damog.net/blog/2010/01/20/setting-uid-on-god-processes/</link>
+      <pubDate>Wed, 20 Jan 2010 15:36:32 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/01/20/setting-uid-on-god-processes/</guid>
+      <description>I spent some minutes today at work figuring out why a script we use for files and assets propagation wasn&amp;rsquo;t working when fired up under God, but it actually was working when run as its normal user.
+The script is a Sinatra application that, upon pings/requests, connects through SSH to different servers on our clusters and execute commands. Details on the implementation are irrelevant here. Since this is automatized, we use key files for the SSH authentication.</description>
+    </item>
+    
+    <item>
+      <title>Sync your Twitter followers and friends</title>
+      <link>https://damog.net/blog/2009/06/10/sync-your-twitter-followers-and-friends/</link>
+      <pubDate>Wed, 10 Jun 2009 13:30:29 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/06/10/sync-your-twitter-followers-and-friends/</guid>
+      <description>I have a couple of accounts in Twitter (namely @debian and @planetalinux) that are starting to bring a lot of followers (well, at least some of them). And given that I consider these accounts to be Twitter-polite enough, I like to follow the followers back too; however, this task sometimes gets really hard and it&amp;rsquo;s tiring to go through the followers pages and follow those that I don&amp;rsquo;t follow yet over and over.</description>
+    </item>
+    
+    <item>
+      <title>Rubx: Twitter&#39;s Ruby shell</title>
+      <link>https://damog.net/blog/2009/04/06/rubx-twitters-ruby-shell/</link>
+      <pubDate>Mon, 06 Apr 2009 09:32:05 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/04/06/rubx-twitters-ruby-shell/</guid>
+      <description>Rubx, also known as Ruby Boobie, is a nice spoiled girlie bot that runs on Twitter. She listens when you talk to her and when you do, it&amp;rsquo;ll better be with Ruby: She will interpret your tweet in Ruby and reply to you with what your code returns.
+How does it work? You send a message to her: @rubx &amp;ldquo;The day I was born it was a &amp;rdquo; &amp;lt;&amp;lt; Time.local(1984, &amp;ldquo;aug&amp;rdquo;, 8).</description>
+    </item>
+    
+    <item>
+      <title>Feedbag significantly faster than Rfeedfinder</title>
+      <link>https://damog.net/blog/2009/03/07/feedbag-significantly-faster-than-rfeedfinder/</link>
+      <pubDate>Sat, 07 Mar 2009 16:57:45 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/03/07/feedbag-significantly-faster-than-rfeedfinder/</guid>
+      <description>Alright so Feedbag looks to be significantly faster than Rfeedfinder when tested against different URIs:
+ user system total real damog.net: feedbag 0.280000 0.050000 0.330000 ( 1.486712) rfeedfinder 0.140000 0.030000 0.170000 ( 4.259612) http://cnn.com: feedbag 0.200000 0.020000 0.220000 ( 0.703625) rfeedfinder 0.240000 0.030000 0.270000 ( 1.071508) scripting.com: feedbag 0.170000 0.030000 0.200000 ( 0.682292) rfeedfinder 0.220000 0.040000 0.260000 ( 1.668234) mx.planetalinux.org: feedbag 0.550000 0.050000 0.600000 ( 1.636884) rfeedfinder 0.760000 0.120000 0.880000 ( 3.</description>
+    </item>
+    
+    <item>
+      <title>lib/active_record/base.rb:2808:in `attributes_with_quotes&#39;: undefined method `each&#39; for true:TrueClass (NoMethodError)</title>
+      <link>https://damog.net/blog/2009/02/09/lib/active_record/base.rb2808in-attributes_with_quotes-undefined-method-each-for-truetrueclass-nomethoderror/</link>
+      <pubDate>Mon, 09 Feb 2009 20:49:54 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/02/09/lib/active_record/base.rb2808in-attributes_with_quotes-undefined-method-each-for-truetrueclass-nomethoderror/</guid>
+      <description>OK, hopefully this might help someone some time somewhere. If you are getting the error on the title, it&amp;rsquo;s mainly because you are using a changed method on your ActiveRecord model.
+I was working with an ActiveRecord model that handles an string with quotes, so when trying to save the model, that exception was raised. The problem is that ActiveRecord uses a changed method internally for all attributes that were modified.</description>
+    </item>
+    
+    <item>
+      <title>MacBook Pro</title>
+      <link>https://damog.net/blog/2009/01/14/macbook-pro/</link>
+      <pubDate>Wed, 14 Jan 2009 12:27:23 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/14/macbook-pro/</guid>
+      <description>As I tweeted yesterday, I received my new MacBook Pro. I was a bit skeptical on choosing this computer being a Linux user/developer for quite some time now. I thought it was worth giving it a try anyway. Besides, I still use my old Powerbook; as my home server since I&amp;rsquo;ve always liked the Mac hardware.
+
+For the time being, I&amp;rsquo;m not running Debian in it, but I will install it sooner or later, for now, I&amp;rsquo;ve reached some stability and productivity on the current setup, I&amp;rsquo;m running MacPorts, which brings all the nice open source goodies to Leopard, Vimperator, TwitVim and all sort of terminal scripts to make Terminal.</description>
+    </item>
+    
+    <item>
+      <title>Re: On DebGem</title>
+      <link>https://damog.net/blog/2009/01/08/re-on-debgem/</link>
+      <pubDate>Thu, 08 Jan 2009 10:40:38 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/08/re-on-debgem/</guid>
+      <description>Wouter, I find your thinking on DebGem a bit overreacted. I think you are taking the product and commercial efforts that a company make as the proposed solution we&amp;rsquo;ve all been expecting for a similar problem, which is not. You are considering DebGem to be an outcome provided by the Ruby community, which is not, to this issue.
+Phusion is obviously not the Ruby community, but part of it. How I see it, it&amp;rsquo;s great: I applaud that more companies take a look at nice technologies and try to provide their own products.</description>
+    </item>
+    
+    <item>
+      <title>Ruby goodies: Modules and methods for my everyday Ruby</title>
+      <link>https://damog.net/blog/2009/01/03/ruby-goodies-modules-and-methods-for-my-everyday-ruby/</link>
+      <pubDate>Sat, 03 Jan 2009 23:27:50 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/03/ruby-goodies-modules-and-methods-for-my-everyday-ruby/</guid>
+      <description>I make a lot of Web script processing, whether scraping, webservices, systems administration, etc. Because I sometimes happen to repeat small and useful chunks of code for different projects, I thought that, given making new modules and methods is usually hassleless in Ruby, I should make my own set of methods and goodies I constantly use. Example 1, I sometimes miss Perl&amp;rsquo;s LWP::Simple simplicity where I just pass a URL to a subroutine and get the content on a variable, quick, one-liner.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Feedbag: Feed auto-discovery Ruby library/tool</title>
+      <link>https://damog.net/blog/2008/12/30/introducing-feedbag-feed-auto-discovery-ruby-library/tool/</link>
+      <pubDate>Tue, 30 Dec 2008 18:58:10 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/12/30/introducing-feedbag-feed-auto-discovery-ruby-library/tool/</guid>
+      <description>Last week, I spent some time building a good (that I liked) feed auto-discovery tool to use in Ruby for other project I&amp;rsquo;m building, rFeed. I liked CPAN&amp;rsquo;s Feed::Find, and at some point I made a wrapper class to run a Perl script using such module, however, I wasn&amp;rsquo;t happy by mixing it all. So, Feedbag was born:
+&amp;gt;&amp;gt; require &amp;quot;rubygems&amp;quot; =&amp;gt; true &amp;gt;&amp;gt; require &amp;quot;feedbag&amp;quot; =&amp;gt; true &amp;gt;&amp;gt; Feedbag.find &amp;quot;damog.</description>
+    </item>
+    
+    <item>
+      <title>Good looking Irb</title>
+      <link>https://damog.net/blog/2008/12/29/good-looking-irb/</link>
+      <pubDate>Mon, 29 Dec 2008 10:01:51 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/12/29/good-looking-irb/</guid>
+      <description>Irb is a pain to work with&amp;hellip; when you don&amp;rsquo;t know it enough. Fortunately, it can be configured extensively enough to make your Ruby interactive sessions much smoother. Pocahontas asked me to post my Irb configuration: # ~/.irbrc IRB.conf[:AUTO_INDENT] = true IRB.conf[:USE_READLINE] = true IRB.conf[:SAVE_HISTORY] = 5000 IRB.conf[:HISTORY_FILE] = &amp;ldquo;#{ENV[&amp;lsquo;HOME&amp;rsquo;]}/.irb_history&amp;rdquo; IRB.conf[:PROMPT_MODE] = :SIMPLE
+require &amp;lsquo;irb/completion&amp;rsquo; require &amp;lsquo;irb/ext/save-history&amp;rsquo; require &amp;lsquo;pp&amp;rsquo;
+load rubygems and wirble require &amp;lsquo;rubygems&amp;rsquo; rescue nil require &amp;lsquo;wirble&amp;rsquo; require &amp;lsquo;utility_belt&amp;rsquo;</description>
+    </item>
+    
+  </channel>
+</rss>

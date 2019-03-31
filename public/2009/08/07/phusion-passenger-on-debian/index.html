@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phusion Passenger™ on Debian | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Phusion Passenger™ on Debian</span></h1>
+
+<p class="date">Fri 07 Aug 2009 05:32:02 PM UTC</p>
+</div>
+
+<main>
+<p>During <a href="http://debconf9.debconf.org">DebConf 9</a> I had the opportunity to work together with <a href="http://www.flickr.com/photos/sfllaw/1263528602/">Señor Micah</a> to try to bring <a href="http://www.modrails.com/">Passenger</a> back to shape and get it back to the <a href="http://ftp-master.debian.org/new.html">NEW queue on Debian</a>. We spent way too much time dealing with the build for the <a href="https://wiki.debian.org/Teams/Ruby">pkg-ruby-extras build model</a> than to the actual fixing and updating. At the end we came up with a very well updated and <strong>DFSG-compatible</strong> (in contrast to the one that <a href="http://www.brightbox.co.uk/">Brightbox</a> provides, which isn&rsquo;t bad either to be honest) package for the 2.2.4 version.</p>
+
+<p>Our current main interest was trying to get the package into Debian by cleaning up the <a href="http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=488753">licensing issues</a> on some of the included files and try to come up with improvements in the near future (such as using Passenger directly from <a href="http://nginx.net/">nginx</a>, instead of the <a href="http://httpd.apache.org">Apache</a>-only module). The future is bright and it&rsquo;ll bring sunshine to all of us.</p>
+
+<p>Given that the package is still on the queue and there&rsquo;s a hell lot of other packages to be processed, you can grab the package <em>here</em> and if it fulfills your expectations, make sure you offer me and/or Micah a beer next time you see us around.</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2009/08/09/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2009/08/07/back-from-spain/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

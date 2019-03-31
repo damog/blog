@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feedbag 0.6 | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Feedbag 0.6</span></h1>
+
+<p class="date">Fri 05 Mar 2010 08:36:59 PM UTC</p>
+</div>
+
+<main>
+<p>I just uploaded Feedbag 0.6 to <a href="http://rubygems.org/gems/feedbag/versions/0.6">Gemcutter</a> and <a href="http://github.com/damog/feedbag">GitHub</a>.</p>
+
+<p>Just a couple of small nice additions to this version:</p>
+
+<ul>
+<li>The undocumented <code>args[:narrow]</code> option has been disabled until further notice.</li>
+<li>A nice little commit from <a href="http://github.com/damog/feedbag/commit/ad7fdaf671b039cac5550b89d20de511b9a2bb14">one</a> of Feedbag&rsquo;s forks, by Patrick Reagan.</li>
+<li>Added an executable to find feed URLs directly.</li>
+</ul>
+
+<p>Sometimes you need to find the feed for a URL quickly, not from a script. What I do, and what someone else showed me too, is this:</p>
+
+<pre><code>~ $ irb
+-- require &quot;rubygems&quot;
+= true
+-- require &quot;feedbag&quot;
+= true
+-- Feedbag.find &quot;http://stereonaut.net&quot;
+= [&quot;http://stereonaut.net/feed&quot;, &quot;http://stereonaut.net/tag/feed/&quot;, &quot;http://stereonaut.net/comments/feed/&quot;]
+--
+</code></pre>
+
+<p>But now you can simply do:</p>
+
+<pre><code>~ $ feedbag cnn.com http://twitter.com/compupaisa
+== cnn.com:
+ - http://rss.cnn.com/rss/cnn_topstories.rss
+ - http://rss.cnn.com/rss/cnn_latest.rss
+== http://twitter.com/compupaisa:
+ - http://twitter.com/statuses/user_timeline/119479806.rss
+ - http://twitter.com/favorites/119479806.rss
+~ $
+</code></pre>
+
+<p>Enjoy the <code>feedbag</code> executable on your <code>$PATH</code> now!</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2010/03/14/techcrunch-top-stories-news-feed/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2010/03/01/debian-fails/">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

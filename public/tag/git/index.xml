@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/git/</link>
+    <description>Recent content in Git on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Mar 2012 23:52:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Is GitHub really necessary for your startup engineering team?</title>
+      <link>https://damog.net/blog/2012/03/11/is-github-really-necessary-for-your-startup-engineering-team/</link>
+      <pubDate>Sun, 11 Mar 2012 23:52:52 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2012/03/11/is-github-really-necessary-for-your-startup-engineering-team/</guid>
+      <description>For the last few months, I&amp;rsquo;ve been ranting a little too much with our engineering team about GitHub. These rantings, of course, didn&amp;rsquo;t come out of the blue. I haven&amp;rsquo;t been too satisfied with GitHub&amp;rsquo;s reliability lately since we use it for our daily development and constant deployment on our different staging environments and our own operation has been affected by their recent multiple technical difficulties. This has led me to analyze whether we really need them, why we started paying for their service in the first place and if it&amp;rsquo;s really necessary for our product development in the first place.</description>
+    </item>
+    
+    <item>
+      <title>The new Planeta Linux engine</title>
+      <link>https://damog.net/blog/2009/11/11/the-new-planeta-linux-engine/</link>
+      <pubDate>Wed, 11 Nov 2009 19:06:50 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/11/11/the-new-planeta-linux-engine/</guid>
+      <description>So I&amp;rsquo;ve spent quite some time in the last couple of months (whenever I had a chance, actually), to redesign how the core of Planeta Linux works, and I&amp;rsquo;ll explain all the changes I&amp;rsquo;ve made to make it a much better solution that fully fits our current needs. If you are reading this with a feed reader, star this item, share the item, retweet the post! Let everyone know we are doing this for the Linux Latin American community!</description>
+    </item>
+    
+    <item>
+      <title>Perl Seminar NY: 2009-10 Season Begins Tuesday Oct 20</title>
+      <link>https://damog.net/blog/2009/10/05/perl-seminar-ny-2009-10-season-begins-tuesday-oct-20/</link>
+      <pubDate>Mon, 05 Oct 2009 12:22:41 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/10/05/perl-seminar-ny-2009-10-season-begins-tuesday-oct-20/</guid>
+      <description>This next Tuesday October 20th, the Perl Seminar returns to New York City! This is a great effort by Jim Keenan, always trying to push the meetings and encouraging people on attending and sharing. There&amp;rsquo;s usually one meeting per month and it&amp;rsquo;s very well located, in midtown Manhattan, on a suite in the Ramada New Yorker hotel building facilitated by the NYPC User Group.
+The first meeting will be about Git, GitHub and how you can use it on your Perl code and projects.</description>
+    </item>
+    
+    <item>
+      <title>Perl in the Time of Social Networks delivered in Pittsburgh, PA</title>
+      <link>https://damog.net/blog/2009/06/27/perl-in-the-time-of-social-networks-delivered-in-pittsburgh-pa/</link>
+      <pubDate>Sat, 27 Jun 2009 21:01:36 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/06/27/perl-in-the-time-of-social-networks-delivered-in-pittsburgh-pa/</guid>
+      <description>I attended YAPC|10 during this past week. The overall experience was quite particular, with ups and downs, but after all I made it back in one piece.
+I rode a Greyhound bus on my crusade of saving a few bucks. I always had issues with buses, when I was a child I used to go from Celaya to Mexico City (and back) almost every weekend for a couple of years and I developed a phobia against the whole bus experience.</description>
+    </item>
+    
+    <item>
+      <title>More Git tips?</title>
+      <link>https://damog.net/blog/2009/01/19/more-git-tips/</link>
+      <pubDate>Mon, 19 Jan 2009 18:01:15 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/19/more-git-tips/</guid>
+      <description>Make sure you add the just launched git ready blog to your feed reader. Made by qrush. Audience applauds!</description>
+    </item>
+    
+    <item>
+      <title>Two Git tips</title>
+      <link>https://damog.net/blog/2008/12/12/two-git-tips/</link>
+      <pubDate>Fri, 12 Dec 2008 23:52:28 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2008/12/12/two-git-tips/</guid>
+      <description>Following the Git tips being thrown on Planet Debian, here&amp;rsquo;s a couple:
+1. Changing into a directory that contains a repo and shows you on PS1 what branch you are standing on:
+ On .bashrc I have: GITPS1=&amp;lsquo;$(__git_ps1 &amp;ldquo;:%s &amp;ldquo;)&amp;rsquo; export PS1=&amp;ldquo;${GREEN}\w${RS} ${YELLOW}${GITPS1}${RS}\$ &amp;ldquo; 2. An alias I like to use on repos that are personal for quick tracking:
+ [alias] &amp;hellip; log1 = log &amp;ndash;pretty=oneline &amp;ndash;abbrev-commit I hope you like them.</description>
+    </item>
+    
+  </channel>
+</rss>

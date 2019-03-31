@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tip Perl del día: 0E0 | David Moreno blog</title>
+    <link rel="stylesheet" href="/blog/css/style.css" />
+    <link rel="stylesheet" href="/blog/css/fonts.css" />
+    
+  </head>
+
+  <body>
+
+      <h1>David Moreno blog</h1>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/blog/">/blog</a></li>
+      
+      <li><a href="https://damog.net/">damog.net</a></li>
+      
+      <li><a href="/blog/index.xml">atom</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Tip Perl del día: 0E0</span></h1>
+
+<p class="date">Thu 18 Oct 2007 07:59:05 PM UTC</p>
+</div>
+
+<main>
+<p>Empezaré escribiendo algunos tipcitos que me voy encontrando a mi paso al cabalgar sobre el felpudo lomo del dromedario de Perl durante mi camino por la vida. Las Columnas.pl, tips y otras cosas perlosas podrán revisarse en la categoría &#8216;perl&#8217; de este blog.</p>
+
+<p>Estoy trabajando con algunos contadores. Tengo que agregar un nuevo contador por hora e ir sumando el contador principal durante la hora actual, sin mucho problema, ¿no? Sin embargo, si la hora actual no existe en la base de datos, tengo que crear un nuevo registro. Debido a mi pésima capacidad bajo cualquier cosa que contenga las siglas SQL, tuve que platicar con alguien más para que diera una idea simple y clara de qué hacer.</p>
+
+<p>Intento sumar el contador dada la hora actual, pero si no afectó a ninguna fila, entonces creo la fila. Ese concepto es mucho mejor que hacer un count(*) primero, validar si existe la fila, crearla si no, actualizarla si sí. Para verificar si mi primer query (el &#8220;UPDATE&#8221;) afectó a alguna columna, podemos usar el método do() que provee DBI y que hereda tu DBD favorito, en mi caso, pues no tengo otra alternativa y a final de cuentas me termina valiendo un pepino por el momento, uso DBD::mysql.</p>
+
+<p>do() regresa, en contexto escalar, el número de filas afectadas por el query que se le haya pasado. Sin embargo, y aquí viene lo interesante y el tip del día, utiliza un valor llamado &#8220;0E0&#8221;, una cadena. Si fueron afectadas, digamos, 3 filas por el query, do() regresará ese número, pero si no fue afectada ninguna fila, es decir, cero filas, regresa el valor &#8220;0E0&#8221;, que es básicamente &#8220;cero, pero cierto&#8221;.</p>
+
+<p>Como bien se sabe (y si no sabes, deberías saber), valores como cadenas vacías o ceros, se evalúan como falsas en las operaciones binarias en Perl. Sin embargo, &#8220;0E0&#8221; se traduce a cero, pero con un valor verdadero, lo cual es muy útil para muchos otros casos en los que obtener un cero podamos usar como valor verdadero.</p>
+
+<p>En mi ejemplo, usé:</p>
+
+<p>my $aff_rows = $sth-&gt;do($query);<br/>
+if($arr_rows == 0) { # Este bloque se ejecuta }</p>
+
+<p><br/>
+Que es diferente a usar:</p>
+
+<p>my $aff_rows = $sth-&gt;do($query);<br/>
+if(!$arr_rows){ # Este bloque no }</p>
+
+<p><br/>
+El if evalúa si el valor de $arr_rows es cero, que en muchos casos sería validar si es cierto o falso, pero como $aff_rows es en realidad &#8220;cero pero cierto&#8221;, entonces la condición resulta verdadera. En el segundo if, se valida si el valor de $arr_rows no es verdadero, que en casos comunes sería lo mismo que el primer if, pero la validación resulta falsa y no se ejecuta el bloque. Chido, ¿no? :)</p>
+
+</main>
+
+<hr>
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-damog-net" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="article-meta">
+
+  <a href="https://damog.net/blog/2007/10/22/tip-perl-del-d%C3%ADa-chr-y-oct-en-un-loop-map/">&lt;- earlier post</a>
+
+
+  <a href="https://damog.net/blog/2007/10/17/amiguito.../">older post -&gt;</a>
+
+</div>
+
+
+  <footer>
+  
+  
+  <hr/>
+  Copyright &copy; 2003-2019 David Moreno, powered by <a href="https://gohugo.io/">Hugo</a>; template by <a href="https://yihui.name">Yihui Xie</a>.
+  
+  </footer>
+  </body>
+</html>
+

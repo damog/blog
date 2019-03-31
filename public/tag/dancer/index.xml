@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dancer on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/dancer/</link>
+    <description>Recent content in Dancer on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Jul 2012 21:03:45 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/dancer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deploying a Dancer app on Heroku</title>
+      <link>https://damog.net/blog/2012/07/16/deploying-a-dancer-app-on-heroku/</link>
+      <pubDate>Mon, 16 Jul 2012 21:03:45 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2012/07/16/deploying-a-dancer-app-on-heroku/</guid>
+      <description>There&amp;rsquo;s a few different posts out there on how to run Perl apps, such as Mojolicious-based, on Heroku, but I&amp;rsquo;d like to show how to deploy a Perl Dancer application on Heroku.
+The startup script of a Dancer application (bin/app.pl) can be used as a PSGI file. With that in mind, I was able to take the good work of Miyagawa&amp;rsquo;s Heroku buildpack for general PSGI apps and hack it a little bit to use Dancer&amp;rsquo;s, specifically.</description>
+    </item>
+    
+    <item>
+      <title>Dancer::Template::Haml now available</title>
+      <link>https://damog.net/blog/2010/02/11/dancertemplatehaml-now-available/</link>
+      <pubDate>Thu, 11 Feb 2010 16:43:53 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/02/11/dancertemplatehaml-now-available/</guid>
+      <description>I put together a quick template engine for Dancer using Haml via Text::Haml. You know Haml, right?
+Now you can do neat shit like this:
+ set template =&amp;gt; &#39;haml&#39;; get &#39;/bazinga&#39;, sub { template &#39;bazinga&#39; =&amp;gt; { title =&amp;gt; &#39;Bazinga!&#39;, content =&amp;gt; &#39;Bazinga?&#39;, }; };  Using:
+!!! %html{ : xmlns =&amp;gt; &amp;quot;http://www.w3.org/1999/xhtml&amp;quot;, :lang =&amp;gt; &amp;quot;en&amp;quot;, &amp;quot;xml:lang&amp;quot; =&amp;gt; &amp;quot;en&amp;quot;} %head %title= title %body #content %strong= content  The dope thing about Text::Haml is that things like the Ruby interpolation will keep working.</description>
+    </item>
+    
+    <item>
+      <title>New features on Dancer 1.130</title>
+      <link>https://damog.net/blog/2010/02/08/new-features-on-dancer-1.130/</link>
+      <pubDate>Mon, 08 Feb 2010 22:36:50 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/02/08/new-features-on-dancer-1.130/</guid>
+      <description>Last week, or the one before that one, Alexis released Dancer 1.130 which represents a big refactoring of the Dancer core code, taking all optional modules away from it: Logging, session and template engines were splited into their respective non-core modules, etc. Additionally, two keyword features were added, header and prefix. I will showcase both in case you haven&amp;rsquo;t heard the good word from them :)
+header The header keyword allows you to modify or alter the response headers by hand.</description>
+    </item>
+    
+  </channel>
+</rss>

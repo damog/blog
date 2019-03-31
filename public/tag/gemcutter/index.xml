@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gemcutter on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/gemcutter/</link>
+    <description>Recent content in Gemcutter on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Mar 2010 20:36:59 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/gemcutter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Feedbag 0.6</title>
+      <link>https://damog.net/blog/2010/03/05/feedbag-0.6/</link>
+      <pubDate>Fri, 05 Mar 2010 20:36:59 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/03/05/feedbag-0.6/</guid>
+      <description>I just uploaded Feedbag 0.6 to Gemcutter and GitHub.
+Just a couple of small nice additions to this version:
+ The undocumented args[:narrow] option has been disabled until further notice. A nice little commit from one of Feedbag&amp;rsquo;s forks, by Patrick Reagan. Added an executable to find feed URLs directly.  Sometimes you need to find the feed for a URL quickly, not from a script. What I do, and what someone else showed me too, is this:</description>
+    </item>
+    
+  </channel>
+</rss>

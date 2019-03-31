@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/github/</link>
+    <description>Recent content in Github on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Mar 2012 23:52:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Is GitHub really necessary for your startup engineering team?</title>
+      <link>https://damog.net/blog/2012/03/11/is-github-really-necessary-for-your-startup-engineering-team/</link>
+      <pubDate>Sun, 11 Mar 2012 23:52:52 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2012/03/11/is-github-really-necessary-for-your-startup-engineering-team/</guid>
+      <description>For the last few months, I&amp;rsquo;ve been ranting a little too much with our engineering team about GitHub. These rantings, of course, didn&amp;rsquo;t come out of the blue. I haven&amp;rsquo;t been too satisfied with GitHub&amp;rsquo;s reliability lately since we use it for our daily development and constant deployment on our different staging environments and our own operation has been affected by their recent multiple technical difficulties. This has led me to analyze whether we really need them, why we started paying for their service in the first place and if it&amp;rsquo;s really necessary for our product development in the first place.</description>
+    </item>
+    
+    <item>
+      <title>GitHub (and open source) on LinkedIn</title>
+      <link>https://damog.net/blog/2011/03/08/github-and-open-source-on-linkedin/</link>
+      <pubDate>Tue, 08 Mar 2011 12:07:34 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2011/03/08/github-and-open-source-on-linkedin/</guid>
+      <description>I am a huge fan of LinkedIn, I love it. Handled properly, it can allow you to establish great opportunities that eventually lead up to either work or paid gigs and we all know how good money is, right? I have spent time for the last couple of weeks making sure my own LinkedIn profile is complete, fully up-to-date and that I&amp;rsquo;m taking full advantage of all the features that the site has to offer, and even though I&amp;rsquo;m not actively looking for a job it&amp;rsquo;s always nice to get contacted by other developers or directors (heck, even recruiters) inviting you to consider other job opportunities.</description>
+    </item>
+    
+    <item>
+      <title>Feedbag 0.6</title>
+      <link>https://damog.net/blog/2010/03/05/feedbag-0.6/</link>
+      <pubDate>Fri, 05 Mar 2010 20:36:59 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/03/05/feedbag-0.6/</guid>
+      <description>I just uploaded Feedbag 0.6 to Gemcutter and GitHub.
+Just a couple of small nice additions to this version:
+ The undocumented args[:narrow] option has been disabled until further notice. A nice little commit from one of Feedbag&amp;rsquo;s forks, by Patrick Reagan. Added an executable to find feed URLs directly.  Sometimes you need to find the feed for a URL quickly, not from a script. What I do, and what someone else showed me too, is this:</description>
+    </item>
+    
+    <item>
+      <title>Perl Seminar NY: 2009-10 Season Begins Tuesday Oct 20</title>
+      <link>https://damog.net/blog/2009/10/05/perl-seminar-ny-2009-10-season-begins-tuesday-oct-20/</link>
+      <pubDate>Mon, 05 Oct 2009 12:22:41 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/10/05/perl-seminar-ny-2009-10-season-begins-tuesday-oct-20/</guid>
+      <description>This next Tuesday October 20th, the Perl Seminar returns to New York City! This is a great effort by Jim Keenan, always trying to push the meetings and encouraging people on attending and sharing. There&amp;rsquo;s usually one meeting per month and it&amp;rsquo;s very well located, in midtown Manhattan, on a suite in the Ramada New Yorker hotel building facilitated by the NYPC User Group.
+The first meeting will be about Git, GitHub and how you can use it on your Perl code and projects.</description>
+    </item>
+    
+    <item>
+      <title>GitHub&#39;s Octocat stickers!</title>
+      <link>https://damog.net/blog/2009/05/06/githubs-octocat-stickers/</link>
+      <pubDate>Wed, 06 May 2009 12:53:56 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/05/06/githubs-octocat-stickers/</guid>
+      <description>They arrived today!
+
+Also, I must say, they flew away immediately with work buddies, so from the 8 stickers the guys kindly sent, I only kept two, but that&amp;rsquo;s cool. I guess :-)
+Thanks GitHub!</description>
+    </item>
+    
+    <item>
+      <title>Quick feed aggregation with Vitacilina</title>
+      <link>https://damog.net/blog/2009/01/29/quick-feed-aggregation-with-vitacilina/</link>
+      <pubDate>Thu, 29 Jan 2009 21:36:06 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/29/quick-feed-aggregation-with-vitacilina/</guid>
+      <description>Vitacilina, ¡ah, qué buena medicina!
+A few months ago. Maybe more than a year, I started hacking on Vitacilina, which was meant to be the replacement for Planet on all countries Planeta Linux supports. I was doing well, I even hosted the code back then in Google Code. Later, I forgot about it, but I&amp;rsquo;d always been wanting to replace Planet with some homebrew solution for the Planeta Linux community. Anyway, that hasn&amp;rsquo;t happened yet.</description>
+    </item>
+    
+    <item>
+      <title>Ruby goodies: Modules and methods for my everyday Ruby</title>
+      <link>https://damog.net/blog/2009/01/03/ruby-goodies-modules-and-methods-for-my-everyday-ruby/</link>
+      <pubDate>Sat, 03 Jan 2009 23:27:50 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/03/ruby-goodies-modules-and-methods-for-my-everyday-ruby/</guid>
+      <description>I make a lot of Web script processing, whether scraping, webservices, systems administration, etc. Because I sometimes happen to repeat small and useful chunks of code for different projects, I thought that, given making new modules and methods is usually hassleless in Ruby, I should make my own set of methods and goodies I constantly use. Example 1, I sometimes miss Perl&amp;rsquo;s LWP::Simple simplicity where I just pass a URL to a subroutine and get the content on a variable, quick, one-liner.</description>
+    </item>
+    
+  </channel>
+</rss>

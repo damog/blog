@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nginx on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/nginx/</link>
+    <description>Recent content in Nginx on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Mar 2011 14:47:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/nginx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Disable Nginx logging</title>
+      <link>https://damog.net/blog/2011/03/24/disable-nginx-logging/</link>
+      <pubDate>Thu, 24 Mar 2011 14:47:07 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2011/03/24/disable-nginx-logging/</guid>
+      <description>This is something that is specified clearly on the Nginx manual, but it&amp;rsquo;s nice to have it as a quick reference.
+The access_log and error_log directives on Nginx are on separate modules (HTTP Log and Core modules respectively) and they don&amp;rsquo;t behave the same way when all you want is to disable all logging on your server (in our case, we serve a gazillion static files and perform a lot of reverse proxying and we&amp;rsquo;re not interested on tracking that).</description>
+    </item>
+    
+    <item>
+      <title>nginx talk on FLISOL at UIA</title>
+      <link>https://damog.net/blog/2010/04/21/nginx-talk-on-flisol-at-uia/</link>
+      <pubDate>Wed, 21 Apr 2010 10:30:21 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/04/21/nginx-talk-on-flisol-at-uia/</guid>
+      <description>Friends, I&amp;rsquo;ll be attending the FLISOL (Latin American Free Software Install Fest) conference in Universidad Iberoamericana, this Friday, where I&amp;rsquo;ll be talking about how marvelous nginx is and why you should use it. If you are near, you should stop by! Tell of your co-workers and friends, it&amp;rsquo;ll be fun.</description>
+    </item>
+    
+    <item>
+      <title>Large PHP scripts truncated on nginx</title>
+      <link>https://damog.net/blog/2010/02/03/large-php-scripts-truncated-on-nginx/</link>
+      <pubDate>Wed, 03 Feb 2010 11:35:14 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2010/02/03/large-php-scripts-truncated-on-nginx/</guid>
+      <description>I spent a couple of hours yesterday trying to debug an issue that made me hit my head against the wall while it lasted.
+I run multiple instances of WordPress, and with it, comes a nice little editor bundled called TinyMCE. But on my main WordPress installation (this very blog, dear reader, where you are reading this from), TinyMCE wouldn&amp;rsquo;t come up, it wouldn&amp;rsquo;t render properly on the browser, it didn&amp;rsquo;t matter if it was my main browser, Chrome, or Firefox, Safari, cached, uncached, it was just broken.</description>
+    </item>
+    
+    <item>
+      <title>Phusion Passenger™ on Debian</title>
+      <link>https://damog.net/blog/2009/08/07/phusion-passenger-on-debian/</link>
+      <pubDate>Fri, 07 Aug 2009 17:32:02 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/07/phusion-passenger-on-debian/</guid>
+      <description>During DebConf 9 I had the opportunity to work together with Señor Micah to try to bring Passenger back to shape and get it back to the NEW queue on Debian. We spent way too much time dealing with the build for the pkg-ruby-extras build model than to the actual fixing and updating. At the end we came up with a very well updated and DFSG-compatible (in contrast to the one that Brightbox provides, which isn&amp;rsquo;t bad either to be honest) package for the 2.</description>
+    </item>
+    
+  </channel>
+</rss>

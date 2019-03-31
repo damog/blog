@@ -1,0 +1,25 @@
+---
+title: "Contra el EZLN: Primero fue BBVA/Bancomer, ahora HSBC"
+date: 2006-02-15 18:26:48
+tag: 
+---
+<p>México, D. F., a 14 de febrero de 2006.<br/>
+A la opinión pública nacional e internacional<br/>
+A los medios de comunicación</p>
+
+<p>El 26 de enero de 2006 el banco <strong>HSBC MEXICO, S. A</strong>., entregó en el domicilio fiscal de la asociación <strong>ENLACE CIVIL, A. C., </strong>en la ciudad de San Cristóbal de las Casas, dos oficios firmados por el Lic. Edmundo Rivero Sánchez, Apoderado de <strong>HSBC MÉXICO</strong>, acompañados de su respectiva notificación a cargo del Notario Público número 75 del estado de Chiapas, Lic. Arturo Morales Urioste. Dichos oficios informan que: “por así convenir a sus intereses”, esta institución daba por terminados dos contratos de Depósito Bancario de Dinero, uno a nombre de Maria Gloria Benavides Guevara, y el otro a nombre de Mónica del Rosario Villa Quintero, colaboradoras de <strong>ENLACE CIVIL, A. C.</strong></p>
+
+<p>La primera de estas cuentas servía para depósitos nacionales e internacionales, destinados a la ampliación de la red de agua potable de San Andrés Sacamch&#8217;en de los Pobres; a la compra de un camión cisterna para proveer de agua a los compañeros bases de apoyo zapatistas que habitan en el municipio de Zinacantán; y para alimentos vía proyectos productivos a cargo de las mujeres de las comunidades. Luego del paso del huracán <em>Stan</em>, se empezaron a recabar en esta cuenta apoyos solidarios para los damnificados que quedaron sin vivienda, sin alimentos ni agua.</p>
+
+<p>La segunda cuenta recibía cooperación de ciudadanos de Dinamarca para gastos relacionados con pequeñas obras y mantenimiento de escuelas en los <em>Caracoles</em> de La Garrucha, La Realidad y Roberto Barrios.<br/>
+Cuando abrimos ambas cuentas bancarias se nos preguntó cuál sería el origen y el destino de los fondos. En ese momento aclaramos que provendrían de colectas publicas solidarias, y que se usarían en programas sociales de comunidades indígenas.</p>
+
+<p>La cancelación de las cuentas ­se advertía en el instructivo de notificación notarial­ se haría a partir del décimo sexto día natural siguiente al que se recibiera la notificación. Esto fue el sábado 11 de febrero próximo pasado. Antes de vencerse el plazo, acudimos a la sucursal de HSBC de San Cristóbal de las Casas para solicitar, por escrito, nos explicaran las razones de tal decisión. En la única respuesta que se nos ha dado hasta la fecha, por parte de la “Subdirección de PFS, Tuxtla Gutiérrez”, Chis.,  se repite en los mismos términos que el banco “se reserva la facultad de cancelar la cuenta cuando lo estime conveniente”. Hay que recordar que hace menos de un año, en mayo de 2005, el BBVA-Bancomer invocó el mismo “argumento” para cancelar todas las cuentas de <strong>ENLACE CIVIL, A. C., </strong>y sus colaboradoras. Cabe hacer notar que en este caso, a pesar de haber cancelado unilateralmente las cuentas, el propio banco nos expidió un mes después un oficio en el que hace constar “un excelente manejo” de las cuentas.</p>
+
+<p>Es del conocimiento público que <strong>ENLACE CIVIL </strong>es una asociación que creamos con las comunidades indígenas zapatistas para apoyar proyectos productivos, educativos, de salud, y otros, que éstas están desarrollando. Las actividades de esta asociación son totalmente legales y transparentes, está debidamente registrada ante la Secretaría de Relaciones Exteriores y su constitución notariada como A.C.; asimismo está registrada ante la Secretaría de Hacienda y al corriente en sus obligaciones fiscales. Todo lo cual muestra que está bajo un constante escrutinio de las autoridades políticas del país y del estado de Chiapas.</p>
+
+<p>Una vez más, es evidente que con este tipo de medidas se pretende entorpecer y dificultar el flujo de solidaridad permanente hacia las comunidades indígenas zapatistas, afectándolas en aspectos vitales, como el suministro de agua. Curiosamente, muchas de ellas están en la región de Los Altos, misma donde en diciembre de 2003, las autoridades locales perredistas ­antes caciques priístas­ suspendieron el suministro de agua en represalia a los zapatistas que estaban constituyendo un municipio autónomo dentro de Zinacantán.</p>
+
+<p>Ante la incapacidad de las autoridades federales, estatales y municipales, de proveer los servicios públicos indispensables para la vida cotidiana y para remontar la situación de desastre causada por fenómenos “naturales”, la sociedad civil nacional e internacional ha respondido en numerosas ocasiones. Esta respuesta está siendo obstruida, ahora, por el banco <strong>HSBC MEXICO</strong>, el cual así se suma a la lista de actores públicos y privados que continúan la guerra, acosando y dañando económica y socialmente a los pueblos indígenas de Chiapas.</p>
+
+<p>Por <strong>ENLACE CIVIL, A. C.: Elisa Benavides y Paulina Fernández C.</strong></p>

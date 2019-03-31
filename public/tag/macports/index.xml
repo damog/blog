@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macports on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/macports/</link>
+    <description>Recent content in Macports on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Aug 2009 14:03:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/macports/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Snow Leopard Now</title>
+      <link>https://damog.net/blog/2009/08/29/snow-leopard-now/</link>
+      <pubDate>Sat, 29 Aug 2009 14:03:16 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/08/29/snow-leopard-now/</guid>
+      <description>We ordered a family pack of Snow Leopard for the whole development team last Tuesday. They arrived yesterday Friday, early morning.
+A few thing don&amp;rsquo;t work entirely as they were, which was expectable, among other things: MacPorts starts broken (but you simply have to upgrade to the actual Snow Leopard version). Visor only works on position Full-Screen. iStat Menus simply doesn&amp;rsquo;t. No support for GrowMail yet neither. And everything else does, as far as I can tell.</description>
+    </item>
+    
+    <item>
+      <title>MacBook Pro</title>
+      <link>https://damog.net/blog/2009/01/14/macbook-pro/</link>
+      <pubDate>Wed, 14 Jan 2009 12:27:23 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/01/14/macbook-pro/</guid>
+      <description>As I tweeted yesterday, I received my new MacBook Pro. I was a bit skeptical on choosing this computer being a Linux user/developer for quite some time now. I thought it was worth giving it a try anyway. Besides, I still use my old Powerbook; as my home server since I&amp;rsquo;ve always liked the Mac hardware.
+
+For the time being, I&amp;rsquo;m not running Debian in it, but I will install it sooner or later, for now, I&amp;rsquo;ve reached some stability and productivity on the current setup, I&amp;rsquo;m running MacPorts, which brings all the nice open source goodies to Leopard, Vimperator, TwitVim and all sort of terminal scripts to make Terminal.</description>
+    </item>
+    
+  </channel>
+</rss>

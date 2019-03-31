@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Octal on David Moreno blog</title>
+    <link>https://damog.net/blog/tag/octal/</link>
+    <description>Recent content in Octal on David Moreno blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Feb 2009 13:02:34 +0000</lastBuildDate>
+    
+	<atom:link href="https://damog.net/blog/tag/octal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google&#39;s first tweet</title>
+      <link>https://damog.net/blog/2009/02/26/googles-first-tweet/</link>
+      <pubDate>Thu, 26 Feb 2009 13:02:34 +0000</pubDate>
+      
+      <guid>https://damog.net/blog/2009/02/26/googles-first-tweet/</guid>
+      <description>Google created an official Twitter account. Its first tweet was something odd:
+ I&amp;rsquo;m 01100110 01100101 01100101 01101100 01101001 01101110 01100111 00100000 01101100 01110101 01100011 01101011 01111001 00001010
+ I had previously written (in Spanish, for La Columna de Perl), how to quickly decode this &amp;ldquo;way&amp;rdquo; of binary writing with Perl&amp;rsquo;s chr and oct. So, to find out what was Google really tweeting, run:
+perl -e &#39;map { print chr oct &amp;quot;0b&amp;quot;.</description>
+    </item>
+    
+  </channel>
+</rss>
