@@ -11,28 +11,28 @@ A couple of weeks ago I started looking into wrapping the [Facebook Messenger AP
 So I started putting some things together and with a very simple interface you could do a lot:
 
 {{< highlight perl >}}
-    use strict;
-    use warnings;
-    use Facebook::Messenger::Bot;
+use strict;
+use warnings;
+use Facebook::Messenger::Bot;
 
-    my $bot = Facebook::Messenger::Bot->new({
-        access_token   => '...',
-        app_secret     => '...',
-        verify_token   => '...'
+my $bot = Facebook::Messenger::Bot->new({
+    access_token   => '...',
+    app_secret     => '...',
+    verify_token   => '...'
+});
+
+$bot->register_hook_for('message', sub {
+    my $bot = shift;
+    my $message = shift;
+
+    my $res = $bot->deliver({
+        recipient => $message->sender,
+        message => { text => "You said: " . $message->text() }
     });
+    ...
+});
 
-    $bot->register_hook_for('message', sub {
-        my $bot = shift;
-        my $message = shift;
-
-        my $res = $bot->deliver({
-            recipient => $message->sender,
-            message => { text => "You said: " . $message->text() }
-        });
-        ...
-    });
-
-    $bot->spin();
+$bot->spin();
 {{< /highlight >}}
 
 You can hook a script like that as a `.psgi` file and plug it in to whatever you want.
