@@ -6,7 +6,7 @@ tag: debian
 ---
 I sent this email to debian-private a few days ago, on the 10th anniversary of my Debian account creation:
 
-<pre>
+```
 Date: Fri, 14 Aug 2015 19:37:20 +0200
 From: David Moreno <damog@debian.org>
 To: debian-private@lists.debian.org
@@ -51,8 +51,7 @@ http://damog.net/
 
 
 [-- End of signed data --]
-</pre>
-
+```
 
 I received a couple of questions about my decision here. I basically don't feel like Debian represents my interests and neither do I represent the project – this doesn't mean I don't _believe_ in free software, to the contrary. I think some of the best software advancements we've made as society are thanks to it. I don't necessarily believe on how the project has evolved itself, whether that has been the right way, to regain relevancy and dominance, and if it's remained primarily a way to feed dogmatism versus pragmatism. [This](https://lists.debian.org/debian-devel/2014/11/msg00174.html) is the perfect example of a tragic consequence. I was very happy to learn that the current Debian Conference being held in Germany got the highest attendance ever, hopefully that can be utilized in a significant and useful way.
 
