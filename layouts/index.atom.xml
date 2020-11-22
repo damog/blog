@@ -1,6 +1,6 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
-  <link href="{{ .Permalink }}index.xml" rel="self"/>
+  <link href="{{ .Permalink }}atom.xml" rel="self"/>
   <link href="{{ .Permalink }}"/>{{ if not .Date.IsZero }}
   <updated>{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>{{ end }}
   <id>{{ .Permalink }}</id>{{ with .Site.Author.name }}
@@ -8,7 +8,12 @@
     <name>{{.}}</name>{{ with $.Site.Author.email }}
     <email>{{.}}</email>{{end}}
   </author>{{end}}
-  <generator>Hugo -- gohugo.io</generator>{{ range first 10 .Data.Pages }}
+  <generator>Hugo -- gohugo.io</generator>
+
+                 {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+                 {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+                 {{ range first 10 $paginator.Pages }}
+
   <entry>
     {{ `<title type="html"><![CDATA[` | safeHTML }}{{ .Title }}]]></title>
     <link href="{{ .Permalink }}"/>

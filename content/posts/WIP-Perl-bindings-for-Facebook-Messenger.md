@@ -10,6 +10,7 @@ A couple of weeks ago I started looking into wrapping the [Facebook Messenger AP
 
 So I started putting some things together and with a very simple interface you could do a lot:
 
+{{< highlight perl >}}
     use strict;
     use warnings;
     use Facebook::Messenger::Bot;
@@ -32,6 +33,7 @@ So I started putting some things together and with a very simple interface you c
     });
 
     $bot->spin();
+{{< /highlight >}}
 
 You can hook a script like that as a `.psgi` file and plug it in to whatever you want.
 
