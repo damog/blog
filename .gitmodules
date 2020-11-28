@@ -1,6 +1,3 @@
 [submodule "damog/themes/xmin"]
 	path = damog/themes/xmin
 	url = git@github.com:yihui/hugo-xmin.git
-[submodule "damog/themes/archie"]
-	path = damog/themes/archie
-	url = git@github.com:athul/archie.git
